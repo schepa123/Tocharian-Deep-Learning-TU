@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht52">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 52</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Hannes A. Fellner</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 52</idno>
+                  <altIdentifier>
+                     <idno>B 52</idno>
+                  </altIdentifier>
+                  <msName>Udānālaṅkāra A</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Udānālaṅkāra</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">8</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Šorčuq</region>during <rs type="expedition_code">T III Š 64 Frgm</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Doctrine</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=327802;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=327802;rotate=0;imageType=_M"/>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone>kus<gap reason="par" unit="part"/></zone><zone>ntwā</zone><zone>śa</zone><zone>lle</zone><zone>p<gap reason="plain" unit="part"/></zone><zone><unclear>c</unclear>a</zone><zone>lle</zone><zone>tu</zone><zone>wa</zone><zone>yā</zone><zone>re</zone><zone>50</zone><zone>s<unclear>au</unclear></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone><unclear>ypo</unclear></zone><zone>ymeṃ</zone><zone>a</zone><zone><unclear>y</unclear><gap reason="plain" unit="part"/></zone><zone><unclear>m</unclear><gap reason="plain" unit="part"/><unclear>¯</unclear></zone><zone><unclear>¯</unclear><gap reason="plain" unit="part"/><unclear>ä</unclear></zone><zone>:</zone><zone><gap reason="plain" unit="part"/>e</zone><zone>y<unclear>p</unclear>o</zone><zone>ytse</zone><zone>spa</zone><zone>kt<unclear>ā</unclear>ṃ</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><zone><gap reason="par" unit="part"/>rkmo</zone><zone>ne</zone><zone>:</zone><zone>klai</zone><zone><unclear>ñ</unclear><gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="4"/><zone><gap reason="plain" unit="part"/><unclear>s</unclear>e</zone><zone>neṃ</zone><zone><gap reason="plain" unit="part"/>ai</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><gap reason="lost"/><zone>p<unclear>rū</unclear></zone><zone>ka</zone><zone>s<unclear>u</unclear></zone><gap reason="lost"/></line>
+            <line n="6" xml:id="a6"><gap reason="lost"/><zone>lā</zone><zone>ntsa</zone><zone>śp<gap reason="par" unit="part"/></zone><zone><unclear>l</unclear></zone><gap reason="par" quantity="1"/><gap reason="lost"/></line>
+            <line n="7" xml:id="a7"><gap reason="lost"/><zone><unclear>ṅ</unclear><gap reason="plain" unit="part"/>ā</zone><zone>TA</zone><zone>rso</zone><zone>ly<unclear>p</unclear>o</zone><zone>po</zone><zone>skwa</zone><zone>nm<unclear>ai</unclear></zone><gap reason="lost"/></line>
+            <line n="8" xml:id="a8"><gap reason="lost"/><zone>pā</zone><zone>nte</zone><zone><gap reason="plain" unit="part"/>e</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <line n="1" xml:id="b1"><gap reason="illegible"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone>śc<unclear>i</unclear></zone><zone>ro</zone><zone>na</zone><zone>re</zone><zone>kau</zone><zone>na</zone><zone><unclear>ke</unclear></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><zone><unclear>rm</unclear>k<unclear>u</unclear>s<unclear>a</unclear></zone><zone>lye</zone><zone>kne</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><gap reason="par" quantity="1"/><zone>ryā</zone><zone>pā</zone><zone>ynta</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><gap reason="lost"/><zone>lsko</zone><zone><unclear>ś</unclear><gap reason="plain" unit="part"/>ā</zone><zone>ra</zone><zone><unclear>ñc</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="6" xml:id="b6"><gap reason="lost"/><zone>kce</zone><zone>wsa</zone><zone>:</zone><zone>po</zone><gap reason="par" quantity="1"/><zone><unclear>ś</unclear></zone><gap reason="par" quantity="1"/><zone>ñ<gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="3"/><zone>kuśa</zone><zone>la</zone><zone>mū</zone><zone><unclear>l</unclear></zone><gap reason="par" quantity="1"/><gap reason="lost"/></line>
+            <line n="7" xml:id="b7"><gap reason="lost"/><zone>ṅk<gap reason="plain" unit="part"/></zone><zone>mkte</zone><zone>me</zone><zone>ñe</zone><zone>mā</zone><zone>ri</zone><zone>na</zone><zone>stRA</zone><zone>swa</zone><zone>ñcaiṃ</zone><zone>kro</zone><zone>śca</zone><zone>na</zone><gap reason="lost"/></line>
+            <line n="8" xml:id="b8"><gap reason="illegible"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p><milestone unit="passage" n="uncertain"/>
+<lb corresp="#a2"/><gap reason="lost"/><w>kUs=</w><w><supplied>e</supplied>ntw=</w><w>āśalle</w><w>p<gap reason="plain" unit="part"/>calle</w><w>tu</w><w>wayāre</w><num value="50">50</num><w>sau</w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><w>ypoymeṃ</w><w>ay<gap reason="plain" unit="part"/></w><w>m<gap reason="plain" unit="part"/></w><w><gap reason="plain" unit="part"/></w><pc>:</pc><w><gap reason="plain" unit="part"/>e</w><w>ypoytse</w><w>spaktāṃ</w><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="lost"/><w><supplied>o</supplied>rkmone</w><pc>:</pc><w>klaiñ<gap reason="plain" unit="part"/></w><gap reason="plain" quantity="4"/><w><gap reason="plain" unit="part"/>s=</w><w>eneṃ</w><w><gap reason="plain" unit="part"/>ai</w><gap reason="lost"/>
+<lb corresp="#a5"/><gap reason="lost"/><w>prūka</w><w>su</w><gap reason="lost"/>
+<lb corresp="#a6"/><gap reason="lost"/><w>lāntsa</w><w>śp<supplied>ā</supplied>l<supplied>meṃ</supplied></w><gap reason="lost"/>
+<lb corresp="#a7"/><gap reason="lost"/><w>ṅ<gap reason="plain" unit="part"/>ātär</w><w>s=</w><w>olypo</w><w>po</w><w>skwanm=</w><w>ai</w><gap reason="lost"/>
+<lb corresp="#a8"/><gap reason="lost"/><w>pānte</w><w><gap reason="plain" unit="part"/>e</w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="illegible"/>
+<lb corresp="#b2"/><gap reason="lost"/><w>ścirona</w><w>rekauna</w><w>ke</w><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><w>rm</w><w>kUs=</w><w>alyekne</w><gap reason="lost"/>
+<lb corresp="#b4"/><gap reason="lost"/><w><supplied>ta</supplied>ry=</w><w>āpāynta</w><gap reason="lost"/>
+<lb corresp="#b5"/><gap reason="lost"/><w>lskoś<gap reason="plain" unit="part"/>ārañc<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#b6"/><gap reason="lost"/><w>k</w><w>cewsa</w><pc>:</pc><w>po<supplied>y</supplied>ś<supplied>iñ</supplied>ñ<gap reason="plain" unit="part"/></w><gap reason="plain" quantity="3"/><w>kUśalamūl<supplied>änta</supplied></w><gap reason="lost"/>
+<lb corresp="#b7"/><gap reason="lost"/><w>ṅk<gap reason="plain" unit="part"/></w><w>mkte</w><w>meñe</w><w>mā</w><w>rinasträ</w><w>swañcaiṃ</w><w>kroścana</w><gap reason="lost"/>
+<lb corresp="#b8"/><gap reason="illegible"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a2"><seg><seg type="prim_transl">... that which then can be trusted to be able to be lead [away] they lead [away] [50] ...</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">... out of the country ... serve the country ...</seg></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl">... into darkness ... female ... </seg></seg></choice><choice corresp="#a5"><seg><seg type="prim_transl">... jumped away ...</seg></seg></choice><choice corresp="#a6"><seg><seg type="prim_transl">... best queen ...</seg></seg></choice><choice corresp="#a7"><seg><seg type="prim_transl">... rather all good fortunes ...</seg></seg></choice><choice corresp="#a8"><seg><seg type="prim_transl">... </seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">... harsh words ...</seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl">... in something else ...</seg></seg></choice><choice corresp="#b4"><seg><seg type="prim_transl">... three lower beings ...</seg></seg></choice><choice corresp="#b5"><seg><seg type="prim_transl">... towards mind and heart ...</seg></seg></choice><choice corresp="#b6"><seg><seg type="prim_transl">... omniscient ... the roots of merit ...</seg></seg></choice><choice corresp="#b7"><seg><bibl><title corresp="ref:thomas1969"/><citedRange>244</citedRange></bibl></seg><seg><seg type="prim_transl">... as the month leave cold rays ...</seg></seg><seg><seg type="prim_transl">Wie der (von den Grahas) ergriffene Mond nicht kalte Strahlen entlässt.</seg><seg type="sec_transl" resp="TI">Just like the moon, seized (by the grahas) does not emit cold rays.</seg><bibl><title corresp="ref:schmidtkt1974"/><citedRange>418</citedRange></bibl></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="philcomment" subtype="General_remarks">Only contains a single strophe number (59); recto and verso side are not to be clearly determined, nor is the metre with any certainty, and, as in the fragments to follow, a continuous translation is impossible.</note><note type="remarks">The original manuscript is missing, but was a small fragment, damaged on all edges. Line a1 is lost.</note><note corresp="#a2" type="lingcomment">In <hi>p .calle</hi> the <hi>c</hi> could also be read as <hi>v</hi>, so that, perhaps, it might be supplemented to <hi>p(k)valle</hi> = <hi>pkwalle</hi> ‘that which then [is] to be taken as [possible] to be led [away], they led [away]’.</note><note corresp="#b7" type="lingcomment">Perhaps supplement <hi>(grahanmas=eṅku)</hi> ‘like the moon grasped/gripped (by the Grahas) does not emit cold beams’.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition</label><bibl><title corresp="ref:siegandsiegling1949"/><citedRange>I, 73</citedRange></bibl>; <bibl><title corresp="ref:siegandsiegling1983"/><citedRange>88-89 notes 224</citedRange></bibl>. </p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 52" type="external">THT 52</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/00/0052.htm" type="external">THT 52</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Šorčuq</item>
+               <item n="m_linedistance_old"/>
+               <item n="access_old">public</item>
+               <item n="m_lines_old">8</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="file_location_old">pages/manuscript/THT_0001_0633/tht52.txt</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_editor_old">Hannes A. Fellner</item>
+               <item n="m_passage_old">uncertain</item>
+               <item n="m_philcomment_old">&lt;h3&gt;General remarks&lt;/h3&gt;
+&lt;p&gt;Only contains a single strophe number (59); recto and verso side are not to be clearly determined, nor is the metre with any certainty, and, as in the fragments to follow, a continuous translation is impossible.&lt;/p&gt;</item>
+               <item n="file_modified_old">1580205029</item>
+               <item n="file_created_old">1332006594</item>
+               <item n="m_size_h_old"/>
+               <item n="m_next_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 52" target="idp"&gt;THT 52&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/00/0052.htm" target="titus"&gt;THT 52&lt;/a&gt;.&lt;br&gt;
+Edition: [[TochSprR(B) I]]: I, 73; [[TochSprR(B)2]]: 88-89, notes 224.&lt;br&gt;
+Translation:
+&lt;b&gt;b7&lt;/b&gt; [[Schmidt KT 1974]]: 418, [[Thomas 1969]]: 244.</item>
+               <item n="m_manuscript_old">Udānālaṅkāra A</item>
+               <item n="m_lingcomment_old">&lt;p&gt;&lt;b&gt;a2.&lt;/b&gt; In &lt;i&gt;p .calle&lt;/i&gt; the &lt;i&gt;c&lt;/i&gt; could also be read as &lt;i&gt;v&lt;/i&gt;, so that, perhaps, it might be supplemented to &lt;i&gt;p(k)valle&lt;/i&gt; = &lt;i&gt;pkwalle&lt;/i&gt; ‘that which then [is] to be taken as [possible] to be led [away], they led [away]’.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b7.&lt;/b&gt; Perhaps supplement &lt;i&gt;(grahanmas=eṅku)&lt;/i&gt; ‘like the moon grasped/gripped (by the Grahas) does not emit cold beams’.&lt;/p&gt;</item>
+               <item n="m_transliteration_old">a2 /// k_us= (·)ntw= āśalle p[·c]alle tu wayāre 50 s[au] ///
+a3 /// [ypo]ymeṃ a[y· m· ·ä\] : ·e y[p]oytse spakt[ā]ṃ ///
+a4 /// (·)rkmone : klai[ñ·] – – – – ·[s]= eneṃ ·ai ///
+a5 /// p[rū]ka s[u] ///
+a6 /// lāntsa śp(·)[l](–) ///
+a7 /// [ṅ·]ā_t_ar s= oly[p]o po skwanm= [ai] ///
+a8 /// pānte ·e ///
+b1 &lt;i&gt;illegible&lt;/i&gt;
+b2 /// śc[i]rona rekauna [ke] ///
+b3 /// [rm] k[_u]s= [a]lyekne ///
+b4 /// (–)ry= āpāynta ///
+b5 /// lsko[ś·]āra[ñc·] ///
+b6 /// k cewsa : po(–)[ś](–)ñ· – – – k_uśalamū[l](–) ///
+b7 /// ṅk· mkte meñe mā rinast_r_a swañcaiṃ kroścana ///
+b8 &lt;i&gt;illegible&lt;/i&gt;</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="date_publication_old"/>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=327802;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=327802;rotate=0;imageType=_M||THT 52 recto</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_transcription_old">a2 /// k_us= (e)ntw= āśalle p·calle tu wayāre 50 sau ///
+a3 /// ypoymeṃ ay· m· · : ·e ypoytse spaktāṃ ///
+a4 /// (o)rkmone : klaiñ· – – – – ·s= eneṃ ·ai ///
+a5 /// prūka su ///
+a6 /// lāntsa śp(ā)l(meṃ) ///
+a7 /// ṅ·ātär s= olypo po skwanm= ai ///
+a8 /// pānte ·e ///
+b2 /// ścirona rekauna ke ///
+b3 /// rm k_us= alyekne ///
+b4 /// (ta)ry= āpāynta ///
+b5 /// lskoś·ārañc· ///
+b6 /// k cewsa : po(y)ś(iñ)ñ· – – – k_uśalamūl(änta) ///
+b7 /// ṅk· mkte meñe mā rinasträ swañcaiṃ kroścana ///</item>
+               <item n="m_leaf_old"/>
+               <item n="m_title_old">Udānālaṅkāra</item>
+               <item n="m_meter_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="ms_old">THT 52</item>
+               <item n="project_comment_old">&lt;p&gt;Translations from [[Schmidt KT 1974]]
+&lt;table class="table_lines"&gt;
+&lt;th&gt;Lines&lt;/th&gt;
+&lt;th&gt;Translation&lt;/th&gt;
+&lt;th&gt;Pages&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt;b7&lt;/td&gt;
+&lt;td&gt;&lt;span title="Just like the moon, seized (by the grahas) does not emit cold rays."&gt;Wie der (von den Grahas) ergriffene Mond nicht kalte Strahlen entlässt.&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;418&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;This data set has been created automatically from &amp;quot;THT0001-0633_20120315_Braun.txt&amp;quot; on Sat, 2012-03-17, 18:49:54.&lt;/li&gt;
+&lt;li&gt;IDP image and data set links have been added automatically from &amp;quot;IDPImages_THT_20120306.csv&amp;quot; at the same time.&lt;/li&gt;
+&lt;li&gt;Reference entries have been added automatically from &amp;quot;THT0001-0633_Biblio_Peyrot_20120316.csv&amp;quot; at the same time.&lt;/li&gt;
+&lt;/ul&gt;</item>
+               <item n="m_script_old">Classical</item>
+               <item n="m_parallels_old"/>
+               <item n="m_size_w_old"/>
+               <item n="m_expedition_old">T III Š 64 Frgm</item>
+               <item n="m_other_sigla_old">B 52</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old">The original manuscript is missing, but was a small fragment, damaged on all edges. Line a1 is lost.</item>
+               <item n="m_metric_form_old">Verse</item>
+               <item n="m_tune_old"/>
+               <item n="m_translation_old">a2 ... that which then can be trusted to be able to be lead [away] they lead [away] [50] ...
+a3 ... out of the country ... serve the country ...
+a4 ... into darkness ... female ... 
+a5 ... jumped away ...
+a6 ... best queen ...
+a7 ... rather all good fortunes ...
+a8 ... 
+b2 ... harsh words ...
+b3 ... in something else ...
+b4 ... three lower beings ...
+b5 ... towards mind and heart ...
+b6 ... omniscient ... the roots of merit ...
+b7 ... as the month leave cold rays ...</item>
+               <item n="m_subgenre_old">Doctrine</item>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_prev_old"/>
+               <item n="user_modified_old">bernhard</item>
+               <item n="user_created_old">automatic</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;ul&gt;&lt;li&gt;This data set has been created automatically from "THT0001-0633_20120315_Braun.txt" on Sat, 2012-03-17, 18:49:54.&lt;/li&gt;&lt;li&gt;IDP image and data set links have been added automatically from "IDPImages_THT_20120306.csv" at the same time.&lt;/li&gt;&lt;li&gt;Reference entries have been added automatically from "THT0001-0633_Biblio_Peyrot_20120316.csv" at the same time.&lt;/li&gt;&lt;/ul&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

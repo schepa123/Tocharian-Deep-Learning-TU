@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht4090">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 4090</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Melanie Malzahn</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <date when="2014-09-12">12.09.2014</date>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 4090</idno>
+                  <altIdentifier>
+                     <idno>SHT 1621</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Lüders no. K 1010</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Gö 592</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">5</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Qizil Miŋ-Öy</region><placeName>Rothkuppelraum</placeName></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Colophon</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=335538;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=335538;rotate=0;imageType=_M"/>
+            <line n="5" xml:id="b5"><zone>॥</zone><zone>ta</zone><zone>LA</zone><zone>ṢṢA</zone><zone>l<unclear>l</unclear>o</zone><zone><unclear>na</unclear></zone><zone><unclear>sa</unclear></zone><zone><unclear>a</unclear></zone><zone><unclear>r</unclear>ā</zone><zone><unclear>re</unclear></zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#b5"/><pc>॥</pc><w>taläṣṣällonasa</w><w>arāre</w><gap reason="plain" quantity="1"/><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#b5"><seg><seg type="prim_transl">[The preceding verses] came to an end in a raised [manner] ...</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">Sanskrit poetry, at the end a TB colophon.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 4090" type="external">THT 4090</ref></bibl></p>
+            <p><label>other</label> Edition: K.T. Schmidt apud <bibl><title corresp="ref:wille1995"/><citedRange>23-25</citedRange></bibl>; <bibl><title corresp="ref:malzahn2007b"/><citedRange>308</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_transcription_old">b5 || taläṣṣällonasa arāre – ///</item>
+               <item n="m_title_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_parallels_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="project_comment_old"/>
+               <item n="ms_old">THT 4090</item>
+               <item n="m_remarks_old">Sanskrit poetry, at the end a TB colophon.</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_other_sigla_old">SHT 1621, Lüders no. K 1010, Gö 592</item>
+               <item n="m_size_w_old"/>
+               <item n="m_expedition_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_translation_old">b5 [The preceding verses] came to an end in a raised [manner] ...</item>
+               <item n="m_subgenre_old">Colophon</item>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old"/>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old">melanie</item>
+               <item n="m_prev_old"/>
+               <item n="m_findspot_old">Qizil Miŋ-Öy</item>
+               <item n="m_findspot_specific_old">Rothkuppelraum</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_lines_old">5</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="access_old">public</item>
+               <item n="file_location_old">pages/manuscript/THT_2400_4170/tht4090.txt</item>
+               <item n="m_philcomment_old"/>
+               <item n="m_passage_old"/>
+               <item n="m_editor_old">Melanie Malzahn</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_size_h_old"/>
+               <item n="m_next_old"/>
+               <item n="file_created_old">1340137309</item>
+               <item n="file_modified_old">1470351270</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 4090" target="idp"&gt;THT 4090&lt;/a&gt;
+&lt;br&gt;Edition: K.T. Schmidt apud [[SHT VII]]: 23-25; [[Malzahn 2007b]]: 308.</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=335451;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=335451;rotate=0;imageType=_M||THT 4090 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=335538;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=335538;rotate=0;imageType=_M||THT 4090 verso</item>
+               <item n="date_publication_old">12.09.2014</item>
+               <item n="m_transliteration_old">b5 || ta_l_a_ṣ_ṣ_al[l]o[nasa ar]ā[re] – ///</item>
+               <item n="m_language_stage_old">Classical</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

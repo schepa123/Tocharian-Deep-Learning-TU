@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-a39923">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A 399.23</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>A 399.23</idno>
+                  <altIdentifier>
+                     <idno>THT 1033.23</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>THT 1033b23</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>581</idno>
+                  </altIdentifier>
+                  <msName>A 399-404</msName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>2,3</height>
+                              <width>2,8</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Siŋgim</region>during <rs type="expedition_code">T II S </rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="xto"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Jātaka/Avadāna</term>
+               <term type="prose_verse">prose</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone><unclear>k</unclear><gap reason="par" unit="part"/>o</zone><zone><unclear>r</unclear>ñ<gap reason="plain" unit="part"/></zone><zone><gap reason="plain" unit="part"/><unclear>n</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone><unclear>r</unclear><gap reason="plain" unit="part"/></zone><zone>KA</zone><zone>ña</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><w><supplied>e</supplied>k<supplied>r</supplied>orñ<supplied>e</supplied></w><w><gap reason="plain" unit="part"/>n<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><w>r<gap reason="plain" unit="part"/>k<surplus>ä</surplus></w><w>ña</w><gap reason="plain" quantity="1"/><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">... poverty ...</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">...</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">The fragment is upside down in the frame.</note></p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Both</item>
+               <item n="m_subgenre_old">Jātaka/Avadāna</item>
+               <item n="m_translation_old">a1 ... poverty ...
+b1 ...</item>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_prev_old"/>
+               <item n="user_modified_old">theres</item>
+               <item n="user_created_old">michael</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_transcription_old">a1 /// (e)k(r)orñ(e) ·n· ///
+b1 /// r·k ña – ///</item>
+               <item n="m_title_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="project_comment_old"/>
+               <item n="ms_old">A 399.23</item>
+               <item n="m_script_old">Classical</item>
+               <item n="m_parallels_old"/>
+               <item n="m_expedition_old">T II S </item>
+               <item n="m_size_w_old">2,8</item>
+               <item n="m_other_sigla_old">THT 1033.23; THT 1033b23; 581</item>
+               <item n="m_remarks_old">&lt;p&gt;The fragment is upside down in the frame.&lt;/p&gt;</item>
+               <item n="m_language_old">TA</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="m_philcomment_old"/>
+               <item n="m_passage_old"/>
+               <item n="file_modified_old">1486050610</item>
+               <item n="file_created_old">1345542125</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old">2,3</item>
+               <item n="m_bib_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old">A 399-404</item>
+               <item n="m_language_stage_old"/>
+               <item n="m_transliteration_old">a1 /// [k](·)o[r]ñ· ·[n]· ///
+b1 /// [r]·_k(\) ña – ///</item>
+               <item n="date_publication_old"/>
+               <item n="m_image_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_old">Siŋgim</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_linedistance_old"/>
+               <item n="m_completeness_old"/>
+               <item n="access_old">public</item>
+               <item n="m_lines_old">1</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="file_location_old">pages/manuscript/A_frag/a39923.txt</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

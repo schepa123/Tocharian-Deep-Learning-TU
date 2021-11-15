@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-ioltoch857">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>IOL Toch 857</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library (London)</repository>
+                  <idno>IOL Toch 857</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=79958;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=79958;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL857a.jpg" height="1081px" width="924px"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone><unclear>tk</unclear>RA</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>tSA</zone><zone>•</zone><zone>toṃ</zone><zone>pi</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=80055;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=80055;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL857b.jpg" height="1081px" width="924px"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><gap reason="plain" quantity="3"/><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone><unclear>PA</unclear></zone><zone>lsko</zone><zone>ntse</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>ā</zone><gap reason="plain" quantity="2"/><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><w>tkrä</w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>tsä</w><pc>•</pc><w>toṃ</w><w>pi<supplied>ś</supplied></w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><gap reason="plain" quantity="3"/><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><w>pälskontse</w><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>ā</w><gap reason="plain" quantity="2"/><gap reason="lost"/></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">Unlike the dominant poṭhī style, the verso is not upside down compared to the recto; the leaf had to be turned over not from bottom to top, but from right to left.</note><note corresp="#b2" type="philcomment">possibly <hi>toṃ piś</hi>, e.g. <hi>toṃ piś cmela</hi></note><note corresp="#b3" type="philcomment"><hi>ā</hi> would have to be from e.g. <hi>ṅ</hi>; following <hi>·ai</hi> or <hi>·eṃ</hi></note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 857" type="external">IOL Toch 857</ref></bibl>. </p>
+            <p><label>Edition</label><bibl><title corresp="ref:tamai2007"/><citedRange>№857</citedRange></bibl><bibl><title corresp="ref:tamai2007"/><citedRange>№857</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_subgenre_old"/>
+               <item n="m_translation_old"/>
+               <item n="project_check_old"/>
+               <item n="m_metric_form_old"/>
+               <item n="m_tune_old"/>
+               <item n="m_prev_old"/>
+               <item n="user_created_old">michael</item>
+               <item n="user_modified_old">martin</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_meter_old"/>
+               <item n="m_transcription_old">a1 /// tkrä ///
+a2 /// – tsä • toṃ pi(ś) ///
+b1 /// – – – ///
+b2 /// pälskontse ///
+b3 /// ·ā – – ///</item>
+               <item n="m_title_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_size_w_old"/>
+               <item n="m_expedition_old"/>
+               <item n="m_remarks_old">&lt;p&gt;Unlike the dominant poṭhī style, the verso is not upside down compared to the recto; the leaf had to be turned over not from bottom to top, but from right to left.&lt;/p&gt;</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_other_sigla_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="ms_old">IOL Toch 857</item>
+               <item n="project_comment_old"/>
+               <item n="m_parallels_old"/>
+               <item n="file_created_old">1330080215</item>
+               <item n="file_modified_old">1566118405</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;b2.&lt;/b&gt; possibly &lt;i&gt;toṃ piś&lt;/i&gt;, e.g. &lt;i&gt;toṃ piś cmela&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b3.&lt;/b&gt; &lt;i&gt;ā&lt;/i&gt; would have to be from e.g. &lt;i&gt;ṅ&lt;/i&gt;; following &lt;i&gt;·ai&lt;/i&gt; or &lt;i&gt;·eṃ&lt;/i&gt;&lt;/p&gt;</item>
+               <item n="m_passage_old"/>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="date_publication_old"/>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_transliteration_old">a1 /// [tk]_r_a ///
+a2 /// – t_s_a • toṃ pi ///
+b1 /// – – – ///
+b2 /// [_p_a]lskontse ///
+b3 /// ·ā – – ///</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=79958;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=79958;rotate=0;imageType=_M||IOL Toch 857 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=80055;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=80055;rotate=0;imageType=_M||IOL Toch 857 verso</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 857"&gt;IOL Toch 857&lt;/a&gt;.&lt;br&gt;
+Edition: [[Tamai 2007]]: №857, [[Tamai 2007]]: №857.</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="file_location_old">pages/manuscript/IOL_Toch/ioltoch857.txt</item>
+               <item n="m_completeness_old"/>
+               <item n="m_collection_old">British Library (London)</item>
+               <item n="m_lines_old"/>
+               <item n="access_old">restricted</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-psbl17">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PS Bl 17</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</repository>
+                  <idno>PS Bl 17</idno>
+                  <altIdentifier>
+                     <idno>Pelliot Sanskrit numéro bleu 17</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Mahāsamājasūtra</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">5</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Duldur-Akhur</region><placeName>563</placeName></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="txb"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Colophon</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000198r/f32.zoom"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000198r/f32.highres"/>
+            <line n="1" xml:id="b1"><zone>ce</zone><zone>sū</zone><zone>TA¯</zone><zone>¯R</zone><zone>śī</zone><zone>la</zone><zone>bh<unclear>ā</unclear></zone><zone>dr<unclear>e</unclear></zone><zone>y<gap reason="plain" unit="part"/></zone><zone><gap reason="plain" unit="part"/><unclear>k</unclear><gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="1"/><gap reason="par" quantity="1"/><gap reason="plain" quantity="1"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#b1"/><w>ce</w><w>sūtär</w><w>śīlabhādre</w><w>y<supplied>āt</supplied>k<supplied>a</supplied></w><w><supplied>paiykatsi</supplied></w></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#b1"><seg><seg type="prim_transl">this sūtra Śīlabhadra has ordered (to be written)</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">This probably completes <ref type="ms" target="txt:m-pkns17and900"/> (<bibl><title corresp="ref:pinault2007"/><citedRange>208</citedRange></bibl>)</note><note type="remarks">The Sanskrit text has been omitted from the transcription/transliteration.</note><note corresp="#b1" type="philcomment">The top of the akṣara <hi>bh[ā]</hi> is covered by a piece that is flipped over from the recto. The reading is nevertheless certain. The traces of the last akṣara are compatible with <hi>tsi</hi> (for <hi>si</hi> they would be too low).</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>other</label><bibl><title corresp="ref:peyrot2015b"/><citedRange>111</citedRange></bibl>; <bibl><title corresp="ref:hartmannju1991"/></bibl>.</p>
+            <p><label>Catalogue</label><bibl><title corresp="ref:hartmannandwille1997"/><citedRange>137</citedRange></bibl>..</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="ms_old">PS Bl 17</item>
+               <item n="project_comment_old"/>
+               <item n="m_script_old"/>
+               <item n="m_parallels_old"/>
+               <item n="m_expedition_old"/>
+               <item n="m_size_w_old"/>
+               <item n="m_other_sigla_old">Pelliot Sanskrit numéro bleu 17</item>
+               <item n="m_language_old">Sanskrit+TB</item>
+               <item n="m_remarks_old">&lt;p&gt;This probably completes [[PK NS 17 and 900]] ([[Pinault 2007]]: 208)&lt;/p&gt;
+&lt;p&gt;The Sanskrit text has been omitted from the transcription/transliteration.&lt;/p&gt;</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old">b1 ce sūtär śīlabhādre y(āt)k(a paiykatsi)</item>
+               <item n="m_title_old">Mahāsamājasūtra</item>
+               <item n="m_meter_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_prev_old"/>
+               <item n="user_modified_old">theres</item>
+               <item n="user_created_old">michael</item>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_subgenre_old">Colophon</item>
+               <item n="m_translation_old">b1 this sūtra Śīlabhadra has ordered (to be written)</item>
+               <item n="m_completeness_old"/>
+               <item n="access_old">restricted</item>
+               <item n="m_collection_old">Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</item>
+               <item n="m_lines_old">5</item>
+               <item n="file_location_old">pages/manuscript/psbl17.txt</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_specific_old">563</item>
+               <item n="m_findspot_old">Duldur-Akhur</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_bib_old">&lt;p&gt;[[Peyrot 2015b]]: 111; [[Hartmann JU 1991]].&lt;/p&gt;
+&lt;p&gt;Catalogue: [[Hartmann and Wille 1997]]: 137.&lt;/p&gt;.</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_transliteration_old">b1 ce sū_t_a_r\ śīlabh[ā]dr[e] y· ·[k]· – (–) –</item>
+               <item n="m_language_stage_old"/>
+               <item n="date_publication_old"/>
+               <item n="m_image_old">http://gallica.bnf.fr/ark:/12148/btv1b6000198r/f31.zoom|http://gallica.bnf.fr/ark:/12148/btv1b6000198r/f31.highres||$page; recto|transform:rotate(180deg);
+http://gallica.bnf.fr/ark:/12148/btv1b6000198r/f32.zoom|http://gallica.bnf.fr/ark:/12148/btv1b6000198r/f32.highres||$page; verso</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;b1.&lt;/b&gt; The top of the akṣara &lt;i&gt;bh[ā]&lt;/i&gt; is covered by a piece that is flipped over from the recto. The reading is nevertheless certain. The traces of the last akṣara are compatible with &lt;i&gt;tsi&lt;/i&gt; (for &lt;i&gt;si&lt;/i&gt; they would be too low). &lt;/p&gt;</item>
+               <item n="file_modified_old">1582452671</item>
+               <item n="file_created_old">1394795564</item>
+               <item n="m_size_h_old"/>
+               <item n="m_next_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

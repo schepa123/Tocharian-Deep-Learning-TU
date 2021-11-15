@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht354">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 354</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 354</idno>
+                  <altIdentifier>
+                     <idno>B 354</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Bleistiftnummer 4979</idno>
+                  </altIdentifier>
+                  <msName>THT 352-354</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Female sage Śacī</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">3+</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Qumtura</region><placeName>2. Höhle</placeName>during <rs type="expedition_code">T III Qu 9</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical frg:ls-tamai-C1 frg:ls-C14"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Jātaka/Avadāna</term>
+               <term type="prose_verse">prose</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=327844;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=327844;rotate=0;imageType=_M"/>
+            <graphic url="B/B354a.jpg" height="891px" width="1260px"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone>m<unclear>e</unclear></zone><zone>rtā</zone><zone>ko¯</zone><zone>¯yTä</zone><zone>ñi</zone><zone>śā</zone><zone><unclear>p</unclear>sa</zone><zone>:</zone><zone>ce</zone><zone><unclear>wa</unclear></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone>peṃ</zone><zone>ñiṃ</zone><zone>yä</zone><zone>ksa</zone><zone>na</zone><gap reason="plain" quantity="1"/><zone><unclear>r</unclear>n<gap reason="plain" unit="part"/></zone><zone>we</zone><zone>ṣṣaṃ</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone>e<gap reason="plain" unit="part"/></zone><zone><gap reason="plain" unit="part"/>e</zone><zone>ṢṢAṃ</zone><zone>MA</zone><zone>kte</zone><zone>la</zone><zone>l<unclear>ā</unclear></zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=327855;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=327855;rotate=0;imageType=_M"/>
+            <graphic url="B/B354b.jpg" height="860px" width="1164px"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone>p<unclear>o</unclear></zone><zone>KA</zone><zone>rso</zone><zone>rste</zone><zone>kā</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone>au</zone><zone>rtse</zone><zone>sa¯</zone><zone>¯Ṣ</zone><zone>mā</zone><gap reason="plain" quantity="1"/><zone>s<unclear>k</unclear>au</zone><zone>•</zone><zone>PA</zone><zone>kly<unclear>au</unclear><unclear>¯</unclear></zone><zone><unclear>¯</unclear><unclear>Ṣ</unclear></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><zone>yo¯</zone><zone>¯yä</zone><zone>yä</zone><zone>rpo</zone><zone>nta¯</zone><gap reason="plain" quantity="1"/><zone>kw<unclear>r</unclear>i</zone><zone>ñ<gap reason="plain" unit="part"/>i</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><w>mer</w><w>tākoyt</w><w>ñi</w><w>śāpsa</w><pc>:</pc><w>ce</w><w>wa</w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><w>peṃñiṃ</w><w>yäksana<supplied>tä</supplied></w><w>rn<supplied>e</supplied></w><w>weṣṣaṃ</w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><w>e<gap reason="plain" unit="part"/></w><w><supplied>w</supplied>eṣṣäṃ</w><w>mäkte</w><w>lalā</w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><w>po</w><w>kärsor</w><w>ste</w><w>kā</w><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><w>aurtsesa</w><w>ṣ</w><w>mā</w><w><supplied>we</supplied>skau</w><pc>•</pc><w>päklyauṣ</w><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><w>yoy</w><w>yärponta</w><gap reason="plain" quantity="1"/><w>kwri</w><w>ñ<gap reason="plain" unit="part"/>i</w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a2"><seg><bibl><title corresp="ref:schmidtkt1974"/><citedRange>481</citedRange></bibl></seg></choice></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition</label><bibl><title corresp="ref:siegandsiegling1953"/><citedRange>231</citedRange></bibl>. </p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 354" type="external">THT 354</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/03/0354.htm" type="external">THT 354</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_meter_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old">a1 /// mer tākoyt ñi śāpsa : ce wa ///
+a2 /// peṃñiṃ yäksana(tä) rn(e) weṣṣaṃ ///
+a3 /// e· (w)eṣṣäṃ mäkte lalā ///
+b1 /// po kärsor ste kā ///
+b2 /// aurtsesa ṣ mā (we)skau • päklyauṣ ///
+b3 /// yoy yärponta – kwri ñ·i ///</item>
+               <item n="m_title_old">Female sage Śacī</item>
+               <item n="m_size_w_old"/>
+               <item n="m_expedition_old">T III Qu 9</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old"/>
+               <item n="m_other_sigla_old">B 354, Bleistiftnummer 4979</item>
+               <item n="m_script_old">Classical</item>
+               <item n="project_comment_old">&lt;p&gt;Alternative classifications:
+&lt;table class="table_lines"&gt;
+  &lt;tr&gt;&lt;td title="MP"&gt;Peyrot&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="MM"&gt;Malzahn&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TT"&gt;Tamai&lt;/td&gt;&lt;td title="C1"&gt;II-1 (600-700)&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TTC14"&gt;Tamai-C14&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;</item>
+               <item n="ms_old">THT 354</item>
+               <item n="m_parallels_old"/>
+               <item n="m_translation_old"/>
+               <item n="m_subgenre_old">Jātaka/Avadāna</item>
+               <item n="m_metric_form_old">Both</item>
+               <item n="m_tune_old"/>
+               <item n="m_prev_old"/>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old">bernhard</item>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_old">Qumtura</item>
+               <item n="m_findspot_specific_old">2. Höhle</item>
+               <item n="file_location_old">pages/manuscript/THT_0001_0633/tht354.txt</item>
+               <item n="m_lines_old">3+</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="access_old">public</item>
+               <item n="file_created_old">1332006610</item>
+               <item n="file_modified_old">1532957803</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old"/>
+               <item n="m_editor_old"/>
+               <item n="date_publication_old"/>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_transliteration_old">a1 /// m[e]r tākoy_tä\ ñi śā[p]sa : ce [wa] ///
+a2 /// peṃñiṃ yäksana(_t_a) [r]n(e) weṣṣaṃ ///
+a3 /// e· (w)e_ṣ_ṣ_aṃ _m_akte lal[ā] ///
+b1 /// p[o] _k_arsor ste kā ///
+b2 /// aurtsesa _ṣ\ mā (we)s[k]au • _p_akly[au_ṣ\] ///
+b3 /// yoyä\ yärponta –\ kw[r]i ñ·i ///</item>
+               <item n="m_image_old">http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=327844;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=327844;rotate=0;imageType=_M||$page; recto
+http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=327855;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=327855;rotate=0;imageType=_M||$page; verso</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old">THT 352-354</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 354" target="idp"&gt;THT 354&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/03/0354.htm" target="titus"&gt;THT 354&lt;/a&gt;.&lt;br&gt;
+Edition: [[TochSprR(B) II]]: 231.&lt;br&gt;
+Translation:
+&lt;b&gt;a2&lt;/b&gt; [[Schmidt KT 1974]]: 481.</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;Alternative classifications:
+
+&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="en"
+     xml:id="m-a33"
+     next="txt:m-a34"
+     prev="txt:m-a32">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A 33</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Gerd Carling</name>
+            </respStmt>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Georges-Jean Pinault</name>
+            </respStmt>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Melanie Malzahn</name>
+            </respStmt>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <date when="2013-11-02">02.11.2013</date>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>A 33</idno>
+                  <altIdentifier>
+                     <idno>THT 666</idno>
+                  </altIdentifier>
+                  <msName>A 1-54</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Unknown Avadāna</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Šorčuq</region><placeName>Stadthöhle</placeName>during <rs type="expedition_code">T III Š 92.02</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+         <sourceDesc>
+            <p>Transcription and references have been transferred from the "Text and Reference Database of the Tocharian A Language" (Gerd Carling Lund University) (funded by the Bank of Sweden Tercentenary Foundation and SCAS).</p>
+            <p>Transcription and translation are based on <bibl><title corresp="ref:carlingetal2009"/></bibl>. </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="xto"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Jātaka/Avadāna</term>
+               <term type="prose_verse">prose</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/06/0666ra.jpg"/>
+            <graphic url="A/A33a.jpg" height="650px" width="618px"/>
+            <line xml:id="lf"><zone>33; 33 (string hole)</zone></line>
+            <line n="1" xml:id="a1"><gap reason="plain" quantity="2"/><gap reason="par" quantity="3"/><gap reason="plain" quantity="2"/><zone><gap reason="par" unit="part"/>n<gap reason="par" unit="part"/></zone><zone><unclear>o</unclear></zone><zone>ṅKA</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><zone>ṅkā¯</zone><zone>¯Ṣ</zone><zone>o</zone><zone>te</zone><zone>TA</zone><zone>Preṃ</zone><zone>koṃ</zone><zone>pa</zone><zone>rno</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><zone>¯M</zone><zone>ṣñi</zone><zone>ā</zone><zone>yma</zone><zone>śä¯</zone><zone>¯L</zone><zone>sa<unclear>¯</unclear></zone><zone><unclear>¯</unclear>M</zone><space type="string_hole"/><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><zone>mā¯</zone><zone>¯R</zone><zone>ce</zone><zone>SA</zone><zone>MNA¯</zone><zone>¯Ṣ</zone><zone>ptā</zone><zone>ñKA</zone><zone>TKA</zone><space type="string_hole"/><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><zone>ne</zone><zone>wä</zone><zone>tkā</zone><zone>se¯</zone><zone>¯ñcä</zone><zone>TMA¯</zone><zone>¯Ṣ</zone><zone>ba</zone><zone>hu</zone><gap reason="lost"/></line>
+            <line n="6" xml:id="a6"><zone>॥</zone><zone>a</zone><zone>pra</zone><zone>ti</zone><zone>tu</zone><zone>lye</zone><zone>naṃ</zone><zone>॥</zone><zone>pu</zone><zone>ksa</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/06/0666va.jpg"/>
+            <graphic url="A/A33b.jpg" height="662px" width="618px"/>
+            <line n="1" xml:id="b1"><zone>ti¯</zone><zone>¯K</zone><zone>:</zone><zone>SA¯</zone><zone>¯M</zone><zone>lo</zone><zone>ke</zone><zone>NA</zone><zone>klo</zone><zone>ne</zone><zone>rv<gap reason="par" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><zone>¯ñä</zone><zone>ca</zone><zone>mpā¯</zone><zone>¯K</zone><zone>pyā</zone><zone>pyā</zone><zone>ṣi</zone><zone>ṣo¯</zone><zone>¯M</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><zone>pñi</zone><zone>ksa</zone><zone>lu</zone><zone>ne</zone><zone>ya¯</zone><zone>¯cä</zone><zone>ya</zone><space type="string_hole"/><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><zone>ñä</zone><zone>tRA</zone><zone>ṅki¯</zone><zone>¯ñcä</zone><zone>PA</zone><zone>ttā</zone><zone>ñä</zone><space type="string_hole"/><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><zone>pukā</zone><zone>k<unclear>KA</unclear></zone><zone>rsnā¯</zone><zone>¯Ṣ</zone><zone>tRA</zone><zone>ṅKA¯</zone><zone>¯Ṣ</zone><zone>ku</zone><zone>pre</zone><gap reason="lost"/></line>
+            <line n="6" xml:id="b6"><zone><gap reason="par" unit="part"/><unclear>e</unclear></zone><zone><gap reason="par" unit="part"/><unclear>i</unclear></zone><gap reason="par" quantity="2"/><gap reason="plain" quantity="1"/><zone>TA</zone><zone>myo</zone><zone>p<unclear>t</unclear>ā</zone><zone>ñkte</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <fw type="leafNum" corresp="#lf">33; 33 (string hole)</fw>
+            <p>
+<lb corresp="#a1"/><gap reason="plain" quantity="7"/><w><gap reason="plain" unit="part"/>n<gap reason="plain" unit="part"/></w><w>oṅk<surplus>ä</surplus></w><gap reason="lost"/>
+<w><supplied>pältsä</supplied><lb corresp="#a2"/>ṅkāṣ</w><w>ote</w><w>täpreṃ</w><w>koṃ</w><w>parno</w><gap reason="lost"/>
+<w><supplied>sa</supplied><lb corresp="#a3"/>m</w><w>ṣñi</w><w>āymaśäl</w><w>sam</w><gap reason="lost"/>
+<lb corresp="#a4"/><w>mār</w><w>cesäm</w><w>näṣ</w><w>ptāñkät</w><w>kä<supplied>ṣṣi</supplied></w><gap reason="lost"/>
+<lb corresp="#a5"/><w>ne</w><w>wätkāseñc</w><w>tmäṣ</w><w>bahu</w><gap reason="lost"/>
+<lb corresp="#a6"/><pc>॥</pc><w>apratitulyenaṃ</w><pc>॥</pc></p>
+            <lg type="poem">
+               <lg n="1" type="strophe">
+                  <l n="a"><w>puk</w><w>sa<supplied>ṃsār</supplied></w><gap reason="lost"/>
+<lb corresp="#b1"/><w>tik</w><pc>:</pc></l>
+                  <l n="b"><w>säm</w><w>lo</w><w>kenäk</w><w>lo</w><caesura ana="frg:cs-s"/><w>nerv<supplied>āṃ</supplied></w><gap reason="lost"/></l>
+               </lg>
+            </lg>
+            <p>
+<lb corresp="#b2"/><w>ñ</w><w>campāk</w><w>pyāpyāṣi</w><w>ṣom</w><gap reason="lost"/>
+<lb corresp="#b3"/><w>pñi</w><w>ksaluneyac</w><w>ya<supplied>l</supplied></w><gap reason="lost"/>
+<lb corresp="#b4"/><w>ñ<surplus>ä</surplus></w><w>träṅkiñc</w><w>pättāñä<supplied>ktañ</supplied></w><gap reason="lost"/>
+<lb corresp="#b5"/><w>pUkāk</w><w>kärsnāṣ</w><w>träṅkäṣ</w><w>kupre<supplied>ne</supplied></w><gap reason="lost"/>
+<lb corresp="#b6"/><w><gap reason="plain" unit="part"/>e</w><w><gap reason="plain" unit="part"/>i</w><gap reason="plain" quantity="3"/><w>tämyo</w><w>ptāñkte<supplied>s</supplied></w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">... the man (?) ...</seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">... he thinks: oh, how splendid [is] the sun ...</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">... this one is equal to myself ...</seg></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl">... these ones, I, the Buddhalord, the teacher ...</seg></seg></choice><choice corresp="#a5"><seg><seg type="prim_transl">... they will split ... Thereupon ...</seg></seg></choice><choice corresp="#a6"><seg><seg type="prim_transl">... In [the tune] apratitulye: The whole Sa(ṃsāra) ...</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">... This [is] very false indeed, the Nirvāṇa ...</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">... the unique (beauty/perfume?) of the Campaka flower ...</seg></seg></choice><choice corresp="#b3"><seg><bibl><title corresp="ref:carling2000"/><citedRange>403</citedRange></bibl></seg><seg><seg type="prim_transl">... one should do merit towards extinction ...</seg></seg></choice><choice corresp="#b4"><seg><seg type="prim_transl">... they say: "The Buddhalords ..."</seg></seg></choice><choice corresp="#b5"><seg><seg type="prim_transl">... he understands ... completely [and] says: "If ..."</seg></seg></choice><choice corresp="#b6"><seg><bibl><title corresp="ref:thomas1968"/><citedRange>210</citedRange></bibl></seg><seg><seg type="prim_transl">... Therefore the ... of the Buddhalord ...</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">Left part of a leaf including part of the string hole space covering lines 3 and 4. The leaf number 33 is repeated inside the string hole space on the verso side. Unlike in other cases in this mansucript, the number written inside the string hole does not deviate from the one written on the margin. This is true for the continuous series <ref type="ms" target="txt:m-a32"/> until <ref type="ms" target="txt:m-a36"/>.</note><note corresp="#a6" type="philcomment">The tune has the meter 4 x 25 (5/5/8/7).</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT%20666" type="external">THT 666</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/06/0666.htm" type="external">THT 666</ref></bibl>. </p>
+            <p><label>Edition</label><bibl><title corresp="ref:siegandsiegling1921"/><citedRange>22</citedRange></bibl>. <bibl>Siegling's personal copy of <title corresp="ref:siegandsiegling1921"/><ref target="./images/TS_Siegling/TS_Siegling_Page_022.png" type="external">p. 22</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_meter_old"/>
+               <item n="m_leaf_old">33; 33 (string hole)</item>
+               <item n="m_title_old">Unknown Avadāna</item>
+               <item n="m_transcription_old">a1 – – (– – –) – – (·)n(·) oṅk /// pältsäṅkāṣ|(pältsä)|ṅkāṣ
+a2 ote täpreṃ koṃ parno /// sam|(sa)|m
+a3 ṣñi āymaśäl sam ///
+a4 mār cesäm näṣ ptāñkät käṣṣi_(TA)|kä(ṣṣi) ///
+a5 ne wätkāseñc tmäṣ bahu ///
+a6 || apratitulyenaṃ || # puk sa(ṃsār) ///
+b1 tik : #1a säm lo kenäk lo ; nerv(āṃ) /// #1b
+b2 ñ campāk pyāpyāṣi ṣom ///
+b3 pñi ksaluneyac ya(l) ///
+b4 ñ träṅkiñc pättāñä(ktañ) ///
+b5 p_ukāk kärsnāṣ träṅkäṣ kupre(ne) ///
+b6 (·)e (·)i (– –) – tämyo ptāñkte(s) ///</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_parallels_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="project_comment_old">&lt;p&gt;Done Nov 2, 2013.&lt;/p&gt;</item>
+               <item n="ms_old">A 33</item>
+               <item n="m_language_old">TA</item>
+               <item n="m_remarks_old">&lt;p&gt;Left part of a leaf including part of the string hole space covering lines 3 and 4. The leaf number 33 is repeated inside the string hole space on the verso side. Unlike in other cases in this mansucript, the number written inside the string hole does not deviate from the one written on the margin. This is true for the continuous series [[A 32]] until [[A 36]].&lt;/p&gt;</item>
+               <item n="m_other_sigla_old">THT 666</item>
+               <item n="m_expedition_old">T III Š 92.02</item>
+               <item n="m_size_w_old"/>
+               <item n="m_metric_form_old">Both</item>
+               <item n="m_tune_old">apratitulyenaṃ</item>
+               <item n="m_subgenre_old">Jātaka/Avadāna</item>
+               <item n="m_translation_old">a1 ... the man (?) ...
+a2 ... he thinks: oh, how splendid [is] the sun ...
+a3 ... this one is equal to myself ...
+a4 ... these ones, I, the Buddhalord, the teacher ...
+a5 ... they will split ... Thereupon ...
+a6 ... In [the tune] apratitulye: The whole Sa(ṃsāra) ...
+b1 ... This [is] very false indeed, the Nirvāṇa ...
+b2 ... the unique (beauty/perfume?) of the Campaka flower ...
+b3 ... one should do merit towards extinction ...
+b4 ... they say: "The Buddhalords ..."
+b5 ... he understands ... completely [and] says: "If ..."
+b6 ... Therefore the ... of the Buddhalord ...</item>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old">theres</item>
+               <item n="m_prev_old">A 32</item>
+               <item n="m_findspot_old">Šorčuq</item>
+               <item n="m_findspot_specific_old">Stadthöhle</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_lines_old">6</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="access_old">public</item>
+               <item n="m_completeness_old"/>
+               <item n="file_location_old">pages/manuscript/A/a33.txt</item>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;a6.&lt;/b&gt; The tune has the meter 4 x 25 (5/5/8/7).&lt;/p&gt;</item>
+               <item n="m_editor_old">Gerd Carling, Georges-Jean Pinault, Melanie Malzahn, Michaël Peyrot</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_next_old">A 34</item>
+               <item n="m_size_h_old"/>
+               <item n="file_created_old">1328802217</item>
+               <item n="file_modified_old">1523662858</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old">A 1-54</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT%20666"&gt;THT 666&lt;/a&gt;,
+[[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/06/0666.htm"&gt;THT 666&lt;/a&gt;.&lt;br&gt;
+Transcription and references have been transferred from the "Text and Reference Database of the Tocharian A Language" (Gerd Carling, Lund University) (funded by the Bank of Sweden Tercentenary Foundation and SCAS).
+Transcription and translation are based on [[Carling, DThTA]].&lt;br&gt;
+Edition: [[TochSprR(A)]]: 22.&lt;br&gt;
+Siegling's personal copy of [[TochSprR(A)]]: &lt;a href="./images/TS_Siegling/TS_Siegling_Page_022.png"&gt;p. 22&lt;/a&gt;.&lt;br&gt;
+Translation:
+&lt;b&gt;b3&lt;/b&gt; [[Carling 2000]]: 403;
+&lt;b&gt;b6&lt;/b&gt; [[Thomas 1968]]: 210.</item>
+               <item n="m_image_old">http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/06/0666ra.jpg|||$page; (THT 666) recto
+http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/06/0666va.jpg|||$page; (THT 666) verso</item>
+               <item n="date_publication_old">02.11.2013</item>
+               <item n="m_language_stage_old"/>
+               <item n="m_transliteration_old">a1 – – (– – –) – – (·)n(·) [o]ṅ_k(\) ///
+a2 ṅkā_ṣ\ ote _t_a_preṃ koṃ parno ///
+a3 _m\ ṣñi āymaśä_l\ sa_m[\] ○ ///
+a4 mā_r\ ce_s_a_m _n_a_ṣ\ ptāñ_k_a_t _k_a ○ ///
+a5 ne wätkāseñcä\ _t_m_a_ṣ\ bahu ///
+a6 || apratitulyenaṃ || puk sa ///
+b1 ti_k\ : _s_a_m\ lo ke_n_ak lo nerv(·) ///
+b2 ñä\ campā_k\ pyāpyāṣi ṣo_m\ ///
+b3 pñi ksaluneyacä\ ya ○ ///
+b4 ñä(\) t_r_aṅkiñcä\ _p_attāñä ○ ///
+b5 p_ukāk [_k_a]rsnā_ṣ\ t_r_aṅ_k_a_ṣ\ kupre ///
+b6 (·)[e] (·)[i] (– –) – _t_amyo p[t]āñkte ///</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;Done Nov 2, 2013.&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

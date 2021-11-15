@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-sht221">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>SHT 221</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>SHT 221</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>6,8</height>
+                              <width>6</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">5</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Qizil Miŋ-Öy</region><placeName>Rothkuppelraum</placeName>during <rs type="expedition_code">T III MQR</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Colophon</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=255025;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=255025;rotate=0;imageType=_M"/>
+            <line n="4" xml:id="b4"><zone>॥</zone><zone><unclear>c</unclear>e</zone><zone>po</zone><zone>sta¯</zone><zone>¯K</zone><zone>ṣa</zone><zone><unclear>m</unclear>ā</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><gap reason="lost"/><zone>lai</zone><zone>kne</zone><zone>ṣṣe</zone><zone>nau</zone><zone><gap reason="plain" unit="part"/>i</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#b4"/><pc>॥</pc><w>ce</w><w>postak</w><w>ṣamā<supplied>ne</supplied></w><gap reason="lost"/><w><supplied>paiykāte</supplied></w><gap reason="lost"/>
+<lb corresp="#b5"/><gap reason="lost"/><w><supplied>pe</supplied>laikneṣṣe</w><w>nau<supplied>m</supplied>i<supplied>ye</supplied></w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#b4"><seg><seg type="prim_transl">... This book (wrote) monk ... </seg></seg></choice><choice corresp="#b5"><seg><seg type="prim_transl">... the jewel of the law ...</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="philcomment">This colophon is found at the end of Mātṛceṭa's <hi>Prasādapratibhodbhava</hi>.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>other</label><bibl><title corresp="ref:peyrot2014"/><citedRange>133, 134</citedRange></bibl>.</p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=SHT 221" type="external">SHT 221</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_translation_old">b4 ... This book (wrote) monk ... 
+b5 ... the jewel of the law ...</item>
+               <item n="m_subgenre_old">Colophon</item>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="user_modified_old">theres</item>
+               <item n="user_created_old">theres</item>
+               <item n="m_prev_old"/>
+               <item n="m_title_old"/>
+               <item n="m_transcription_old">b4 || ce postak ṣamā(ne) /// (paiykāte) ///
+b5 /// (pe)laikneṣṣe nau(m)i(ye) ///</item>
+               <item n="m_leaf_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallels_old"/>
+               <item n="ms_old">SHT 221</item>
+               <item n="project_comment_old">&lt;p&gt;&lt;ul&gt;
+&lt;li&gt;I added IDP reference and images. I added the expedition code, collection, material, form and size according to IDP. I also changed the find spot from "Kuča Miŋ-Öy" to "Qizil Miŋ-Öy". –Martin (Fri, 2016-07-15, 02:14:25 (CEST))&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</item>
+               <item n="m_script_old"/>
+               <item n="m_other_sigla_old"/>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old"/>
+               <item n="m_expedition_old">T III MQR</item>
+               <item n="m_size_w_old">6</item>
+               <item n="m_editor_old"/>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old">&lt;p&gt;This colophon is found at the end of Mātṛceṭa's &lt;i&gt;Prasādapratibhodbhava&lt;/i&gt;.&lt;/p&gt;</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old">6,8</item>
+               <item n="file_modified_old">1485169700</item>
+               <item n="file_created_old">1444998756</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=SHT 221" target="idp"&gt;SHT 221&lt;/a&gt;.&lt;br&gt;
+[[Peyrot 2014]]: 133, 134.</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old"/>
+               <item n="m_image_old">http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=255024;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=255024;rotate=0;imageType=_M||$page; recto
+http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=255025;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=255025;rotate=0;imageType=_M||$page; verso</item>
+               <item n="m_language_stage_old"/>
+               <item n="m_transliteration_old">b4 || [c]e posta_k\ ṣa[m]ā ///
+b5 /// laikneṣṣe nau·i ///</item>
+               <item n="date_publication_old"/>
+               <item n="m_findspot_specific_old">Rothkuppelraum</item>
+               <item n="m_findspot_old">Qizil Miŋ-Öy</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_linedistance_old"/>
+               <item n="access_old">restricted</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_lines_old">5</item>
+               <item n="m_completeness_old"/>
+               <item n="file_location_old">pages/manuscript/sht221.txt</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;&lt;ul&gt;&lt;li&gt;I added IDP reference and images. I added the expedition code, collection, material, form and size according to IDP. I also changed the find spot from "Kuča Miŋ-Öy" to "Qizil Miŋ-Öy". –Martin (Fri, 2016-07-15, 02:14:25 (CEST))&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

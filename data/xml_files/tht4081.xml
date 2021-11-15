@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht4081">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 4081</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Melanie Malzahn</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 4081</idno>
+                  <altIdentifier>
+                     <idno>SHT 851</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Lüders no. K 123</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>6,9</height>
+                              <width>12,8</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">6, 3</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Qizil Miŋ-Öy</region><placeName>Rothkuppelraum</placeName></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-archaic"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Gloss</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=335529;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=335529;rotate=0;imageType=_M"/>
+            <line n="3" xml:id="b3"><zone>ne</zone><zone>SAṃ</zone><zone>PAṃ</zone><zone>ñä</zone><zone>kteṃ</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#b3"/><w>nesäṃ</w><w>päṃñäkteṃ</w></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#b3"><seg><seg type="prim_transl">The Buddhas exist.</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="philcomment">Pace K.T. Schmidt apud <bibl><title corresp="ref:waldschmidt1971"/><citedRange>98</citedRange></bibl> with fn. 5 one has to read obl.pl. <hi><hi rend="underline">pa</hi>ṃñäkteṃ</hi> even though one would, of course, expect a nominative.</note><note type="remarks">The recto side contains a Sanskrit Prātimokṣa text, the verso side contains two lines in TB on top of the leaf, which is written by a different hand than the recto side in a clumsy, uneven ductus; on the bottom of the otherwise blank side one finds another TB clause written again by a different hand in normal book-style ductus.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 4081" type="external">THT 4081</ref></bibl></p>
+            <p><label>Edition</label> K.T. Schmidt apud <bibl><title corresp="ref:waldschmidt1971"/><citedRange>97-98</citedRange></bibl>; <bibl><title corresp="ref:malzahn2007b"/><citedRange>303</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old"/>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old">melanie</item>
+               <item n="m_prev_old"/>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_subgenre_old">Gloss</item>
+               <item n="m_translation_old">b3 The Buddhas exist.</item>
+               <item n="m_parallels_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="project_comment_old"/>
+               <item n="ms_old">THT 4081</item>
+               <item n="m_remarks_old">The recto side contains a Sanskrit Prātimokṣa text, the verso side contains two lines in TB on top of the leaf, which is written by a different hand than the recto side in a clumsy, uneven ductus; on the bottom of the otherwise blank side one finds another TB clause written again by a different hand in normal book-style ductus.</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_other_sigla_old">SHT 851, Lüders no. K 123</item>
+               <item n="m_size_w_old">12,8</item>
+               <item n="m_expedition_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_transcription_old">b3 nesäṃ_(Pl.)|nesäṃ pañäkteṃ|päṃñäkteṃ</item>
+               <item n="m_leaf_old"/>
+               <item n="m_title_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 4081" target="idp"&gt;THT 4081&lt;/a&gt;&lt;br&gt;
+Edition: K.T. Schmidt apud [[SHT III]]: 97-98; [[Malzahn 2007b]]: 303.</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=335439;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=335439;rotate=0;imageType=_M||THT 4081 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=335529;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=335529;rotate=0;imageType=_M||THT 4081 verso</item>
+               <item n="date_publication_old"/>
+               <item n="m_transliteration_old">b3 ne_s_aṃ _p_aṃñäkteṃ</item>
+               <item n="m_language_stage_old">Archaic</item>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old">Pace K.T. Schmidt apud [[SHT III]]: 98 with fn. 5 one has to read obl.pl. &lt;i&gt;&lt;u&gt;pa&lt;/u&gt;ṃñäkteṃ&lt;/i&gt; even though one would, of course, expect a nominative.</item>
+               <item n="m_editor_old">Melanie Malzahn</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_size_h_old">6,9</item>
+               <item n="m_next_old"/>
+               <item n="file_created_old">1340137309</item>
+               <item n="file_modified_old">1470351270</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_lines_old">6, 3</item>
+               <item n="access_old">restricted</item>
+               <item n="file_location_old">pages/manuscript/THT_2400_4170/tht4081.txt</item>
+               <item n="m_findspot_specific_old">Rothkuppelraum</item>
+               <item n="m_findspot_old">Qizil Miŋ-Öy</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_linedistance_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

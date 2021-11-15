@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-a392">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A 392</title>
+            <respStmt>
+               <resp>text</resp>
+               <name>Gerd Carling</name>
+            </respStmt>
+            <respStmt>
+               <resp>commentary</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>A 392</idno>
+                  <altIdentifier>
+                     <idno>THT 1026</idno>
+                  </altIdentifier>
+                  <msName>A 391-392</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Varṇārhavarṇastotra</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">7</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Bezeklik</region>during <rs type="expedition_code">T III M 135.3</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+         <sourceDesc>
+            <p>Transcription and references have been transferred from the "Text and Reference Database of the Tocharian A Language" (Gerd Carling Lund University) (funded by the Bank of Sweden Tercentenary Foundation and SCAS).</p>
+            <p>Transcription and translation are based on <bibl><title corresp="ref:carlingetal2009"/></bibl>. </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="xto"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Buddhastotra</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329542;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329542;rotate=0;imageType=_M"/>
+            <graphic url="A/A392a.jpg" height="907px" width="618px"/>
+            <line xml:id="lf"><zone>[67]</zone></line>
+            <line n="1" xml:id="a1"><zone>gra</zone><zone>sto</zone><zone>:</zone><zone>brā</zone><zone>hma</zone><zone>ṇa</zone><zone>kiṃ</zone><zone>bha</zone><zone><unclear>v</unclear>i</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><zone>śkaṃ</zone><zone>to¯</zone><zone>¯M</zone><zone>kle</zone><zone>śā¯</zone><zone>¯ñä</zone><zone>tñi</zone><zone>ā</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><zone>sā</zone><zone>pha</zone><zone>lya</zone><zone>mā</zone><zone>ga</zone><zone>ta</zone><zone>ḥ</zone><zone><unclear>10</unclear></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><zone>o</zone><zone>ko</zone><zone>lyo</zone><zone>cKA¯</zone><zone>¯ṢT</zone><zone>TA</zone><zone><unclear>m</unclear><gap reason="par" unit="part"/>o</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><zone>o</zone><zone>kta</zone><zone>si</zone><zone>ytā</zone><zone>rne</zone><zone>rvāṃ</zone><gap reason="lost"/></line>
+            <line n="6" xml:id="a6"><zone>dṛ</zone><zone>śa</zone><zone>ka</zone><zone>ści</zone><zone>dbha</zone><zone>va</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329534;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329534;rotate=0;imageType=_M"/>
+            <graphic url="A/A392b.jpg" height="1748px" width="1172px"/>
+            <line n="1" xml:id="b1"><zone><unclear>mā</unclear></zone><zone>śkaṃ</zone><zone>kā</zone><zone>se</zone><zone>klo</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><zone>pra</zone><zone>va</zone><zone>rā</zone><zone>stra</zone><zone>ya</zone><zone>ḥ</zone><zone><unclear>10</unclear></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><zone>lmeṃ</zone><zone>tre</zone><zone>10</zone><zone>5</zone><zone>na</zone><zone><gap reason="plain" unit="part"/><unclear>i</unclear></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><zone>mā</zone><zone>brā</zone><zone>ma</zone><zone>ṇi</zone><zone>ytā¯</zone><zone>¯R</zone><zone>kl<gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><zone>lo</zone><zone>ke</zone><zone>sa</zone><zone>rvaṃ</zone><zone>ta</zone><zone>tta</zone><zone>va</zone><zone>śā</zone><gap reason="lost"/></line>
+            <line n="6" xml:id="b6"><zone>he</zone><zone>kā</zone><zone>su</zone><zone>KA</zone><zone>lko</zone><zone>yru</zone><zone>ñci</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <fw type="leafNum" corresp="#lf">[67]</fw>
+            <p><milestone unit="passage" n="7.11-17"/>
+<w><supplied>kudṛṣṭivimati</supplied><lb corresp="#a1"/>grasto</w><pc>:</pc><w>brāhmaṇa</w><w>kiṃ</w><w>bhavi<supplied>ṣyati</supplied></w><gap reason="lost"/>
+<lb corresp="#a2"/><w>śkaṃ</w><w>tom</w><w>kleśāñ</w><w>tñi</w><w>ā<supplied>kṣiñluneyäṣ</supplied></w><gap reason="lost"/>
+<lb corresp="#a3"/><w>sāphalyam</w><w>āgataḥ</w><num value="12">10<supplied>-2</supplied></num><gap reason="lost"/>
+<lb corresp="#a4"/><w>oko</w><w>lyockäṣt</w><w>täm<supplied>y</supplied>o</w><gap reason="lost"/>
+<lb corresp="#a5"/><w>oktasi</w><w>ytār</w><w>nervāṃ</w><gap reason="lost"/>
+<w><supplied>sa</supplied><lb corresp="#a6"/>dṛśa</w><w>kaś</w><w>cid</w><w>bhava<supplied>ti</supplied></w><gap reason="lost"/>
+<lb corresp="#b1"/><w>mā</w><w>śkaṃ</w><w>kāse</w><w>klo</w><gap reason="lost"/>
+<w><supplied>brāhmaṇa</supplied><lb corresp="#b2"/>pravarās</w><w>trayaḥ</w><num value="15">10<supplied>-5</supplied></num><gap reason="lost"/>
+<w><supplied>śpā</supplied><lb corresp="#b3"/>lmeṃ</w><w>tre</w><num value="15">10-5</num><w>na</w><w><supplied>h</supplied>i</w><gap reason="lost"/>
+<lb corresp="#b4"/><w>mā</w><w>brāmaṇi</w><w>ytār</w><w>kl<supplied>awanträ</supplied></w><gap reason="lost"/>
+<lb corresp="#b5"/><w>loke</w><w>sarvaṃ</w><w>tat</w><w>tava</w><w>śā<supplied>sanāt</supplied></w><gap reason="lost"/>
+<w><supplied>e</supplied><lb corresp="#b6"/>he</w><w>kāsu</w><w>kälko</w><w>yruñci</w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a5"><seg><bibl><title corresp="ref:knoll1996"/><citedRange>128</citedRange></bibl></seg></choice><choice corresp="#b6"><seg><bibl><title corresp="ref:knoll1996"/><citedRange>141</citedRange></bibl></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="lingcomment">Striking is <hi>s</hi> for <hi>ts</hi> in a5 <hi>oktasi</hi> and b1 <hi>kāse</hi>.</note><note type="parallels"><bibl><title corresp="ref:hartmannju1987"/><citedRange>223-227</citedRange></bibl></note><note type="philcomment">In this text, the Tocharian A translations seem to follow after each complete Sanskrit strophe (instead of each half pāda, as is often the case).</note><note type="remarks">The reading of the leaf number is very uncertain. The first akṣara (there was probably no other one on top of this one) seems to be ‹60›, the second may be ‹7›, ‹8›, or ‹9›. If the reading of at least the ‹60› is correct, the manuscript will have contained another text preceding the Varṇārhavarṇastotra: with approximately 7 strophes per leaf, the beginning of the latter text may have to be placed about 35 leaves before this one.</note><note corresp="#a1" type="philcomment">7.11a-b</note><note corresp="#a2" type="philcomment"><hi>śkaṃ tom kleśāñ tñi</hi>: parts of the translation of 7.11c-d <hi>na ceme granthayo 'nyatra cchidyante tvanmatād ṛte</hi> 'Diese Fesseln werden aber nirgends als in deiner Lehre zerschnitten.' (<bibl><title corresp="ref:hartmannju1987"/><citedRange>223</citedRange></bibl>). The syntax of the Tocharian A translation is different. <bibl><title corresp="ref:couvreur1966"/><citedRange>176</citedRange></bibl> plausibly suggests to restore <hi>ā ///</hi> to <hi>ā(kṣiñluneyäṣ pkänt)</hi>, which would give us something like '(Apart from) your teaching, these <hi>kleśa</hi>s are (not cut off)'.</note><note corresp="#a3" type="philcomment">cf. 7.12d <hi>tvayi sāphalyam āgataḥ</hi>.</note><note corresp="#a4" type="philcomment"><hi>oko lyockäṣt</hi>: renders 7.12d <hi>tvayi sāphalyam āgataḥ</hi> (see line a3; pace <bibl><title corresp="ref:peyrot2013b"/><citedRange>745</citedRange></bibl>) 'hat in dir ihre Erfüllung gefunden' (<bibl><title corresp="ref:hartmannju1987"/><citedRange>224</citedRange></bibl>). However, literally the Tocharian A seems to mean 'you have turned [it] into fruit' (taking a little more freedom, <bibl><title corresp="ref:couvreur1966"/><citedRange>176</citedRange></bibl> translates 'liet de vrucht ontstaan', i.e. '[you] let the fruit arise'). <hi>täm(y)o</hi> 'therefore' seems to begin a next clause that has no precise Sanskrit parallel.</note><note corresp="#a5" type="philcomment"><hi>oktasi ytār nervāṃ</hi> 'the eightfold path, the <hi>nirvāṇa</hi>' may perhaps somehow, but certainly not literally, correspond to 7.13a <hi>pratipad brāhmī</hi> 'den Brahma zugehörigen Weg' (<bibl><title corresp="ref:hartmannju1987"/><citedRange>224</citedRange></bibl>). The literal correspondence of <hi>pratipad brāhmī</hi> is found in line b4.</note><note corresp="#a6" type="philcomment">cf. 7.14a-b <hi>na tvayā saṃskṛtaḥ kaś cid bhavati brāhmaṇo 'śuciḥ</hi> 'Nicht wird irgendein durch dich (rituell) gereinigter Brahmane (wieder rituell) unrein' (<bibl><title corresp="ref:hartmannju1987"/><citedRange>225</citedRange></bibl>). The variant reading <hi>(sa)dṛśa{ḥ}</hi> attested here is certain.</note><note corresp="#b1" type="philcomment"><hi>[mā]</hi>: can be read pace <bibl><title corresp="ref:siegandsiegling1921"/><citedRange>217</citedRange></bibl>.</note><note corresp="#b1" type="philcomment"><hi>mā śkaṃ kāse klo</hi>: translates 7.14c <hi>na copanīto</hi> 'und nicht fällt ein (von dir) eingeführter' (<bibl><title corresp="ref:hartmannju1987"/><citedRange>225</citedRange></bibl>). <hi>kāse klo</hi> (for <hi>kātse klo</hi>) literally means 'led close' and is without doubt a calque (Skt. <hi>upa</hi> = TA <hi>kātse</hi>, Skt. <hi>nī-</hi> = TA <hi>kälā-</hi>.</note><note corresp="#b2" type="philcomment">7.15d.</note><note corresp="#b3" type="philcomment"><hi>(śpā)lmeṃ tre</hi>: last part of the translation 7.15d <hi>brāhmaṇapravarās trayaḥ</hi> 'die drei brahmanischen Ahnherren' (<bibl><title corresp="ref:hartmannju1987"/><citedRange>225</citedRange></bibl>).</note><note corresp="#b3" type="philcomment"><hi>na (h)i</hi>: beginning of Skt. 7.16a.</note><note corresp="#b4" type="philcomment"><hi>mā brāmaṇi ytār kl(awanträ)</hi>: renders 7.16b <hi>na brāhmī pratipat kva cit</hi> 'nirgendwo den brahmanischen Weg' (<bibl><title corresp="ref:hartmannju1987"/><citedRange>226</citedRange></bibl>). <bibl><title corresp="ref:couvreur1966"/><citedRange>177</citedRange></bibl> restores to <hi>kl(yant naṣ)</hi> 'bevindt zich [niet]', i.e. 'is [not] there', but the relevant akṣara can only be <hi>kla</hi> or <hi>klā</hi>. With the restoration <hi>kl(awanträ)</hi>, a literal translation of the Tocharian A text becomes: 'they do [not] call the Brahmanic path'.</note><note corresp="#b5" type="philcomment">The end of 7.17.a, and 7.17b.</note><note corresp="#b6" type="philcomment"><hi>(e)he kāsu kälko yruñci</hi>: renders the beginning of 7.17c <hi>(sugatāve)ṇikaivaiṣā</hi> 'gerade nur [dem Wohlgegangenen] eigentümlich ist' (<bibl><title corresp="ref:hartmannju1987"/><citedRange>227</citedRange></bibl>. There is no place for the equivalent of TA <hi>ehe</hi> 'oh' in the restored Skt. text. On <hi>yruñci</hi>, the equivalent of Skt. <hi>āveṇika</hi> 'independent; characteristic', see <bibl><title corresp="ref:couvreur1966"/><citedRange>177</citedRange></bibl>.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT%201026" type="external">THT 1026</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/10/1026.htm" type="external">THT 1026</ref></bibl>. </p>
+            <p><label>Edition</label><bibl><title corresp="ref:siegandsiegling1921"/><citedRange>217</citedRange></bibl>; <bibl><title corresp="ref:couvreur1966"/><citedRange>176-177</citedRange></bibl>. <bibl>Siegling's personal copy of <title corresp="ref:siegandsiegling1921"/><ref target="./images/TS_Siegling/TS_Siegling_Page_217.png" type="external">p. 217</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="file_location_old">pages/manuscript/A/a392.txt</item>
+               <item n="m_completeness_old"/>
+               <item n="m_lines_old">7</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="access_old">public</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_old">Bezeklik</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="date_publication_old"/>
+               <item n="m_transliteration_old">a1 grasto : brāhmaṇa kiṃ bha[v]i ///
+a2 śkaṃ to_m\ kleśāñä\ tñi ā ///
+a3 sāphalyam āgataḥ [10] ///
+a4 oko lyoc_k_a_ṣ_t\ _t_a[m](·)o ///
+a5 oktasi ytār nervāṃ ///
+a6 dṛśa kaś cid bhava ///
+b1 [mā] śkaṃ kāse klo ///
+b2 pravarās trayaḥ [10] ///
+b3 lmeṃ tre 10-5 na ·[i] ///
+b4 mā brāmaṇi ytā_r\ kl· ///
+b5 loke sarvaṃ tat tava śā ///
+b6 he kāsu _k_alko yruñci ///</item>
+               <item n="m_language_stage_old"/>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329542;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329542;rotate=0;imageType=_M||THT 1026 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329534;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329534;rotate=0;imageType=_M||THT 1026 verso</item>
+               <item n="m_manuscript_old">A 391-392</item>
+               <item n="m_lingcomment_old">&lt;p&gt;Striking is &lt;i&gt;s&lt;/i&gt; for &lt;i&gt;ts&lt;/i&gt; in a5 &lt;i&gt;oktasi&lt;/i&gt; and b1 &lt;i&gt;kāse&lt;/i&gt;.&lt;/p&gt;</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT%201026"&gt;THT 1026&lt;/a&gt;,
+[[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/10/1026.htm"&gt;THT 1026&lt;/a&gt;.&lt;br&gt;
+Transcription and references have been transferred from the "Text and Reference Database of the Tocharian A Language" (Gerd Carling, Lund University) (funded by the Bank of Sweden Tercentenary Foundation and SCAS).
+Transcription and translation are based on [[Carling, DThTA]].&lt;br&gt;
+Edition: [[TochSprR(A)]]: 217; [[Couvreur 1966]]: 176-177.&lt;br&gt;
+Siegling's personal copy of [[TochSprR(A)]]: &lt;a href="./images/TS_Siegling/TS_Siegling_Page_217.png"&gt;p. 217&lt;/a&gt;.&lt;br&gt;
+Translation:
+&lt;b&gt;a5&lt;/b&gt; [[Knoll 1996]]: 128;
+&lt;b&gt;b6&lt;/b&gt; [[Knoll 1996]]: 141.</item>
+               <item n="file_created_old">1328802217</item>
+               <item n="file_modified_old">1533630922</item>
+               <item n="m_size_h_old"/>
+               <item n="m_next_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_passage_old">7.11-17</item>
+               <item n="m_philcomment_old">&lt;p&gt;In this text, the Tocharian A translations seem to follow after each complete Sanskrit strophe (instead of each half pāda, as is often the case).&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a1.&lt;/b&gt; 7.11a-b&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a2.&lt;/b&gt; &lt;i&gt;śkaṃ tom kleśāñ tñi&lt;/i&gt;: parts of the translation of 7.11c-d &lt;i&gt;na ceme granthayo 'nyatra cchidyante tvanmatād ṛte&lt;/i&gt; 'Diese Fesseln werden aber nirgends als in deiner Lehre zerschnitten.' ([[Hartmann JU 1987]]: 223). The syntax of the Tocharian A translation is different. [[Couvreur 1966]]: 176 plausibly suggests to restore &lt;i&gt;ā ///&lt;/i&gt; to &lt;i&gt;ā(kṣiñluneyäṣ pkänt)&lt;/i&gt;, which would give us something like '(Apart from) your teaching, these &lt;i&gt;kleśa&lt;/i&gt;s are (not cut off)'.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a3.&lt;/b&gt; cf. 7.12d &lt;i&gt;tvayi sāphalyam āgataḥ&lt;/i&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a4.&lt;/b&gt; &lt;i&gt;oko lyockäṣt&lt;/i&gt;: renders 7.12d &lt;i&gt;tvayi sāphalyam āgataḥ&lt;/i&gt; (see line a3; pace [[Peyrot, ToSu]]: 745) 'hat in dir ihre Erfüllung gefunden' ([[Hartmann JU 1987]]: 224). However, literally the Tocharian A seems to mean 'you have turned [it] into fruit' (taking a little more freedom, [[Couvreur 1966]]: 176 translates 'liet de vrucht ontstaan', i.e. '[you] let the fruit arise'). &lt;i&gt;täm(y)o&lt;/i&gt; 'therefore' seems to begin a next clause that has no precise Sanskrit parallel.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a5.&lt;/b&gt; &lt;i&gt;oktasi ytār nervāṃ&lt;/i&gt; 'the eightfold path, the &lt;i&gt;nirvāṇa&lt;/i&gt;' may perhaps somehow, but certainly not literally, correspond to 7.13a &lt;i&gt;pratipad brāhmī&lt;/i&gt; 'den Brahma zugehörigen Weg' ([[Hartmann JU 1987]]: 224). The literal correspondence of &lt;i&gt;pratipad brāhmī&lt;/i&gt; is found in line b4.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a6.&lt;/b&gt; cf. 7.14a-b &lt;i&gt;na tvayā saṃskṛtaḥ kaś cid bhavati brāhmaṇo 'śuciḥ&lt;/i&gt; 'Nicht wird irgendein durch dich (rituell) gereinigter Brahmane (wieder rituell) unrein' ([[Hartmann JU 1987]]: 225). The variant reading &lt;i&gt;(sa)dṛśa{ḥ}&lt;/i&gt; attested here is certain.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b1.&lt;/b&gt; &lt;i&gt;[mā]&lt;/i&gt;: can be read pace [[TochSprR(A)]]: 217.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b1.&lt;/b&gt; &lt;i&gt;mā śkaṃ kāse klo&lt;/i&gt;: translates 7.14c &lt;i&gt;na copanīto&lt;/i&gt; 'und nicht fällt ein (von dir) eingeführter' ([[Hartmann JU 1987]]: 225). &lt;i&gt;kāse klo&lt;/i&gt; (for &lt;i&gt;kātse klo&lt;/i&gt;) literally means 'led close' and is without doubt a calque (Skt. &lt;i&gt;upa&lt;/i&gt; = TA &lt;i&gt;kātse&lt;/i&gt;, Skt. &lt;i&gt;nī-&lt;/i&gt; = TA &lt;i&gt;kälā-&lt;/i&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b2.&lt;/b&gt; 7.15d.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b3.&lt;/b&gt; &lt;i&gt;(śpā)lmeṃ tre&lt;/i&gt;: last part of the translation 7.15d &lt;i&gt;brāhmaṇapravarās trayaḥ&lt;/i&gt; 'die drei brahmanischen Ahnherren' ([[Hartmann JU 1987]]: 225).&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b3.&lt;/b&gt; &lt;i&gt;na (h)i&lt;/i&gt;: beginning of Skt. 7.16a.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b4.&lt;/b&gt; &lt;i&gt;mā brāmaṇi ytār kl(awanträ)&lt;/i&gt;: renders 7.16b &lt;i&gt;na brāhmī pratipat kva cit&lt;/i&gt; 'nirgendwo den brahmanischen Weg' ([[Hartmann JU 1987]]: 226). [[Couvreur 1966]]: 177 restores to &lt;i&gt;kl(yant naṣ)&lt;/i&gt; 'bevindt zich [niet]', i.e. 'is [not] there', but the relevant akṣara can only be &lt;i&gt;kla&lt;/i&gt; or &lt;i&gt;klā&lt;/i&gt;. With the restoration &lt;i&gt;kl(awanträ)&lt;/i&gt;, a literal translation of the Tocharian A text becomes: 'they do [not] call the Brahmanic path'.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b5.&lt;/b&gt; The end of 7.17.a, and 7.17b.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b6.&lt;/b&gt; &lt;i&gt;(e)he kāsu kälko yruñci&lt;/i&gt;: renders the beginning of 7.17c &lt;i&gt;(sugatāve)ṇikaivaiṣā&lt;/i&gt; 'gerade nur [dem Wohlgegangenen] eigentümlich ist' ([[Hartmann JU 1987]]: 227. There is no place for the equivalent of TA &lt;i&gt;ehe&lt;/i&gt; 'oh' in the restored Skt. text. On &lt;i&gt;yruñci&lt;/i&gt;, the equivalent of Skt. &lt;i&gt;āveṇika&lt;/i&gt; 'independent; characteristic', see [[Couvreur 1966]]: 177.&lt;/p&gt;</item>
+               <item n="m_editor_old">Gerd Carling (text), Michaël Peyrot (commentary)</item>
+               <item n="m_size_w_old"/>
+               <item n="m_expedition_old">T III M 135.3</item>
+               <item n="m_language_old">Sanskrit+TA</item>
+               <item n="m_remarks_old">&lt;p&gt;The reading of the leaf number is very uncertain. The first akṣara (there was probably no other one on top of this one) seems to be ‹60›, the second may be ‹7›, ‹8›, or ‹9›. If the reading of at least the ‹60› is correct, the manuscript will have contained another text preceding the Varṇārhavarṇastotra: with approximately 7 strophes per leaf, the beginning of the latter text may have to be placed about 35 leaves before this one.&lt;/p&gt;</item>
+               <item n="m_other_sigla_old">THT 1026</item>
+               <item n="m_script_old">Classical</item>
+               <item n="project_comment_old"/>
+               <item n="ms_old">A 392</item>
+               <item n="m_parallels_old">[[Hartmann JU 1987]]: 223-227</item>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_meter_old"/>
+               <item n="m_title_old">Varṇārhavarṇastotra</item>
+               <item n="m_transcription_old"> kudṛṣṭivimatigrasto|(kudṛṣṭivimati)|grasto
+a1 : brāhmaṇa kiṃ bhavi(ṣyati) ///
+a2 śkaṃ tom kleśāñ tñi ā(kṣiñluneyäṣ) ///
+a3 sāphalyam āgataḥ 10(-2) ///
+a4 oko lyockäṣt täm(y)o ///
+a5 oktasi ytār nervāṃ /// sadṛśa|(sa)|dṛśa
+a6 kaś cid bhava(ti) ///
+b1 mā śkaṃ kāse klo /// brāhmaṇapravarās|(brāhmaṇa)|pravarās
+b2 trayaḥ 10(-5) /// śpālmeṃ_(TA)|(śpā)|lmeṃ
+b3 tre 15 na (h)i ///
+b4 mā brāmaṇi ytār kl(awanträ) ///
+b5 loke sarvaṃ tat tava śā(sanāt) /// ehe|(e)|he
+b6 kāsu kälko yruñci ///</item>
+               <item n="m_leaf_old">[67]</item>
+               <item n="m_prev_old"/>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old">bernhard</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_subgenre_old">Buddhastotra</item>
+               <item n="m_translation_old"/>
+               <item n="project_check_old"/>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Prose</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="en"
+     xml:id="m-pkns12and516">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PK NS 13 and 516</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Georges-Jean Pinault</name>
+            </respStmt>
+            <respStmt>
+               <resp>collaborator</resp>
+               <name>Hannes A. Fellner</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <date when="2014-07">July 2014</date>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</repository>
+                  <idno>PK NS 13 and 516</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Dīrghagāma</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>6,5</height>
+                              <width>7,2</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <dimensions type="line_spacing">
+                              <height>1,3</height>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Duldur-Akhur</region><placeName>DA, cour</placeName></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="txb" ana="frg:ls-cetom-classical frg:ls-cetom-aberrant-late"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Doctrine</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone><unclear>o</unclear></zone><zone>ṅko</zone><zone>lma</zone><zone>ññe</zone><zone>ā</zone><zone>ṅKA¯</zone><zone>¯R</zone><zone>•</zone><zone>ma</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><space type="string_hole"/><zone>tā</zone><zone>wmeṃ</zone><zone>•</zone><zone>a</zone><zone>mu</zone><zone>kaṃ</zone><zone>•</zone><zone>t<gap reason="plain" unit="part"/></zone><zone><unclear>u</unclear></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><space type="string_hole"/><zone>wi</zone><zone>tsa</zone><zone>kai</zone><zone>wa¯</zone><zone>¯T</zone><zone>•</zone><zone>śu</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><space type="string_hole"/><zone>•</zone><zone>ā</zone><zone>ñma</zone><zone>lā</zone><zone>ṢṢA</zone><zone>lñe</zone><zone>e</zone><zone>cce</zone><zone><unclear>e</unclear></zone><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><gap reason="lost"/><gap reason="plain" quantity="2"/><zone>vi</zone><zone>bha</zone><zone>ja</zone><zone>ti</zone><zone>•</zone><zone>pu</zone><zone>tta</zone><zone>ṅgaṃ</zone><zone>•</zone><zone>vi</zone><zone>va</zone><zone>ra</zone><zone>t<unclear>i</unclear></zone><zone><gap reason="plain" unit="part"/>u</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone><unclear>n</unclear><gap reason="plain" unit="part"/></zone><zone>se</zone><zone>a</zone><zone>ṣāṃ</zone><zone>•</zone><zone>a</zone><zone>ni</zone><zone>ccha</zone><zone>nti</zone><zone>kā</zone><zone>ma</zone><zone>pi</zone><zone>•</zone><zone>s<unclear>n</unclear>ai</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><space type="string_hole"/><zone>ñi</zone><zone>śka</zone><zone>na</zone><zone>ra</zone><zone>no</zone><zone>tā¯</zone><zone>¯u</zone><zone>ta</zone><zone><gap reason="plain" unit="part"/>i</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><space type="string_hole"/><zone>ṣa¯</zone><zone>¯ñä</zone><zone>mī</zone><zone>ṣe</zone><zone>yai</zone><zone>ko</zone><zone><unclear>rm</unclear>e<gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><space type="string_hole"/><zone>nmā</zone><zone>ṣṣe</zone><zone>ñcaṃ</zone><zone>•</zone><zone>pha</zone><zone>l<unclear>ā</unclear>ṃ</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><gap reason="lost"/><zone><unclear>nma</unclear></zone><zone>ṣṣi</zone><zone>TA¯</zone><zone>¯R∘</zone><zone>ni</zone><zone>ḥ</zone><zone>śṛ</zone><zone>tya</zone><zone>•</zone><zone>sai</zone><zone>m<unclear>y</unclear>ā</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><w>oṅkolmaññe</w><w>āṅkär</w><pc>•</pc><w>ma<supplied>hāśaila</supplied></w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><w>tāwmeṃ</w><pc>•</pc><w>amukaṃ</w><pc>•</pc><w>t<supplied>ā</supplied>U</w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><w>witsakai</w><w>wat</w><pc>•</pc><w>śu</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="lost"/><pc>•</pc><w>āñmalāṣṣälñe</w><w>ecce</w><w>e<supplied>ṅkormeṃ</supplied></w><gap reason="lost"/>
+<lb corresp="#a5"/><gap reason="lost"/><gap reason="plain" quantity="2"/><w>vibhajati</w><pc>•</pc><w>puttaṅgaṃ</w><pc>•</pc><w>vivarati</w><w><supplied>r</supplied>u<supplied>ṣtär</supplied></w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><w>-n<supplied>t</supplied>se</w><w>aṣāṃ</w><pc>•</pc><w>anicchantikām</w><w>api</w><pc>•</pc><w>snai</w><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><w><supplied>eka</supplied>ñiśkana</w><w>rano</w><w>tāU</w><w>ta<gap reason="plain" unit="part"/>i</w><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><w>ṣañ</w><w>mīṣe</w><w>yaikorme<supplied>ṃ</supplied></w><gap reason="lost"/>
+<lb corresp="#b4"/><gap reason="lost"/><w><supplied>yä</supplied>nmāṣṣeñcaṃ</w><pc>•</pc><w>phalāṃ<supplied>tarāyaṃ</supplied></w><gap reason="lost"/>
+<lb corresp="#b5"/><gap reason="lost"/><w><supplied>ta</supplied>nmaṣṣitär</w><w>niḥśṛtya</w><pc>•</pc><w>saim</w><w>yā<supplied>mormeṃ</supplied></w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">/// elephant's tusk • <hi>Sanskrit</hi> ///</seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">/// from that one • <hi>Sanskrit</hi> • to that one ///</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">/// either the root • <hi>Sanskrit</hi> ///</seg></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl">/// having seized compassion towards oneself /// </seg></seg></choice><choice corresp="#a5"><seg><seg type="prim_transl">/// <hi>Sanskrit</hi> • he separates • <hi>Sanskrit</hi> he open(s) ///</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">/// worthy of ... • <hi>Sanskrit</hi> • without ... ///</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">/// even that (f. sg.) as little possessions (?) ... ///</seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl">/// having removed  his own estate ///</seg></seg></choice><choice corresp="#b4"><seg><seg type="prim_transl">/// the ones reaching ... • <hi>Sanskrit</hi>   </seg></seg></choice><choice corresp="#b5"><seg><seg type="prim_transl">/// he may generate <hi>Sanskrit</hi> • having taken refuge ///</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="philcomment" subtype="Correspondences_in_Tocharian_A">Note that the recto and verso of the fragment <ref type="ms" target="txt:m-a463"/> have to be reversed, cf. <bibl><title corresp="ref:couvreur1967"/><citedRange>163</citedRange></bibl>.</note><note type="remarks">The little fragment PK NS 516 completes the fragment PK NS 13 on the left side. The resulting fragment belongs to the middle part of a leaf including the right part of the string hole. The fragment belongs to a leaf of the same manuscript to which <ref type="ms" target="txt:m-pkns12"/> belongs. The text contains Tocharian B translations of words and phrases of the Śrāmaṇyaphalasūtra. Some of them have parallels in Tocharian A, namely <ref type="ms" target="txt:m-a460"/> and <ref type="ms" target="txt:m-a466"/>, <ref type="ms" target="txt:m-a461"/> and <ref type="ms" target="txt:m-a465"/>.</note><note corresp="#a1" type="philcomment" subtype="Correspondences_in_Tocharian_A">This line corresponds to <ref type="ms" target="txt:m-a461"/> and <ref type="ms" target="txt:m-a465"/> a3.</note><note corresp="#a2" type="philcomment" subtype="Correspondences_in_Tocharian_A">This line corresponds to <ref type="ms" target="txt:m-a461"/> and <ref type="ms" target="txt:m-a465"/> a4.</note><note corresp="#a4" type="philcomment" subtype="Correspondences_in_Tocharian_A">This line corresponds to <ref type="ms" target="txt:m-a461"/> and <ref type="ms" target="txt:m-a465"/> b2.</note><note corresp="#a5" type="lingcomment">The form <hi>puttaṅgaṃ</hi> is a misspelling for <hi>puttaṅkäṃ</hi> as translation of Skt. <hi>vibhajati</hi> and it matches Tocharian A <hi>putäṅkāṣ</hi> as restored in <ref type="ms" target="txt:m-a461"/> and <ref type="ms" target="txt:m-a465"/> b4.</note><note corresp="#a5" type="philcomment" subtype="Correspondences_in_Tocharian_A">This line corresponds to <ref type="ms" target="txt:m-a461"/> and <ref type="ms" target="txt:m-a465"/> b4.</note><note corresp="#b1" type="philcomment" subtype="Correspondences_in_Tocharian_A">This line corresponds to <ref type="ms" target="txt:m-a461"/> and <ref type="ms" target="txt:m-a465"/> b5.</note><note corresp="#b4" type="philcomment">The <hi>nt</hi>-participle <hi>yänmāṣṣeñcaṃ</hi> shows the late form of the nominative plural ending instead of standard <hi>-añ</hi>.</note><note corresp="#b4" type="philcomment" subtype="Correspondences_in_Tocharian_A">This line corresponds to <ref type="ms" target="txt:m-a463"/> a4 ‹ b4.</note><note corresp="#b5" type="philcomment">The form <hi>(ta)nmaṣṣitär</hi> is 3sg middle of the Kausativ of the root <hi>täm-</hi> 'to produce', cf. <bibl><title corresp="ref:malzahn2010"/><citedRange>653</citedRange></bibl>.</note><note corresp="#b5" type="philcomment" subtype="Correspondences_in_Tocharian_A">This line corresponds to <ref type="ms" target="txt:m-a463"/> a5 ‹ b5.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>other</label><bibl><title corresp="ref:couvreur1967"/><citedRange>154-155</citedRange></bibl> pl. II.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_meter_old">5/4-3</item>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old">a1 /// oṅkolmaññe āṅkär • |ma(hāśaila) /// 
+a2 /// tāwmeṃ • |amukaṃ • t(ā)_u ///
+a3 /// witsakai wat • |śu – ///
+a4 /// • āñmalāṣṣälñe ecce e(ṅkormeṃ) ///
+a5 /// – – |vibhajati • |puttaṅgaṃ • |vivarati (r)u(ṣtär) /// 
+b1 /// -n(t)se aṣāṃ • |anicchantikām |api • snai ///
+b2 /// (eka)ñiśkana rano tā_u ta·i ///
+b3 /// ṣañ mīṣe yaikorme(ṃ) ///
+b4 /// (yä)nmāṣṣeñcaṃ • |phalāṃ(tarāyaṃ) ///
+b5 /// (ta)nmaṣṣitär |niḥśṛtya • saim yā(mormeṃ) ///</item>
+               <item n="m_title_old">Dīrghagāma</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_parallels_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="project_comment_old"/>
+               <item n="ms_old">PK NS 13 and 516</item>
+               <item n="m_language_old">Sanskrit+TB</item>
+               <item n="m_remarks_old">&lt;p&gt;The little fragment PK NS 516 completes the fragment PK NS 13 on the left side. The resulting fragment belongs to the middle part of a leaf including the right part of the string hole. The fragment belongs to a leaf of the same manuscript to which [[PK NS 12]] belongs. The text contains Tocharian B translations of words and phrases of the Śrāmaṇyaphalasūtra. Some of them have parallels in Tocharian A, namely [[A 460]] and [[A 466]], [[A 461]] and [[A 465]]. &lt;/p&gt; </item>
+               <item n="m_other_sigla_old"/>
+               <item n="m_expedition_old"/>
+               <item n="m_size_w_old">7,2</item>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_tune_old"/>
+               <item n="project_check_old"/>
+               <item n="m_translation_old">a1 /// elephant's tusk • &lt;i&gt;Sanskrit&lt;/i&gt; ///
+a2 /// from that one • &lt;i&gt;Sanskrit&lt;/i&gt; • to that one ///
+a3 /// either the root • &lt;i&gt;Sanskrit&lt;/i&gt; ///
+a4 /// having seized compassion towards oneself /// 
+a5 /// &lt;i&gt;Sanskrit&lt;/i&gt; • he separates • &lt;i&gt;Sanskrit&lt;/i&gt; he open(s) ///
+b1 /// worthy of ... • &lt;i&gt;Sanskrit&lt;/i&gt; • without ... ///
+b2 /// even that (f. sg.) as little possessions (?) ... ///
+b3 /// having removed  his own estate ///
+b4 /// the ones reaching ... • &lt;i&gt;Sanskrit&lt;/i&gt;   
+b5 /// he may generate &lt;i&gt;Sanskrit&lt;/i&gt; • having taken refuge ///</item>
+               <item n="m_subgenre_old">Doctrine</item>
+               <item n="category_old">manuscript</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old">With late forms</item>
+               <item n="user_created_old">theres</item>
+               <item n="user_modified_old">martin</item>
+               <item n="m_prev_old"/>
+               <item n="m_findspot_specific_old">DA, cour</item>
+               <item n="m_findspot_old">Duldur-Akhur</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_linedistance_old">1,3</item>
+               <item n="m_collection_old">Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</item>
+               <item n="m_lines_old">5</item>
+               <item n="access_old">public</item>
+               <item n="m_completeness_old"/>
+               <item n="file_location_old">pages/manuscript/PK_NS/pkns12and516.txt</item>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;b4.&lt;/b&gt; The &lt;i&gt;nt&lt;/i&gt;-participle &lt;i&gt;yänmāṣṣeñcaṃ&lt;/i&gt; shows the late form of the nominative plural ending instead of standard &lt;i&gt;-añ&lt;/i&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b5.&lt;/b&gt; The form &lt;i&gt;(ta)nmaṣṣitär&lt;/i&gt; is 3sg middle of the Kausativ of the root &lt;i&gt;täm-&lt;/i&gt; 'to produce', cf. [[Malzahn 2010]]: 653.&lt;/p&gt;   
+&lt;h3&gt;Correspondences in Tocharian A&lt;/h3&gt;
+&lt;p&gt;&lt;b&gt;a1.&lt;/b&gt; This line corresponds to [[A 461]] and [[A 465]] a3.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a2.&lt;/b&gt; This line corresponds to [[A 461]] and [[A 465]] a4.&lt;/p&gt; 
+&lt;p&gt;&lt;b&gt;a4.&lt;/b&gt; This line corresponds to [[A 461]] and [[A 465]] b2.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a5.&lt;/b&gt; This line corresponds to [[A 461]] and [[A 465]] b4.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b1.&lt;/b&gt; This line corresponds to [[A 461]] and [[A 465]] b5.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b4.&lt;/b&gt; This line corresponds to [[A 463]] a4 ‹ b4.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b5.&lt;/b&gt; This line corresponds to [[A 463]] a5 ‹ b5.&lt;/p&gt;
+&lt;p&gt;Note that the recto and verso of the fragment [[A 463]] have to be reversed, cf. [[Couvreur 1967]]: 163.&lt;/p&gt;</item>
+               <item n="m_passage_old"/>
+               <item n="m_editor_old">Georges-Jean Pinault (in collaboration with Hannes A. Fellner)</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_size_h_old">6,5</item>
+               <item n="m_next_old"/>
+               <item n="file_created_old">1361521666</item>
+               <item n="file_modified_old">1568043054</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old">&lt;p&gt;&lt;b&gt;a5.&lt;/b&gt; The form &lt;i&gt;puttaṅgaṃ&lt;/i&gt; is a misspelling for &lt;i&gt;puttaṅkäṃ&lt;/i&gt; as translation of Skt. &lt;i&gt;vibhajati&lt;/i&gt; and it matches Tocharian A &lt;i&gt;putäṅkāṣ&lt;/i&gt; as restored in [[A 461]] and [[A 465]] b4. &lt;/p&gt; </item>
+               <item n="m_bib_old">[[Couvreur 1967]]: 154-155, pl. II.</item>
+               <item n="m_image_old"/>
+               <item n="date_publication_old">July 2014</item>
+               <item n="m_transliteration_old">a1 /// [o]ṅkolmaññe āṅ_k_a_r\ • ma – /// 
+a2 /// ○ tāwmeṃ • amukaṃ • t·[_u] ///
+a3 /// ○ witsakai wa_t\ • śu – ///
+a4 /// ○ • āñmalā_ṣ_ṣ_alñe ecce [e] ///
+a5 /// – – vibhajati • puttaṅgaṃ • vivarat[i] ·u /// 
+b1 /// [n]·se aṣāṃ • anicchantikām api • s[n]ai ///
+b2 /// ○ ñiśkana rano tā_u ta·i ///
+b3 /// ○ ṣañä\ mīṣe yaiko[rm]e· ///
+b4 /// ○ nmāṣṣeñcaṃ • phal[ā]ṃ ///
+b5 /// [nma]ṣṣi_t_a_r\• niḥśṛtya • saim [y]ā ///</item>
+               <item n="m_language_stage_old">Classical</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

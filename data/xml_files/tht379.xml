@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht379">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 379</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 379</idno>
+                  <altIdentifier>
+                     <idno>B 379</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Bleistiftnummer 2473</idno>
+                  </altIdentifier>
+                  <msName>THT 375-379</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Vardhana-Avadāna (?)</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Murtuq</region>during <rs type="expedition_code">T III M 169.19</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-late frg:ls-tamai-C1 frg:ls-C14"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Jātaka/Avadāna</term>
+               <term type="prose_verse">prose</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=327903;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=327903;rotate=0;imageType=_M"/>
+            <graphic url="B/B379a.jpg" height="1240px" width="837px"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone>nde</zone><zone>pa</zone><zone>ñi</zone><zone>kte</zone><zone>KA</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>y<gap reason="plain" unit="part"/></zone><zone>ṣṣe</zone><zone>pa¯</zone><zone>¯T</zone><zone>laṃ</zone><zone>ṣā</zone><zone>te</zone><zone>ne</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone><unclear>pā</unclear></zone><zone>kri</zone><zone>tā</zone><zone>ko</zone><zone>ye¯</zone><zone>¯ñä</zone><zone>•</zone><zone>su</zone><zone>teṃ</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><zone>lo</zone><zone>su</zone><zone>ra</zone><zone>no</zone><zone>PA¯</zone><zone>¯S</zone><zone>śa</zone><zone>tka</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><gap reason="lost"/><zone>¯R</zone><zone>:</zone><zone>1</zone><zone>śā</zone><zone>mna</zone><zone>tu</zone><zone>lya</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=327895;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=327895;rotate=0;imageType=_M"/>
+            <graphic url="B/B379b.jpg" height="1188px" width="795px"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone><unclear>wä</unclear></zone><zone>rpā</zone><zone>te</zone><zone>॥</zone><zone>a</zone><zone>pra</zone><zone>ti</zone><zone>tu</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone>a</zone><zone>llo¯</zone><zone>¯ṅK</zone><zone>pā</zone><zone>kri</zone><zone>MA</zone><zone>skye</zone><zone><unclear>nTA</unclear></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><zone>a</zone><zone>kā¯</zone><zone>¯LK</zone><zone>s<unclear>ta</unclear>¯</zone><zone>¯rñ<unclear>ä</unclear></zone><zone>śwā</zone><zone>lle</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><zone>¯rŚ</zone><zone><unclear>•</unclear></zone><zone>i</zone><zone>sta¯</zone><zone>¯K</zone><zone>hi</zone><zone>ra</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><gap reason="lost"/><zone>lyi</zone><zone><unclear>n</unclear>e</zone><zone>te</zone><zone>ssa</zone><zone><gap reason="plain" unit="part"/>e</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><w>nde</w><w>pañikte</w><w>kä</w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>y<gap reason="plain" unit="part"/></w><w>ṣṣe</w><w>pat</w><w>laṃṣātene</w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><w>pākri</w><w>tākoye-ñ</w><pc>•</pc><w>su</w><w>teṃ</w><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="lost"/><w>lo</w><w>su</w><w>rano</w><w>päs</w><w>śatka</w><gap reason="lost"/>
+<lb corresp="#a5"/><gap reason="lost"/><w>r</w><pc>:</pc><num value="1">1</num><w>śāmna</w><w>tu</w><w>lya</w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><w>wärpāte</w><pc>॥</pc><w>apratitu</w><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><w>alloṅk</w><w>pākri</w><w>mäskyentä</w><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><w>akālk</w><w>starñ</w><w>śwālle</w><gap reason="lost"/>
+<lb corresp="#b4"/><gap reason="lost"/><w>rś</w><pc>•</pc><w>istak</w><w>hira</w><gap reason="lost"/>
+<lb corresp="#b5"/><gap reason="lost"/><w>lyine</w><w>tessa</w><w><gap reason="plain" unit="part"/>e</w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#b3"><seg><bibl><title corresp="ref:thomas1952"/><citedRange>63</citedRange></bibl></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">Acc. to <bibl><title corresp="ref:siegandsiegling1953"/><citedRange>251</citedRange></bibl>, it is uncertain whether this fragment indeed belongs to the manuscript THT 375-378.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition</label><bibl><title corresp="ref:siegandsiegling1953"/><citedRange>250-251</citedRange></bibl>. </p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 379" type="external">THT 379</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/03/0379.htm" type="external">THT 379</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_language_stage_old">Late</item>
+               <item n="m_transliteration_old">a1 /// nde pañikte _k_a ///
+a2 /// ·y· ṣṣe pa_t\ laṃṣātene ///
+a3 /// [pā]kri tākoye-ñä\ • su teṃ ///
+a4 /// lo su rano _p_a_s\ śatka ///
+a5 /// _r\ : 1 śāmna tu lya ///
+b1 /// [wä]rpāte || apratitu ///
+b2 /// alloṅ_k\ pākri _m_askye[n_t_a] ///
+b3 /// akā_l_k\ s[ta]rñ[ä]\ śwālle ///
+b4 /// r_ś\ [•] ista_k\ hira ///
+b5 /// lyi[n]e tessa ·e ///</item>
+               <item n="date_publication_old"/>
+               <item n="m_image_old">http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=327903;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=327903;rotate=0;imageType=_M||$page; recto
+http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=327895;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=327895;rotate=0;imageType=_M||$page; verso</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 379" target="idp"&gt;THT 379&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/03/0379.htm" target="titus"&gt;THT 379&lt;/a&gt;.&lt;br&gt;
+Edition: [[TochSprR(B) II]]: 250-251.&lt;br&gt;
+Translation:
+&lt;b&gt;b3&lt;/b&gt; [[Thomas 1952]]: 63.</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old">THT 375-379</item>
+               <item n="file_modified_old">1563007903</item>
+               <item n="file_created_old">1332006612</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_editor_old"/>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old"/>
+               <item n="file_location_old">pages/manuscript/THT_0001_0633/tht379.txt</item>
+               <item n="m_completeness_old"/>
+               <item n="access_old">public</item>
+               <item n="m_lines_old">5</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Murtuq</item>
+               <item n="m_prev_old"/>
+               <item n="user_modified_old">bernhard</item>
+               <item n="user_created_old">automatic</item>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_subgenre_old">Jātaka/Avadāna</item>
+               <item n="m_translation_old"/>
+               <item n="project_check_old"/>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Both</item>
+               <item n="m_expedition_old">T III M 169.19</item>
+               <item n="m_size_w_old"/>
+               <item n="m_other_sigla_old">B 379, Bleistiftnummer 2473</item>
+               <item n="m_remarks_old">Acc. to [[TochSprR(B) II]]: 251, it is uncertain whether this fragment indeed belongs to the manuscript THT 375-378.</item>
+               <item n="m_language_old">TB</item>
+               <item n="ms_old">THT 379</item>
+               <item n="project_comment_old">&lt;p&gt;Alternative classifications:
+&lt;table class="table_lines"&gt;
+  &lt;tr&gt;&lt;td title="MP"&gt;Peyrot&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="MM"&gt;Malzahn&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TT"&gt;Tamai&lt;/td&gt;&lt;td title="C1"&gt;II-1 (600-700)&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TTC14"&gt;Tamai-C14&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;</item>
+               <item n="m_script_old">Classical</item>
+               <item n="m_parallels_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old">a1 /// nde pañikte kä ///
+a2 /// ·y· ṣṣe pat laṃṣātene ///
+a3 /// pākri tākoyeṃ-ñ|tākoye-ñ • su teṃ ///
+a4 /// lo su rano päs śatka ///
+a5 /// r : 1 śāmna tu lya ///
+b1 /// wärpāte || apratitu ///
+b2 /// alloṅk pākri mäskyentä ///
+b3 /// akālk starñ śwālle ///
+b4 /// rś • istak hira ///
+b5 /// lyine tessa ·e ///</item>
+               <item n="m_title_old">Vardhana-Avadāna (?)</item>
+               <item n="m_meter_old"/>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;Alternative classifications:
+
+&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

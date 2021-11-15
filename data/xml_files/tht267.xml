@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht267">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 267</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 267</idno>
+                  <altIdentifier>
+                     <idno>Prelim. No. 485</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Pencil No. 2144</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>B 267</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>THT 1571.a</idno>
+                  </altIdentifier>
+                  <msName>THT 266-272</msName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Šorčuq</region>during <rs type="expedition_code">T III Š 101.20</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Kāvya</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=320374;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=320374;rotate=0;imageType=_M"/>
+            <graphic url="B/B267a.jpg" height="640px" width="1320px"/>
+            <line xml:id="lf"><zone>169</zone></line>
+            <line n="1" xml:id="a1"><zone>vi</zone><zone>ṣṇuṃ</zone><zone>kwā</zone><zone>ntRA</zone><zone>a</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><zone>meṃ</zone><zone>ñä</zone><zone>kte</zone><zone>a</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><zone>ma¯</zone><zone>¯R</zone><zone>sai¯</zone><zone>¯M</zone><zone>wä</zone><zone>sta</zone><zone>ta¯</zone><zone>¯ñä</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=320375;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=320375;rotate=0;imageType=_M"/>
+            <graphic url="B/B267b.jpg" height="576px" width="1192px"/>
+            <line n="1" xml:id="b1"><zone>lpa</zone><zone>rñi¯</zone><zone>¯Ś</zone><zone>LA</zone><zone>kle</zone><zone>meṃ</zone><zone>y<gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><zone>ñyā</zone><zone>mo</zone><zone>rsa</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><zone>ca</zone><zone>kka</zone><zone>rtsa</zone><zone>na</zone><zone><unclear>pe</unclear></zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <fw type="leafNum" corresp="#lf">169</fw>
+            <p>
+<lb corresp="#a1"/><w>viṣṇuṃ</w><w>kwānträ</w><w>a</w><gap reason="lost"/>
+<lb corresp="#a2"/><w>meṃ</w><w>ñäkte</w><w>a</w><gap reason="lost"/>
+<lb corresp="#a3"/><w>mar</w><w>saim</w><w>wästa</w><w>tañ</w><gap reason="lost"/>
+<lb corresp="#b1"/><w>lpar</w><w>ñiś</w><w>läklemeṃ</w><w>y<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#b2"/><w>ñ</w><w>yāmorsa</w><gap reason="lost"/>
+<lb corresp="#b3"/><w>cakkartsana</w><w>pe</w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#b1"><seg><bibl><title corresp="ref:krause1952"/><citedRange>32</citedRange></bibl></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">THT 267 has been re-published as THT 1571.a.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 267" type="external">THT 267</ref><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 1571a" type="external">THT 1571a</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/02/0267.htm" type="external">THT 267</ref><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/15/1571.htm" type="external">THT 1571</ref></bibl>. </p>
+            <p><label>Edition</label><bibl><title corresp="ref:siegandsiegling1953"/><citedRange>162-163</citedRange></bibl><bibl><title corresp="ref:tamai2007a"/><citedRange>№1571</citedRange></bibl>.a. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="category_old">manuscript</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="user_modified_old">martin</item>
+               <item n="user_created_old">automatic</item>
+               <item n="m_prev_old"/>
+               <item n="m_metric_form_old">Verse</item>
+               <item n="m_tune_old"/>
+               <item n="project_check_old"/>
+               <item n="m_subgenre_old">Kāvya</item>
+               <item n="m_translation_old"/>
+               <item n="m_parallels_old"/>
+               <item n="project_comment_old">&lt;p&gt;rename this frgm. THT 1571a and make reference from THT 267&lt;/p&gt;
+&lt;p&gt;I deleted the page THT 1571.a which was a duplicate of this one. Transliteration there has been:&lt;br&gt;&lt;trans&gt;&lt;b&gt;b1&lt;/b&gt; lpar ñi_ś\ _l_aklemeṃ y· ///&lt;br&gt;&lt;b&gt;b2&lt;/b&gt; ñ yāmorsa ///&lt;br&gt;&lt;b&gt;b3&lt;/b&gt; cakkartsa na ·e ///&lt;/trans&gt;&lt;br&gt;[sic!, only verso!] –Martin (Tue, 2018-10-23, 03:22:42 (CEST))</item>
+               <item n="ms_old">THT 267</item>
+               <item n="m_script_old">Classical</item>
+               <item n="m_other_sigla_old">Prelim. No. 485, Pencil No. 2144, B 267, THT 1571.a</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old">THT 267 has been re-published as THT 1571.a.</item>
+               <item n="m_size_w_old"/>
+               <item n="m_expedition_old">T III Š 101.20</item>
+               <item n="m_transcription_old">a1 viṣṇuṃ kwānträ a ///
+a2 meṃ ñakte|ñäkte a ///
+a3 mar saim wästa tañ ///
+b1 lpar ñiś läklemeṃ y· ///
+b2 ñ yāmorsa ///
+b3 cakkartsana pe ///</item>
+               <item n="m_leaf_old">169</item>
+               <item n="m_title_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 267" target="idp"&gt;THT 267&lt;/a&gt;, &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 1571a" target="idp"&gt;THT 1571a&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/02/0267.htm" target="titus"&gt;THT 267&lt;/a&gt;, &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/15/1571.htm" target="titus"&gt;THT 1571&lt;/a&gt;.&lt;br&gt;
+Edition: [[TochSprR(B) II]]: 162-163, [[Tamai 2007a]]: №1571.a.&lt;br&gt;
+Translation:
+&lt;b&gt;b1&lt;/b&gt; [[Krause, WTG]]: 32.</item>
+               <item n="m_manuscript_old">THT 266-272</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_image_old">http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=320374;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=320374;rotate=0;imageType=_M||THT 267 = THT 1571.a, et.al. recto
+http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=320375;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=320375;rotate=0;imageType=_M||THT 267 = THT 1571.a, et.al. verso</item>
+               <item n="m_transliteration_old">a1 viṣṇuṃ kwānt_r_a a ///
+a2 meṃ ñäkte a ///
+a3 ma_r\ sai_m\ wästa tañä\ ///
+b1 lpar ñi_ś\ _l_aklemeṃ y· ///
+b2 ñ yāmorsa ///
+b3 cakkartsana [pe] ///</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="date_publication_old"/>
+               <item n="m_editor_old"/>
+               <item n="m_philcomment_old"/>
+               <item n="m_passage_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_size_h_old"/>
+               <item n="m_next_old"/>
+               <item n="file_modified_old">1540257762</item>
+               <item n="file_created_old">1332006605</item>
+               <item n="access_old">public</item>
+               <item n="m_lines_old">3</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_completeness_old"/>
+               <item n="file_location_old">pages/manuscript/THT_0001_0633/tht267.txt</item>
+               <item n="m_findspot_old">Šorčuq</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_linedistance_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

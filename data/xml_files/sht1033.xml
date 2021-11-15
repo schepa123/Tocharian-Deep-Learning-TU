@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-sht1033">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>SHT 1033</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>SHT 1033</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>7.8</height>
+                              <width>8.3</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Murtuq</region>during <rs type="expedition_code">T III M 146</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="xto"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Gloss</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=293745;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=293745;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="a1"><zone>ywā</zone><zone>rckā</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><w>ywārckā</w></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">in the middle</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="lingcomment">The gloss is read as <hi>ywār[ś]ka</hi> by <bibl><title corresp="ref:schmidtkt1994"/><citedRange>269</citedRange></bibl>, but according to <bibl><title corresp="ref:peyrot2014"/><citedRange>138</citedRange></bibl>, the reading is clearly <hi>ywārckā</hi>. <hi>ywārckā</hi> and <hi>ywārśkā</hi> are variants, and the former is by far the most frequent (<bibl><title corresp="ref:poucha1955"/><citedRange>252</citedRange></bibl>), so that there is no reason to read <hi>ywār[ś]kā</hi>.</note><note type="philcomment">Glosses Skt. <hi>(a)nt(a)rā</hi> 'in the middle' (as shown by <bibl><title corresp="ref:schmidtkt1994"/><citedRange>269</citedRange></bibl>).</note><note type="philcomment">There is a further, illegible gloss under line a5 <hi>ekapā(do)</hi>. A cross above the line suggests that this is not a Tocharian gloss, but an addition to or a correction of the Sanskrit text, most probably in Sanskrit.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=SHT 1033" type="external">SHT 1033</ref></bibl>. </p>
+            <p><label>other</label><bibl><title corresp="ref:peyrot2014"/><citedRange>133, 138-9</citedRange></bibl>; <bibl><title corresp="ref:schmidtkt1994a"/><citedRange>269</citedRange></bibl>; <bibl><title corresp="ref:malzahn2007b"/><citedRange>304</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_size_w_old">8.3</item>
+               <item n="m_expedition_old">T III M 146</item>
+               <item n="m_other_sigla_old"/>
+               <item n="m_remarks_old"/>
+               <item n="m_language_old">Sanskrit+TA</item>
+               <item n="project_comment_old"/>
+               <item n="ms_old">SHT 1033</item>
+               <item n="m_script_old"/>
+               <item n="m_parallels_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_leaf_old"/>
+               <item n="m_title_old"/>
+               <item n="m_transcription_old">a1 ywārckā</item>
+               <item n="m_meter_old"/>
+               <item n="m_prev_old"/>
+               <item n="user_modified_old">theres</item>
+               <item n="user_created_old">theres</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_subgenre_old">Gloss</item>
+               <item n="m_translation_old">a1 in the middle</item>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_tune_old"/>
+               <item n="file_location_old">pages/manuscript/sht1033.txt</item>
+               <item n="m_completeness_old"/>
+               <item n="access_old">restricted</item>
+               <item n="m_lines_old"/>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_old">Murtuq</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_transliteration_old">a1 ywārckā</item>
+               <item n="m_language_stage_old"/>
+               <item n="date_publication_old"/>
+               <item n="m_image_old">http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=293745;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=293745;rotate=0;imageType=_M||$page; recto
+http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=293765;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=293765;rotate=0;imageType=_M||$page; verso</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=SHT 1033" target="idp"&gt;SHT 1033&lt;/a&gt;.&lt;br&gt;
+[[Peyrot 2014]]: 133, 138-9; [[Schmidt KT 1994a]]: 269; [[Malzahn 2007b]]: 304.</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old">&lt;p&gt;The gloss is read as &lt;i&gt;ywār[ś]ka&lt;/i&gt; by [[Schmidt KT 1994]]: 269, but according to [[Peyrot 2014]]: 138, the reading is clearly &lt;i&gt;ywārckā&lt;/i&gt;. &lt;i&gt;ywārckā&lt;/i&gt; and &lt;i&gt;ywārśkā&lt;/i&gt; are variants, and the former is by far the most frequent ([[Poucha, TLT]]: 252), so that there is no reason to read &lt;i&gt;ywār[ś]kā&lt;/i&gt;.&lt;/p&gt; </item>
+               <item n="file_modified_old">1485171871</item>
+               <item n="file_created_old">1445257089</item>
+               <item n="m_size_h_old">7.8</item>
+               <item n="m_next_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_editor_old"/>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old">&lt;p&gt;Glosses Skt. &lt;i&gt;(a)nt(a)rā&lt;/i&gt; 'in the middle' (as shown by [[Schmidt KT 1994]]: 269).&lt;/p&gt;
+&lt;p&gt;There is a further, illegible gloss under line a5 &lt;i&gt;ekapā(do)&lt;/i&gt;. A cross above the line suggests that this is not a Tocharian gloss, but an addition to or a correction of the Sanskrit text, most probably in Sanskrit.&lt;/p&gt;</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

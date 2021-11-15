@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-psbl186">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PS Bl 18.6</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</repository>
+                  <idno>PS Bl 18.6</idno>
+                  <altIdentifier>
+                     <idno>Pelliot Sanskrit numéro bleu 18.6</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">3+?</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="txb"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Gloss</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000198r/f44.zoom"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000198r/f44.highres"/>
+            <line n="1" xml:id="b1x"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone><gap reason="plain" unit="part"/><unclear>o</unclear>¯</zone><zone>¯u</zone><zone><gap reason="plain" unit="part"/><unclear>k</unclear><gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="2" xml:id="b2x"><zone><gap reason="plain" unit="part"/>ai</zone><zone><unclear>n</unclear><gap reason="plain" unit="part"/>o</zone><zone>rmeṃ</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#b1x"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w><supplied>s</supplied>oU<supplied>ś</supplied>k<supplied>e</supplied></w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b2x"/><w><supplied>y</supplied>ain<supplied>m</supplied>ormeṃ</w></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#b1x"><seg><seg type="prim_transl">dear son/little son(?)</seg></seg></choice><choice corresp="#b2x"><seg><seg type="prim_transl">having attained</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note corresp="#b1x" type="lingcomment">I tentatively assume that <hi>(s)o<hi rend="subscript">u</hi>(ś)k(e)</hi> is a further variant of <hi>soṃśke</hi> and <hi>sauśke</hi> (<bibl><title corresp="ref:peyrot2008"/><citedRange>92</citedRange></bibl>).</note><note corresp="#b1x" type="philcomment">Possibly glosses Skt. <hi> yaṃ kumāraṃ</hi> 'that ... youth'. This gloss is hardly readable, and the interpretation is uncertain. The corresponding Sanskrit text is unfortunately lost. On the basis of a text reconstruction of this passage of the Mahāgovindasūtra of the Dīrghāgama by Gudrun Melzer (Munich), I suggest that the text above the gloss may have been the <hi>yaṃ kumāraṃ</hi> cited above.</note><note corresp="#b2x" type="philcomment">Glosses Skt. <hi>āsādya</hi> 'near' (reading and identification by Klaus Wille with the help of a text reconstruction by Gudrun Melzer). If correctly read, the gloss does not translate <hi>āsādya</hi> in its grammaticalised sense of 'near, close by', but in a more literal sense 'having approached, obtained'. The reading of the first two akṣaras is made difficult by a piece of paper from another fragment that sticks on the surface (i.e. the text itself is probably not abraded). A large part of the second consonantal element of the second akṣara can be seen, which seems compatible with <hi>m</hi>, although this <hi>m</hi> must then have been a little different from that of the following akṣara. The akṣara <hi>rmeṃ</hi> is lowered compared to the preceding akṣaras, in order to remain under the lower part of the akṣara <hi>dya</hi> of the Skt. text.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>other</label><bibl><title corresp="ref:peyrot2015b"/><citedRange>121</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="file_created_old">1460720162</item>
+               <item n="file_modified_old">1539087016</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;b1x&lt;/b&gt; Possibly glosses Skt. &lt;i&gt; yaṃ kumāraṃ&lt;/i&gt; 'that ... youth'. This gloss is hardly readable, and the interpretation is uncertain. The corresponding Sanskrit text is unfortunately lost. On the basis of a text reconstruction of this passage of the Mahāgovindasūtra of the Dīrghāgama by Gudrun Melzer (Munich), I suggest that the text above the gloss may have been the &lt;i&gt;yaṃ kumāraṃ&lt;/i&gt; cited above.&lt;/p&gt; 
+&lt;p&gt;&lt;b&gt;b2x&lt;/b&gt; Glosses Skt. &lt;i&gt;āsādya&lt;/i&gt; 'near' (reading and identification by Klaus Wille with the help of a text reconstruction by Gudrun Melzer). If correctly read, the gloss does not translate &lt;i&gt;āsādya&lt;/i&gt; in its grammaticalised sense of 'near, close by', but in a more literal sense 'having approached, obtained'. The reading of the first two akṣaras is made difficult by a piece of paper from another fragment that sticks on the surface (i.e. the text itself is probably not abraded). A large part of the second consonantal element of the second akṣara can be seen, which seems compatible with &lt;i&gt;m&lt;/i&gt;, although this &lt;i&gt;m&lt;/i&gt; must then have been a little different from that of the following akṣara. The akṣara &lt;i&gt;rmeṃ&lt;/i&gt; is lowered compared to the preceding akṣaras, in order to remain under the lower part of the akṣara &lt;i&gt;dya&lt;/i&gt; of the Skt. text.&lt;/p&gt;</item>
+               <item n="m_passage_old"/>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="date_publication_old"/>
+               <item n="m_language_stage_old"/>
+               <item n="m_transliteration_old">b1x /// – ·[o]_u\ ·[k]· – ///
+b2x ·ai[n]·ormeṃ</item>
+               <item n="m_image_old">http://gallica.bnf.fr/ark:/12148/btv1b6000198r/f43.zoom|http://gallica.bnf.fr/ark:/12148/btv1b6000198r/f43.highres||$page; recto 18.4|transform:rotate(180deg);
+http://gallica.bnf.fr/ark:/12148/btv1b6000198r/f44.zoom|http://gallica.bnf.fr/ark:/12148/btv1b6000198r/f44.highres||$page; verso 18.4</item>
+               <item n="m_lingcomment_old">&lt;p&gt;&lt;b&gt;b1x&lt;/b&gt; I tentatively assume that &lt;i&gt;(s)o&lt;sub&gt;u&lt;/sub&gt;(ś)k(e)&lt;/i&gt; is a further variant of &lt;i&gt;soṃśke&lt;/i&gt; and &lt;i&gt;sauśke&lt;/i&gt; ([[Peyrot 2008]]: 92).&lt;/p&gt;</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_bib_old">[[Peyrot 2015b]]: 121.</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_old"/>
+               <item n="m_findspot_specific_old"/>
+               <item n="file_location_old">pages/manuscript/psbl186.txt</item>
+               <item n="m_completeness_old"/>
+               <item n="m_lines_old">3+?</item>
+               <item n="m_collection_old">Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</item>
+               <item n="access_old">restricted</item>
+               <item n="m_translation_old">b1x dear son/little son(?)
+b2x having attained</item>
+               <item n="m_subgenre_old">Gloss</item>
+               <item n="project_check_old"/>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old"/>
+               <item n="m_prev_old"/>
+               <item n="user_created_old">theres</item>
+               <item n="user_modified_old">martin</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_meter_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old">b1x /// – (s)o_u(ś)k(e) – ///
+b2x (y)ain(m)ormeṃ</item>
+               <item n="m_title_old"/>
+               <item n="m_size_w_old"/>
+               <item n="m_expedition_old"/>
+               <item n="m_remarks_old"/>
+               <item n="m_language_old">Sanskrit+TB</item>
+               <item n="m_other_sigla_old">Pelliot Sanskrit numéro bleu 18.6</item>
+               <item n="m_script_old"/>
+               <item n="project_comment_old"/>
+               <item n="ms_old">PS Bl 18.6</item>
+               <item n="m_parallels_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

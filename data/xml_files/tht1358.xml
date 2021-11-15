@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht1358">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 1358</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 1358</idno>
+                  <altIdentifier>
+                     <idno>Prelim. No. 192</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=330061;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=330061;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone><unclear>k</unclear><gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>s<gap reason="plain" unit="part"/></zone><zone>ko</zone><zone>ṭi</zone><zone>bhi</zone><zone>:</zone><zone>mai</zone><zone><gap reason="plain" unit="part"/>RA</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>nā</zone><zone>ge</zone><zone><unclear>g</unclear>RA</zone><gap reason="par" quantity="3"/><zone>kRA</zone><zone>nyraṃ</zone><zone>cai</zone><zone>tā</zone><zone>ḍa</zone><zone>saṃ</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>ā</zone><zone>ṣa</zone><zone>te</zone><zone>:</zone><zone>20</zone><zone>॥</zone><zone>॥</zone><zone>nai</zone><zone>ma</zone><zone>ññe</zone><zone>me</zone><zone>ñe</zone><zone>cai</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><gap reason="lost"/><zone>॥</zone><zone>pi</zone><zone>ṅkte</zone><zone>me</zone><zone>ñe</zone><zone>śRA</zone><zone>va</zone><zone>yä</zone><zone>ñe¯</zone><zone>¯M∘</zone><gap reason="plain" quantity="1"/><zone>॥</zone><zone>ṣka</zone><zone>ste</zone><zone>me</zone><zone>ñe</zone><zone>bha</zone><zone><gap reason="plain" unit="part"/>RA</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>k<gap reason="plain" unit="part"/></w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>s<gap reason="plain" unit="part"/></w><w>ko</w><w>ṭi</w><w>bhi</w><pc>:</pc><w>mai</w><w><gap reason="plain" unit="part"/>rä</w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>nāge</w><w>grä</w><gap reason="plain" quantity="3"/><w>krä</w><w>nyraṃ</w><w>cai</w><w>tā</w><w>ḍa</w><w>saṃ</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>ā</w><w>ṣa</w><w>te</w><pc>:</pc><num value="20">20</num><pc>॥</pc><pc>॥</pc><w>naimaññe</w><w>meñe</w><w>cai</w><gap reason="lost"/>
+<lb corresp="#a5"/><gap reason="lost"/><pc>॥</pc><w>piṅkte</w><w>meñe</w><w>śrävayä</w><w>ñem</w><gap reason="plain" quantity="1"/><pc>॥</pc><w>ṣkaste</w><w>meñe</w><w>bha</w><w><gap reason="plain" unit="part"/>rä</w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a4"><seg><seg type="prim_transl">The month of *Naim (is called) [Caitra] ///</seg></seg></choice><choice corresp="#a5"><seg><seg type="prim_transl">/// || The 5th month is called Śrāvaṇa. || The 6th month (is called) [Bhādrapada]. ///</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">verso blank</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 1358" type="external">THT 1358</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/13/1358.htm" type="external">THT 1358</ref></bibl>. </p>
+            <p><label>Edition</label><bibl><title corresp="ref:tamai2007a"/><citedRange>№1358</citedRange></bibl>. <seg corresp="#a4 #a5"><bibl><title corresp="ref:ching2010"/><citedRange>448</citedRange></bibl></seg></p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="file_location_old">pages/manuscript/THT_1100_2399/tht1358.txt</item>
+               <item n="m_lines_old">5</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="access_old">restricted</item>
+               <item n="m_completeness_old"/>
+               <item n="m_linedistance_old"/>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=330061;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=330061;rotate=0;imageType=_M||THT 1358 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=330062;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=330062;rotate=0;imageType=_M||THT 1358 verso</item>
+               <item n="date_publication_old"/>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_transliteration_old">a1 /// – [k]· – ///
+a2 /// ·s· ko ṭi bhi : mai ·_r_a ///
+a3 /// – nāge [g]_r_a (– – –) k_r_a nyraṃ cai tā ḍa saṃ – ///
+a4 /// ·ā ṣa te : 20 || || naimaññe meñe cai ///
+a5 /// || piṅkte meñe ś_r_avayä ñe_m\• – || ṣkaste meñe bha ·_r_a ///</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 1358" target="idp"&gt;THT 1358&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/13/1358.htm" target="titus"&gt;THT 1358&lt;/a&gt;.&lt;br&gt;
+Edition: [[Tamai 2007a]]: №1358.&lt;br&gt;
+&lt;b&gt;a4-5&lt;/b&gt; [[Ching 2010]]: 448.</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old"/>
+               <item n="file_created_old">1340136547</item>
+               <item n="file_modified_old">1537443873</item>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old"/>
+               <item n="m_editor_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_remarks_old">verso blank</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_other_sigla_old">Prelim. No. 192</item>
+               <item n="m_expedition_old"/>
+               <item n="m_size_w_old"/>
+               <item n="m_parallels_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="ms_old">THT 1358</item>
+               <item n="project_comment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old">a1 /// – k· – ///
+a2 /// ·s· ko ṭi bhi : mai ·rä ///
+a3 /// – nāke|nāge grä (– – –) krä nyraṃ cai tā ḍa saṃ – ///
+a4 /// ·ā ṣa te : 20 || || naimaññe meñe cai ///
+a5 /// || piṅkte meñe śrävayä ñem – || ṣkaste meñe bha ·rä ///</item>
+               <item n="m_title_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old">hannes</item>
+               <item n="m_prev_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="m_subgenre_old"/>
+               <item n="m_translation_old">a4 The month of *Naim (is called) [Caitra] ///
+a5 /// || The 5th month is called Śrāvaṇa. || The 6th month (is called) [Bhādrapada]. ///</item>
+               <item n="m_metric_form_old"/>
+               <item n="m_tune_old"/>
+               <item n="project_check_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

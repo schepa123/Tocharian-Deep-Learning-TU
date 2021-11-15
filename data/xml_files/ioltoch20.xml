@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-ioltoch20">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>IOL Toch 20</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library (London)</repository>
+                  <idno>IOL Toch 20</idno>
+                  <altIdentifier>
+                     <idno>H 149.74</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>A.74</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions unit="cm" type="leaf">
+                              <height>9.5</height>
+                              <width>5.1</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>archaic</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-archaic frg:ls-malzahn-A4 frg:ls-C14"/>
+         </langUsage>
+         <textClass default="false">
+            <keywords>
+               <term type="genre">Literary</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface n="NSIKHHDBSLXUJUDWPHSQZDWP" type="recto" lrx="538" lry="1024">
+            <graphic url="IOL/IOL20a.jpg" height="1024px" width="538px"/>
+            <graphic xmlns:trsc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+                     n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=6882;rotate=0;imageType=_L"/>
+            <graphic xmlns:trsc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+                     n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=6882;rotate=0;imageType=_M"/>
+            <line xml:id="a1" points="88,131 485,142 458,52 288,4 107,35" n="1">
+               <gap reason="lost"/>
+               <gap reason="plain" quantity="1"/>
+               <zone points="213,64 210,109 258,130 291,97 268,64">t<gap unit="part" reason="plain"/></zone>
+               <zone points="278,25 273,65 304,109 350,110 369,91 373,46 319,22">po</zone>
+               <zone points="382,48 374,91 346,114 351,126 432,111 421,58"><gap unit="part" reason="plain"/>r<gap unit="part" reason="plain"/></zone>
+               <gap reason="lost"/>
+            </line>
+            <line xml:id="a2" points="87,145 94,282 501,295 491,151" n="2">
+               <gap reason="lost"/>
+               <zone points="101,165 147,178 152,267 122,259 96,197"><gap unit="part" reason="plain"/><unclear>yā</unclear></zone>
+               <zone points="192,184 154,217 160,247 201,269 261,243 233,190">ka</zone>
+               <zone points="293,183 250,204 270,253 311,257 340,230 324,204">o</zone>
+               <zone points="332,171 313,187 339,228 337,263 356,269 392,257 382,227 407,203 385,177">ro</zone>
+               <zone points="418,163 399,193 408,203 384,228 397,261 444,288 486,261 440,167">ttse</zone>
+               <gap reason="lost"/>
+            </line>
+            <line xml:id="a3" points="69,397 221,429 519,439 500,297 89,285" n="3">
+               <gap reason="lost"/>
+               <gap reason="plain" quantity="1"/>
+               <zone points="164,301 134,345 136,362 119,384 122,397 178,414 200,415 235,362 191,301">kle</zone>
+               <zone points="245,327 231,345 239,361 230,381 272,412 311,407 305,390 309,359 318,351 308,332">a</zone>
+               <zone points="338,303 315,319 318,351 310,359 312,384 353,396 387,378 384,322">vī</zone>
+               <zone points="415,300 386,351 388,402 442,429 481,409 464,374 448,312">śne</zone>
+               <gap reason="par" quantity="1"/>
+               <gap reason="lost"/>
+            </line>
+            <line xml:id="a4"
+                  points="74,399 18,549 116,557 231,601 334,560 520,569 522,440 220,429"
+                  n="4">
+               <gap reason="lost"/>
+               <zone points="74,480 76,523 135,558 170,552 188,511 146,416 120,410 88,426">lme¯</zone>
+               <zone points="194,511 172,545 202,582 230,593 271,582 282,561 251,549 230,519">¯nts</zone>
+               <zone points="237,446 212,492 252,550 281,561 320,554 296,499 296,453">60-2</zone>
+               <zone points="295,454 297,500 317,526 365,528 382,488 351,458">po</zone>
+               <zone points="394,454 378,500 436,551 489,553 505,525 477,508 482,492 425,453">yśi</zone>
+               <zone points="483,486 477,510 505,525 508,548 523,548 522,470 501,470"><unclear>m</unclear><gap unit="part" reason="plain"/></zone>
+               <gap reason="lost"/>
+            </line>
+            <line xml:id="a5"
+                  points="227,601 17,572 30,721 166,691 200,718 344,706 514,697 518,573 317,577"
+                  n="5">
+               <gap reason="lost"/>
+               <zone points="62,610 23,627 26,660 51,703 97,688 81,648 94,631 91,618">pu</zone>
+               <zone points="88,590 82,610 91,620 94,631 82,650 101,691 155,696 172,683 170,669 151,657 154,599">dñä</zone>
+               <zone points="194,614 161,635 163,663 171,668 172,694 209,718 265,695 259,675 236,664 230,632">KTA</zone>
+               <zone points="276,595 235,634 240,664 259,675 273,707 309,710 355,697 355,675 330,661 323,632 301,595">ññe</zone>
+               <zone points="331,589 326,643 330,659 354,676 359,684 402,697 442,672 414,645 362,590">ṣṣe</zone>
+               <gap reason="plain" quantity="1"/>
+               <gap reason="lost"/>
+            </line>
+            <line xml:id="a6"
+                  points="35,721 75,840 377,821 507,828 515,696 201,719 168,693"
+                  n="6">
+               <gap reason="lost"/>
+               <zone points="130,721 81,715 60,766 81,818 142,815"><gap unit="part" reason="plain"/>ä</zone>
+               <zone points="214,793 187,765 185,705 163,693 133,724 144,815 194,817">rtte</zone>
+               <zone points="247,722 227,723 191,767 215,800 249,801 292,783 281,763 294,738">ñä</zone>
+               <zone points="285,769 322,803 373,806 386,784 360,767 349,716 319,712 303,725">tse</zone>
+               <zone points="371,721 359,732 373,776 440,820 472,817 466,761 429,718"><unclear>sp</unclear>o</zone>
+               <gap reason="plain" quantity="1"/>
+               <gap reason="lost"/>
+            </line>
+            <line xml:id="a7"
+                  points="68,845 90,951 446,959 501,947 505,829 380,823"
+                  n="7">
+               <gap reason="lost"/>
+               <gap reason="plain" quantity="1"/>
+               <zone points="204,845 190,861 211,887 209,908 205,929 235,946 264,931 284,876 247,848">ro</zone>
+               <zone points="267,840 259,859 280,880 272,928 300,945 329,928 351,865 327,843">ro</zone>
+               <zone points="365,834 330,889 338,920 381,945 414,915 393,839"><gap unit="part" reason="plain"/><unclear>s</unclear>e</zone>
+               <zone points="422,833 403,891 405,935 487,930 496,852">tseṃ</zone>
+               <gap reason="lost"/>
+            </line>
+         </surface>
+         <surface n="IKCZQPCLBBTAQNPCIJHXFQNX" type="verso" lrx="549" lry="1024">
+            <graphic url="IOL/IOL20b.jpg" height="1024px" width="549px"/>
+            <graphic xmlns:trsc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+                     n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=6878;rotate=0;imageType=_L"/>
+            <graphic xmlns:trsc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+                     n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=6878;rotate=0;imageType=_M"/>
+            <line xml:id="b1" points="323,116 511,93 500,0 50,6 51,110" n="1">
+               <gap reason="lost"/>
+               <zone points="181,34 223,73 281,68 311,22 278,6 194,7">t<unclear>p</unclear><gap unit="part" reason="plain"/></zone>
+               <zone points="362,26 392,84 357,109 311,108 294,92 298,45 310,23"><gap unit="part" reason="plain"/>u<gap unit="part" reason="plain"/></zone>
+               <zone points="422,99 462,92 473,59 431,13 366,32 393,83">w<gap unit="part" reason="plain"/></zone>
+               <gap reason="lost"/>
+            </line>
+            <line xml:id="b2"
+                  points="38,213 141,236 509,214 512,93 328,116 50,111"
+                  n="2">
+               <gap reason="lost"/>
+               <zone points="99,143 75,170 93,218 138,221 151,188 140,148">ka</zone>
+               <zone points="221,177 189,117 156,117 143,149 154,192 197,199">we</zone>
+               <zone points="305,174 277,119 245,115 218,167 230,210 279,229 310,207">ktse</zone>
+               <zone points="316,140 301,156 303,202 332,217 355,204 361,156 346,137">ra</zone>
+               <zone points="383,142 355,168 367,206 408,218 429,216 447,167 417,141">kṣa</zone>
+               <zone points="460,109 445,123 448,179 470,194 499,190 491,113">ne</zone>
+               <gap reason="lost"/>
+            </line>
+            <line xml:id="b3"
+                  points="35,213 9,332 13,382 190,373 237,351 409,370 517,343 503,228 142,242"
+                  n="3">
+               <gap reason="lost"/>
+               <zone points="63,370 82,328 60,239 40,237 14,344 17,374"><unclear>l</unclear>m<gap unit="part" reason="plain"/></zone>
+               <zone points="110,264 85,303 81,349 106,372 132,371 167,350 144,333 137,266">tne</zone>
+               <zone points="168,258 144,335 160,347 211,343 229,305 190,260">śe</zone>
+               <zone points="240,285 218,326 227,337 289,348 316,308 302,295">MA</zone>
+               <zone points="340,260 315,314 359,356 404,363 428,331 395,316 395,276 374,259">cpī</zone>
+               <zone points="420,249 402,266 402,316 440,333 472,332 486,292 437,253">ṣe</zone>
+               <zone points="485,290 473,329 493,340 508,336 502,285"><unclear>m</unclear><gap unit="part" reason="plain"/></zone>
+               <gap reason="lost"/>
+            </line>
+            <line xml:id="b4"
+                  points="191,375 17,388 18,453 67,526 527,522 532,419 510,364 406,376 234,355"
+                  n="4">
+               <gap reason="lost"/>
+               <gap reason="plain" quantity="1"/>
+               <zone points="186,394 163,433 166,452 204,471 254,463 257,428 276,415 278,382 257,365 229,366">lo</zone>
+               <zone points="287,412 259,428 263,443 345,501 402,479 402,457 383,442 369,411">yNA</zone>
+               <zone points="400,408 389,443 419,482 461,499 482,492 488,437 458,404">pya</zone>
+               <gap reason="plain" quantity="1"/>
+               <gap reason="lost"/>
+            </line>
+            <line xml:id="b5" points="66,528 115,656 501,648 518,523" n="5">
+               <gap reason="lost"/>
+               <zone points="167,610 187,582 182,571 101,571 109,615">ya</zone>
+               <zone points="198,561 171,607 183,622 249,628 274,587 266,578">MA</zone>
+               <zone points="280,570 264,602 301,620 330,618 347,590 345,573">ṣa</zone>
+               <zone points="343,532 347,590 338,630 354,642 388,636 401,579 373,566 373,532">re</zone>
+               <zone points="397,543 374,555 375,566 403,580 396,604 427,619 469,608 476,558 446,541">po</zone>
+               <gap reason="lost"/>
+            </line>
+            <line xml:id="b6"
+                  points="121,656 85,791 203,806 256,786 493,791 501,653"
+                  n="6">
+               <gap reason="lost"/>
+               <gap reason="plain" quantity="1"/>
+               <zone points="179,699 137,716 160,779 208,801 254,778 244,745 222,714">wSA</zone>
+               <zone points="267,668 242,732 298,774 339,746 344,728 293,668">k<unclear>r</unclear>e</zone>
+               <zone points="358,699 342,738 346,750 408,761 429,726 419,710">PA</zone>
+               <zone points="431,667 420,712 428,725 422,738 450,775 479,773 481,680 460,664"><unclear>k</unclear>e</zone>
+               <gap reason="lost"/>
+            </line>
+            <line xml:id="b7"
+                  points="204,806 88,801 147,888 289,955 485,881 492,796 256,788"
+                  n="7">
+               <gap reason="lost"/>
+               <zone points="144,811 113,825 159,885 190,883 185,824"><gap unit="part" reason="plain"/>ī</zone>
+               <zone points="271,871 270,846 245,808 224,800 207,810 190,866 192,883 248,897"><gap unit="part" reason="plain"/>e</zone>
+               <zone points="296,812 271,853 272,868 304,880 359,883 383,853 356,817">yä</zone>
+               <zone points="386,798 370,816 384,853 377,867 391,886 422,887 446,837 411,800"><gap unit="part" reason="plain"/>e</zone>
+               <gap reason="lost"/>
+            </line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+               <lb corresp="#a1"/>
+               <gap reason="lost"/>
+               <gap reason="plain" quantity="1"/>
+               <w>t<gap reason="plain" unit="part"/></w>
+               <w>po</w>
+               <w><gap reason="plain" unit="part"/>r<gap reason="plain" unit="part"/></w>
+               <gap reason="lost"/>
+               <lb corresp="#a2"/>
+               <gap reason="lost"/>
+               <w><gap reason="plain" unit="part"/>yā</w>
+               <w>ka</w>
+               <w>orottse</w>
+               <gap reason="lost"/>
+               <lb corresp="#a3"/>
+               <gap reason="lost"/>
+               <w><supplied>lä</supplied>kle</w>
+               <w>avīśne</w>
+               <gap reason="plain" quantity="1"/>
+               <gap reason="lost"/>
+               <lb corresp="#a4"/>
+               <gap reason="lost"/>
+               <w><supplied>ono</supplied>lments</w>
+               <num value="62">60-2</num>
+               <w>poyśi</w>
+               <w>m<gap reason="plain" unit="part"/></w>
+               <gap reason="lost"/>
+               <lb corresp="#a5"/>
+               <gap reason="lost"/>
+               <w>pudñäktäññeṣṣe</w>
+               <gap reason="plain" quantity="1"/>
+               <gap reason="lost"/>
+               <lb corresp="#a6"/>
+               <gap reason="lost"/>
+               <w><gap reason="plain" unit="part"/>ärtteñätse</w>
+               <w>spo<supplied>rttoträ</supplied></w>
+               <gap reason="lost"/>
+               <lb corresp="#a7"/>
+               <gap reason="lost"/>
+               <gap reason="plain" quantity="1"/>
+               <w>r</w>
+               <w>oro<supplied>tt</supplied>se</w>
+               <w>tseṃ</w>
+               <gap reason="lost"/>
+               <lb corresp="#b1"/>
+               <gap reason="lost"/>
+               <w>tp<gap reason="plain" unit="part"/></w>
+               <w><gap reason="plain" unit="part"/>U</w>
+               <w><gap reason="plain" unit="part"/>w<gap reason="plain" unit="part"/></w>
+               <gap reason="lost"/>
+               <lb corresp="#b2"/>
+               <gap reason="lost"/>
+               <w>ka</w>
+               <w>wektse</w>
+               <w>rakṣane</w>
+               <gap reason="lost"/>
+               <lb corresp="#b3"/>
+               <gap reason="lost"/>
+               <w><supplied>ono</supplied>lm<supplied>e</supplied></w>
+               <w>tne</w>
+               <w>śemä</w>
+               <w>cpī</w>
+               <w>ṣem<gap reason="plain" unit="part"/></w>
+               <gap reason="lost"/>
+               <lb corresp="#b4"/>
+               <gap reason="lost"/>
+               <gap reason="plain" quantity="1"/>
+               <w>loynä</w>
+               <w>pya</w>
+               <gap reason="plain" quantity="1"/>
+               <gap reason="lost"/>
+               <lb corresp="#b5"/>
+               <gap reason="lost"/>
+               <w>yamäṣare</w>
+               <w>po</w>
+               <gap reason="lost"/>
+               <lb corresp="#b6"/>
+               <gap reason="lost"/>
+               <gap reason="plain" quantity="1"/>
+               <w>wsä</w>
+               <w>kre</w>
+               <w>pä</w>
+               <w>ke</w>
+               <gap reason="lost"/>
+               <lb corresp="#b7"/>
+               <gap reason="lost"/>
+               <w><gap reason="plain" unit="part"/>ī</w>
+               <w><gap reason="plain" unit="part"/>e</w>
+               <w>yä</w>
+               <w><gap reason="plain" unit="part"/>e</w>
+               <gap reason="lost"/>
+            </p>
+         </div>
+         <div type="comments">
+            <p>
+               <note type="remarks">According to <bibl><title corresp="ref:broomhead1962"/><citedRange>274</citedRange></bibl> "[w]ritten in medium ductus, and clearly preserved. Middle of a seven line manuscript."</note>
+               <note corresp="#b3" type="philcomment"><hi>śe_m_a</hi>: <hi>_m</hi> like <hi>_n</hi></note>
+               <note corresp="#b5" type="philcomment"><hi>ya_m_a</hi>: <hi>_m</hi> like <hi>_n</hi></note>
+            </p>
+         </div>
+         <div type="bibliography">
+            <p>
+               <label>Online access</label>
+               <bibl><title corresp="ref:idp0000"/><ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 20" type="external">IOL Toch 20</ref></bibl>.</p>
+            <p>
+               <label>Edition</label>
+               <bibl><title corresp="ref:peyrot2007"/><citedRange>№20</citedRange></bibl>
+               <bibl><title corresp="ref:broomhead1962"/><citedRange>274</citedRange></bibl>..</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;b3.&lt;/b&gt; &lt;i&gt;śe_m_a&lt;/i&gt;: &lt;i&gt;_m&lt;/i&gt; like &lt;i&gt;_n&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b5.&lt;/b&gt; &lt;i&gt;ya_m_a&lt;/i&gt;: &lt;i&gt;_m&lt;/i&gt; like &lt;i&gt;_n&lt;/i&gt;&lt;/p&gt;</item>
+               <item n="m_passage_old"/>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_size_h_old">9.5</item>
+               <item n="m_next_old"/>
+               <item n="file_created_old">1322765174</item>
+               <item n="file_modified_old">1570707710</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_bib_old">&lt;p&gt;[[IDP]]: &lt;a href="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 20"&gt;IOL Toch 20&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Edition: [[Peyrot 2007]]: №20, [[Broomhead I]]: 274.&lt;/p&gt;.</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=6882;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=6882;rotate=0;imageType=_M||IOL Toch 20 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=6878;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=6878;rotate=0;imageType=_M||IOL Toch 20 verso</item>
+               <item n="date_publication_old"/>
+               <item n="m_transliteration_old">a1 /// – t· po ·r· ///
+a2 /// ·[yā] ka orottse ///
+a3 /// – kle avīśne (–) ///
+a4 /// -lments\ 60-2 poyśi [m·] ///
+a5 /// pudñä_k_t_aññeṣṣe – ///
+a6 /// ·ärtteñätse [sp]o – ///
+a7 /// – r oro ·[s]e tseṃ ///
+b1 /// t[p]· ·_u\ ·w· ///
+b2 /// ka wektse rakṣane ///
+b3 /// -[l]m· tne śe_m_a cpī ṣe[m]· ///
+b4 /// – loy_n_a pya – ///
+b5 /// ya_m_aṣare po ///
+b6 /// – w_s_a k[r]e _p_a [k]e ///
+b7 /// ·ī ·e yä ·e ///</item>
+               <item n="m_language_stage_old">Archaic</item>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_lines_old">7</item>
+               <item n="m_collection_old">British Library (London)</item>
+               <item n="access_old">restricted</item>
+               <item n="m_completeness_old"/>
+               <item n="file_location_old">pages/manuscript/IOL_Toch/ioltoch20.txt</item>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old"/>
+               <item n="project_check_old"/>
+               <item n="m_translation_old"/>
+               <item n="m_subgenre_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old">bernhard</item>
+               <item n="m_prev_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_title_old"/>
+               <item n="m_transcription_old">a1 /// – t· po ·r· ///
+a2 /// ·yā ka orotstse|orottse ///
+a3 /// lakle|(lä)kle avīśne – ///
+a4 /// onolmeṃts|(ono)lments 62 poyśi m· ///
+a5 /// pūdñäktäññeṣṣe|pudñäktäññeṣṣe – ///
+a6 /// ·ärtteñätse spo(rttoträ) ///
+a7 /// – r orotstse|oro(tt)se tseṃ ///
+b1 /// tp· ·_u ·w· ///
+b2 /// ka wektse rakṣane ///
+b3 /// (ono)lm(e) tane|tne śemä cpī ṣem· ///
+b4 /// – loynä pya – ///
+b5 /// yamaṣṣare|yamäṣare po ///
+b6 /// – wsä kre pä ke ///
+b7 /// ·ī ·e yä ·e ///</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_parallels_old"/>
+               <item n="m_script_old">Archaic</item>
+               <item n="project_comment_old">&lt;p&gt;Alternative classifications:
+&lt;table class="table_lines"&gt;
+  &lt;tr&gt;&lt;td title="MP"&gt;Peyrot&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="MM"&gt;Malzahn&lt;/td&gt;&lt;td title="A4"&gt;common archaic&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TT"&gt;Tamai&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TTC14"&gt;Tamai-C14&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+&lt;p&gt;[[Broomhead I]]: 274 has notes.&lt;/p&gt;</item>
+               <item n="ms_old">IOL Toch 20</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old">&lt;p&gt;According to [[Broomhead I]]: 274 "[w]ritten in medium ductus, and clearly preserved. Middle of a seven line manuscript."&lt;/p&gt;</item>
+               <item n="m_other_sigla_old">H 149.74; A.74</item>
+               <item n="m_size_w_old">5.1</item>
+               <item n="m_expedition_old"/>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;Alternative classifications:
+
+&lt;/p&gt;&lt;p&gt;&lt;bibl&gt;&lt;title corresp="ref:broomhead1962"/&gt;&lt;citedRange&gt;274&lt;/citedRange&gt;&lt;/bibl&gt; has notes.&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

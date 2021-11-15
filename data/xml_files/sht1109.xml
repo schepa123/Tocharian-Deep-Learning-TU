@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-sht1109">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>SHT 1109</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>SHT 1109</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>5.8</height>
+                              <width>12.5</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Murtuq</region>during <rs type="expedition_code">T III M 137</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Gloss</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=294325;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=294325;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="a1x"><gap reason="lost"/><zone>jaṃ</zone></line>
+            <line n="2" xml:id="a2x"><zone>ku</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="3" xml:id="a3x"><zone>ke</zone><zone>tsi</zone><zone>ve</zone></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=294310;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=294310;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="b1x"><gap reason="plain" quantity="2"/><zone><unclear>k</unclear><gap reason="plain" unit="part"/></zone><zone><unclear>y</unclear><gap reason="plain" unit="part"/></zone><zone><unclear>k</unclear>ā</zone><zone>ve</zone><zone>Ṣma</zone><zone>MA</zone><zone>skeṃ</zone><zone>nta¯</zone><zone>¯R∘</zone><zone>tusa</zone><zone><unclear>m</unclear>ā</zone><zone>ri</zone><zone>tte</zone><zone>tRA</zone><zone>te</zone><zone>m<gap reason="plain" unit="part"/></zone><zone><unclear>y</unclear><gap reason="plain" unit="part"/></zone></line>
+            <line n="2" xml:id="b2x"><gap reason="lost"/><zone>lñe</zone></line>
+            <line n="2" xml:id="b2y"><zone>a</zone><zone>pā</zone><zone>ynta</zone><zone>ne</zone><zone>cme</zone><zone>lñe</zone><zone>ṣṣe</zone><zone>ṣa</zone><zone>RA¯</zone><zone>¯M∘</zone><zone>ve¯</zone><zone>¯Ṣ∘</zone><zone>laṃ</zone><zone>si</zone><zone>ve¯</zone><zone>¯Ṣ∘</zone></line>
+            <line n="3" xml:id="b3x"><zone>kā</zone><zone>ttsi</zone><zone>ve</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1x"/><gap reason="lost"/><w>jaṃ</w>
+<lb corresp="#a2x"/><w>ku<supplied>śala<milestone unit="w" type="break"/></supplied></w><gap reason="lost"/>
+<lb corresp="#a3x"/><w>ketsi</w><w>ve</w>
+<lb corresp="#b1x"/><gap reason="plain" quantity="2"/><w>k<gap reason="plain" unit="part"/></w><w>y<gap reason="plain" unit="part"/></w><w>kā</w><w>veṣ</w><w>ma</w><w>mäskeṃntar</w><w>tUsa</w><w>mā</w><w>ritteträ</w><w>te</w><w>m<gap reason="plain" unit="part"/></w><w>y<gap reason="plain" unit="part"/></w>
+<lb corresp="#b2x"/><gap reason="lost"/><w><supplied>mā-nesa</supplied>lñe</w>
+<lb corresp="#b2y"/><w>apāyntane</w><w>cmelñeṣṣe</w><w>ṣaräm</w><w>veṣ</w><w>laṃsi</w><w>veṣ</w>
+<lb corresp="#b3x"/><w>kāttsi</w><w>ve</w></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1x"><seg><seg type="prim_transl">/// ...</seg></seg></choice><choice corresp="#a2x"><seg><seg type="prim_transl">good</seg></seg></choice><choice corresp="#a3x"><seg><seg type="prim_transl">why?</seg></seg></choice><choice corresp="#b1x"><seg><seg type="prim_transl">Why are they no appearance? Therefore it is not connected ...</seg></seg></choice><choice corresp="#b2x"><seg><seg type="prim_transl">non-existence (?)</seg></seg></choice><choice corresp="#b2y"><seg><seg type="prim_transl">To leave the appearance caused by the rebirth in the bad existences - [that is the good] appearance (?)</seg></seg></choice><choice corresp="#b3x"><seg><seg type="prim_transl">why?</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="philcomment">This fragment was identified by Schmidt (<bibl><title corresp="ref:schmidtkt1990"/><citedRange>473</citedRange></bibl>) as 6.22-23 of Vasubandhu's <hi>Abhidharmakośabhāṣya</hi> (<bibl><title corresp="ref:pradhan1975"/><citedRange>347-8</citedRange></bibl>). As a result, recto and verso had to be reversed compared to <bibl><title corresp="ref:sanderandwaldschmidt1985"/><citedRange>104-5</citedRange></bibl> (see <bibl><title corresp="ref:wille1989"/><citedRange>223</citedRange></bibl>), and several improvements in the reading have been made possible. On this passage, see <bibl><title corresp="ref:lavalleepoussin1980"/></bibl>: vol. IV, p. 173-7.</note><note corresp="#a1x" type="philcomment">glosses Skt. Abhidh-k-bh (<bibl><title corresp="ref:pradhan1975"/><citedRange>347</citedRange></bibl> l. 23) <hi>(ūṣ)[m](a)gatalābhī</hi> 'who obtains heat'. The gloss is probably not complete and may not be Tocharian.</note><note corresp="#a2x" type="philcomment">glosses Skt. Abhidh-k-bh (<bibl><title corresp="ref:pradhan1975"/><citedRange>348</citedRange></bibl> l. 3) <hi>kuśalamūlā(ni)</hi> 'the roots of merit'. It is not certain that this gloss is actually in Tocharian B: it could also be a note in Sanskrit. The preceding gloss <hi>vṛ</hi> for <hi>vṛtti</hi> under <hi>parihīṇo</hi> 'lost' indicates that the commentary begins (<bibl><title corresp="ref:schmidtkt1990"/><citedRange>474</citedRange></bibl>).</note><note corresp="#a3x" type="lingcomment"><hi>ketsi</hi> must stand for <hi>kāttsi</hi>, introducing probably a following explanation; see line <ref type="ms" target="#b3x"/> below.</note><note corresp="#a3x" type="philcomment">glosses Skt. Abhidh-k-bh (<bibl><title corresp="ref:pradhan1975"/><citedRange>348</citedRange></bibl> l. 6) <hi>apāyān yāti</hi> 'goes to bad existences'.</note><note corresp="#b1x" type="lingcomment">The spelling <hi><hi rend="underline">ṣ</hi> ma</hi> as one akṣara for expected <hi><hi rend="underline">ṣ</hi><hi rend="subscript">\</hi> mā</hi> is highly peculiar, should this be the correct reading. The word <hi>veṣ</hi> also occurs in the gloss to the next line and may be a borrowing from Skt. <hi>veṣa</hi> (a.o.) 'appearance'. <hi>mäskeṃntar</hi> has <hi>a</hi> for <hi>ä</hi> in the final syllable.</note><note corresp="#b1x" type="philcomment">comments on Skt. Abhidh-k-bh (<bibl><title corresp="ref:pradhan1975"/><citedRange>348</citedRange></bibl> i. 14) <hi>(apāyānāṃ kila v)y[āv]ṛ(ttatvāt)</hi> 'because of the destruction of the bad existences'.</note><note corresp="#b2x" type="lingcomment">The restoration of the gloss is of course uncertain: only the abstract suffix <hi>-lñe</hi> is preserved.</note><note corresp="#b2x" type="philcomment"><hi>(mā-nesa)lñe</hi> glosses Skt. Abhidh-k-bh (<bibl><title corresp="ref:pradhan1975"/><citedRange>348</citedRange></bibl> l. 15) <hi>(asaṃbha)v(a)ḥ</hi> 'impossible'.</note><note corresp="#b2y" type="lingcomment">As for the rest of the line, <hi>ṣaräm</hi> is a late form of <hi>ṣarm</hi> (<bibl><title corresp="ref:peyrot2008"/><citedRange>57</citedRange></bibl>). Similarly, the interpretation of <hi>laṃsi</hi> as 'leave' takes it to be a late form of <hi>lantsi</hi>. The following Sanskrit gloss <hi>[p]ṛthagjina syāt<hi rend="subscript">\•</hi></hi> must stand for <hi>[p]ṛthagjanaḥ syāt<hi rend="subscript">\•</hi></hi>, probably to be understood as a continuation of the Tocharian part, i.e. '[otherwise] he may become a <hi>[p]ṛthagjana </hi> (ordinary man)'. Under the akṣara <hi>vi</hi> of the following <hi>vivartya</hi> in the same line, an indication <hi>vṛ</hi> for <hi>vṛtti</hi> is found, indicating the beginning of the commentary (see <bibl><title corresp="ref:schmidtkt1990"/><citedRange>474</citedRange></bibl>).</note><note corresp="#b2y" type="philcomment">The longer phrase comments on Skt. Abhidh-k-bh (<bibl><title corresp="ref:pradhan1975"/><citedRange>348</citedRange></bibl> l. 16) <hi>trīṇy api itara</hi> '[One may remove] three [<hi>nirvedhabhāgīyas</hi>] and [become] another [Buddha]' (cf. <bibl><title corresp="ref:lavalleepoussin1980"/></bibl>: vol. IV, 175-6).</note><note corresp="#b3x" type="lingcomment"><hi>kāttsi</hi> obviously marks different sections in the Sanskrit text, apparently a following explanation. The element <hi>ve</hi> is unclear. Perhaps it is an abbreviation of the word <hi>veṣ</hi>, found in the glosses to the lines above? A similar gloss is found on the recto, line <ref type="ms" target="#a3x"/> <hi>ketsi ve</hi> above.</note><note corresp="#b3x" type="philcomment">glosses Skt. <hi>yāsmāt</hi> (for <hi>yasmāt</hi>, not in Abhidh-k-bh (<bibl><title corresp="ref:pradhan1975"/><citedRange>348</citedRange></bibl> l. 19), as noted by <bibl><title corresp="ref:schmidtkt1990"/><citedRange>474</citedRange></bibl>) 'because'.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=SHT 1109" type="external">SHT 1109</ref></bibl>. </p>
+            <p><label>other</label><bibl><title corresp="ref:peyrot2014"/><citedRange>133, 147-9</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="project_check_old">incomplete</item>
+               <item n="m_subgenre_old">Gloss</item>
+               <item n="m_translation_old">a1x /// ...
+a2x good
+a3x why?
+b1x Why are they no appearance? Therefore it is not connected ...
+b2x non-existence (?)
+b2y To leave the appearance caused by the rebirth in the bad existences - [that is the good] appearance (?)
+b3x why?</item>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="user_modified_old">martin</item>
+               <item n="user_created_old">theres</item>
+               <item n="m_prev_old"/>
+               <item n="m_transcription_old">a1x /// jaṃ
+a2x ku(śala)- ///
+a3x ketsi ve
+b1x – – k· y· kā veṣ ma mäskeṃntar t_usa mā ritteträ te m· y·
+b2x /// (mā-nesa)lñe
+b2y apāyntane cmelñeṣṣe ṣaräm veṣ laṃsi veṣ
+b3x kāttsi ve</item>
+               <item n="m_leaf_old"/>
+               <item n="m_title_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallels_old"/>
+               <item n="ms_old">SHT 1109</item>
+               <item n="project_comment_old">&lt;p&gt;There are more possible glosses visible: (1) under the beginning of &lt;b&gt;a2&lt;/b&gt;, (2) under the end of &lt;b&gt;b4&lt;/b&gt;. Please check. –Martin (Tue, 2018-10-09, 14:53:53 (CEST))&lt;/p&gt;</item>
+               <item n="m_script_old"/>
+               <item n="m_other_sigla_old"/>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old"/>
+               <item n="m_size_w_old">12.5</item>
+               <item n="m_expedition_old">T III M 137</item>
+               <item n="m_editor_old"/>
+               <item n="m_philcomment_old">&lt;p&gt;This fragment was identified by Schmidt ([[Schmidt KT 1990]]: 473) as 6.22-23 of Vasubandhu's &lt;i&gt;Abhidharmakośabhāṣya&lt;/i&gt; ([[Pradhan 1975]]: 347-8). As a result, recto and verso had to be reversed compared to [[SHT V]]: 104-5 (see [[SHT VI]]: 223), and several improvements in the reading have been made possible. On this passage, see [[La Vallée Poussin 1980]]: vol. IV, p. 173-7.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a1x&lt;/b&gt; glosses Skt. Abhidh-k-bh ([[Pradhan 1975]]: 347 l. 23) &lt;i&gt;(ūṣ)[m](a)gatalābhī&lt;/i&gt; 'who obtains heat'. The gloss is probably not complete and may not be Tocharian.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a2x&lt;/b&gt; glosses Skt. Abhidh-k-bh ([[Pradhan 1975]]: 348 l. 3) &lt;i&gt;kuśalamūlā(ni)&lt;/i&gt; 'the roots of merit'. It is not certain that this gloss is actually in Tocharian B: it could also be a note in Sanskrit. The preceding gloss &lt;i&gt;vṛ&lt;/i&gt; for &lt;i&gt;vṛtti&lt;/i&gt; under &lt;i&gt;parihīṇo&lt;/i&gt; 'lost' indicates that the commentary begins ([[Schmidt KT 1990]]: 474).&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a3x&lt;/b&gt; glosses Skt. Abhidh-k-bh ([[Pradhan 1975]]: 348 l. 6) &lt;i&gt;apāyān yāti&lt;/i&gt; 'goes to bad existences'.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b1x&lt;/b&gt; comments on Skt. Abhidh-k-bh ([[Pradhan 1975]]: 348 i. 14) &lt;i&gt;(apāyānāṃ kila v)y[āv]ṛ(ttatvāt)&lt;/i&gt; 'because of the destruction of the bad existences'.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b2x&lt;/b&gt; &lt;i&gt;(mā-nesa)lñe&lt;/i&gt; glosses Skt. Abhidh-k-bh ([[Pradhan 1975]]: 348 l. 15) &lt;i&gt;(asaṃbha)v(a)ḥ&lt;/i&gt; 'impossible'.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b2y&lt;/b&gt; The longer phrase comments on Skt. Abhidh-k-bh ([[Pradhan 1975]]: 348 l. 16) &lt;i&gt;trīṇy api itara&lt;/i&gt; '[One may remove] three [&lt;i&gt;nirvedhabhāgīyas&lt;/i&gt;] and [become] another [Buddha]' (cf. [[La Vallée Poussin 1980]]: vol. IV, 175-6).&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b3x&lt;/b&gt; glosses Skt. &lt;i&gt;yāsmāt&lt;/i&gt; (for &lt;i&gt;yasmāt&lt;/i&gt;, not in Abhidh-k-bh ([[Pradhan 1975]]: 348 l. 19), as noted by [[Schmidt KT 1990]]: 474) 'because'.&lt;/p&gt;</item>
+               <item n="m_passage_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old">5.8</item>
+               <item n="file_modified_old">1539089633</item>
+               <item n="file_created_old">1445351687</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=SHT 1109" target="idp"&gt;SHT 1109&lt;/a&gt;.&lt;br&gt;
+[[Peyrot 2014]]: 133, 147-9.</item>
+               <item n="m_lingcomment_old">&lt;p&gt;&lt;b&gt;a3x&lt;/b&gt; &lt;i&gt;ketsi&lt;/i&gt; must stand for &lt;i&gt;kāttsi&lt;/i&gt;, introducing probably a following explanation; see line &lt;b&gt;b3x&lt;/b&gt; below.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b1x&lt;/b&gt; The spelling &lt;i&gt;&lt;u&gt;ṣ&lt;/u&gt; ma&lt;/i&gt; as one akṣara for expected &lt;i&gt;&lt;u&gt;ṣ&lt;/u&gt;&lt;sub&gt;\&lt;/sub&gt; mā&lt;/i&gt; is highly peculiar, should this be the correct reading. The word &lt;i&gt;veṣ&lt;/i&gt; also occurs in the gloss to the next line and may be a borrowing from Skt. &lt;i&gt;veṣa&lt;/i&gt; (a.o.) 'appearance'. &lt;i&gt;mäskeṃntar&lt;/i&gt; has &lt;i&gt;a&lt;/i&gt; for &lt;i&gt;ä&lt;/i&gt; in the final syllable.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b2x&lt;/b&gt; The restoration of the gloss is of course uncertain: only the abstract suffix &lt;i&gt;-lñe&lt;/i&gt; is preserved.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b2y&lt;/b&gt; As for the rest of the line, &lt;i&gt;ṣaräm&lt;/i&gt; is a late form of &lt;i&gt;ṣarm&lt;/i&gt; ([[Peyrot 2008]]: 57). Similarly, the interpretation of &lt;i&gt;laṃsi&lt;/i&gt; as 'leave' takes it to be a late form of &lt;i&gt;lantsi&lt;/i&gt;. The following Sanskrit gloss &lt;i&gt;[p]ṛthagjina syāt&lt;sub&gt;\•&lt;/sub&gt;&lt;/i&gt; must stand for &lt;i&gt;[p]ṛthagjanaḥ syāt&lt;sub&gt;\•&lt;/sub&gt;&lt;/i&gt;, probably to be understood as a continuation of the Tocharian part, i.e. '[otherwise] he may become a &lt;i&gt;[p]ṛthagjana &lt;/i&gt; (ordinary man)'. Under the akṣara &lt;i&gt;vi&lt;/i&gt; of the following &lt;i&gt;vivartya&lt;/i&gt; in the same line, an indication &lt;i&gt;vṛ&lt;/i&gt; for &lt;i&gt;vṛtti&lt;/i&gt; is found, indicating the beginning of the commentary (see [[Schmidt KT 1990]]: 474).&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b3x&lt;/b&gt; &lt;i&gt;kāttsi&lt;/i&gt; obviously marks different sections in the Sanskrit text, apparently a following explanation. The element &lt;i&gt;ve&lt;/i&gt; is unclear. Perhaps it is an abbreviation of the word &lt;i&gt;veṣ&lt;/i&gt;, found in the glosses to the lines above? A similar gloss is found on the recto, line &lt;b&gt;a3x&lt;/b&gt; &lt;i&gt;ketsi ve&lt;/i&gt; above.&lt;/p&gt;</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_image_old">http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=294325;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=294325;rotate=0;imageType=_M||$page; recto
+http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=294310;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=294310;rotate=0;imageType=_M||$page; verso</item>
+               <item n="m_language_stage_old"/>
+               <item n="m_transliteration_old">a1x /// jaṃ
+a2x ku – ///
+a3x ketsi ve
+b1x – – [k]· [y]· [k]ā ve_ṣ ma _m_askeṃnta_r\• t_usa [m]ā rittet_r_a te m· [y]·
+b2x /// lñe
+b2y apāyntane cmelñeṣṣe ṣa_r_a_m\• ve_ṣ\• laṃsi ve_ṣ\•
+b3x kāttsi ve</item>
+               <item n="date_publication_old"/>
+               <item n="m_findspot_old">Murtuq</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_linedistance_old"/>
+               <item n="access_old">restricted</item>
+               <item n="m_lines_old"/>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_completeness_old"/>
+               <item n="file_location_old">pages/manuscript/sht1109.txt</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;There are more possible glosses visible: (1) under the beginning of &lt;ref type="ms" target="__a2"/&gt;, (2) under the end of &lt;ref type="ms" target="__b4"/&gt;. Please check. –Martin (Tue, 2018-10-09, 14:53:53 (CEST))&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

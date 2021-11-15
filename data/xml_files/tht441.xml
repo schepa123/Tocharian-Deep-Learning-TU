@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht441">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 441</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 441</idno>
+                  <altIdentifier>
+                     <idno>B 441</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Bleistiftnummer 2580</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Scroll</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>cursive</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Qizil Miŋ-Öy</region>during <rs type="expedition_code">T III MQ 143.3</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-late frg:ls-peyrot-C frg:ls-C14 frg:ls-tamai-L1 frg:ls-C14"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Non-literary</term>
+               <term type="subgenre">Account</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328038;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328038;rotate=0;imageType=_M"/>
+            <graphic url="B/B441a.jpg" height="760px" width="1324px"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone><unclear>tro</unclear></zone><zone>ko¯</zone><zone>¯L</zone><zone>wi</zone><zone>to¯</zone><zone>¯M</zone><zone><del><unclear>a</unclear></del></zone><zone><del><unclear>śa</unclear></del></zone><zone><del><unclear>ri</unclear></del></zone><zone><del><unclear>ke</unclear></del></zone><zone><del><unclear>tse</unclear></del></zone><zone><del><unclear>yi</unclear></del></zone><zone><del><unclear>kṣye</unclear></del></zone></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone><unclear>¤</unclear></zone><zone>sa</zone><zone>ṅKA</zone><zone>ste</zone><zone>re</zone><zone>ā</zone><zone>rya</zone><zone>wa</zone><zone>rme</zone><zone>śa</zone><zone>rsa</zone><zone>¤</zone></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone><unclear>ma</unclear></zone><zone>sa</zone><zone>ta</zone><zone>rya</zone><zone>to¯</zone><zone>¯M</zone><zone>tro</zone><zone>ko¯</zone><zone>¯L</zone><zone>wi</zone><zone>to¯</zone><zone>¯M</zone><zone><add>pi</add></zone><zone>ṣa</zone><zone>ṅKAṃ</zone></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=327997;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=327997;rotate=0;imageType=_M"/>
+            <graphic url="B/B441b.jpg" height="730px" width="392px"/>
+            <line n="1" xml:id="b1"><zone><unclear>¤</unclear></zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><w>trokol</w><w>wi</w><w>tom</w>
+<lb corresp="#a2"/><gap reason="lost"/><seg type="monogram">¤</seg><w>saṅkästere</w><w>āryawarme</w><w>śarsa</w><seg type="monogram">¤</seg>
+<lb corresp="#a3"/><gap reason="lost"/><w>masa</w><w>tarya</w><w>tom</w><w>trokol</w><w>wi</w><w>tom</w><w>pi<add>ś</add></w><w>ṣaṅkäṃ</w>
+<lb corresp="#b1"/><seg type="monogram">¤</seg></p>
+         </div>
+         <div type="comments">
+            <p><note corresp="#a2" type="philcomment"><hi>aśari</hi>: has been read as <hi>[ka – ·i]</hi> in <bibl><title corresp="ref:siegandsiegling1953"/></bibl>.</note><note corresp="#a3" type="philcomment"><hi>pi</hi>: rectified upon <hi>wi</hi>, but <distinct type="ms_text">_ś\</distinct> has been forgotten (<bibl><title corresp="ref:ching2010"/></bibl>, 278).</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition</label><bibl><title corresp="ref:siegandsiegling1953"/><citedRange>292</citedRange></bibl>; <bibl><title corresp="ref:ching2010"/><citedRange>277-278</citedRange></bibl>.</p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 441" type="external">THT 441</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/04/0441.htm" type="external">THT 441</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_genre_old">Non-literary</item>
+               <item n="m_leaf_old"/>
+               <item n="m_title_old"/>
+               <item n="m_transcription_old">a1 /// trokol wi tom 
+a2 /// ¤ saṅkästere āryawarme śarsa ¤
+a3 /// masa tarya tom trokol wi tom pi«ś» ṣaṅkäṃ
+b1 ¤</item>
+               <item n="m_meter_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="project_comment_old">&lt;p&gt;Alternative classifications:
+&lt;table class="table_lines"&gt;
+  &lt;tr&gt;&lt;td title="MP"&gt;Peyrot&lt;/td&gt;&lt;td title="C"&gt;colloquial&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="MM"&gt;Malzahn&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TT"&gt;Tamai&lt;/td&gt;&lt;td title="L1"&gt;III-1 (900-1000)&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TTC14"&gt;Tamai-C14&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+&lt;p&gt;Translation from [[Ching 2010]]: 277–278:&lt;br&gt;
+a1 /// Allocation: two pecks. «†The Master &lt;i&gt;Ketse&lt;/i&gt;, &lt;i&gt;yikṣye&lt;/i&gt;:»&lt;br&gt;
+a2 /// [¤] &lt;i&gt;Āryawarme&lt;/i&gt; the &lt;i&gt;Saṅkästere&lt;/i&gt; has recognized. ¤&lt;br&gt;
+a3 /// [was spent]: three pecks. Allocation: two pecks, five pints.&lt;br&gt;
+b1 [¤]&lt;/p&gt;</item>
+               <item n="ms_old">THT 441</item>
+               <item n="m_script_old">Cursive</item>
+               <item n="m_parallels_old"/>
+               <item n="m_expedition_old">T III MQ 143.3</item>
+               <item n="m_size_w_old"/>
+               <item n="m_other_sigla_old">B 441, Bleistiftnummer 2580</item>
+               <item n="m_remarks_old"/>
+               <item n="m_language_old">TB</item>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_tune_old"/>
+               <item n="m_translation_old"/>
+               <item n="m_subgenre_old">Account</item>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_prev_old"/>
+               <item n="user_modified_old">bernhard</item>
+               <item n="user_created_old">automatic</item>
+               <item n="m_form_old">Scroll</item>
+               <item n="m_findspot_old">Qizil Miŋ-Öy</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_linedistance_old"/>
+               <item n="access_old">public</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_lines_old">3</item>
+               <item n="file_location_old">pages/manuscript/THT_0001_0633/tht441.txt</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_editor_old"/>
+               <item n="m_philcomment_old">&lt;b&gt;a2&lt;/b&gt; &lt;i&gt;aśari&lt;/i&gt;: has been read as &lt;i&gt;[ka – ·i]&lt;/i&gt; in [[TochSprR(B) II]].&lt;br&gt;
+&lt;b&gt;a3&lt;/b&gt; &lt;i&gt;pi&lt;/i&gt;: rectified upon &lt;i&gt;wi&lt;/i&gt;, but &lt;trans&gt;&lt;i&gt;_ś\&lt;/i&gt;&lt;/trans&gt; has been forgotten ([[Ching 2010]], 278).</item>
+               <item n="m_passage_old"/>
+               <item n="file_modified_old">1532957811</item>
+               <item n="file_created_old">1332006614</item>
+               <item n="m_size_h_old"/>
+               <item n="m_next_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 441" target="idp"&gt;THT 441&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/04/0441.htm" target="titus"&gt;THT 441&lt;/a&gt;.&lt;br&gt;
+Edition: [[TochSprR(B) II]]: 292; [[Ching 2010]]: 277-278.</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_transliteration_old">a1 /// [tro]ko_l\ wi to_m\ «†[aśari ketse yikṣye]»
+a2 /// [¤] saṅ_k_astere āryawarme śarsa ¤
+a3 /// [ma]sa tarya to_m\ troko_l\ wi to_m\ «pi» ṣaṅ_k_aṃ
+b1 [¤]</item>
+               <item n="m_language_stage_old">Late</item>
+               <item n="date_publication_old"/>
+               <item n="m_image_old">http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328038;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328038;rotate=0;imageType=_M||$page; recto
+http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=327997;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=327997;rotate=0;imageType=_M||$page; verso</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;Alternative classifications:
+
+&lt;/p&gt;&lt;p&gt;Translation from &lt;bibl&gt;&lt;title corresp="ref:ching2010"/&gt;&lt;citedRange&gt;277&lt;/citedRange&gt;&lt;/bibl&gt;–278: 
+a1 /// Allocation: two pecks. «†The Master &lt;hi&gt;Ketse&lt;/hi&gt;, &lt;hi&gt;yikṣye&lt;/hi&gt;:» 
+a2 /// [¤] &lt;hi&gt;Āryawarme&lt;/hi&gt; the &lt;hi&gt;Saṅkästere&lt;/hi&gt; has recognized. ¤ 
+a3 /// [was spent]: three pecks. Allocation: two pecks, five pints. 
+b1 [¤]&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

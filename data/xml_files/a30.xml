@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-a30">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A 30</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Gerd Carling</name>
+            </respStmt>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Georges-Jean Pinault</name>
+            </respStmt>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Melanie Malzahn</name>
+            </respStmt>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <date when="2012-11-02">02.11.2012</date>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>A 30</idno>
+                  <altIdentifier>
+                     <idno>THT 663</idno>
+                  </altIdentifier>
+                  <msName>A 1-54</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Unknown Avadāna</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Šorčuq</region><placeName>Stadthöhle</placeName>during <rs type="expedition_code">T III Š 64.02</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+         <sourceDesc>
+            <p>Transcription and translation are based on <bibl><title corresp="ref:carlingetal2009"/></bibl>. </p>
+            <p>Transcription and references have been transferred from the "Text and Reference Database of the Tocharian A Language" (Gerd Carling Lund University) (funded by the Bank of Sweden Tercentenary Foundation and SCAS).</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="xto"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Jātaka/Avadāna</term>
+               <term type="prose_verse">prose</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/06/0663ra.jpg"/>
+            <graphic url="A/A30a.jpg" height="532px" width="618px"/>
+            <line xml:id="lf"><zone>22</zone></line>
+            <line n="1" xml:id="a1"><zone><unclear>vi</unclear></zone><zone>pu</zone><zone>lṣu</zone><zone>LA</zone><zone>ṣlyu</zone><zone>tā¯</zone><zone>¯R</zone><zone>TPA</zone><zone>rto</zone><zone>p<unclear>n</unclear>a</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><zone>kuya</zone><zone>lśkaṃ</zone><zone>co</zone><zone>la¯</zone><zone>¯cä</zone><zone>ñā</zone><zone>ssa</zone><zone>ru</zone><zone>kuya</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><zone>cmo¯</zone><zone>¯L</zone><zone>ño¯</zone><zone>¯M</zone><zone>:</zone><zone>dha</zone><zone>rma</zone><zone>vṛ</zone><zone>ddhi</zone><space type="string_hole"/><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><zone>ṣa¯</zone><zone>¯nT</zone><zone>wä</zone><zone>rpā</zone><zone>te</zone><zone>:</zone><zone>3</zone><zone>kuya¯</zone><zone>¯L</zone><space type="string_hole"/><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><zone>ṣi¯</zone><zone>¯M</zone><zone>ku</zone><zone>sne</zone><zone>NA¯</zone><zone>¯Ṣ</zone><zone>a</zone><zone>PPA</zone><zone>rmā¯</zone><zone>¯T</zone><zone><unclear>y</unclear><gap reason="par" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="6" xml:id="a6"><zone>rṣi</zone><zone>pyā</zone><zone>pyo</zone><zone>k<unclear>i</unclear></zone><zone>ptā</zone><zone>ñä</zone><zone>kta¯</zone><zone>¯ñä</zone><zone>mā</zone><zone>ski</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/06/0663va.jpg"/>
+            <graphic url="A/A30b.jpg" height="530px" width="618px"/>
+            <line n="1" xml:id="b1"><zone><unclear>SA</unclear>¯</zone><zone>¯M</zone><zone>nä¯</zone><zone>¯Ṣ</zone><zone>lā</zone><zone>ksā</zone><zone>lmo</zone><zone>ñcä¯</zone><zone>¯S</zone><zone>śrā</zone><zone>va</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><zone>u</zone><zone>pā</zone><zone>dhyā</zone><zone><gap reason="par" unit="part"/>o</zone><zone>SA</zone><zone>spra</zone><zone>tti</zone><zone>ka</zone><zone>ña</zone><zone>re</zone><zone>y<gap reason="plain" unit="part"/><unclear>aṃ</unclear></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><zone>¯Ṣ</zone><zone>kuli</zone><zone>kRAṃ</zone><zone>ts<gap reason="par" unit="part"/></zone><zone>ta</zone><zone>tRA</zone><zone>ṅku</zone><space type="string_hole"/><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><zone>rṣu</zone><zone>LA</zone><zone>ṣtā</zone><zone>PA¯</zone><zone>¯rK</zone><zone>kla</zone><zone>waṃ</zone><zone>tRA</zone><space type="string_hole"/><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><zone>ma¯</zone><zone>¯nT</zone><zone>sā</zone><zone>ṅki¯</zone><zone>¯K</zone><zone>ṣṭā</zone><zone>ma</zone><zone>ṣi</zone><zone>nā</zone><zone>S<unclear>ka</unclear></zone><gap reason="lost"/></line>
+            <line n="6" xml:id="b6"><zone><unclear>sa</unclear>¯</zone><zone>¯S</zone><zone>śwā</zone><zone>lṣi</zone><zone>to¯</zone><zone>¯P</zone><zone>tā</zone><zone>PA¯</zone><zone>¯rK</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <fw type="leafNum" corresp="#lf">22</fw>
+            <p><milestone unit="passage" n="Remorse of bad deeds of an EGO"/>
+<lb corresp="#a1"/><w>vipul</w><w>ṣuläṣ</w><w>lyutār</w><w>tpär</w><w>top</w><w>na<supplied>ṣ</supplied></w><gap reason="lost"/>
+<lb corresp="#a2"/><w>kUyal</w><w>śkaṃ</w><w>c<add>m</add>olac</w><w>ñāss</w><w>aru</w><w>kUya<supplied>l</supplied></w><gap reason="lost"/>
+<lb corresp="#a3"/><w>cmol</w><w>ñom</w><pc>:</pc><w>dharmavṛddhi</w><gap reason="lost"/><w><supplied>el</supplied></w>
+<w><supplied>e</supplied><lb corresp="#a4"/>ṣant</w><w>wärpāte</w><pc>:</pc><num value="3">3</num><w>kUyal</w><gap reason="lost"/>
+<lb corresp="#a5"/><w>ṣim</w><w>kusne</w><w>näṣ</w><w>appärmāt</w><w>y<supplied>āmu</supplied></w><gap reason="lost"/>
+<w><supplied>udumpa</supplied><lb corresp="#a6"/>rṣi</w><w>pyāpy</w><w>oki</w><w>ptāñäktañ</w><w>māski</w><gap reason="lost"/>
+<lb corresp="#b1"/><w>säm</w><w>näṣ</w><w>lāksā</w><w>lmoñcäs</w><w>śrāva<supplied>sti</supplied></w><gap reason="lost"/>
+<lb corresp="#b2"/><w>upādhyā</w><w><supplied>t</supplied>osäs</w><w>prattika-ñarey<supplied>ntw</supplied>aṃ</w><gap reason="lost"/>
+<lb corresp="#b3"/><w>ṣ</w><w>kUli</w><w>kräṃts<supplied>o</supplied></w><w>taträṅku<supplied>s</supplied></w><gap reason="lost"/>
+<w><supplied>sume</supplied><lb corresp="#b4"/>r-ṣuläṣ</w><w>tāpärk</w><w>klawaṃträ</w><gap reason="lost"/>
+<w><supplied>sā</supplied><lb corresp="#b5"/>mant</w><w>sāṅkik</w><w>ṣṭāmaṣinās</w><w>ka</w><gap reason="lost"/>
+<lb corresp="#b6"/><w>sas</w><w>śwālṣi</w><w>top</w><w>tāpärk</w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><bibl><title corresp="ref:thomas1958a"/><citedRange>142</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1977b"/><citedRange>175</citedRange></bibl></seg><seg><seg type="prim_transl">... there (is) a heap [that is] higher than mount Vipula ...</seg></seg></choice><choice corresp="#a2"><seg><bibl><title corresp="ref:hackstein1995"/><citedRange>47</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1957"/><citedRange>294</citedRange></bibl></seg><seg><seg type="prim_transl">... and why the desire for rebirth was evoked? Why ...</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">... a birth with the name ... . The Dharmavṛddhi [prosperity of the Law] ...</seg></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl">... the (gi)ver (of gifts) enjoyed ... 3. Why ...</seg></seg></choice><choice corresp="#a5"><seg><bibl><title corresp="ref:meunier2013"/><citedRange>160</citedRange></bibl></seg><seg><seg type="prim_transl">... would I (hear the Law?)? I who have treated badly (others) ...</seg></seg></choice><choice corresp="#a6"><seg><seg type="prim_transl">... the Buddhalords (appear) with difficulty (in the world) like the Udumbara flower ...</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">... I ... those people riding on steeds in (the city of) Śrāvasti ...</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">... the teacher ... in those individual hells ...</seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl">... a beautiful woman (is) clinging to ...</seg></seg></choice><choice corresp="#b4"><seg><seg type="prim_transl">... now they are falling from mount Sumeru ...</seg></seg></choice><choice corresp="#b5"><seg><seg type="prim_transl">... they (collec)ted (fruits?) of trees belonging to the community ...</seg></seg></choice><choice corresp="#b6"><seg><seg type="prim_transl">... one heap of meat now ...</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="philcomment">The verso is in prose, the recto in verse.</note><note type="remarks">The left part of a leaf including the string hole space in lines 3 and 4.</note><note corresp="#a5" type="philcomment"><hi>ṣim</hi> is the end of a 1.sg. optative, probably <hi>klyoṣim</hi> 'may I hear', less likely are <hi>wleṣim</hi> 'may I work' and <hi>wināṣim</hi> 'may I worship'.</note><note corresp="#b5" type="philcomment"><hi>mant</hi> is probably the end of a 3.pl. middle preterite I form from a root ending in -<hi>m</hi>, such as <hi>sāmā</hi>- 'to collect' or <hi>kāmā</hi>- 'to bring'. At the end <hi>ka</hi> is the beginning of a term being fem.pl.; since <hi>karkes</hi> 'branches' is most likely masculine, it does not fit.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition</label><bibl><title corresp="ref:siegandsiegling1921"/><citedRange>21</citedRange></bibl>. <bibl>Siegling's personal copy of <title corresp="ref:siegandsiegling1921"/><ref target="./images/TS_Siegling/TS_Siegling_Page_021.png" type="external">p. 21</ref></bibl>. </p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT%20663" type="external">THT 663</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/06/0663.htm" type="external">THT 663</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_linedistance_old"/>
+               <item n="m_findspot_specific_old">Stadthöhle</item>
+               <item n="m_findspot_old">Šorčuq</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="file_location_old">pages/manuscript/A/a30.txt</item>
+               <item n="m_lines_old">6</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="access_old">public</item>
+               <item n="m_completeness_old"/>
+               <item n="m_size_h_old"/>
+               <item n="m_next_old"/>
+               <item n="file_created_old">1328802217</item>
+               <item n="file_modified_old">1523662858</item>
+               <item n="m_philcomment_old">&lt;p&gt;The verso is in prose, the recto in verse.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a5.&lt;/b&gt; &lt;i&gt;ṣim&lt;/i&gt; is the end of a 1.sg. optative, probably &lt;i&gt;klyoṣim&lt;/i&gt; 'may I hear', less likely are &lt;i&gt;wleṣim&lt;/i&gt; 'may I work' and &lt;i&gt;wināṣim&lt;/i&gt; 'may I worship'.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b5.&lt;/b&gt; &lt;i&gt;mant&lt;/i&gt; is probably the end of a 3.pl. middle preterite I form from a root ending in -&lt;i&gt;m&lt;/i&gt;, such as &lt;i&gt;sāmā&lt;/i&gt;- 'to collect' or &lt;i&gt;kāmā&lt;/i&gt;- 'to bring'. At the end &lt;i&gt;ka&lt;/i&gt; is the beginning of a term being fem.pl.; since &lt;i&gt;karkes&lt;/i&gt; 'branches' is most likely masculine, it does not fit.&lt;/p&gt; </item>
+               <item n="m_passage_old">Remorse of bad deeds of an EGO</item>
+               <item n="m_editor_old">Gerd Carling, Georges-Jean Pinault, Melanie Malzahn, Michaël Peyrot</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_image_old">http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/06/0663ra.jpg|||$page; (THT 663) recto
+http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/06/0663va.jpg|||$page; (THT 663) verso</item>
+               <item n="date_publication_old">02.11.2012</item>
+               <item n="m_transliteration_old">a1 [vi]pul ṣu_l_aṣ lyutā_r\ _t_p_ar top [n]a ///
+a2 k_uyal śkaṃ colacä\ ñāss aru k_uya ///
+a3 cmo_l\ ño_m\ : dharmavṛddhi ○ ///
+a4 ṣan_t\ wärpāte : 3 k_uya_l\ ○ ///
+a5 ṣi_m\ kusne _n_a_ṣ\ a_p_p_armā_t\ [y](·) ///
+a6 rṣi pyāpy ok[i] ptāñäktañä\ māski ///
+b1 [_s_a]_m\ nä_ṣ\ lāksā lmoñcä_s\ śrāva ///
+b2 upādhyā (·)o_s_as prattika-ñarey·[aṃ] ///
+b3 _ṣ\ k_uli k_r_aṃts(·) tat_r_aṅku ○ ///
+b4 r-ṣu_l_aṣ tā_p_ar_k\ klawaṃt_r_a ○ ///
+b5 man_t\ sāṅki_k\ ṣṭāmaṣinā_s [ka] ///
+b6 [sa]_s\ śwālṣi to_p\ tā_p_ar_k\ ///</item>
+               <item n="m_language_stage_old"/>
+               <item n="m_manuscript_old">A 1-54</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT%20663"&gt;THT 663&lt;/a&gt;,
+[[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/06/0663.htm"&gt;THT 663&lt;/a&gt;.&lt;br&gt;
+Transcription and references have been transferred from the "Text and Reference Database of the Tocharian A Language" (Gerd Carling, Lund University) (funded by the Bank of Sweden Tercentenary Foundation and SCAS).
+Transcription and translation are based on [[Carling, DThTA]].&lt;br&gt;
+Edition: [[TochSprR(A)]]: 21.&lt;br&gt;
+Siegling's personal copy of [[TochSprR(A)]]: &lt;a href="./images/TS_Siegling/TS_Siegling_Page_021.png"&gt;p. 21&lt;/a&gt;.&lt;br&gt;
+Translation:
+&lt;b&gt;a1&lt;/b&gt; [[Thomas 1958a]]: 142, [[Thomas 1977b]]: 175;
+&lt;b&gt;a2&lt;/b&gt; [[Hackstein 1995]]: 47, [[Thomas 1957]]: 294;
+&lt;b&gt;a5&lt;/b&gt; [[Meunier 2013]]: 160.</item>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_meter_old">4-3/4-3/5</item>
+               <item n="m_title_old">Unknown Avadāna</item>
+               <item n="m_leaf_old">22</item>
+               <item n="m_transcription_old">a1 vipul ṣuläṣ lyutār tpär top na(ṣ) ///
+a2 k_uyal śkaṃ c«m»olac ñās|ñāss aru k_uya(l) ///
+a3 cmol ñom : dharmavṛddhi /// (el) eṣant|(e)|ṣant
+a4 wärpāte : 3 k_uyal ///
+a5 ṣim kusne näṣ appärmāt yāmu_(TA)|y(āmu) /// udumparṣi|(udumpa)|rṣi
+a6 pyāpi|pyāpy oki ptāñäktañ māski ///
+b1 säm näṣ lāksā lmoñcäs śrāva(sti) ///
+b2 upādhyā (t)osäs prattika-ñarey(ntw)aṃ ///
+b3 ṣ k_uli kräṃts(o) taträṅku(s) /// sumer-ṣuläṣ|(sume)|r-ṣuläṣ
+b4 tāpärk klawantär|klawaṃträ /// sāmant|(sā)|mant
+b5 sāṅkik ṣṭāmaṣinās ka ///
+b6 sas śwālṣi top tāpärk ///</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_remarks_old">&lt;p&gt;The left part of a leaf including the string hole space in lines 3 and 4.&lt;/p&gt;</item>
+               <item n="m_language_old">TA</item>
+               <item n="m_other_sigla_old">THT 663</item>
+               <item n="m_expedition_old">T III Š 64.02</item>
+               <item n="m_size_w_old"/>
+               <item n="m_parallels_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="ms_old">A 30</item>
+               <item n="project_comment_old">&lt;p&gt;Done on Nov 2 2012 at the 2nd world conference on TA.&lt;/p&gt;</item>
+               <item n="m_subgenre_old">Jātaka/Avadāna</item>
+               <item n="m_translation_old">a1 ... there (is) a heap [that is] higher than mount Vipula ...
+a2 ... and why the desire for rebirth was evoked? Why ...
+a3 ... a birth with the name ... . The Dharmavṛddhi [prosperity of the Law] ...
+a4 ... the (gi)ver (of gifts) enjoyed ... 3. Why ...
+a5 ... would I (hear the Law?)? I who have treated badly (others) ...
+a6 ... the Buddhalords (appear) with difficulty (in the world) like the Udumbara flower ...
+b1 ... I ... those people riding on steeds in (the city of) Śrāvasti ...
+b2 ... the teacher ... in those individual hells ...
+b3 ... a beautiful woman (is) clinging to ...
+b4 ... now they are falling from mount Sumeru ...
+b5 ... they (collec)ted (fruits?) of trees belonging to the community ...
+b6 ... one heap of meat now ...</item>
+               <item n="m_metric_form_old">Both</item>
+               <item n="m_tune_old"/>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old">theres</item>
+               <item n="m_prev_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;Done on Nov 2 2012 at the 2nd world conference on TA.&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

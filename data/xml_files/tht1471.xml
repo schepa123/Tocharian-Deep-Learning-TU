@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht1471">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 147.1</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>CEToM</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 147.1</idno>
+                  <altIdentifier>
+                     <idno>B 147 Frgm. 1</idno>
+                  </altIdentifier>
+                  <msName>THT 133-147</msName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>archaic</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Qizil Miŋ-Öy</region><placeName>Rothkuppelraum</placeName></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-archaic frg:ls-peyrot-A1 frg:ls-C14 frg:ls-malzahn-A4 frg:ls-C14"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Kāvya</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=355798;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=355798;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone><unclear>o</unclear></zone><zone>ko</zone><zone>ne</zone><zone>rvvaṃ</zone><zone>ṢA</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone>lai</zone><zone>knā</zone><zone>ṢṢAṃ</zone><zone>sū</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone>ŚA</zone><zone>nmā</zone><zone>ṣṣeṃ</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone>wr<unclear>o</unclear></zone><zone>ttse</zone><zone>kle</zone><zone>ŚA</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><zone>ta</zone><zone>rknaṃ</zone><zone>kre</zone><zone>nta</zone><zone><unclear>ya</unclear></zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><w>oko</w><w>nervvaṃ</w><w>ṣä</w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><w>laikn=</w><w>āṣṣäṃ</w><w>sū</w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><w>śänmāṣṣeṃ</w><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><w>wrottse</w><w>kleśä</w><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><w>tarknaṃ</w><w>krenta</w><w>ya</w><gap reason="lost"/></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">This fragment was edited by <bibl><title corresp="ref:siegandsiegling1953"/><citedRange>77</citedRange></bibl>. As an exact description of the fragment is lacking, it is uncertain whether the fragment was edited in its entirety. The original manuscript is missing.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 147/1-6" type="external">THT 147/1-6</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/01/0147.htm" type="external">THT 147</ref></bibl>. </p>
+            <p><label>Edition</label><bibl><title corresp="ref:siegandsiegling1953"/><citedRange>77</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_findspot_old">Qizil Miŋ-Öy</item>
+               <item n="m_findspot_specific_old">Rothkuppelraum</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="created_date_old">2012-03-28, 11:03:20 (CEST)</item>
+               <item n="access_old">public</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="file_location_old">pages/manuscript/THT_0001_0633/tht1471.txt</item>
+               <item n="version_old">6</item>
+               <item n="m_editor_old">CEToM</item>
+               <item n="page_name_old">THT 147.1</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="file_modified_old">1558169705</item>
+               <item n="file_created_old">1332925400</item>
+               <item n="file_size_old">2 KB</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 147/1-6" target="idp"&gt;THT 147/1-6&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/01/0147.htm" target="titus"&gt;THT 147&lt;/a&gt;.&lt;br&gt;
+Edition: [[TochSprR(B) II]]: 77.</item>
+               <item n="m_manuscript_old">THT 133-147</item>
+               <item n="m_image_old">http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=355798;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=355798;rotate=0;imageType=_M||THT 147.1-6</item>
+               <item n="m_language_stage_old">Archaic</item>
+               <item n="m_transliteration_old">a1 /// [o]ko nervvaṃ _ṣ_a ///
+a2 /// laikn= ā_ṣ_ṣ_aṃ sū ///
+b1 /// _ś_anmāṣṣeṃ ///
+b2 /// wr[o]ttse kle_ś_a ///
+b3 /// tarknaṃ krenta [ya] ///</item>
+               <item n="m_transcription_old">a1 /// oko nervvaṃ ṣä ///
+a2 /// laikn= āṣṣäṃ sū ///
+b1 /// śänmāṣṣeṃ ///
+b2 /// orotstse|wrottse kleśä ///
+b3 /// tarknaṃ krenta ya ///</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="group_old">Public</item>
+               <item n="editgroup_old">Admin</item>
+               <item n="edited_date_old">2018-08-30, 16:51:44 (CEST)</item>
+               <item n="project_comment_old">&lt;p&gt;Alternative classifications:
+&lt;table class="table_lines"&gt;
+  &lt;tr&gt;&lt;td title="MP"&gt;Peyrot&lt;/td&gt;&lt;td title="A1"&gt;archaic I&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="MM"&gt;Malzahn&lt;/td&gt;&lt;td title="A4"&gt;common archaic&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TT"&gt;Tamai&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TTC14"&gt;Tamai-C14&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;additional classification
+&lt;peyrot&gt;A1&lt;/peyrot&gt;
+&lt;/p&gt;
+&lt;p&gt;If nobody has seen the script it should not be classified! –Martin (Thu, 2018-08-02, 01:48:49 (CEST))&lt;/p&gt;</item>
+               <item n="ms_old">THT 147.1</item>
+               <item n="m_script_old">Archaic</item>
+               <item n="m_other_sigla_old">B 147 Frgm. 1</item>
+               <item n="m_remarks_old">This fragment was edited by [[TochSprR(B) II]]: 77. As an exact description of the fragment is lacking, it is uncertain whether the fragment was edited in its entirety. The original manuscript is missing.</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_metric_form_old">Verse</item>
+               <item n="project_check_old">inconsistency+incomplete+script</item>
+               <item n="file_savedate_old">2018-08-30, 16:51:44 (CEST)</item>
+               <item n="m_subgenre_old">Kāvya</item>
+               <item n="file_name_old">pages/manuscript/THT_0001_0633/tht1471.txt</item>
+               <item n="category_old">manuscript</item>
+               <item n="user_modified_old">martin</item>
+               <item n="user_created_old">michael</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;Alternative classifications:
+
+&lt;/p&gt;&lt;p&gt;additional classification
+&lt;peyrot&gt;A1&lt;/peyrot&gt;
+&lt;/p&gt;&lt;p&gt;If nobody has seen the script it should not be classified! –Martin (Thu, 2018-08-02, 01:48:49 (CEST))&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

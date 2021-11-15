@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht551">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 551</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 551</idno>
+                  <altIdentifier>
+                     <idno>B 551</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Bleistiftnummer 2469</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Grammatical Sanskrit exercise in the tradition of Kātantra</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Murtuq</region>during <rs type="expedition_code">T III M 135.1</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="txb" ana="frg:ls-cetom-classical frg:ls-tamai-C1 frg:ls-C14"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Grammar</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328221;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328221;rotate=0;imageType=_M"/>
+            <graphic url="B/B551a.jpg" height="684px" width="1796px"/>
+            <line xml:id="lf"><zone>62</zone></line>
+            <line n="1" xml:id="a1"><zone>ti</zone><zone>ṣṭha</zone><zone>nta</zone><zone>•</zone><zone>a</zone><zone>smi</zone><zone>nde</zone><zone>śe</zone><zone>so</zone><zone>yaṃ</zone><zone>de</zone><zone>śo</zone><zone>ba</zone><zone>hu</zone><zone>ti</zone><zone>ṣṭhaṃ</zone><zone>•</zone><gap reason="plain" quantity="1"/><zone><unclear>hu</unclear></zone><zone>ti</zone><zone>ṣṭha¯</zone><zone>¯n</zone><zone>ko</zone><zone><unclear>v</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><zone>ṣṭha</zone><zone>ti</zone><zone>•</zone><zone>śa</zone><zone>kti</zone><zone>•</zone><zone>tai</zone><zone>ṣṭha<unclear>¯</unclear></zone><zone><unclear>¯</unclear>n</zone><zone>dha</zone><zone>nu</zone><zone>•</zone><zone>ya</zone><zone>tha</zone><zone>ti</zone><zone>ṣṭha¯</zone><zone>¯n</zone><zone>sta</zone><zone>thā</zone><zone>vraṃ</zone><zone>jaṃ</zone><zone>•</zone><zone><unclear>ṣ</unclear>a</zone><zone>naṃ</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><zone>bhra¯</zone><zone>¯t</zone><zone>re</zone><zone>ki</zone><zone>meṃ</zone><zone>su</zone><zone>wä</zone><zone>rñai</zone><zone>vi</zone><zone>bha</zone><zone>kti</zone><zone>nta</zone><zone>•</zone><zone>ta</zone><zone>trā</zone><gap reason="plain" quantity="1"/><zone><unclear>sa</unclear></zone><zone>kā</zone><zone>ra</zone><zone>sya</zone><zone>lo</zone><zone>pa</zone><zone>•</zone><zone><unclear>tu</unclear></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><zone>tā</zone><zone>kaṃ</zone><zone>•</zone><zone>ta</zone><zone>ntse</zone><zone>•</zone><zone>da</zone><zone>ā</zone><zone>de¯</zone><zone>¯ś</zone><zone>MA</zone><zone>ske</zone><zone>TA¯</zone><zone>¯R</zone><zone>ce</zone><zone>sū</zone><zone>ta</zone><zone>rne</zone><zone>•</zone><zone>na</zone><zone>mā</zone><zone>n<unclear>e</unclear></zone><zone>s<unclear>i</unclear></zone><gap reason="plain" quantity="1"/><zone>lāṃ<unclear>¯</unclear></zone><zone><unclear>¯</unclear><unclear>S</unclear></zone><zone>lāṃ</zone><zone>ṢTA¯</zone><zone>¯R</zone><zone>vi</zone><zone>bhrā¯</zone><zone>¯T</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328213;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328213;rotate=0;imageType=_M"/>
+            <graphic url="B/B551b.jpg" height="666px" width="1756px"/>
+            <line n="1" xml:id="b1"><zone>¯s</zone><zone>ja</zone><zone>MA</zone><zone>nta</zone><zone>lle</zone><zone>•</zone><zone>a</zone><zone>ta</zone><zone>ne</zone><zone>ya</zone><zone>PA</zone><zone>ṢṢA<gap reason="plain" unit="part"/></zone><zone>•</zone><zone>sa</zone><zone>vi</zone><zone>sa</zone><zone>rjaṃ</zone><zone>•</zone><zone>vi</zone><zone>bhra</zone><zone>ta</zone><zone>•</zone><zone>re</zone><zone>ki</zone><zone><unclear>MA</unclear></zone><gap reason="plain" quantity="2"/><zone>¯R</zone><zone>ṭā</zone><zone>•</zone><zone>ṭa</zone><zone>MA</zone><zone>nta</zone><zone>lle</zone><zone>•</zone><zone>ā</zone><zone>ta</zone><zone>sa</zone><zone><unclear>ṣ</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><zone>vi</zone><zone>bhra</zone><zone>dbhyāṃ</zone><zone>•</zone><zone>vi</zone><zone>bhra</zone><zone>dbhi</zone><zone>•</zone><zone>re</zone><zone>ki</zone><zone>MA</zone><zone>ske</zone><zone>TA¯</zone><zone>¯R</zone><zone>•</zone><zone>ṅe</zone><zone><unclear>•</unclear></zone><gap reason="plain" quantity="3"/><zone>ll<unclear>e</unclear></zone><zone>•</zone><zone>e</zone><zone>ta</zone><zone>sa</zone><zone>ṣa¯</zone><zone>¯M</zone><zone>vi</zone><zone><unclear>bhra</unclear></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><zone>ske</zone><zone>TA¯</zone><zone>¯R</zone><zone>•</zone><zone>ṅa</zone><zone>sī</zone><zone>•</zone><zone>ṅa</zone><zone>MA</zone><zone>nta</zone><zone>lle</zone><zone>•</zone><zone>i</zone><zone>ma</zone><zone>nta</zone><zone>lle</zone><zone>•</zone><zone>a</zone><zone>ta</zone><zone>ne</zone><zone>ya</zone><zone>PA</zone><zone>ṢṢA<unclear>¯</unclear></zone><zone><unclear>¯</unclear><unclear>n</unclear></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><zone>re</zone><zone>ki</zone><zone>MA</zone><zone>ske</zone><zone>TA¯</zone><zone>¯R</zone><zone>ṅa¯</zone><zone>¯s</zone><zone>ṅa</zone><zone>MA</zone><zone>nta</zone><zone>lle</zone><zone>•</zone><zone>a</zone><zone>ta</zone><zone>ne</zone><zone>ya</zone><zone>PA</zone><zone>ṢṢAṃ</zone><zone>•</zone><zone>sa</zone><zone>vi</zone><zone>sa</zone><zone>rjaṃ</zone><zone>•</zone><zone>vi</zone><zone>bhr<gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <fw type="leafNum" corresp="#lf">62</fw>
+            <p>
+<lb corresp="#a1"/><w>tiṣṭhanta</w><pc>•</pc><w>asmin</w><w>deśe</w><w>so</w><w>yaṃ</w><w>deśo</w><w>bahutiṣṭhaṃ</w><pc>•</pc><w><supplied>ba</supplied></w><w>hutiṣṭhan</w><w>ko</w><w>v<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#a2"/><w>ṣṭhati</w><pc>•</pc><w>śakti</w><pc>•</pc><w>taiṣṭhan</w><w>dhanu</w><pc>•</pc><w>yatha</w><w>tiṣṭhans</w><w>tathā</w><w>vraṃjaṃ</w><pc>•</pc><w>ṣanaṃ</w><gap reason="lost"/>
+<lb corresp="#a3"/><w>bhrat</w><w>rekimeṃ</w><w>su</w><w>wärñai</w><w>vibhaktinta</w><pc>•</pc><w>tatrā<supplied>sya</supplied></w><w>sakārasya</w><w>lopa</w><pc>•</pc><w>tu</w><gap reason="lost"/>
+<lb corresp="#a4"/><w>tākaṃ</w><pc>•</pc><w>tantse</w><pc>•</pc><w>da</w><w>ādeś</w><w>mäsketär</w><w>ce</w><w>sūtarne</w><pc>•</pc><w>na</w><w>mā</w><w>nesi</w><gap reason="plain" quantity="1"/><w>lāṃs</w><w>lāṃṣtär</w><w>vibhrāt</w><gap reason="lost"/>
+<lb corresp="#b1"/><w>s</w><w>ja</w><w>mäntalle</w><pc>•</pc><w>a</w><w>tane</w><w>yapäṣṣä<supplied>ṃ</supplied></w><pc>•</pc><w>savisarjaṃ</w><pc>•</pc><w>vibhrata</w><pc>•</pc><w>reki</w><w>mä<supplied>sketä</supplied>r</w><w>ṭā</w><pc>•</pc><w>ṭa</w><w>mäntalle</w><pc>•</pc><w>ā</w><w>tasa</w><w>ṣ<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#b2"/><w>vibhradbhyāṃ</w><pc>•</pc><w>vibhradbhi</w><pc>•</pc><w>reki</w><w>mäsketär</w><pc>•</pc><w>ṅe</w><pc>•</pc><w><supplied>ṅa</supplied></w><w><supplied>mänta</supplied>lle</w><pc>•</pc><w>e</w><w>tasa</w><w>ṣam</w><w>vibhra</w><gap reason="lost"/>
+<lb corresp="#b3"/><w>sketär</w><pc>•</pc><w>ṅasī</w><pc>•</pc><w>ṅa</w><w>mäntalle</w><pc>•</pc><w>i</w><w>mantalle</w><pc>•</pc><w>a</w><w>tane</w><w>yapäṣṣän</w><gap reason="lost"/>
+<lb corresp="#b4"/><w>reki</w><w>mäsketär</w><w>ṅas</w><w>ṅa</w><w>mäntalle</w><pc>•</pc><w>a</w><w>tane</w><w>yapäṣṣäṃ</w><pc>•</pc><w>savisarjaṃ</w><pc>•</pc><w>vibhr<supplied>a</supplied></w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1 #a2 #a3 #a4 #b1 #b2 #b3 #b4"><seg><bibl><title corresp="ref:couvreur1954c"/><citedRange>115</citedRange></bibl></seg><seg><bibl><title corresp="ref:malzahn2007c"/></bibl></seg></choice><choice corresp="#a4"><seg><bibl><title corresp="ref:schmidtkt1974"/><citedRange>246f</citedRange></bibl></seg><seg><seg type="prim_transl">Dass n nicht [anwesend] sei, wird [dadurch] bewirkt. [So] (entsteht das Wort) bibhrat.</seg><seg type="sec_transl" resp="TI">[The fact] that n is not [present] is caused [by this]. [Thus] (the word) bibhrat (emerges)</seg><bibl><title corresp="ref:schmidtkt1974"/><citedRange>246-7</citedRange></bibl></seg></choice></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition</label><bibl><title corresp="ref:siegandsiegling1953"/><citedRange>346-347</citedRange></bibl>. </p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 551" type="external">THT 551</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/05/0551.htm" type="external">THT 551</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Murtuq</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_lines_old">4</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="access_old">public</item>
+               <item n="file_location_old">pages/manuscript/THT_0001_0633/tht551.txt</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old"/>
+               <item n="m_editor_old"/>
+               <item n="file_created_old">1332006619</item>
+               <item n="file_modified_old">1532957819</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 551" target="idp"&gt;THT 551&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/05/0551.htm" target="titus"&gt;THT 551&lt;/a&gt;.&lt;br&gt;
+Edition: [[TochSprR(B) II]]: 346-347.&lt;br&gt;
+Translation:
+&lt;b&gt;all&lt;/b&gt; [[Couvreur 1954c]]: 115, [[Malzahn 2007c]];
+&lt;b&gt;a4&lt;/b&gt; [[Schmidt KT 1974]]: 246f.</item>
+               <item n="date_publication_old"/>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_transliteration_old">a1 tiṣṭhanta • asmin deśe so yaṃ deśo bahutiṣṭhaṃ • (ba) [hu]tiṣṭhan\ ko [v·] ///
+a2 ṣṭhati • śakti • taiṣṭhan[\] dhanu • yatha tiṣṭhan\s tathā vraṃjaṃ • [ṣ]anaṃ ///
+a3 bhrat\ rekimeṃ su wärñai vibhaktinta • tatrā(sya) [sa]kārasya lopa • [tu] ///
+a4 tākaṃ • tantse • da ādeś\ _m_aske_t_a_r\ ce sūtarne • na mā n[e]s[i] – lāṃ[_s\] lāṃ_ṣ_t_a_r\ vibhrā_t\ ///
+b1 s\ ja _m_antalle • a tane ya_p_a_ṣ_ṣ_a(ṃ) • savisarjaṃ • vibhrata • reki [_m_a](ske_t_a)_r\ ṭā • ṭa _m_antalle • ā tasa [ṣ·] ///
+b2 vibhradbhyāṃ • vibhradbhi • reki _m_aske_t_a_r\ • ṅe [•] (ṅa _m_anta)ll[e] • e tasa ṣa_m\ vi[bhra] ///
+b3 ske_t_a_r\ • ṅasī • ṅa _m_antalle • i mantalle • a tane ya_p_a_ṣ_ṣ_a[n\] ///
+b4 reki _m_aske_t_a_r\ ṅas\ ṅa _m_antalle • a tane ya_p_a_ṣ_ṣ_aṃ • savisarjaṃ • vibhr(a) ///</item>
+               <item n="m_image_old">http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328221;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328221;rotate=0;imageType=_M||THT 551 recto
+http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328213;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328213;rotate=0;imageType=_M||THT 551 verso</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_meter_old"/>
+               <item n="m_title_old">Grammatical Sanskrit exercise in the tradition of Kātantra</item>
+               <item n="m_transcription_old">a1 tiṣṭhanta • asmin deśe so yaṃ deśo bahutiṣṭhaṃ • (ba) hutiṣṭhan ko v· ///
+a2 ṣṭhati • śakti • taiṣṭhan dhanu • yatha tiṣṭhans tathā vraṃjaṃ • ṣanaṃ ///
+a3 bhrat rekimeṃ su wärñai vibhaktinta • tatrā(sya) sakārasya lopa • tu ///
+a4 tākaṃ • tantse • da ādeś mäsketär ce sūtarne • na mā nesi – lāṃs lāṃṣtär vibhrāt ///
+b1 s ja mäntalle • a tane yapäṣṣä(ṃ) • savisarjaṃ • vibhrata • reki mä(sketä)r ṭā • ṭa mäntalle • ā tasa ṣ· ///
+b2 vibhradbhyāṃ • vibhradbhi • reki mäsketär • ṅe • (ṅa mänta)lle • e tasa ṣam vibhra ///
+b3 sketär • ṅasī • ṅa mäntalle • i mantalle • a tane yapäṣṣän ///
+b4 reki mäsketär ṅas ṅa mäntalle • a tane yapäṣṣäṃ • savisarjaṃ • vibhr(a) ///</item>
+               <item n="m_leaf_old">62</item>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="project_comment_old">&lt;p&gt;Alternative classifications:
+&lt;table class="table_lines"&gt;
+  &lt;tr&gt;&lt;td title="MP"&gt;Peyrot&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="MM"&gt;Malzahn&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TT"&gt;Tamai&lt;/td&gt;&lt;td title="C1"&gt;II-1 (600-700)&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TTC14"&gt;Tamai-C14&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+&lt;p&gt;Translations from [[Schmidt KT 1974]]
+&lt;table class="table_lines"&gt;
+&lt;th&gt;Lines&lt;/th&gt;
+&lt;th&gt;Translation&lt;/th&gt;
+&lt;th&gt;Pages&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt;a4&lt;/td&gt;
+&lt;td&gt;&lt;span title="[The fact] that n is not [present] is caused [by this]. [Thus] (the word) bibhrat (emerges)"&gt;Dass n nicht [anwesend] sei, wird [dadurch] bewirkt. [So] (entsteht das Wort) bibhrat.&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;246-7&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;</item>
+               <item n="ms_old">THT 551</item>
+               <item n="m_parallels_old"/>
+               <item n="m_expedition_old">T III M 135.1</item>
+               <item n="m_size_w_old"/>
+               <item n="m_remarks_old"/>
+               <item n="m_language_old">Sanskrit+TB</item>
+               <item n="m_other_sigla_old">B 551, Bleistiftnummer 2469</item>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_translation_old"/>
+               <item n="m_subgenre_old">Grammar</item>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_prev_old"/>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old">bernhard</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;Alternative classifications:
+
+&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

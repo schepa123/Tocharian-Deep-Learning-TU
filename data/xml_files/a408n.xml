@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-a408n">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A 408.n</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>A 408.n</idno>
+                  <altIdentifier>
+                     <idno>THT 1042n</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Bleistiftnummer 3111</idno>
+                  </altIdentifier>
+                  <msName>A 415-416</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Bhikṣuṇī-Prātimokṣasūtra</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>4,7</height>
+                              <width>4,5</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">5</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Siŋgim</region>during <rs type="expedition_code">T II S 19.21</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="xto"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Vinaya</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=317217;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=317217;rotate=0;imageType=_M"/>
+            <line n="2" xml:id="a2"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone><unclear>l</unclear>y<unclear>ā</unclear></zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone>ā</zone><zone>KLA</zone><zone>ṣlyāṃ</zone><zone>yā</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><zone><unclear>y</unclear>ā</zone><zone>mi</zone><zone>TA¯</zone><zone>¯R</zone><zone>pā</zone><zone><unclear>yt</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><gap reason="lost"/><zone>a</zone><zone>śi</zone><zone>ṢA¯</zone><zone>¯K∘</zone><zone>MA</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=317208;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=317208;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone><unclear>ṣl</unclear>yāṃ</zone><zone>yā</zone><zone>mi</zone><zone>TA¯</zone><zone>¯R</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone>puKA¯</zone><zone>¯L∘</zone><zone>u</zone><zone>pā</zone><zone>dhyā</zone><zone>yi</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><zone>rś<gap reason="plain" unit="part"/><gap reason="plain" unit="part"/></zone><zone>wi</zone><zone>kā</zone><zone>ṢṢA<gap reason="par" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><zone>pā</zone><zone><unclear>y</unclear><gap reason="par" unit="part"/>i</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p><milestone unit="passage" n="Pāt.106-125"/>
+<lb corresp="#a2"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>lyā</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><w>ākläṣlyāṃ</w><w>yā<supplied>mitär</supplied></w><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="lost"/><w>yāmitär</w><w>pāyt<supplied>i</supplied></w><gap reason="lost"/>
+<lb corresp="#a5"/><gap reason="lost"/><w>aśi</w><w>ṣäk</w><w>mä<supplied>rkampaläntu</supplied></w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><w><supplied>āklä</supplied>ṣlyāṃ</w><w>yāmitär</w><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><w>pUkäl</w><w>upādhyāyi</w><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><w>rś<gap reason="plain" unit="part"/><gap reason="plain" unit="part"/></w><w>wikāṣṣ-ä<supplied>ṃ</supplied></w><gap reason="lost"/>
+<lb corresp="#b4"/><gap reason="lost"/><w>pāy<supplied>t</supplied>i</w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a2"><seg><seg type="prim_transl">...</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">... should she do ... [to] the female disciple ...</seg></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl">... should she do ... – <hi>pātayantika</hi> [offence].</seg></seg></choice><choice corresp="#a5"><seg><seg type="prim_transl">... the nun six ...</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">... should she do ... [to] the female disciple ...</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">... year ... female teacher ...</seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl">... she will remove her ...</seg></seg></choice><choice corresp="#b4"><seg><seg type="prim_transl">... – <hi>pātayantika</hi> [offence].</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="philcomment"><bibl><title corresp="ref:ogihara2009"/><citedRange>278</citedRange></bibl> places this fragment in the section of the <hi>pātayantika</hi>s about the ordination ritual (<bibl><title corresp="ref:waldschmidt1926"/><citedRange>133-152</citedRange></bibl>; Pāt.106-125 of the Sarvāstivādins). In particular, he adduces <hi>ṣäk</hi> 'six' and <distinct type="ms_text">p_ukäl</distinct> 'year'. While <hi>ṣäk</hi> 'six' might lead to a refinement of the classification, <distinct type="ms_text">p_ukäl</distinct> 'year' occurs too often to be of any help. A further indication of appurtenance to the ordination section is <hi>upādhyāyi</hi> 'female teacher', which appears to be the Tocharian A equivalent of Skt. <hi>upādhyāyā</hi> 'female teacher'.</note><note type="remarks">The lower margin of the recto (upper of the verso) is preserved. In one frame with <ref type="ms" target="txt:m-a408j"/>-<ref type="ms" target="txt:m-a408m"/> and <ref type="ms" target="txt:m-a408o"/>-<ref type="ms" target="txt:m-a408r"/>. <bibl><title corresp="ref:ogihara2009"/><citedRange>278</citedRange></bibl> suggests that <ref type="ms" target="txt:m-tht3349"/> and <ref type="ms" target="txt:m-tht3335"/> may belong to the same leaf as is this fragment; he further considers the possibility that also <ref type="ms" target="txt:m-a408q"/> and <ref type="ms" target="txt:m-a408r"/> belong to the same leaf. Since this fragment belongs to the vinaya, it is assumed that it belongs to manuscript A 415-416, not to A 406-408.</note><note corresp="#a3" type="philcomment"><hi>ākläṣlyāṃ</hi>: this is probably the attestation noted in <bibl><title corresp="ref:siegetal1931"/><citedRange>64</citedRange></bibl> as "Frgm.".</note><note corresp="#a3 #b1" type="philcomment"><hi>ākläṣlyāṃ yāmitär</hi>: <hi>ākläṣlyāṃ</hi> is an obl.sg.; probably, the phrase pattern goes <hi>kusne aśi ... ākläṣlyāṃ yāmitär</hi>, meaning 'Which nun does (ordination) to a female disciple who ...', i.e. 'Which nun ordinates a female disciple who ...' (cf. also a4).</note><note corresp="#a5" type="philcomment"><hi>ṣäk mä(rkampaläntu)</hi>: cf. 'welche nicht zwei Jahre lang die sechs dharmas studiert hat', which occurs e.g. Sarv.Pāt.111, 112, 121, 122 (<bibl><title corresp="ref:waldschmidt1926"/><citedRange>138-141</citedRange></bibl>.</note><note corresp="#b3" type="philcomment"><hi>wikāṣṣ-ä(ṃ)</hi>: pace <bibl><title corresp="ref:ogihara2009"/><citedRange>278</citedRange></bibl>, who claims that <hi>ṃ</hi> is excluded, the paper on top of the <distinct type="ms_text">_ṣ_ṣ_a</distinct> is abraded and an anusvāra may be lost. However, it cannot be ruled out that the word division is rather <hi>wikāṣ ṣä ///</hi>. As <bibl><title corresp="ref:ogihara2009"/><citedRange>278</citedRange></bibl> remarks, this will be the attestation <hi>wikāṣṣä ..</hi> noted in <bibl><title corresp="ref:siegetal1931"/><citedRange>472</citedRange></bibl> as "Frgm.".</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>other</label> Edition: <bibl><title corresp="ref:ogihara2009"/><citedRange>74, 278</citedRange></bibl> Identification: <bibl><title corresp="ref:ogihara2009"/><citedRange>74, 278</citedRange></bibl></p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=THT 1042n" type="external">THT 1042n</ref></bibl></p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="user_modified_old">michael</item>
+               <item n="user_created_old">michael</item>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_subgenre_old">Vinaya</item>
+               <item n="m_translation_old">a2 ...
+a3 ... should she do ... [to] the female disciple ...
+a4 ... should she do ... – &lt;i&gt;pātayantika&lt;/i&gt; [offence].
+a5 ... the nun six ...
+b1 ... should she do ... [to] the female disciple ...
+b2 ... year ... female teacher ...
+b3 ... she will remove her ...
+b4 ... – &lt;i&gt;pātayantika&lt;/i&gt; [offence].</item>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_size_w_old">4,5</item>
+               <item n="m_expedition_old">T II S 19.21</item>
+               <item n="m_other_sigla_old">THT 1042n; Bleistiftnummer 3111</item>
+               <item n="m_remarks_old">The lower margin of the recto (upper of the verso) is preserved. In one frame with [[A 408.j]]-[[A 408.m]] and [[A 408.o]]-[[A 408.r]]. [[Ogihara 2009]]: 278 suggests that [[THT 3349]] and [[THT 3335]] may belong to the same leaf as is this fragment; he further considers the possibility that also [[A 408.q]] and [[A 408.r]] belong to the same leaf. Since this fragment belongs to the vinaya, it is assumed that it belongs to manuscript A 415-416, not to A 406-408.</item>
+               <item n="m_language_old">TA</item>
+               <item n="ms_old">A 408.n</item>
+               <item n="project_comment_old">&lt;ul&gt;
+&lt;li&gt;This data set has been completed on Thu, 2012-11-01, 18:15:41 from &amp;quot;IDPImages_THT_20120306.csv&amp;quot;.&lt;/li&gt;
+&lt;/ul&gt;</item>
+               <item n="m_script_old">Classical</item>
+               <item n="m_parallels_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_title_old">Bhikṣuṇī-Prātimokṣasūtra</item>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old">a2 /// – lyā – ///
+a3 /// ākläṣlyāṃ yā(mitär) ///
+a4 /// yāmitär pāyt(i) ///
+a5 /// aśi ṣäk mä(rkampaläntu) ///
+b1 /// (āklä)ṣlyāṃ yāmitär ///
+b2 /// p_ukäl upādhyāyi ///
+b3 /// rś·· wikāṣṣ-ä(ṃ) ///
+b4 /// pāy(t)i ///</item>
+               <item n="m_language_stage_old"/>
+               <item n="m_transliteration_old">a2 /// – [l]y[ā] – ///
+a3 /// ā_k_l_aṣlyāṃ yā ///
+a4 /// [y]āmi_t_a_r\ pā[yt]· ///
+a5 /// aśi _ṣ_a_k\• _m_a – ///
+b1 /// [ṣl]yāṃ yāmi_t_a_r\ ///
+b2 /// p_u_k_a_l\• upādhyāyi ///
+b3 /// rś·· wikā_ṣ_ṣ-_a(·) ///
+b4 /// pā[y](·)i ///</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=317217;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=317217;rotate=0;imageType=_M||$page; recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=317208;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=317208;rotate=0;imageType=_M||$page; verso</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bl.uk/database/oo_loader.a4d?pm=THT 1042n" target="idp"&gt;THT 1042n&lt;/a&gt;
+&lt;br&gt;Edition: [[Ogihara 2009]]: 74, 278
+&lt;br&gt;Identification: [[Ogihara 2009]]: 74, 278</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old">A 415-416</item>
+               <item n="file_modified_old">1470351264</item>
+               <item n="file_created_old">1345717022</item>
+               <item n="m_size_h_old">4,7</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="m_passage_old">Pāt.106-125</item>
+               <item n="m_philcomment_old">[[Ogihara 2009]]: 278 places this fragment in the section of the &lt;i&gt;pātayantika&lt;/i&gt;s about the ordination ritual ([[Waldschmidt 1926]]: 133-152; Pāt.106-125 of the Sarvāstivādins). In particular, he adduces &lt;i&gt;ṣäk&lt;/i&gt; 'six' and &lt;trans&gt;&lt;i&gt;p_ukäl&lt;/i&gt;&lt;/trans&gt; 'year'. While &lt;i&gt;ṣäk&lt;/i&gt; 'six' might lead to a refinement of the classification, &lt;trans&gt;&lt;i&gt;p_ukäl&lt;/i&gt;&lt;/trans&gt; 'year' occurs too often to be of any help. A further indication of appurtenance to the ordination section is &lt;i&gt;upādhyāyi&lt;/i&gt; 'female teacher', which appears to be the Tocharian A equivalent of Skt. &lt;i&gt;upādhyāyā&lt;/i&gt; 'female teacher'.
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;a3&lt;/b&gt; &lt;i&gt;ākläṣlyāṃ&lt;/i&gt;: this is probably the attestation noted in [[TG]]: 64 as "Frgm.".
+&lt;br&gt;&lt;b&gt;a3, b1&lt;/b&gt; &lt;i&gt;ākläṣlyāṃ yāmitär&lt;/i&gt;: &lt;i&gt;ākläṣlyāṃ&lt;/i&gt; is an obl.sg.; probably, the phrase pattern goes &lt;i&gt;kusne aśi ... ākläṣlyāṃ yāmitär&lt;/i&gt;, meaning 'Which nun does (ordination) to a female disciple who ...', i.e. 'Which nun ordinates a female disciple who ...' (cf. also a4).
+&lt;br&gt;&lt;b&gt;a5&lt;/b&gt; &lt;i&gt;ṣäk mä(rkampaläntu)&lt;/i&gt;: cf. 'welche nicht zwei Jahre lang die sechs dharmas studiert hat', which occurs e.g. Sarv.Pāt.111, 112, 121, 122 ([[Waldschmidt 1926]]: 138-141.
+&lt;br&gt;&lt;b&gt;b3&lt;/b&gt; &lt;i&gt;wikāṣṣ-ä(ṃ)&lt;/i&gt;: pace [[Ogihara 2009]]: 278, who claims that &lt;i&gt;ṃ&lt;/i&gt; is excluded, the paper on top of the &lt;trans&gt;&lt;i&gt;_ṣ_ṣ_a&lt;/i&gt;&lt;/trans&gt; is abraded and an anusvāra may be lost. However, it cannot be ruled out that the word division is rather &lt;i&gt;wikāṣ ṣä ///&lt;/i&gt;. As [[Ogihara 2009]]: 278 remarks, this will be the attestation &lt;i&gt;wikāṣṣä ..&lt;/i&gt; noted in [[TG]]: 472 as "Frgm.".</item>
+               <item n="file_location_old">pages/manuscript/A_frag/a408n.txt</item>
+               <item n="access_old">public</item>
+               <item n="m_lines_old">5</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Siŋgim</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;ul&gt;&lt;li&gt;This data set has been completed on Thu, 2012-11-01, 18:15:41 from "IDPImages_THT_20120306.csv".&lt;/li&gt;&lt;/ul&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

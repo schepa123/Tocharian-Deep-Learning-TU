@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-a39926">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A 399.26</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <date when="2012-08-21">21 August 2012</date>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>A 399.26</idno>
+                  <altIdentifier>
+                     <idno>THT 1033.26</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>THT 1033b26</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>58</idno>
+                  </altIdentifier>
+                  <msName>A 399-404</msName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>2,2</height>
+                              <width>2,8</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">2</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Siŋgim</region>during <rs type="expedition_code">T II S </rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="xto"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Jātaka/Avadāna</term>
+               <term type="prose_verse">prose</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <line n="1" xml:id="a1"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>¯ñcä</zone><zone>PA</zone><zone><unclear>ñ</unclear><gap reason="plain" unit="part"/><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <line n="1" xml:id="b1"><gap reason="lost"/><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>ā</zone><zone>ca</zone><zone>rNA</zone><zone>ku</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>ñc</w><w>päñ</w><w><gap reason="plain" unit="part"/><gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><w><supplied>ck</supplied>ācar</w><w>näku</w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">... five ...</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">...</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">... daughter ...</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">The fragment is upside down in the frame.</note><note corresp="#b2" type="philcomment"><hi>(ck)ācar</hi>: the consonantal part of the first is almost completely lost. Nevertheless, the traces that remain are compatible with <hi>[c]</hi> and seem to exclude <hi>m</hi> (<hi>(m)ācar</hi>) and <hi>p</hi> (<hi>(p)ācar</hi>).</note><note corresp="#b2" type="philcomment"><hi>näku</hi>: this is the most likely reading palaeographically, but phonologically it is impossible: after <hi>nä</hi>, a cluster would be needed to account for the vowel <hi>ä</hi> that is not syncopated.</note></p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;b2.&lt;/b&gt; &lt;i&gt;(ck)ācar&lt;/i&gt;: the consonantal part of the first is almost completely lost. Nevertheless, the traces that remain are compatible with &lt;i&gt;[c]&lt;/i&gt; and seem to exclude &lt;i&gt;m&lt;/i&gt; (&lt;i&gt;(m)ācar&lt;/i&gt;) and &lt;i&gt;p&lt;/i&gt; (&lt;i&gt;(p)ācar&lt;/i&gt;).&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b2.&lt;/b&gt; &lt;i&gt;näku&lt;/i&gt;: this is the most likely reading palaeographically, but phonologically it is impossible: after &lt;i&gt;nä&lt;/i&gt;, a cluster would be needed to account for the vowel &lt;i&gt;ä&lt;/i&gt; that is not syncopated.&lt;/p&gt;</item>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="file_created_old">1345544289</item>
+               <item n="file_modified_old">1486051251</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old">2,2</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old">A 399-404</item>
+               <item n="m_bib_old"/>
+               <item n="date_publication_old">21 August 2012</item>
+               <item n="m_language_stage_old"/>
+               <item n="m_transliteration_old">a1 /// – ñcä\ _p_a[ñ] ·· ///
+b1 /// – ///
+b2 /// ·ācar _n_aku ///</item>
+               <item n="m_image_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_old">Siŋgim</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_linedistance_old"/>
+               <item n="m_completeness_old"/>
+               <item n="m_lines_old">2</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="access_old">public</item>
+               <item n="file_location_old">pages/manuscript/A_frag/a39926.txt</item>
+               <item n="m_metric_form_old">Both</item>
+               <item n="m_tune_old"/>
+               <item n="m_translation_old">a1 ... five ...
+b1 ...
+b2 ... daughter ...</item>
+               <item n="m_subgenre_old">Jātaka/Avadāna</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_prev_old"/>
+               <item n="user_created_old">michael</item>
+               <item n="user_modified_old">theres</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_meter_old"/>
+               <item n="m_title_old"/>
+               <item n="m_transcription_old">a1 /// – ñc päñ ·· ///
+b1 /// – ///
+b2 /// (ck)ācar näku ///</item>
+               <item n="m_leaf_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="ms_old">A 399.26</item>
+               <item n="project_comment_old"/>
+               <item n="m_parallels_old"/>
+               <item n="m_size_w_old">2,8</item>
+               <item n="m_expedition_old">T II S </item>
+               <item n="m_language_old">TA</item>
+               <item n="m_remarks_old">&lt;p&gt;The fragment is upside down in the frame.&lt;/p&gt;</item>
+               <item n="m_other_sigla_old">THT 1033.26; THT 1033b26; 58</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

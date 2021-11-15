@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht465">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 465</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 465</idno>
+                  <altIdentifier>
+                     <idno>B 465</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Bleistiftnummer 2575</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Scroll</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>cursive</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Qizil Miŋ-Öy</region>during <rs type="expedition_code">T III MQ 143.6</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-late frg:ls-peyrot-C frg:ls-C14 frg:ls-tamai-L1 frg:ls-C14"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Non-literary</term>
+               <term type="subgenre">Account</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328062;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328062;rotate=0;imageType=_M"/>
+            <graphic url="B/B465a.jpg" height="1260px" width="921px"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone><unclear>n</unclear>ma</zone><zone>śwā</zone><zone>ra</zone><zone>to¯</zone><zone>¯M</zone><zone>ko</zone><gap reason="plain" quantity="1"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone>yi</zone><zone>rma</zone><zone>kkai</zone><zone>la</zone><zone>ri</zone><zone>śka</zone><zone>ntse</zone><zone>ka</zone><zone><unclear>pc</unclear>i</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>rpṣu</zone><zone>ki</zone><zone>pu</zone><zone>tte</zone><zone>yā</zone><zone><unclear>n</unclear>e</zone><zone><gap reason="plain" unit="part"/>e</zone><zone><unclear>ka</unclear></zone><zone>pci</zone></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><zone><unclear>v</unclear>i</zone><zone>nai</zone><zone>śe</zone><zone>lyā</zone><zone>ka</zone><zone>se</zone><zone>ka</zone><zone>pci</zone><zone>¤</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><w><supplied>caka</supplied>nma</w><w>śwāra</w><w>tom</w><w>ko<supplied>ysaṃ</supplied></w>
+<lb corresp="#a2"/><gap reason="lost"/><w>yirmakkai</w><w>lariśkantse</w><w>kapci</w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><w><supplied>yi</supplied>rpṣuki</w><w>putteyāne<supplied>nts</supplied>e</w><w>kapci</w>
+<lb corresp="#a4"/><gap reason="lost"/><w>vinaiśe</w><w>lyāka</w><w>se</w><w>kapci</w><seg type="monogram">¤</seg></p>
+         </div>
+         <div type="comments">
+            <p><note corresp="#a1" type="philcomment"><hi>ko(ysaṃ)</hi>: Restored after <ref type="ms" target="txt:m-tht466"/> a1.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 465" type="external">THT 465</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/04/0465.htm" type="external">THT 465</ref></bibl>. </p>
+            <p><label>Edition</label><bibl><title corresp="ref:sieg1950"/><citedRange>216-217</citedRange></bibl>; <bibl><title corresp="ref:siegandsiegling1953"/><citedRange>298</citedRange></bibl>; <bibl><title corresp="ref:ching2010"/><citedRange>285</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_subgenre_old">Account</item>
+               <item n="file_name_old">pages/manuscript/THT_0001_0633/tht465.txt</item>
+               <item n="file_savedate_old">2018-07-30, 15:36:53 (CEST)</item>
+               <item n="category_old">manuscript</item>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old">bernhard</item>
+               <item n="group_old">Public</item>
+               <item n="m_genre_old">Non-literary</item>
+               <item n="m_transcription_old">a1 /// (caka)nma śtwāra|śwāra tom ko(ysaṃ)
+a2 /// yirmakkai lariśkantse kapci ///
+a3 /// (yi)rpṣuki putteyāne(nts)e kapci
+a4 /// vinaiśe lyāka se kapci ¤</item>
+               <item n="editgroup_old">Editor</item>
+               <item n="m_script_old">Cursive</item>
+               <item n="project_comment_old">&lt;p&gt;Alternative classifications:
+&lt;table class="table_lines"&gt;
+  &lt;tr&gt;&lt;td title="MP"&gt;Peyrot&lt;/td&gt;&lt;td title="C"&gt;colloquial&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="MM"&gt;Malzahn&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TT"&gt;Tamai&lt;/td&gt;&lt;td title="L1"&gt;III-1 (900-1000)&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TTC14"&gt;Tamai-C14&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;There should be no round brackets in the transliteration! –Martin (Wed, 2015-05-20, 20:25:22)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Translation [[Ching 2010]]: 285:&lt;br&gt;
+a1 /// [piculs], four pecks. [&lt;i&gt;koyṣaṃ&lt;/i&gt;]&lt;br&gt;
+a2 /// &lt;i&gt;Lariśka&lt;/i&gt; the &lt;i&gt;Yirmakka&lt;/i&gt;'s finger-measure. ///&lt;br&gt;
+a3 /// &lt;i&gt;Putteyāne&lt;/i&gt; the &lt;i&gt;Yirpṣuki&lt;/i&gt;['s finger-measure].&lt;br&gt;
+a4 /// &lt;i&gt;Vinaiśe&lt;/i&gt; has seen. This (is his) finger-measure. [¤]&lt;/p&gt;</item>
+               <item n="ms_old">THT 465</item>
+               <item n="edited_date_old">2018-07-30, 15:45:26 (CEST)</item>
+               <item n="m_expedition_old">T III MQ 143.6</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_other_sigla_old">B 465, Bleistiftnummer 2575</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_philcomment_old">&lt;b&gt;a1&lt;/b&gt; &lt;i&gt;ko(ysaṃ)&lt;/i&gt;: Restored after [[THT 466]] a1.</item>
+               <item n="page_name_old">THT 465</item>
+               <item n="version_old">5</item>
+               <item n="file_created_old">1332006615</item>
+               <item n="file_modified_old">1547319711</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 465" target="idp"&gt;THT 465&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/04/0465.htm" target="titus"&gt;THT 465&lt;/a&gt;.&lt;br&gt;
+Edition: [[Sieg 1950]]: 216-217; [[TochSprR(B) II]]: 298; [[Ching 2010]]: 285.</item>
+               <item n="file_size_old">2 KB</item>
+               <item n="m_transliteration_old">a1 /// [n]ma śwāra to_m\ ko –
+a2 /// yirmakkai lariśkantse ka[pc]i ///
+a3 /// (yi)rpṣuki putteyā[n]e(nts)e [ka]pci
+a4 /// [v]inaiśe lyāka se kapci ¤</item>
+               <item n="m_language_stage_old">Late</item>
+               <item n="m_image_old">http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328062;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328062;rotate=0;imageType=_M||THT 465 recto</item>
+               <item n="created_date_old">2012-03-17, 18:50:15 (CET)</item>
+               <item n="m_form_old">Scroll</item>
+               <item n="m_findspot_old">Qizil Miŋ-Öy</item>
+               <item n="m_lines_old">4</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="access_old">public</item>
+               <item n="file_location_old">pages/manuscript/THT_0001_0633/tht465.txt</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;Alternative classifications:
+
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;There should be no round brackets in the transliteration! –Martin (Wed, 2015-05-20, 20:25:22)&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Translation &lt;bibl&gt;&lt;title corresp="ref:ching2010"/&gt;&lt;citedRange&gt;285&lt;/citedRange&gt;&lt;/bibl&gt;: 
+a1 /// [piculs], four pecks. [&lt;hi&gt;koyṣaṃ&lt;/hi&gt;] 
+a2 /// &lt;hi&gt;Lariśka&lt;/hi&gt; the &lt;hi&gt;Yirmakka&lt;/hi&gt;'s finger-measure. /// 
+a3 /// &lt;hi&gt;Putteyāne&lt;/hi&gt; the &lt;hi&gt;Yirpṣuki&lt;/hi&gt;['s finger-measure]. 
+a4 /// &lt;hi&gt;Vinaiśe&lt;/hi&gt; has seen. This (is his) finger-measure. [¤]&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

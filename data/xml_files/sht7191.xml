@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-sht7191">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>SHT 7191</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>SHT 7191</idno>
+                  <altIdentifier>
+                     <idno>U 6905a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Aśvaghoṣa, Buddhacarita</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>3</height>
+                              <width>4,8</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">2+</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region>during <rs type="expedition_code">T II S 53</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="txb" ana="frg:ls-cetom-late"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Gloss</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=378332;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=378332;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="a1x"><zone>swa</zone><zone>ro</zone><zone>mñ<unclear>e</unclear></zone><zone>sa</zone></line>
+            <line n="2" xml:id="a2x"><gap reason="lost"/><zone>tse</zone></line>
+            <line n="2" xml:id="a2y"><zone>snai</zone><zone>mi</zone><zone>yä</zone><zone>ṣñe</zone></line>
+            <line n="2" xml:id="a2z"><zone>ta</zone><zone>nma</zone><zone><unclear>ṣ</unclear><gap reason="plain" unit="part"/><gap reason="plain" unit="part"/></zone></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=378333;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=378333;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="b1x"><zone>lā</zone><zone>ntwa</zone><zone>TA</zone><zone>ra¯</zone><zone>¯M</zone></line>
+            <line n="1" xml:id="b1y"><zone>mā</zone><zone>ts<unclear>e</unclear></zone><zone>re</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2x"><zone>mā</zone><zone>śa</zone><zone><unclear>t</unclear>ka</zone><gap reason="deleted" quantity="1"/><zone>pa</zone><zone>pā</zone><zone>ṣo</zone><zone><gap reason="plain" unit="part"/>e</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p><milestone unit="passage" n="2.9-15"/>
+<lb corresp="#a1x"/><w>swaromñesa</w>
+<lb corresp="#a2x"/><gap reason="lost"/><w>-tse</w>
+<lb corresp="#a2y"/><w>snai</w><w>miyäṣñe</w>
+<lb corresp="#a2z"/><w>tanmaṣ<supplied>ṣar</supplied></w>
+<lb corresp="#b1x"/><w>lānt</w><w>wat<surplus>ä</surplus></w><w>ram</w>
+<lb corresp="#b1y"/><w>mā</w><w>tsere</w><gap reason="lost"/>
+<lb corresp="#b2x"/><w>mā</w><w>śatka</w><w>papāṣo<supplied>rñ</supplied>e</w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1x"><seg><seg type="prim_transl">in swetness</seg></seg></choice><choice corresp="#a2x"><seg><seg type="prim_transl">...</seg></seg></choice><choice corresp="#a2y"><seg><seg type="prim_transl">without damage</seg></seg></choice><choice corresp="#a2z"><seg><seg type="prim_transl">gave birth</seg></seg></choice><choice corresp="#b1x"><seg><seg type="prim_transl">or like the king</seg></seg></choice><choice corresp="#b1y"><seg><seg type="prim_transl">they did not trick/deceive</seg></seg></choice><choice corresp="#b2x"><seg><seg type="prim_transl">he did not transgress moral behaviour</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">This fragment, initially wrongly classified as Old Uyghur with the press mark U 6905a, was identified as a Sanskrit fragment with TB glosses by Dieter Maue. Klaus Wille, whose readings I thankfully quote here, subsequently identified it as a fragment of Aśvaghoṣa's Buddhacarita (Michaël Peyrot).</note><note corresp="#a1x" type="lingcomment"><hi>swaromñesa</hi> (perl.sg.) is a late form for class. <hi>swarauñesa</hi>.</note><note corresp="#a1x" type="philcomment">glosses Skt. Bc.2.8c <hi>rasena</hi> (instr.sg.) 'in taste'.</note><note corresp="#a2y" type="lingcomment"><hi>snai miyäṣñe</hi> is a late form for <hi>snai miyäṣṣälñe</hi>. As for the remnant of another gloss to the left, <ref type="ms" target="#a2x"/> <hi>-tse</hi> is a frequent adjective suffix and the restoration of this second gloss is uncertain (Dieter Maue, p.c.).</note><note corresp="#a2y" type="philcomment"><hi>snai miyäṣñe</hi> glosses Skt. Bc.2.9c <hi>nirāmayaṃ</hi> 'free of disease'. A further gloss <ref type="ms" target="#a2x"/> ending in ///<hi>tse</hi> is found to the left, perhaps glossing Skt. Bc.2.9c <hi>caiva</hi> 'and just' or otherwise the preceding <hi>sukhaṃ</hi> 'ease' (Dieter Maue, p.c.). <ref type="ms" target="#a2z"/> <hi>tanmaṣ(ṣar)</hi> glosses Skt. Bc.2.9d <hi>praj(a)jñ(ire)</hi> 'gave birth'. This gloss and the relevant Sanskrit text are flipped over to the verso of the fragment. The last akṣara-like symbol under <hi>jñ(i)</hi>, a little bit to the right, belongs to a gloss to the original text of the verso, not this one (see line <ref type="ms" target="#b1x"/> <hi>lānt wat</hi>). The gloss is written in black ink, apparently on an earlier gloss in fainter ink, perhaps originally the same word. The beginning of the gloss is clear and it is certainly a form of <hi>tǝnmǝsk-<hi rend="superscript">caus.</hi></hi> 'generate; give birth', but it is not fully clear whether the last akṣara is completely abraded or has simply been left out. Since there may be a long descender going down to the right of <hi>[d]ā</hi> in the next line (<ref type="ms" target="#a3"/>), the correct reading may be <hi>tanma[ṣ](ṣa)[<hi rend="underline">r</hi>]<hi rend="subscript">(\)</hi></hi>.</note><note corresp="#a2z" type="lingcomment">The possibly correct reading <hi>tanma[ṣ](ṣa)[<hi rend="underline">r</hi>]<hi rend="subscript">(\)</hi></hi> would stand for a 3pl.pt. <hi>tanmäṣṣare*</hi> with the shorter ending <hi>-r</hi> (which, as should be noted however, is not in any way regular, not even in the late language (<bibl><title corresp="ref:peyrot2008"/><citedRange>133-4</citedRange></bibl>) and <hi>a</hi> for <hi>ä</hi> in the second syllable. Otherwise, a 3pl.pt.mid. <hi>tanmaṣ(ṣa)〈nte〉</hi> would also be a possibility, in view of the fact that this verb is both active and middle (<bibl><title corresp="ref:peyrot2013b"/><citedRange>753</citedRange></bibl>).</note><note corresp="#b1x" type="lingcomment">For <hi>ram</hi> 'like' (class. <hi>ramt</hi>), which normally renders Skt. <hi>iva</hi>, there is no direct correlate in the Sanskrit text. It is probably a second rendering of <hi>vā</hi> 'or' in its meaning 'like, as' (<bibl><title corresp="ref:swft1973"/></bibl>: IV, 88). Thus, <hi>vā</hi> was glossed two times: once as <hi>wat</hi> 'or' and once as <hi>ram</hi> 'like'. In the second element <ref type="ms" target="#b1y"/>, <hi>tsere</hi> is a 3pl.prt.mid.; the Sanskrit equivalent is a 3du.pf.</note><note corresp="#b1x" type="philcomment"><hi>lānt wat ram</hi> glosses Skt. Bc.2.13c <hi>p(a)t(iṃ) v(ā)</hi> 'or the lord'. Due to a piece flipped over from the recto, I could not read this gloss fully in my previous study (<bibl><title corresp="ref:peyrot2014"/><citedRange>167</citedRange></bibl>). The present reading was made possible by a restoration of the fragment. The second element <ref type="ms" target="#b1y"/>, <hi>mā tsere</hi>, glosses Skt. Bc.2.13d <hi>na vyabhiceratur</hi> 'they did not offend; they did not transgress against'. Before the restoration of the fragment, this gloss was not visible at all.</note><note corresp="#b2x" type="philcomment">glosses Skt. Bc.2.14c <hi>n(a) cacār(a dharmaṃ)</hi> '[none] practised religion' (<bibl><title corresp="ref:johnston1935"/><citedRange>II, 22</citedRange></bibl>). Faint lines under this gloss blur the reading. The akṣara following <hi>[t]ka</hi> is illegible and seems to have been wiped out intentionally. In my previous study (<bibl><title corresp="ref:peyrot2014"/><citedRange>167</citedRange></bibl>), I had read <hi>mā śa[t]ka – pap[āṣṣ]· ///</hi> = <hi>mā śatka papāṣṣ(orñe)</hi>. Thanks to the restoration of the fragment, the reading could be slightly improved. In any case, if the reading is correct (my interpretation requires that the grey spot found here was not intended to be part of the gloss), the gloss appears to be the reverse of the Sanskrit text: in the Sanskrit text, the law is not practised; in the Tocharian gloss, the law is not violated.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=SHT 7191" type="external">SHT 7191</ref></bibl><bibl><title corresp="ref:peyrot2014"/><citedRange>167-9</citedRange></bibl>; <bibl><title corresp="ref:peyrot2015b"/><citedRange>125-126</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_script_old"/>
+               <item n="project_comment_old">&lt;p&gt;I changed &lt;i&gt;sunsequently&lt;/i&gt; to &lt;i&gt;subsequently&lt;/i&gt; in the remarks, added the images, added the link to IDP, untangled the line numbers, added the link from papāṣo(rñ)e to papāṣṣorñe. –Martin (Sat, 2018-09-29, 04:24:28 (CEST))&lt;/p&gt;</item>
+               <item n="ms_old">SHT 7191</item>
+               <item n="m_parallels_old"/>
+               <item n="m_expedition_old">T II S 53</item>
+               <item n="m_size_w_old">4,8</item>
+               <item n="m_language_old">Sanskrit+TB</item>
+               <item n="m_remarks_old">&lt;p&gt;This fragment, initially wrongly classified as Old Uyghur with the press mark U 6905a, was identified as a Sanskrit fragment with TB glosses by Dieter Maue. Klaus Wille, whose readings I thankfully quote here, subsequently identified it as a fragment of Aśvaghoṣa's Buddhacarita (Michaël Peyrot).&lt;/p&gt;</item>
+               <item n="m_other_sigla_old">U 6905a</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_meter_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_title_old">Aśvaghoṣa, Buddhacarita</item>
+               <item n="m_transcription_old">a1x swaromñesa
+a2x /// -tse
+a2y snai miyäṣñe
+a2z tanmaṣ(ṣar)
+b1x lānt wat ram
+b1y mā tsere ///
+b2x mā śatka papāṣṣorñe|papāṣo(rñ)e ///</item>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_prev_old"/>
+               <item n="user_created_old">theres</item>
+               <item n="user_modified_old">martin</item>
+               <item n="project_check_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_tune_old"/>
+               <item n="m_translation_old">a1x in swetness
+a2x ...
+a2y without damage
+a2z gave birth
+b1x or like the king
+b1y they did not trick/deceive
+b2x he did not transgress moral behaviour</item>
+               <item n="m_subgenre_old">Gloss</item>
+               <item n="m_completeness_old"/>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_lines_old">2+</item>
+               <item n="access_old">restricted</item>
+               <item n="file_location_old">pages/manuscript/sht7191.txt</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old">&lt;p&gt;&lt;b&gt;a1x.&lt;/b&gt; &lt;i&gt;swaromñesa&lt;/i&gt; (perl.sg.) is a late form for class. &lt;i&gt;swarauñesa&lt;/i&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a2y.&lt;/b&gt; &lt;i&gt;snai miyäṣñe&lt;/i&gt; is a late form for &lt;i&gt;snai miyäṣṣälñe&lt;/i&gt;. As for the remnant of another gloss to the left, &lt;b&gt;a2x.&lt;/b&gt; &lt;i&gt;-tse&lt;/i&gt; is a frequent adjective suffix and the restoration of this second gloss is uncertain (Dieter Maue, p.c.).&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a2z.&lt;/b&gt; The possibly correct reading &lt;i&gt;tanma[ṣ](ṣa)[&lt;u&gt;r&lt;/u&gt;]&lt;sub&gt;(\)&lt;/sub&gt;&lt;/i&gt; would stand for a 3pl.pt. &lt;i&gt;tanmäṣṣare*&lt;/i&gt; with the shorter ending &lt;i&gt;-r&lt;/i&gt; (which, as should be noted however, is not in any way regular, not even in the late language ([[Peyrot 2008]]: 133-4) and &lt;i&gt;a&lt;/i&gt; for &lt;i&gt;ä&lt;/i&gt; in the second syllable. Otherwise, a 3pl.pt.mid. &lt;i&gt;tanmaṣ(ṣa)〈nte〉&lt;/i&gt; would also be a possibility, in view of the fact that this verb is both active and middle ([[Peyrot, ToSu]]: 753).&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b1x.&lt;/b&gt; For &lt;i&gt;ram&lt;/i&gt; 'like' (class. &lt;i&gt;ramt&lt;/i&gt;), which normally renders Skt. &lt;i&gt;iva&lt;/i&gt;, there is no direct correlate in the Sanskrit text. It is probably a second rendering of &lt;i&gt;vā&lt;/i&gt; 'or' in its meaning 'like, as' ([[SWTF]]: IV, 88). Thus, &lt;i&gt;vā&lt;/i&gt; was glossed two times: once as &lt;i&gt;wat&lt;/i&gt; 'or' and once as &lt;i&gt;ram&lt;/i&gt; 'like'. In the second element &lt;b&gt;b1y&lt;/b&gt;, &lt;i&gt;tsere&lt;/i&gt; is a 3pl.prt.mid.; the Sanskrit equivalent is a 3du.pf.&lt;/p&gt;</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=SHT 7191" target="idp"&gt;SHT 7191&lt;/a&gt;, [[Peyrot 2014]]: 167-9; [[Peyrot 2015b]]: 125-126.</item>
+               <item n="date_publication_old"/>
+               <item n="m_transliteration_old">a1x swaromñ[e]sa
+a2x /// tse
+a2y snai miyäṣñe
+a2z tanma[ṣ]··
+b1x lānt wa_t(\) ra_m\
+b1y mā ts[e]re ///
+b2x mā śa[t]ka «†–» papāṣo·e ///</item>
+               <item n="m_language_stage_old">Late</item>
+               <item n="m_image_old">http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=378332;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=378332;rotate=0;imageType=_M||SHT 7191 recto|transform:rotate(180deg);
+http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=378333;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=378333;rotate=0;imageType=_M||SHT 7191 verso</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_passage_old">2.9-15</item>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;a1x.&lt;/b&gt; glosses Skt. Bc.2.8c &lt;i&gt;rasena&lt;/i&gt; (instr.sg.) 'in taste'.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a2y.&lt;/b&gt; &lt;i&gt;snai miyäṣñe&lt;/i&gt; glosses Skt. Bc.2.9c &lt;i&gt;nirāmayaṃ&lt;/i&gt; 'free of disease'. A further gloss &lt;b&gt;a2x.&lt;/b&gt; ending in ///&lt;i&gt;tse&lt;/i&gt; is found to the left, perhaps glossing Skt. Bc.2.9c &lt;i&gt;caiva&lt;/i&gt; 'and just' or otherwise the preceding &lt;i&gt;sukhaṃ&lt;/i&gt; 'ease' (Dieter Maue, p.c.). &lt;b&gt;a2z.&lt;/b&gt; &lt;i&gt;tanmaṣ(ṣar)&lt;/i&gt; glosses Skt. Bc.2.9d &lt;i&gt;praj(a)jñ(ire)&lt;/i&gt; 'gave birth'. This gloss and the relevant Sanskrit text are flipped over to the verso of the fragment. The last akṣara-like symbol under &lt;i&gt;jñ(i)&lt;/i&gt;, a little bit to the right, belongs to a gloss to the original text of the verso, not this one (see line &lt;b&gt;b1x&lt;/b&gt; &lt;i&gt;lānt wat&lt;/i&gt;). The gloss is written in black ink, apparently on an earlier gloss in fainter ink, perhaps originally the same word. The beginning of the gloss is clear and it is certainly a form of &lt;i&gt;tǝnmǝsk-&lt;sup&gt;caus.&lt;/sup&gt;&lt;/i&gt; 'generate; give birth', but it is not fully clear whether the last akṣara is completely abraded or has simply been left out. Since there may be a long descender going down to the right of &lt;i&gt;[d]ā&lt;/i&gt; in the next line (&lt;b&gt;a3&lt;/b&gt;), the correct reading may be &lt;i&gt;tanma[ṣ](ṣa)[&lt;u&gt;r&lt;/u&gt;]&lt;sub&gt;(\)&lt;/sub&gt;&lt;/i&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b1x.&lt;/b&gt; &lt;i&gt;lānt wat ram&lt;/i&gt; glosses Skt. Bc.2.13c &lt;i&gt;p(a)t(iṃ) v(ā)&lt;/i&gt; 'or the lord'. Due to a piece flipped over from the recto, I could not read this gloss fully in my previous study ([[Peyrot 2014]]: 167). The present reading was made possible by a restoration of the fragment. The second element &lt;b&gt;b1y&lt;/b&gt;, &lt;i&gt;mā tsere&lt;/i&gt;, glosses Skt. Bc.2.13d &lt;i&gt;na vyabhiceratur&lt;/i&gt; 'they did not offend; they did not transgress against'. Before the restoration of the fragment, this gloss was not visible at all.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b2x.&lt;/b&gt; glosses Skt. Bc.2.14c &lt;i&gt;n(a) cacār(a dharmaṃ)&lt;/i&gt; '[none] practised religion' ([[Johnston 1935-1936]]: II, 22). Faint lines under this gloss blur the reading. The akṣara following &lt;i&gt;[t]ka&lt;/i&gt; is illegible and seems to have been wiped out intentionally. In my previous study ([[Peyrot 2014]]: 167), I had read &lt;i&gt;mā śa[t]ka – pap[āṣṣ]· ///&lt;/i&gt; = &lt;i&gt;mā śatka papāṣṣ(orñe)&lt;/i&gt;. Thanks to the restoration of the fragment, the reading could be slightly improved. In any case, if the reading is correct (my interpretation requires that the grey spot found here was not intended to be part of the gloss), the gloss appears to be the reverse of the Sanskrit text: in the Sanskrit text, the law is not practised; in the Tocharian gloss, the law is not violated.&lt;/p&gt;</item>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="file_created_old">1446456857</item>
+               <item n="file_modified_old">1538188273</item>
+               <item n="m_size_h_old">3</item>
+               <item n="m_next_old"/>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;I changed &lt;hi&gt;sunsequently&lt;/hi&gt; to &lt;hi&gt;subsequently&lt;/hi&gt; in the remarks, added the images, added the link to IDP, untangled the line numbers, added the link from papāṣo(rñ)e to papāṣṣorñe. –Martin (Sat, 2018-09-29, 04:24:28 (CEST))&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

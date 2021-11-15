@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht4077">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 4077</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 4077</idno>
+                  <altIdentifier>
+                     <idno>SHT 291</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Uv.EA</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Udānavarga</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>4,4</height>
+                              <width>7+14,7</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">4</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Qizil Miŋ-Öy</region><placeName>Rothkuppelraum</placeName>during <rs type="expedition_code">T III MQR</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Doctrine</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=335435;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=335435;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="a1"><zone><unclear>॥</unclear></zone><zone><unclear>brā</unclear></zone><zone>hma</zone><zone>ṇa</zone><zone>va</zone><zone>rga</zone><zone>ḥ</zone><zone>30</zone><zone>3</zone><zone>॥</zone></line>
+            <line n="2" xml:id="a2"><zone>॥</zone><zone>u</zone><zone>ddā</zone><gap reason="plain" quantity="1"/><zone><unclear>m</unclear></zone><zone>॥</zone><zone><unclear>ta</unclear></zone><zone><unclear>thā</unclear></zone><gap reason="lost"/><zone><unclear>ma</unclear></zone><gap reason="plain" quantity="2"/><zone><unclear>ni</unclear></zone><zone><unclear>rv</unclear><gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="2"/><zone><unclear>ś</unclear>ya</zone><zone>pā</zone><gap reason="plain" quantity="2"/><zone><gap reason="plain" unit="part"/>yu</zone><zone>ga</zone><zone>va</zone><zone>rga</zone><zone>su</zone><zone>khe</zone><zone>na</zone><zone>ca</zone><zone>।</zone><zone>ci</zone><zone>ttaṃ</zone><zone>bhi</zone><zone>kṣu</zone><zone>ṛ</zone><zone>brā</zone><zone><unclear>hma</unclear></zone><zone>ṇa</zone><zone>sya</zone><zone><unclear>s</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/><gap reason="plain" unit="part"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p><milestone unit="passage" n="33.80-83 + colophon"/>
+<lb corresp="#a1"/><pc>॥</pc><w>brāhmaṇavargaḥ</w><num value="33">30-3</num><pc>॥</pc>
+<lb corresp="#a2"/><pc>॥</pc><w>uddā<supplied>na</supplied>m</w><pc>॥</pc><w>tathā</w><gap reason="lost"/><w>ma</w><gap reason="plain" quantity="2"/><w>nirv<supplied>āṇaṃ</supplied></w><w><supplied>pa</supplied>śya</w><w>pā<supplied>paṃ</supplied></w><w><supplied>ca</supplied></w><w>yugavarga</w><w>sukhena</w><w>ca</w><pc>।</pc><w>cittaṃ</w><w>bhikṣuṛ</w><w>brā[hma]ṇasya</w><w>s<gap reason="plain" unit="part"/></w><gap reason="lost"/><w><gap reason="plain" unit="part"/></w></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">Udv. 33.80-83 + colophon in Sanskrit + blessing in TB, lines 3-4 of the recto side remain blank.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition</label> Franz Bernhard apud <bibl><title corresp="ref:waldschmidt1965"/><citedRange>138</citedRange></bibl>; <bibl><title corresp="ref:bernhard1965"/><citedRange>52</citedRange></bibl> and 509.</p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 4077" type="external">THT 4077</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="access_old">restricted</item>
+               <item n="m_lines_old">4</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_completeness_old"/>
+               <item n="file_location_old">pages/manuscript/THT_2400_4170/tht4077.txt</item>
+               <item n="m_findspot_old">Qizil Miŋ-Öy</item>
+               <item n="m_findspot_specific_old">Rothkuppelraum</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 4077" target="idp"&gt;THT 4077&lt;/a&gt;.&lt;br&gt;
+Edition: Franz Bernhard apud [[SHT I]]: 138; [[Bernhard 1965]]: 52 and 509.</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=335435;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=335435;rotate=0;imageType=_M||THT 4077 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=335525;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=335525;rotate=0;imageType=_M||THT 4077 verso</item>
+               <item n="m_transliteration_old">a1 [|| brā]hmaṇavargaḥ 30-3 ||
+a2 || uddā(na)[m] || [tathā] /// [ma] – – [nirv](āṇaṃ pa)[ś]ya pā(paṃ ca |) yugavarga sukhena ca | cittaṃ bhikṣuṛ brā[hma]ṇasya [s]· /// ·</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="date_publication_old"/>
+               <item n="m_editor_old"/>
+               <item n="m_passage_old">33.80-83 + colophon</item>
+               <item n="m_philcomment_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_size_h_old">4,4</item>
+               <item n="m_next_old"/>
+               <item n="file_modified_old">1582646163</item>
+               <item n="file_created_old">1340137309</item>
+               <item n="m_parallels_old"/>
+               <item n="ms_old">THT 4077</item>
+               <item n="project_comment_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="m_other_sigla_old">SHT 291, Uv.EA</item>
+               <item n="m_remarks_old">Udv. 33.80-83 + colophon in Sanskrit + blessing in TB, lines 3-4 of the recto side remain blank.</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_size_w_old">7+14,7</item>
+               <item n="m_expedition_old">T III MQR</item>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old">a1 || brāhmaṇavargaḥ 30-3 ||
+a2 || uddā(na)m || tathā /// ma – – nirv(āṇaṃ pa)śya pā(paṃ ca |) yugavarga sukhena ca | cittaṃ bhikṣuṛ brā[hma]ṇasya s· /// ·</item>
+               <item n="m_title_old">Udānavarga</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="user_modified_old">martin</item>
+               <item n="user_created_old">automatic</item>
+               <item n="m_prev_old"/>
+               <item n="m_metric_form_old">Verse</item>
+               <item n="m_subgenre_old">Doctrine</item>
+               <item n="m_translation_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht4000">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 4000</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 4000</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>wood tablet</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">11</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Qizil Miŋ-Öy</region>during <rs type="expedition_code">T III MQ 139 b</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Non-literary</term>
+               <term type="subgenre">Account</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=335267;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=335267;rotate=0;imageType=_M"/>
+            <line xml:id="lf"><zone>5</zone></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=335343;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=335343;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="b1i"><zone>॥</zone><zone>lā</zone><zone>pā</zone><zone>rññe</zone><zone>ca</zone><zone>rśo</zone><zone>le</zone><zone>kuśā</zone><zone>neṃ</zone><zone>pe</zone><zone>ri</zone><zone>70</zone><zone>5</zone></line>
+            <line n="2" xml:id="b2i"><zone>ā</zone><zone>naṃ</zone><zone>nta</zone><zone>mi</zone><zone>tre</zone><zone>kuśā</zone><zone>neṃ</zone><zone>pe</zone><zone>ri</zone><zone>30</zone><zone>5</zone></line>
+            <line n="3" xml:id="b3i"><zone>be</zone><zone>śnā</zone><zone>re</zone><zone>kuśā</zone><zone>neṃ</zone><zone>pe</zone><zone>ri</zone><zone>100</zone><zone>50</zone></line>
+            <line n="4" xml:id="b4i"><zone>rū</zone><zone>jTA</zone><zone>re</zone><zone>kuśā</zone><zone>neṃ</zone><zone>pe</zone><zone>ri</zone><gap reason="plain" quantity="2"/><zone>60</zone></line>
+            <line n="5" xml:id="b5i"><zone>ko</zone><zone>ṣye</zone><zone>le</zone><zone>kuśā</zone><zone>neṃ</zone><zone>pe</zone><zone>ri</zone><gap reason="plain" quantity="2"/></line>
+            <line n="6" xml:id="b6i"><zone>ī</zone><zone>lyi</zone><zone>pa</zone><zone>ri</zone><zone>kuśā</zone><zone>neṃ</zone><zone>pe</zone><zone>ri</zone><zone>90</zone></line>
+            <line n="7" xml:id="b7i"><zone>dha</zone><zone>rma</zone><zone>nā</zone><zone>se</zone><zone>kuśā</zone><zone>neṃ</zone><zone>pe</zone><zone>ri</zone><zone>70</zone></line>
+            <line n="8" xml:id="b8i"><zone>ko</zone><zone>nai</zone><zone>kke</zone><zone>kuśā</zone><zone>neṃ</zone><zone>pe</zone><zone>ri</zone><zone>100</zone><zone>50</zone><zone>2</zone></line>
+            <line n="9" xml:id="b9i"><zone>mi</zone><zone>tra</zone><zone>kṣe</zone><zone>me</zone><zone>pe</zone><zone>ri</zone><zone>10</zone><zone>2</zone></line>
+            <line n="10" xml:id="b10i"><zone>a</zone><zone>naṃ</zone><zone>nta</zone><zone>mi</zone><zone>tre</zone><zone>60</zone><zone>5</zone></line>
+            <line n="1" xml:id="b1ii"><zone>ra</zone><zone>kna</zone><zone>pa</zone><zone>le</zone><zone>pe</zone><zone>ri</zone><zone>6</zone></line>
+            <line n="2" xml:id="b2ii"><zone>co</zone><zone>lme</zone><zone>na¯</zone><zone>¯R</zone><zone>pe</zone><zone>ri</zone><zone>10</zone><zone>6</zone></line>
+            <line n="3" xml:id="b3ii"><zone>mo</zone><zone>ti</zone><zone>sā</zone><zone>re</zone><zone>pe</zone><zone>ri</zone><zone>6</zone></line>
+            <line n="4" xml:id="b4ii"><zone>śa</zone><zone>wai</zone><zone>ye¯</zone><zone>¯S</zone><zone>ya</zone><zone>ṅko</zone><zone>e</zone><zone>ñci¯</zone><zone>¯L</zone><zone>20</zone></line>
+            <line n="5" xml:id="b5ii"><zone>su</zone><zone>ta</zone><zone>rśa</zone><zone>ne</zone><zone>pe</zone><zone>ri</zone><zone>10</zone><zone>8</zone></line>
+            <line n="6" xml:id="b6ii"><zone>ta</zone><zone>ke</zone><zone>ri</zone><zone>pe</zone><zone>ri</zone><zone>9</zone></line>
+            <line n="7" xml:id="b7ii"><zone>baṃ</zone><zone>ñca</zone><zone>mi</zone><zone>tre</zone><zone>pe</zone><zone>ri</zone><zone>9</zone><zone>10</zone></line>
+            <line n="8" xml:id="b8ii"><zone>la</zone><zone>ri</zone><zone>ko</zone><zone>ṣe</zone><zone>pe</zone><zone>ri</zone><zone>9</zone></line>
+            <line n="9" xml:id="b9ii"><zone>sa</zone><zone>śa</zone><zone>ma</zone><zone>ne</zone><zone>pe</zone><zone>ri</zone><zone>9</zone><zone>10</zone></line>
+            <line n="10" xml:id="b10ii"><zone>ā</zone><zone>rpe</zone><zone>la</zone><zone><add>pe</add></zone><zone>pe</zone><zone>ri</zone><zone>9</zone><zone>10</zone></line>
+            <line n="11" xml:id="b11ii"><zone>sa</zone><zone>ṅka</zone><zone>pe</zone><zone>ri</zone><zone>6</zone><gap reason="plain" quantity="1"/></line>
+            <line n="1" xml:id="b1iii"><zone>RA</zone><zone>tsa</zone><zone>ñe</zone><zone>ye</zone><zone>na</zone><zone>ri</zone><zone>30</zone></line>
+            <line n="2" xml:id="b2iii"><zone>ra</zone><zone>kna</zone><zone>mi</zone><zone>tre</zone><zone>pe</zone><zone>ri</zone><zone>20</zone></line>
+            <line n="3" xml:id="b3iii"><zone>su</zone><zone>ci</zone><zone>pe</zone><gap reason="plain" quantity="2"/></line>
+            <line n="4" xml:id="b4iii"><zone>śaṃ</zone><zone>nmo</zone><zone>sa</zone><zone>ṅka</zone><zone>ta</zone><zone>tte</zone><zone>10</zone></line>
+            <line n="5" xml:id="b5iii"><zone>bu</zone><zone>ddha</zone><zone>de</zone><zone>pe</zone><zone>20</zone><zone>8</zone></line>
+            <line n="6" xml:id="b6iii"><zone>ba</zone><zone>śā</zone><zone>tte</zone><zone>20</zone></line>
+            <line n="7" xml:id="b7iii"><zone>u</zone><zone>pā</zone><zone>ta</zone><zone>tse</zone><zone>sa</zone><zone>ṅka</zone><zone>ta</zone><zone>tte</zone><zone>10</zone></line>
+            <line n="8" xml:id="b8iii"><zone>a</zone><zone>ra</zone><zone>ṅku</zone><zone>le</zone><zone>10</zone></line>
+            <line n="9" xml:id="b9iii"><zone>ṣu</zone><zone>kta</zone><zone>pṣi</zone><zone>a</zone><zone>pṣa</zone><zone>tri</zone><zone>ki</zone><zone>50</zone></line>
+            <line n="10" xml:id="b10iii"><zone>śa¯</zone><zone>¯K</zone><zone>o</zone><zone>kta</zone><zone>ṣṣi</zone><zone>a</zone><zone>pṣa</zone><zone>tri</zone><zone>ki</zone><zone>40</zone><zone>60</zone></line>
+            <line n="1" xml:id="b1iv"><zone>i</zone><zone>lyi</zone><zone>p<gap reason="plain" unit="part"/></zone><zone>re</zone><zone>10</zone></line>
+            <line n="2" xml:id="b2iv"><zone>a</zone><zone>r<gap reason="plain" unit="part"/>a</zone><gap reason="plain" quantity="1"/><zone>le</zone><zone>10</zone></line>
+            <line n="3" xml:id="b3iv"><zone>kwe</zone><zone>śke</zone><zone>ta¯</zone><zone>¯R</zone><zone>10</zone></line>
+            <line n="4" xml:id="b4iv"><zone>au</zone><zone>śa</zone><zone>ke</zone><zone>pe</zone><zone>ri</zone><zone>3</zone><zone>100</zone><zone>20</zone><zone>5</zone></line>
+            <line n="5" xml:id="b5iv"><zone>kwe</zone><zone>śke</zone><zone>ta¯</zone><zone>¯R</zone><zone>pe</zone><zone>ri</zone><zone>3</zone><zone>100</zone><zone>20</zone><zone>5</zone></line>
+            <line n="6" xml:id="b6iv"><zone>ya</zone><zone>śa</zone><zone>te</zone><zone>pe</zone><zone>ri</zone><zone>30</zone><zone>7</zone></line>
+            <line n="7" xml:id="b7iv"><zone>sa</zone><zone>cca</zone><zone>ko</zone><zone>ṣe</zone><zone>10</zone></line>
+            <line n="8" xml:id="b8iv"><zone>be</zone><zone><unclear>n</unclear>ti</zone><zone>pe</zone><zone>ri</zone><zone>30</zone></line>
+            <line n="9" xml:id="b9iv"><zone>la</zone><zone><unclear>p</unclear>ā</zone><zone>tre</zone><zone>la</zone><zone>ru</zone><zone>na</zone><zone>pe</zone><zone>ri</zone><zone>40</zone><zone>8</zone></line>
+            <line n="10" xml:id="b10iv"><zone>ku</zone><zone>llai</zone><zone>pe</zone><zone>ri</zone><zone><unclear>5</unclear></zone></line>
+            <line n="1" xml:id="b1v"><zone>śī</zone><zone><unclear>ṅ</unclear>ke</zone><zone>nā</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="2" xml:id="b2v"><zone>su</zone><zone>jā</zone><zone>je</zone><zone><unclear>p</unclear>ā</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3v"><zone>mu</zone><zone>ṅka</zone><zone>re</zone><zone><gap reason="plain" unit="part"/>e</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4v"><zone>śpa</zone><zone>s<gap reason="plain" unit="part"/>i</zone><zone>ko</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="b5v"><zone>bu</zone><zone>ddha</zone><zone>d<gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="6" xml:id="b6v"><zone>la</zone><zone>pa</zone><zone>rñe</zone><gap reason="lost"/></line>
+            <line n="7" xml:id="b7v"><zone>ra</zone><zone>pi</zone><zone>re</zone><gap reason="lost"/></line>
+            <line n="8" xml:id="b8v"><zone>saṃ</zone><zone>ṅku</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="9" xml:id="b9v"><zone>saṃ</zone><zone>ṅke</zone><zone>na</zone><gap reason="lost"/></line>
+            <line n="10" xml:id="b10v"><zone>ci</zone><zone>pai</zone><zone>yke</zone><zone>pe</zone><gap reason="lost"/></line>
+            <line n="11" xml:id="b11v"><zone>laṃ</zone><zone>ṅka¯</zone><zone>¯y</zone><zone>o</zone><zone>rś<gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <fw type="leafNum" corresp="#lf">5</fw>
+            <p>
+<lb corresp="#b1i"/><pc>॥</pc><w>lāpārññe</w><w>carśole</w><w>kUśāneṃ</w><w>peri</w><num value="75">70-5</num>
+<lb corresp="#b2i"/><w>ānaṃnta-mitre</w><w>kUśāneṃ</w><w>peri</w><num value="35">30-5</num>
+<lb corresp="#b3i"/><w>beśnāre</w><w>kUśāneṃ</w><w>peri</w><num value="150">100-50</num>
+<lb corresp="#b4i"/><w>rūjtäre</w><w>kUśāneṃ</w><w>peri</w><gap reason="plain" quantity="2"/><num value="60">60</num>
+<lb corresp="#b5i"/><w>koṣyele</w><w>kUśāneṃ</w><w>peri</w><gap reason="plain" quantity="2"/>
+<lb corresp="#b6i"/><w>īlyipari</w><w>kUśāneṃ</w><w>peri</w><num value="90">90</num>
+<lb corresp="#b7i"/><w>dharmanāse</w><w>kUśāneṃ</w><w>peri</w><num value="70">70</num>
+<lb corresp="#b8i"/><w>konaikke</w><w>kUśāneṃ</w><w>peri</w><num value="152">100-50-2</num>
+<lb corresp="#b9i"/><w>mitrakṣeme</w><w>peri</w><num value="12">10-2</num>
+<lb corresp="#b10i"/><w>anaṃntamitre</w><num value="65">60-5</num>
+<lb corresp="#b1ii"/><w>raknapale</w><w>peri</w><num value="6">6</num>
+<lb corresp="#b2ii"/><w>colmenar</w><w>peri</w><num value="16">10-6</num>
+<lb corresp="#b3ii"/><w>motisāre</w><w>peri</w><num value="6">6</num>
+<lb corresp="#b4ii"/><w>śawaiyes</w><w>yaṅko</w><w>eñcil</w><num value="20">20</num>
+<lb corresp="#b5ii"/><w>sutarśane</w><w>peri</w><num value="18">10-8</num>
+<lb corresp="#b6ii"/><w>takeri</w><w>peri</w><num value="9">9</num>
+<lb corresp="#b7ii"/><w>baṃñcamitre</w><w>peri</w><num value="9">9</num><num value="10">10</num>
+<lb corresp="#b8ii"/><w>larikoṣe</w><w>peri</w><num value="9">9</num>
+<lb corresp="#b9ii"/><w>saśamane</w><w>peri</w><num value="9">9</num><num value="10">10</num>
+<lb corresp="#b10ii"/><w>ārpelape</w><w>peri</w><num value="9">9</num><num value="10">10</num>
+<lb corresp="#b11ii"/><w>saṅka</w><w>peri</w><num value="6">6</num><gap reason="plain" quantity="1"/>
+<lb corresp="#b1iii"/><w>rätsañe</w><w>yenari</w><num value="30">30</num>
+<lb corresp="#b2iii"/><w>raknamitre</w><w>peri</w><num value="20">20</num>
+<lb corresp="#b3iii"/><w>suci</w><w>pe</w><gap reason="plain" quantity="2"/>
+<lb corresp="#b4iii"/><w>śaṃnmo</w><w>saṅkatatte</w><num value="10">10</num>
+<lb corresp="#b5iii"/><w>buddhadepe</w><num value="28">20-8</num>
+<lb corresp="#b6iii"/><w>baśātte</w><num value="20">20</num>
+<lb corresp="#b7iii"/><w>upātatse</w><w>saṅkatatte</w><num value="10">10</num>
+<lb corresp="#b8iii"/><w>araṅkule</w><num value="10">10</num>
+<lb corresp="#b9iii"/><w>ṣuktapṣi</w><w>apṣatriki</w><num value="50">50</num>
+<lb corresp="#b10iii"/><w>śak</w><w>oktaṣṣi</w><w>apṣatriki</w><num value="40">40</num><num value="60">60</num>
+<lb corresp="#b1iv"/><w>ilyi</w><w>p<gap reason="plain" unit="part"/></w><w>re</w><num value="10">10</num>
+<lb corresp="#b2iv"/><w>ar<gap reason="plain" unit="part"/>a</w><gap reason="plain" quantity="1"/><w>le</w><num value="10">10</num>
+<lb corresp="#b3iv"/><w>kweśketar</w><num value="10">10</num>
+<lb corresp="#b4iv"/><w>auśake</w><w>peri</w><num value="325">3-100-20-5</num>
+<lb corresp="#b5iv"/><w>kweśketar</w><w>peri</w><num value="325">3-100-20-5</num>
+<lb corresp="#b6iv"/><w>yaśate</w><w>peri</w><num value="37">30-7</num>
+<lb corresp="#b7iv"/><w>saccakoṣe</w><num value="10">10</num>
+<lb corresp="#b8iv"/><w>benti</w><w>peri</w><num value="30">30</num>
+<lb corresp="#b9iv"/><w>lapātrelaruna</w><w>peri</w><num value="48">40-8</num>
+<lb corresp="#b10iv"/><w>kullai</w><w>peri</w><num value="5">5</num>
+<lb corresp="#b1v"/><w>śī-ṅke</w><w>nā</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b2v"/><w>sujājepā</w><gap reason="lost"/>
+<lb corresp="#b3v"/><w>muṅkare</w><w><gap reason="plain" unit="part"/>e</w><gap reason="lost"/>
+<lb corresp="#b4v"/><w>śpa</w><w>s<gap reason="plain" unit="part"/>i</w><w>ko</w><gap reason="lost"/>
+<lb corresp="#b5v"/><w>buddha</w><w>d<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#b6v"/><w>laparñe</w><gap reason="lost"/>
+<lb corresp="#b7v"/><w>rapire</w><gap reason="lost"/>
+<lb corresp="#b8v"/><w>saṃṅku</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b9v"/><w>saṃṅkena</w><gap reason="lost"/>
+<lb corresp="#b10v"/><w>cipaiyke</w><w>pe</w><gap reason="lost"/>
+<lb corresp="#b11v"/><w>laṃṅkay</w><w>orś<gap reason="plain" unit="part"/></w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#b1i"><seg><seg type="prim_transl">|| <hi>Carśole</hi> of <hi>Lāpār</hi> (is) owing <hi>k<hi rend="subscript">u</hi>śāne</hi>s : 74. (etc.)</seg></seg></choice><choice corresp="#b1ii"><seg><seg type="prim_transl"><hi>Ra[kt]apale</hi> (is) owing: 6. (etc.)</seg></seg></choice><choice corresp="#b1iii"><seg><seg type="prim_transl"><hi>Yenare</hi> of <hi>Rädsa</hi>: 30. (etc.)</seg></seg></choice><choice corresp="#b1iv"><seg><seg type="prim_transl"><hi>Ilyi</hi> (is) owing: 10. (etc.)</seg></seg></choice><choice corresp="#b1v"><seg><seg type="prim_transl"><hi>Śīṅkana(r)</hi> /// (etc.)</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">MIK III 7592</note><note type="remarks">The recto contains an image of the Buddha.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 4000" type="external">THT 4000</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/40/4000.htm" type="external">THT 4000</ref></bibl>. </p>
+            <p><label>Edition</label><bibl><title corresp="ref:tamai2007a"/><citedRange>№4000</citedRange></bibl>; <bibl><title corresp="ref:ching2010"/><citedRange>358</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_prev_old"/>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old">bernhard</item>
+               <item n="project_check_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_tune_old"/>
+               <item n="m_translation_old">b1i || &lt;i&gt;Carśole&lt;/i&gt; of &lt;i&gt;Lāpār&lt;/i&gt; (is) owing &lt;i&gt;k&lt;sub&gt;u&lt;/sub&gt;śāne&lt;/i&gt;s : 74. (etc.)
+b1ii &lt;i&gt;Ra[kt]apale&lt;/i&gt; (is) owing: 6. (etc.)
+b1iii &lt;i&gt;Yenare&lt;/i&gt; of &lt;i&gt;Rädsa&lt;/i&gt;: 30. (etc.)
+b1iv &lt;i&gt;Ilyi&lt;/i&gt; (is) owing: 10. (etc.)
+b1v &lt;i&gt;Śīṅkana(r)&lt;/i&gt; /// (etc.)</item>
+               <item n="m_subgenre_old">Account</item>
+               <item n="m_script_old">Classical</item>
+               <item n="project_comment_old">&lt;ul&gt;
+&lt;li&gt;Columns fixed according to [[helpedit_manuscripts]]. –Martin (Sun, 2014-06-22, 11:24:19)&lt;/li&gt;
+&lt;li&gt;[[Ching 2010]] treats this under "&lt;code&gt;THT 4000 V° MQ 139.4 T(III)7572.&lt;/code&gt;" (sic!). Her transkription also differs from that of TITUS. –Martin (Sat, 2015-07-11, 17:33:44 (CEST))&lt;/li&gt;
+ &lt;li&gt;&lt;b&gt;b1(V)&lt;/b&gt; Contradiction between the transcription and the translation &lt;i&gt;Śīṅkana(r)&lt;/i&gt; / śī-ṅke nā – Athanaric Tue, 2016-05-31, 15:39:47 (CEST)&lt;/li&gt;
+&lt;/ul&gt;</item>
+               <item n="ms_old">THT 4000</item>
+               <item n="m_parallels_old"/>
+               <item n="m_size_w_old"/>
+               <item n="m_expedition_old">T III MQ 139 b</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old">&lt;p&gt;MIK III 7592&lt;/p&gt;
+&lt;p&gt;The recto contains an image of the Buddha.&lt;/p&gt;</item>
+               <item n="m_other_sigla_old"/>
+               <item n="m_genre_old">Non-literary</item>
+               <item n="m_meter_old"/>
+               <item n="m_leaf_old">5</item>
+               <item n="m_transcription_old">b1i || lāpārññe carśole k_uśāneṃ peri 75
+b2i ānaṃntamitre|ānaṃnta-mitre k_uśāneṃ peri 35
+b3i beśnāre k_uśāneṃ peri 150
+b4i rūjtäre k_uśāneṃ peri – – 60
+b5i koṣyele k_uśāneṃ peri – –
+b6i īlyipari k_uśāneṃ peri 90
+b7i dharmanāse k_uśāneṃ peri 70
+b8i konaikke k_uśāneṃ peri 152
+b9i mitrakṣeme peri 12
+b10i anaṃntamitre 65
+b1ii raknapale peri 6
+b2ii colmenar peri 16
+b3ii motisāre peri 6
+b4ii śawaiyes yaṅko eñcil 20
+b5ii sutarśane peri 18
+b6ii takeri peri 9
+b7ii baṃñcamitre peri 9 10
+b8ii larikoṣe peri 9
+b9ii saśamane peri 9 10
+b10ii ārpelape peri 9 10
+b11ii saṅka peri 6 –
+b1iii rätsañe yenari 30
+b2iii raknamitre peri 20
+b3iii suci pe – –
+b4iii śaṃnmo saṅkatatte 10
+b5iii buddhadepe 28
+b6iii baśātte 20
+b7iii upātatse saṅkatatte 10
+b8iii araṅkule 10
+b9iii ṣuktapṣi apṣatriki 50
+b10iii śak oktaṣṣi apṣatriki 40 60
+b1iv ilyi p· re 10
+b2iv ar·a – le 10
+b3iv kweśketar 10
+b4iv auśake peri 325
+b5iv kweśketar peri 325
+b6iv yaśate peri 37
+b7iv saccakoṣe 10
+b8iv benti peri 30
+b9iv lapātrelaruna peri 48
+b10iv kullai peri 5
+b1v śī-ṅke nā – ///
+b2v sujājepā ///
+b3v muṅkare ·e ///
+b4v śpa s·i ko ///
+b5v buddha d· ///
+b6v laparñe ///
+b7v rapire ///
+b8v saṃṅku – ///
+b9v saṃṅkena ///
+b10v cipaiyke pe ///
+b11v laṃṅkay orś· ///</item>
+               <item n="m_title_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 4000" target="idp"&gt;THT 4000&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/40/4000.htm" target="titus"&gt;THT 4000&lt;/a&gt;.&lt;br&gt;
+Edition: [[Tamai 2007a]]: №4000; [[Ching 2010]]: 358.</item>
+               <item n="date_publication_old"/>
+               <item n="m_transliteration_old">b1i || lāpārññe carśole k_uśāneṃ peri 70-5
+b2i ānaṃnta-mitre k_uśāneṃ peri 30-5
+b3i beśnāre k_uśāneṃ peri 100-50
+b4i rūj_t_are k_uśāneṃ peri – – 60
+b5i koṣyele k_uśāneṃ peri – –
+b6i īlyipari k_uśāneṃ peri 90
+b7i dharmanāse k_uśāneṃ peri 70
+b8i konaikke k_uśāneṃ peri 100-50-2
+b9i mitrakṣeme peri 10-2
+b10i anaṃntamitre 60-5
+b1ii raknapale peri 6
+b2ii colmena_r\ peri 10-6
+b3ii motisāre peri 6
+b4ii śawaiye_s\ yaṅko eñci_l\ 20
+b5ii sutarśane peri 10-8
+b6ii takeri peri 9
+b7ii baṃñcamitre peri 9 10
+b8ii larikoṣe peri 9
+b9ii saśamane peri 9 10
+b10ii ārpela«pe» peri 9 10
+b11ii saṅka peri 6 –
+b1iii _r_atsañe yenari 30
+b2iii raknamitre peri 20
+b3iii suci pe – –
+b4iii śaṃnmo saṅkatatte 10
+b5iii buddhadepe 20-8
+b6iii baśātte 20
+b7iii upātatse saṅkatatte 10
+b8iii araṅkule 10
+b9iii ṣuktapṣi apṣatriki 50
+b10iii śa_k\ oktaṣṣi apṣatriki 40 60
+b1iv ilyi p· re 10
+b2iv ar·a – le 10
+b3iv kweśketa_r\ 10
+b4iv auśake peri 3-100-20-5
+b5iv kweśketa_r\ peri 3-100-20-5
+b6iv yaśate peri 30-7
+b7iv saccakoṣe 10
+b8iv be[n]ti peri 30
+b9iv la[p]ātrelaruna peri 40-8
+b10iv kullai peri [5]
+b1v śī-[ṅ]ke nā – ///
+b2v sujāje[p]ā ///
+b3v muṅkare ·e ///
+b4v śpa s·i ko ///
+b5v buddha d· ///
+b6v laparñe ///
+b7v rapire ///
+b8v saṃṅku – ///
+b9v saṃṅkena ///
+b10v cipaiyke pe ///
+b11v laṃṅkay\ orś· ///</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=335267;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=335267;rotate=0;imageType=_M||THT 4000 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=335343;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=335343;rotate=0;imageType=_M||THT 4000 verso</item>
+               <item n="m_material_old">Ink on wood tablet</item>
+               <item n="m_philcomment_old"/>
+               <item n="m_passage_old"/>
+               <item n="m_editor_old"/>
+               <item n="file_created_old">1340137309</item>
+               <item n="file_modified_old">1570699488</item>
+               <item n="m_size_h_old"/>
+               <item n="m_next_old"/>
+               <item n="m_completeness_old"/>
+               <item n="m_lines_old">11</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="access_old">restricted</item>
+               <item n="file_location_old">pages/manuscript/THT_2400_4170/tht4000.txt</item>
+               <item n="m_form_old"/>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Qizil Miŋ-Öy</item>
+               <item n="m_linedistance_old"/>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;ul&gt;&lt;li&gt;Columns fixed according to [[helpedit_manuscripts]]. –Martin (Sun, 2014-06-22, 11:24:19)&lt;/li&gt;&lt;li&gt;&lt;bibl&gt;&lt;title corresp="ref:ching2010"/&gt;&lt;/bibl&gt; treats this under "&lt;code&gt;THT 4000 V° MQ 139.4 T(III)7572.&lt;/code&gt;" (sic!). Her transkription also differs from that of TITUS. –Martin (Sat, 2015-07-11, 17:33:44 (CEST))&lt;/li&gt;&lt;li&gt;&lt;ref type="ms" target="__b1(V)"/&gt; Contradiction between the transcription and the translation &lt;hi&gt;Śīṅkana(r)&lt;/hi&gt; / śī-ṅke nā – Athanaric Tue, 2016-05-31, 15:39:47 (CEST)&lt;/li&gt;&lt;/ul&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-pkns101">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PK NS 101</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</repository>
+                  <idno>PK NS 101</idno>
+                  <altIdentifier>
+                     <idno>Pelliot Koutchéen Nouvelle Série 101</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>7,1</height>
+                              <width>16,3</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <dimensions type="line_spacing">
+                              <height>2,5</height>
+                           </dimensions>
+                           <measure type="lines">4+</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>cursive</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region>during <rs type="expedition_code">FM 43,2</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-late frg:ls-cetom-aberrant-None"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Non-literary</term>
+               <term type="subgenre">Letter</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic url="NSHuard/NS101a.png" height="1274px" width="2212px"/>
+            <line n="1" xml:id="a1"><zone><unclear>k</unclear><gap reason="par" unit="part"/></zone><zone><gap reason="par" unit="part"/>t<gap reason="par" unit="part"/></zone><gap reason="plain" quantity="1"/><zone><unclear>s</unclear>TA<gap reason="par" unit="part"/></zone><zone>p<gap reason="par" unit="part"/></zone><zone><unclear>l</unclear>n<gap reason="par" unit="part"/></zone><zone>ṣi</zone><zone>TA</zone></line>
+            <line n="2" xml:id="a2"><zone>twe</zone><zone>re</zone><zone>ā</zone><zone>rte</zone><zone>ṣe¯</zone><zone>¯yñä</zone><zone>wä</zone><zone>nta</zone><zone>rwa</zone><zone>pi</zone><zone>lykā</zone><zone>wa</zone><zone>ñwā</zone></line>
+            <line n="3" xml:id="a3"><zone>KA</zone><zone>lpā</zone><zone>wa¯</zone><zone>¯Ś</zone><zone>ña</zone><zone>ke</zone><zone>ci</zone><zone>tsa</zone><zone>mo</zone><zone>ka</zone><zone>rtse</zone><zone>we</zone><zone>skau</zone><zone>tā</zone><zone><unclear>l</unclear><gap reason="par" unit="part"/></zone></line>
+            <line n="4" xml:id="a4"><zone>ṅke</zone><zone>kw<gap reason="par" unit="part"/>i</zone><zone>mā</zone><zone>tā</zone><zone>kaṃ</zone><zone>o¯</zone><zone>¯T</zone><zone>tai</zone><zone>y<unclear>s</unclear>a</zone><zone><unclear>s</unclear>e</zone><gap reason="plain" quantity="1"/><zone><gap reason="par" unit="part"/>e</zone><zone><gap reason="par" unit="part"/>ā</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><w>k<gap reason="plain" unit="part"/></w><w><gap reason="plain" unit="part"/>t<gap reason="plain" unit="part"/></w><gap reason="plain" quantity="1"/><w><supplied>po</supplied>stä<supplied>ṃ</supplied></w><w>p<supplied>o</supplied></w><w>ln<supplied>a</supplied>ṣi</w><w>tä</w>
+<lb corresp="#a2"/><w>twere</w><w>ārte</w><w>ṣey-ñ</w><w>wäntarwa</w><w>pilykāwa-ñ</w><w>wā</w>
+<lb corresp="#a3"/><w>kälpāwa-ś</w><w>ñake</w><w>ci</w><w>tsamo</w><w>kartse</w><w>weskau</w><w>tā</w><w>l<gap reason="plain" unit="part"/></w>
+<lb corresp="#a4"/><w>ṅke</w><w>kw<supplied>r</supplied>i</w><w>mā</w><w>tākaṃ</w><w>ot</w><w>taiysa</w><w>se</w><gap reason="plain" quantity="1"/><w><gap reason="plain" unit="part"/>e</w><w><gap reason="plain" unit="part"/>ā</w></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">It left entirely finally …</seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">the door was open for me. I saw my things …</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">I obtained your … Now I tell you the good important (thing) …</seg></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl">Now if there is no …, then thus this one … </seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">Only written on the recto.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>other</label><seg corresp="#a2"><bibl><title corresp="ref:ching2010"/><citedRange>409</citedRange></bibl></seg></p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_image_old"/>
+               <item n="date_publication_old"/>
+               <item n="m_transliteration_old">a1 [k](·) (·)t(·) –[s]_t_a(·) p(·) [l]n(·)ṣi _t_a
+a2 twere ārte ṣey-ñä\ wäntarwa pilykāwa-ñ wā
+a3 _k_alpāwa-_ś\ ñake ci tsamo kartse weskau tā [l](·)
+a4 ṅke kw(·)i mā tākaṃ o_t\ taiy[s]a [s]e – (·)e (·)ā</item>
+               <item n="m_language_stage_old">Late</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_bib_old">&lt;b&gt;a2&lt;/b&gt; [[Ching 2010]]: 409.</item>
+               <item n="m_size_h_old">7,1</item>
+               <item n="m_next_old"/>
+               <item n="file_created_old">1439315215</item>
+               <item n="file_modified_old">1562571689</item>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old"/>
+               <item n="m_editor_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="file_location_old">pages/manuscript/pkns101.txt</item>
+               <item n="m_lines_old">4+</item>
+               <item n="m_collection_old">Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</item>
+               <item n="access_old">restricted</item>
+               <item n="m_completeness_old"/>
+               <item n="m_linedistance_old">2,5</item>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="user_created_old">martin</item>
+               <item n="user_modified_old">bernhard</item>
+               <item n="m_prev_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old">None</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_translation_old">a1 It left entirely finally …
+a2 the door was open for me. I saw my things …
+a3 I obtained your … Now I tell you the good important (thing) …
+a4 Now if there is no …, then thus this one … </item>
+               <item n="m_subgenre_old">Letter</item>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="project_check_old"/>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old">Only written on the recto.</item>
+               <item n="m_other_sigla_old">Pelliot Koutchéen Nouvelle Série 101</item>
+               <item n="m_expedition_old">FM 43,2</item>
+               <item n="m_size_w_old">16,3</item>
+               <item n="m_parallels_old"/>
+               <item n="m_script_old">Cursive</item>
+               <item n="ms_old">PK NS 101</item>
+               <item n="project_comment_old">&lt;p&gt;&lt;b&gt;a2&lt;/b&gt; : Ching translates : There was my &lt;i&gt;ārte&lt;/i&gt; (with?) a door/gate. I looked after the affairs.&lt;/p&gt;</item>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_title_old"/>
+               <item n="m_transcription_old">a1 k· ·t· – (po)stä(ṃ) p(o) ln(a)ṣi tä
+a2 twere ārtte|ārte ṣai-ñ|ṣey-ñ wäntarwa pilykāwa-ñ wā
+a3 kälpāwa-ś ñake ci tsamo kartse weskau tā l·
+a4 ṅke kw(r)i mā tākaṃ ot taisa|taiysa se – ·e ·ā</item>
+               <item n="m_genre_old">Non-literary</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;&lt;ref type="ms" target="__a2"/&gt; : Ching translates : There was my &lt;hi&gt;ārte&lt;/hi&gt; (with?) a door/gate. I looked after the affairs.&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

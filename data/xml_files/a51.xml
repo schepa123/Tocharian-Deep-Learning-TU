@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-a51">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A 51</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Gerd Carling</name>
+            </respStmt>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Georges-Jean Pinault</name>
+            </respStmt>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Melanie Malzahn</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <date when="2013-10-05">05.10.2013</date>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>A 51</idno>
+                  <altIdentifier>
+                     <idno>THT 684</idno>
+                  </altIdentifier>
+                  <msName>A 1-54</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Unknown Avadāna</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Šorčuq</region><placeName>Stadthöhle</placeName>during <rs type="expedition_code">T III Š 69.29</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+         <sourceDesc>
+            <p>Transcription and translation are based on <bibl><title corresp="ref:carlingetal2009"/></bibl>. </p>
+            <p>Transcription and references have been transferred from the "Text and Reference Database of the Tocharian A Language" (Gerd Carling Lund University) (funded by the Bank of Sweden Tercentenary Foundation and SCAS).</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="xto"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Jātaka/Avadāna</term>
+               <term type="prose_verse">prose</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328535;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328535;rotate=0;imageType=_M"/>
+            <graphic url="A/A51a.jpg" height="502px" width="618px"/>
+            <line xml:id="lf"><zone>Lost</zone></line>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone>sn<gap reason="par" unit="part"/></zone><zone>ka</zone><zone>ślo</zone><zone>tksā</zone><zone>yśa</zone><zone>lma</zone><zone>sṣu</zone><zone><gap reason="par" unit="part"/><unclear>m</unclear><gap reason="par" unit="part"/></zone><gap reason="plain" quantity="1"/><zone>klo</zone><zone>pa¯</zone><zone>¯nT</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone>prā</zone><zone>rNA</zone><zone>tska</zone><zone>tse</zone><zone>yi¯</zone><zone>¯ñcä</zone><zone>•</zone><zone>o</zone><zone>ñi</zone><zone>pā</zone><zone>tru</zone><zone>kaṃ</zone><zone>śwe¯</zone><zone>¯ñ<unclear>c</unclear>ä</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone>l<gap reason="par" unit="part"/></zone><zone>ne</zone><zone>ā</zone><zone>ñcä</zone><zone>mku</zone><zone>rsaṃ</zone><zone>ntRA</zone><zone>•</zone><zone>pu</zone><zone>KSA¯</zone><zone>¯M</zone><zone>yśa</zone><zone>lmsaṃ</zone><zone>w<unclear>ā</unclear></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><zone><gap reason="par" unit="part"/>sp<gap reason="plain" unit="part"/></zone><zone>ka¯</zone><zone>¯nT</zone><zone>tsi</zone><zone>tā</zone><zone>lu</zone><zone>ne</zone><zone>yntu</zone><zone>tRA</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><gap reason="lost"/><zone>tn<gap reason="par" unit="part"/></zone><zone>mṛ</zone><zone>ga</zone><zone>mā</zone><zone>ttRA¯</zone><zone>¯K</zone><zone>ño</zone><zone>mā</zone><zone>wä</zone><zone>rtiṃ</zone><zone>lu</zone><gap reason="lost"/></line>
+            <line n="6" xml:id="a6"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>se</zone><zone>ni</zone><zone>kśwe</zone><zone>mpe</zone><zone>le</zone><zone>sne</zone><zone>kā</zone><zone>ruṃ</zone><zone>:</zone><zone>a</zone><zone><unclear>RA</unclear></zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328413;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328413;rotate=0;imageType=_M"/>
+            <graphic url="A/A51b.jpg" height="513px" width="618px"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone><gap reason="par" unit="part"/><gap reason="plain" unit="part"/>su</zone><zone>mnā</zone><zone>TA¯</zone><zone>¯R</zone><zone>:</zone><zone>1</zone><zone>॥</zone><zone>pu¯</zone><zone>¯K</zone><zone>lwā</zone><zone>kā</zone><zone>kā</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone>m<unclear>ā</unclear></zone><zone>kro</zone><zone>śśāṃ</zone><zone>:</zone><zone>mā</zone><zone>o</zone><zone>MA</zone><zone>lyāṃ</zone><zone>wlye</zone><zone><unclear>p</unclear>yāṃ</zone><zone><unclear>ṣ</unclear>u</zone><zone>ṅka</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><zone><unclear>lyu</unclear></zone><zone>tā</zone><zone>rme</zone><zone>ma¯</zone><zone>¯Ṣ</zone><zone>suka</zone><zone>ṣi</zone><zone>ñTA</zone><zone>rlyu</zone><zone>tā</zone><zone>r<unclear>m</unclear>e</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><zone><gap reason="par" unit="part"/>u</zone><zone>mnä</zone><zone>ṣprā</zone><zone>KA</zone><zone>rkli</zone><zone>snā¯</zone><zone>¯Ṣ</zone><zone>•</zone><zone>TMA</zone><zone>ṢSA</zone><zone>mmṛ</zone><zone><unclear>ga</unclear></zone><zone><unclear>m</unclear><gap reason="par" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><gap reason="lost"/><zone><gap reason="par" unit="part"/>pr<gap reason="par" unit="part"/></zone><zone>ko</zone><zone>spreṃ</zone><zone>ne</zone><zone>skā</zone><zone>ṢAṃ</zone><zone>•</zone><zone>TA</zone><zone>preṃ</zone><zone>TA</zone><zone>pre</zone><zone>NA</zone><zone>KSA</zone><zone>mśi</zone><zone>śä</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="6" xml:id="b6"><gap reason="lost"/><zone><gap reason="par" unit="part"/><gap reason="plain" unit="part"/>klo</zone><zone>mlu</zone><zone>TKA</zone><zone>ṢṢAṃ</zone><zone>:</zone><zone>TMA</zone><zone>ṣkrāṃ</zone><zone>pe</zone><zone>nu</zone><zone>SA</zone><zone>k<unclear>n</unclear>ā</zone><zone>māṃ</zone><zone>lo</zone><zone>ā</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <fw type="leafNum" corresp="#lf">Lost</fw>
+            <p><milestone unit="passage" n="Mṛgamātṛka [deer] and lion"/>
+<lb corresp="#a1"/><gap reason="lost"/><w>sn<supplied>e</supplied></w><w>kaś</w><w>lotksā</w><w>yśalmas</w><w>ṣu<supplied>r</supplied>m<supplied>aṣ</supplied></w><w>klopant</w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><w>prār</w><w>nätskatse</w><w>yiñc</w><pc>•</pc><w>oñi</w><w>pātrukaṃ</w><w>śweñc</w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><w>l<gap reason="plain" unit="part"/>ne</w><w>āñcäm</w><w>kursaṃnträ</w><pc>•</pc><w>puk</w><w>säm</w><w>yśalmsaṃ</w><w>wā<milestone unit="w" type="break"/></w><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="lost"/><w><supplied>t</supplied>sp<supplied>o</supplied>kant</w><w>tsitāluneyntu</w><w>trä<supplied>ṅkluneytu</supplied></w><gap reason="lost"/>
+<lb corresp="#a5"/><gap reason="lost"/><w><supplied>mä</supplied>tn<supplied>e</supplied></w><w>mṛgamātträk</w><w>ñomā</w><w>wärtiṃ</w><w>lu</w><gap reason="lost"/>
+<lb corresp="#a6"/><gap reason="lost"/><w>senik</w><caesura ana="frg:cs-s"/><w>św</w><w>empele</w><w>sne</w><w>kāruṃ</w><pc>:</pc><w>arä<milestone unit="w" type="break"/></w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><w>sumnātär</w><pc>:</pc><num value="1">1</num><pc>॥</pc><w>puk</w><w>lwākā</w><w>kā<milestone unit="w" type="break"/></w><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><w>mā</w><w>krośśāṃ</w><pc>:</pc><w>mā</w><w>omälyāṃ</w><w>wlyepyāṃ</w><caesura ana="frg:cs-s"/><w>ṣuṅka<supplied>c</supplied></w><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><w>lyutār</w><w>memaṣ</w><w>sUkaṣiñtär</w><w>lyutār</w><w>me<supplied>maṣ</supplied></w><gap reason="lost"/>
+<lb corresp="#b4"/><gap reason="lost"/><w><supplied>k</supplied>umnäṣ</w><w>prākär</w><w>klisnāṣ</w><pc>•</pc><w>tmäṣ</w><w>säm</w><w>mṛgam<supplied>ātträk</supplied></w><gap reason="lost"/>
+<lb corresp="#b5"/><gap reason="lost"/><w><supplied>kos</supplied>pr<supplied>eṃ</supplied></w><w>kospreṃne</w><w>skāṣäṃ</w><pc>•</pc><w>täpreṃ</w><w>täprenäk</w><w>säm</w><w>śiśä<supplied>k</supplied></w><gap reason="lost"/>
+<lb corresp="#b6"/><gap reason="lost"/><w><gap reason="plain" unit="part"/><gap reason="plain" unit="part"/></w><w>klom</w><w>lutkäṣṣ-äṃ</w><pc>:</pc><w>tmäṣ</w><w>krāṃ</w><w>penu</w><w>säknāmāṃ</w><w>lo</w><w>ā<milestone unit="w" type="break"/></w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">... because of desires in innumerable manners, the sufferings (arise) ...</seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">... they go ... they eat ... in a human skull ...</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">... they weaken themselves. Among all the desires this one ... </seg></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl">... the tastes, the touching senses, the cling(ings) ...</seg></seg></choice><choice corresp="#a5"><seg><seg type="prim_transl">... like the forest animal called Mṛgamātṛka [kind of deer] ... </seg></seg></choice><choice corresp="#a6"><seg><seg type="prim_transl">... not trustworthy, cruel, without pity. ...</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">... [it] takes away. 1. By all animals ...</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">... not cold, not hot [and] soft ... (to) the throat ...</seg></seg></choice><choice corresp="#b3"><seg><bibl><title corresp="ref:thomas1970a"/><citedRange>454</citedRange></bibl></seg><seg><seg type="prim_transl">... exceedingly [he/she] is happy, exceedingly ...</seg></seg><seg><seg type="prim_transl">... über [alle] Maß[en] fühlt er sich glücklich.</seg><seg type="sec_transl" resp="TI">... he feels glad beyond measure.</seg><bibl><title corresp="ref:schmidtkt1974"/><citedRange>145</citedRange></bibl></seg></choice><choice corresp="#b4"><seg><bibl><title corresp="ref:knoll1996"/><citedRange>143</citedRange></bibl></seg><seg><seg type="prim_transl">... he goes [and] he sleeps for a long time. Thereupon this Mṛgam(ātṛka) ...</seg></seg></choice><choice corresp="#b5"><seg><seg type="prim_transl">... as far as he [the lion] follows this [the Mṛgamātṛka], so far this lion ...</seg></seg></choice><choice corresp="#b6"><seg><seg type="prim_transl">... the noble one turns it into ... Thereupon, even following the skin(?) far ...</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">Middle part of a leaf.</note><note corresp="#a2" type="philcomment">The word segmentation of the complex <hi>prārnätskatse</hi> is uncertain; one could also opt for <hi>prārnäts katse</hi>, by assuming that <hi>katse yiñc</hi> was a slip for <hi>kātse yiñc</hi> “they go close to”.</note><note corresp="#a5" type="philcomment"><hi>(mä)tn(e)</hi> is restored by Siegling in his personal copy of <bibl><title corresp="ref:siegandsiegling1921"/><citedRange>29</citedRange></bibl>.</note><note corresp="#a5" type="philcomment"><hi>arä</hi> may be restore to a form of the root <hi>ar</hi>- 'to evoke' or to <hi>arä(mpāt)</hi> 'form'.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition</label><bibl><title corresp="ref:siegandsiegling1921"/><citedRange>29</citedRange></bibl>. <bibl>Siegling's personal copy of <title corresp="ref:siegandsiegling1921"/><ref target="./images/TS_Siegling/TS_Siegling_Page_029.png" type="external">p. 29</ref></bibl>. </p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT%20684" type="external">THT 684</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/06/0684.htm" type="external">THT 684</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="edited_date_old">2018-08-07, 11:45:16 (CEST)</item>
+               <item n="ms_old">A 51</item>
+               <item n="project_comment_old">&lt;p&gt;I removed the following comment from the philological commentary, as Ilya Itkin pointed out that [[A 78]] a6 actually has &lt;i&gt;klyomiṃ&lt;/i&gt; (&lt;i&gt;klomiṃ&lt;/i&gt; was a typo). (BK)&lt;/p&gt;
+&lt;br&gt;
+&lt;p style="margin-left: 4em;margin-right: 4em"&gt;
+&lt;b&gt;b6&lt;/b&gt; &lt;i&gt;klom&lt;/i&gt; is probably a variant of &lt;i&gt;klyom&lt;/i&gt;, which is recorded in [[A 78]] a 6 (fem. &lt;i&gt;klomiṃ&lt;/i&gt;); compare TB &lt;i&gt;klomo&lt;/i&gt; for &lt;i&gt;klyomo&lt;/i&gt;.
+&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Translations from [[Schmidt KT 1974]]
+&lt;table class="table_lines"&gt;
+&lt;th&gt;Lines&lt;/th&gt;
+&lt;th&gt;Translation&lt;/th&gt;
+&lt;th&gt;Pages&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt;b3&lt;/td&gt;
+&lt;td&gt;&lt;span title="... he feels glad beyond measure."&gt;... über [alle] Maß[en] fühlt er sich glücklich.&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;145&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;</item>
+               <item n="m_script_old">Classical</item>
+               <item n="m_other_sigla_old">THT 684</item>
+               <item n="m_language_old">TA</item>
+               <item n="m_remarks_old">&lt;p&gt;Middle part of a leaf.&lt;/p&gt;</item>
+               <item n="m_expedition_old">T III Š 69.29</item>
+               <item n="m_leaf_old">Lost</item>
+               <item n="m_transcription_old">a1 /// sn(e) kaś lotksā yśalmas ṣu(r)m(aṣ) klopant ///
+a2 /// prār nätskatse yiñc • oñi pātrukaṃ śweñc ///
+a3 /// l(·)ne āñcäm kursaṃnträ • puk säm yśalmsaṃ wā- ///
+a4 /// (t)sp(o)kant tsitāluneyntu trä(ṅkluneytu) ///
+a5 /// (mä)tn(e) mṛgamātträk ñomā wärtiṃ lu ///
+a6 /// senik_(TA)|senik ; śo|św empele sne kāruṃ : arä- ///
+b1 /// sumnātär : 1 || puk lwākā kā- ///
+b2 /// mā_(TA)|mā krośśāṃ : mā_(TA)|mā omälyāṃ wlyepyāṃ ; ṣuṅka(c) ///
+b3 /// lyutār memaṣ s_ukaṣiñtär lyutār me(maṣ) ///
+b4 /// (k)umnäṣ prākär klisnāṣ • tmäṣ säm mṛgam(ātträk) ///
+b5 /// (kos)pr(eṃ) kospreṃne skāṣäṃ • täpreṃ täprenäk säm śiśä(k) ///
+b6 /// ·· klom lutkäṣṣ-äṃ : tmäṣ krāṃ penu säknāmāṃ lo ā- ///</item>
+               <item n="m_title_old">Unknown Avadāna</item>
+               <item n="m_meter_old">6/7+5/4-3</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="group_old">Public</item>
+               <item n="editgroup_old">Editor</item>
+               <item n="category_old">manuscript</item>
+               <item n="user_modified_old">bernhard</item>
+               <item n="user_created_old">automatic</item>
+               <item n="m_metric_form_old">Both</item>
+               <item n="file_savedate_old">2018-12-16, 18:09:01 (CET)</item>
+               <item n="file_name_old">pages/manuscript/A/a51.txt</item>
+               <item n="m_subgenre_old">Jātaka/Avadāna</item>
+               <item n="m_translation_old">a1 ... because of desires in innumerable manners, the sufferings (arise) ...
+a2 ... they go ... they eat ... in a human skull ...
+a3 ... they weaken themselves. Among all the desires this one ... 
+a4 ... the tastes, the touching senses, the cling(ings) ...
+a5 ... like the forest animal called Mṛgamātṛka [kind of deer] ... 
+a6 ... not trustworthy, cruel, without pity. ...
+b1 ... [it] takes away. 1. By all animals ...
+b2 ... not cold, not hot [and] soft ... (to) the throat ...
+b3 ... exceedingly [he/she] is happy, exceedingly ...
+b4 ... he goes [and] he sleeps for a long time. Thereupon this Mṛgam(ātṛka) ...
+b5 ... as far as he [the lion] follows this [the Mṛgamātṛka], so far this lion ...
+b6 ... the noble one turns it into ... Thereupon, even following the skin(?) far ...</item>
+               <item n="access_old">public</item>
+               <item n="m_lines_old">6</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="file_location_old">pages/manuscript/A/a51.txt</item>
+               <item n="m_findspot_old">Šorčuq</item>
+               <item n="m_findspot_specific_old">Stadthöhle</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="created_date_old">2012-02-09, 16:43:37 (CET)</item>
+               <item n="file_size_old">5 KB</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT%20684"&gt;THT 684&lt;/a&gt;,
+[[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/06/0684.htm"&gt;THT 684&lt;/a&gt;.&lt;br&gt;
+Transcription and references have been transferred from the "Text and Reference Database of the Tocharian A Language" (Gerd Carling, Lund University) (funded by the Bank of Sweden Tercentenary Foundation and SCAS).
+Transcription and translation are based on [[Carling, DThTA]].&lt;br&gt;
+Edition: [[TochSprR(A)]]: 29.&lt;br&gt;
+Siegling's personal copy of [[TochSprR(A)]]: &lt;a href="./images/TS_Siegling/TS_Siegling_Page_029.png"&gt;p. 29&lt;/a&gt;.&lt;br&gt;
+Translation:
+&lt;b&gt;b3&lt;/b&gt; [[Schmidt KT 1974]]: 145, [[Thomas 1970a]]: 454;
+&lt;b&gt;b4&lt;/b&gt; [[Knoll 1996]]: 143.</item>
+               <item n="m_manuscript_old">A 1-54</item>
+               <item n="m_image_old">http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328535;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328535;rotate=0;imageType=_M||$page; ($m_other_sigla;) recto
+http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328413;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328413;rotate=0;imageType=_M||$page; ($m_other_sigla;) verso</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_transliteration_old">a1 /// §sn(·) §ka§ś lo§tksā §yśa§lma§s ṣu§(·)[m](·) – §klo§pa§n_t\ – ///
+a2 /// prār _n_atskatse yiñcä\ • oñi pātrukaṃ śweñ[c]ä\ ///
+a3 /// l(·) ne āñcäm kursaṃnt_r_a • pu_k _s_a_m\ yśalmsaṃ w[ā] ///
+a4 /// (·)sp· kan_t\ tsitāluneyntu t_r_a ///
+a5 /// tn(·) mṛgamātt_r_a_k\ ñomā wärtiṃ lu ///
+a6 /// – senik św empele sne kāruṃ : a[_r_a] ///
+b1 /// (·)· sumnā_t_a_r\ : 1 || pu_k\ lwākā kā ///
+b2 /// m[ā] krośśāṃ : mā o_m_alyāṃ wlye[p]yāṃ [ṣ]uṅka ///
+b3 /// [lyu]tār mema_ṣ\ s_ukaṣiñ_t_ar lyutār [m]e ///
+b4 /// (·)umnäṣ prā_k_ar klisnā_ṣ\ • _t_m_a_ṣ _s_am mṛ[gam](·) ///
+b5 /// (·)pr(·) kospreṃne skā_ṣ_aṃ • _t_apreṃ _t_apre_n_a_k _s_am śiśä – ///
+b6 /// (·)·klom lu_t_k_a_ṣ_ṣ-_aṃ : _t_m_aṣ krāṃ penu _s_ak[n]āmāṃ lo ā – ///</item>
+               <item n="date_publication_old">05.10.2013</item>
+               <item n="m_editor_old">Gerd Carling, Georges-Jean Pinault, Melanie Malzahn</item>
+               <item n="version_old">16</item>
+               <item n="page_name_old">A 51</item>
+               <item n="m_passage_old">Mṛgamātṛka [deer] and lion</item>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;a2.&lt;/b&gt; The word segmentation of the complex &lt;i&gt;prārnätskatse&lt;/i&gt; is uncertain; one could also opt for &lt;i&gt;prārnäts katse&lt;/i&gt;, by assuming that &lt;i&gt;katse yiñc&lt;/i&gt; was a slip for &lt;i&gt;kātse yiñc&lt;/i&gt; “they go close to”.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a5.&lt;/b&gt; &lt;i&gt;(mä)tn(e)&lt;/i&gt; is restored by Siegling in his personal copy of [[TochSprR(A)]]: 29.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a5.&lt;/b&gt; &lt;i&gt;arä&lt;/i&gt; may be restore to a form of the root &lt;i&gt;ar&lt;/i&gt;- 'to evoke' or to &lt;i&gt;arä(mpāt)&lt;/i&gt; 'form'.&lt;/p&gt;</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="file_modified_old">1579538667</item>
+               <item n="file_created_old">1328802217</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;I removed the following comment from the philological commentary, as Ilya Itkin pointed out that &lt;ref type="ms" target="txt:m-a78"/&gt; a6 actually has &lt;hi&gt;klyomiṃ&lt;/hi&gt; (&lt;hi&gt;klomiṃ&lt;/hi&gt; was a typo). (BK)&lt;/p&gt;&lt;p style="margin-left: 4em;margin-right: 4em"&gt;&lt;ref type="ms" target="__b6"/&gt;&lt;hi&gt;klom&lt;/hi&gt; is probably a variant of &lt;hi&gt;klyom&lt;/hi&gt;, which is recorded in &lt;ref type="ms" target="txt:m-a78"/&gt; a 6 (fem. &lt;hi&gt;klomiṃ&lt;/hi&gt;); compare TB &lt;hi&gt;klomo&lt;/hi&gt; for &lt;hi&gt;klyomo&lt;/hi&gt;.
+&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

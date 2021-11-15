@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht4083b">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 4083.b</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 4083.b</idno>
+                  <altIdentifier>
+                     <idno>SHT 1098.b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Murtuq</region>during <rs type="expedition_code">T III M 132, T III M 143, T III M 145</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="xto"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Gloss</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=335012;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=335012;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="a1"><zone><unclear>k</unclear><gap reason="plain" unit="part"/></zone><zone>vā</zone><zone>re</zone><zone>o</zone><zone>ki</zone></line>
+            <line n="2" xml:id="a2"><zone>kā</zone><zone>tkā</zone><zone>śi</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><w>k<supplied>a</supplied>vāre</w><w>oki</w>
+<lb corresp="#a2"/><w>kātkāśi</w></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">like morsels</seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">of the householders</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note corresp="#a1" type="lingcomment">The interpretation of this gloss is uncertain: the reading is not secured and the Sanskrit text is incomplete. If the gloss is read correctly, <hi>k(a)vāre</hi> may stand for <hi>kāpāre</hi> 'morsels, bite-size pieces' (<bibl><title corresp="ref:carlingetal2009"/><citedRange>113a</citedRange></bibl>). Since <hi>kāpār</hi> is borrowed from (a Middle Indian form corresponding to) Skt. <hi>kavaḍa</hi> (see Carling, l.c.), it is understandable that the word was spelled differently. Both the short <hi>a</hi> and the <hi>v</hi> are closer to the Skt. form. The semantic connection may be understood as 'crushed' = 'small pieces'. Even if Waldschmidt's cautious restoration to <hi>(na)[ṭa]kuṭṭā</hi> 'wie Spaßmacher' ['like jesters'] (in <bibl><title corresp="ref:sanderandwaldschmidt1985"/><citedRange>89</citedRange></bibl>) is correct, the TA gloss could be an “incorrect” too literal rendering of only the last part of the word.</note><note corresp="#a1" type="philcomment">glosses Skt. /// <hi>[ṭ]·kuṭṭā</hi> 'crushing, bruising...'</note><note corresp="#a2" type="lingcomment">Pace <bibl><title corresp="ref:malzahn2007b"/><citedRange>305</citedRange></bibl> (accepted by <bibl><title corresp="ref:carlingetal2009"/><citedRange>111b-112</citedRange></bibl>a), who sees a connection with <hi>kātk-</hi> 'be glad', <hi>kātkāśi</hi> does not gloss the following word <hi>hāsyaprekṣy</hi> 'makes laugh'. Apart from the fact that the gloss is actually found under <hi>gṛhiṇo</hi>, <hi>kātkāśi</hi> could not possibly be a form of <hi>kātk-</hi>: there is no agent suffix <hi>-śi</hi> v.s., and probably no stem of a causative of this structure would have a long <hi>ā</hi> in the second syllable, not even the subjunctive stem (<bibl><title corresp="ref:malzahn2010"/><citedRange>216-7</citedRange></bibl>, <bibl><title corresp="ref:peyrot2013b"/><citedRange>128-9</citedRange></bibl>). TA <hi>kātkāśi</hi>, for <hi>kātkāśśi</hi>, is probably in th eplural because this word has become a plurale tantum: no singular forms are attested at all and the nom.sg. <hi>kātak*</hi> (<bibl><title corresp="ref:carlingetal2009"/><citedRange>110b</citedRange></bibl>) is set up on the basis of plural forms.</note><note corresp="#a2" type="philcomment">glosses Skt. <hi>gṛhiṇo</hi> (gen.sg.) 'householder'. To the right of <hi>kātkāśi</hi> a further gloss <hi>hā</hi> is found, which clarifies that the first akṣara of <hi>hāsyaprekṣy</hi> is to be read <hi>hā</hi>: this akṣara is difficult to read and seems to have been corrected from <hi>p</hi>.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 4083" type="external">THT 4083</ref></bibl><bibl><title corresp="ref:peyrot2014"/><citedRange>133, 140-1</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_translation_old">a1 like morsels
+a2 of the householders</item>
+               <item n="m_subgenre_old">Gloss</item>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_tune_old"/>
+               <item n="m_prev_old"/>
+               <item n="user_modified_old">martin</item>
+               <item n="user_created_old">michael</item>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_leaf_old"/>
+               <item n="m_title_old"/>
+               <item n="m_transcription_old">a1 k(a)vāre oki
+a2 kātkāśi</item>
+               <item n="m_meter_old"/>
+               <item n="m_expedition_old">T III M 132, T III M 143, T III M 145</item>
+               <item n="m_size_w_old"/>
+               <item n="m_other_sigla_old">SHT 1098.b</item>
+               <item n="m_language_old">TA</item>
+               <item n="m_remarks_old"/>
+               <item n="project_comment_old"/>
+               <item n="ms_old">THT 4083.b</item>
+               <item n="m_script_old"/>
+               <item n="m_parallels_old"/>
+               <item n="file_modified_old">1479928812</item>
+               <item n="file_created_old">1390571246</item>
+               <item n="m_size_h_old"/>
+               <item n="m_next_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_editor_old"/>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;a1&lt;/b&gt; glosses Skt. /// &lt;i&gt;[ṭ]·kuṭṭā&lt;/i&gt; 'crushing, bruising...'&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a2&lt;/b&gt; glosses Skt. &lt;i&gt;gṛhiṇo&lt;/i&gt; (gen.sg.) 'householder'. To the right of &lt;i&gt;kātkāśi&lt;/i&gt; a further gloss &lt;i&gt;hā&lt;/i&gt; is found, which clarifies that the first akṣara of &lt;i&gt;hāsyaprekṣy&lt;/i&gt; is to be read &lt;i&gt;hā&lt;/i&gt;: this akṣara is difficult to read and seems to have been corrected from &lt;i&gt;p&lt;/i&gt;.&lt;/p&gt;</item>
+               <item n="m_transliteration_old">a1 [k]·vāre oki
+a2 kātkāśi</item>
+               <item n="m_language_stage_old"/>
+               <item n="date_publication_old"/>
+               <item n="m_image_old">http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=335012;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=335012;rotate=0;imageType=_M||THT 4083.a-b recto
+http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=335092;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=335092;rotate=0;imageType=_M||THT 4083.a-b verso</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 4083" target="idp"&gt;THT 4083&lt;/a&gt;, [[Peyrot 2014]]: 133, 140-1.</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old">&lt;p&gt;&lt;b&gt;a1.&lt;/b&gt; The interpretation of this gloss is uncertain: the reading is not secured and the Sanskrit text is incomplete. If the gloss is read correctly, &lt;i&gt;k(a)vāre&lt;/i&gt; may stand for &lt;i&gt;kāpāre&lt;/i&gt; 'morsels, bite-size pieces' ([[Carling, DThTA]]: 113a). Since &lt;i&gt;kāpār&lt;/i&gt; is borrowed from (a Middle Indian form corresponding to) Skt. &lt;i&gt;kavaḍa&lt;/i&gt; (see Carling, l.c.), it is understandable that the word was spelled differently. Both the short &lt;i&gt;a&lt;/i&gt; and the &lt;i&gt;v&lt;/i&gt; are closer to the Skt. form. The semantic connection may be understood as 'crushed' = 'small pieces'. Even if Waldschmidt's cautious restoration to &lt;i&gt;(na)[ṭa]kuṭṭā&lt;/i&gt; 'wie Spaßmacher' ['like jesters'] (in [[SHT V]]: 89) is correct, the TA gloss could be an “incorrect” too literal rendering of only the last part of the word.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a2.&lt;/b&gt; Pace [[Malzahn 2007b]]: 305 (accepted by [[Carling, DThTA]]: 111b-112a), who sees a connection with &lt;i&gt;kātk-&lt;/i&gt; 'be glad', &lt;i&gt;kātkāśi&lt;/i&gt; does not gloss the following word &lt;i&gt;hāsyaprekṣy&lt;/i&gt; 'makes laugh'. Apart from the fact that the gloss is actually found under &lt;i&gt;gṛhiṇo&lt;/i&gt;, &lt;i&gt;kātkāśi&lt;/i&gt; could not possibly be a form of &lt;i&gt;kātk-&lt;/i&gt;: there is no agent suffix &lt;i&gt;-śi&lt;/i&gt; v.s., and probably no stem of a causative of this structure would have a long &lt;i&gt;ā&lt;/i&gt; in the second syllable, not even the subjunctive stem ([[Malzahn 2010]]: 216-7, [[Peyrot, ToSu]]: 128-9). TA &lt;i&gt;kātkāśi&lt;/i&gt;, for &lt;i&gt;kātkāśśi&lt;/i&gt;, is probably in th eplural because this word has become a plurale tantum: no singular forms are attested at all and the nom.sg. &lt;i&gt;kātak*&lt;/i&gt; ([[Carling, DThTA]]: 110b) is set up on the basis of plural forms.&lt;/p&gt;</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_old">Murtuq</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="file_location_old">pages/manuscript/tht4083b.txt</item>
+               <item n="access_old">restricted</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_lines_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht177">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 177</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 177</idno>
+                  <altIdentifier>
+                     <idno>B 177</idno>
+                  </altIdentifier>
+                  <msName>Abhidharmakośa α</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Abhidharmakośa</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Murtuq</region>during <rs type="expedition_code">T III M 143.11</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Abhidharma</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328073;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328073;rotate=0;imageType=_M"/>
+            <line xml:id="lf"><zone>122</zone></line>
+            <line n="1" xml:id="a1"><zone>p<gap reason="plain" unit="part"/></zone><zone>TA</zone><zone><unclear>rya</unclear></zone><gap reason="plain" quantity="1"/><zone><unclear>tu</unclear></zone><zone>nma</zone><zone>ne</zone><zone>ske</zone><zone>nt<gap reason="plain" unit="part"/></zone><zone>•</zone><zone>ce</zone><zone>n<gap reason="plain" unit="part"/></zone><zone>KA</zone><zone><unclear>ṣ</unclear><gap reason="par" unit="part"/><unclear>i</unclear></zone><gap reason="plain" quantity="3"/><zone>ā</zone><zone>hā</zone><zone>ra</zone><zone><unclear>s</unclear>ū</zone><zone><unclear>t</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><zone>ga</zone><zone>ndha</zone><zone>r<unclear>v</unclear>e</zone><zone>a</zone><zone>nta</zone><zone>rā</zone><zone>bha</zone><zone>vi</zone><zone>ke</zone><zone><unclear>e</unclear></zone><zone><unclear>kā</unclear><gap reason="plain" unit="part"/></zone><zone><unclear>th</unclear><gap reason="plain" unit="part"/></zone><zone>vā</zone><zone>ca</zone><zone>ki</zone><zone>ske</zone><zone><unclear>nte</unclear></zone><zone><unclear>m</unclear><gap reason="plain" unit="part"/></zone><zone><unclear>KA</unclear></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><zone><unclear>r</unclear>e</zone><zone>śa</zone><zone>wā</zone><zone>ñca</zone><zone>tu</zone><zone><unclear>n</unclear><gap reason="plain" unit="part"/></zone><zone>ga</zone><zone>ndha</zone><zone>rwe</zone><zone>te</zone><zone>maṃ¯</zone><zone>¯nT</zone><zone>a</zone><zone>nta</zone><zone><unclear>rā</unclear></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><zone>kā</zone><zone>r<gap reason="plain" unit="part"/></zone><zone>ts<gap reason="plain" unit="part"/></zone><zone>•</zone><zone>śtwā</zone><zone>ra</zone><zone><unclear>ā</unclear></zone><gap reason="plain" quantity="2"/><zone><unclear>n</unclear>t<gap reason="plain" unit="part"/></zone><zone>bh<gap reason="plain" unit="part"/></zone><zone>v<gap reason="plain" unit="part"/></zone><zone><gap reason="plain" unit="part"/>o</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><zone>॥</zone><zone>ni</zone><zone>rvṛ</zone><zone>tti</zone><zone>śca</zone><zone>•</zone><zone>s<unclear>p</unclear>ā</zone><gap reason="plain" quantity="1"/><zone>lñe</zone><zone>ṢPA</zone><zone><unclear>•</unclear></zone><gap reason="plain" quantity="1"/><zone><unclear>h</unclear><gap reason="plain" unit="part"/></zone><zone><unclear>ta</unclear></zone><gap reason="lost"/></line>
+            <line n="6" xml:id="a6"><zone><unclear>c</unclear>me</zone><zone>ltse</zone><zone>au</zone><zone>lñe</zone><zone>•</zone><zone>ni</zone><zone>rvṛ</zone><zone>tya</zone><zone><unclear>r</unclear>th<gap reason="plain" unit="part"/></zone><zone>•</zone><zone>spā</zone><zone>rta</zone><zone>tsi</zone><zone>ntse</zone><zone>pe</zone><zone>lykiṃ</zone><zone>•</zone><zone>ya</zone><zone>thā</zone><zone>ka</zone><gap reason="lost"/></line>
+            <line n="7" xml:id="a7"><gap reason="lost"/><zone><unclear>bh</unclear>i</zone><zone>ni</zone><zone>rvṛ</zone><zone>t<gap reason="plain" unit="part"/>i</zone><gap reason="plain" quantity="1"/><zone>yo</zone><zone>j<unclear>aṃ</unclear></zone><zone><unclear>y</unclear>ai</zone><zone><unclear>k</unclear>u</zone><zone>mā</zone><zone>no</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone>ñu</zone><zone>wa</zone><zone>ta</zone><zone>k<gap reason="plain" unit="part"/></zone><zone>r<gap reason="plain" unit="part"/></zone><zone>ā</zone><zone><unclear>śra</unclear></zone><zone><unclear>yā</unclear></zone><zone>śri</zone><zone>teṃ</zone><zone>pa</zone><zone>r<unclear>ā</unclear></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><zone><unclear>k</unclear>i</zone><zone>ske</zone><zone>nte</zone><zone><unclear>ce</unclear>ṃ¯</zone><zone>¯tS</zone><zone>pa</zone><zone>rā</zone><zone>ka</zone><zone>lñe</zone><zone>spa</zone><zone>rśā</zone><zone>hā</zone><zone>rsa</zone><zone>ce</zone><zone>cme</zone><zone>lṣe</zone><zone>bha</zone><zone>pne</zone><zone>wi</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><zone>hā</zone><zone>RA¯</zone><zone>¯ñcä</zone><zone>॥</zone><zone>ña</zone><zone>ke</zone><zone>tu</zone><zone>we</zone><zone>ṢṢA</zone><zone>lle</zone><zone>MA</zone><zone>kcau</zone><zone>vi</zone><zone><unclear>j</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><zone>vi</zone><zone>jñā</zone><zone>na</zone><zone>e</zone><zone>ve</zone><zone>ṣṭā</zone><zone>u</zone><zone>pe</zone><zone>kṣā</zone><zone>yā</zone><zone>mc<gap reason="par" unit="part"/>u</zone><gap reason="plain" quantity="1"/><zone>dbh<gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><zone>vi</zone><zone>jñ<gap reason="plain" unit="part"/></zone><zone>na</zone><zone>e</zone><zone>va</zone><zone>•</zone><zone>PA</zone><zone>lsko</zone><zone>ṣṣe</zone><zone>pa</zone><zone>lsko</zone><zone>ne</zone><zone><unclear>k</unclear><gap reason="plain" unit="part"/><gap reason="plain" unit="part"/><unclear>ṃ</unclear></zone><gap reason="lost"/></line>
+            <line n="6" xml:id="b6"><zone>ma</zone><zone>no</zone><zone>vi</zone><zone>jñā</zone><zone>nne</zone><zone>stmo</zone><zone>ṣe</zone><zone>pi</zone><zone>KA</zone><zone>rsa</zone><zone>na</zone><zone>llo</zone><zone>na</zone><zone>ske</zone><zone>nte</zone><zone>•</zone><zone>tu</zone><zone>MA</zone><zone>kte</zone><zone>ku</zone><gap reason="lost"/></line>
+            <line n="7" xml:id="b7"><zone>rā</zone><zone>gya</zone><zone>ya</zone><zone>lñe</zone><zone>•</zone><zone>śta</zone><zone>rtte</zone><zone>k<unclear>r</unclear>e</zone><zone>ntau</zone><zone>na</zone><zone>meṃ</zone><zone>lai</zone><zone><unclear>ta</unclear></zone><zone>lñe</zone><zone>pa</zone><zone>ri</zone><zone>hā</zone><zone>ni</zone><zone>•</zone><zone><gap reason="plain" unit="part"/>i</zone><zone>n<gap reason="plain" unit="part"/>e</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <fw type="leafNum" corresp="#lf">122</fw>
+            <p>
+<lb corresp="#a1"/><w>p<supplied>o</supplied></w><w>tärya</w><w><supplied>dha</supplied></w><w>tunmane</w><w>skent<supplied>e</supplied></w><pc>•</pc><w>ce</w><w>n<gap reason="plain" unit="part"/></w><w>käṣ<gap reason="plain" unit="part"/>i</w><gap reason="plain" quantity="3"/><w>āhārasūt<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#a2"/><w>gandharve</w><w>antarābhavike</w><w>ekā<supplied>r</supplied>th<supplied>a</supplied>vācaki</w><w>skente</w><w>m<gap reason="plain" unit="part"/></w><w>kä</w><gap reason="lost"/>
+<lb corresp="#a3"/><w>re</w><w>śawāñca</w><w>tun<supplied>e</supplied></w><w>gandharwe</w><w>te</w><w>maṃnt</w><w>antarā</w><gap reason="lost"/>
+<lb corresp="#a4"/><w>kār<gap reason="plain" unit="part"/></w><w>ts<gap reason="plain" unit="part"/></w><pc>•</pc><w>śtwāra</w><w>ā<supplied>hārä</supplied></w><w>nt<supplied>a</supplied></w><w>bh<supplied>a</supplied>v<gap reason="plain" unit="part"/></w><w><gap reason="plain" unit="part"/>o</w><gap reason="lost"/>
+<lb corresp="#a5"/><pc>॥</pc><w>nirvṛttiś</w><w>ca</w><pc>•</pc><w>spā<supplied>rta</supplied>lñe</w><w>ṣpä</w><pc>•</pc><gap reason="plain" quantity="1"/><w>h<gap reason="plain" unit="part"/></w><w>ta</w><gap reason="lost"/>
+<lb corresp="#a6"/><w>cmeltse</w><w>aulñe</w><pc>•</pc><w>nirvṛtyarth<supplied>aṃ</supplied></w><pc>•</pc><w>spārtatsintse</w><w>pelykiṃ</w><pc>•</pc><w>yathāka</w><gap reason="lost"/>
+<lb corresp="#a7"/><gap reason="lost"/><w>bhinirvṛt<supplied>t</supplied>i</w><w><supplied>saṃ</supplied>yojaṃ</w><w>yaiku</w><w>mā</w><w>no</w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><w>ñuwa</w><w>tak<supplied>ā</supplied>r<supplied>e</supplied></w><w>āśrayāśriteṃ</w><w>parā</w><gap reason="lost"/>
+<lb corresp="#b2"/><w>ki</w><w>skente</w><w>ceṃts</w><w>parākalñe</w><w>sparśāhārsa</w><w>ce</w><w>cmelṣe</w><w>bhapne</w><w>wi</w><gap reason="lost"/>
+<lb corresp="#b3"/><w>hāräñc</w><pc>॥</pc><w>ñake</w><w>tu</w><w>weṣṣälle</w><w>mäkcau</w><w>vij<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#b4"/><w>vijñāna</w><w>eveṣṭā</w><w>upekṣāyām</w><w>c<gap reason="plain" unit="part"/>u</w><gap reason="plain" quantity="1"/><w>dbh<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#b5"/><w>vijñ<supplied>ā</supplied>na</w><w>eva</w><pc>•</pc><w>pälskoṣṣe</w><w>palskone</w><w>k<gap reason="plain" unit="part"/><gap reason="plain" unit="part"/>ṃ</w><gap reason="lost"/>
+<lb corresp="#b6"/><w>manovijñānne</w><w>stmoṣepi</w><w>kärsanallona</w><w>skente</w><pc>•</pc><w>tu</w><w>mäkte</w><w>ku</w><gap reason="lost"/>
+<lb corresp="#b7"/><w>rāgya</w><w>yalñe</w><pc>•</pc><w>śtartte</w><w>krentaunameṃ</w><w>laitalñe</w><w>parihāni</w><pc>•</pc><w><supplied>p</supplied>in<supplied>kt</supplied>e</w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#b1"><seg><bibl><title corresp="ref:thomas1957"/><citedRange>289</citedRange></bibl></seg></choice><choice corresp="#b6"><seg><bibl><title corresp="ref:thomas1952"/><citedRange>19</citedRange></bibl></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">The original manuscript is missing.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 177" type="external">THT 177</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/01/0177.htm" type="external">THT 177</ref></bibl>. </p>
+            <p><label>Edition</label><bibl><title corresp="ref:siegandsiegling1953"/><citedRange>99-100</citedRange></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_expedition_old">T III M 143.11</item>
+               <item n="m_size_w_old"/>
+               <item n="m_remarks_old">The original manuscript is missing.</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_other_sigla_old">B 177</item>
+               <item n="m_script_old">Classical</item>
+               <item n="ms_old">THT 177</item>
+               <item n="project_comment_old"/>
+               <item n="m_parallels_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_meter_old">6/7</item>
+               <item n="m_transcription_old">a1 p(o) tärya (dha) tunmane skent(e) • ce n· käṣ(·)i – – – āhārasūt· ///
+a2 gandharve antarābhavike ekā(r)th(a)vācaki skente m· kä ///
+a3 re śawāñca tun(e) gandharwe te maṃnt antarā ///
+a4 kār· ts· • śtwāra ā(hārä) nt(a) bh(a)v· ·o ///
+a5 || nirvṛttiś ca • spā(rta)lñe ṣpä • – h· ta ///
+a6 cmeltse aulñe • nirvṛtyarth(aṃ) • spārtatsintse pelykiṃ • yathāka ///
+a7 /// bhinirvṛt(t)i (saṃ)yojaṃ yaiku mā no ///
+b1 /// ñuwa tak(ā)r(e) āśrayāśriteṃ parā ///
+b2 ki skente ceṃts parākalñe sparśāhārsa ce cmelṣe bhapne wi ///
+b3 hāräñc || ñake tu weṣṣälle mäkcau vij· ///
+b4 vijñāna eveṣṭā upekṣāyām c(·)u – dbh· ///
+b5 vijñ(ā)na eva • pälskoṣṣe palskone k··ṃ ///
+b6 manovijñānne stmoṣepi kärsanallona skente • tu mäkte ku ///
+b7 rāgya yalñe • śtartte krentaunameṃ laitalñe parihāni • (p)in(kt)e ///</item>
+               <item n="m_leaf_old">122</item>
+               <item n="m_title_old">Abhidharmakośa</item>
+               <item n="m_prev_old"/>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old">michael</item>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_subgenre_old">Abhidharma</item>
+               <item n="m_translation_old"/>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="file_location_old">pages/manuscript/THT_0001_0633/tht177.txt</item>
+               <item n="m_completeness_old"/>
+               <item n="m_lines_old">7</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="access_old">public</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_old">Murtuq</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="date_publication_old"/>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_transliteration_old">a1 p(o) _t_a[rya] (dha) [tu]nmane skent(e) • ce n· _k_a[ṣ(·)i] – – – āhāra[s]ū[t·] ///
+a2 gandhar[v]e antarābhavike [ekā](r)[th](a)vācaki ske[nte m·] [_k_a] ///
+a3 [r]e śawāñca tu[n](e) gandharwe te maṃn_t\ anta[rā] ///
+a4 kār· ts· • śtwāra [ā](hā_r_a) [n]t(a) bh(a)v· ·o ///
+a5 || nirvṛttiś ca • s[p]ā(rta)lñe _ṣ_p_a [•] – [h· ta] ///
+a6 [c]meltse aulñe • nirvṛtya[r]th(aṃ) • spārtatsintse pelykiṃ • yathāka ///
+a7 /// [bh]inirvṛt(t)i (saṃ)yoj[aṃ y]ai[k]u mā no ///
+b1 /// ñuwa tak(ā)r(e) ā[śrayā]śriteṃ par[ā] ///
+b2 [k]i skente [ce]ṃt_s\ parākalñe sparśāhārsa ce cmelṣe bhapne wi ///
+b3 hā_r_añcä\ || ñake tu we_ṣ_ṣ_alle _m_akcau vi[j·] ///
+b4 vijñāna eveṣṭā upekṣāyām c(·)u – dbh· ///
+b5 vijñ(ā)na eva • _p_alskoṣṣe palskone [k··ṃ] ///
+b6 manovijñānne stmoṣepi _k_arsanallona skente • tu _m_akte ku ///
+b7 rāgya yalñe • śtartte k[r]entaunameṃ lai[ta]lñe parihāni • (p)in(kt)e ///</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328073;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328073;rotate=0;imageType=_M||THT 177 recto</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old">Abhidharmakośa α</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 177" target="idp"&gt;THT 177&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/01/0177.htm" target="titus"&gt;THT 177&lt;/a&gt;.&lt;br&gt;
+Edition: [[TochSprR(B) II]]: 99-100.&lt;br&gt;
+Translation:
+&lt;b&gt;b1&lt;/b&gt; [[Thomas 1957]]: 289;
+&lt;b&gt;b6&lt;/b&gt; [[Thomas 1952]]: 19.</item>
+               <item n="file_created_old">1332006600</item>
+               <item n="file_modified_old">1489156206</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_philcomment_old"/>
+               <item n="m_passage_old"/>
+               <item n="m_editor_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

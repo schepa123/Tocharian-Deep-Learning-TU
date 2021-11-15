@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-ioltoch182">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>IOL Toch 182</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library (London)</repository>
+                  <idno>IOL Toch 182</idno>
+                  <altIdentifier>
+                     <idno>H add.149.57</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=5250;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=5250;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL182a.jpg" height="768px" width="808px"/>
+            <line n="1" xml:id="a1"><zone><unclear>ñ</unclear>ñe</zone><gap reason="plain" quantity="3"/><zone>pre</zone><zone><unclear>śc</unclear><gap reason="plain" unit="part"/></zone><zone>ya</zone><zone><unclear>p</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><zone><unclear>wa</unclear></zone><zone>sa</zone><gap reason="par" quantity="1"/><zone><gap reason="plain" unit="part"/>KA</zone><zone>lp<unclear>ā</unclear></zone><zone>sTA</zone><zone>•</zone><zone><gap reason="plain" unit="part"/>o</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><zone><unclear>r</unclear>e</zone><zone>•</zone><zone>sū</zone><zone>mā</zone><zone><unclear>k</unclear><gap reason="plain" unit="part"/></zone><zone><unclear>vnā</unclear></zone><gap reason="plain" quantity="1"/><zone>tyā</zone><zone>mo</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="plain" quantity="4"/><zone><unclear>prā</unclear></zone><gap reason="plain" quantity="4"/><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><gap reason="plain" quantity="5"/><zone>wä</zone><zone>rne</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=5446;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=5446;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL182b.jpg" height="768px" width="808px"/>
+            <line n="1" xml:id="b1"><gap reason="plain" quantity="1"/><zone><unclear>m</unclear><gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="1"/><zone>nm<gap reason="plain" unit="part"/></zone><zone><unclear>nt</unclear>s<gap reason="plain" unit="part"/></zone><zone>l<gap reason="plain" unit="part"/></zone><zone><unclear>nt</unclear><gap reason="plain" unit="part"/></zone><zone><gap reason="plain" unit="part"/><unclear>w</unclear><gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><zone>ŚA</zone><zone>r<unclear>s</unclear><gap reason="plain" unit="part"/></zone><gap reason="par" quantity="1"/><zone><gap reason="plain" unit="part"/><unclear>i</unclear></zone><gap reason="plain" quantity="1"/><zone><gap reason="plain" unit="part"/>ä</zone><zone>PA¯</zone><zone>¯sTä</zone><zone>kā</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="plain" quantity="2"/><zone>mṣa</zone><zone><unclear>m</unclear>ñe</zone><zone>pa</zone><zone>ñä</zone><zone>kte</zone><zone>klyau</zone><zone>ṣa</zone><zone><unclear>n</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><gap reason="plain" quantity="1"/><zone>rne</zone><zone><unclear>o</unclear></zone><zone>li</zone><zone>sa</zone><zone>k<unclear>ā</unclear></zone><zone>ñme</zone><zone>•</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><zone>r<unclear>t</unclear>si</zone><zone>PA</zone><gap reason="plain" quantity="2"/><zone>•</zone><zone>ā</zone><zone>nā</zone><zone>pa</zone><zone><gap reason="plain" unit="part"/>i</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><w>-ññe</w><gap reason="plain" quantity="3"/><w>preśc<supplied>i</supplied>ya</w><w>p<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#a2"/><w>wa</w><w>sa</w><gap reason="plain" quantity="1"/><w><gap reason="plain" unit="part"/></w><w>kälpāstä</w><pc>•</pc><w><gap reason="plain" unit="part"/>o</w><gap reason="lost"/>
+<lb corresp="#a3"/><w>-re</w><pc>•</pc><w>sū</w><w>mā</w><w>k<gap reason="plain" unit="part"/></w><w>vnā</w><gap reason="plain" quantity="1"/><w>tyā</w><w>mo</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="plain" quantity="4"/><w>prā</w><gap reason="plain" quantity="4"/><gap reason="lost"/>
+<lb corresp="#a5"/><gap reason="plain" quantity="5"/><w>wärne</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="plain" quantity="1"/><w>m<gap reason="plain" unit="part"/></w><gap reason="plain" quantity="1"/><w>nm<gap reason="plain" unit="part"/></w><w>nts<gap reason="plain" unit="part"/></w><w>l<gap reason="plain" unit="part"/></w><w>nt<gap reason="plain" unit="part"/></w><w><gap reason="plain" unit="part"/>w<gap reason="plain" unit="part"/></w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b2"/><w>śärs<gap reason="plain" unit="part"/></w><gap reason="plain" quantity="1"/><w><gap reason="plain" unit="part"/>i</w><gap reason="plain" quantity="1"/><w><gap reason="plain" unit="part"/>ä</w><w>päst</w><w>kā</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="plain" quantity="2"/><w>mṣamñe</w><w>pañäkte</w><w>klyauṣa</w><w>n<supplied>āksate</supplied></w><gap reason="lost"/>
+<lb corresp="#b4"/><gap reason="plain" quantity="1"/><w>rne</w><w>olisa</w><w>kāñme</w><pc>•</pc><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b5"/><w>-rtsi</w><w>pä</w><gap reason="plain" quantity="2"/><pc>•</pc><w>ānāpa<gap reason="plain" unit="part"/>i</w><gap reason="lost"/></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 182" type="external">IOL Toch 182</ref></bibl>. </p>
+            <p><label>Edition</label><bibl><title corresp="ref:peyrot2007"/><citedRange>№182</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_script_old">Classical</item>
+               <item n="project_comment_old"/>
+               <item n="ms_old">IOL Toch 182</item>
+               <item n="m_parallels_old"/>
+               <item n="m_size_w_old"/>
+               <item n="m_expedition_old"/>
+               <item n="m_remarks_old"/>
+               <item n="m_language_old">Sanskrit+TB</item>
+               <item n="m_other_sigla_old">H add.149.57</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_meter_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_title_old"/>
+               <item n="m_transcription_old">a1 -ññe – – – preśc(i)ya p· ///
+a2 wa sa – · kälpāsta|kälpāstä • ·o ///
+a3 -re • sū mā k· vnā – tyā mo – ///
+a4 – – – – prā – – – – ///
+a5 – – – – – wärne – ///
+b1 – m· – nm· nts· l· nt· ·w· – ///
+b2 śärs· – ·i – ·ä päst kā – ///
+b3 – – mṣamñe pañäkte klyauṣa n(āksate)  ///
+b4 – rne olisa kāñme • – ///
+b5 -rtsi pä – – • ānāpa·i ///</item>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_prev_old"/>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old">martin</item>
+               <item n="project_check_old"/>
+               <item n="m_metric_form_old"/>
+               <item n="m_tune_old"/>
+               <item n="m_translation_old"/>
+               <item n="m_subgenre_old"/>
+               <item n="m_completeness_old"/>
+               <item n="m_collection_old">British Library (London)</item>
+               <item n="m_lines_old">5</item>
+               <item n="access_old">restricted</item>
+               <item n="file_location_old">pages/manuscript/IOL_Toch/ioltoch182.txt</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_linedistance_old"/>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 182"&gt;IOL Toch 182&lt;/a&gt;.&lt;br&gt;
+Edition: [[Peyrot 2007]]: №182.</item>
+               <item n="date_publication_old"/>
+               <item n="m_transliteration_old">a1 -[ñ]ñe – – – pre[śc]·ya [p]· ///
+a2 [wa] sa (–) · _k_alp[ā]s_t_a • ·o ///
+a3 -[r]e • sū mā [k]· [vnā] – tyā mo – ///
+a4 – – – – [prā] – – – – ///
+a5 – – – – – wärne – ///
+b1 – [m]· – nm· [nt]s· l· [nt]· ·[w]· – ///
+b2 _ś_ar[s]· (–) ·[i] – ·ä _p_as_tä\ kā – ///
+b3 – – mṣa[m]ñe pañäkte klyauṣa [n]· ///
+b4 – rne [o]lisa k[ā]ñme • – ///
+b5 -r[t]si _p_a – – • ānāpa·i ///</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=5250;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=5250;rotate=0;imageType=_M||IOL Toch 182 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=5446;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=5446;rotate=0;imageType=_M||IOL Toch 182 verso</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_philcomment_old"/>
+               <item n="m_passage_old"/>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="file_created_old">1322765175</item>
+               <item n="file_modified_old">1554656825</item>
+               <item n="m_size_h_old"/>
+               <item n="m_next_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

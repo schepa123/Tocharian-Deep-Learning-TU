@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-ioltoch16">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>IOL Toch 16</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library (London)</repository>
+                  <idno>IOL Toch 16</idno>
+                  <altIdentifier>
+                     <idno>H 149.47</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>A.47</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Śatapañcāśatka </title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions unit="cm" type="leaf">
+                              <height>8.3</height>
+                              <width>10.8</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass default="false">
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Buddhastotra</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface n="DGYSIVOFHKFENIJICCMPFRPK" type="recto" lrx="1024" lry="837">
+            <graphic url="IOL/IOL16a.jpg" height="837px" width="1024px"/>
+            <graphic xmlns:trsc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+                     n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=15340;rotate=0;imageType=_L"/>
+            <graphic xmlns:trsc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+                     n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=15340;rotate=0;imageType=_M"/>
+            <line xml:id="a1"
+                  points="26,6 982,6 985,94 843,110 689,83 660,80 623,77 602,85 212,83 21,101"
+                  n="1">
+               <gap reason="par" quantity="1"/>
+               <gap reason="plain" quantity="1"/>
+               <zone points="223,74 223,23 291,27 286,81">ma</zone>
+               <gap reason="par" quantity="1"/>
+               <zone points="306,44 321,13 380,10 383,40 354,58"><unclear>p</unclear><gap unit="part" reason="plain"/></zone>
+               <zone points="402,34 447,38 457,9 400,9">•</zone>
+               <zone points="456,42 468,9 525,13 514,86 441,87">u</zone>
+               <zone points="526,50 528,12 603,16 598,64"><unclear>p</unclear><gap unit="part" reason="plain"/></zone>
+               <zone points="609,54 611,12 665,9 689,11 669,70 631,67">m<unclear>ā</unclear></zone>
+               <zone points="688,45 710,11 758,13 758,57 701,58">v<gap unit="part" reason="plain"/></zone>
+               <zone points="762,51 772,7 851,10 871,87 838,103 799,97">stu</zone>
+               <gap reason="par" quantity="1"/>
+               <zone points="891,86 966,87 967,12 884,9"><unclear>m</unclear><gap unit="part" reason="plain"/></zone>
+               <gap reason="lost"/>
+            </line>
+            <line xml:id="a2"
+                  points="20,101 209,84 605,85 626,77 694,85 844,111 983,95 985,273 467,253 318,223 206,266 23,240"
+                  n="2">
+               <zone points="139,194 150,169 132,133 68,165 77,208">sa</zone>
+               <zone points="152,168 192,93 213,89 260,114 239,178 225,257 178,256 131,232">llo</zone>
+               <zone points="242,191 241,172 272,117 308,133 308,188 264,216">naṃ</zone>
+               <zone points="309,189 319,121 415,143 384,222 323,213">tso</zone>
+               <zone points="406,192 401,180 422,159 448,175 430,199">•</zone>
+               <zone points="445,191 460,126 517,127 526,200 516,243 463,247 399,219 433,213">dhru</zone>
+               <zone points="529,186 531,139 612,152 611,189 552,210">vā</zone>
+               <zone points="613,198 614,155 680,155 628,82 655,85 713,160 707,173 708,203 677,219">ṇā¯</zone>
+               <zone points="707,173 761,145 789,146 804,174 797,232 720,231">¯m∘</zone>
+               <zone points="804,187 810,123 866,128 886,174 866,216 813,217">ṣe</zone>
+               <zone points="880,190 898,151 943,153 947,261 881,260 870,241">ka</zone>
+               <gap reason="lost"/>
+            </line>
+            <line xml:id="a3"
+                  points="58,246 206,268 319,224 468,255 756,264 755,394 306,388 61,372"
+                  n="3">
+               <zone points="127,336 123,315 157,312 102,274 63,327 96,359">nā¯</zone>
+               <zone points="126,323 153,317 167,300 180,287 204,299 220,342 194,353 191,370 139,374">¯m∘</zone>
+               <zone points="200,355 234,346 220,311 245,253 294,257 297,344 263,379 207,377 200,364">kre</zone>
+               <zone points="300,334 301,243 354,243 383,291 383,312 360,322 369,370 330,384 304,369">ntau</zone>
+               <zone points="373,321 390,310 394,263 439,266 446,325 408,358 382,354">naṃ</zone>
+               <zone points="448,325 462,274 530,276 537,299 530,320 521,337 496,369 467,360">tso</zone>
+               <zone points="534,311 547,288 583,298 577,332 543,334">•</zone>
+               <zone points="522,333 527,352 623,374 652,349 643,292 595,299 585,350">u</zone>
+               <zone points="652,326 648,284 732,291 726,344 660,342">pa</zone>
+               <space type="string_hole"/>
+               <gap reason="lost"/>
+            </line>
+            <line xml:id="a4"
+                  points="29,375 304,389 759,394 762,531 273,508 33,553"
+                  n="4">
+               <zone points="57,446 59,380 117,384 137,456 128,478 150,496 138,529 95,537 70,507">rṣKAṃ</zone>
+               <zone points="130,478 159,411 201,417 215,437 217,488 154,501">ñe</zone>
+               <zone points="219,479 230,405 274,399 291,416 293,484 234,508">ne</zone>
+               <zone points="296,469 301,446 341,440 352,467 321,487">•</zone>
+               <zone points="352,476 394,405 456,416 456,438 451,459 448,492 358,498">yā</zone>
+               <zone points="495,511 517,468 497,415 457,430 452,496">ti</zone>
+               <zone points="519,462 514,440 559,438 560,473 537,481">•</zone>
+               <zone points="565,472 596,420 642,409 672,438 669,475 592,491">yaṃ</zone>
+               <zone points="680,467 680,437 738,437 738,474 701,473">•</zone>
+               <space type="string_hole"/>
+               <gap reason="lost"/>
+            </line>
+            <line xml:id="a5"
+                  points="32,554 273,509 743,530 731,686 536,695 473,647 391,667 275,689 177,657 31,662"
+                  n="5">
+               <zone points="70,635 68,578 146,580 136,608 133,641 98,645">ai</zone>
+               <zone points="135,609 174,570 210,576 213,629 171,644 135,631">śa</zone>
+               <zone points="214,620 224,536 278,536 317,589 338,660 301,680 243,674 215,654">mñe</zone>
+               <zone points="343,638 316,567 350,526 395,534 419,612 433,631 396,655 363,662">ntse</zone>
+               <zone points="432,623 419,576 488,568 502,589 487,638 446,642">KA</zone>
+               <zone points="500,621 512,558 560,563 566,613 566,671 558,692 534,690 510,674">tka</zone>
+               <zone points="581,578 633,565 650,588 645,684 587,679 569,634">RA</zone>
+               <zone points="655,673 726,675 731,533 652,533"><gap unit="part" reason="plain"/><unclear>e</unclear></zone>
+               <gap reason="lost"/>
+            </line>
+            <line xml:id="a6"
+                  points="31,662 176,657 273,689 472,647 535,696 621,692 619,779 35,778"
+                  n="6">
+               <zone points="79,753 85,690 152,706 158,770 92,776"><gap unit="part" reason="plain"/>e</zone>
+               <zone points="170,751 171,682 207,674 233,730 234,775 176,777"><unclear>p</unclear>i</zone>
+               <zone points="248,760 249,697 326,698 344,742 314,777 264,778"><unclear>p</unclear>i</zone>
+               <zone points="346,749 350,732 340,694 390,673 427,677 417,762 378,769 352,767">t<gap unit="part" reason="plain"/>au</zone>
+               <zone points="433,759 453,674 486,667 509,704 501,770 457,775">nt<gap unit="part" reason="plain"/>e</zone>
+               <gap reason="plain" quantity="1"/>
+               <gap reason="lost"/>
+            </line>
+         </surface>
+         <surface n="ZTEBOKHPXGCOXXLLIKWLERJV" type="verso" lrx="949" lry="768">
+            <graphic url="IOL/IOL16b.jpg" height="768px" width="949px"/>
+            <graphic xmlns:trsc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+                     n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=15359;rotate=0;imageType=_L"/>
+            <graphic xmlns:trsc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+                     n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=15359;rotate=0;imageType=_M"/>
+            <line xml:id="b1" points="252,6 544,7 549,57 244,55" n="1">
+               <gap reason="par" quantity="3"/>
+               <zone points="362,47 364,9 301,9 308,48"><unclear>dh</unclear><gap unit="part" reason="plain"/><gap unit="part" reason="par"/></zone>
+               <zone points="368,45 373,7 426,9 429,47">m<gap unit="part" reason="plain"/></zone>
+               <zone points="443,39 450,7 518,9 514,42"><unclear>ṇ</unclear><gap unit="part" reason="plain"/></zone>
+               <gap reason="lost"/>
+            </line>
+            <line xml:id="b2"
+                  points="71,54 179,52 349,69 654,66 644,183 479,211 274,202 76,193"
+                  n="2">
+               <zone points="101,167 97,77 154,76 179,142 177,182">ṣṣe</zone>
+               <zone points="180,142 178,91 144,55 160,53 231,69 249,128 241,182 195,172">o</zone>
+               <zone points="250,142 254,84 300,83 317,114 298,195 254,188">rka</zone>
+               <zone points="318,189 313,147 327,81 356,74 393,86 396,148 418,172 399,202 352,200">mñe</zone>
+               <zone points="417,171 401,144 408,84 443,72 476,77 476,114 470,155 468,201 411,198">kau</zone>
+               <zone points="475,164 472,148 479,87 505,83 541,124 534,165">ṣe</zone>
+               <zone points="537,168 543,126 559,91 610,96 599,179 557,189"><unclear>ñ</unclear>c<gap unit="part" reason="plain"/></zone>
+               <gap reason="lost"/>
+            </line>
+            <line xml:id="b3"
+                  points="77,195 463,214 556,213 678,183 732,205 732,308 480,362 80,318"
+                  n="3">
+               <zone points="161,305 170,244 145,207 108,207 95,285">ne</zone>
+               <zone points="171,261 181,229 223,244 222,314 192,318 166,313">ka</zone>
+               <zone points="230,310 230,227 243,205 278,205 288,243 287,323">ke</zone>
+               <zone points="295,274 293,258 316,243 337,263 330,282">•</zone>
+               <zone points="333,294 352,243 402,226 428,253 400,310 482,353 479,363 362,320">khā</zone>
+               <zone points="421,293 419,278 432,249 427,225 486,224 497,258 485,273 476,337 442,330">dyo</zone>
+               <zone points="493,238 522,224 566,240 562,258 550,283 515,304 489,279 500,261">tī</zone>
+               <zone points="562,259 551,283 570,301 621,300 630,265 612,235 573,241">ma</zone>
+               <zone points="633,261 617,237 627,207 665,206 689,244 688,259 697,280 660,291 629,277">pi</zone>
+               <zone points="688,259 698,248 723,260 716,276 697,276">•</zone>
+               <space type="string_hole"/>
+               <gap reason="lost"/>
+            </line>
+            <line xml:id="b4"
+                  points="86,330 328,348 457,363 760,349 758,474 599,473 545,454 346,479 294,474 97,443"
+                  n="4">
+               <zone points="159,426 164,369 113,360 98,409 120,428">KA</zone>
+               <zone points="164,414 165,371 204,366 257,384 251,447 200,444">nma</zone>
+               <zone points="255,403 283,468 319,476 378,464 333,400 315,355 262,351">skeṃ</zone>
+               <zone points="346,402 335,384 358,371 380,381 383,398 362,404">•</zone>
+               <zone points="387,392 375,409 455,424 457,372 405,365">śa</zone>
+               <zone points="459,372 473,363 510,368 513,388 497,412 510,439 499,454 456,449">ra</zone>
+               <zone points="505,415 522,379 549,366 582,368 579,386 567,434 542,446 516,444">cca</zone>
+               <zone points="572,437 553,444 560,455 599,473 637,455 650,377 595,368 580,389">ndrā</zone>
+               <zone points="653,412 658,363 723,360 731,446 681,459 648,453">mba</zone>
+               <space type="string_hole"/>
+               <gap reason="lost"/>
+            </line>
+            <line xml:id="b5"
+                  points="46,459 291,475 341,481 545,455 603,481 888,483 890,588 828,586 775,605 538,601 287,585 51,583"
+                  n="5">
+               <zone points="172,558 197,488 106,471 50,529 55,550">ñä</zone>
+               <zone points="182,549 192,502 224,492 250,505 256,564 207,570">ṣṣa</zone>
+               <zone points="260,507 278,475 295,476 324,485 320,515 321,543 285,562 257,544">naṃ¯</zone>
+               <zone points="319,526 381,507 412,549 387,591 329,573">¯tS</zone>
+               <zone points="398,515 398,503 447,484 456,508 418,527">•</zone>
+               <zone points="449,517 423,527 445,550 508,552 517,524 485,481">śu</zone>
+               <zone points="520,486 553,460 584,476 572,541 560,576 562,601 541,599 515,584">ddhiṃ</zone>
+               <zone points="592,508 653,509 625,597 561,586 559,577 580,554">pra</zone>
+               <zone points="645,534 654,514 651,497 696,494 705,533 677,573 651,562">ti</zone>
+               <zone points="705,515 732,509 742,531 707,540">•</zone>
+               <zone points="749,509 754,589 789,595 825,586 804,548 810,493">a</zone>
+               <zone points="811,532 816,498 872,495 875,529 844,552">s<unclear>t</unclear>a</zone>
+               <gap reason="lost"/>
+            </line>
+            <line xml:id="b6"
+                  points="85,591 346,595 545,602 605,603 780,612 835,589 893,591 892,705 89,703"
+                  n="6">
+               <zone points="159,634 157,695 109,687 108,599"><gap unit="part" reason="plain"/>i</zone>
+               <zone points="167,676 168,620 215,613 240,652 223,695"><unclear>ñ</unclear><gap unit="part" reason="plain"/>i¯</zone>
+               <zone points="238,661 256,619 293,625 313,663 316,696 240,697">¯<gap unit="part" reason="plain"/>∘</zone>
+               <zone points="321,662 320,599 367,597 372,701 324,697"><unclear>ku</unclear><gap unit="part" reason="plain"/>e</zone>
+               <zone points="377,677 373,641 404,601 438,608 440,681 407,692"><unclear>c</unclear>e</zone>
+               <zone points="450,677 453,622 516,625 507,700 453,702">k<unclear>w</unclear>a</zone>
+               <zone points="544,601 595,603 595,693 547,700 508,686">rñai</zone>
+               <zone points="620,644 655,638 653,668 608,672 606,652">•</zone>
+               <zone points="670,660 665,626 735,617 756,638 753,650 735,654 722,680 681,681">sā</zone>
+               <zone points="739,656 753,649 765,631 801,642 788,687 788,701 762,701 736,692">dhu</zone>
+               <zone points="797,677 811,607 834,590 864,595 879,631 867,697">l<unclear>au</unclear></zone>
+               <gap reason="lost"/>
+            </line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+               <milestone unit="passage" n="33-39"/>
+               <lb corresp="#a1"/>
+               <w><supplied>sarva</supplied>m<surplus>a</surplus></w>
+               <pc><supplied>•</supplied></pc>
+               <w>p<supplied>o</supplied></w>
+               <pc>•</pc>
+               <w>up<supplied>a</supplied>māv<supplied>a</supplied>stu</w>
+               <pc><supplied>:</supplied></pc>
+               <w>m<supplied>enāk</supplied></w>
+               <gap reason="lost"/>
+               <w><supplied>ne</supplied><lb corresp="#a2"/>sallonaṃtso</w>
+               <pc>•</pc>
+               <w>dhruvāṇām</w>
+               <w>ṣeka<supplied>ññanaṃts</supplied></w>
+               <gap reason="lost"/>
+               <w><supplied>guṇā</supplied><lb corresp="#a3"/>nām</w>
+               <w>krentaunaṃtso</w>
+               <pc>•</pc>
+               <w>upa<supplied>mā</supplied></w>
+               <gap reason="lost"/>
+               <w><supplied>tpa</supplied><lb corresp="#a4"/>rṣkäṃñene</w>
+               <pc>•</pc>
+               <w>yāti</w>
+               <pc>•</pc>
+               <w>yaṃ</w>
+               <pc>•</pc>
+               <gap reason="lost"/>
+               <lb corresp="#a5"/>
+               <w>aiśamñentse</w>
+               <w>kätkarä<supplied>ññ</supplied>e</w>
+               <gap reason="lost"/>
+               <w><supplied>śiriṣä</supplied><lb corresp="#a6"/><supplied>ṣṣ</supplied>epi</w>
+               <w>pit<supplied>ts</supplied>aunt<supplied>s</supplied>e</w>
+               <gap reason="plain" quantity="1"/>
+               <gap reason="lost"/>
+               <lb corresp="#b1"/>
+               <gap reason="plain" quantity="3"/>
+               <w>dh<supplied>ar</supplied>m<supplied>ā</supplied>ṇ<supplied>ām</supplied></w>
+               <gap reason="lost"/>
+               <w><supplied>aknātsaññe</supplied><lb corresp="#b2"/>ṣṣe</w>
+               <w>orkamñe</w>
+               <w>kauṣeñc<supplied>antse</supplied></w>
+               <gap reason="lost"/>
+               <lb corresp="#b3"/>
+               <w>ne</w>
+               <w>ka</w>
+               <w>ke</w>
+               <pc>•</pc>
+               <w>khādyotīm</w>
+               <w>api</w>
+               <pc>•</pc>
+               <gap reason="lost"/>
+               <lb corresp="#b4"/>
+               <w>känmaskeṃ</w>
+               <pc>•</pc>
+               <w>śaraccandrāmba<supplied>rāmbhasām</supplied></w>
+               <gap reason="lost"/>
+               <w><supplied>kektse</supplied><lb corresp="#b5"/>ñäṣṣanaṃts</w>
+               <pc>•</pc>
+               <w>śruddhiṃ</w>
+               <w>prati</w>
+               <pc>•</pc>
+               <w>asta<supplied>räññe</supplied></w>
+               <gap reason="lost"/>
+               <lb corresp="#b6"/>
+               <w><supplied>k</supplied>iñ<supplied>c</supplied>i<supplied>t</supplied></w>
+               <w>kU<supplied>s</supplied>e</w>
+               <w>cek</w>
+               <w>warñai</w>
+               <pc>•</pc>
+               <w>sādhu</w>
+               <w>lau<supplied>kikam</supplied></w>
+               <gap reason="lost"/>
+            </p>
+         </div>
+         <div type="translation">
+            <p>
+               <choice corresp="#a4">
+                  <seg><bibl><title corresp="ref:thomas1983"/><citedRange>24</citedRange></bibl></seg>
+               </choice>
+               <choice corresp="#b2">
+                  <seg><bibl><title corresp="ref:hackstein1995"/><citedRange>54</citedRange></bibl></seg>
+               </choice>
+            </p>
+         </div>
+         <div type="comments">
+            <p>
+               <note type="parallels"><bibl><title corresp="ref:shackletonbailey1951"/><citedRange>58-62</citedRange></bibl></note>
+               <note type="philcomment">Since this is a word-by-word bilingual, a full translation does not make much sense. Therefore, the full strophes of the Sanskrit text are cited below, and the problematic Tocharian correspondences are commented.</note>
+               <note type="remarks">According to <bibl><title corresp="ref:broomhead1962"/><citedRange>153</citedRange></bibl> "[w]ritten in medium ductus, and clearly preserved, it is the left edge of a manuscript with six lines."</note>
+               <note corresp="#a1" type="philcomment">Cf. PPU 33 <hi>upaghātāvaraṇavan mitakālaṃ pradeśi ca | sulabhātiśayaṃ sarvam upamāvastu laukikam ||</hi> 'Every worldly material for comparison is subject to injury and obscuration, limited in time and place, attained very easily.' (<bibl><title corresp="ref:shackletonbailey1951"/><citedRange>158</citedRange></bibl>).</note>
+               <note corresp="#a1" type="philcomment"><hi>m(enāk)</hi>: beginning of the translation of <hi>upamāvastu</hi>.</note>
+               <note corresp="#a2" type="philcomment"><hi>(ne)sallonaṃtso</hi>: this is the only possible restoration, but it is not the expected translation of <hi>agamyānām</hi> 'to the unapproachable [virtues]'. Probably, <hi>nes-</hi> 'be' is here used with a preceding element as a phrasal verb of the type <hi>peri nes-</hi> 'owe' (see <bibl><title corresp="ref:adams2013a"/><citedRange>366</citedRange></bibl>) and <hi>yumāne nes-</hi> 'perceive' (<bibl><title corresp="ref:peyrot2013b"/><citedRange>799</citedRange></bibl>). Obviously, the negation <hi>mā</hi> will have preceded this element.</note>
+               <note corresp="#a2 #a3" type="philcomment">Cf. PPU 34 <hi>advaṃdvinām agamyānāṃ dhruvāṇām anivartinām | anuttarāṇāṃ kā tarhi guṇānām upamāstu te ||</hi> 'What likeness indeed could there be to your virtues, unrivalled, unapproachable, lasting, turning not aside, unsurpassed?' (<bibl><title corresp="ref:shackletonbailey1951"/><citedRange>158</citedRange></bibl>).</note>
+               <note corresp="#a4" type="philcomment"><hi>(tpa)rṣkäṃñene</hi>: 'in shallowness', so to be restored, with a.o. <bibl><title corresp="ref:adams2013a"/><citedRange>331</citedRange></bibl> (pace <bibl><title corresp="ref:couvreur1966"/><citedRange>162</citedRange></bibl>; <bibl><title corresp="ref:peyrot2007"/><citedRange>№16</citedRange></bibl>).</note>
+               <note corresp="#a4 #a5" type="philcomment">Cf. PPU 35 <hi>goṣpadottānatāṃ yāti gāmbhīryaṃ lavaṇāmbhasaḥ | yadā te buddhigāmbhīryam agādhāpāram īkṣyate ||</hi> 'The depth of the salt ocean becomes shallow as a puddle when the unfathomable, boundless depth of your wisdom is beheld.' (<bibl><title corresp="ref:shackletonbailey1951"/><citedRange>158</citedRange></bibl>).</note>
+               <note corresp="#a6" type="philcomment"><hi>(śiriṣäṣṣ)epi pit(ts)aunt(s)e</hi>: 'of a (<hi>śirīṣa</hi>) filament'; pace <bibl><title corresp="ref:peyrot2007"/><citedRange>№16</citedRange></bibl>, the reading of <bibl><title corresp="ref:couvreur1966"/><citedRange>162</citedRange></bibl> is most probably correct. <bibl><title corresp="ref:adams2013a"/><citedRange>412</citedRange></bibl> reads <hi>(śiri)ṣäṣṣe(p)i pint(s)aunt(s)e</hi>, which is defendable as far as <hi>pint(s)aunt(s)e</hi> is concerned, but of the first word really at most <hi>(śiriṣä)ṣ(ṣ)epi</hi> can be read (the <hi>p</hi> is much more certain than the <hi>ṣ</hi>). <bibl><title corresp="ref:couvreur1966"/><citedRange>163</citedRange></bibl> suggests <hi>āke</hi> (<hi>ake</hi> may be a typographical error) 'tip, end' as the correspondence of <hi>agra</hi>, which is also likely.</note>
+               <note corresp="#a6 #b1" type="philcomment">Cf. PPU 36 <hi>śirīṣapakṣmāgralaghu sthairyaṃ bhavati pārthivam | akampye sarvadharmāṇām tvatsthairye 'bhimukhīkṛte ||</hi> 'The firm weight of the earth becomes light as the tip of a <hi>śirīṣa</hi> filament when compared with your firmness which nothing in nature can shake.' (<bibl><title corresp="ref:shackletonbailey1951"/><citedRange>159</citedRange></bibl>).</note>
+               <note corresp="#b2" type="philcomment"><hi>(aknātsaññe)ṣṣe orkamñe kauṣeñc(antse)</hi>: translates <hi>ajñānatimiraghnasya</hi>.</note>
+               <note corresp="#b2 #b3" type="philcomment">Cf. PPU 37 <hi>ajñānatimiraghnasya jñānālokasya te mune | na ravir viṣaye bhūmiṃ khādyotīm api vindati ||</hi> 'Before the light of your knowledge, O Sage, which destroys the darkness of ignorance, the sun does not even attain the level of a firefly.' (<bibl><title corresp="ref:shackletonbailey1951"/><citedRange>159</citedRange></bibl>).</note>
+               <note corresp="#b3" type="philcomment"><hi>ne ka ke</hi>: with <bibl><title corresp="ref:couvreur1966"/><citedRange>163</citedRange></bibl>, this must be the translation of <hi>viṣaye bhūmiṃ</hi>, and <hi>ke</hi> must therefore be corrected into <hi>keṃ</hi> 'earth'. However, his suggestion to restore the preceding <hi>ne ka</hi> to <hi>(viṣay)neka</hi> remains uncertain. Most probably, <hi>ne</hi> is the locative ending of a word translating <hi>viṣaya</hi>, while <hi>ka</hi> is the emphasising particle, meaning 'just, even'.</note>
+               <note corresp="#b4" type="philcomment"><hi>känmaskeṃ</hi>: translates <hi>āyānti</hi>. The Skt. preverb <hi>ā</hi> may have been explicitly rendered with TB <hi>ecce</hi>, as suggested by <bibl><title corresp="ref:couvreur1966"/><citedRange>163</citedRange></bibl>.</note>
+               <note corresp="#b4 #b5" type="philcomment">Cf. PPU 38 <hi>malinatvam ivāyānti śaraccandrāmbarāmbhasām | tava vāgbuddhiceṣṭānāṃ śuddhiṃ prati viśuddhayaḥ ||</hi> 'The purity of moon, sky, and water in autumn become as if sullied when set against the purity of your words, mind, and actions.' (<bibl><title corresp="ref:shackletonbailey1951"/><citedRange>159</citedRange></bibl>).</note>
+               <note corresp="#b5" type="philcomment"><hi>(kektse)ñäṣṣanaṃts</hi>: translates <hi>ceṣṭānāṃ</hi>. <bibl><title corresp="ref:couvreur1966"/><citedRange>163</citedRange></bibl> is not explicit, but he seems to assume that <hi>ñäṣṣanaṃts</hi> is a complete word. In my view, this cannot be the case. The root <hi>ñäsk-</hi> 'wish' does not fit semantically and no derivation of this kind is possible. Rather, <hi>-ṣṣanaṃts</hi> is the gen.pl.f. of a <hi>ṣṣe</hi>-adjective derived from <hi>kektseñe</hi> 'body', usually the first member of the standard expression <hi>kektseñ reki palskosa</hi> 'with body, word and mind'; cf. in particular the adjective <ref type="ms" target="txt:m-pkas7l"/> a2 <hi>kektseñ-reki-pälskoṣṣe</hi>.</note>
+               <note corresp="#b5" type="philcomment"><hi>asta(räññe)</hi>: translates <hi>śuddhiṃ</hi>. With <bibl><title corresp="ref:couvreur1966"/><citedRange>163</citedRange></bibl>, the following <hi>prati</hi> may have been rendered by <hi>etsuwai</hi>.</note>
+               <note corresp="#b6" type="philcomment">Cf. PPU 39 <hi>anena sarvaṃ vyākhyātaṃ yat kiṃcit sādhu laukikam | dūre hi buddhadharmāṇāṃ lokadharmās tapasvinaḥ ||</hi> 'In naming these I have named every worldly good; for the paltry elements of the world are far removed from the elements of the Buddha.' (<bibl><title corresp="ref:shackletonbailey1951"/><citedRange>159</citedRange></bibl>).</note>
+               <note corresp="#b6" type="philcomment"><hi>k_u(s)e cek warñai</hi>: translates the preceding <hi>(k)iñ(c)i(t)</hi>. The punctuation mark "•" is missing because its function is taken over by the virāma dot: <hi>(k)i[ñ](c)i(_t)\•</hi>.</note>
+            </p>
+         </div>
+         <div type="bibliography">
+            <p>
+               <label>Online access</label>
+               <bibl><title corresp="ref:idp0000"/><ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 16" type="external">IOL Toch 16</ref></bibl>.</p>
+            <p>
+               <label>Edition</label>
+               <bibl><title corresp="ref:peyrot2007"/><citedRange>№16</citedRange></bibl>; <bibl><title corresp="ref:couvreur1955b"/><citedRange>224-225</citedRange></bibl>
+               <bibl><title corresp="ref:broomhead1962"/><citedRange>153</citedRange></bibl>; <bibl><title corresp="ref:couvreur1966"/><citedRange>162-163</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_philcomment_old">&lt;p&gt;Since this is a word-by-word bilingual, a full translation does not make much sense. Therefore, the full strophes of the Sanskrit text are cited below, and the problematic Tocharian correspondences are commented.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;a1.&lt;/b&gt; Cf. PPU 33 &lt;i&gt;upaghātāvaraṇavan mitakālaṃ pradeśi ca | sulabhātiśayaṃ sarvam upamāvastu laukikam ||&lt;/i&gt; 'Every worldly material for comparison is subject to injury and obscuration, limited in time and place, attained very easily.' ([[Shackleton Bailey 1951]]: 158).&lt;br&gt;
+&lt;b&gt;a1.&lt;/b&gt; &lt;i&gt;m(enāk)&lt;/i&gt;: beginning of the translation of &lt;i&gt;upamāvastu&lt;/i&gt;.&lt;br&gt; 
+&lt;b&gt;a2.&lt;/b&gt; &lt;i&gt;(ne)sallonaṃtso&lt;/i&gt;: this is the only possible restoration, but it is not the expected translation of &lt;i&gt;agamyānām&lt;/i&gt; 'to the unapproachable [virtues]'. Probably, &lt;i&gt;nes-&lt;/i&gt; 'be' is here used with a preceding element as a phrasal verb of the type &lt;i&gt;peri nes-&lt;/i&gt; 'owe' (see [[Adams, 2DoT]]: 366) and &lt;i&gt;yumāne nes-&lt;/i&gt; 'perceive' ([[Peyrot, ToSu]]: 799). Obviously, the negation &lt;i&gt;mā&lt;/i&gt; will have preceded this element.&lt;br&gt;
+&lt;b&gt;a2-3.&lt;/b&gt; Cf. PPU 34 &lt;i&gt;advaṃdvinām agamyānāṃ dhruvāṇām anivartinām | anuttarāṇāṃ kā tarhi guṇānām upamāstu te ||&lt;/i&gt; 'What likeness indeed could there be to your virtues, unrivalled, unapproachable, lasting, turning not aside, unsurpassed?' ([[Shackleton Bailey 1951]]: 158).&lt;br&gt;
+&lt;b&gt;a4.&lt;/b&gt; &lt;i&gt;(tpa)rṣkäṃñene&lt;/i&gt;: 'in shallowness', so to be restored, with a.o. [[Adams, 2DoT]]: 331 (pace [[Couvreur 1966]]: 162; [[Peyrot 2007]]: №16).&lt;br&gt;
+&lt;b&gt;a4-5.&lt;/b&gt; Cf. PPU 35 &lt;i&gt;goṣpadottānatāṃ yāti gāmbhīryaṃ lavaṇāmbhasaḥ | yadā te buddhigāmbhīryam agādhāpāram īkṣyate ||&lt;/i&gt; 'The depth of the salt ocean becomes shallow as a puddle when the unfathomable, boundless depth of your wisdom is beheld.' ([[Shackleton Bailey 1951]]: 158).&lt;br&gt;
+&lt;b&gt;a6.&lt;/b&gt; &lt;i&gt;(śiriṣäṣṣ)epi pit(ts)aunt(s)e&lt;/i&gt;: 'of a (&lt;i&gt;śirīṣa&lt;/i&gt;) filament'; pace [[Peyrot 2007]]: №16, the reading of [[Couvreur 1966]]: 162 is most probably correct. [[Adams, 2DoT]]: 412 reads &lt;i&gt;(śiri)ṣäṣṣe(p)i pint(s)aunt(s)e&lt;/i&gt;, which is defendable as far as &lt;i&gt;pint(s)aunt(s)e&lt;/i&gt; is concerned, but of the first word really at most &lt;i&gt;(śiriṣä)ṣ(ṣ)epi&lt;/i&gt; can be read (the &lt;i&gt;p&lt;/i&gt; is much more certain than the &lt;i&gt;ṣ&lt;/i&gt;). [[Couvreur 1966]]: 163 suggests &lt;i&gt;āke&lt;/i&gt; (&lt;i&gt;ake&lt;/i&gt; may be a typographical error) 'tip, end' as the correspondence of &lt;i&gt;agra&lt;/i&gt;, which is also likely.&lt;br&gt;
+&lt;b&gt;a6, b1.&lt;/b&gt; Cf. PPU 36 &lt;i&gt;śirīṣapakṣmāgralaghu sthairyaṃ bhavati pārthivam | akampye sarvadharmāṇām tvatsthairye 'bhimukhīkṛte ||&lt;/i&gt; 'The firm weight of the earth becomes light as the tip of a &lt;i&gt;śirīṣa&lt;/i&gt; filament when compared with your firmness which nothing in nature can shake.' ([[Shackleton Bailey 1951]]: 159).&lt;br&gt;
+&lt;b&gt;b2.&lt;/b&gt; &lt;i&gt;(aknātsaññe)ṣṣe orkamñe kauṣeñc(antse)&lt;/i&gt;: translates &lt;i&gt;ajñānatimiraghnasya&lt;/i&gt;.&lt;br&gt;
+&lt;b&gt;b2-3.&lt;/b&gt; Cf. PPU 37 &lt;i&gt;ajñānatimiraghnasya jñānālokasya te mune | na ravir viṣaye bhūmiṃ khādyotīm api vindati ||&lt;/i&gt; 'Before the light of your knowledge, O Sage, which destroys the darkness of ignorance, the sun does not even attain the level of a firefly.' ([[Shackleton Bailey 1951]]: 159).&lt;br&gt;
+&lt;b&gt;b3.&lt;/b&gt; &lt;i&gt;ne ka ke&lt;/i&gt;: with [[Couvreur 1966]]: 163, this must be the translation of &lt;i&gt;viṣaye bhūmiṃ&lt;/i&gt;, and &lt;i&gt;ke&lt;/i&gt; must therefore be corrected into &lt;i&gt;keṃ&lt;/i&gt; 'earth'. However, his suggestion to restore the preceding &lt;i&gt;ne ka&lt;/i&gt; to &lt;i&gt;(viṣay)neka&lt;/i&gt; remains uncertain. Most probably, &lt;i&gt;ne&lt;/i&gt; is the locative ending of a word translating &lt;i&gt;viṣaya&lt;/i&gt;, while &lt;i&gt;ka&lt;/i&gt; is the emphasising particle, meaning 'just, even'.&lt;br&gt;
+&lt;b&gt;b4.&lt;/b&gt; &lt;i&gt;känmaskeṃ&lt;/i&gt;: translates &lt;i&gt;āyānti&lt;/i&gt;. The Skt. preverb &lt;i&gt;ā&lt;/i&gt; may have been explicitly rendered with TB &lt;i&gt;ecce&lt;/i&gt;, as suggested by [[Couvreur 1966]]: 163.&lt;br&gt;
+&lt;b&gt;b4-5.&lt;/b&gt; Cf. PPU 38 &lt;i&gt;malinatvam ivāyānti śaraccandrāmbarāmbhasām | tava vāgbuddhiceṣṭānāṃ śuddhiṃ prati viśuddhayaḥ ||&lt;/i&gt; 'The purity of moon, sky, and water in autumn become as if sullied when set against the purity of your words, mind, and actions.' ([[Shackleton Bailey 1951]]: 159).&lt;br&gt;
+&lt;b&gt;b5.&lt;/b&gt; &lt;i&gt;(kektse)ñäṣṣanaṃts&lt;/i&gt;: translates &lt;i&gt;ceṣṭānāṃ&lt;/i&gt;. [[Couvreur 1966]]: 163 is not explicit, but he seems to assume that &lt;i&gt;ñäṣṣanaṃts&lt;/i&gt; is a complete word. In my view, this cannot be the case. The root &lt;i&gt;ñäsk-&lt;/i&gt; 'wish' does not fit semantically and no derivation of this kind is possible. Rather, &lt;i&gt;-ṣṣanaṃts&lt;/i&gt; is the gen.pl.f. of a &lt;i&gt;ṣṣe&lt;/i&gt;-adjective derived from &lt;i&gt;kektseñe&lt;/i&gt; 'body', usually the first member of the standard expression &lt;i&gt;kektseñ reki palskosa&lt;/i&gt; 'with body, word and mind'; cf. in particular the adjective [[PK AS 7L]] a2 &lt;i&gt;kektseñ-reki-pälskoṣṣe&lt;/i&gt;.&lt;br&gt;
+&lt;b&gt;b5.&lt;/b&gt; &lt;i&gt;asta(räññe)&lt;/i&gt;: translates &lt;i&gt;śuddhiṃ&lt;/i&gt;. With [[Couvreur 1966]]: 163, the following &lt;i&gt;prati&lt;/i&gt; may have been rendered by &lt;i&gt;etsuwai&lt;/i&gt;.&lt;br&gt;
+&lt;b&gt;b6.&lt;/b&gt; Cf. PPU 39 &lt;i&gt;anena sarvaṃ vyākhyātaṃ yat kiṃcit sādhu laukikam | dūre hi buddhadharmāṇāṃ lokadharmās tapasvinaḥ ||&lt;/i&gt; 'In naming these I have named every worldly good; for the paltry elements of the world are far removed from the elements of the Buddha.' ([[Shackleton Bailey 1951]]: 159).&lt;br&gt;
+&lt;b&gt;b6.&lt;/b&gt; &lt;i&gt;k_u(s)e cek warñai&lt;/i&gt;: translates the preceding &lt;i&gt;(k)iñ(c)i(t)&lt;/i&gt;. The punctuation mark "•" is missing because its function is taken over by the virāma dot: &lt;i&gt;(k)i[ñ](c)i(_t)\•&lt;/i&gt;.&lt;/p&gt;</item>
+               <item n="m_passage_old">33-39</item>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_size_h_old">8.3</item>
+               <item n="m_next_old"/>
+               <item n="file_created_old">1322765174</item>
+               <item n="file_modified_old">1583335499</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_bib_old">&lt;p&gt;[[IDP]]: &lt;a href="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 16"&gt;IOL Toch 16&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Edition: [[Peyrot 2007]]: №16; [[Couvreur 1955b]]: 224-225, [[Broomhead I]]: 153; [[Couvreur 1966]]: 162-163.&lt;/p&gt;
+&lt;p&gt;Translation: 
+&lt;b&gt;a4&lt;/b&gt; [[Thomas 1983]]: 24; 
+&lt;b&gt;b2&lt;/b&gt; [[Hackstein 1995]]: 54.&lt;/p&gt;.</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=15340;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=15340;rotate=0;imageType=_M||IOL Toch 16 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=15359;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=15359;rotate=0;imageType=_M||IOL Toch 16 verso</item>
+               <item n="date_publication_old"/>
+               <item n="m_transliteration_old">a1 (–) – ma (–) [p]· • u[p]·m[ā]v·stu (–) [m]· ///
+a2 sallonaṃtso • dhruvāṇām\• ṣeka ///
+a3 nām\• krentaunaṃtso • upa ○ ///
+a4 rṣ_k_aṃñene • yāti • yaṃ • ○ ///
+a5 aiśamñentse _k_atka_r_a·[e] ///
+a6 ·e[p]i [p]it·aunt·e – ///
+b1 (– – –) [dh]·(·)m·[ṇ]· ///
+b2 ṣṣe orkamñe kauṣe[ñ]c· ///
+b3 ne ka ke • khādyotīm api • ○ ///
+b4 _k_anmaskeṃ • śaraccandrāmba ○ ///
+b5 ñäṣṣanaṃt_s\ • śuddhiṃ prati • as[t]a ///
+b6 ·i[ñ·]i –\• [k_u·]e [c]ek [w]arñai • sādhu l[au] ///</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_lines_old">6</item>
+               <item n="m_collection_old">British Library (London)</item>
+               <item n="access_old">public</item>
+               <item n="m_completeness_old"/>
+               <item n="file_location_old">pages/manuscript/IOL_Toch/ioltoch16.txt</item>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_translation_old"/>
+               <item n="m_subgenre_old">Buddhastotra</item>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old">bernhard</item>
+               <item n="m_prev_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_title_old">Śatapañcāśatka </item>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old">a1 |(sarva)m«†a» (•) p(o) • |up(a)māv(a)stu (:) m(enāk) /// nesallonaṃts|(ne)|sallonaṃtso
+a2 • |dhruvāṇām ṣeka(ññanaṃts) /// guṇānām|(guṇā)|nām
+a3 krentaunaṃts|krentaunaṃtso • |upa(mā) /// tparṣkäññene|(tpa)|rṣkäṃñene
+a4 • |yāti • yaṃ • ///
+a5 aiśamñentse kätkarä(ññ)e /// śiriṣäṣṣepi|(śiriṣä|ṣṣ)epi
+a6 pit(ts)aunt(s)e – ///
+b1 – – – |dh(ar)m(ā)ṇ(ām) /// aknātsaññeṣṣe|(aknātsaññe)|ṣṣe
+b2 orkamñe kauṣeñc(antse) ///
+b3 ne ka keṃ|ke • |khādyotīm |api • ///
+b4 känmaskeṃ • |śaraccandrāmba(rāmbhasām) /// kektseñäṣṣanaṃts|(kektse)|ñäṣṣanaṃts
+b5 • |śruddhiṃ |prati • asta(räññe) ///
+b6 (k)iñ(c)i(t) k_u(s)e cek warñai • |sādhu |lau(kikam) ///</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_parallels_old">[[Shackleton Bailey 1951]]: 58-62</item>
+               <item n="m_script_old">Classical</item>
+               <item n="ms_old">IOL Toch 16</item>
+               <item n="project_comment_old"/>
+               <item n="m_language_old">Sanskrit+TB</item>
+               <item n="m_remarks_old">&lt;p&gt;According to [[Broomhead I]]: 153 "[w]ritten in medium ductus, and clearly preserved, it is the left edge of a manuscript with six lines."&lt;/p&gt;</item>
+               <item n="m_other_sigla_old">H 149.47; A.47</item>
+               <item n="m_expedition_old"/>
+               <item n="m_size_w_old">10.8</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

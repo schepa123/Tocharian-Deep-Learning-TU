@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-sht5195">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>SHT 519.5</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>SHT 519.5</idno>
+                  <altIdentifier>
+                     <idno>SHT 519/5 Bl. (12)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Šorčuq</region>during <rs type="expedition_code">T III So 97</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="xto"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Colophon</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=291882;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=291882;rotate=0;imageType=_M"/>
+            <line xml:id="lf"><zone>12</zone></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=291889;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=291889;rotate=0;imageType=_M"/>
+            <line n="6" xml:id="b6"><zone>wä</zone><zone>rya</zone><zone>ca</zone><zone>ndre</zone><zone>da</zone><zone>śa</zone><zone>ba¯</zone><zone>¯L</zone><zone>ā</zone><zone>su¯</zone><zone>¯K</zone><zone>ś<unclear>ś</unclear>ä¯</zone><zone>¯K</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <fw type="leafNum" corresp="#lf">12</fw>
+            <p>
+<lb corresp="#b6"/><w>wäryacandre</w><w>daśabal</w><w>āsuk</w><w>śśäk</w></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#b6"><seg><seg type="prim_transl">Vīryacandra passed Daśabala</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="lingcomment">On <hi>wärya-</hi> for Skt. <hi>Vīrya-</hi>, compare the TB names <hi>wäryacaṃndre</hi>, <hi>wäryaruci*</hi> and <hi>wäryasene</hi> (<bibl><title corresp="ref:pinault1987"/><citedRange>186</citedRange></bibl>, <bibl><title corresp="ref:peyrot2008"/><citedRange>55-6</citedRange></bibl>).</note><note type="lingcomment">Even though the second <hi>ś</hi> of <hi>śśäk</hi> is slightly damaged, the reading is certain. The remarkable form <hi>śśäk</hi> appears to reflect <hi>*ścäk</hi>, a kind of blend of <hi>śtäk</hi> and <hi>kcäk</hi>, the two competing 3<hi rend="superscript">rd</hi> Sg.Pt. forms of <hi>kätkā-</hi> 'cross'.</note><note type="lingcomment">The combination <hi>āsuk kätkā-</hi> is given as 'step over' by <bibl><title corresp="ref:carlingetal2009"/><citedRange>58a</citedRange></bibl>. As pointed out by Georges-Jean Pinault (p.c.), this seems to refer to mastering of certain knowledge, perhaps a notion in the Prasādapratibhodbhava, or a text like one of the Daśabalasūtras (see e.g. <bibl><title corresp="ref:waldschmidt1958"/></bibl>, <bibl><title corresp="ref:wille2014"/><citedRange>196</citedRange></bibl>). For this expression, compare <ref type="ms" target="txt:m-yqi2"/>: b7, where precisely <hi>āsuk śtä(k)</hi> is said of the eighteen <hi>vidyāsthānas</hi>.</note><note type="philcomment">This line, found at the end of Mātṛceṭa's <hi>Prasādapratibhodbhava</hi>, is written in a different hand. Therefore, it may be a later addition, not a real colophon.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>other</label><bibl><title corresp="ref:peyrot2014"/><citedRange>133, 135</citedRange></bibl>.</p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=SHT 519/5" type="external">SHT 519/5</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_other_sigla_old">SHT 519/5 Bl. (12)</item>
+               <item n="m_remarks_old"/>
+               <item n="m_language_old">TA</item>
+               <item n="m_expedition_old">T III So 97</item>
+               <item n="m_size_w_old"/>
+               <item n="m_parallels_old"/>
+               <item n="ms_old">SHT 519.5</item>
+               <item n="project_comment_old">&lt;p&gt;&lt;ul&gt;
+&lt;li&gt;I changed the collection from "unspecified" to BBAW because the IDP states "Institut und Copyright: Berlin-Brandenburgische Akademie der Wissenschaften". –Martin (Wed, 2016-07-27, 12:48:16 (CEST))&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</item>
+               <item n="m_script_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_title_old"/>
+               <item n="m_transcription_old">b6 wäryacandre daśabal āsuk śśäk</item>
+               <item n="m_leaf_old">12</item>
+               <item n="m_meter_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="user_modified_old">theres</item>
+               <item n="user_created_old">theres</item>
+               <item n="m_prev_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="m_subgenre_old">Colophon</item>
+               <item n="m_translation_old">b6 Vīryacandra passed Daśabala</item>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_tune_old"/>
+               <item n="file_location_old">pages/manuscript/sht5195.txt</item>
+               <item n="access_old">restricted</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_lines_old"/>
+               <item n="m_completeness_old"/>
+               <item n="m_linedistance_old"/>
+               <item n="m_findspot_old">Šorčuq</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_image_old">http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=291882;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=291882;rotate=0;imageType=_M||$page; recto
+http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=291889;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=291889;rotate=0;imageType=_M||$page; verso</item>
+               <item n="m_transliteration_old">b6 wäryacandre daśaba_l\ āsu_k\ ś[ś]ä_k\</item>
+               <item n="m_language_stage_old"/>
+               <item n="date_publication_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=SHT 519/5" target="idp"&gt;SHT 519/5&lt;/a&gt;.&lt;br&gt;
+[[Peyrot 2014]]: 133, 135.</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old">&lt;p&gt;On &lt;i&gt;wärya-&lt;/i&gt; for Skt. &lt;i&gt;Vīrya-&lt;/i&gt;, compare the TB names &lt;i&gt;wäryacaṃndre&lt;/i&gt;, &lt;i&gt;wäryaruci*&lt;/i&gt; and &lt;i&gt;wäryasene&lt;/i&gt; ([[Pinault 1987]]: 186, [[Peyrot 2008]]: 55-6).&lt;/p&gt;
+&lt;p&gt;Even though the second &lt;i&gt;ś&lt;/i&gt; of &lt;i&gt;śśäk&lt;/i&gt; is slightly damaged, the reading is certain. The remarkable form &lt;i&gt;śśäk&lt;/i&gt; appears to reflect &lt;i&gt;*ścäk&lt;/i&gt;, a kind of blend of &lt;i&gt;śtäk&lt;/i&gt; and &lt;i&gt;kcäk&lt;/i&gt;, the two competing 3&lt;sup&gt;rd&lt;/sup&gt; Sg.Pt. forms of &lt;i&gt;kätkā-&lt;/i&gt; 'cross'.&lt;/p&gt;
+&lt;p&gt;The combination &lt;i&gt;āsuk kätkā-&lt;/i&gt; is given as 'step over' by [[Carling, DThTA]]: 58a. As pointed out by Georges-Jean Pinault (p.c.), this seems to refer to mastering of certain knowledge, perhaps a notion in the Prasādapratibhodbhava, or a text like one of the Daśabalasūtras (see e.g. [[Waldschmidt 1958]], [[Wille 2014]]: 196). For this expression, compare [[YQ I.2]]: b7, where precisely &lt;i&gt;āsuk śtä(k)&lt;/i&gt; is said of the eighteen &lt;i&gt;vidyāsthānas&lt;/i&gt;.&lt;/p&gt;</item>
+               <item n="m_size_h_old"/>
+               <item n="m_next_old"/>
+               <item n="file_modified_old">1485170695</item>
+               <item n="file_created_old">1445002173</item>
+               <item n="m_editor_old"/>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old">&lt;p&gt;This line, found at the end of Mātṛceṭa's &lt;i&gt;Prasādapratibhodbhava&lt;/i&gt;, is written in a different hand. Therefore, it may be a later addition, not a real colophon.&lt;/p&gt;</item>
+               <item n="m_material_old">Ink on paper</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;&lt;ul&gt;&lt;li&gt;I changed the collection from "unspecified" to BBAW because the IDP states "Institut und Copyright: Berlin-Brandenburgische Akademie der Wissenschaften". –Martin (Wed, 2016-07-27, 12:48:16 (CEST))&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

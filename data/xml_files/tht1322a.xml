@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht1322a">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 1322.a</title>
+            <respStmt>
+               <resp>transliteration</resp>
+               <name>Georges-Jean Pinault</name>
+            </respStmt>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Svetlana Burlak</name>
+            </respStmt>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 1322.a</idno>
+                  <altIdentifier>
+                     <idno>Prelim. No. 148</idno>
+                  </altIdentifier>
+                  <msName>M-γ</msName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>8,5</height>
+                              <width>6,0</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <dimensions type="line_spacing">
+                              <height>2,0</height>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Šorčuq</region>during <rs type="expedition_code">T III Š 91</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="xto"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=357218;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=357218;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone>RA</zone><zone>ku</zone><zone>sne</zone><zone>PA</zone><zone>lkā</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>KA</zone><zone>lyme</zone><zone>yā</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone><gap reason="plain" unit="part"/><unclear>m</unclear><gap reason="plain" unit="part"/></zone><zone>yā</zone><zone>i</zone><zone><gap reason="plain" unit="part"/><unclear>e</unclear></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><zone><unclear>yw</unclear>ā</zone><zone>r<unclear>c</unclear><gap reason="par" unit="part"/><unclear>a</unclear>ṃ</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=357219;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=357219;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>ñ<gap reason="plain" unit="part"/></zone><zone>kra¯</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>śpa</zone><zone>RAṃ</zone><zone>KA</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>o</zone><zone>te</zone><zone>TA</zone><zone>preṃ</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><zone>pu</zone><zone>KMA</zone><zone>rka</zone><zone>mpa</zone><zone><unclear>l</unclear><gap reason="plain" unit="part"/></zone><zone><unclear>t</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><w>rä</w><w>kusne</w><w>pälkā<supplied>tär</supplied></w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>kälymeyā</w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><w><supplied>käly</supplied>m<supplied>e</supplied>yā</w><w>i<supplied>m</supplied>e</w><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="lost"/><w>ywārc<supplied>k</supplied>aṃ</w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>ñ<gap reason="plain" unit="part"/></w><w>kra<supplied>ñc</supplied></w><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><w><supplied>putti</supplied>śparäṃ</w><w>kä<supplied>lpāt</supplied></w><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>ote</w><w>täpreṃ</w><gap reason="lost"/>
+<lb corresp="#b4"/><gap reason="lost"/><w>puk</w><w>märkampal<supplied>n</supplied>t<supplied>u</supplied></w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">... who sees ...</seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">... right ...</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">... right recollection ...</seg></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl">... between ...</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">... good ...</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">... attained the Buddha rank ...</seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl">... O how ...!</seg></seg></choice><choice corresp="#b4"><seg><seg type="prim_transl">... all the laws ...</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">Appurtenance to manuscript M-γ according to a label on the frame. In one frame with <ref type="ms" target="txt:m-tht1322b"/>-<ref type="ms" target="txt:m-tht1322f"/>. The upper margin (recto) is preserved. Very faint traces of lining are preserved (most clearly on the verso).</note><note corresp="#a1" type="philcomment"><hi>pälkā(tär)</hi>: other restorations are possible, too; for instance <hi>pälkā(t)</hi> 'saw'.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition</label><bibl><title corresp="ref:tamai2007a"/><citedRange>№1322</citedRange></bibl>.a; <bibl><title corresp="ref:schaefer2013"/><citedRange>338-339</citedRange></bibl>.</p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 1322a" type="external">THT 1322a</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/13/1322.htm" type="external">THT 1322</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_findspot_old">Šorčuq</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_linedistance_old">2,0</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_lines_old">4</item>
+               <item n="access_old">public</item>
+               <item n="m_completeness_old"/>
+               <item n="file_location_old">pages/manuscript/THT_1100_2399/tht1322a.txt</item>
+               <item n="m_philcomment_old">&lt;b&gt;a1&lt;/b&gt; &lt;i&gt;pälkā(tär)&lt;/i&gt;: other restorations are possible, too; for instance &lt;i&gt;pälkā(t)&lt;/i&gt; 'saw'.</item>
+               <item n="m_passage_old"/>
+               <item n="m_editor_old">Svetlana Burlak, Michaël Peyrot (on the basis of a transliteration by Georges-Jean Pinault)</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old">8,5</item>
+               <item n="file_created_old">1340136546</item>
+               <item n="file_modified_old">1527154743</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old">M-γ</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 1322a" target="idp"&gt;THT 1322a&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/13/1322.htm" target="titus"&gt;THT 1322&lt;/a&gt;.&lt;br&gt;
+Edition: [[Tamai 2007a]]: №1322.a; [[Schaefer 2013]]: 338-339.</item>
+               <item n="m_image_old">http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=357218;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=357218;rotate=0;imageType=_M||THT 1322.a-f recto
+http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=357219;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=357219;rotate=0;imageType=_M||THT 1322.a-f verso</item>
+               <item n="date_publication_old"/>
+               <item n="m_language_stage_old"/>
+               <item n="m_transliteration_old">a1 /// _r_a kusne _p_alkā – ///
+a2 /// – _k_alymeyā ///
+a3 /// ·[m]·yā i·[e] ///
+a4 /// [yw]ār[c](·)[a]ṃ ///
+b1 /// ·ñ· kra –\ ///
+b2 /// – śpa_r_aṃ _k_a – ///
+b3 /// – ote _t_apreṃ ///
+b4 /// pu_k _m_arkampa[l]·[t]· ///</item>
+               <item n="m_meter_old"/>
+               <item n="m_title_old"/>
+               <item n="m_transcription_old">a1 /// rä kusne pälkā(tär) ///
+a2 /// – kälymeyā ///
+a3 /// (käly)m(e)yā i(m)e ///
+a4 /// ywārc(k)aṃ ///
+b1 /// ·ñ· kra(ñc) ///
+b2 /// (putti)śparäṃ kä(lpāt) ///
+b3 /// – ote täpreṃ ///
+b4 /// puk märkampal(n)t(u) ///</item>
+               <item n="m_leaf_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_parallels_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="ms_old">THT 1322.a</item>
+               <item n="project_comment_old"/>
+               <item n="m_remarks_old">Appurtenance to manuscript M-γ according to a label on the frame. In one frame with [[THT 1322.b]]-[[THT 1322.f]]. The upper margin (recto) is preserved. Very faint traces of lining are preserved (most clearly on the verso).</item>
+               <item n="m_language_old">TA</item>
+               <item n="m_other_sigla_old">Prelim. No. 148</item>
+               <item n="m_size_w_old">6,0</item>
+               <item n="m_expedition_old">T III Š 91</item>
+               <item n="m_metric_form_old"/>
+               <item n="m_tune_old"/>
+               <item n="m_subgenre_old"/>
+               <item n="m_translation_old">a1 ... who sees ...
+a2 ... right ...
+a3 ... right recollection ...
+a4 ... between ...
+b1 ... good ...
+b2 ... attained the Buddha rank ...
+b3 ... O how ...!
+b4 ... all the laws ...</item>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old">martin</item>
+               <item n="m_prev_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

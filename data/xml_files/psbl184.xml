@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-psbl184">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PS Bl 18.4</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</repository>
+                  <idno>PS Bl 18.4</idno>
+                  <altIdentifier>
+                     <idno>Pelliot Sanskrit numéro bleu 18.4</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>PS Bl 81</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Pelliot Sanskrit numéro bleu 81</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">4+?</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Duldur-Akhur</region>during <rs type="expedition_code">DA</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="txb"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Gloss</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000198r/f40.zoom"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000198r/f40.highres"/>
+            <graphic n="2"
+                     rend="large"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000203m/f81.zoom"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000203m/f81.highres"/>
+            <line n="3" xml:id="a3x"><zone><unclear>p</unclear>ra</zone><zone>tsā</zone><zone>kai</zone><zone>tso</zone><gap reason="plain" quantity="1"/><zone><unclear>¯</unclear><unclear>R</unclear></zone></line>
+            <line n="3" xml:id="a3y"><zone>kwa</zone><zone>snā</zone><zone>tRA</zone></line>
+            <line n="3" xml:id="a3z"><zone><unclear>t</unclear>ri</zone><zone>kā</zone><zone>lñe</zone><zone>ya</zone><zone><unclear>n</unclear>mā</zone><zone>ṢAṃ</zone></line>
+            <line n="4" xml:id="a4x"><gap reason="plain" quantity="1"/><zone><unclear>t</unclear><gap reason="plain" unit="part"/></zone></line>
+            <line n="4" xml:id="a4y"><zone>sa¯</zone><zone>¯<unclear>K</unclear></zone><zone>yā</zone><zone><unclear>so</unclear></zone><zone>wa<gap reason="plain" unit="part"/></zone><zone><unclear>pau</unclear></zone><zone>ca</zone><zone>ṢA¯</zone><zone>¯P</zone></line>
+            <line n="4" xml:id="a4z"><zone>yā</zone><gap reason="plain" quantity="1"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a3x"/><w>pratsākai</w><w>tso<supplied>ptä</supplied>r</w>
+<lb corresp="#a3y"/><w>kwasnāträ</w>
+<lb corresp="#a3z"/><w>trikālñe</w><w>yanmāṣäṃ</w>
+<lb corresp="#a4x"/><gap reason="plain" quantity="1"/><w>t<gap reason="plain" unit="part"/></w>
+<lb corresp="#a4y"/><w>sak</w><w>yāso</w><w>wa<supplied>r</supplied>pauca</w><w>ṣäp</w>
+<lb corresp="#a4z"/><w>yā<supplied>so</supplied></w></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a3x"><seg><seg type="prim_transl">pokes [his] chest</seg></seg></choice><choice corresp="#a3y"><seg><seg type="prim_transl">he laments</seg></seg></choice><choice corresp="#a3z"><seg><seg type="prim_transl">he obtains confusion</seg></seg></choice><choice corresp="#a4x"><seg><seg type="prim_transl">...</seg></seg></choice><choice corresp="#a4y"><seg><seg type="prim_transl">an experience of happiness [and] passion</seg></seg></choice><choice corresp="#a4z"><seg><seg type="prim_transl">passion</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note corresp="#a3x" type="lingcomment">The middle <hi>tso(ptä)r</hi> may have been used instead of the active because the subject beats their own chest. The akṣara <hi>tso</hi> is the last on PS bleu 18.4, the left-hand fragment. On PS bleu 81, the right-hand fragment, traces of apparently two different akṣaras can be discerned. The second can, with relative certainty, be read as <hi><hi rend="underline">r</hi></hi>, and if this akṣara is lowered compared to the preceding akṣara, this, at once, makes the reading of a virāma likely as well as the restoration of the traces of the first akṣara as <hi>p<hi rend="underline">ta</hi></hi> possible. If correct, these traces belong to the upper part, i.e. <hi>p</hi>, and part of the virāma stroke would be visible as well.</note><note corresp="#a3x" type="philcomment">The first element glosses Skt. <hi>uras tāḍ(a)yati</hi> 'beats the chest' (<bibl><title corresp="ref:hartmannju1991"/></bibl>).</note><note corresp="#a3y" type="philcomment"><hi>kwasnāträ</hi> glosses Skt. <hi>krandati</hi> 'roars, cries out' (<bibl><title corresp="ref:hartmannju1991"/></bibl>). In the latter, the reading of the first syllable seems certain: no vocalism can be seen, even though the correct form would probably be <hi>kwäsnāträ</hi> (as attested in <ref type="ms" target="txt:m-tht88"/>: b1). The dots were probably simply left out, as in other cases of <hi>wa</hi> for <hi>wä</hi> (<bibl><title corresp="ref:peyrot2014"/><citedRange>133</citedRange></bibl>).</note><note corresp="#a3z" type="lingcomment"><hi>trikālñe yanmāṣäṃ</hi>: Although the akṣara <hi>mnā</hi> looks a little like a lowered <hi>mo</hi>, the reading seems certain. In particular, a reading <hi>mna</hi> is excluded. This is relevant since <hi>āpadyate</hi> means 'attains', i.e. TB <hi>yänmāṣṣäṃ</hi>, as well as 'enters', i.e. TB <hi>yänmaṣṣäṃ</hi> (it should be noted in addition that with <hi>yänmaṣṣäṃ</hi> 'enters', a locative would be expected rather than an oblique (accusative) as is found here). The akṣara <hi>ṣäṃ</hi> is lowered, but the reading appears to be safe. There are no <hi>ä</hi>-dots on the <hi>ya</hi>, which would have been regular; evidently, they were left out (as occurs more often; <bibl><title corresp="ref:peyrot2014"/><citedRange>133</citedRange></bibl>).</note><note corresp="#a3z" type="philcomment"><hi>trikālñe yanmāṣäṃ</hi> glosses Skt. <hi>(sa)ṃmoham āpadyate</hi> 'gets in confusion' (<bibl><title corresp="ref:hartmannju1991"/></bibl>). A faint trace can be seen under the akṣara <hi>ya</hi>, but this does not seem to belong to it.</note><note corresp="#a4x" type="philcomment"><hi>– [t]·</hi> glosses Skt. <hi>[bha]vat[i]</hi> 'is, becomes' (<bibl><title corresp="ref:hartmannju1991"/></bibl>). Since the gloss is illegible, its function cannot be determined. The normal translation of <hi>bhavati</hi> would be <hi>mäsketär</hi>, but it would be surprising to have this word glossed here.</note><note corresp="#a4y" type="lingcomment"><hi>sak</hi> etc.: the <hi>ä</hi>-dots that would have been regular in the agent noun <hi>wa(r)[pau]ca</hi>, i.e. <hi>wärpoṣ</hi>, have evidently been left out.</note><note corresp="#a4y" type="philcomment"><hi>sak</hi> etc. glosses Skt. <hi>sukha(saṃrā)gapratisaṃvedī</hi> 'experiencing happiness and passion' (<bibl><title corresp="ref:hartmannju1991"/></bibl>; see also the following). The space between the akṣaras <hi>[so]</hi> and <hi>wa</hi> of the gloss on PS bleu 18.4 belongs right under the traces of Skt. <hi>[s](a)[ṃ]</hi> on PS bleu 81. No akṣara of the gloss is therefore lost between <hi>wa</hi> and <hi>·[pau]</hi>. The <hi>au</hi> of <hi>·[pau]</hi> is rather high, which is neatly explained by an original <hi>r</hi> between the <hi>au</hi> and the <hi>p</hi>.</note><note corresp="#a4z" type="philcomment">As for the single left-over <hi>yāso</hi> in this line, it glosses Skt. <hi>sukhasaṃrā(gap)r(a)tisaṃ(ved)i(naḥ)</hi> 'experiencing happiness and passion' (gen.sg.; <bibl><title corresp="ref:hartmannju1991"/></bibl>, see also the preceding). The restoration is unproblematic since the paper is completely effaced, even decomposed, after <hi>yā</hi>.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>other</label><bibl><title corresp="ref:peyrot2015b"/><citedRange>116-118</citedRange></bibl>; <bibl><title corresp="ref:pinault2007"/><citedRange>208</citedRange></bibl>. </p>
+            <p><label>Catalogue</label><bibl><title corresp="ref:hartmannandwille1997"/><citedRange>137</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_meter_old"/>
+               <item n="m_title_old"/>
+               <item n="m_transcription_old">a3x pratsākai tso(ptä)r
+a3y kwasnāträ
+a3z trikālñe yanmāṣäṃ
+a4x – t·
+a4y sak yāso wärpauca|wa(r)pauca ṣäp
+a4z yā(so) </item>
+               <item n="m_leaf_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_parallels_old"/>
+               <item n="m_script_old"/>
+               <item n="ms_old">PS Bl 18.4</item>
+               <item n="project_comment_old"/>
+               <item n="m_remarks_old"/>
+               <item n="m_language_old">Sanskrit+TB</item>
+               <item n="m_other_sigla_old">Pelliot Sanskrit numéro bleu 18.4; PS Bl 81, Pelliot Sanskrit numéro bleu 81</item>
+               <item n="m_size_w_old"/>
+               <item n="m_expedition_old">DA</item>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old"/>
+               <item n="project_check_old"/>
+               <item n="m_translation_old">a3x pokes [his] chest
+a3y he laments
+a3z he obtains confusion
+a4x ...
+a4y an experience of happiness [and] passion
+a4z passion</item>
+               <item n="m_subgenre_old">Gloss</item>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="user_created_old">michael</item>
+               <item n="user_modified_old">martin</item>
+               <item n="m_prev_old"/>
+               <item n="m_findspot_old">Duldur-Akhur</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_collection_old">Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</item>
+               <item n="m_lines_old">4+?</item>
+               <item n="access_old">restricted</item>
+               <item n="m_completeness_old"/>
+               <item n="file_location_old">pages/manuscript/psbl184.txt</item>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;a3x&lt;/b&gt; The first element glosses Skt. &lt;i&gt;uras tāḍ(a)yati&lt;/i&gt; 'beats the chest' ([[Hartmann JU 1991]]).&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a3y&lt;/b&gt; &lt;i&gt;kwasnāträ&lt;/i&gt; glosses Skt. &lt;i&gt;krandati&lt;/i&gt; 'roars, cries out' ([[Hartmann JU 1991]]). In the latter, the reading of the first syllable seems certain: no vocalism can be seen, even though the correct form would probably be &lt;i&gt;kwäsnāträ&lt;/i&gt; (as attested in [[THT 88]]: b1). The dots were probably simply left out, as in other cases of &lt;i&gt;wa&lt;/i&gt; for &lt;i&gt;wä&lt;/i&gt; ([[Peyrot 2014]]: 133).&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a3z&lt;/b&gt; &lt;i&gt;trikālñe yanmāṣäṃ&lt;/i&gt; glosses Skt. &lt;i&gt;(sa)ṃmoham āpadyate&lt;/i&gt; 'gets in confusion' ([[Hartmann JU 1991]]). A faint trace can be seen under the akṣara &lt;i&gt;ya&lt;/i&gt;, but this does not seem to belong to it.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a4x&lt;/b&gt; &lt;i&gt;– [t]·&lt;/i&gt; glosses Skt. &lt;i&gt;[bha]vat[i]&lt;/i&gt; 'is, becomes' ([[Hartmann JU 1991]]). Since the gloss is illegible, its function cannot be determined. The normal translation of &lt;i&gt;bhavati&lt;/i&gt; would be &lt;i&gt;mäsketär&lt;/i&gt;, but it would be surprising to have this word glossed here.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a4y&lt;/b&gt; &lt;i&gt;sak&lt;/i&gt; etc. glosses Skt. &lt;i&gt;sukha(saṃrā)gapratisaṃvedī&lt;/i&gt; 'experiencing happiness and passion' ([[Hartmann JU 1991]]; see also the following). The space between the akṣaras &lt;i&gt;[so]&lt;/i&gt; and &lt;i&gt;wa&lt;/i&gt; of the gloss on PS bleu 18.4 belongs right under the traces of Skt. &lt;i&gt;[s](a)[ṃ]&lt;/i&gt; on PS bleu 81. No akṣara of the gloss is therefore lost between &lt;i&gt;wa&lt;/i&gt; and &lt;i&gt;·[pau]&lt;/i&gt;. The &lt;i&gt;au&lt;/i&gt; of &lt;i&gt;·[pau]&lt;/i&gt; is rather high, which is neatly explained by an original &lt;i&gt;r&lt;/i&gt; between the &lt;i&gt;au&lt;/i&gt; and the &lt;i&gt;p&lt;/i&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a4z&lt;/b&gt; As for the single left-over &lt;i&gt;yāso&lt;/i&gt; in this line, it glosses Skt. &lt;i&gt;sukhasaṃrā(gap)r(a)tisaṃ(ved)i(naḥ)&lt;/i&gt; 'experiencing happiness and passion' (gen.sg.; [[Hartmann JU 1991]], see also the preceding). The restoration is unproblematic since the paper is completely effaced, even decomposed, after &lt;i&gt;yā&lt;/i&gt;.&lt;/p&gt;</item>
+               <item n="m_passage_old"/>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_size_h_old"/>
+               <item n="m_next_old"/>
+               <item n="file_created_old">1394795671</item>
+               <item n="file_modified_old">1539086881</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old">&lt;p&gt;&lt;b&gt;a3x&lt;/b&gt; The middle &lt;i&gt;tso(ptä)r&lt;/i&gt; may have been used instead of the active because the subject beats their own chest. The akṣara &lt;i&gt;tso&lt;/i&gt; is the last on PS bleu 18.4, the left-hand fragment. On PS bleu 81, the right-hand fragment, traces of apparently two different akṣaras can be discerned. The second can, with relative certainty, be read as &lt;i&gt;&lt;u&gt;r&lt;/u&gt;&lt;/i&gt;, and if this akṣara is lowered compared to the preceding akṣara, this, at once, makes the reading of a virāma likely as well as the restoration of the traces of the first akṣara as &lt;i&gt;p&lt;u&gt;ta&lt;/u&gt;&lt;/i&gt; possible. If correct, these traces belong to the upper part, i.e. &lt;i&gt;p&lt;/i&gt;, and part of the virāma stroke would be visible as well.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a3z&lt;/b&gt; &lt;i&gt;trikālñe yanmāṣäṃ&lt;/i&gt;: Although the akṣara &lt;i&gt;mnā&lt;/i&gt; looks a little like a lowered &lt;i&gt;mo&lt;/i&gt;, the reading seems certain. In particular, a reading &lt;i&gt;mna&lt;/i&gt; is excluded. This is relevant since &lt;i&gt;āpadyate&lt;/i&gt; means 'attains', i.e. TB &lt;i&gt;yänmāṣṣäṃ&lt;/i&gt;, as well as 'enters', i.e. TB &lt;i&gt;yänmaṣṣäṃ&lt;/i&gt; (it should be noted in addition that with &lt;i&gt;yänmaṣṣäṃ&lt;/i&gt; 'enters', a locative would be expected rather than an oblique (accusative) as is found here). The akṣara &lt;i&gt;ṣäṃ&lt;/i&gt; is lowered, but the reading appears to be safe. There are no &lt;i&gt;ä&lt;/i&gt;-dots on the &lt;i&gt;ya&lt;/i&gt;, which would have been regular; evidently, they were left out (as occurs more often; [[Peyrot 2014]]: 133).&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a4y&lt;/b&gt; &lt;i&gt;sak&lt;/i&gt; etc.: the &lt;i&gt;ä&lt;/i&gt;-dots that would have been regular in the agent noun &lt;i&gt;wa(r)[pau]ca&lt;/i&gt;, i.e. &lt;i&gt;wärpoṣ&lt;/i&gt;, have evidently been left out.&lt;/p&gt;</item>
+               <item n="m_bib_old">[[Peyrot 2015b]]: 116-118; [[Pinault 2007]]: 208.&lt;br&gt;
+Catalogue: [[Hartmann and Wille 1997]]: 137.</item>
+               <item n="m_image_old">http://gallica.bnf.fr/ark:/12148/btv1b6000198r/f40.zoom|http://gallica.bnf.fr/ark:/12148/btv1b6000198r/f40.highres||PS Bl 18.4 recto|transform:rotate(180deg);
+http://gallica.bnf.fr/ark:/12148/btv1b6000203m/f81.zoom|http://gallica.bnf.fr/ark:/12148/btv1b6000203m/f81.highres||PS Bl 81 recto
+http://gallica.bnf.fr/ark:/12148/btv1b6000198r/f39.zoom|http://gallica.bnf.fr/ark:/12148/btv1b6000198r/f39.highres||PS Bl 18.4 verso
+http://gallica.bnf.fr/ark:/12148/btv1b6000203m/f82.zoom|http://gallica.bnf.fr/ark:/12148/btv1b6000203m/f82.highres||PS Bl 81 verso</item>
+               <item n="date_publication_old"/>
+               <item n="m_transliteration_old">a3x [p]ratsākai tso – [_r\]
+a3y kwasnāt_r_a
+a3z [t]rikālñe ya[n]mā_ṣ_aṃ
+a4x – [t]·
+a4y sa[_k]\ yā[so] wa·[pau]ca _ṣ_a_p\
+a4z yā – </item>
+               <item n="m_language_stage_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

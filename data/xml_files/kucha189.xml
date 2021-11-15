@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-kucha189">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Kucha 189</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library (London)</repository>
+                  <idno>Kucha 189</idno>
+                  <altIdentifier>
+                     <idno>Kucha. 0189</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Non-literary</term>
+               <term type="subgenre">Account</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone>yä</zone><zone>ltse</zone><zone>pi</zone><zone>śkä</zone><zone>nte</zone></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone><unclear>s</unclear><gap reason="plain" unit="part"/></zone><zone>ta</zone><zone>rya</zone><zone>kä</zone><zone>nte</zone></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone>w<unclear>i</unclear></zone><zone>t<unclear>au</unclear></zone><zone>ā</zone><zone>śsa</zone><zone>ki</zone><zone>mśo</zone><zone>kcā</zone><zone>neṃ</zone><zone>wa</zone><zone>sa</zone><zone>ṣka</zone><zone>skä</zone><zone>nte</zone></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><zone><gap reason="plain" unit="part"/><unclear>i</unclear></zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><w>yältse</w><w>piś</w><w>känte</w>
+<lb corresp="#a2"/><gap reason="lost"/><w>s<gap reason="plain" unit="part"/></w><w>tarya</w><w>känte</w>
+<lb corresp="#a3"/><gap reason="lost"/><w>wi</w><w>tau</w><w>āśsa</w><w>kimśok</w><w>cāneṃ</w><w>wasa</w><w>ṣkas</w><w>känte</w>
+<lb corresp="#a4"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>i</w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">/// thousand five hundred.</seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">/// ... three hundred.</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">/// [two pecks]. For the purpose of greeting(?), <hi>Kimśok</hi> has given coins: six hundred.</seg></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl">/// ... ///</seg></seg></choice></p>
+         </div>
+         <div type="bibliography">
+            <p><label>other</label><bibl><title corresp="ref:levi1928"/><citedRange>1029-1030</citedRange></bibl> (with plate); <bibl><title corresp="ref:ching2010"/><citedRange>338</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="user_modified_old">theres</item>
+               <item n="user_created_old">martin</item>
+               <item n="category_old">manuscript</item>
+               <item n="file_savedate_old">2019-01-12, 16:08:25 (CET)</item>
+               <item n="m_translation_old">a1 /// thousand five hundred.
+a2 /// ... three hundred.
+a3 /// [two pecks]. For the purpose of greeting(?), &lt;i&gt;Kimśok&lt;/i&gt; has given coins: six hundred.
+a4 /// ... ///</item>
+               <item n="m_subgenre_old">Account</item>
+               <item n="file_name_old">pages/manuscript/kucha189.txt</item>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_other_sigla_old">Kucha. 0189</item>
+               <item n="m_language_old">TB</item>
+               <item n="edited_date_old">2017-01-24, 16:32:22 (CET)</item>
+               <item n="ms_old">Kucha 189</item>
+               <item n="editgroup_old">Editor</item>
+               <item n="m_transcription_old">a1 /// yaltse|yältse piś kante|känte
+a2 /// s· tarya kante|känte
+a3 /// wi tau āśsa kimśok cāneṃ wasa ṣkas kante|känte
+a4 /// ·i ///</item>
+               <item n="m_genre_old">Non-literary</item>
+               <item n="group_old">Editor</item>
+               <item n="m_transliteration_old">a1 /// yältse piś känte
+a2 /// [s]· tarya känte
+a3 /// w[i] t[au] āśsa kimśok cāneṃ wasa ṣkas känte
+a4 /// ·[i] ///</item>
+               <item n="file_size_old">1 KB</item>
+               <item n="m_bib_old">[[Lévi 1928]]: 1029-1030 (with plate); [[Ching 2010]]: 338.</item>
+               <item n="file_modified_old">1547319906</item>
+               <item n="file_created_old">1421293423</item>
+               <item n="version_old">3</item>
+               <item n="page_name_old">Kucha 189</item>
+               <item n="file_location_old">pages/manuscript/kucha189.txt</item>
+               <item n="access_old">restricted</item>
+               <item n="m_lines_old">4</item>
+               <item n="m_collection_old">British Library (London)</item>
+               <item n="created_date_old">2015-01-15, 04:43:43 (CET)</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

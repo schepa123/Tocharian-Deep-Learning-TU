@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht423">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 423</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 423</idno>
+                  <altIdentifier>
+                     <idno>B 423</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Bleistiftnummer 2380</idno>
+                  </altIdentifier>
+                  <msName>THT 422-427</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Historical treatise</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">7=8</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Murtuq</region>during <rs type="expedition_code">T III M 135.6</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical frg:ls-cetom-aberrant-late frg:ls-peyrot-CL frg:ls-C14 frg:ls-tamai-C1 frg:ls-C14"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">History</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328398;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328398;rotate=0;imageType=_M"/>
+            <graphic url="B/B423a.jpg" height="1212px" width="886px"/>
+            <line n="1" xml:id="a1"><gap reason="illegible"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone>a</zone><zone>mā¯</zone><zone>¯cä</zone><zone>y<gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone>re</zone><zone>ka</zone><zone>na</zone><zone>ṣki</zone><zone>lā</zone><zone>nte</zone><zone>r<gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>e</zone><zone>wī</zone><zone>yai</zone><zone>TA</zone><zone>rkā</zone><zone><unclear>nt</unclear>e</zone><zone>•</zone><zone>y<unclear>ā</unclear></zone><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><gap reason="lost"/><zone><unclear>ṣ</unclear>k<gap reason="plain" unit="part"/></zone><zone>yu</zone><zone>ga</zone><zone>rā</zone><zone>je</zone><gap reason="plain" quantity="1"/><zone><unclear>k</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="6" xml:id="a6"><gap reason="lost"/><zone><unclear>nt</unclear>e</zone><zone><unclear>t</unclear>e</zone><zone>yä</zone><zone>kne</zone><zone>sa</zone><zone>k<gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="7" xml:id="a7"><gap reason="illegible"/></line>
+            <line n="8" xml:id="a8"><gap reason="ink_lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=327980;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=327980;rotate=0;imageType=_M"/>
+            <graphic url="B/B423b.jpg" height="1212px" width="886px"/>
+            <line n="1" xml:id="b1"><gap reason="ink_lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="illegible"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><zone><gap reason="plain" unit="part"/><gap reason="plain" unit="part"/>s<gap reason="plain" unit="part"/></zone><zone>n<unclear>a</unclear></zone><zone>mā</zone><zone>mau</zone><zone>kā</zone><zone>re</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><zone><unclear>ka</unclear></zone><zone>na</zone><zone>ṣke</zone><zone>wa</zone><zone>lo</zone><zone>e</zone><zone><gap reason="plain" unit="part"/>e</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><gap reason="lost"/><zone><unclear>mṣ</unclear><gap reason="plain" unit="part"/></zone><zone>•</zone><zone>kā</zone><zone>rsaṃ</zone><zone>ci</zone><zone>mpa</zone><zone>mñe</zone><gap reason="lost"/></line>
+            <line n="6" xml:id="b6"><gap reason="lost"/><zone>i</zone><zone>sta¯</zone><zone>¯K</zone><zone>re</zone><zone>cci</zone><zone>wi</zone><gap reason="lost"/></line>
+            <line n="7" xml:id="b7"><gap reason="lost"/><zone>re</zone><zone>tke</zone><zone>yä</zone><zone>nmā</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="8" xml:id="b8"><gap reason="illegible"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p><milestone unit="passage" n="King Kanaṣka and two armies"/>
+<lb corresp="#a1"/><gap reason="illegible"/>
+<lb corresp="#a2"/><gap reason="lost"/><w>amāc</w><w>y<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><w>re</w><w>kanaṣki</w><w>lānte</w><w>r<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>ewīyai</w><w>tärkānte</w><pc>•</pc><w>yā</w><gap reason="lost"/>
+<lb corresp="#a5"/><gap reason="lost"/><w>ṣk<gap reason="plain" unit="part"/></w><w>yugarāje</w><gap reason="plain" quantity="1"/><w>k<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#a6"/><gap reason="lost"/><w>nte</w><w>te</w><w>yäknesa</w><w>k<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#a7"/><gap reason="illegible"/>
+<lb corresp="#a8"/><gap reason="ink_lost"/>
+<lb corresp="#b1"/><gap reason="ink_lost"/>
+<lb corresp="#b2"/><gap reason="illegible"/>
+<lb corresp="#b3"/><gap reason="lost"/><w><gap reason="plain" unit="part"/><gap reason="plain" unit="part"/>s<gap reason="plain" unit="part"/></w><w>na</w><w>mā</w><w>maukāre</w><gap reason="lost"/>
+<lb corresp="#b4"/><gap reason="lost"/><w>kanaṣke</w><w>walo</w><w>e</w><w><gap reason="plain" unit="part"/>e</w><gap reason="lost"/>
+<lb corresp="#b5"/><gap reason="lost"/><w>mṣ<gap reason="plain" unit="part"/></w><pc>•</pc><w>kārsaṃ</w><w>cimpamñe</w><gap reason="lost"/>
+<lb corresp="#b6"/><gap reason="lost"/><w>istak</w><w>recci</w><w>wi</w><gap reason="lost"/>
+<lb corresp="#b7"/><gap reason="lost"/><w>retke</w><w>yänmā</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b8"/><gap reason="illegible"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a4"><seg><bibl><title corresp="ref:schmidtkt1974"/><citedRange>414</citedRange></bibl></seg></choice></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition</label><bibl><title corresp="ref:siegandsiegling1953"/><citedRange>281-282</citedRange></bibl>;. </p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 423" type="external">THT 423</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/04/0423.htm" type="external">THT 423</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="file_size_old">2 KB</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 423" target="idp"&gt;THT 423&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/04/0423.htm" target="titus"&gt;THT 423&lt;/a&gt;.&lt;br&gt;
+Edition: [[TochSprR(B) II]]: 281-282;.&lt;br&gt;
+Translation:
+&lt;b&gt;a4&lt;/b&gt; [[Schmidt KT 1974]]: 414.</item>
+               <item n="m_manuscript_old">THT 422-427</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328398;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328398;rotate=0;imageType=_M||THT 423 recto
+http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=327980;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=327980;rotate=0;imageType=_M||THT 423 verso</item>
+               <item n="m_transliteration_old">a1 &lt;i&gt;illegible&lt;/i&gt;
+a2 /// amācä\ y· ///
+a3 /// re kanaṣki lānte r· ///
+a4 /// ·ewīyai _t_arkā[nt]e • y[ā] ///
+a5 /// [ṣ]k· yugarāje – [k·] ///
+a6 /// [nt]e [t]e yäknesa k· ///
+a7 &lt;i&gt;illegible&lt;/i&gt;
+a8 &lt;i&gt;lost&lt;/i&gt;
+b1 &lt;i&gt;lost&lt;/i&gt;
+b2 &lt;i&gt;illegible&lt;/i&gt;
+b3 /// ··s· n[a] mā maukāre ///
+b4 /// [ka]naṣke walo e ·e ///
+b5 /// [mṣ·] • kārsaṃ cimpamñe ///
+b6 /// ista_k\ recci wi ///
+b7 /// retke yänmā – ///
+b8 &lt;i&gt;illegible&lt;/i&gt;</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="version_old">6</item>
+               <item n="m_passage_old">King Kanaṣka and two armies</item>
+               <item n="page_name_old">THT 423</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="file_modified_old">1551883783</item>
+               <item n="file_created_old">1332006613</item>
+               <item n="access_old">public</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_lines_old">7=8</item>
+               <item n="file_location_old">pages/manuscript/THT_0001_0633/tht423.txt</item>
+               <item n="m_findspot_old">Murtuq</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="created_date_old">2012-03-17, 18:50:13 (CET)</item>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old">With late forms</item>
+               <item n="user_modified_old">bernhard</item>
+               <item n="user_created_old">automatic</item>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="file_name_old">pages/manuscript/THT_0001_0633/tht423.txt</item>
+               <item n="m_subgenre_old">History</item>
+               <item n="file_savedate_old">2018-07-30, 15:36:50 (CEST)</item>
+               <item n="edited_date_old">2018-07-30, 15:45:26 (CEST)</item>
+               <item n="project_comment_old">&lt;p&gt;Alternative classifications:
+&lt;table class="table_lines"&gt;
+  &lt;tr&gt;&lt;td title="MP"&gt;Peyrot&lt;/td&gt;&lt;td title="CL"&gt;classical ~ late&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="MM"&gt;Malzahn&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TT"&gt;Tamai&lt;/td&gt;&lt;td title="C1"&gt;II-1 (600-700)&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TTC14"&gt;Tamai-C14&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;</item>
+               <item n="ms_old">THT 423</item>
+               <item n="m_script_old">Classical</item>
+               <item n="m_other_sigla_old">B 423, Bleistiftnummer 2380</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_expedition_old">T III M 135.6</item>
+               <item n="m_transcription_old">a2 /// amāc y· ///
+a3 /// re kanaṣki lānte r· ///
+a4 /// ·ewīyai tärkānte • yā ///
+a5 /// ṣk· yugarāje – k· ///
+a6 /// nte te yaknesa|yäknesa k· ///
+b3 /// ··s· na mā maukāre ///
+b4 /// kanaṣke walo e ·e ///
+b5 /// mṣ· • kārsaṃ cimpamñe ///
+b6 /// istak recci wi ///
+b7 /// retke yänmā – ///</item>
+               <item n="m_title_old">Historical treatise</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="group_old">Public</item>
+               <item n="editgroup_old">Editor</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;Alternative classifications:
+
+&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

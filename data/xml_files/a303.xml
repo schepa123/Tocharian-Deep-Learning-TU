@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-a303">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A 303</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Gerd Carling</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>A 303</idno>
+                  <altIdentifier>
+                     <idno>THT 936</idno>
+                  </altIdentifier>
+                  <msName>M-γ</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Maitreyasamiti-Nāṭaka (Ṣaṭsūtra)</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Šorčuq</region><placeName>Stadthöhle</placeName>during <rs type="expedition_code">T III Š 95.02</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+         <sourceDesc>
+            <p>Transcription and references have been transferred from the "Text and Reference Database of the Tocharian A Language" (Gerd Carling Lund University) (funded by the Bank of Sweden Tercentenary Foundation and SCAS).</p>
+            <p>Transcription and translation are based on <bibl><title corresp="ref:carlingetal2009"/></bibl>. </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="xto"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/09/0936ra.jpg"/>
+            <graphic url="A/A303a.jpg" height="630px" width="964px"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone>wiṃ</zone><zone>ṣu</zone><zone>RA¯</zone><zone>¯Ṣ</zone><zone>mrā¯</zone><zone>¯cä</zone><zone>śpā</zone><zone>lyo</zone><zone>kā</zone><zone>rū</zone><zone>ṇi</zone><zone>kāṃ</zone><zone>KA</zone><gap reason="plain" quantity="4"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone>ne</zone><zone>ṣā</zone><zone>sne</zone><zone>yä¯</zone><zone>¯rM</zone><zone>klo</zone><zone>pa</zone><zone>ntyo</zone><zone>MA</zone><zone>rka</zone><zone>mpa¯</zone><zone>¯L</zone><zone>kro</zone><zone>pnmā<gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="3"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone>myo</zone><zone>ṣñi</zone><zone>klo</zone><zone>pa¯</zone><zone>¯nT</zone><zone>ka</zone><zone>klā¯</zone><zone>¯ṢT</zone><zone>:</zone><zone>mā</zone><zone>śkaṃ</zone><zone>mu</zone><zone>kā¯</zone><zone>¯ṢT</zone><zone>mā</zone><zone>siṃ</zone><zone>sā</zone><zone>te</zone></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><zone>ca<gap reason="plain" unit="part"/></zone><zone><unclear>s</unclear>e</zone><zone>myā</zone><zone>mu</zone><zone>RA¯</zone><zone>¯Ṣ</zone><zone>:</zone><zone>kā</zone><zone>tka¯</zone><zone>¯ṢT</zone><zone>ptā</zone><zone><add>ñKA</add><add>¯</add></zone><zone><add>¯</add><add>T</add></zone><zone>ā</zone><zone>rki</zone><zone>śo</zone><zone>ṣṣaṃ</zone><zone>pa</zone><zone>lyä¯</zone></line>
+            <line n="5" xml:id="a5"><gap reason="lost"/><zone>t<gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="1"/><zone>tre</zone><zone>ya</zone><zone>sa</zone><zone>mi¯</zone><zone>¯T</zone><zone>po</zone><zone>STA¯</zone><zone>¯K</zone><zone>śpā</zone><zone>lmeṃ</zone><zone>pe</zone><zone>ka</zone><zone>MA¯</zone><zone>¯T</zone><zone>wa¯</zone><zone>¯S</zone><zone>puki¯</zone><zone>¯S</zone></line>
+            <line n="6" xml:id="a6"><gap reason="lost"/><zone>o</zone><zone>ppa</zone><zone>tyu</zone><zone>ti</zone><zone>śe</zone><zone>ri</zone><zone>kā</zone><zone>ttuṃ</zone><zone>ta</zone><zone>rmo¯</zone><zone>¯tS</zone><zone>lā</zone><zone>ra¯</zone><zone>¯T</zone><zone>hkhu</zone><zone>tteṃ</zone><zone>wā¯</zone><zone>¯M</zone><zone>nā</zone><zone>cci</zone><zone>e</zone><zone>lā¯</zone></line>
+            <line n="7" xml:id="a7"><gap reason="lost"/><zone>r<gap reason="plain" unit="part"/>e</zone><zone>pai</zone><zone>te</zone><zone>ṅko¯</zone><zone>¯hkhä</zone><zone>4</zone><zone>kā</zone><zone>swa¯</zone><zone>¯cä</zone><zone>pu</zone><zone>rcca</zone><zone>mo¯</zone><zone>¯Ṣ</zone><zone>wa</zone><zone>ṣnā</zone><zone>cki</zone><zone>wa</zone><zone>SAṃ</zone><zone>pā</zone><zone>rcca</zone><zone>te</zone></line>
+            <line n="8" xml:id="a8"><gap reason="lost"/><zone>po</zone><zone>nto</zone><zone>ko</zone><zone>pe</zone><zone>ssā¯</zone><zone>¯L</zone><zone>ṣe</zone><zone>tsyāṃ</zone><zone>tu</zone><zone>ṅktā</zone><zone>pe</zone><zone>nu</zone><zone>po¯</zone><zone>¯ñśä</zone><zone>KA</zone><zone>lpi</zone><zone>mtRA</zone></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/09/0936va.jpg"/>
+            <graphic url="A/A303b.jpg" height="617px" width="1038px"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone>co</zone><zone>spā</zone><zone>wRä</zone><zone>ntā¯</zone><zone>¯R</zone><zone>MA</zone><zone>kko</zone><zone>ttsi</zone><zone>śla¯</zone><zone>¯K</zone><zone>re¯</zone><zone>¯u</zone><zone>wä¯</zone><zone>¯nT</zone><zone>nuna¯</zone><zone>¯K</zone><zone>o</zone><zone>ppa¯</zone><zone>¯L</zone></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone>śla¯</zone><zone>¯K</zone><zone>6</zone><zone>wa</zone><zone>mśi¯</zone><zone>¯R</zone><zone>u</zone><zone>rSA¯</zone><zone>¯K</zone><zone>nuna¯</zone><zone>¯K</zone><zone>cā</zone><zone>po</zone><zone>nā</zone><zone>śä</zone><zone>kko</zone><zone>śpā</zone><zone>ra</zone><zone>te</zone><zone>co</zone></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><zone>pa¯</zone><zone>¯K</zone><zone>ṢA</zone><zone>PTA¯</zone><zone>¯nT</zone><zone>ko</zone><zone>tra</zone><zone>śśä¯</zone><zone>¯L</zone><zone>:</zone><zone>tryā</zone><zone>pā</zone><zone>yṣiṃ</zone><zone>klo</zone><zone>PA¯</zone><zone>¯Ṣ</zone><zone>tSA</zone><zone>lpi¯</zone><zone>¯ñcä</zone><zone>TMA</zone><zone>kyo¯</zone><zone>¯K</zone></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><zone>ptā</zone><zone>ñkte</zone><zone>MA</zone><zone>rka</zone><zone>mpa¯</zone><zone>¯L</zone><zone>pe</zone><zone>klu</zone><zone>ne</zone><zone>ṣi</zone><zone>pñi</zone><zone>:</zone><zone>pu¯</zone><zone>¯K</zone><zone>pñi</zone><zone>ntwaṃ</zone><zone>TPA</zone><zone>rsu</zone><zone>m<unclear>e</unclear></zone><zone><unclear>rr</unclear><gap reason="plain" unit="part"/></zone></line>
+            <line n="5" xml:id="b5"><gap reason="lost"/><zone>:</zone><zone>saṃ</zone><zone>sā</zone><zone>rṣi</zone><zone>nā</zone><zone>spu¯</zone><zone>¯K</zone><zone>klo</zone><zone>PA</zone><zone>ntwä¯</zone><zone>¯Ṣ</zone><zone>tSA</zone><zone>lpṣa¯</zone><zone>¯nT</zone><zone>KA</zone><zone>llā¯</zone><zone>¯nT</zone><zone>ne</zone><zone>rvā</zone></line>
+            <line n="6" xml:id="b6"><gap reason="lost"/><zone>:</zone><zone>ku</zone><zone>sne</zone><zone>ni</zone><zone>ṣpa¯</zone><zone>¯L</zone><zone>ko</zone><zone>pRA¯</zone><zone>¯ṅK</zone><zone><unclear>PA</unclear></zone><zone>rsā¯</zone><zone>¯nT</zone><zone>wä¯</zone><zone>¯S</zone><zone>nki¯</zone><zone>¯ñcä</zone><zone>hā</zone><zone>rwro¯</zone><zone>¯K</zone><zone>ñe</zone></line>
+            <line n="7" xml:id="b7"><gap reason="lost"/><zone>¯M</zone><zone>pñi</zone><zone>ntu</zone><zone>tmā</zone><zone>ṣi</zone><zone>TA¯</zone><zone>¯R</zone><zone>9</zone><zone>wä¯</zone><zone>¯T</zone><zone>nwā</zone><zone>la¯</zone><zone>¯K</zone><zone>wra</zone><zone><gap reason="plain" unit="part"/>o</zone><gap reason="plain" quantity="3"/></line>
+            <line n="8" xml:id="b8"><gap reason="lost"/><zone>ṣ<gap reason="plain" unit="part"/>ṃ</zone><zone>ca¯</zone><zone>¯Ṣ</zone><zone>PA</zone><zone>ñña¯</zone><zone>¯cä</zone><zone>ŚA¯</zone><zone>¯K</zone><zone>ṢA</zone><zone>kpi</zone><zone>ñcäṃ</zone><zone>ca</zone><zone>m<unclear>p</unclear>ā</zone><gap reason="plain" quantity="4"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><w><supplied>wa</supplied>wiṃṣuräṣ</w><w>mrāc</w><w>śpālyo</w><w>kārūṇikāṃ</w><w>kä</w><gap reason="plain" quantity="4"/>
+<lb corresp="#a2"/><gap reason="lost"/><w>neṣā</w><w>sne</w><w>yärm</w><w>klopantyo</w><w>märkampal</w><w>kropnmā<supplied>ṃ</supplied></w><gap reason="plain" quantity="3"/>
+<lb corresp="#a3"/><gap reason="lost"/><w>myo</w><w>ṣñi</w><w>klopant</w><w>kaklāṣt</w><pc>:</pc><w>mā</w><w>śkaṃ</w><w>mukāṣt</w><w>mā</w><w>siṃsāte</w>
+<lb corresp="#a4"/><gap reason="lost"/><w>ca<gap reason="plain" unit="part"/></w><w>sem</w><w>yāmuräṣ</w><pc>:</pc><w>kātkaṣt</w><w>ptāñkät</w><w>ārkiśoṣṣaṃ</w>
+<w>palyä<lb corresp="#a5"/><supplied>ṣt</supplied></w><gap reason="lost"/><w>t<gap reason="plain" unit="part"/></w><w><supplied>mai</supplied>treyasamit</w><w>postäk</w><w>śpālmeṃ</w><w>pekamät</w><w>was</w><w>pUkis</w>
+<lb corresp="#a6"/><gap reason="lost"/><w>oppatyuti</w><w>śeri</w><w>kāttuṃ</w><w>tarmots</w><w>lārat</w><w>hkhutteṃ-wām</w><w>nācci</w>
+<w>elā<lb corresp="#a7"/><supplied>k</supplied></w><gap reason="lost"/><w>r<gap reason="plain" unit="part"/>e</w><w>pai</w><w>teṅkohkh</w><num value="4">4</num><w>kāswac</w><w>purccamoṣ</w><w>waṣ</w><w>nācki</w><w>wasäṃ</w><w>pārccate</w>
+<lb corresp="#a8"/><gap reason="lost"/><w>pont</w><w>oko</w><w>pessāl</w><w>ṣetsyāṃ</w><w>tuṅk</w><w>tā</w><w>penu</w><w>poñś</w><w>kälpimträ</w>
+<lb corresp="#b1"/><gap reason="lost"/><w>co-spā</w><w>wräntār</w><w>mäkkottsi</w><w>ślak</w><w>reUwänt</w><w>nUnak</w><w>oppal</w>
+<lb corresp="#b2"/><gap reason="lost"/><w>ślak</w><num value="6">6</num><w>wamśir</w><w>ursäk</w><w>nUnak</w><w>cāponā</w><w>śäkko</w><w>śpārate</w><w>co</w>
+<lb corresp="#b3"/><gap reason="lost"/><w>pak</w><w>ṣäptänt</w><w>kotraśśäl</w><pc>:</pc><w>try</w><w>āpāyṣiṃ</w><w>klopäṣ</w><w>tsälpiñc</w><w>tmäkyok</w>
+<lb corresp="#b4"/><gap reason="lost"/><w>ptāñkte</w><w>märkampal</w><w>pekluneṣi</w><w>pñi</w><pc>:</pc><w>puk</w><w>pñintwaṃ</w><w>tpär</w><w>sumerr<gap reason="plain" unit="part"/></w>
+<lb corresp="#b5"/><gap reason="lost"/><pc>:</pc><w>saṃsārṣinās</w><w>puk</w><w>klopäntwäṣ</w><w>tsälpṣant</w><w>källānt</w><w>nervā</w>
+<lb corresp="#b6"/><gap reason="lost"/><pc>:</pc><w>kus</w><w>ne</w><w>niṣpal</w><w>kopräṅk</w><w>pärsānt</w><w>wäs</w><w>nkiñc</w><w>hār</w><w>wrok</w><w>ñe</w>
+<lb corresp="#b7"/><gap reason="lost"/><w>m</w><w>pñintu</w><w>tmāṣitär</w><num value="9">9</num><w>wät</w><w>nw</w><w>ālak</w><w>wra<supplied>s</supplied>o<supplied>m</supplied></w><gap reason="plain" quantity="2"/>
+<lb corresp="#b8"/><gap reason="lost"/><w>ṣ<supplied>i</supplied>ṃ</w><w>caṣ</w><w>päññac</w><w>śäk</w><w>ṣäkpiñcäṃ</w><w>cam</w><w>pā</w><gap reason="plain" quantity="4"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a2"><seg><bibl><title corresp="ref:kolver1965"/><citedRange>15, 43</citedRange></bibl></seg></choice><choice corresp="#a3"><seg><bibl><title corresp="ref:thomas1957"/><citedRange>151</citedRange></bibl></seg><seg><seg type="prim_transl">Die eigenen Leiden hast du ertragen, und weder hast du abgelassen noch hast du Ersättigung gefunden [bzw. bist du bedrückt gewesen].</seg><seg type="sec_transl" resp="TI">[Your] own sufferings you have endured, and neither have you relented nor have you found saturation [or: have you been despondent].</seg><bibl><title corresp="ref:schmidtkt1974"/><citedRange>159</citedRange></bibl></seg></choice><choice corresp="#a3 #a4"><seg><bibl><title corresp="ref:hackstein1995"/><citedRange>296</citedRange></bibl></seg></choice><choice corresp="#a4"><seg><bibl><title corresp="ref:thomas1957"/><citedRange>151</citedRange></bibl></seg><seg><bibl><title corresp="ref:kolver1965"/><citedRange>101</citedRange></bibl></seg></choice><choice corresp="#a5"><seg><bibl><title corresp="ref:thomas1957"/><citedRange>151</citedRange></bibl></seg><seg><bibl><title corresp="ref:knoll1996"/><citedRange>73</citedRange></bibl></seg><seg><seg type="prim_transl">Das vorzügliche Buch Maitreyasamiti haben wir geschrieben für alle ...</seg><seg type="sec_transl" resp="TI">The excellent book Maitreyasamiti we have written for all ...</seg><bibl><title corresp="ref:schmidtkt1974"/><citedRange>456</citedRange></bibl></seg></choice><choice corresp="#b3"><seg><bibl><title corresp="ref:kolver1965"/><citedRange>142</citedRange></bibl></seg><seg><seg type="prim_transl">... from the suffering of the three bad incarnations ...</seg></seg></choice><choice corresp="#b5"><seg><bibl><title corresp="ref:thomas1970"/><citedRange>268</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1983"/><citedRange>31, 37</citedRange></bibl></seg><seg><bibl><title corresp="ref:kolver1965"/><citedRange>82</citedRange></bibl></seg><seg><seg type="prim_transl">releasing from all Saṃsāra sufferings ...</seg></seg></choice><choice corresp="#b7"><seg><bibl><title corresp="ref:schmidtkt1974"/><citedRange>421</citedRange></bibl></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="parallels">A 311</note><note corresp="#a8" type="philcomment">Ilya Itkin and Maxim Vyzhlakov (p.c., 20 July 2016) have suggested the restoration <hi>(li)pont oko</hi> based on the attestation of this phrase in <ref type="ms" target="txt:m-a298"/> a6.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT%20936" type="external">THT 936</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/09/0936.htm" type="external">THT 936</ref></bibl>. </p>
+            <p><label>Edition</label><bibl><title corresp="ref:siegandsiegling1921"/><citedRange>161-162</citedRange></bibl>. <bibl>Siegling's personal copy of <title corresp="ref:siegandsiegling1921"/><ref target="./images/TS_Siegling/TS_Siegling_Page_161.png" type="external">p. 161</ref> <ref target="./images/TS_Siegling/TS_Siegling_Page_162.png" type="external">p. 162</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="user_modified_old">bernhard</item>
+               <item n="user_created_old">automatic</item>
+               <item n="m_prev_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="m_subgenre_old"/>
+               <item n="m_translation_old">b3 ... from the suffering of the three bad incarnations ...
+b5 releasing from all Saṃsāra sufferings ...</item>
+               <item n="m_metric_form_old"/>
+               <item n="m_tune_old"/>
+               <item n="project_check_old"/>
+               <item n="m_other_sigla_old">THT 936</item>
+               <item n="m_language_old">TA</item>
+               <item n="m_remarks_old"/>
+               <item n="m_expedition_old">T III Š 95.02</item>
+               <item n="m_size_w_old"/>
+               <item n="m_parallels_old">A 311</item>
+               <item n="ms_old">A 303</item>
+               <item n="project_comment_old">&lt;p&gt;Translations from [[Schmidt KT 1974]]
+&lt;table class="table_lines"&gt;
+&lt;th&gt;Lines&lt;/th&gt;
+&lt;th&gt;Translation&lt;/th&gt;
+&lt;th&gt;Pages&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt;a3&lt;/td&gt;
+&lt;td&gt;&lt;span title="[Your] own sufferings you have endured, and neither have you relented nor have you found saturation [or: have you been despondent]."&gt;Die eigenen Leiden hast du ertragen, und weder hast du abgelassen noch hast du Ersättigung gefunden [bzw. bist du bedrückt gewesen].&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;159&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;a5&lt;/td&gt;
+&lt;td&gt;&lt;span title="The excellent book Maitreyasamiti we have written for all ..."&gt;Das vorzügliche Buch Maitreyasamiti haben wir geschrieben für alle ...&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;456&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;The end of &lt;b&gt;b5&lt;/b&gt; is restored to &lt;i&gt;nervānac&lt;/i&gt; in [[Carling, DThTA]]: 227, not translated (cf. also [[Peyrot 2011]]: 46); perhaps + equally untranslated &lt;i&gt;källānt&lt;/i&gt; = “leading to the nirvana”? (TI)&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a5-b2.&lt;/b&gt; [[Tremblay 2005]]: 429: "We have written the excellent Maitresamiti-book for all [...] Upadyoti, Śeri Qatun, the righteous Lārat Xutēn-βām, Nāzči, Ellä[g ...] Bai Tengox ||4||. For the(ir) weal, the distinguished ... lords, our &lt;sup&gt;??&lt;/sup&gt;adorned ... Pontoko, Pessāl, Šej-yān, love wherever all of us may obtain (it) [...] Cospa Vryantar, Mäkkot/nstu as well as Rēw-βand and also Oppal."– Athanaric (Tue, 2016-05-17, 20:33:10 (CEST))&lt;/p&gt;</item>
+               <item n="m_script_old">Classical</item>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_transcription_old">a1 /// (wa)wiṃṣuräṣ mrāc śpālyo kārūṇikāṃ kä – – – –
+a2 /// neṣā sne yärm klopantyo märkampal kropnmā(ṃ) – – –
+a3 /// myo ṣñi klopant kaklāṣt : mā śkaṃ mukāṣt mā siṃsāte
+a4 /// ca· sem yāmuräṣ : kātkaṣt ptāñkät ārkiśoṣṣaṃ palyäṣt|palyä|(ṣt)
+a5 /// t· (mai)treyasamit postäk śpālmeṃ_(TA)|śpālmeṃ pekamät was p_ukis
+a6 /// oppatyuti śeri kāttuṃ tarmots lārat hkhutteṃ-wām nācci elāk|elā|(k)
+a7 /// r·e pai teṅkohkh 4 kāswac purccamoṣ waṣ nācki wasäṃ pārccate
+a8 /// pont oko_(TA)|oko pessāl ṣetsyāṃ tuṅk tā penu poñś kälpimträ
+b1 /// cospā|co-spā wräntār mäkkottsi ślak re_uwänt n_unak oppal
+b2 /// ślak 6 wamśir ursäk n_unak cāponā śäkko śpārate co
+b3 /// pak ṣäptänt kotraśśäl : try āpāyṣiṃ klopäṣ tsälpiñc tmäkyok
+b4 /// ptāñkte märkampal pekluneṣi pñi : puk pñintwaṃ tpär sumerr·
+b5 /// : saṃsārṣinās puk klopäntwäṣ tsälpṣant källānt nervā
+b6 /// : kus ne niṣpal kopräṅk pärsānt wäs nkiñc hār wrok ñe
+b7 /// m pñintu tmāṣitär 9 wät nw ālak wra(s)o(m) – –
+b8 /// ṣ(i)ṃ caṣ päññac śäk ṣäkpiñcäṃ cam pā – – – –</item>
+               <item n="m_leaf_old"/>
+               <item n="m_title_old">Maitreyasamiti-Nāṭaka (Ṣaṭsūtra)</item>
+               <item n="m_meter_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_image_old">http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/09/0936ra.jpg|||$page; (THT 936) recto
+http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/09/0936va.jpg|||$page; (THT 936) verso</item>
+               <item n="m_language_stage_old"/>
+               <item n="m_transliteration_old">a1 /// wiṃṣu_r_a_ṣ\ mrācä\ śpālyo kārūṇikāṃ _k_a – – – –
+a2 /// neṣā sne yär_m\ klopantyo _m_arkampa_l\ kropnmā· – – –
+a3 /// myo ṣñi klopan_t\ kaklā_ṣ_t\ : mā śkaṃ mukā_ṣ_t\ mā siṃsāte
+a4 /// ca· [s]em yāmu_r_a_ṣ\ : kātka_ṣ_t\ ptā«ñ_k_a_t\» ārkiśoṣṣaṃ palyä-\
+a5 /// t· – treyasami_t\ po_s_t_a_k\ śpālmeṃ peka_m_a_t\ wa_s\ p_uki_s\
+a6 /// oppatyuti śeri kāttuṃ tarmot_s\ lāra_t\ hkhutteṃ-wā_m\ nācci elā-\
+a7 /// r·e pai teṅkohkhä\ 4 kāswacä\ purccamo_ṣ\ waṣ nācki wa_s_aṃ pārccate
+a8 /// pont oko pessā_l\ ṣetsyāṃ tuṅk tā penu poñśä\ _k_alpimt_r_a
+b1 /// co-spā w_räntā_r\ _m_akkottsi śla_k\ re_uwän_t\ n_una_k\ oppa_l\
+b2 /// śla_k\ 6 wamśi_r\ ur_s_a_k\ n_una_k\ cāponā śäkko śpārate co
+b3 /// pa_k\ _ṣ_a_p_t_an_t\ kotraśśä_l\ : try āpāyṣiṃ klo_p_a_ṣ\ t_s_alpiñcä\ _t_m_akyo_k\
+b4 /// ptāñkte _m_arkampa_l\ pekluneṣi pñi : pu_k\ pñintwaṃ _t_p_ar sum[err]·
+b5 /// : saṃsārṣinās pu_k\ klo_p_antwä_ṣ\ t_s_alpṣan_t\ _k_allān_t\ nervā
+b6 /// : kus ne niṣpa_l\ kop_r_aṅ_k\ [_p_a]rsān_t\ wä_s\ nkiñcä\ hār wro_k\ ñe
+b7 /// _m\ pñintu tmāṣi_t_a_r\ 9 wä_t\ nw āla_k\ wra·o – – –
+b8 /// ṣ·ṃ ca_ṣ\ _p_aññacä\ _ś_a_k\ _ṣ_akpiñcäṃ cam [p]ā – – – –</item>
+               <item n="date_publication_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT%20936"&gt;THT 936&lt;/a&gt;,
+[[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/09/0936.htm"&gt;THT 936&lt;/a&gt;.&lt;br&gt;
+Transcription and references have been transferred from the "Text and Reference Database of the Tocharian A Language" (Gerd Carling, Lund University) (funded by the Bank of Sweden Tercentenary Foundation and SCAS).
+Transcription and translation are based on [[Carling, DThTA]].&lt;br&gt;
+Edition: [[TochSprR(A)]]: 161-162.&lt;br&gt;
+Siegling's personal copy of [[TochSprR(A)]]: &lt;a href="./images/TS_Siegling/TS_Siegling_Page_161.png"&gt;p. 161&lt;/a&gt;, &lt;a href="./images/TS_Siegling/TS_Siegling_Page_162.png"&gt;p. 162&lt;/a&gt;.&lt;br&gt;
+Translation:
+&lt;b&gt;a2&lt;/b&gt; [[Kölver 1965]]: 15, 43;
+&lt;b&gt;a3&lt;/b&gt; [[Schmidt KT 1974]]: 159, [[Thomas 1957]]: 151;
+&lt;b&gt;a3-4&lt;/b&gt; [[Hackstein 1995]]: 296;
+&lt;b&gt;a4&lt;/b&gt; [[Thomas 1957]]: 151; [[Kölver 1965]]: 101;
+&lt;b&gt;a5&lt;/b&gt; [[Schmidt KT 1974]]: 456, [[Thomas 1957]]: 151; [[Knoll 1996]]: 73;
+&lt;b&gt;b3&lt;/b&gt; [[Kölver 1965]]: 142;
+&lt;b&gt;b5&lt;/b&gt; [[Thomas 1970]]: 268, [[Thomas 1983]]: 31, 37; [[Kölver 1965]]: 82;
+&lt;b&gt;b7&lt;/b&gt; [[Schmidt KT 1974]]: 421.</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old">M-γ</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old"/>
+               <item n="file_modified_old">1533630626</item>
+               <item n="file_created_old">1328802217</item>
+               <item n="m_editor_old">Gerd Carling</item>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;a8.&lt;/b&gt; Ilya Itkin and Maxim Vyzhlakov (p.c., 20 July 2016) have suggested the restoration &lt;i&gt;(li)pont oko&lt;/i&gt; based on the attestation of this phrase in [[A 298]] a6.&lt;/p&gt;</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="file_location_old">pages/manuscript/A/a303.txt</item>
+               <item n="access_old">public</item>
+               <item n="m_lines_old">8</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_completeness_old"/>
+               <item n="m_linedistance_old"/>
+               <item n="m_findspot_specific_old">Stadthöhle</item>
+               <item n="m_findspot_old">Šorčuq</item>
+               <item n="m_form_old">Poṭhī</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;The end of &lt;ref type="ms" target="__b5"/&gt; is restored to &lt;hi&gt;nervānac&lt;/hi&gt; in &lt;bibl&gt;&lt;title corresp="ref:carlingetal2009"/&gt;&lt;citedRange&gt;227&lt;/citedRange&gt;&lt;/bibl&gt;, not translated (cf. also &lt;bibl&gt;&lt;title corresp="ref:peyrot2011"/&gt;&lt;citedRange&gt;46&lt;/citedRange&gt;&lt;/bibl&gt;); perhaps + equally untranslated &lt;hi&gt;källānt&lt;/hi&gt; = “leading to the nirvana”? (TI)&lt;/p&gt;&lt;p&gt;&lt;ref type="ms" target="__a5-b2."/&gt;&lt;bibl&gt;&lt;title corresp="ref:tremblay2005a"/&gt;&lt;citedRange&gt;429&lt;/citedRange&gt;&lt;/bibl&gt;: "We have written the excellent Maitresamiti-book for all [...] Upadyoti, Śeri Qatun, the righteous Lārat Xutēn-βām, Nāzči, Ellä[g ...] Bai Tengox ||4||. For the(ir) weal, the distinguished ... lords, our &lt;hi rend="superscript"&gt;??&lt;/hi&gt;adorned ... Pontoko, Pessāl, Šej-yān, love wherever all of us may obtain (it) [...] Cospa Vryantar, Mäkkot/nstu as well as Rēw-βand and also Oppal."– Athanaric (Tue, 2016-05-17, 20:33:10 (CEST))&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-sht565">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>SHT 565</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>SHT 565</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>8</height>
+                              <width>15.5</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">5</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Murtuq</region>during <rs type="expedition_code">T III M 135</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="txb"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Gloss</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=268682;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=268682;rotate=0;imageType=_M"/>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone>rwa</zone><zone>sta</zone><zone>ṣe</zone><gap reason="editorial"/><zone>ta</zone><zone>rn<gap reason="plain" unit="part"/></zone><zone>sai</zone><gap reason="editorial"/><gap reason="plain" quantity="1"/><zone><unclear>tu</unclear></zone><zone>ṣe</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a2"/><gap reason="lost"/><w><supplied>a</supplied>rwastaṣe</w><gap reason="editorial"/><w>tarn<supplied>e</supplied>sai</w><gap reason="editorial"/><w>tuṣe</w></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a2"><seg><seg type="prim_transl">/// [unclear] ... belonging to the top ... [unclear]</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="lingcomment">Possibly, the first part of the first gloss is a form of <hi>or</hi> 'wood, tree', pl. <hi>ārwa</hi>, and the last syllable is certainly the suffix <hi>-ṣe</hi> for <hi>-ṣṣe</hi>. However, the middle part, which might also read <hi>sna</hi>, remains unclear.</note><note type="lingcomment">As for the second gloss, if the interpretation is correct, this word is an adjective derived from <hi>tarne</hi> 'top, top of the head', which matches Skt. <hi>agra-</hi> exactly. The suffix is <hi>-tstse</hi>, but simplified to <hi>-se</hi>, here in the obl.sg.fem. that is normally <hi>-tstsai</hi>.</note><note type="lingcomment">The third Tocharian gloss is unclear. The suffix seems to be <hi>ṣe</hi> for <hi>ṣṣe</hi>, but the base remains obscure. Instead of <hi>tu</hi>, one might also read <hi>tuṃ</hi>. There is probably no connection with the word <hi>tuñe</hi>, obl.sg. <hi>tuñ</hi>: the derived adjective of this word is attested as <hi>tuñaṣṣe</hi>, not **<hi>tuṃṣe</hi>; the gloss most probably consists of a third akṣara at the beginning; and <hi>tuñe</hi> is likely to mean rather 'perfume', not 'blossom', according to Ching Chao-jung (<bibl><title corresp="ref:ching2010"/><citedRange>167-8</citedRange></bibl>, <bibl><title corresp="ref:ching2014"/><citedRange>39-52</citedRange></bibl>).</note><note type="philcomment">Transcription and translation of the first and third gloss are uncertain.</note><note type="philcomment"><hi>(a)rwastaṣe</hi> glosses Skt. <hi>skandhabījaṃ</hi> 'was sich aus einem Stamm fortpflanzt' ['what generates from a stem'] (<bibl><title corresp="ref:rosen1959"/><citedRange>137</citedRange></bibl>).</note><note type="philcomment"><hi>tarnesai</hi> glosses Skt. <hi>agrabījaṃ</hi> 'was sich aus Schößlingen fortpflanzt' ['what generates from shoots'] (<bibl><title corresp="ref:rosen1959"/><citedRange>137</citedRange></bibl>).</note><note type="philcomment">The third glosses Skt. <hi>sphuṭabījaṃ</hi> 'was sich aus Blüten fortpflanzt' ['what generates from blossoms'] (<bibl><title corresp="ref:rosen1959"/><citedRange>137</citedRange></bibl>).</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=SHT 565" type="external">SHT 565</ref></bibl>. </p>
+            <p><label>other</label><bibl><title corresp="ref:peyrot2014"/><citedRange>133, 136-7</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_subgenre_old">Gloss</item>
+               <item n="m_translation_old">a2 /// [unclear] ... belonging to the top ... [unclear]</item>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_tune_old"/>
+               <item n="user_created_old">theres</item>
+               <item n="user_modified_old">theres</item>
+               <item n="m_prev_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old">a2 /// (a)rwastaṣe ... tarn(e)sai ... tuṣe</item>
+               <item n="m_title_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_language_old">Sanskrit+TB</item>
+               <item n="m_remarks_old"/>
+               <item n="m_other_sigla_old"/>
+               <item n="m_size_w_old">15.5</item>
+               <item n="m_expedition_old">T III M 135</item>
+               <item n="m_parallels_old"/>
+               <item n="m_script_old"/>
+               <item n="ms_old">SHT 565</item>
+               <item n="project_comment_old"/>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old">8</item>
+               <item n="file_created_old">1445247632</item>
+               <item n="file_modified_old">1485171264</item>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old">&lt;p&gt;Transcription and translation of the first and third gloss are uncertain.&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;(a)rwastaṣe&lt;/i&gt; glosses Skt. &lt;i&gt;skandhabījaṃ&lt;/i&gt; 'was sich aus einem Stamm fortpflanzt' ['what generates from a stem'] ([[Rosen 1959]]: 137).&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;tarnesai&lt;/i&gt; glosses Skt. &lt;i&gt;agrabījaṃ&lt;/i&gt; 'was sich aus Schößlingen fortpflanzt' ['what generates from shoots'] ([[Rosen 1959]]: 137).&lt;/p&gt;
+&lt;p&gt;The third glosses Skt. &lt;i&gt;sphuṭabījaṃ&lt;/i&gt; 'was sich aus Blüten fortpflanzt' ['what generates from blossoms'] ([[Rosen 1959]]: 137).&lt;/p&gt;</item>
+               <item n="m_editor_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_image_old">http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=268682;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=268682;rotate=0;imageType=_M||$page; recto
+http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=268683;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=268683;rotate=0;imageType=_M||$page; verso</item>
+               <item n="date_publication_old"/>
+               <item n="m_language_stage_old"/>
+               <item n="m_transliteration_old">a2 /// rwastaṣe ... tarn·sai ... – [tu]ṣe</item>
+               <item n="m_lingcomment_old">&lt;p&gt;Possibly, the first part of the first gloss is a form of &lt;i&gt;or&lt;/i&gt; 'wood, tree', pl. &lt;i&gt;ārwa&lt;/i&gt;, and the last syllable is certainly the suffix &lt;i&gt;-ṣe&lt;/i&gt; for &lt;i&gt;-ṣṣe&lt;/i&gt;. However, the middle part, which might also read &lt;i&gt;sna&lt;/i&gt;, remains unclear.&lt;/p&gt;
+&lt;p&gt;As for the second gloss, if the interpretation is correct, this word is an adjective derived from &lt;i&gt;tarne&lt;/i&gt; 'top, top of the head', which matches Skt. &lt;i&gt;agra-&lt;/i&gt; exactly. The suffix is &lt;i&gt;-tstse&lt;/i&gt;, but simplified to &lt;i&gt;-se&lt;/i&gt;, here in the obl.sg.fem. that is normally &lt;i&gt;-tstsai&lt;/i&gt;.&lt;/p&gt;
+&lt;p&gt;The third Tocharian gloss is unclear. The suffix seems to be &lt;i&gt;ṣe&lt;/i&gt; for &lt;i&gt;ṣṣe&lt;/i&gt;, but the base remains obscure. Instead of &lt;i&gt;tu&lt;/i&gt;, one might also read &lt;i&gt;tuṃ&lt;/i&gt;. There is probably no connection with the word &lt;i&gt;tuñe&lt;/i&gt;, obl.sg. &lt;i&gt;tuñ&lt;/i&gt;: the derived adjective of this word is attested as &lt;i&gt;tuñaṣṣe&lt;/i&gt;, not **&lt;i&gt;tuṃṣe&lt;/i&gt;; the gloss most probably consists of a third akṣara at the beginning; and &lt;i&gt;tuñe&lt;/i&gt; is likely to mean rather 'perfume', not 'blossom', according to Ching Chao-jung ([[Ching 2010]]: 167-8, [[Ching 2014]]: 39-52).&lt;/p&gt;</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=SHT 565" target="idp"&gt;SHT 565&lt;/a&gt;.&lt;br&gt;
+[[Peyrot 2014]]: 133, 136-7.</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Murtuq</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="file_location_old">pages/manuscript/sht565.txt</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_lines_old">5</item>
+               <item n="access_old">restricted</item>
+               <item n="m_completeness_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht401">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 401</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 401</idno>
+                  <altIdentifier>
+                     <idno>B 401</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Bleistiftnummer 2008</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Praṇidhicaryā of the Bodhisattva</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">5</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Siŋgim</region>during <rs type="expedition_code">T II S 19.16</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-late frg:ls-peyrot-L frg:ls-C14 frg:ls-tamai-C3 frg:ls-C14"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Jātaka/Avadāna</term>
+               <term type="prose_verse">prose</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328385;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328385;rotate=0;imageType=_M"/>
+            <graphic url="B/B401a.jpg" height="548px" width="1328px"/>
+            <line xml:id="lf"><zone>(–)46</zone></line>
+            <line n="1" xml:id="a1"><gap reason="plain" quantity="3"/><zone>4</zone><zone>॥</zone><zone>kā</zone><zone>śya¯</zone><zone>¯P</zone><zone>pa</zone><zone>ñi</zone><zone>kte</zone><zone>sa</zone><zone>nya</zone><zone>gro</zone><zone>dhe</zone><zone>ñ<unclear>e</unclear></zone><zone>ma</zone><zone>ce</zone><zone>o</zone><zone>ro</zone><zone><unclear>cce</unclear></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="plain" quantity="1"/><zone>tta</zone><zone>re</zone><zone>ñe</zone><zone>ma</zone><zone>se</zone><zone>so¯</zone><zone>¯yä</zone><zone>kā</zone><zone>lyśke</zone><zone>ṣe¯</zone><zone>¯yMä</zone><zone>na</zone><zone>ndi</zone><zone>pā</zone><zone>leṃ</zone><zone>pa</zone><zone>ñi</zone><zone>kte</zone><zone><unclear>KA</unclear></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><zone>¯ñä</zone><zone>o</zone><zone>sta</zone><zone>meṃ</zone><zone>la</zone><zone>tau</zone><zone>dvā</zone><zone>da</zone><zone>śā</zone><zone>ṅkeṃ</zone><zone>bau</zone><zone>d<gap reason="plain" unit="part"/>eṃ</zone><zone>p<gap reason="plain" unit="part"/>a</zone><zone>va</zone><zone>caṃ</zone><zone>e</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=327926;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=327926;rotate=0;imageType=_M"/>
+            <graphic url="B/B401b.jpg" height="546px" width="1300px"/>
+            <line n="3" xml:id="b3"><zone>tu</zone><zone>ma</zone><zone>ne</zone><gap reason="plain" quantity="1"/><zone>kyi</zone><zone>ltsa</zone><zone>:</zone><zone>1</zone><zone>ṣe</zone><zone>sa</zone><zone>ka</zone><zone>mts<gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="1"/><zone><unclear>R</unclear>A</zone><zone>p<unclear>ā</unclear></zone><zone><unclear>r</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><zone>po</zone><zone>yśñe</zone><zone>a</zone><zone>kā¯</zone><zone>¯LK</zone><zone>kyā</zone><zone>na</zone><zone>ma¯</zone><zone>¯R</zone><zone>ke</zone><zone>tra</zone><zone>ka</zone><zone>rtstse</zone><zone>ya</zone><zone>ma</zone><zone>lñe</zone><zone>ṣṣe</zone><zone>po</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><gap reason="plain" quantity="2"/><zone>pe</zone><zone>rpe</zone><zone>cce</zone><zone>ñi¯</zone><zone>¯Ś</zone><zone>cā</zone><zone>la</zone><zone>wa</zone><zone>:</zone><zone>kre¯</zone><zone>¯nT</zone><zone>pe</zone><zone>lai</zone><zone>kne</zone><zone>ṣṣai</zone><zone>o</zone><zone>l<unclear>y</unclear>i</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <fw type="leafNum" corresp="#lf">(–)46</fw>
+            <p>
+<lb corresp="#a1"/><gap reason="plain" quantity="3"/><num value="4">4</num><pc>॥</pc><w>kāśyap</w><w>pañiktesa</w><w>nyagrodhe</w><w>ñemace</w><w>orocce</w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="plain" quantity="1"/><w>ttare</w><w>ñemase</w><w>soy</w><w>kālyśke</w><w>ṣeym</w><w>nandipāleṃ</w><w>pañikte</w><w>kä</w><gap reason="lost"/>
+<lb corresp="#a3"/><w>ñ</w><w>ostameṃ</w><w>latau</w><w>dvādaśāṅkeṃ</w><w>baud<supplied>dh</supplied>eṃ</w><w>p<supplied>r</supplied>avacaṃ</w><w>e</w><gap reason="lost"/>
+<lb corresp="#b3"/><w>tumane</w><w><supplied>o</supplied>k</w><w>yiltsa</w><pc>:</pc><num value="1">1</num><w>ṣesa</w><w>kamts<gap reason="plain" unit="part"/></w><gap reason="plain" quantity="1"/><w>r<surplus>ä</surplus></w><w>pār<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#b4"/><w>poyśñe</w><w>akālk</w><w>kyānamar</w><w>ket</w><w>ra</w><w>kartstse</w><w>yamalñeṣṣe</w><w>po</w><gap reason="lost"/>
+<lb corresp="#b5"/><gap reason="plain" quantity="2"/><w>perpecce</w><w>ñiś</w><w>cālawa</w><pc>:</pc><w>krent</w><w>pelaikneṣṣai</w><w>olyi</w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#b4"><seg><seg type="prim_transl">Den Allerkennerwunsch werde ich verwirklichen, der darin besteht, wem auch immer Gutes zu tun.</seg><seg type="sec_transl" resp="TI">I will realize the wish of the Omniscient, which consists of doing good for whoever.</seg><bibl><title corresp="ref:schmidtkt1974"/><citedRange>458</citedRange></bibl></seg><seg><seg type="prim_transl">... den Wunsch nach der Allwisserschaft werde ich verwirklichen, der darin besteht, jedermann Gutes zu tun ...</seg><seg type="sec_transl" resp="TI">... the wish for omniscience I will make come true, which consists in doing good to everyone ...</seg><bibl><title corresp="ref:schmidtkt1974"/><citedRange>135</citedRange></bibl></seg></choice></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 401" type="external">THT 401</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/04/0401.htm" type="external">THT 401</ref></bibl> Edition: <bibl><title corresp="ref:siegandsiegling1953"/><citedRange>267</citedRange></bibl>;  Translation: <ref type="ms" target="#b4"/> <bibl><title corresp="ref:schmidtkt1974"/><citedRange>135, 458</citedRange></bibl>; <ref type="ms" target="#b5"/> <bibl><title corresp="ref:schmidtkt1974"/><citedRange>262 n.3</citedRange></bibl></p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_genre_old">Literary</item>
+               <item n="group_old">Public</item>
+               <item n="m_transcription_old">a1 – – – 4 || kāśyap pañiktesa nyagrodhe ñemace orocce ///
+a2 – ttare ñemase soy kālyśke ṣeym nandipāleṃ pañikte kä ///
+a3 ñ ostameṃ latau dvādaśāṅkeṃ baud(dh)eṃ p(r)avacaṃ e ///
+b3 tmāne|tumane (o)k yiltsa : 1 ṣesa kamts· – r pār· ///
+b4 poyśñe akālk kyānamar ket ra kartstse yamalñeṣṣe po ///
+b5 – – perpecce ñiś cālawa : krent pelaikneṣṣai olyi ///</item>
+               <item n="m_leaf_old">(–)46</item>
+               <item n="m_title_old">Praṇidhicaryā of the Bodhisattva</item>
+               <item n="editgroup_old">Editor</item>
+               <item n="project_comment_old">&lt;p&gt;Alternative classifications:
+&lt;table class="table_lines"&gt;
+  &lt;tr&gt;&lt;td title="MP"&gt;Peyrot&lt;/td&gt;&lt;td title="L"&gt;late&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="MM"&gt;Malzahn&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TT"&gt;Tamai&lt;/td&gt;&lt;td title="C3"&gt;II-2 (700-800)&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TTC14"&gt;Tamai-C14&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+&lt;p&gt;Translations from [[Schmidt KT 1974]]
+&lt;table class="table_lines"&gt;
+&lt;th&gt;Lines&lt;/th&gt;
+&lt;th&gt;Translation&lt;/th&gt;
+&lt;th&gt;Pages&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt;b4&lt;/td&gt;
+&lt;td&gt;&lt;span title="I will realize the wish of the Omniscient, which consists of doing good for whoever."&gt;Den Allerkennerwunsch werde ich verwirklichen, der darin besteht, wem auch immer Gutes zu tun.&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;458&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;b4&lt;/td&gt;
+&lt;td&gt;&lt;span title="... the wish for omniscience I will make come true, which consists in doing good to everyone ..."&gt;... den Wunsch nach der Allwisserschaft werde ich verwirklichen, der darin besteht, jedermann Gutes zu tun ...&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;135&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;</item>
+               <item n="ms_old">THT 401</item>
+               <item n="m_script_old">Classical</item>
+               <item n="edited_date_old">2018-07-30, 15:45:26 (CEST)</item>
+               <item n="m_expedition_old">T II S 19.16</item>
+               <item n="m_other_sigla_old">B 401, Bleistiftnummer 2008</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_metric_form_old">Both</item>
+               <item n="file_savedate_old">2018-07-30, 15:36:48 (CEST)</item>
+               <item n="file_name_old">pages/manuscript/THT_0001_0633/tht401.txt</item>
+               <item n="m_subgenre_old">Jātaka/Avadāna</item>
+               <item n="category_old">manuscript</item>
+               <item n="user_modified_old">bernhard</item>
+               <item n="user_created_old">automatic</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="created_date_old">2012-03-17, 18:50:12 (CET)</item>
+               <item n="m_findspot_old">Siŋgim</item>
+               <item n="access_old">public</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_lines_old">5</item>
+               <item n="file_location_old">pages/manuscript/THT_0001_0633/tht401.txt</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="version_old">2</item>
+               <item n="page_name_old">THT 401</item>
+               <item n="file_modified_old">1547291994</item>
+               <item n="file_created_old">1332006612</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 401" target="idp"&gt;THT 401&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/04/0401.htm" target="titus"&gt;THT 401&lt;/a&gt;&lt;br&gt;Edition: [[TochSprR(B) II]]: 267; &lt;br&gt;Translation: &lt;b&gt;b4&lt;/b&gt; [[Schmidt KT 1974]]: 135, 458; &lt;b&gt;b5&lt;/b&gt; [[Schmidt KT 1974]]: 262 n.3</item>
+               <item n="file_size_old">3 KB</item>
+               <item n="m_language_stage_old">Late</item>
+               <item n="m_transliteration_old">a1 – – – 4 || kāśya_p\ pañiktesa nyagrodhe ñ[e]mace oro[cce] ///
+a2 – ttare ñemase soyä\ kālyśke ṣey_mä\ nandipāleṃ pañikte [_k_a] ///
+a3 ñä\ ostameṃ latau dvādaśāṅkeṃ baud(dh)eṃ p(r)avacaṃ e ///
+b3 tumane (o)k yiltsa : 1 ṣesa kamts· – [_r](\) p[ār·] ///
+b4 poyśñe akā_l_k\ kyānama_r\ ket ra kartstse yamalñeṣṣe po ///
+b5 – – perpecce ñi_ś\ cālawa : kren_t\ pelaikneṣṣai ol[y]i ///</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328385;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328385;rotate=0;imageType=_M||THT 401 recto
+http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=327926;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=327926;rotate=0;imageType=_M||THT 401 verso</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;Alternative classifications:
+
+&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

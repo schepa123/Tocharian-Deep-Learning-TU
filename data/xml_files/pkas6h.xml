@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-pkas6h">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PK AS 6H</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Georges-Jean Pinault</name>
+            </respStmt>
+            <respStmt>
+               <resp>collaborator</resp>
+               <name>Melanie Malzahn</name>
+            </respStmt>
+            <respStmt>
+               <resp>collaborator</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <date when="2012-02">February 2012</date>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</repository>
+                  <idno>PK AS 6H</idno>
+                  <altIdentifier>
+                     <idno>Pelliot Koutchéen Ancienne Série 6H</idno>
+                  </altIdentifier>
+                  <msName>Udānālaṅkāra PK AS 6 etc.</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Udānālaṅkāra</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>8,2</height>
+                              <width>18</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <dimensions type="line_spacing">
+                              <height>1,3</height>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Duldur-Akhur</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical frg:ls-cetom-aberrant-None"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Doctrine</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f38.zoom"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f38.highres"/>
+            <graphic url="ASHuard/AS6Ha.png" height="1315px" width="2484px"/>
+            <line xml:id="lf"><zone>Lost</zone></line>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone><unclear>sa</unclear></zone><zone>wa</zone><zone>rñ<gap reason="par" unit="part"/></zone><zone>po</zone><zone>ṣa¯</zone><zone>¯ñ</zone><zone>śa</zone><zone>mnaṃ</zone><gap reason="par" quantity="1"/><zone>¯<unclear>S</unclear></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone><unclear>rw</unclear><gap reason="par" unit="part"/></zone><zone>lyñe</zone><zone><unclear>ṣṣ</unclear>e</zone><zone>pa</zone><zone>lska</zone><zone>LLA</zone><zone>ññe</zone><zone><unclear>po</unclear></zone><zone><unclear>l</unclear><gap reason="par" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone><unclear>i</unclear></zone><zone>ś<gap reason="par" unit="part"/></zone><zone>lm<gap reason="par" unit="part"/></zone><zone>ṣṣe</zone><space type="string_hole"/><zone>pa</zone><zone>lska</zone><zone>lyñe</zone><zone>no</zone><zone>ṣa¯</zone><zone>¯ñ</zone><zone>kl<unclear>ai</unclear></zone><zone>na</zone><gap reason="par" quantity="1"/><gap reason="plain" quantity="2"/><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><gap reason="par" quantity="1"/><zone>kla</zone><zone>ṣlyeṃ¯</zone><zone>¯tS</zone><zone>tai</zone><space type="string_hole"/><zone>kne</zone><zone>sa</zone><zone>ñi</zone><zone>MA</zone><zone><unclear>ske</unclear></zone><zone>ma</zone><zone>ne</zone><zone><unclear>ṣ</unclear><gap reason="par" unit="part"/></zone><zone>m<unclear>ā</unclear></zone><zone><unclear>n</unclear>i</zone><zone><unclear>:</unclear></zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><gap reason="lost"/><zone><unclear>st</unclear>a¯</zone><zone>¯K</zone><zone>MA</zone><zone>kte</zone><space type="string_hole"/><zone>au</zone><zone>spa</zone><zone>vi</zone><zone><unclear>ta</unclear></zone><zone><unclear>rka</unclear></zone><zone>nta</zone><zone>tSA</zone><zone><unclear>o</unclear></zone><gap reason="lost"/></line>
+            <line n="6" xml:id="a6"><gap reason="lost"/><zone><unclear>p</unclear><gap reason="par" unit="part"/></zone><zone>nTA<gap reason="plain" unit="part"/></zone><zone>mi</zone><zone>yä</zone><zone>st<unclear>s</unclear>i</zone><zone>śco</zone><zone>kau</zone><zone>ṣe</zone><zone>nta</zone><zone><unclear>n</unclear><gap reason="par" unit="part"/></zone><zone><unclear>ai</unclear></zone><zone>ś<gap reason="plain" unit="part"/></zone><zone>mñe</zone><zone>:</zone><zone>a</zone><gap reason="lost"/></line>
+            <line n="7" xml:id="a7"><gap reason="lost"/><zone>ṣṣa</zone><zone>wa</zone><zone>pro</zone><zone>skai</zone><zone>c<unclear>e</unclear>ṃ</zone><zone>meṃ</zone><zone>lkā</zone><zone>ṣṣe</zone><zone>ñca</zone><zone>:</zone><zone>MA</zone><zone>kte</zone><zone>ke</zone><zone><gap reason="plain" unit="part"/><unclear>i</unclear></zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f37.zoom"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f37.highres"/>
+            <graphic url="ASHuard/AS6Hb.png" height="1316px" width="2484px"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone><unclear>p</unclear>l<gap reason="par" unit="part"/></zone><zone>k<gap reason="par" unit="part"/></zone><zone>wa</zone><zone>skā</zone><zone><unclear>t</unclear>e</zone><zone><unclear>mā</unclear></zone><zone>rña</zone><zone><unclear>kte</unclear></zone><zone>tsa</zone><zone><unclear>w</unclear><gap reason="par" unit="part"/><gap reason="par" unit="part"/></zone><zone><unclear>cc</unclear><gap reason="par" unit="part"/></zone><zone>RA<gap reason="par" unit="part"/></zone><zone><unclear>k</unclear>r<gap reason="par" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone><gap reason="par" unit="part"/>ṣ<unclear>e</unclear></zone><zone>cä</zone><zone>mp<unclear>au</unclear></zone><zone>ne</zone><zone>PA¯</zone><zone>¯sT</zone><zone>yau</zone><zone>ka¯</zone><zone>¯ñ</zone><zone><unclear>y</unclear><gap reason="par" unit="part"/></zone><zone><unclear>ñcai</unclear></zone><zone><unclear>mai</unclear></zone><zone>yyā</zone><zone>tstsai</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>śai</zone><zone>ṣṣe</zone><zone>ke</zone><zone>TṢPA</zone><space type="string_hole"/><zone>sa</zone><zone>swe</zone><zone><unclear>ka</unclear></zone><zone><unclear>k</unclear><gap reason="par" unit="part"/>ai</zone><gap reason="par" quantity="1"/><zone>w<gap reason="plain" unit="part"/>e</zone><zone>ke</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><zone>kl<unclear>ā</unclear></zone><zone>te</zone><zone>śu</zone><zone>ddho</zone><space type="string_hole"/><zone>da</zone><zone>neṃ</zone><zone>la</zone><zone>nta</zone><zone>m<unclear>e</unclear></zone><zone><unclear>l</unclear><gap reason="plain" unit="part"/></zone><zone><gap reason="plain" unit="part"/>TA<gap reason="par" unit="part"/></zone><zone>s<unclear>ā</unclear></zone><zone><unclear>kt</unclear>e</zone><zone><unclear>k</unclear>e</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><gap reason="lost"/><zone><unclear>ra</unclear></zone><zone><unclear>au</unclear></zone><zone>s<gap reason="par" unit="part"/>a</zone><gap reason="plain" quantity="1"/><space type="string_hole"/><zone><unclear>n</unclear>ā</zone><zone>te</zone><zone>8</zone><zone><unclear>ḍi</unclear></zone><gap reason="plain" quantity="2"/><zone><unclear>ne</unclear></zone><zone><unclear>we</unclear></zone><gap reason="lost"/></line>
+            <line n="6" xml:id="b6"><gap reason="lost"/><zone><unclear>l</unclear><gap reason="plain" unit="part"/></zone><zone>śu</zone><zone>ddho</zone><zone>da</zone><zone>neṃ</zone><zone><unclear>l</unclear><gap reason="plain" unit="part"/><unclear>e</unclear></zone><gap reason="plain" quantity="4"/><gap reason="lost"/></line>
+            <line n="7" xml:id="b7"><gap reason="lost"/><zone>na</zone><zone>klai</zone><zone>na</zone><zone>wa</zone><gap reason="plain" quantity="1"/><zone>¯<unclear>R</unclear></zone><zone><unclear>pha</unclear></zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <fw type="leafNum" corresp="#lf">Lost</fw>
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><w>-sa</w><w>warñ<supplied>ai</supplied></w><w>po</w><w>ṣañ</w><w>śamnaṃ<supplied>t</supplied>s</w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><w>-rw<supplied>ā</supplied>lyñeṣṣe</w><w>palskalläññe</w><w>po</w><w>l<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><w>iś<supplied>e</supplied>lm<supplied>e</supplied>ṣṣe</w><w>palskalyñe</w><w>no</w><w>ṣañ</w><w>klaina<supplied>ṃts</supplied></w><gap reason="plain" quantity="2"/><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="lost"/><caesura ana="frg:cs-s"/><w><supplied>a</supplied>klaṣlyeṃts</w><w>taiknesa</w><caesura ana="frg:cs-s"/><w>ñi</w><w>mäskemane</w><w>ṣ<supplied>a</supplied>māni</w><pc>:</pc><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#a5"/><gap reason="lost"/><w><supplied>i</supplied>stak</w><w>mäkte</w><w>auspa</w><w>vitarkanta<supplied>ṃ</supplied>ts<surplus>ä</surplus></w><w>o<milestone unit="w" type="break"/></w><gap reason="lost"/>
+<lb corresp="#a6"/><gap reason="lost"/><w>p<supplied>o</supplied>ntä<supplied>ṃ</supplied></w><w>miyästsiśco</w><caesura ana="frg:cs-s"/><w>kauṣenta</w><w>n<supplied>o</supplied></w><w>aiś<supplied>a</supplied>mñe</w><pc>:</pc><w>a<milestone unit="w" type="break"/></w><gap reason="lost"/>
+<lb corresp="#a7"/><gap reason="lost"/><w>-ṣṣawa</w><w>proskai</w><w>ceṃmeṃ</w><w>lkāṣṣeñca</w><pc>:</pc><w>mäkte</w><w>ke<gap reason="plain" unit="part"/>i</w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>pl<gap reason="plain" unit="part"/>k<gap reason="plain" unit="part"/></w><w>waskāte</w><w>mār-ñ<choice><orig>a</orig><corr>ä</corr></choice>kte</w><w>tsa</w><w>w<supplied>ro</supplied>cc<supplied>e</supplied></w><w>rä<supplied>s</supplied>kr<supplied>e</supplied></w><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>ṣe</w><w>cämpau-ne</w><w>päst</w><w>yaukañ</w><w>y<supplied>ne</supplied>ñcai</w><w>maiyyātstsai</w><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>śaiṣṣe</w><w>ket</w><w>ṣpä</w><w>saswe</w><w>ka</w><w>k<supplied>l</supplied>ai<supplied>na</supplied></w><w>w<gap reason="plain" unit="part"/>e</w><w>ke</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b4"/><gap reason="lost"/><w>klāte</w><w>śuddhodaneṃ</w><w>lantame<supplied>ṃ</supplied></w><w>l<supplied>ān</supplied>tä<supplied>ṃt</supplied>s</w><w>ākteke</w><gap reason="lost"/>
+<lb corresp="#b5"/><gap reason="lost"/><w>ra</w><w>aus<supplied>p</supplied>a</w><gap reason="plain" quantity="1"/><w>nāte</w><num value="8">8</num><w>ḍi<supplied>ṇḍim</supplied></w><w>newe</w><gap reason="lost"/>
+<lb corresp="#b6"/><gap reason="lost"/><w>-l<gap reason="plain" unit="part"/></w><w>śuddhodaneṃ</w><w>l<gap reason="plain" unit="part"/>e</w><gap reason="plain" quantity="4"/><gap reason="lost"/>
+<lb corresp="#b7"/><gap reason="lost"/><w>-na</w><w>klaina</w><w>wa</w><gap reason="plain" quantity="1"/><w>r</w><w>pha<milestone unit="w" type="break"/></w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">... of all companions beginning with ...</seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">... the thinking concerning (urging/comfort?) completely ...</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">... but the thinking concerning desire (of?) the own women ...</seg></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl">... for me the monks [are] becoming ... in the manner of pupil. ...</seg></seg></choice><choice corresp="#a5"><seg><seg type="prim_transl">... suddenly; exactly like ... of the speculations ...</seg></seg></choice><choice corresp="#a6"><seg><seg type="prim_transl">... but the knowledge [is] the killer in order to hurt all ...</seg></seg></choice><choice corresp="#a7"><seg><seg type="prim_transl">... I did ... seeing the fear [triggered] by these ones; as the ...</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">... trembled. The lord Māra indeed ... the big, violant [ob.sg]</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">... I am able ... with (?) ... provided with strength, going away ...</seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl">... and the world of which, the master precisely ... the women ...</seg></seg></choice><choice corresp="#b4"><seg><seg type="prim_transl">... was led from the king (of kings) Śuddhodana, ... marvellous[ly] ...</seg></seg></choice><choice corresp="#b5"><seg><seg type="prim_transl">... truely he did ... 8. The sound of the dr(um) ...</seg></seg></choice><choice corresp="#b6"><seg><seg type="prim_transl">... (king) Śuddhodana ...</seg></seg></choice><choice corresp="#b7"><seg><seg type="prim_transl">... the women ...</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="philcomment">The meter is unclear, but seems to consists (at least partly) of seven-syllable cola.</note><note corresp="#a2" type="philcomment">There are only two roots known ending in -<hi>rw</hi>: <hi>wārw<hi rend="superscript">ā</hi></hi>- "to urge oneself" and <hi>tsārw<hi rend="superscript">ā</hi></hi>- "to be comforted", so that one can either restore <hi>(wa)rw(ā)lyñeṣṣ</hi>e "pertaining to urging" or <hi>(tsa)rw(ā)lyñeṣṣe</hi> "pertaining to comforting".</note><note corresp="#a7" type="philcomment"><hi>ṣṣawa</hi> is no doubt the end of a 1.sg.act. Pt IV form.</note><note corresp="#b2" type="philcomment"><hi>yaukañ</hi> can hardly be a verbal form of <hi>yaukk<hi rend="superscript">ā</hi></hi>- "to use"; maybe this hapax is a causal of a noun <hi>yauk</hi>* or an adverb modifying <hi>yneñca</hi> "going".</note><note corresp="#b5" type="philcomment">The reading after the number is difficult, but the first akṣara quite clearly seems to be ‹ḍi›; since <hi>newe</hi> "roaring" is used with respect to the sound of drums in other passages, one may restore a form <hi>ḍiṇḍim</hi> from Skt. <hi>ḍiṇḍima</hi>- "a kind of drum; clamour".</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>other</label>Yet unedited.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old"/>
+               <item n="m_other_sigla_old">Pelliot Koutchéen Ancienne Série 6H</item>
+               <item n="m_expedition_old"/>
+               <item n="m_size_w_old">18</item>
+               <item n="m_parallels_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="project_comment_old"/>
+               <item n="ms_old">PK AS 6H</item>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_title_old">Udānālaṅkāra</item>
+               <item n="m_transcription_old">a1 /// -sa warñ(ai) po ṣañ śāmnaṃts|śamnaṃ(t)s ///
+a2 /// -rw(ā)lyñeṣṣe palskalñe|palskalläññe po l(·) ///
+a3 /// yśelmeṣṣe|iś(e)lm(e)ṣṣe palskalñe|palskalyñe no ṣañ klaina(ṃts) – – ///
+a4 /// ; akalṣälyeṃts|(a)klaṣlyeṃts te-yäknesa|taiknesa ; ñi mäskemane ṣ(a)māni : – ///
+a5 /// (i)stak mäkte auspa vitarkanta(ṃ)ts o- ///
+a6 /// p(o)ntä(ṃ) miyästsiśc|miyästsiśco ; kauṣenta n(o) aiś(a)mñe : a- ///
+a7 /// -ṣṣawa proskai ceṃmeṃ lkāṣṣeñca : mäkte ke·i ///
+b1 /// – pl(·)k(·) waskāte mār-ñ{ä}kte tsa orocce|w(ro)cc(e) räskare|rä(s)kr(e) ///
+b2 /// (·)ṣe cämpau-ne päst yaukañ y(ne)ñcai maiyyātstsai ///
+b3 /// – śaiṣṣe ket ṣpä saswe ka k(l)ai(na) w·e ke – ///
+b4 /// klāte śuddhodaneṃ lantame(ṃ) l(ān)tä(ṃt)s ākteke ///
+b5 /// ra aus(p)a – nāte 8 ḍi(ṇḍim) newe ///
+b6 /// -l· śuddhodaneṃ l·e – – – – ///
+b7 /// -na klaina wa – r pha- ///</item>
+               <item n="m_leaf_old">Lost</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="user_created_old">theres</item>
+               <item n="user_modified_old">bernhard</item>
+               <item n="m_prev_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old">None</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_translation_old">a1 ... of all companions beginning with ...
+a2 ... the thinking concerning (urging/comfort?) completely ...
+a3 ... but the thinking concerning desire (of?) the own women ...
+a4 ... for me the monks [are] becoming ... in the manner of pupil. ...
+a5 ... suddenly; exactly like ... of the speculations ...
+a6 ... but the knowledge [is] the killer in order to hurt all ...
+a7 ... I did ... seeing the fear [triggered] by these ones; as the ...
+b1 ... trembled. The lord Māra indeed ... the big, violant [ob.sg]
+b2 ... I am able ... with (?) ... provided with strength, going away ...
+b3 ... and the world of which, the master precisely ... the women ...
+b4 ... was led from the king (of kings) Śuddhodana, ... marvellous[ly] ...
+b5 ... truely he did ... 8. The sound of the dr(um) ...
+b6 ... (king) Śuddhodana ...
+b7 ... the women ...</item>
+               <item n="m_subgenre_old">Doctrine</item>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Verse</item>
+               <item n="project_check_old"/>
+               <item n="file_location_old">pages/manuscript/PK_AS/pkas6h.txt</item>
+               <item n="m_lines_old">7</item>
+               <item n="m_collection_old">Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</item>
+               <item n="access_old">public</item>
+               <item n="m_completeness_old"/>
+               <item n="m_linedistance_old">1,3</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Duldur-Akhur</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_image_old">http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f38.zoom|http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f38.highres||$page; recto|transform:rotate(180deg);
+http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f37.zoom|http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f37.highres||$page; verso</item>
+               <item n="date_publication_old">February 2012</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_transliteration_old">a1 /// [sa] warñ(·) po ṣañ\ śamnaṃ(–)[_s]\ ///
+a2 /// [rw](·)lyñe[ṣṣ]e palska_l_l_aññe [po l](·) ///
+a3 /// [i]ś(·)lm(·)ṣṣe ○ palskalyñe no ṣañ\ kl[ai]na (–) – – ///
+a4 /// (–)klaṣlyeṃt_s\ tai○knesa ñi _m_a[ske]mane [ṣ](·)m[ān]i [:] – ///
+a5 /// [st]a_k\ _m_akte ○ auspa vi[tarka]ntat_s(\) [o] ///
+a6 /// [p](·)n_t_a(ṃ) miyäst[s]iśco kauṣenta [n](·) [ai]ś·mñe : a ///
+a7 /// ṣṣawa proskai c[e]ṃmeṃ lkāṣṣeñca : _m_akte ke·[i] ///
+b1 /// – [p]l(·)k(·) waskā[t]e [mā]r-ña[kte] tsa [w](··)[cc](·) _r_a(·)[k]r(·) ///
+b2 /// (·)ṣ[e] cämp[au]-ne _p_as_t\ yaukañ\ [y](·)[ñcai mai]yyātstsai ///
+b3 /// – śaiṣṣe ke_t _ṣ_p_a ○ saswe [ka] [k](·)ai(–) w·e ke – ///
+b4 /// kl[ā]te śuddho○daneṃ lantam[e] [l]· ·_t_a(·)s [ākt]e[k]e ///
+b5 /// [ra au]s(·)a – ○[n]āte 8 [ḍi] – – [newe] ///
+b6 /// [l]· śuddhodaneṃ [l]·[e] – – – – ///
+b7 /// na klaina wa – [_r]\ [pha] ///</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old">Udānālaṅkāra PK AS 6 etc.</item>
+               <item n="m_bib_old">Yet unedited.</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old">8,2</item>
+               <item n="file_created_old">1322139799</item>
+               <item n="file_modified_old">1533718061</item>
+               <item n="m_philcomment_old">&lt;p&gt;The meter is unclear, but seems to consists (at least partly) of seven-syllable cola.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a2.&lt;/b&gt; There are only two roots known ending in -&lt;i&gt;rw&lt;/i&gt;: &lt;i&gt;wārw&lt;sup&gt;ā&lt;/sup&gt;&lt;/i&gt;- "to urge oneself" and &lt;i&gt;tsārw&lt;sup&gt;ā&lt;/sup&gt;&lt;/i&gt;- "to be comforted", so that one can either restore &lt;i&gt;(wa)rw(ā)lyñeṣṣ&lt;/i&gt;e "pertaining to urging" or &lt;i&gt;(tsa)rw(ā)lyñeṣṣe&lt;/i&gt; "pertaining to comforting".&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a7.&lt;/b&gt; &lt;i&gt;ṣṣawa&lt;/i&gt; is no doubt the end of a 1.sg.act. Pt IV form.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b2.&lt;/b&gt; &lt;i&gt;yaukañ&lt;/i&gt; can hardly be a verbal form of &lt;i&gt;yaukk&lt;sup&gt;ā&lt;/sup&gt;&lt;/i&gt;- "to use"; maybe this hapax is a causal of a noun &lt;i&gt;yauk&lt;/i&gt;* or an adverb modifying &lt;i&gt;yneñca&lt;/i&gt; "going".&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b5.&lt;/b&gt; The reading after the number is difficult, but the first akṣara quite clearly seems to be ‹ḍi›; since &lt;i&gt;newe&lt;/i&gt; "roaring" is used with respect to the sound of drums in other passages, one may restore a form &lt;i&gt;ḍiṇḍim&lt;/i&gt; from Skt. &lt;i&gt;ḍiṇḍima&lt;/i&gt;- "a kind of drum; clamour".&lt;/p&gt;</item>
+               <item n="m_passage_old"/>
+               <item n="m_editor_old">Georges-Jean Pinault (in collaboration with Melanie Malzahn, Michaël Peyrot)</item>
+               <item n="m_material_old">Ink on paper</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

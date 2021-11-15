@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht500">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 500-502</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Melanie Malzahn</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <date when="2014-09-11">11.09.2014</date>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 500-502</idno>
+                  <altIdentifier>
+                     <idno>THT 500</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>THT 501</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>THT 502</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>pencil no. 2346</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>2347</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Treatment of eye diseases</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Scroll</objectType>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">12+</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Yar-khoto</region>during <rs type="expedition_code">T II Y 3.1, T II Y 3.2, T II Y 3.3</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="txb" ana="frg:ls-cetom-late frg:ls-cetom-aberrant-None frg:ls-tamai-C4 frg:ls-C14"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Medicine/Magic</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="verso">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=389094;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=389094;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="b1"><gap reason="par" quantity="7"/><zone>bhi</zone><zone>jñe</zone><zone>:</zone><zone>a</zone><zone>śo</zone><zone>ke</zone><zone>lā</zone><zone>nt<gap reason="par" unit="part"/></zone><gap reason="par" quantity="11"/></line>
+            <line n="2" xml:id="b2"><gap reason="par" quantity="7"/><gap reason="plain" quantity="1"/><zone>na</zone><zone>te</zone><zone>ka</zone><zone>nma</zone><zone>ne</zone><zone>ka</zone><zone>rtse</zone><zone>:</zone><zone>॥</zone><zone>wa</zone><gap reason="plain" quantity="1"/><gap reason="par" quantity="10"/></line>
+            <line n="3" xml:id="b3"><gap reason="par" quantity="14"/><zone><gap reason="plain" unit="part"/>ai</zone><zone><unclear>:</unclear></zone><zone>ka</zone><zone>ṣu</zone><gap reason="plain" quantity="1"/><gap reason="par" quantity="10"/></line>
+            <line n="4" xml:id="b4"><gap reason="par" quantity="2"/><zone><unclear>KA</unclear></zone><zone>lle</zone><zone>e</zone><zone>śa</zone><zone>ñe</zone><zone>ne</zone><zone>ya</zone><zone>ma</zone><zone>ṣle</zone><zone>ce</zone><zone>kr<unclear>ā</unclear></zone><zone>ntsa</zone><zone>na</zone><zone>sai</zone><zone>tya</zone><zone><unclear>ma</unclear></zone><gap reason="par" quantity="10"/></line>
+            <line n="5" xml:id="b5"><gap reason="par" quantity="1"/><zone>jā</zone><zone>ya</zone><zone>ta</zone><zone>thā</zone><zone>ga</zone><zone>tā</zone><zone>yā</zone><zone>•</zone><zone>rha</zone><zone>te</zone><zone>sa</zone><zone>mya</zone><zone>ksa</zone><zone>mbu</zone><zone>ddhā</zone><gap reason="par" quantity="3"/><zone>ta</zone><zone>dya</zone><zone>thā</zone><zone>ca</zone><zone>kṣu</zone><zone>jñā</zone><zone>na</zone><zone>ca</zone><zone>kṣu</zone></line>
+            <line n="6" xml:id="b6"><zone>vi</zone><zone>śo</zone><zone>dha</zone><zone>nā</zone><zone>ya</zone><zone>svā</zone><zone>ha</zone><gap reason="plain" quantity="1"/><zone>॥</zone><zone>ña</zone><zone>ke</zone><zone><unclear>ma</unclear></zone><zone>hā</zone><zone><del>vai</del></zone><zone><del>ryo</del></zone><zone><del>ca</del></zone><zone><del>ṇi</del></zone><zone>॥</zone><gap reason="par" quantity="1"/><zone>hā</zone><zone>vai</zone><zone>dye</zone><zone>hi¯</zone><zone>¯K∘</zone><zone>ṣa</zone><zone>lpe</zone><zone>we</zone><zone>ñau</zone><zone>po</zone></line>
+            <line n="7" xml:id="b7"><gap reason="par" quantity="1"/><zone>śa</zone><zone>ñe</zone><zone>ṣa</zone><zone>na</zone><zone>•</zone><zone>te</zone><zone>ka</zone><zone>nma</zone><zone>ne</zone><zone>ka</zone><zone>rtse</zone><zone>•</zone><zone>mra</zone><zone>ñco</zone><zone>pi</zone><zone>pā¯</zone><zone>¯L∘</zone><zone>tvā</zone><gap reason="par" quantity="2"/><zone>ji</zone><zone>va</zone><zone>nti</zone><zone>pi</zone><zone>sau</zone><zone>•</zone><zone>wa</zone><zone>sto</zone><zone>yä</zone></line>
+            <line n="8" xml:id="b8"><gap reason="par" quantity="2"/><zone>r<unclear>p</unclear>e</zone><zone>ñca</zone><zone>ṣṣe</zone><zone>tā</zone><zone>no</zone><zone>•</zone><zone>u</zone><zone>śi¯</zone><zone>¯R∘</zone><zone>•</zone><zone>ca</zone><zone>ndāṃ</zone><zone>yā</zone><zone>sta</zone><zone>ci</zone><gap reason="par" quantity="3"/><zone>a</zone><zone>ri</zone><zone>rā¯</zone><zone>¯K∘</zone><zone>wi</zone><zone>pi</zone><zone>tā¯</zone><zone>¯K∘</zone><zone>a</zone></line>
+            <line n="9" xml:id="b9"><gap reason="par" quantity="2"/><zone><unclear>K</unclear>A</zone><zone>•</zone><zone>śkwi</zone><zone>śko</zone><zone>•</zone><zone>sā</zone><zone>la</zone><zone>pa</zone><zone>rṇi</zone><zone>•</zone><zone>prä</zone><zone>śna</zone><zone>pa</zone><zone>rṇi</zone><zone>•</zone><gap reason="par" quantity="1"/><gap reason="plain" quantity="1"/><zone>ti</zone><zone>•</zone><zone>ga</zone><zone>ndha</zone><zone>kā</zone><zone>ri</zone><zone>klyo</zone><zone>ta¯</zone><zone>¯ñä</zone><zone>e</zone><zone>śpe</zone></line>
+            <line n="10" xml:id="b10"><zone>ṣṣe</zone><zone>ma</zone><zone>hā</zone><zone>me¯</zone><zone>¯T∘</zone><zone>•</zone><zone>me¯</zone><zone>¯T∘</zone><zone>•</zone><zone>kā</zone><zone>ko</zone><zone>ṭi</zone><zone>kṣi</zone><zone>ra</zone><zone>kā</zone><zone>ko</zone><zone><unclear>ṭi</unclear></zone><gap reason="plain" quantity="1"/><zone>ji</zone><zone>va¯</zone><zone>¯K∘</zone><zone>rṣa</zone><zone>bha¯</zone><zone>¯K∘</zone><zone>ā</zone><zone><unclear>t</unclear>ma</zone><zone>gu</zone><zone>pti</zone><zone>•</zone></line>
+            <line n="11" xml:id="b11"><zone>pa</zone><zone>lā</zone><zone>ṣṣai</zone><zone>wtsi</zone><zone>ko</zone><zone>e</zone><zone>nme</zone><zone>t<unclear>r</unclear>e</zone><zone>•</zone><zone>rā</zone><zone>s<unclear>n</unclear>ā</zone><zone>pe</zone><zone>pa</zone><zone>rṣṣa</zone><zone>wi</zone><gap reason="par" quantity="2"/><zone><unclear>u</unclear></zone><zone>pā¯</zone><zone>¯L∘</zone><zone>ṣa</zone><zone>wi</zone><zone>tsa</zone><zone>ko</zone><zone>•</zone><zone>tā</zone><zone>li¯</zone><zone>¯S∘</zone></line>
+            <line n="12" xml:id="b12"><gap reason="lost"/><zone><gap reason="par" unit="part"/><unclear>ā</unclear></zone><gap reason="par" quantity="1"/><zone><gap reason="par" unit="part"/>i</zone><zone><unclear>ts</unclear>a</zone><zone>ko</zone><zone>to</zone><zone>yna</zone><zone>saṃ</zone><zone>tke</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#b1"/><gap reason="plain" quantity="7"/><w><supplied>a</supplied>bhijñe</w><pc>:</pc><w>aśoke</w><w>lānt<gap reason="plain" unit="part"/></w><gap reason="plain" quantity="11"/>
+<lb corresp="#b2"/><gap reason="plain" quantity="8"/><w>-na</w><w>tekanmane</w><w>kartse</w><pc>:</pc><pc>॥</pc><w>wa<milestone unit="w" type="break"/></w><gap reason="plain" quantity="11"/>
+<lb corresp="#b3"/><gap reason="plain" quantity="14"/><w><gap reason="plain" unit="part"/>ai</w><pc>:</pc><w>kaṣu</w><gap reason="plain" quantity="11"/>
+<lb corresp="#b4"/><gap reason="plain" quantity="2"/><w>källe</w><w>eśañene</w><w>yamaṣle</w><w>ce</w><w>krāntsa</w><w>nasait</w><w>yama<supplied>ṣle</supplied></w><gap reason="plain" quantity="9"/>
+<lb corresp="#b5"/><gap reason="plain" quantity="1"/><w>-jāya</w><w>tathāgatāyā</w><pc>•</pc><w>rhate</w><w>samyaksambuddhā</w><gap reason="plain" quantity="3"/><w>tadyathā</w><w>cakṣujñāna</w><w>cakṣu</w>
+<lb corresp="#b6"/><w>viśodhanāya</w><w>svāha</w><gap reason="plain" quantity="1"/><pc>॥</pc><w>ñake</w><w><surplus>mahā</surplus></w><pc><surplus>॥</surplus></pc><w><supplied>ma</supplied>hāvaidyehik</w><pc><add>॥</add></pc><w>ṣalpe</w><w>weñau</w><w>po</w>
+<lb corresp="#b7"/><w><supplied>e</supplied>śañeṣana</w><pc>•</pc><w>tekanmane</w><w>kartse</w><pc>•</pc><w>mrañco</w><w>pipāl</w><w>tvā<supplied>ṅkaro</supplied></w><w>jivanti</w><w>pisau</w><pc>•</pc>
+<w>wasto-yä<lb corresp="#b8"/><supplied>kne</supplied></w><gap reason="plain" quantity="2"/><w>rpeñcaṣṣe</w><w>tāno</w><pc>•</pc><w>uśir</w><pc>•</pc><w>candāṃ</w><w>yāstaci</w><gap reason="plain" quantity="3"/><w>arirāk</w><w>wipitāk</w>
+<w>a<lb corresp="#b9"/><supplied>malā</supplied>k<surplus>ä</surplus></w><pc>•</pc><w>śkwiśko</w><pc>•</pc><w>sālaparṇi</w><pc>•</pc><w>präśnaparṇi</w><pc>•</pc><w><supplied>praha</supplied>ti</w><pc>•</pc><w>gandhakāri</w><w>klyotañ</w>
+<w>eśpe<lb corresp="#b10"/>ṣṣe</w><w>mahāmet</w><pc>•</pc><w>met</w><pc>•</pc><w>kākoṭi</w><w>kṣirakākoṭi</w><pc><supplied>•</supplied></pc><w>jivak</w><w>rṣabhak</w><w>ātmagupti</w><pc>•</pc>
+<lb corresp="#b11"/><w>palāṣṣai</w><w>wtsiko</w><w>enmetre</w><pc>•</pc><w>rāsnā</w><w>peparṣṣa</w><w>wi<supplied>tsako</supplied></w><w>upālṣa</w><w>witsako</w><pc>•</pc><w>tālis</w>
+<lb corresp="#b12"/><w><supplied>pattär</supplied></w><gap reason="lost"/><w><gap reason="plain" unit="part"/>ā</w><w><supplied>bal</supplied></w><w><supplied>w</supplied>itsako</w><w>toyna</w>
+<w>saṃtke<lb/><supplied>nta</supplied></w></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#b1"><seg><seg type="prim_transl">... [supernatural] knowledge . (To) King Aśoka ...</seg></seg></choice><choice corresp="#b10"><seg><seg type="prim_transl">Polygonatum cirrhifolium; Polygonatum verticillatum; Roscoea procera, Lilium polyphyllum; Microstylis wallichii, Microstylis muscifera, Mucuna prurita;</seg></seg></choice><choice corresp="#b11"><seg><seg type="prim_transl">root of Pavonia odorata (?), ..., Vanda roxburghii, root of Nardostachys Jatamansi (?), root of lotus; Pinus (webbiana)</seg></seg></choice><choice corresp="#b12"><seg><seg type="prim_transl">(Rubia cordifolia, grape, blue water-lily,) root (of Sida spinosa). These remedie(s) ...</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">... [it is] good in diseases pertaining to ...  </seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl">... Costus speciousus ...</seg></seg></choice><choice corresp="#b4"><seg><seg type="prim_transl">... has to be ... [and] has to be made into the eyes. On this bond a spell has to be cast. ...</seg></seg></choice><choice corresp="#b5"><seg><seg type="prim_transl"><hi>Sanskrit</hi></seg></seg></choice><choice corresp="#b6"><seg><seg type="prim_transl"><hi>Sanskrit</hi> Now [about the fatty salve called] mahāvaidehik: I will tell the salve for all</seg></seg></choice><choice corresp="#b7"><seg><seg type="prim_transl">[diseases] concerning the eyes; in [theses] diseases [it is] good. [The formula contains]: 	Piper nigrum, Piper longum, ginger, heart-heaved moonseed, aneth; seed </seg></seg></choice><choice corresp="#b8"><seg><seg type="prim_transl">of the two [Indian Sarsaparilla] of both kinds; vetiver; sandalwood, junipe [or: Wild Himalayan cherry] (root/bark), [the <hi>triphalā</hi> formula consisting of] Yellow myrobalan, Bastard myrobalan, [and]</seg></seg></choice><choice corresp="#b9"><seg><seg type="prim_transl">Indian gooseberry; Berberis aristata; Desmodium Gangeticum; Uraria lagopoides; Indian nightshade; Solanum xanthocarpum, caltrop, [root] of Boerhavia diffusa</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="lingcomment">The text has several late/colloquial spellings. The palatalized <hi>ñ</hi> in <hi>eśañene</hi>° (lines <ref type="ms" target="#b4"/> and <ref type="ms" target="#b7"/>) is part of a tendency for late palatalization of <hi>n</hi> in several contexts, e.g., before <hi>i</hi> (see <bibl><title corresp="ref:peyrot2008"/><citedRange>90-91</citedRange></bibl>). If the spelling <hi>ṣalpe</hi> for <hi>ṣalype</hi> is not a mere error, it may then be interpreted as a hypercorrect form. Like in other late manuscripts, there are also some wrong vowels (<hi>śkwiśko</hi> for <hi>śkwaśko</hi> in line <ref type="ms" target="#b9"/>). 
+Note further the wrong agreement of the masculine adj. in -<hi>ṣṣe</hi> with the fem. <hi>tāno</hi> in <ref type="ms" target="#b8"/> and of the oblique feminine adj. in -<hi>ṣṣai</hi> with the fem.nom. <hi>witsako</hi> in <ref type="ms" target="#b11"/>.</note><note type="parallels">Sanskrit/Khotanese Jīvapustaka <ref target="http://idp.bl.uk/database/oo_scroll_h.a4d?uid=1173084748;recnum=55471;index=3" type="external">IOL Khot 91/3</ref></note><note type="philcomment">The edition is based on <bibl><title corresp="ref:maue1990"/></bibl>, who also gives a normalized version of the corrupt text found in the Jīvapustaka; the Khotanese parallel has been edited and translated by <bibl><title corresp="ref:konow1941"/><citedRange>24-25</citedRange></bibl>.</note><note type="remarks">Written on the verso side of a Chinese scroll containing Aṣṭādasasāhasrikā Prajñāpāramitā (Taisho 224 = 8, 465c, 11–25). Tocharian text identification and joint of THT 500 and THT 501 according to <bibl><title corresp="ref:maue1990"/></bibl>. According to the restoration of the leaf by the BBAW, the third fragment THT 502 further joins THT 500 on the top. 
+The script type is basically the classical one, although more clumsy than in regular literary manuscripts.</note><note corresp="#b1" type="philcomment">Since the mere oblique form <hi>lānt</hi> ought to be spelled with virāma, the most likely restoration is an allative <hi>lānt(aśc)</hi>.</note><note corresp="#b10" type="philcomment">These six plants are part of the aṣṭavarga formula, see <bibl><title corresp="ref:maue1990"/><citedRange>163, fn. 41</citedRange></bibl>; however, <hi>ṛddhi</hi>- 'Habenaria edgeworthii' and <hi>vṛddhi</hi>- 'Habenaria intermedia D.Don' seem substituted by <hi>ātmagupti</hi> 'Mucuna prurita' and the following plant.</note><note corresp="#b11" type="philcomment"><hi>palāṣṣai wtsako</hi> is another substitution for  <hi>ṛddhi</hi>- 'Habenaria edgeworthii' or <hi>vṛddhi</hi>- 'Habenaria intermedia D.Don'. In the Sanskrit version one has <hi>bāla</hi> or <hi>bālā</hi>, which can refer to several plants, but not to the one found in the Khotanese version, i.e. <hi>bela</hi> 'Aegle marmelos, Beal tree' (= Skt. <hi>bilva</hi>- = TB <w lemmaRef="B_pil"/>; see <bibl><title corresp="ref:maue1990"/><citedRange>163, fn. 43</citedRange></bibl>. As Maue points out, Skt. <hi>balā</hi> 'Sida cordifolia' = Khot. <hi>sacha-bāva</hi> listed later in the parallel formula can hardly refer to the same plant as well, so Maue himself interprets Skt. <hi>bāla/ā</hi> in this passage as 'Pavonia ordorata Willd.'; note that its Khotanese equivalent is <hi>bilva</hi>. While <bibl><title corresp="ref:adams2013a"/><citedRange>92</citedRange></bibl> sub <hi>enmetre</hi> certainly correctly notes that "there is potential for some confusion in translation here", I do not follow his suggestion that <hi>enmetre</hi> belongs to the same phrase "the <hi>enmetre</hi> of the <hi>pāla</hi>-root" (interpreted as "bark", i.e. "the root-bark of pāla") because this is morphologically improbable (even if the agreement between <hi>palāṣṣai</hi> and <hi>wtsiko</hi> is wrong). To be sure, since there has no doubt been some confusion as to which ingredient is correct as eigth component of the aṣṭavarga formula, I would not exclude the possibility that <hi>enmetre</hi> is simply an added ingredient even thought it cannot be found in the Jīvapustaka parallel. Note that further in the line the two versions do slightly differ.</note><note corresp="#b11" type="philcomment">The parallel for <hi>pepar</hi>* are Skt. <hi>nalada</hi>- and Khot. <hi>svarnagūttaryaṃ būśanai</hi>; <hi>nalada</hi> or <hi>naladā</hi> refers to the musk-root plant [Nardostachys Jatamansi] (thus the interpretation of <bibl><title corresp="ref:maue1990"/><citedRange>164</citedRange></bibl>. fn. 47) or to a variety of vetiver grass [Vetiveria zizanioides = Andropogon muricatus Retz.] (thus the interpretation of <bibl><title corresp="ref:filliozat1948"/><citedRange>125</citedRange></bibl> s.v. <hi>nalat</hi>).</note><note corresp="#b11" type="philcomment">As <bibl><title corresp="ref:maue1990"/><citedRange>164, fn. 48</citedRange></bibl> points out, both versions differ: Skt. <hi>padmakesara</hi>- and Khot. <hi>padmakyesärä</hi> refer to the filament (and not to the root) of the <hi>padma</hi>-plant [Nelumbo nucifera] (and not of the <hi>utpala</hi>-plant [Nymphaea stellata]; to be sure, etymologically TB <hi>uppāl</hi> is derived from Skt. <hi>utpala</hi>- "Blue Water-lily" [Nymphaea stellata] (which is actually listed later, in the unattested part of the Jīvapustaka), but it can refer to <hi>padma</hi>-plant also in other Tocharian passages.</note><note corresp="#b11" type="philcomment">Restoration <hi>tālis (pattär)</hi> according to <bibl><title corresp="ref:maue1990"/><citedRange>164</citedRange></bibl>; the parallel has Skt. <hi>tālispattra</hi> and Khot. <hi>ttālīspattra</hi>. Skt. <hi>tālīśapattra</hi>- refers to the <hi>Indian Silver Fir</hi> [Pinus webbiana Wall.] (not to the <hi>Indian plum</hi> = Skt. <hi>tālīśa</hi>-, as per <bibl><title corresp="ref:adams2013a"/><citedRange>304</citedRange></bibl>). Note that <hi>tālis</hi> is written with virāma; a calque is also possible.</note><note corresp="#b12" type="philcomment">16-17 syllables are missing at the beginning of the line; accordingly, <hi>(w)itsako</hi> could very well refer to the last ingredient of the formula, Skt. <hi>balā</hi> (for <hi>nāgabalā</hi> 'Sida spinosa', Khot. <hi>sacha-bāva</hi> 'root of Sida cordifolia', as per <bibl><title corresp="ref:maue1990"/><citedRange>164</citedRange></bibl>. Restoring (ba<hi rend="underline">l</hi>\) seems possible to me.</note><note corresp="#b2" type="philcomment">-<hi>na</hi> is certainly the end of a plural adjective modifying <hi>tekanma</hi> ‘diseases'.</note><note corresp="#b4" type="philcomment">-<hi>källe</hi> is a gerund from a root ending in -<hi>k</hi>; note that a restoration -<hi>(ṅ)källe</hi> or -<hi>(r)källe</hi> is also possible.</note><note corresp="#b4" type="philcomment">For <hi>ce krāntsa nasait yama(ṣle)</hi> cf. BHS <hi>grantha-dharaṇī</hi> 'D. belonging to binding'; see <bibl><title corresp="ref:edgerton1953"/><citedRange>284b</citedRange></bibl>.</note><note corresp="#b6" type="philcomment">The akṣaras <hi>hāvairyocaṇ</hi> of the chapter title <hi>mahāvairyocaṇi</hi> have been deleted by the scribe with several small vertikal strokes, the correct title <hi>(ma)hāvaidyehik</hi> follows, as restored by Sieg/Siegling.</note><note corresp="#b7" type="philcomment"><bibl><title corresp="ref:maue1990"/><citedRange>161, fn. 23</citedRange></bibl> points out that TB <hi>pissau</hi> 'aneth' does not conform to the Sanskrit/Khotanese version where we have Skt. <hi>madhuka</hi>- 'liquorice'. According to Maue, the Tocharian scribe may have confused this word with Skt. <hi>madhurikā</hi>- which can refer both to 'fennel' and 'aneth'.</note><note corresp="#b8" type="philcomment">According to the Sanskrit and Khotanese parallel, the seed in question is that of the two sorts of Skt. <hi>śārivā</hi> ‘Indian Sarsaparilla [Hemidesmus indicus]', see <bibl><title corresp="ref:maue1990"/><citedRange>162</citedRange></bibl> with fn.s 27 and 28. Even though Skt. <hi>śārivā</hi> is attested otherwise as TB <w lemmaRef="B_śārip"/>, this form cannot be restored here despite the relatively certain reading of <hi>r[p]</hi>. Nevertheless, it is quite certain that the same plant is meant since the dual <hi>śārivā</hi> is translated twice: by the adverb and by a dual ending -<hi>ñc</hi>, onto which the -<hi>ṣṣe</hi>-adjective is built (cf. the type <hi>lakṣānäñc</hi> ‘two lakṣaṇas'). As dual of <hi>śārip</hi> one would expect <hi>śāripäñc</hi>. As for <hi>yāstaci</hi>, the Sanskrit formula has <hi>padmaka</hi>- 'Wild Himalayan cherry', the Khotanese one <hi>pauṣṭarä</hi> 'juniper'; <bibl><title corresp="ref:maue1990"/><citedRange>162, fn. 30</citedRange></bibl> notes that Skt. <hi>padmaka</hi>- is often replaced by juniper species outside India; in any case, since no  ingredient of the formula is missing in the Tocharian text, it is likely that one has to restore an adjective like <hi>yāstaci(ṣṣe/a)</hi> and a plant term such as <hi>tāno</hi> ‘seed' in the lacuna. Note that in Ayurvedic medicine both the seeds and the bark of the cherry tree are used.</note><note corresp="#b9" type="lingcomment"><hi>gandhakāri</hi> for the Sanskrit plant <hi>kaṇṭakārī</hi> (also attested in TB as <w lemmaRef="B_kaṇḍakāri"/>) shows a wrong etymological connection with Skt. <hi>gandha</hi>- 'scent'; cf. <bibl><title corresp="ref:maue1990"/><citedRange>163, fn. 35</citedRange></bibl>.</note><note corresp="#b9" type="philcomment"><hi>eśpeṣṣe</hi> looks like an adjective; since the Khotanese version explicitly refers to the root of this plant, one may think of restoring <hi>witsako</hi>, even though this is a feminine; see <bibl><title corresp="ref:maue1990"/><citedRange>163</citedRange></bibl> with fn. 39. Wrong gender agreement is also attested in line b8.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 500" type="external">THT 500</ref><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 501" type="external">THT 501</ref><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 502" type="external">THT 502</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/05/0500.htm" type="external">THT 500</ref><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/05/0501.htm" type="external">THT 501</ref><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/05/0502.htm" type="external">THT 502</ref></bibl>. </p>
+            <p><label>Edition</label><bibl><title corresp="ref:siegandsiegling1953"/><citedRange>311</citedRange></bibl>; <bibl><title corresp="ref:maue1990"/></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_transcription_old">b1 (– – – – – – – abhijñä|a)bhijñe : aśoke lānt(·) (– – – – – – – – – – –)
+b2 (– – – – – – –) – -na tekanmane kartse : || wa- – (– – – – – – – – – –)
+b3 (– – – – – – – – – – – – – –) ·ai : kaṣṣu|kaṣu – (– – – – – – – – – –)
+b4 (– –)källe eśanene|eśañene yamaṣṣälle|yamaṣle ce krāntsa nässait|nasait yamaṣṣälle|yama(ṣle) (– – – – – – – – –)
+b5 (–) -jāya |tathāgatāyā • |rhate |samyaksambuddhā (– – –) |tadyathā |cakṣujñāna |cakṣu
+b6 |viśodhanāya |svāha – || ñake «†mahā» «†||» (ma)hāvaidyehik «||» ṣalype|ṣalpe weñau po
+b7 eśaneṣṣana|(e)śañeṣana • tekanmane kartse • mrañco pippāl|pipāl tvā(ṅkaro) jivanti pissau|pisau • wästo-yäkne|wasto-yä|(kne)
+b8 (– –)rpeñcaṣṣe tāno • uśir • candāṃ yāstaci (– – –) arirāk wipitāk amalāk|a|(malā)k
+b9 • śkwaśko|śkwiśko • sālaparṇi • präśnaparṇi • (praha)ti • kaṇḍakāri|gandhakāri klyotañ eśpeṣṣe|eśpe|ṣṣe
+b10 mahāmet • met • kākoṭi kṣirakākoṭi (•) jīvak|jivak rṣabhak ātmagupti •
+b11 palāṣṣai witsako|wtsiko enmetre • rasna|rāsnā peparṣṣa wi(tsako) uppāläṣṣa|upālṣa witsako • tālis
+b12 |(pattär) /// (·)ā (bal) (w)itsako toyna saṃtkenta|saṃtke|(nta)</item>
+               <item n="m_leaf_old"/>
+               <item n="m_title_old">Treatment of eye diseases</item>
+               <item n="m_meter_old">5/4/3/3</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallels_old">Sanskrit/Khotanese Jīvapustaka &lt;a href="http://idp.bl.uk/database/oo_scroll_h.a4d?uid=1173084748;recnum=55471;index=3"&gt;IOL Khot 91/3&lt;/a&gt;</item>
+               <item n="project_comment_old">&lt;p&gt;Alternative classifications:
+&lt;table class="table_lines"&gt;
+  &lt;tr&gt;&lt;td title="MP"&gt;Peyrot&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="MM"&gt;Malzahn&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TT"&gt;Tamai&lt;/td&gt;&lt;td title="C4"&gt;II-2/3&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TTC14"&gt;Tamai-C14&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Parallel text "Sanskrot/Khotanese Jīvapustaka &lt;a href="http://http://idp.bl.uk/database/oo_scroll_h.a4d?uid=-2334751738;recnum=55471;index=3"&gt; IOL Khot 91/3&lt;/a&gt;" geändert auf "Sanskrit/Khotanese Jīvapustaka &lt;a href="http://idp.bl.uk/database/oo_scroll_h.a4d?uid=1173084748;recnum=55471;index=3"&gt;IOL Khot 91/3&lt;/a&gt;". –Martin (Tue, 2014-06-17, 21:59:04)&lt;/li&gt;
+&lt;li&gt;Links to TITUS amended. Transliteration b6 "ñake [ma]&lt;b&gt;«†hā&lt;/b&gt;vairyocaṇi» || (–)hāvaidyehi_k\•" changed to "ñake [ma]&lt;b&gt;hā«†&lt;/b&gt;vairyocaṇi» || (–)hāvaidyehi_k\•" since the &lt;i&gt;hā&lt;/i&gt; is not crossed out. This would yield the transcription  "ñake mahā || (ma)hāvaidyehik". Therefore and because "«† »" represents ancient deletions (that are not part of the transcription), there must be a better solution for the present transcription b6 "ñake «†» (ma)hāvaidyehik {||}"; – maybe "ñake &lt;b&gt;〈†mahā ||〉&lt;/b&gt; mahāvaidyehik &lt;b&gt;〈&lt;/b&gt;||&lt;b&gt;〉&lt;/b&gt;" (i.e. editorial deletion of superfluous signs and addition of danda) or "ñake ma&lt;b&gt;{&lt;/b&gt;hāvaidyehik ||&lt;b&gt;}&lt;/b&gt;" (i.e. editorial correction of the entire sequence)? –Martin (Wed, 2014-08-27, 21:20:34)&lt;/li&gt;
+&lt;li&gt;Changed to || ñake 〈†mahā ||〉 (ma)hāvaidyehik 〈||〉 Melanie (Thu, 2014-09-04, 22:16:46)&lt;/li&gt;
+&lt;/ul&gt;</item>
+               <item n="ms_old">THT 500-502</item>
+               <item n="m_script_old">Classical</item>
+               <item n="m_other_sigla_old">THT 500, THT 501, THT 502, pencil no. 2346, 2347</item>
+               <item n="m_remarks_old">Written on the verso side of a Chinese scroll containing Aṣṭādasasāhasrikā Prajñāpāramitā (Taisho 224 = 8, 465c, 11–25). Tocharian text identification and joint of THT 500 and THT 501 according to [[Maue 1990]]. According to the restoration of the leaf by the BBAW, the third fragment THT 502 further joins THT 500 on the top.&lt;br&gt;
+The script type is basically the classical one, although more clumsy than in regular literary manuscripts.</item>
+               <item n="m_language_old">Sanskrit+TB</item>
+               <item n="m_expedition_old">T II Y 3.1, T II Y 3.2, T II Y 3.3</item>
+               <item n="m_size_w_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_tune_old"/>
+               <item n="project_check_old"/>
+               <item n="m_translation_old">b1 ... [supernatural] knowledge . (To) King Aśoka ...
+b2 ... [it is] good in diseases pertaining to ...  
+b3 ... Costus speciousus ...
+b4 ... has to be ... [and] has to be made into the eyes. On this bond a spell has to be cast. ...
+b5 &lt;i&gt;Sanskrit&lt;/i&gt;
+b6 &lt;i&gt;Sanskrit&lt;/i&gt; Now [about the fatty salve called] mahāvaidehik: I will tell the salve for all
+b7 [diseases] concerning the eyes; in [theses] diseases [it is] good. [The formula contains]: 	Piper nigrum, Piper longum, ginger, heart-heaved moonseed, aneth; seed 
+b8 of the two [Indian Sarsaparilla] of both kinds; vetiver; sandalwood, junipe [or: Wild Himalayan cherry] (root/bark), [the &lt;i&gt;triphalā&lt;/i&gt; formula consisting of] Yellow myrobalan, Bastard myrobalan, [and]
+b9 Indian gooseberry; Berberis aristata; Desmodium Gangeticum; Uraria lagopoides; Indian nightshade; Solanum xanthocarpum, caltrop, [root] of Boerhavia diffusa
+b10 Polygonatum cirrhifolium; Polygonatum verticillatum; Roscoea procera, Lilium polyphyllum; Microstylis wallichii, Microstylis muscifera, Mucuna prurita;
+b11 root of Pavonia odorata (?), ..., Vanda roxburghii, root of Nardostachys Jatamansi (?), root of lotus; Pinus (webbiana)
+b12 (Rubia cordifolia, grape, blue water-lily,) root (of Sida spinosa). These remedie(s) ...</item>
+               <item n="m_subgenre_old">Medicine/Magic</item>
+               <item n="category_old">manuscript</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old">None</item>
+               <item n="user_modified_old">martin</item>
+               <item n="user_created_old">automatic</item>
+               <item n="m_prev_old"/>
+               <item n="m_findspot_old">Yar-khoto</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_form_old">Scroll</item>
+               <item n="m_linedistance_old"/>
+               <item n="access_old">public</item>
+               <item n="m_lines_old">12+</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_completeness_old"/>
+               <item n="file_location_old">pages/manuscript/THT_0001_0633/tht500.txt</item>
+               <item n="m_editor_old">Melanie Malzahn</item>
+               <item n="m_philcomment_old">&lt;p&gt;The edition is based on [[Maue 1990]], who also gives a normalized version of the corrupt text found in the Jīvapustaka; the Khotanese parallel has been edited and translated by [[Konow 1941]]: 24-25.&lt;br&gt; 
+&lt;b&gt;b1&lt;/b&gt; Since the mere oblique form &lt;i&gt;lānt&lt;/i&gt; ought to be spelled with virāma, the most likely restoration is an allative &lt;i&gt;lānt(aśc)&lt;/i&gt;.&lt;br&gt;
+&lt;b&gt;b2&lt;/b&gt; -&lt;i&gt;na&lt;/i&gt; is certainly the end of a plural adjective modifying &lt;i&gt;tekanma&lt;/i&gt; ‘diseases'.&lt;br&gt;
+&lt;b&gt;b4&lt;/b&gt; -&lt;i&gt;källe&lt;/i&gt; is a gerund from a root ending in -&lt;i&gt;k&lt;/i&gt;; note that a restoration -&lt;i&gt;(ṅ)källe&lt;/i&gt; or -&lt;i&gt;(r)källe&lt;/i&gt; is also possible.&lt;br&gt;
+&lt;b&gt;b4&lt;/b&gt; For &lt;i&gt;ce krāntsa nasait yama(ṣle)&lt;/i&gt; cf. BHS &lt;i&gt;grantha-dharaṇī&lt;/i&gt; 'D. belonging to binding'; see [[Edgerton BHSD]]: 284b.&lt;br&gt;
+&lt;b&gt;b6&lt;/b&gt; The akṣaras &lt;i&gt;hāvairyocaṇ&lt;/i&gt; of the chapter title &lt;i&gt;mahāvairyocaṇi&lt;/i&gt; have been deleted by the scribe with several small vertikal strokes, the correct title &lt;i&gt;(ma)hāvaidyehik&lt;/i&gt; follows, as restored by Sieg/Siegling.&lt;br&gt;
+&lt;b&gt;b7&lt;/b&gt;  [[Maue 1990]]: 161, fn. 23 points out that TB &lt;i&gt;pissau&lt;/i&gt; 'aneth' does not conform to the Sanskrit/Khotanese version where we have Skt. &lt;i&gt;madhuka&lt;/i&gt;- 'liquorice'. According to Maue, the Tocharian scribe may have confused this word with Skt. &lt;i&gt;madhurikā&lt;/i&gt;- which can refer both to 'fennel' and 'aneth'.&lt;br&gt;
+&lt;b&gt;b8&lt;/b&gt; According to the Sanskrit and Khotanese parallel, the seed in question is that of the two sorts of Skt. &lt;i&gt;śārivā&lt;/i&gt; ‘Indian Sarsaparilla [Hemidesmus indicus]', see [[Maue 1990]]: 162 with fn.s 27 and 28. Even though Skt. &lt;i&gt;śārivā&lt;/i&gt; is attested otherwise as TB [[śārip]], this form cannot be restored here despite the relatively certain reading of &lt;i&gt;r[p]&lt;/i&gt;. Nevertheless, it is quite certain that the same plant is meant since the dual &lt;i&gt;śārivā&lt;/i&gt; is translated twice: by the adverb and by a dual ending -&lt;i&gt;ñc&lt;/i&gt;, onto which the -&lt;i&gt;ṣṣe&lt;/i&gt;-adjective is built (cf. the type &lt;i&gt;lakṣānäñc&lt;/i&gt; ‘two lakṣaṇas'). As dual of &lt;i&gt;śārip&lt;/i&gt; one would expect &lt;i&gt;śāripäñc&lt;/i&gt;. As for &lt;i&gt;yāstaci&lt;/i&gt;, the Sanskrit formula has &lt;i&gt;padmaka&lt;/i&gt;- 'Wild Himalayan cherry', the Khotanese one &lt;i&gt;pauṣṭarä&lt;/i&gt; 'juniper'; [[Maue 1990]]: 162, fn. 30 notes that Skt. &lt;i&gt;padmaka&lt;/i&gt;- is often replaced by juniper species outside India; in any case, since no  ingredient of the formula is missing in the Tocharian text, it is likely that one has to restore an adjective like &lt;i&gt;yāstaci(ṣṣe/a)&lt;/i&gt; and a plant term such as &lt;i&gt;tāno&lt;/i&gt; ‘seed' in the lacuna. Note that in Ayurvedic medicine both the seeds and the bark of the cherry tree are used.&lt;br&gt; 
+&lt;b&gt;b9&lt;/b&gt; &lt;i&gt;eśpeṣṣe&lt;/i&gt; looks like an adjective; since the Khotanese version explicitly refers to the root of this plant, one may think of restoring &lt;i&gt;witsako&lt;/i&gt;, even though this is a feminine; see [[Maue 1990]]: 163 with fn. 39. Wrong gender agreement is also attested in line b8.&lt;br&gt;
+&lt;b&gt;b10&lt;/b&gt; These six plants are part of the aṣṭavarga formula, see [[Maue 1990]]: 163, fn. 41; however, &lt;i&gt;ṛddhi&lt;/i&gt;- 'Habenaria edgeworthii' and &lt;i&gt;vṛddhi&lt;/i&gt;- 'Habenaria intermedia D.Don' seem substituted by &lt;i&gt;ātmagupti&lt;/i&gt; 'Mucuna prurita' and the following plant.&lt;br&gt;
+&lt;b&gt;b11&lt;/b&gt; &lt;i&gt;palāṣṣai wtsako&lt;/i&gt; is another substitution for  &lt;i&gt;ṛddhi&lt;/i&gt;- 'Habenaria edgeworthii' or &lt;i&gt;vṛddhi&lt;/i&gt;- 'Habenaria intermedia D.Don'. In the Sanskrit version one has &lt;i&gt;bāla&lt;/i&gt; or &lt;i&gt;bālā&lt;/i&gt;, which can refer to several plants, but not to the one found in the Khotanese version, i.e. &lt;i&gt;bela&lt;/i&gt; 'Aegle marmelos, Beal tree' (= Skt. &lt;i&gt;bilva&lt;/i&gt;- = TB [[pil]]; see [[Maue 1990]]: 163, fn. 43. As Maue points out, Skt. &lt;i&gt;balā&lt;/i&gt; 'Sida cordifolia' = Khot. &lt;i&gt;sacha-bāva&lt;/i&gt; listed later in the parallel formula can hardly refer to the same plant as well, so Maue himself interprets Skt. &lt;i&gt;bāla/ā&lt;/i&gt; in this passage as 'Pavonia ordorata Willd.'; note that its Khotanese equivalent is &lt;i&gt;bilva&lt;/i&gt;. While [[Adams, 2DoT]]: 92 sub &lt;i&gt;enmetre&lt;/i&gt; certainly correctly notes that "there is potential for some confusion in translation here", I do not follow his suggestion that &lt;i&gt;enmetre&lt;/i&gt; belongs to the same phrase "the &lt;i&gt;enmetre&lt;/i&gt; of the &lt;i&gt;pāla&lt;/i&gt;-root" (interpreted as "bark", i.e. "the root-bark of pāla") because this is morphologically improbable (even if the agreement between &lt;i&gt;palāṣṣai&lt;/i&gt; and &lt;i&gt;wtsiko&lt;/i&gt; is wrong). To be sure, since there has no doubt been some confusion as to which ingredient is correct as eigth component of the aṣṭavarga formula, I would not exclude the possibility that &lt;i&gt;enmetre&lt;/i&gt; is simply an added ingredient even thought it cannot be found in the Jīvapustaka parallel. Note that further in the line the two versions do slightly differ.&lt;br&gt;
+&lt;b&gt;b11&lt;/b&gt; The parallel for &lt;i&gt;pepar&lt;/i&gt;* are Skt. &lt;i&gt;nalada&lt;/i&gt;- and Khot. &lt;i&gt;svarnagūttaryaṃ būśanai&lt;/i&gt;; &lt;i&gt;nalada&lt;/i&gt; or &lt;i&gt;naladā&lt;/i&gt; refers to the musk-root plant [Nardostachys Jatamansi] (thus the interpretation of [[Maue 1990]]: 164. fn. 47) or to a variety of vetiver grass [Vetiveria zizanioides = Andropogon muricatus Retz.] (thus the interpretation of [[Filliozat 1948]]: 125 s.v. &lt;i&gt;nalat&lt;/i&gt;).&lt;br&gt;
+&lt;b&gt;b11&lt;/b&gt; As [[Maue 1990]]: 164, fn. 48 points out, both versions differ: Skt. &lt;i&gt;padmakesara&lt;/i&gt;- and Khot. &lt;i&gt;padmakyesärä&lt;/i&gt; refer to the filament (and not to the root) of the &lt;i&gt;padma&lt;/i&gt;-plant [Nelumbo nucifera] (and not of the &lt;i&gt;utpala&lt;/i&gt;-plant [Nymphaea stellata]; to be sure, etymologically TB &lt;i&gt;uppāl&lt;/i&gt; is derived from Skt. &lt;i&gt;utpala&lt;/i&gt;- "Blue Water-lily" [Nymphaea stellata] (which is actually listed later, in the unattested part of the Jīvapustaka), but it can refer to &lt;i&gt;padma&lt;/i&gt;-plant also in other Tocharian passages.&lt;br&gt;
+&lt;b&gt;b11&lt;/b&gt; Restoration &lt;i&gt;tālis (pattär)&lt;/i&gt; according to [[Maue 1990]]: 164; the parallel has Skt. &lt;i&gt;tālispattra&lt;/i&gt; and Khot. &lt;i&gt;ttālīspattra&lt;/i&gt;. Skt. &lt;i&gt;tālīśapattra&lt;/i&gt;- refers to the &lt;i&gt;Indian Silver Fir&lt;/i&gt; [Pinus webbiana Wall.] (not to the &lt;i&gt;Indian plum&lt;/i&gt; = Skt. &lt;i&gt;tālīśa&lt;/i&gt;-, as per [[Adams, 2DoT]]: 304). Note that &lt;i&gt;tālis&lt;/i&gt; is written with virāma; a calque is also possible.&lt;br&gt;
+&lt;b&gt;b12&lt;/b&gt; 16-17 syllables are missing at the beginning of the line; accordingly, &lt;i&gt;(w)itsako&lt;/i&gt; could very well refer to the last ingredient of the formula, Skt. &lt;i&gt;balā&lt;/i&gt; (for &lt;i&gt;nāgabalā&lt;/i&gt; 'Sida spinosa', Khot. &lt;i&gt;sacha-bāva&lt;/i&gt; 'root of Sida cordifolia', as per [[Maue 1990]]: 164. Restoring (ba&lt;u&gt;l&lt;/u&gt;\) seems possible to me.&lt;/p&gt;</item>
+               <item n="m_passage_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_size_h_old"/>
+               <item n="m_next_old"/>
+               <item n="file_modified_old">1576144064</item>
+               <item n="file_created_old">1332006616</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 500" target="idp"&gt;THT 500&lt;/a&gt;, &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 501" target="idp"&gt;THT 501&lt;/a&gt;, &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 502" target="idp"&gt;THT 502&lt;/a&gt;,
+[[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/05/0500.htm" target="titus"&gt;THT 500&lt;/a&gt;, &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/05/0501.htm" target="titus"&gt;THT 501&lt;/a&gt;, &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/05/0502.htm" target="titus"&gt;THT 502&lt;/a&gt;.&lt;br&gt;
+Edition: [[TochSprR(B) II]]: 311; [[Maue 1990]].</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old">&lt;p&gt;The text has several late/colloquial spellings. The palatalized &lt;i&gt;ñ&lt;/i&gt; in &lt;i&gt;eśañene&lt;/i&gt;° (lines &lt;b&gt;b4&lt;/b&gt; and &lt;b&gt;b7&lt;/b&gt;) is part of a tendency for late palatalization of &lt;i&gt;n&lt;/i&gt; in several contexts, e.g., before &lt;i&gt;i&lt;/i&gt; (see [[Peyrot 2008]]: 90-91). If the spelling &lt;i&gt;ṣalpe&lt;/i&gt; for &lt;i&gt;ṣalype&lt;/i&gt; is not a mere error, it may then be interpreted as a hypercorrect form. Like in other late manuscripts, there are also some wrong vowels (&lt;i&gt;śkwiśko&lt;/i&gt; for &lt;i&gt;śkwaśko&lt;/i&gt; in line &lt;b&gt;b9&lt;/b&gt;).&lt;br&gt;
+Note further the wrong agreement of the masculine adj. in -&lt;i&gt;ṣṣe&lt;/i&gt; with the fem. &lt;i&gt;tāno&lt;/i&gt; in &lt;b&gt;b8&lt;/b&gt; and of the oblique feminine adj. in -&lt;i&gt;ṣṣai&lt;/i&gt; with the fem.nom. &lt;i&gt;witsako&lt;/i&gt; in &lt;b&gt;b11&lt;/b&gt;.&lt;br&gt;
+&lt;b&gt;b9&lt;/b&gt; &lt;i&gt;gandhakāri&lt;/i&gt; for the Sanskrit plant &lt;i&gt;kaṇṭakārī&lt;/i&gt; (also attested in TB as [[kaṇḍakāri]]) shows a wrong etymological connection with Skt. &lt;i&gt;gandha&lt;/i&gt;- 'scent'; cf. [[Maue 1990]]: 163, fn. 35.&lt;/p&gt;</item>
+               <item n="m_image_old">http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=389094;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=389094;rotate=0;imageType=_M||$page; verso</item>
+               <item n="m_transliteration_old">b1 (– – – – – – –) bhijñe : aśoke lānt(· – – – – – – – – – – –)
+b2 (– – – – – – –) – -na tekanmane kartse : || wa- – (– – – – – – – – – –)
+b3 (– – – – – – – – – – – – – –) ·ai [:] kaṣu – (– – – – – – – – – –)
+b4 (– –)[_k_a]lle eśañene yamaṣle ce kr[ā]ntsa nasait ya[ma] (– – – – – – – – – –)
+b5 (–) -jāya tathāgatāyā • rhate samyaksambuddhā (– – –) tadyathā cakṣujñāna cakṣu
+b6 viśodhanāya svāha – || ñake [ma]hā«†vairyocaṇi» || (–)hāvaidyehi_k\• ṣalpe weñau po
+b7 (–)śañeṣana • tekanmane kartse • mrañco pipā_l\• tvā(– –) jivanti pisau • wasto-yä-
+b8 (– –)r[p]eñcaṣṣe tāno • uśi_r\• • candāṃ yāstaci (– – –) arirā_k\• wipitā_k\• a
+b9 (– –)[_k](\) • śkwiśko • sālaparṇi • präśnaparṇi • (–) – ti • gandhakāri klyotañä\ eśpe
+b10 ṣṣe mahāme_t\• • me_t\• • kākoṭi kṣirakāko[ṭi] (•) jiva_k\• rṣabha_k\• ā[t]magupti •
+b11 palāṣṣai wtsiko enmet[r]e • rās[n]ā peparṣṣa wi(– –) [u]pā_l\•ṣa witsako • tāli_s\•
+b12 /// (·)[ā] (– ·)i[ts]ako toyna saṃtke</item>
+               <item n="m_language_stage_old">Late</item>
+               <item n="date_publication_old">11.09.2014</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;Alternative classifications:
+
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Parallel text "Sanskrot/Khotanese Jīvapustaka &lt;ref target="http://http://idp.bl.uk/database/oo_scroll_h.a4d?uid=-2334751738;recnum=55471;index=3"&gt; IOL Khot 91/3&lt;/ref&gt;" geändert auf "Sanskrit/Khotanese Jīvapustaka &lt;ref target="http://idp.bl.uk/database/oo_scroll_h.a4d?uid=1173084748;recnum=55471;index=3"&gt;IOL Khot 91/3&lt;/ref&gt;". –Martin (Tue, 2014-06-17, 21:59:04)&lt;/li&gt;&lt;li&gt;Links to TITUS amended. Transliteration b6 "ñake [ma]&lt;b&gt;«†hā&lt;/b&gt;vairyocaṇi» || (–)hāvaidyehi_k\•" changed to "ñake [ma]&lt;b&gt;hā«†&lt;/b&gt;vairyocaṇi» || (–)hāvaidyehi_k\•" since the &lt;hi&gt;hā&lt;/hi&gt; is not crossed out. This would yield the transcription  "ñake mahā || (ma)hāvaidyehik". Therefore and because "«† »" represents ancient deletions (that are not part of the transcription), there must be a better solution for the present transcription b6 "ñake «†» (ma)hāvaidyehik {||}"; – maybe "ñake &lt;ref type="ms" target="__&amp;#x2329;&amp;#x2020;mah&amp;#x101; ||&amp;#x232A;"/&gt; mahāvaidyehik &lt;b&gt;〈&lt;/b&gt;||&lt;b&gt;〉&lt;/b&gt;" (i.e. editorial deletion of superfluous signs and addition of danda) or "ñake ma&lt;b&gt;{&lt;/b&gt;hāvaidyehik ||&lt;b&gt;}&lt;/b&gt;" (i.e. editorial correction of the entire sequence)? –Martin (Wed, 2014-08-27, 21:20:34)&lt;/li&gt;&lt;li&gt;Changed to || ñake 〈†mahā ||〉 (ma)hāvaidyehik 〈||〉 Melanie (Thu, 2014-09-04, 22:16:46)&lt;/li&gt;&lt;/ul&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

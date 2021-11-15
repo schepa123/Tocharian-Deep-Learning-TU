@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-ioltoch544">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>IOL Toch 544</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library (London)</repository>
+                  <idno>IOL Toch 544</idno>
+                  <altIdentifier>
+                     <idno>D 185</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">2</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=2141;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=2141;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL544a.jpg" height="768px" width="827px"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone>ya</zone><zone>kra</zone><zone>mṢAṃ</zone><zone>ai</zone><zone>śa</zone><zone>mñe</zone><zone>•</zone><zone>a</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone>lwa</zone><zone>sā</zone><zone>ntso</zone><zone>ṣña</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><gap reason="plain" quantity="1"/><gap reason="par" quantity="1"/><zone><gap reason="plain" unit="part"/>e</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><w>-ya</w><w>kramṣäṃ</w><w>aiśamñe</w><pc>•</pc><w>a<milestone unit="w" type="break"/></w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><w>lwasāntso</w><w>ṣña<milestone unit="w" type="break"/></w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><gap reason="plain" quantity="2"/><w><gap reason="plain" unit="part"/>e</w><gap reason="plain" quantity="1"/><gap reason="lost"/></p>
+         </div>
+         <div type="comments">
+            <p><note type="philcomment">The verso is blank (not abraded).</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition</label><bibl><title corresp="ref:peyrot2007"/><citedRange>№544</citedRange></bibl>.</p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 544" type="external">IOL Toch 544</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_parallels_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="project_comment_old"/>
+               <item n="ms_old">IOL Toch 544</item>
+               <item n="m_remarks_old"/>
+               <item n="m_language_old">TB</item>
+               <item n="m_other_sigla_old">D 185</item>
+               <item n="m_expedition_old"/>
+               <item n="m_size_w_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_transcription_old">a1 /// -ya kramṣäṃ aiśamñe • a- ///
+a2 /// lwāsaṃts|lwasāntso ṣña- ///
+a3 /// – – ·e – ///</item>
+               <item n="m_title_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old">martin</item>
+               <item n="m_prev_old"/>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old"/>
+               <item n="project_check_old"/>
+               <item n="m_translation_old"/>
+               <item n="m_subgenre_old"/>
+               <item n="m_lines_old">2</item>
+               <item n="m_collection_old">British Library (London)</item>
+               <item n="access_old">restricted</item>
+               <item n="m_completeness_old"/>
+               <item n="file_location_old">pages/manuscript/IOL_Toch/ioltoch544.txt</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 544"&gt;IOL Toch 544&lt;/a&gt;.&lt;br&gt;
+Edition: [[Peyrot 2007]]: №544.</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=2141;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=2141;rotate=0;imageType=_M||IOL Toch 544 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=2140;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=2140;rotate=0;imageType=_M||IOL Toch 544 verso</item>
+               <item n="date_publication_old"/>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_transliteration_old">a1 /// -ya kram_ṣ_aṃ aiśamñe • a- ///
+a2 /// lwasāntso ṣña- ///
+a3 /// – (–) ·e – ///</item>
+               <item n="m_philcomment_old">&lt;p&gt;The verso is blank (not abraded).&lt;/p&gt;</item>
+               <item n="m_passage_old"/>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old"/>
+               <item n="file_created_old">1322765175</item>
+               <item n="file_modified_old">1565649548</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

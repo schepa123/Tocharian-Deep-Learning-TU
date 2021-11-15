@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht4213">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 421.3</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 421.3</idno>
+                  <altIdentifier>
+                     <idno>B 421 fragment 3</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>THT 421.c</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>THT 1352.f</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>pencil no. 2412</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>prelim. no Toch. 187</idno>
+                  </altIdentifier>
+                  <msName>THT 415-421</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>History of Kuchean kings</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">2=5</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Murtuq</region>during <rs type="expedition_code">T III M 146</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-peyrot-L frg:ls-C14 frg:ls-tamai-C1 frg:ls-C14"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">History</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=307727;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=307727;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="a1"><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><zone>mai</zone><zone>se</zone><zone>wa</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=307728;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=307728;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="b1"><zone>mo</zone><zone>rKA¯</zone><zone>¯ñcä</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="par" quantity="1"/><zone>l<gap reason="plain" unit="part"/>o</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#a2"/><w>mai</w><w>se</w><w>wa</w><gap reason="lost"/>
+<lb corresp="#b1"/><w>morkäñc</w><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="plain" quantity="1"/><w>l<gap reason="plain" unit="part"/>o</w><gap reason="lost"/></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">This fragment has been partly edited apud no. 421 fragment 3 in <bibl><title corresp="ref:siegandsiegling1953"/><citedRange>280</citedRange></bibl> and has now the pressmark THT 1352.f.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 421c" type="external">THT 421c</ref><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 1352f" type="external">THT 1352f</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/04/0421.htm" type="external">THT 421</ref><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/13/1352.htm" type="external">THT 1352</ref></bibl>. </p>
+            <p><label>Edition</label><bibl><title corresp="ref:siegandsiegling1953"/><citedRange>280</citedRange></bibl><bibl><title corresp="ref:tamai2007a"/><citedRange>№1352</citedRange></bibl>.f.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old">a1 – ///
+a2 mai se wa ///
+b1 morkäñc ///
+b2 (–) l·o ///</item>
+               <item n="m_title_old">History of Kuchean kings</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old">This fragment has been partly edited apud no. 421 fragment 3 in [[TochSprR(B) II]]: 280 and has now the pressmark THT 1352.f.</item>
+               <item n="m_other_sigla_old">B 421 fragment 3, THT 421.c, THT 1352.f, pencil no. 2412, prelim. no Toch. 187</item>
+               <item n="m_expedition_old">T III M 146</item>
+               <item n="m_size_w_old"/>
+               <item n="m_parallels_old"/>
+               <item n="m_script_old"/>
+               <item n="project_comment_old">&lt;p&gt;Alternative classifications:
+&lt;table class="table_lines"&gt;
+  &lt;tr&gt;&lt;td title="MP"&gt;Peyrot&lt;/td&gt;&lt;td title="L"&gt;late&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="MM"&gt;Malzahn&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TT"&gt;Tamai&lt;/td&gt;&lt;td title="C1"&gt;II-1 (600-700)&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TTC14"&gt;Tamai-C14&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+&lt;p&gt;I deleted the page "THT 1352.f". Tamai's transliteration there has been:&lt;br&gt;
+a1 – ///&lt;br&gt;
+a2 mai se wa ///&lt;br&gt;
+b1 mo _r_k_añcä\ ///&lt;br&gt;
+b2 (–) l·o ///&lt;br&gt;
+–Martin (Wed, 2016-08-10, 16:01:30 (CEST))&lt;/p&gt;</item>
+               <item n="ms_old">THT 421.3</item>
+               <item n="m_subgenre_old">History</item>
+               <item n="m_translation_old"/>
+               <item n="m_metric_form_old"/>
+               <item n="m_tune_old"/>
+               <item n="user_created_old">martin</item>
+               <item n="user_modified_old">bernhard</item>
+               <item n="m_prev_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old"/>
+               <item n="m_linedistance_old"/>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Murtuq</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="file_location_old">pages/manuscript/tht4213.txt</item>
+               <item n="m_lines_old">2=5</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="access_old">restricted</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old"/>
+               <item n="file_created_old">1470835434</item>
+               <item n="file_modified_old">1532957873</item>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old"/>
+               <item n="m_editor_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_image_old">http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=307727;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=307727;rotate=0;imageType=_M||THT 1352.a-h recto
+http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=307728;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=307728;rotate=0;imageType=_M||THT 1352.a-h verso</item>
+               <item n="date_publication_old"/>
+               <item n="m_language_stage_old"/>
+               <item n="m_transliteration_old">a1 – ///
+a2 mai se wa ///
+b1 mor_k_añcä\ ///
+b2 (–) l·o ///</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old">THT 415-421</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 421c" target="idp"&gt;THT 421c&lt;/a&gt;, &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 1352f" target="idp"&gt;THT 1352f&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/04/0421.htm" target="titus"&gt;THT 421&lt;/a&gt;, &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/13/1352.htm" target="titus"&gt;THT 1352&lt;/a&gt;.&lt;br&gt;
+Edition: [[TochSprR(B) II]]: 280, [[Tamai 2007a]]: №1352.f.</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;Alternative classifications:
+
+&lt;/p&gt;&lt;p&gt;I deleted the page "THT 1352.f". Tamai's transliteration there has been: 
+a1 – /// 
+a2 mai se wa /// 
+b1 mo _r_k_añcä\ /// 
+b2 (–) l·o /// 
+–Martin (Wed, 2016-08-10, 16:01:30 (CEST))&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

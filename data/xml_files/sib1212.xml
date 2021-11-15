@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-sib1212">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>SI B 121(2)</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Georges-Jean Pinault</name>
+            </respStmt>
+            <respStmt>
+               <resp>collaborator</resp>
+               <name>Melanie Malzahn</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>IOM (St. Petersburg)</repository>
+                  <idno>SI B 121(2)</idno>
+                  <altIdentifier>
+                     <idno>U7</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Udānavarga</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>6</height>
+                              <width>11</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">4+</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="txb" ana="frg:ls-cetom-classical frg:ls-cetom-aberrant-None"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Doctrine</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <line xml:id="lf"><zone>lost</zone></line>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone>dhā</zone><zone>vī</zone><zone>•</zone><zone>snai</zone><zone>yko</zone><zone>rñ<unclear>e</unclear></zone><zone><unclear>tse</unclear></zone><zone>n<gap reason="plain" unit="part"/></zone><zone><unclear>ai</unclear></zone><zone>śau</zone><zone>mye</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone><unclear>du</unclear></zone><zone>rme</zone><zone>dha</zone><zone>so</zone><zone>ja</zone><zone>nā</zone><zone>ḥ</zone><zone>a</zone><zone>knā</zone><zone>tsa¯</zone><zone>¯ñä</zone><zone>ya</zone><zone>ktai</zone><zone>ś<gap reason="plain" unit="part"/></zone><zone><gap reason="plain" unit="part"/>ñ</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone>l<gap reason="plain" unit="part"/></zone><zone>10-1</zone><zone>pra</zone><zone>mā</zone><zone>daṃ</zone><zone>nā</zone><zone>nu</zone><zone>yu</zone><zone>je</zone><zone>ta</zone><zone>•</zone><zone>yko</zone><zone>rñe</zone><zone>o</zone><zone>mpo</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><zone>rma¯</zone><zone>¯ṅK</zone><zone>:</zone><zone>prā</zone><zone>pnu</zone><zone>te</zone><zone>hya</zone><zone>ca</zone><zone>laṃ</zone><zone>su</zone><zone>kha<unclear>¯</unclear></zone><zone><unclear>¯</unclear><unclear>m</unclear><unclear>∘</unclear></zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone>tsn<gap reason="plain" unit="part"/></zone><zone>mñe</zone><zone>nta</zone><zone>tstso</zone><zone>nau</zone><zone>ta</zone><zone>lñe</zone><zone>ne</zone><zone>•</zone><zone>pra</zone><zone>m</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone>r<gap reason="plain" unit="part"/></zone><zone>ma</zone><zone>tta</zone><zone>ḥ</zone><zone>yke</zone><zone>nta</zone><zone>śtwa</zone><zone>ra</zone><zone>śau</zone><zone>mo</zone><zone>yku</zone><zone>wo</zone><zone>•</zone><zone>ā</zone><zone>pa</zone><zone><unclear>d</unclear></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><zone>yyā¯</zone><zone>¯m∘</zone><zone>nrai</zone><zone>ntse</zone><zone>KA</zone><zone>llā</zone><zone>lñe</zone><zone>mā</zone><zone>a</zone><zone>ñma</zone><zone>po</zone><zone>s<gap reason="plain" unit="part"/>ṃ</zone><zone>le</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><zone>KA</zone><zone>llā</zone><zone>lñe</zone><zone>ya</zone><zone>mai¯</zone><zone>¯ṢP∘</zone><zone>yo</zone><zone><unclear>l</unclear>i</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <fw type="leafNum" corresp="#lf">lost</fw>
+            <p><milestone unit="passage" n="4.10c-15a"/>
+<lb corresp="#a1"/><gap reason="lost"/><w>dhāvī</w><pc>•</pc><w>snai</w><w>ykorñetse</w><w>n<supplied>o</supplied></w><w>aiśaumye</w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><w>durmedhaso</w><w>janāḥ</w><w>aknātsañ</w><w>yakt=</w><w>aiś<supplied>am</supplied>ñ<supplied>etse</supplied></w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><w><supplied>nauta</supplied>l<supplied>ñe</supplied></w><num value="11">10-1</num><w>pramādaṃ</w><w>nānuyujeta</w><pc>•</pc><w>ykorñe</w><w>ompo<supplied>stäṃ</supplied></w><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="lost"/><w><supplied>śle</supplied></w><w><supplied>pä</supplied>rmaṅk</w><pc>:</pc><w>prāpnute</w><w>hy</w><w>acalaṃ</w><w>sukham</w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><w>tsn<supplied>a</supplied>mñentatstso</w><w>nautalñene</w><pc>•</pc><w>pram<supplied>attam</supplied></w><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><w><supplied>p</supplied>r<supplied>a</supplied>mattaḥ</w><w>ykenta</w><w>śtwara</w><w>śaumo</w><w>ykuwo</w><pc>•</pc><w>āpad<supplied>yate</supplied></w><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><w><supplied>śa</supplied>yyām</w><w>nraintse</w><w>källālñe</w><w>mā</w><w>añma-pos<supplied>tä</supplied>ṃ</w><w>le<supplied>ki</supplied></w><gap reason="lost"/>
+<lb corresp="#b4"/><gap reason="lost"/><w>källālñe</w><w>yamai</w><w>ṣp</w><w>yoli<supplied>yai</supplied></w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl"><hi>Sanskrit</hi> The one provided with vigilance, however, the wise one, [10c]</seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl"><hi>Sanskrit</hi> the foolish (ones), having little knowledge, [11b]</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">the disappearance (of bad influences). [11d] <hi>Sanskrit</hi> Negligence (one should not follow), [12a]</seg></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl">with (continuous) hope [12c] <hi>Sanskrit</hi> </seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">The disappearance of the influences (not yet being accomplished), [13b]</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl"><hi>Sanskrit</hi> The man (who is) negligent (he meets) four (unfortunate) states. [14a] <hi>Sanskrit</hi> </seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl"><hi>Sanskrit</hi> The obtention of (the consequence) of non-merit (lit. hell), a bed not (being) according to the own wish, [14c] </seg></seg></choice><choice corresp="#b4"><seg><seg type="prim_transl">The obtention (of hell) and a bad destiny, [15a]</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="parallels">Sanskrit (<bibl><title corresp="ref:bernhard1965"/><citedRange>129-131</citedRange></bibl>)</note><note type="philcomment">One sees unreadable remains of one other line preceding the beginning of the recto side and following the last line of the verso side, respectively.</note><note corresp="#a1" type="lingcomment">The compound TB <hi>snai-ykorñetse</hi> ought to be the fitting translation of Skt. <hi>apramattaḥ</hi> ‘not negligent’. But the Sanskrit text has apparently a different construction: 10cd <hi>apramādaṃ tu medhāvī dhanaṃ śreṣṭhīva rakṣati</hi> “the wise one, however, watches over his diligence like the merchant over his treasure”. There is no way to reconcile the Tocharian text with that. One may consider that the translator did not understand the simile and that he understood <hi>apramāda-</hi> as a bahuvrīhi compound meaning ‘without negligence’. It is also very likely that he anticipated the adjective <hi>apramattaḥ</hi> found at the beginning of line 11c immediately after two pādas that are totally identical with the first hemistich of the stanza 10.</note><note corresp="#a1" type="philcomment">At the beginning of the line one sees the end of the Sanskrit word <hi>medhāvī</hi> ‘wise’ (10c). It is translated by <hi>aiśaumye</hi> as otherwise attested.</note><note corresp="#a2" type="lingcomment">TB <hi>yakt=aiśamñetse</hi> is already recorded as translation of Skt. <hi>durmedhas-</hi> in <ref type="ms" target="txt:m-ioltoch152"/> a8 and a9 containing Uv 2.16. The second instance has the expected reading <hi>yäkt=aiśamñetse</hi>, while our form shows a wrong accent for a compound. Note further the vowel sandhi at the compound boundary. The underlying form is <hi>*yäkté-aiśamñe</hi> &gt; <hi>yäkt-aiśamñe</hi> which could be reanalyzed as <hi>yakte</hi> + <hi>aiśamñe</hi>.</note><note corresp="#a3" type="lingcomment">The first word should certainly be restored as <hi>nautalñe</hi> ‘disappearance, destruction’ translating Skt. <hi>kṣayam</hi> (11d), cf. Skt. <hi>kṣaye</hi> (13b) translated by TB <hi>nautalñene</hi> in line b1. The last visible word ought to be restored as <hi>ompo(stäṃ)</hi> translating the preverb Skt. <hi>anu</hi> of the verb <hi>anuyujyeta</hi>. It means that the negation was placed afterwards immediately before the finite verb so that in this case the scribe did not strictly follow the Sanskrit word order.</note><note corresp="#a3" type="philcomment">The number 11 is certain (pace <bibl><title corresp="ref:levi1933"/><citedRange>44</citedRange></bibl>).</note><note corresp="#a4" type="lingcomment">The only conceivable restoration for the last word of pāda 12c is TB <hi>pärmaṅk</hi> ‘hope’. It belongs to the translation of Skt. <hi>dhyāyī</hi> lit. ‘absorbed in meditation’. The best way to reconcile the Tocharian text with that is to restore a compound <hi>śle-pärmaṅk</hi> in the sense ‘having mental concentration with him’.</note><note corresp="#b1" type="lingcomment">The first word is a genitive plural either with loss of the anusvāra or with simplification of the cluster. TB <hi>tsnamñe</hi> is already known as calque of Skt. <hi>āsrava-</hi> ‘influence of the outer world’.</note><note corresp="#b1" type="philcomment">The last word of the line ought to be restored as <hi>pramattaṃ</hi> according to a word order found in some manuscripts but at variance with the standard text.</note><note corresp="#b2" type="lingcomment">As translation of Skt. <hi>pramattaḥ</hi> (14a) the expected form would be TB <hi>yku</hi> basis of the abstract <hi>ykorñe</hi> which translates Skt. <hi>pramāda-</hi> ‘negligence’. The nom.sg.masc. PPt <hi>ykuwo</hi> shows an <hi>o-</hi>mobile as reflex of an old <hi>*-ä</hi>; although o-mobile is in classical texts usually found inverse, precisely with PPt endings it is not so infrequently attested, cf. the nom.sg.masc. PPt <hi>stmauwo</hi> in <ref type="ms" target="txt:m-ioltoch307"/> a5; in both cases the o-mobile stands in sentence-final position (even before interpunction), which is actually the most common position for o-mobile in classical (prose/metrical) texts.</note><note corresp="#b3" type="lingcomment">Since Skt. <hi>a-ni-kāma-śayyāṃ</hi> (14c) is translated literary by TB <hi>mā añma-postäṃ leki</hi>, the preceding sequence should translate <hi>apuṇyalābhaṃ</hi> ‘obtention of non-merit’. While <hi>lābha-</hi> is rendered as expected by the abstract TB <hi>källālñe</hi>, the translator has chosen to express the consequence of absence of merit (= hell) instead of a literal translation. He was probably also influenced by the occurrence of <hi>naraka-</hi> ‘hell’ in the next Sanskrit pāda (14d).</note><note corresp="#b3" type="philcomment">The first word of the line ought to be restored as Skt. <hi>śayyām</hi>, cf. <hi>śayyāṃ</hi> in the authoritative text.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>other</label>Not published before (but see <bibl><title corresp="ref:bernhard1965"/><citedRange>129-131</citedRange></bibl>).</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old">None</item>
+               <item n="user_created_old">theres</item>
+               <item n="user_modified_old">theres</item>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="file_savedate_old">2017-01-23, 14:48:08 (CET)</item>
+               <item n="file_name_old">pages/manuscript/sib1212.txt</item>
+               <item n="m_subgenre_old">Doctrine</item>
+               <item n="m_translation_old">a1 &lt;i&gt;Sanskrit&lt;/i&gt; The one provided with vigilance, however, the wise one, [10c]
+a2 &lt;i&gt;Sanskrit&lt;/i&gt; the foolish (ones), having little knowledge, [11b]
+a3 the disappearance (of bad influences). [11d] &lt;i&gt;Sanskrit&lt;/i&gt; Negligence (one should not follow), [12a]
+a4 with (continuous) hope [12c] &lt;i&gt;Sanskrit&lt;/i&gt; 
+b1 The disappearance of the influences (not yet being accomplished), [13b]
+b2 &lt;i&gt;Sanskrit&lt;/i&gt; The man (who is) negligent (he meets) four (unfortunate) states. [14a] &lt;i&gt;Sanskrit&lt;/i&gt; 
+b3 &lt;i&gt;Sanskrit&lt;/i&gt; The obtention of (the consequence) of non-merit (lit. hell), a bed not (being) according to the own wish, [14c] 
+b4 The obtention (of hell) and a bad destiny, [15a]</item>
+               <item n="m_parallels_old">Sanskrit ([[Bernhard 1965]]: 129-131)</item>
+               <item n="edited_date_old">2017-01-23, 14:48:08 (CET)</item>
+               <item n="m_script_old">Classical</item>
+               <item n="ms_old">SI B 121(2)</item>
+               <item n="m_language_old">Sanskrit+TB</item>
+               <item n="m_other_sigla_old">U7</item>
+               <item n="m_size_w_old">11</item>
+               <item n="m_leaf_old">lost</item>
+               <item n="m_title_old">Udānavarga</item>
+               <item n="m_transcription_old">a1 /// dhāvī • snai ykorñetse n(o) aiśaumye ///
+a2 /// durmedhaso janāḥ aknātsañ yakt= aiś(am)ñ(etse) ///
+a3 /// (nauta)l(ñe) 11 pramādaṃ nānuyujeta • ykorñe ompo(stäṃ) ///
+a4 /// (śle pä)rmaṅk : prāpnute hy acalaṃ sukham ///
+b1 /// tsn(a)mñentatstso nautalñene • pram(attam) ///
+b2 /// (p)r(a)mattaḥ ykenta śtwāra|śtwara śaumo yku|ykuwo • āpad(yate) ///
+b3 /// (śa)yyām nraintse källālñe mā añma-pos(tä)ṃ le(ki) ///
+b4 /// källālñe yamai ṣp yoli(yai) ///</item>
+               <item n="group_old">Editor</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="editgroup_old">Admin</item>
+               <item n="file_size_old">6 KB</item>
+               <item n="m_lingcomment_old">&lt;p&gt;&lt;b&gt;a1.&lt;/b&gt; The compound TB &lt;i&gt;snai-ykorñetse&lt;/i&gt; ought to be the fitting translation of Skt. &lt;i&gt;apramattaḥ&lt;/i&gt; ‘not negligent’. But the Sanskrit text has apparently a different construction: 10cd &lt;i&gt;apramādaṃ tu medhāvī dhanaṃ śreṣṭhīva rakṣati&lt;/i&gt; “the wise one, however, watches over his diligence like the merchant over his treasure”. There is no way to reconcile the Tocharian text with that. One may consider that the translator did not understand the simile and that he understood &lt;i&gt;apramāda-&lt;/i&gt; as a bahuvrīhi compound meaning ‘without negligence’. It is also very likely that he anticipated the adjective &lt;i&gt;apramattaḥ&lt;/i&gt; found at the beginning of line 11c immediately after two pādas that are totally identical with the first hemistich of the stanza 10.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a2.&lt;/b&gt; TB &lt;i&gt;yakt=aiśamñetse&lt;/i&gt; is already recorded as translation of Skt. &lt;i&gt;durmedhas-&lt;/i&gt; in [[IOL Toch 152]] a8 and a9 containing Uv 2.16. The second instance has the expected reading &lt;i&gt;yäkt=aiśamñetse&lt;/i&gt;, while our form shows a wrong accent for a compound. Note further the vowel sandhi at the compound boundary. The underlying form is &lt;i&gt;*yäkté-aiśamñe&lt;/i&gt; &gt; &lt;i&gt;yäkt-aiśamñe&lt;/i&gt; which could be reanalyzed as &lt;i&gt;yakte&lt;/i&gt; + &lt;i&gt;aiśamñe&lt;/i&gt;.&lt;/p&gt; 
+&lt;p&gt;&lt;b&gt;a3.&lt;/b&gt; The first word should certainly be restored as &lt;i&gt;nautalñe&lt;/i&gt; ‘disappearance, destruction’ translating Skt. &lt;i&gt;kṣayam&lt;/i&gt; (11d), cf. Skt. &lt;i&gt;kṣaye&lt;/i&gt; (13b) translated by TB &lt;i&gt;nautalñene&lt;/i&gt; in line b1. The last visible word ought to be restored as &lt;i&gt;ompo(stäṃ)&lt;/i&gt; translating the preverb Skt. &lt;i&gt;anu&lt;/i&gt; of the verb &lt;i&gt;anuyujyeta&lt;/i&gt;. It means that the negation was placed afterwards immediately before the finite verb so that in this case the scribe did not strictly follow the Sanskrit word order.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a4.&lt;/b&gt; The only conceivable restoration for the last word of pāda 12c is TB &lt;i&gt;pärmaṅk&lt;/i&gt; ‘hope’. It belongs to the translation of Skt. &lt;i&gt;dhyāyī&lt;/i&gt; lit. ‘absorbed in meditation’. The best way to reconcile the Tocharian text with that is to restore a compound &lt;i&gt;śle-pärmaṅk&lt;/i&gt; in the sense ‘having mental concentration with him’.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b1.&lt;/b&gt; The first word is a genitive plural either with loss of the anusvāra or with simplification of the cluster. TB &lt;i&gt;tsnamñe&lt;/i&gt; is already known as calque of Skt. &lt;i&gt;āsrava-&lt;/i&gt; ‘influence of the outer world’.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b2&lt;/b&gt; As translation of Skt. &lt;i&gt;pramattaḥ&lt;/i&gt; (14a) the expected form would be TB &lt;i&gt;yku&lt;/i&gt; basis of the abstract &lt;i&gt;ykorñe&lt;/i&gt; which translates Skt. &lt;i&gt;pramāda-&lt;/i&gt; ‘negligence’. The nom.sg.masc. PPt &lt;i&gt;ykuwo&lt;/i&gt; shows an &lt;i&gt;o-&lt;/i&gt;mobile as reflex of an old &lt;i&gt;*-ä&lt;/i&gt;; although o-mobile is in classical texts usually found inverse, precisely with PPt endings it is not so infrequently attested, cf. the nom.sg.masc. PPt &lt;i&gt;stmauwo&lt;/i&gt; in [[IOL Toch 307]] a5; in both cases the o-mobile stands in sentence-final position (even before interpunction), which is actually the most common position for o-mobile in classical (prose/metrical) texts.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b3&lt;/b&gt; Since Skt. &lt;i&gt;a-ni-kāma-śayyāṃ&lt;/i&gt; (14c) is translated literary by TB &lt;i&gt;mā añma-postäṃ leki&lt;/i&gt;, the preceding sequence should translate &lt;i&gt;apuṇyalābhaṃ&lt;/i&gt; ‘obtention of non-merit’. While &lt;i&gt;lābha-&lt;/i&gt; is rendered as expected by the abstract TB &lt;i&gt;källālñe&lt;/i&gt;, the translator has chosen to express the consequence of absence of merit (= hell) instead of a literal translation. He was probably also influenced by the occurrence of &lt;i&gt;naraka-&lt;/i&gt; ‘hell’ in the next Sanskrit pāda (14d).&lt;/p&gt;</item>
+               <item n="m_bib_old">Not published before (but see [[Bernhard 1965]]: 129-131).</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_transliteration_old">a1 /// dhāvī • snai ykorñ[etse] n(o) [ai]śaumye ///
+a2 /// [du]rmedhaso janāḥ aknātsañä\ yakt= aiś(am)ñ ///
+a3 /// l(ñe) 10-1 pramādaṃ nānuyujeta • ykorñe ompo ///
+a4 /// rmaṅ_k\ : prāpnute hy acalaṃ sukha[m\• ] ///
+b1 /// tsn(a)mñentatstso nautalñene • pram ///
+b2 /// r(a)mattaḥ ykenta śtwara śaumo ykuwo • āpa[d] /// 
+b3 /// yyām\• nraintse _k_allālñe mā añma-pos(_t_a)ṃ le ///
+b4 /// _k_allālñe yamai _ṣ_p\• yo[l]i ///</item>
+               <item n="page_name_old">SI B 121(2)</item>
+               <item n="m_philcomment_old">&lt;p&gt;One sees unreadable remains of one other line preceding the beginning of the recto side and following the last line of the verso side, respectively.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a1.&lt;/b&gt; At the beginning of the line one sees the end of the Sanskrit word &lt;i&gt;medhāvī&lt;/i&gt; ‘wise’ (10c). It is translated by &lt;i&gt;aiśaumye&lt;/i&gt; as otherwise attested.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a3.&lt;/b&gt; The number 11 is certain (pace [[Lévi 1933]]: 44).&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b1.&lt;/b&gt; The last word of the line ought to be restored as &lt;i&gt;pramattaṃ&lt;/i&gt; according to a word order found in some manuscripts but at variance with the standard text.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b3.&lt;/b&gt; The first word of the line ought to be restored as Skt. &lt;i&gt;śayyām&lt;/i&gt;, cf. &lt;i&gt;śayyāṃ&lt;/i&gt; in the authoritative text. &lt;/p&gt;</item>
+               <item n="m_passage_old">4.10c-15a</item>
+               <item n="version_old">4</item>
+               <item n="m_editor_old">Georges-Jean Pinault (in collaboration with Melanie Malzahn)</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_size_h_old">6</item>
+               <item n="file_created_old">1361188030</item>
+               <item n="file_modified_old">1583665642</item>
+               <item n="m_lines_old">4+</item>
+               <item n="m_collection_old">IOM (St. Petersburg)</item>
+               <item n="access_old">restricted</item>
+               <item n="file_location_old">pages/manuscript/sib1212.txt</item>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="created_date_old">2013-02-18, 12:47:10 (CET)</item>
+               <item n="m_form_old">Poṭhī</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

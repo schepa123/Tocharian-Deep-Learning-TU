@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-sht1317">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>SHT 1317</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>SHT 1317</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>8.8</height>
+                              <width>15.7</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">6+</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="xto"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Gloss</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=295334;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=295334;rotate=0;imageType=_M"/>
+            <line n="5" xml:id="b5"><zone>lye¯</zone><zone>¯ñc</zone><gap reason="editorial"/><zone>ā¯</zone><zone>¯nT</zone><gap reason="editorial"/><zone><unclear>pRA</unclear></zone><zone>śa</zone><zone><unclear>r</unclear>i</zone><gap reason="editorial"/><zone>m<unclear>ā</unclear>¯</zone><zone>¯L</zone></line>
+            <line n="6" xml:id="b6"><zone><unclear>MA</unclear>¯</zone><zone>¯T∘</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#b5"/><w>lyeñc</w><gap reason="editorial"/><w>ānt</w><gap reason="editorial"/><w>präśari</w><gap reason="editorial"/><w>māl</w>
+<lb corresp="#b6"/><w>mät</w></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#b5"><seg><seg type="prim_transl">of the limbs(?) ... forehead ... ? ... old/wasted</seg></seg></choice><choice corresp="#b6"><seg><seg type="prim_transl">?</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="lingcomment">The third item is either <hi>[p<hi rend="underline">ra</hi>]śa[r]i</hi> or <hi>[ñu]śa[r]i</hi>; meaning unclear.</note><note type="lingcomment">The last word in this line, <hi>māl</hi>, is apparently also attested in <ref type="ms" target="txt:m-a275"/>: a5. <bibl><title corresp="ref:maue2010"/><citedRange>346</citedRange></bibl> rightly discards the reading <hi>maṃtra</hi> of <bibl><title corresp="ref:sanderandwaldschmidt1985"/><citedRange>218</citedRange></bibl>. On the meaning of <hi>māl</hi>, see <bibl><title corresp="ref:itkin2014a"/><citedRange>74-5</citedRange></bibl>.</note><note type="remarks">Probably found at the Turfan oasis</note><note corresp="#b5" type="lingcomment">If correctly read, following <bibl><title corresp="ref:maue2010"/><citedRange>345</citedRange></bibl>, <hi>lyeñc</hi> would seem to be related to TA <hi>lyā</hi> 'limbs'. It would then stand for an adj. <hi>lyeñci</hi> of which the final <hi>-i</hi> is somehow missing, and Skt. <hi>°śākhaṃ</hi> would have been taken not in the meaning 'wrinkled', but as <hi>śākhā</hi> 'branch, limb'. Especially the latter assumption does not appear very daring, as the large number of glosses to this line proves that the glossator had serious difficulties understanding it. If the correct reading is rather <hi>lyā<hi rend="underline">k</hi><hi rend="subscript">\</hi></hi>, which remains a possibility, this could simply be <hi>lyā</hi> 'limbs' withthe emphatic particle <hi>-k</hi>.</note><note corresp="#b5" type="philcomment">The first item glosses Skt. <hi>tṛśākhaṃ</hi> (for <hi>triśākhaṃ</hi>) 'three-wrinkled', the second glosses Skt. <hi>lalāṭo</hi> 'forehead' (<bibl><title corresp="ref:maue2010"/><citedRange>345</citedRange></bibl>); the third glosses Skt. <hi>bhṛkuṭi</hi> 'contraction of the brows' (<bibl><title corresp="ref:maue2010"/><citedRange>345</citedRange></bibl>, who reads + <hi>śari[?]</hi>; the fourth glosses Skt. <hi>khusta</hi> 'bad, old' (<bibl><title corresp="ref:swft1973"/><citedRange>II, 157b</citedRange></bibl>).</note><note corresp="#b6" type="lingcomment">The gloss is read as <hi>[ ]wāt</hi> by <bibl><title corresp="ref:maue2010"/><citedRange>346</citedRange></bibl>, and could perhaps also be read <hi>– <hi rend="underline">p</hi><hi rend="subscript">\•</hi></hi> or <hi>[<hi rend="underline">ka</hi>]<hi rend="underline">t</hi><hi rend="subscript">\•</hi></hi>. If the correct reading is <hi>[<hi rend="underline">ma</hi>]<hi rend="underline">t</hi><hi rend="subscript">\•</hi></hi>, it could be a 1pl.pt.mid. verbal form. In view of the Sanskrit text, one might also consider <hi>(na)kät</hi> 'perished, was destroyed'.</note><note corresp="#b6" type="philcomment">Glosses Skt. <hi>– m (a)bhyāhat(am)</hi> 'struck ...; afflicted with ...'; probably to be read thus rather than <hi>.. [s](ta)bhyā han.</hi> /// as in <bibl><title corresp="ref:sanderandwaldschmidt1985"/><citedRange>218</citedRange></bibl>.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>other</label><bibl><title corresp="ref:peyrot2014"/><citedRange>133, 151-2</citedRange></bibl>.</p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=SHT 1317" type="external">SHT 1317</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_tune_old"/>
+               <item n="m_subgenre_old">Gloss</item>
+               <item n="m_translation_old">b5 of the limbs(?) ... forehead ... ? ... old/wasted
+b6 ?</item>
+               <item n="category_old">manuscript</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="user_modified_old">theres</item>
+               <item n="user_created_old">theres</item>
+               <item n="m_prev_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_title_old"/>
+               <item n="m_transcription_old">b5 lyeñc ... ānt ... präśari ... māl
+b6 mät</item>
+               <item n="m_meter_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallels_old"/>
+               <item n="project_comment_old"/>
+               <item n="ms_old">SHT 1317</item>
+               <item n="m_script_old"/>
+               <item n="m_other_sigla_old"/>
+               <item n="m_language_old">Sanskrit+TA</item>
+               <item n="m_remarks_old">&lt;p&gt;Probably found at the Turfan oasis&lt;/p&gt;</item>
+               <item n="m_expedition_old"/>
+               <item n="m_size_w_old">15.7</item>
+               <item n="m_editor_old"/>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;b5.&lt;/b&gt; The first item glosses Skt. &lt;i&gt;tṛśākhaṃ&lt;/i&gt; (for &lt;i&gt;triśākhaṃ&lt;/i&gt;) 'three-wrinkled', the second glosses Skt. &lt;i&gt;lalāṭo&lt;/i&gt; 'forehead' ([[Maue 2010]]: 345); the third glosses Skt. &lt;i&gt;bhṛkuṭi&lt;/i&gt; 'contraction of the brows' ([[Maue 2010]]: 345, who reads + &lt;i&gt;śari[?]&lt;/i&gt;; the fourth glosses Skt. &lt;i&gt;khusta&lt;/i&gt; 'bad, old' ([[SWTF]]: II, 157b).&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b6.&lt;/b&gt; Glosses Skt. &lt;i&gt;– m (a)bhyāhat(am)&lt;/i&gt; 'struck ...; afflicted with ...'; probably to be read thus rather than &lt;i&gt;.. [s](ta)bhyā han.&lt;/i&gt; /// as in [[SHT V]]: 218.&lt;/p&gt;</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_size_h_old">8.8</item>
+               <item n="m_next_old"/>
+               <item n="file_modified_old">1485172920</item>
+               <item n="file_created_old">1445606687</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=SHT 1317" target="idp"&gt;SHT 1317&lt;/a&gt;.&lt;br&gt;
+[[Peyrot 2014]]: 133, 151-2.</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old">&lt;p&gt;&lt;b&gt;b5.&lt;/b&gt; If correctly read, following [[Maue 2010]]: 345, &lt;i&gt;lyeñc&lt;/i&gt; would seem to be related to TA &lt;i&gt;lyā&lt;/i&gt; 'limbs'. It would then stand for an adj. &lt;i&gt;lyeñci&lt;/i&gt; of which the final &lt;i&gt;-i&lt;/i&gt; is somehow missing, and Skt. &lt;i&gt;°śākhaṃ&lt;/i&gt; would have been taken not in the meaning 'wrinkled', but as &lt;i&gt;śākhā&lt;/i&gt; 'branch, limb'. Especially the latter assumption does not appear very daring, as the large number of glosses to this line proves that the glossator had serious difficulties understanding it. If the correct reading is rather &lt;i&gt;lyā&lt;u&gt;k&lt;/u&gt;&lt;sub&gt;\&lt;/sub&gt;&lt;/i&gt;, which remains a possibility, this could simply be &lt;i&gt;lyā&lt;/i&gt; 'limbs' withthe emphatic particle &lt;i&gt;-k&lt;/i&gt;.&lt;/p&gt;
+&lt;p&gt;The third item is either &lt;i&gt;[p&lt;u&gt;ra&lt;/u&gt;]śa[r]i&lt;/i&gt; or &lt;i&gt;[ñu]śa[r]i&lt;/i&gt;; meaning unclear.&lt;/p&gt;
+&lt;p&gt;The last word in this line, &lt;i&gt;māl&lt;/i&gt;, is apparently also attested in [[A 275]]: a5. [[Maue 2010]]: 346 rightly discards the reading &lt;i&gt;maṃtra&lt;/i&gt; of [[SHT V]]: 218. On the meaning of &lt;i&gt;māl&lt;/i&gt;, see [[Itkin 2014a]]: 74-5.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b6.&lt;/b&gt; The gloss is read as &lt;i&gt;[ ]wāt&lt;/i&gt; by [[Maue 2010]]: 346, and could perhaps also be read &lt;i&gt;– &lt;u&gt;p&lt;/u&gt;&lt;sub&gt;\•&lt;/sub&gt;&lt;/i&gt; or &lt;i&gt;[&lt;u&gt;ka&lt;/u&gt;]&lt;u&gt;t&lt;/u&gt;&lt;sub&gt;\•&lt;/sub&gt;&lt;/i&gt;. If the correct reading is &lt;i&gt;[&lt;u&gt;ma&lt;/u&gt;]&lt;u&gt;t&lt;/u&gt;&lt;sub&gt;\•&lt;/sub&gt;&lt;/i&gt;, it could be a 1pl.pt.mid. verbal form. In view of the Sanskrit text, one might also consider &lt;i&gt;(na)kät&lt;/i&gt; 'perished, was destroyed'.&lt;/p&gt;</item>
+               <item n="m_image_old">http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=295284;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=295284;rotate=0;imageType=_M||$page; recto
+http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=295334;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=295334;rotate=0;imageType=_M||$page; verso</item>
+               <item n="m_transliteration_old">b5 lyeñc\ ... ān_t\ ... [p_r_a]śa[r]i ... m[ā]_l\
+b6 [_m_a]_t\•</item>
+               <item n="m_language_stage_old"/>
+               <item n="date_publication_old"/>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_linedistance_old"/>
+               <item n="access_old">restricted</item>
+               <item n="m_lines_old">6+</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_completeness_old"/>
+               <item n="file_location_old">pages/manuscript/sht1317.txt</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

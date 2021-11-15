@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht24">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 24</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Hannes A. Fellner</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 24</idno>
+                  <altIdentifier>
+                     <idno>B 24</idno>
+                  </altIdentifier>
+                  <msName>Udānālaṅkāra A</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Udānālaṅkāra</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Šorčuq</region>during <rs type="expedition_code">T III Š 68.26+Frgm</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Doctrine</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=11166;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=11166;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="a1"><zone>ṣṣo</zone><zone>rñe</zone><zone>mā</zone><zone>pa</zone><zone>pā</zone><zone>ṣṣu</zone><zone>:</zone><zone>mā</zone><zone>cai</zone><zone>nta</zone><zone>yna</zone><zone>kteṃ</zone><gap reason="plain" quantity="1"/><zone><unclear>n</unclear>ma</zone><zone>ske</zone><zone>ntRA</zone><zone>wno</zone><zone>lmi</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><zone>tRA</zone><zone>tu</zone><zone>sa</zone><zone>kā</zone><zone>ccä¯</zone><zone>¯n</zone><zone>sū</zone><zone>skwa</zone><zone>ssu</zone><zone>cme</zone><zone>la</zone><zone><gap reason="plain" unit="part"/><unclear>e</unclear></zone><zone>20</zone><zone>6</zone><zone>ṣe</zone><zone>mi</zone><zone>tri</zone><zone>ko</zone><zone>ṣṣ<unclear>eṃ</unclear></zone><zone>wai</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><zone>śa</zone><zone>te¯</zone><zone>¯ñ</zone><zone>wno</zone><zone>lmi</zone><zone>cai</zone><zone>mā</zone><zone>śai</zone><zone>ṣṣe</zone><zone>kca</zone><zone>ynā</zone><zone>ñm<unclear>y</unclear>ā</zone><zone><gap reason="plain" unit="part"/><unclear>o</unclear>¯</zone><zone>¯Ṣ</zone><zone>:</zone><zone>kre</zone><zone><gap reason="plain" unit="part"/>au</zone><zone>na</zone><zone>cceṃ</zone><zone>pa</zone><zone>p<unclear>ā</unclear></zone><zone>ṣ<gap reason="plain" unit="part"/>o</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><zone>lye</zone><zone>kcme</zone><zone>lne</zone><zone>sā</zone><zone>le</zone><zone>pri</zone><zone>yeṃ</zone><zone>:</zone><zone>pKA</zone><zone>nte</zone><zone><unclear>p</unclear>i</zone><zone>lkwa</zone><zone>ttsai¯</zone><zone>¯K</zone><zone>da</zone><zone>kṣi</zone><zone><gap reason="plain" unit="part"/><unclear>ā</unclear></zone><gap reason="lost"/><gap reason="lost"/><zone>meṃ</zone><zone>:</zone><zone>a</zone><zone><unclear>śr</unclear><gap reason="plain" unit="part"/></zone><zone>ddhye</zone><zone>mp<unclear>e</unclear></zone><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><zone>a</zone><zone>ttsai¯</zone><zone>¯K</zone><zone>20</zone><zone>8</zone><zone>kusā</zone><zone>mo</zone><zone>ksa</zone><zone>tri</zone><zone>ko¯</zone><zone>¯Ṣ</zone><zone>cai</zone><zone><unclear>p</unclear>o</zone><zone>śai</zone><zone><unclear>ṣṣe</unclear></zone><zone>mā</zone><zone>ṢAṃ</zone><zone><gap reason="plain" unit="part"/>y<gap reason="plain" unit="part"/></zone><zone>ntRA</zone><zone>:</zone><zone>kuce</zone><zone>ñä¯</zone><zone>¯<unclear>Ś</unclear></zone><gap reason="lost"/><gap reason="lost"/><zone>ma¯</zone><zone>¯R</zone><zone>te</zone><zone><unclear>ksā</unclear></zone><zone><unclear>l</unclear><gap reason="plain" unit="part"/><unclear>e</unclear>¯</zone><zone>¯K</zone><zone>po</zone><zone>mā</zone><gap reason="lost"/></line>
+            <line n="6" xml:id="a6"><zone>lyai¯</zone><zone>¯K</zone><zone>:</zone><zone>ṣa¯</zone><zone>¯ñä</zone><zone>a</zone><zone>mo</zone><zone>ksa</zone><zone>mā</zone><zone><unclear>k</unclear><gap reason="plain" unit="part"/></zone><zone><gap reason="plain" unit="part"/><unclear>y</unclear><gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="3"/><zone>mā</zone><zone><unclear>no</unclear></zone><zone>ya</zone><zone>ma</zone><zone>ṣye</zone><zone>ntRA</zone><zone>ka</zone><zone>rma</zone><zone>pa¯</zone><zone>¯T</zone><gap reason="lost"/><gap reason="lost"/><zone><unclear>tkne</unclear></zone><zone>20</zone><zone>9</zone><zone><unclear>MA</unclear></zone><zone>kte</zone><zone>KA</zone><zone>ryo</zone><gap reason="plain" quantity="1"/><zone>klā</zone><zone><unclear>nt</unclear>e</zone><zone><unclear>l</unclear>w<gap reason="plain" unit="part"/></zone><zone><unclear>kc</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="7" xml:id="a7"><zone>klyau</zone><zone>ṣa</zone><zone>pu</zone><zone>dñä</zone><zone>kte</zone><zone>ntse</zone><gap reason="lost"/><gap reason="lost"/><zone><unclear>w</unclear><gap reason="plain" unit="part"/>¯</zone><zone>¯K</zone><zone>ca</zone><zone><unclear>r</unclear>ka</zone><zone>:</zone><zone>ā</zone><gap reason="lost"/><gap reason="lost"/><zone><gap reason="plain" unit="part"/><unclear>ā</unclear></zone><zone>tka</zone><zone>wno</zone><zone>l<unclear>m</unclear>eṃ</zone><zone>p<unclear>r</unclear>e</zone><gap reason="lost"/></line>
+            <line n="8" xml:id="a8"><gap reason="lost"/><zone>pā</zone><zone>ñco</zone><gap reason="lost"/><gap reason="lost"/><zone><gap reason="plain" unit="part"/>e</zone><zone><gap reason="plain" unit="part"/>ā</zone><zone>mo</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic url="B/B24b.jpg" height="1144px" width="1580px"/>
+            <line n="1" xml:id="b1"><zone><unclear>c</unclear>m<gap reason="plain" unit="part"/></zone><zone>ñ</zone><gap reason="lost"/><gap reason="lost"/><zone><gap reason="plain" unit="part"/>m<gap reason="plain" unit="part"/></zone><zone>tsSA</zone><zone><unclear>r</unclear>ś<gap reason="plain" unit="part"/></zone><gap reason="lost"/><gap reason="lost"/><zone><unclear>ṣ</unclear>l<gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="1"/><zone><unclear>ke</unclear></zone></line>
+            <line n="2" xml:id="b2"><zone>ka</zone><zone><unclear>w</unclear>ā</zone><zone>ññe</zone><zone>ntRA</zone><zone>śu</zone><zone>ke</zone><gap reason="lost"/><gap reason="lost"/><zone><gap reason="plain" unit="part"/>e</zone><zone>lwā</zone><zone>sa</zone><zone><unclear>pr</unclear>e</zone><gap reason="lost"/><gap reason="lost"/><zone><gap reason="plain" unit="part"/><unclear>m</unclear><gap reason="plain" unit="part"/></zone><zone>tsi</zone><zone><unclear>śyā</unclear></zone><zone>m<gap reason="plain" unit="part"/>e</zone><zone>ntRA</zone><zone><unclear>30</unclear></zone><zone><unclear>2</unclear></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><zone>ce</zone><zone>kwa</zone><zone>rñai</zone><zone>:</zone><zone>cai</zone><zone>no</zone><zone>a</zone><zone><unclear>k</unclear>n<gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="4"/><zone><unclear>po</unclear></zone><gap reason="plain" quantity="3"/><zone>ai</zone><zone>śe</zone><gap reason="plain" quantity="1"/><zone>¯ñ</zone><zone><unclear>:</unclear></zone><zone><unclear>ke</unclear></zone><zone><unclear>kts</unclear>e</zone><zone><unclear>ñtse</unclear></zone><zone>kñi</zone><zone><unclear>nta</unclear></zone><zone>mā</zone><gap reason="lost"/><gap reason="lost"/><zone>ṅ<gap reason="plain" unit="part"/>ā</zone><zone><unclear>n</unclear><gap reason="plain" unit="part"/><gap reason="plain" unit="part"/></zone><zone>rm<unclear>e</unclear></zone><zone>ce</zone><zone>kwa</zone><zone>rñai</zone><gap reason="plain" quantity="1"/><zone>kreṃ¯</zone><zone>¯nT</zone><zone><gap reason="plain" unit="part"/>au<unclear>¯</unclear></zone><zone><unclear>¯</unclear><unclear>L</unclear></zone><zone><gap reason="plain" unit="part"/>e</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><zone>sa</zone><zone>cai</zone><zone>tri</zone><zone>ko</zone><zone>ṣtrai</zone><zone>ke</zone><zone>ntsa</zone><zone>wai</zone><zone>ptā¯</zone><zone>¯R</zone><zone>ṣeṃ</zone><zone>:</zone><zone>ce<unclear>ṃ</unclear></zone><zone><gap reason="plain" unit="part"/>au</zone><gap reason="plain" quantity="1"/><zone>s<unclear>ts</unclear>ye</zone><zone><unclear>ntw</unclear>e</zone><zone>kr<unclear>e</unclear></zone><zone>ntau</zone><zone><unclear>na</unclear></zone><gap reason="lost"/><gap reason="lost"/><zone>ri</zone><zone>t<unclear>TA</unclear></zone><zone>stsi</zone><gap reason="plain" quantity="1"/><zone>:</zone><zone>we</zone><zone>ña</zone><zone><unclear>śl</unclear>o</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><zone>kuse</zone><zone>wa¯</zone><zone>¯T</zone><zone>śau</zone><zone>lo</zone><zone>po</zone><zone>sa</zone><zone>o</zone><zone>lypo</zone><zone>tū</zone><zone>na</zone><zone><unclear>ka</unclear></zone><zone>lṣlyeṃ</zone><zone><unclear>r</unclear><gap reason="plain" unit="part"/></zone><zone><unclear>tTA</unclear></zone><zone>stsi</zone><gap reason="lost"/><gap reason="lost"/><zone>me</zone><zone>30</zone><zone>4</zone><zone>ta</zone><zone><unclear>k</unclear><gap reason="plain" unit="part"/></zone><zone><gap reason="plain" unit="part"/><unclear>e</unclear></zone><gap reason="lost"/></line>
+            <line n="6" xml:id="b6"><zone>e</zone><zone>mpreṃ</zone><zone>tsñe</zone><zone>no</zone><zone>swa</zone><zone>reṃ</zone><zone>meṃ</zone><zone>swā</zone><zone>re</zone><zone>śu</zone><zone>ke</zone><zone><unclear>ntaṃ</unclear><unclear>¯</unclear></zone><zone><unclear>¯</unclear><unclear>tS</unclear></zone><zone>:</zone><zone>ai</zone><gap reason="plain" quantity="1"/><zone>mñe</zone><zone>ṣṣe</zone><zone><gap reason="plain" unit="part"/><unclear>au</unclear></zone><gap reason="plain" quantity="1"/><zone><unclear>śau</unclear></zone><gap reason="lost"/></line>
+            <line n="7" xml:id="b7"><zone>mpe</zone><zone>ṣe</zone><zone>wai</zone><zone>pe</zone><zone>cce</zone><zone>nta</zone><zone>śai</zone><zone>ṣṣe</zone><zone>ṣṣa</zone><zone>na</zone><zone>:</zone><zone><unclear>s</unclear><gap reason="plain" unit="part"/>ai</zone><zone><unclear>k</unclear><gap reason="plain" unit="part"/>¯</zone><zone>¯śä</zone><zone>sa</zone><zone>nu</zone><zone>ññe</zone><zone><unclear>ṣa</unclear><unclear>¯</unclear></zone><zone><unclear>¯</unclear><unclear>ñä</unclear></zone><zone><gap reason="plain" unit="part"/>ai</zone><gap reason="lost"/></line>
+            <line n="8" xml:id="b8"><zone>po</zone><zone>pro</zone><zone>skai</zone><zone>nne</zone><zone>po</zone><zone>cme</zone><zone>la</zone><zone>ne</zone><zone>śra</zone><zone>ddhau</zone><zone>ñe</zone><gap reason="plain" quantity="1"/><zone>wai</zone><zone>pe</zone><zone>cce</zone><zone>tne</zone><zone>sa</zone><zone><gap reason="plain" unit="part"/>e</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p><milestone unit="passage" n="Book 10 (Śraddhāvarga), strophes 26-36."/></p>
+            <lg type="poem" subtype="hom" met="frg:M13_13_13_13_21a">
+               <lg n="X" type="strophe">
+                  <l n="x" real="8"><caesura ana="frg:cs-s"/>
+<w><supplied>papā</supplied><lb corresp="#a1"/>ṣṣorñe</w><caesura ana="frg:cs-w"/><w>mā</w><w>papāṣṣu</w><pc>:</pc></l>
+                  <l n="x" real="5/12/5"><w>mā</w><w>cai</w><w>nta</w><w>ynakteṃ</w><caesura ana="frg:cs-s"/><w><supplied>tä</supplied>nmaskenträ</w><caesura ana="frg:cs-w"/><w>wnolmi</w><gap reason="lost"/><supplied unit="syllable" quantity="2"/></l>
+               </lg>
+               <lg n="26" type="strophe">
+                  <l n="e" real="5/5/8"><supplied unit="syllable" quantity="10"/>
+<lb corresp="#a2"/><w>trä</w><w>tu<caesura ana="frg:cs-w"/>sa</w><w>kāccän</w><w>sū</w><caesura ana="frg:cs-s"/><w>skwassu</w><w>cmela<supplied>n</supplied>e</w><num value="26">20-6</num></l>
+               </lg>
+               <lg n="27" type="strophe">
+                  <l n="a" real="8/0/8"><w>ṣemi</w><w>trikoṣ</w><w>ṣeṃ</w><caesura ana="frg:cs-s"/><w>wai</w><gap reason="lost"/><supplied unit="syllable" quantity="7"/></l>
+                  <l n="d" real="5/4"><supplied unit="syllable" quantity="1"/>
+<lb corresp="#a3"/><w>śateñ</w><w>wnolmi</w><caesura ana="frg:cs-s"/><w>cai</w><w>mā</w><w>śaiṣṣe</w><caesura ana="frg:cs-w"/><w>kca</w><w>ynāñm</w><w>yā<supplied>m</supplied>oṣ</w><pc>:</pc></l>
+                  <l n="e" real="6"><w>kre<supplied>nt</supplied>aunacceṃ</w><caesura ana="frg:cs-w"/><w>papāṣ<supplied>ṣ</supplied>o<supplied>ṣäṃ</supplied></w><caesura ana="frg:cs-s"/><gap reason="lost"/><supplied unit="syllable" quantity="13"/></l>
+               </lg>
+               <lg n="28" type="strophe">
+                  <l n="x"><supplied unit="syllable" quantity="5"/><caesura ana="frg:cs-s"/><w><supplied>mā=</supplied></w>
+<lb corresp="#a4"/><w>lyek</w><w>cmelne</w><caesura ana="frg:cs-w"/><w>sāle</w><w>priyeṃ</w><pc>:</pc></l>
+                  <l n="x" real="10"><w>pkänte</w><w>pilkw</w><w>attsaik</w><caesura ana="frg:cs-s"/><w>dakṣi<supplied>ṇ</supplied>ā</w><gap reason="lost"/><gap reason="lost"/><w>meṃ</w><pc>:</pc></l>
+                  <l n="x" real="20"><w>aśr<supplied>ā</supplied>ddhy</w><w>empe</w><gap reason="lost"/><supplied unit="syllable" quantity="9"/></l>
+                  <l n="e" real="5/13"><supplied unit="syllable" quantity="19"/>
+<lb corresp="#a5"/><w>attsaik</w><num value="28">20-8</num></l>
+               </lg>
+               <lg n="29" type="strophe">
+                  <l n="a" real="28/5"><w>kUs=</w><w>āmoksa</w><w>trikoṣ</w><caesura ana="frg:cs-s"/><w>cai</w><w>po</w><w>śaiṣṣe</w><caesura ana="frg:cs-w"/><w>mā</w><w>ṣäṃ<supplied>ṣ</supplied>y<supplied>e</supplied>nträ</w><pc>:</pc></l>
+               </lg>
+               <lg n="X" type="strophe">
+                  <l n="x" real="3"><w>kUce</w><w>ñäś</w><gap reason="lost"/><gap reason="lost"/><w>mar</w><w>te</w><w>ks=</w><w>āl<supplied>y</supplied>ek</w><w>po</w><w>mā</w><gap reason="lost"/>
+<w><supplied>a</supplied><lb corresp="#a6"/>lyaik</w><pc>:</pc></l>
+               </lg>
+               <lg n="29" type="strophe">
+                  <l n="e"><w>ṣañ</w><w>amoksa</w><w>mā</w><w>k<gap reason="plain" unit="part"/></w><w><gap reason="plain" unit="part"/>y<gap reason="plain" unit="part"/></w><gap reason="plain" quantity="3"/><w>mā</w><w>no</w><w>yamaṣyenträ</w><w>karmapat</w><gap reason="lost"/><gap reason="lost"/><w>tkne</w><num value="29">20-9</num></l>
+               </lg>
+               <lg n="X" type="strophe">
+                  <l n="x"><w>mäkte</w><w>käryo<supplied>rttañc</supplied></w><caesura ana="frg:cs-s"/><w>klānte</w><w>lw<gap reason="plain" unit="part"/></w><w>kc<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#a7"/><w>klyauṣa</w><w>pudñäktentse</w><gap reason="lost"/><gap reason="lost"/><w>w<supplied>e</supplied>k</w><w>carka</w><pc>:</pc></l>
+               </lg>
+               <lg n="32" type="strophe">
+                  <l n="e"><w>ā</w><gap reason="lost"/><gap reason="lost"/><w><supplied>y</supplied>ātka</w><w>wnolmeṃ</w><w>pre</w><gap reason="lost"/>
+<lb corresp="#a8"/><gap reason="lost"/><w>pāñco</w><gap reason="lost"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>e</w><w><gap reason="plain" unit="part"/>āmo</w><gap reason="lost"/>
+<lb corresp="#b1"/><w>cm<gap reason="plain" unit="part"/></w><w>ñ</w><gap reason="lost"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>m<gap reason="plain" unit="part"/></w><w>ts</w><w>särś<gap reason="plain" unit="part"/></w><gap reason="lost"/><gap reason="lost"/><w>ṣl<gap reason="plain" unit="part"/></w><gap reason="plain" quantity="1"/><w>ke</w>
+<lb corresp="#b2"/><w>kawāññenträ</w><w>śuke</w><gap reason="lost"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>e</w><w>lwāsa</w><w>pre</w><gap reason="lost"/><gap reason="lost"/><caesura ana="frg:cs-s"/><w><supplied>c</supplied>m<supplied>e</supplied>tsiś</w><w>yām<supplied>ṣy</supplied>enträ</w><num value="32">30-2</num></l>
+               </lg>
+               <lg n="X" type="strophe">
+                  <l n="x" real="5/4-4"><gap reason="lost"/>
+<lb corresp="#b3"/><w>cek</w><w>warñai</w><pc>:</pc></l>
+                  <l n="x" real="19"><w>cai</w><w>no</w><w>akn<supplied>ātsañ</supplied></w><caesura ana="frg:cs-s"/><gap reason="plain" quantity="2"/><w>po</w><gap reason="plain" quantity="2"/><caesura ana="frg:cs-w"/><gap reason="plain" quantity="1"/><w>aiśe<supplied>ñca</supplied>ñ</w><pc>:</pc></l>
+                  <l n="x" real="15"><w>kektseñts=</w><w>ekñinta</w><caesura ana="frg:cs-s"/><w>mā</w><w><supplied>mä</supplied>ṅ<supplied>k</supplied>ān<supplied>tä</supplied>r<milestone unit="w" type="break"/><caesura ana="frg:cs-w"/>me</w><w>cek</w><w>warñai</w><pc><supplied>:</supplied></pc></l>
+                  <l n="x" real="8/8"><w>kreṃnt</w><w><supplied>ś</supplied>aul</w><w><gap reason="plain" unit="part"/>e</w><gap reason="lost"/>
+<lb corresp="#b4"/><w>sa</w><w>cai</w><caesura ana="frg:cs-s"/><w>trikoṣ</w><w>traiken<caesura ana="frg:cs-w"/>tsa</w><w>waiptār</w><w>ṣeṃ</w><pc>:</pc></l>
+                  <l n="x"><w>ceṃ</w><w><gap reason="plain" unit="part"/>au</w><gap reason="plain" quantity="1"/><w>stsy</w><w>entwe</w><w>krentauna<supplied>ne</supplied></w><gap reason="lost"/><gap reason="lost"/><w>rittästsi<supplied>śco</supplied></w><pc>:</pc></l>
+               </lg>
+               <lg n="34" type="strophe">
+                  <l n="e"><w>weña</w><w>ślo</w><gap reason="lost"/>
+<lb corresp="#b5"/><w>kUse</w><w>wat</w><w>śaulo</w><w>posa</w><w>olypo</w><w>tūn=</w><w>akalṣlyeṃ</w><w>r<supplied>i</supplied>ttästsi</w><gap reason="lost"/><gap reason="lost"/><w>me</w><num value="34">30-4</num></l>
+               </lg>
+               <lg n="X" type="strophe">
+                  <l n="x"><w>tak<supplied>arṣkñ</supplied>e</w><gap reason="lost"/>
+<lb corresp="#b6"/><w>empreṃtsñe</w><w>no</w><w>swareṃmeṃ</w><w>swāre</w><w>śukentaṃts</w><pc>:</pc></l>
+                  <l n="x"><w>ai<supplied>śa</supplied>mñeṣṣe</w><w><supplied>ś</supplied>au<supplied>l</supplied></w><w>śau</w><gap reason="lost"/>
+<lb corresp="#b7"/><w>mp=</w><w>eṣe</w><caesura ana="frg:cs-s"/><w>waipeccenta</w><caesura ana="frg:cs-w"/><w>śaiṣṣeṣṣana</w><pc>:</pc></l>
+               </lg>
+            </lg>
+            <p><w>s<supplied>n</supplied>ai</w><w>k<supplied>e</supplied>ś</w><w>sanuññe</w><w>ṣañ</w><w><gap reason="plain" unit="part"/>ai</w><gap reason="lost"/>
+<lb corresp="#b8"/><w>po</w><w>proskainne</w><w>po</w><w>cmelane</w><w>śraddhauñe<supplied>eṣṣe</supplied></w><w>waipecce</w><w>tne</w><w>sa</w><w><gap reason="plain" unit="part"/>e</w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><bibl><title corresp="ref:carling2000"/><citedRange>232</citedRange></bibl></seg><seg><seg type="prim_transl">[the one] not having kept up [the moral conduct], these beings will not be [re]born among the Gods ...</seg></seg></choice><choice corresp="#a1 #a2 #a3 #a4 #a5 #a6 #a7 #a8 #b1 #b2 #b3 #b4 #b5 #b6 #b7 #b8"><seg><bibl><title corresp="ref:siegandsiegling1949"/><citedRange>II, 40-41</citedRange></bibl></seg></choice><choice corresp="#a2"><seg><bibl><title corresp="ref:carling2000"/><citedRange>244</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1957"/><citedRange>298</citedRange></bibl></seg><seg><seg type="prim_transl">thus he is rejoicing, he is happy in [his] births. [26e] Some had gone astray (because of) [their] possessions ...</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">these rich bengs, that valued no human, (that) the virtuous ones [and] the ones having kept up (the moral conduct) ... [27e] ...</seg></seg></choice><choice corresp="#a4"><seg><bibl><title corresp="ref:carling2000"/><citedRange>243</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1957"/><citedRange>39</citedRange></bibl></seg><seg><bibl><title corresp="ref:ching2010"/><citedRange>236</citedRange></bibl></seg><seg><seg type="prim_transl">they did [not] carry the salt into the other birth. Only looking askance at the worthy ones, unbelieving, cruel ...</seg></seg></choice><choice corresp="#a5"><seg><bibl><title corresp="ref:thomas1957"/><citedRange>39, 291</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1997"/><citedRange>105</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1997"/><citedRange>109</citedRange></bibl></seg><seg><seg type="prim_transl">only. [28e] Those that had gone astray because of their artifice, the whole world they did not count [stuck as they were in the thought]: What I (could do), all this nobody else (could do) ...</seg></seg></choice><choice corresp="#a6"><seg><bibl><title corresp="ref:thomas1957"/><citedRange>40</citedRange></bibl></seg><seg><bibl><title corresp="ref:siegandsiegling1983"/><citedRange>185</citedRange></bibl></seg><seg><seg type="prim_transl">others. For [all] their artifice not ... nor did they make the path of [good] deeds as [their] duty. [29e] Like merchants they brought an animal (?) ...</seg></seg><seg><seg type="prim_transl">... noch auch befolgen sie den Weg der [guten] Werke als [ihre] Pflicht.</seg><seg type="sec_transl" resp="TI">... and neither do they obey the path of [good] deeds as [their] obligation.</seg><bibl><title corresp="ref:schmidtkt1974"/><citedRange>430</citedRange></bibl></seg></choice><choice corresp="#a7"><seg><seg type="prim_transl">heard the Buddha’s ... released the voice ... ordered the beings...</seg></seg></choice><choice corresp="#a8"><seg><seg type="prim_transl">...</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">...</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">they desired the juice ... (evil deed?), in order to be [re]born (in hell among) animals [and] hungry ghosts, they did. [32e] ....</seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl">somehow. For these fools ... all ... of the body (not) recognizing, if by them the possessions (are) not (lost) somehow. The good life ... [33e] ...</seg></seg></choice><choice corresp="#b4"><seg><bibl><title corresp="ref:thomas1954"/><citedRange>721</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1954"/><citedRange>752</citedRange></bibl></seg><seg><seg type="prim_transl">In (this way) these that had gone astray by illusions differed. To make these [delusions] disappear and to henceforth be persistent in the virtues, a strophe spoke ...</seg></seg></choice><choice corresp="#b5"><seg><bibl><title corresp="ref:thomas1958a"/><citedRange>151</citedRange></bibl></seg><seg><bibl><title corresp="ref:siegandsiegling1983"/><citedRange>185</citedRange></bibl></seg><seg><seg type="prim_transl">or which is the best life, to attach the pupils to it, (he proclaimed this strophe to them). [34e] The belief ...</seg></seg></choice><choice corresp="#b6"><seg><bibl><title corresp="ref:carling2000"/><citedRange>25</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1958a"/><citedRange>157</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1970b"/><citedRange>282</citedRange></bibl></seg><seg><seg type="prim_transl">for the truth is the sweetest of juices. (A life) of wisdom (is by the) living ... [35e] ...</seg></seg></choice><choice corresp="#b7"><seg><seg type="prim_transl">with .... together the earthly possessions. Countless enmity (by his possessions) ...</seg></seg></choice><choice corresp="#b8"><seg><bibl><title corresp="ref:thomas1979b"/><citedRange>31</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1997"/><citedRange>141</citedRange></bibl></seg><seg><seg type="prim_transl">in all dangers, in all births the possession of belief (is causing) happiness here ... [36e]</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="parallels">Uv 10.3</note><note type="philcomment" subtype="General_remarks">This leaf immediately follows <ref type="ms" target="txt:m-tht23"/> and includes strophes 26-36 of the Śraddhāvarga (X) in a 4x13 (rhythm = 5/8) plus 1x21 (rhythm = 8/8/5) syllable-metre. It translates Uv 10.3.</note><note type="remarks">The original manuscript is partly missing, but consisted of several severely damaged fragments, that are partly unconnected. In all, the fragment preserved thus included the greater part of the left half of the leaf.</note><note type="remarks">The original manuscript is found under press mark <ref type="ms" target="txt:m-tht1169a"/> (Michaël Peyrot, 27 April 2019).</note><note corresp="#a1" type="philcomment" subtype="Transcription">Emendation according to <bibl><title corresp="ref:siegandsiegling1983"/><citedRange>56 f</citedRange></bibl>n. 4.</note><note corresp="#a4" type="philcomment" subtype="Transcription">Emendation according to <bibl><title corresp="ref:siegandsiegling1983"/><citedRange>56 f</citedRange></bibl>n. 6.</note><note corresp="#a5" type="philcomment" subtype="Transcription">Emendation according to <bibl><title corresp="ref:siegandsiegling1983"/><citedRange>56 f</citedRange></bibl>n. 9.</note><note corresp="#a6" type="philcomment" subtype="Transcription">Emendations according to <bibl><title corresp="ref:siegandsiegling1983"/><citedRange>56 f</citedRange></bibl>n. 12 and 15.</note><note corresp="#a7" type="philcomment" subtype="Transcription">Emendation according to <bibl><title corresp="ref:siegandsiegling1983"/><citedRange>56 f</citedRange></bibl>n. 15.</note><note corresp="#b2" type="philcomment" subtype="Transcription">Emendation according to <bibl><title corresp="ref:siegandsiegling1983"/><citedRange>57 f</citedRange></bibl>n. 5.</note><note corresp="#b3" type="philcomment" subtype="Transcription">Emendations according to <bibl><title corresp="ref:siegandsiegling1983"/><citedRange>57 f</citedRange></bibl>n. 7, 8 and 9.</note><note corresp="#b4" type="philcomment" subtype="Transcription">Emendations according to <bibl><title corresp="ref:siegandsiegling1983"/><citedRange>57 f</citedRange></bibl>n. 11 and 12.</note><note corresp="#b6" type="philcomment" subtype="Transcription">Emendation according to <bibl><title corresp="ref:siegandsiegling1983"/><citedRange>57 f</citedRange></bibl>n. 17.</note><note corresp="#b8" type="philcomment" subtype="Transcription">Emendation according to <bibl><title corresp="ref:siegandsiegling1983"/><citedRange>57 f</citedRange></bibl>n. 20.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition</label><bibl><title corresp="ref:siegandsiegling1949"/><citedRange>I, 41-42</citedRange></bibl>; <bibl><title corresp="ref:siegandsiegling1983"/><citedRange>56-57 notes 185-186</citedRange></bibl>. </p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 24" type="external">THT 24</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/00/0024.htm" type="external">THT 24</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_other_sigla_old">B 24</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old">The original manuscript is partly missing, but consisted of several severely damaged fragments, that are partly unconnected. In all, the fragment preserved thus included the greater part of the left half of the leaf.
+&lt;p&gt;The original manuscript is found under press mark [[THT 1169.a]] (Michaël Peyrot, 27 April 2019).&lt;/p&gt;</item>
+               <item n="m_expedition_old">T III Š 68.26+Frgm</item>
+               <item n="m_size_w_old"/>
+               <item n="m_parallels_old">Uv 10.3</item>
+               <item n="ms_old">THT 24</item>
+               <item n="project_comment_old">&lt;p&gt;Translations from [[Schmidt KT 1974]]
+&lt;table class="table_lines"&gt;
+&lt;th&gt;Lines&lt;/th&gt;
+&lt;th&gt;Translation&lt;/th&gt;
+&lt;th&gt;Pages&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt;a6&lt;/td&gt;
+&lt;td&gt;&lt;span title="... and neither do they obey the path of [good] deeds as [their] obligation."&gt;... noch auch befolgen sie den Weg der [guten] Werke als [ihre] Pflicht.&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;430&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+NB: THT 1169.a = left fragment, but images are confused. (MP)&lt;br&gt;
+NB: (a)ylaik (MP)</item>
+               <item n="m_script_old">Classical</item>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_title_old">Udānālaṅkāra</item>
+               <item n="m_transcription_old"> #M13_13_13_13_21a# ; papāṣṣorñe|(papā)|ṣṣorñe
+a1 , mā papāṣṣu : #Xx mā cai nta ynakteṃ ; tänmaskentär|(tä)nmaskenträ , onolmi|wnolmi /// %2 #Xx %10
+a2 trä tu,sa kāccän sū ; skwassu cmela(n)e 26 #26e ṣemi trikoṣ ṣeṃ ; wai /// %7 #27a %1
+a3 śateñ onolmi|wnolmi ; cai mā śaiṣṣe , kca ynāñm yā(m)oṣ : #27d kre(nt)aunacceṃ , papāṣ(ṣ)o(ṣäṃ) ; /// %13 #27e %5 ; (mā=)
+a4 alyek|lyek cmelne , sāle priyeṃ : #28x pkänte pilkw attsaik ; dakṣi(ṇ)ā /// /// meṃ : #28x aśr(ā)ddhy empe /// %9 #28x %19
+a5 attsaik 28 #28e k_us= āmoksa trikoṣ ; cai po śaiṣṣe , mā ṣäṃ(ṣ)y(e)nträ : #29a k_uce ñäś /// /// mar te ksa|ks= āl(y)ek po mā /// alyaik|(a)|lyaik
+a6 : #Xx ṣañ amoksa mā k· ·y· – – – mā no yamaṣyenträ karmapat /// /// tkne 29 #29e mäkte käryo(rttañc) ; klānte lw· kc· ///
+a7 klyauṣa pūdñäktentse|pudñäktentse /// /// w(e)k carka : #Xx ā /// /// (y)ātka onolmeṃ|wnolmeṃ pre ///
+a8 /// pāñco /// /// ·e ·āmo ///
+b1 cm· ñ /// /// ·m· ts särś· /// /// ṣl· – ke
+b2 kawāññenträ śūke|śuke /// /// ·e lwāsa pre /// /// ; (c)m(e)tsiś yām(ṣy)enträ 32 #32e ///
+b3 cek warñai : #Xx cai no akn(ātsañ) ; – – po – – , – aiśe(ñca)ñ : #Xx kektseñts= ekñinta ; mā (mä)ṅ(k)ān(tä)r-,me cek warñai (:) #Xx kreṃnt (ś)aul ·e ///
+b4 sa cai ; trikoṣ traiken,tsa waiptār ṣeṃ : #Xx ceṃ ·au – stsy entwe krentauna(ne) /// /// rittästsi(śco) : #Xx weña ślo ///
+b5 k_use wat śaul|śaulo posa olypo tūn= akalṣlyeṃ r(i)ttästsi /// /// me 34 #34e tak(arṣkñ)e ///
+b6 empreṃtsñe no swareṃmeṃ swāre śukentaṃts : #Xx ai(śa)mñeṣṣe (ś)au(l) śau ///
+b7 mp= eṣe ; waipeccenta , śaiṣṣeṣṣana : #Xx s(n)ai k(e)ś sanuññe ṣañ ·ai ///
+b8 po proskainne po cmelane śraddhauñe(eṣṣe) waipecce tne sa ·e ///</item>
+               <item n="m_meter_old">5/4-4+6/4/5+5/5-3+5/4</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="user_modified_old">michael</item>
+               <item n="user_created_old">automatic</item>
+               <item n="m_prev_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="m_translation_old">a1 [the one] not having kept up [the moral conduct], these beings will not be [re]born among the Gods ...
+a2 thus he is rejoicing, he is happy in [his] births. [26e] Some had gone astray (because of) [their] possessions ...
+a3 these rich bengs, that valued no human, (that) the virtuous ones [and] the ones having kept up (the moral conduct) ... [27e] ...
+a4 they did [not] carry the salt into the other birth. Only looking askance at the worthy ones, unbelieving, cruel ...
+a5 only. [28e] Those that had gone astray because of their artifice, the whole world they did not count [stuck as they were in the thought]: What I (could do), all this nobody else (could do) ...
+a6 others. For [all] their artifice not ... nor did they make the path of [good] deeds as [their] duty. [29e] Like merchants they brought an animal (?) ...
+a7 heard the Buddha’s ... released the voice ... ordered the beings...
+a8 ...
+b1 ...
+b2 they desired the juice ... (evil deed?), in order to be [re]born (in hell among) animals [and] hungry ghosts, they did. [32e] ....
+b3 somehow. For these fools ... all ... of the body (not) recognizing, if by them the possessions (are) not (lost) somehow. The good life ... [33e] ...
+b4 In (this way) these that had gone astray by illusions differed. To make these [delusions] disappear and to henceforth be persistent in the virtues, a strophe spoke ...
+b5 or which is the best life, to attach the pupils to it, (he proclaimed this strophe to them). [34e] The belief ...
+b6 for the truth is the sweetest of juices. (A life) of wisdom (is by the) living ... [35e] ...
+b7 with .... together the earthly possessions. Countless enmity (by his possessions) ...
+b8 in all dangers, in all births the possession of belief (is causing) happiness here ... [36e]</item>
+               <item n="m_subgenre_old">Doctrine</item>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Verse</item>
+               <item n="project_check_old"/>
+               <item n="file_location_old">pages/manuscript/THT_0001_0633/tht24.txt</item>
+               <item n="access_old">public</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_lines_old">8</item>
+               <item n="m_completeness_old"/>
+               <item n="m_linedistance_old"/>
+               <item n="m_findspot_old">Šorčuq</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=11166;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=11166;rotate=0;imageType=_M||THT 24 recto</item>
+               <item n="m_transliteration_old">a1 ṣṣorñe mā papāṣṣu : mā cai nta ynakteṃ – [n]maskent_r_a wnolmi ///
+a2 t_r_a tusa kāccän\ sū skwassu cmela·[e] 20-6 ṣemi trikoṣ ṣ[eṃ] wai ///
+a3 śateñ\ wnolmi cai mā śaiṣṣe kca ynāñm [y]ā·[o]_ṣ\ : kre·aunacceṃ pap[ā]ṣ·o ///
+a4 lyek cmelne sāle priyeṃ : p_k_ante [p]ilkw attsai_k\ dakṣi·[ā] /// /// meṃ : a[śr]·ddhy emp[e] ///
+a5 attsai_k\ 20-8 k_us= āmoksa triko_ṣ\ cai [p]o śai[ṣṣe] mā _ṣ_aṃ·y·nt_r_a : k_uce ñä[_ś]\ /// /// ma_r\ te [ks= āl]·[e]_k\ po mā ///
+a6 lyai_k\ : ṣañä\ amoksa mā [k]· ·[y]· – – – mā [no] yamaṣyent_r_a karmapa_t\ /// /// [tkne] 20-9 [_m_a]kte _k_aryo – klā[nt]e [l]w· [kc]· ///
+a7 klyauṣa pudñäktentse /// /// [w]·_k\ ca[r]ka : ā /// /// ·[ā]tka wnol[m]eṃ p[r]e ///
+a8 /// pāñco /// /// ·e ·āmo ///
+b1 [c]m· ñ /// /// ·m· ts _s_a[r]ś· /// /// [ṣ]l· – [ke]
+b2 ka[w]āññent_r_a śuke /// /// ·e lwāsa [pr]e /// /// ·[m]· tsi[ś yā]m·ent_r_a [30-2] ///
+b3 cek warñai : cai no a[k]n· – – – – [po] – – – aiśe – ñ\ [: kekts]e[ñts= e]kñi[nta] mā /// /// ṅ·ā[n]··r-m[e] cek warñai – kreṃn_t\ ·au[_l\] ·e ///
+b4 sa cai trikoṣ traikentsa waiptā_r\ ṣeṃ : ce[ṃ] ·au – s[ts]y e[ntw]e kr[e]ntau[na] /// /// rit[_t_a]stsi – : weña [śl]o ///
+b5 k_use wa_t\ śaulo posa olypo tūn= a[ka]lṣlyeṃ [r]·[t_t_a]stsi /// /// me 30-4 ta[k]· ·[e] ///
+b6 empreṃtsñe no swareṃmeṃ swāre śuke[ntaṃt_s\] : ai – mñeṣṣe ·[au] – [śau] ///
+b7 mp= eṣe waipeccenta śaiṣṣeṣṣana : [s]·ai [k]·śä\ sanuññe [ṣañä\] ·ai ///
+b8 po proskainne po cmelane śraddhauñe – waipecce tne sa ·e ///</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="date_publication_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 24" target="idp"&gt;THT 24&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/00/0024.htm" target="titus"&gt;THT 24&lt;/a&gt;.&lt;br&gt;
+Edition: [[TochSprR(B) I]]: I, 41-42; [[TochSprR(B)2]]: 56-57, notes 185-186.&lt;br&gt;
+Complete translation: [[TochSprR(B) I]]: II, 40-41.&lt;br&gt;
+Translation:
+&lt;b&gt;a1&lt;/b&gt; [[Carling 2000]]: 232;
+&lt;b&gt;a2&lt;/b&gt; [[Carling 2000]]: 244, [[Thomas 1957]]: 298;
+&lt;b&gt;a4&lt;/b&gt; [[Carling 2000]]: 243, [[Thomas 1957]]: 39, [[Ching 2010]]: 236;
+&lt;b&gt;a5&lt;/b&gt; [[Thomas 1957]]: 39, 291, [[Thomas 1997]]: 105, [[Thomas 1997]]: 109;
+&lt;b&gt;a6&lt;/b&gt; [[Schmidt KT 1974]]: 430, [[Thomas 1957]]: 40, [[TochSprR(B)2]]: 185;
+&lt;b&gt;b4&lt;/b&gt; [[Thomas 1954]]: 721, [[Thomas 1954]]: 752;
+&lt;b&gt;b5&lt;/b&gt; [[Thomas 1958a]]: 151, [[TochSprR(B)2]]: 185;
+&lt;b&gt;b6&lt;/b&gt; [[Carling 2000]]: 25, [[Thomas 1958a]]: 157, [[Thomas 1970b]]: 282;
+&lt;b&gt;b8&lt;/b&gt; [[Thomas 1979b]]: 31, [[Thomas 1997]]: 141.</item>
+               <item n="m_manuscript_old">Udānālaṅkāra A</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_size_h_old"/>
+               <item n="m_next_old"/>
+               <item n="file_modified_old">1585231717</item>
+               <item n="file_created_old">1332006593</item>
+               <item n="m_editor_old">Hannes A. Fellner</item>
+               <item n="m_philcomment_old">&lt;h3&gt;Transcription&lt;/h3&gt;
+&lt;p&gt;&lt;b&gt;a1.&lt;/b&gt; Emendation according to [[TochSprR(B)2]]: 56 fn. 4.&lt;br&gt;
+&lt;b&gt;a4.&lt;/b&gt; Emendation according to [[TochSprR(B)2]]: 56 fn. 6.&lt;br&gt;
+&lt;b&gt;a5.&lt;/b&gt; Emendation according to [[TochSprR(B)2]]: 56 fn. 9.&lt;br&gt;
+&lt;b&gt;a6.&lt;/b&gt; Emendations according to [[TochSprR(B)2]]: 56 fn. 12 and 15.&lt;br&gt;
+&lt;b&gt;a7.&lt;/b&gt; Emendation according to [[TochSprR(B)2]]: 56 fn. 15.&lt;br&gt;
+&lt;b&gt;b2.&lt;/b&gt; Emendation according to [[TochSprR(B)2]]: 57 fn. 5.&lt;br&gt;
+&lt;b&gt;b3.&lt;/b&gt; Emendations according to [[TochSprR(B)2]]: 57 fn. 7, 8 and 9.&lt;br&gt;
+&lt;b&gt;b4.&lt;/b&gt; Emendations according to [[TochSprR(B)2]]: 57 fn. 11 and 12.&lt;br&gt;
+&lt;b&gt;b6.&lt;/b&gt; Emendation according to [[TochSprR(B)2]]: 57 fn. 17.&lt;br&gt;
+&lt;b&gt;b8.&lt;/b&gt; Emendation according to [[TochSprR(B)2]]: 57 fn. 20.&lt;/p&gt;
+&lt;h3&gt;General remarks&lt;/h3&gt;
+&lt;p&gt;This leaf immediately follows [[THT 23]] and includes strophes 26-36 of the Śraddhāvarga (X) in a 4x13 (rhythm = 5/8) plus 1x21 (rhythm = 8/8/5) syllable-metre. It translates Uv 10.3.&lt;/p&gt;</item>
+               <item n="m_passage_old">Book 10 (Śraddhāvarga), strophes 26-36.</item>
+               <item n="m_material_old">Ink on paper</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;
+NB: THT 1169.a = left fragment, but images are confused. (MP) 
+NB: (a)ylaik (MP)&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-pkas15h">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PK AS 15H</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Georges-Jean Pinault</name>
+            </respStmt>
+            <respStmt>
+               <resp>collaborator</resp>
+               <name>Melanie Malzahn</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</repository>
+                  <idno>PK AS 15H</idno>
+                  <altIdentifier>
+                     <idno>Pelliot Koutchéen Ancienne Série 15H</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>7,5</height>
+                              <width>11</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <dimensions type="line_spacing">
+                              <height>1,7</height>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Jātaka/Avadāna</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic url="ASHuard/AS15Ha.jpg" height="3480px" width="4640px"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>lk<unclear>o</unclear></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone><gap reason="plain" unit="part"/><gap reason="plain" unit="part"/>ṃ</zone><zone>ñi¯</zone><zone>¯śä</zone><zone>pa</zone><zone>ske</zone><zone>ma¯</zone><zone>¯R∘</zone><zone>॥</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone><unclear>yā</unclear></zone><zone>mu</zone><zone>wRA</zone><zone>ntsai</zone><zone>meṃ</zone><zone>ā</zone><space type="string_hole"/><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><zone>kṣta¯</zone><zone>¯R∘</zone><zone>pi</zone><zone>ścme</zone><zone>la</zone><zone>śwā</zone><zone>ma</zone><space type="string_hole"/><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><gap reason="lost"/><zone>nmiṃ</zone><zone>pkā</zone><zone>rsa¯</zone><zone>¯ñä</zone><zone>॥</zone><zone>tu</zone><space type="string_hole"/><gap reason="lost"/></line>
+            <line n="6" xml:id="a6"><gap reason="lost"/><zone><gap reason="par" unit="part"/><unclear>ā</unclear></zone><zone>yaṃ</zone><zone>•</zone><zone>ta</zone><zone>ne</zone><zone>yā</zone><zone>kṣi</zone><zone>e</zone><zone>ne</zone><gap reason="lost"/></line>
+            <line n="7" xml:id="a7"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>e</zone><zone>n<unclear>t</unclear><gap reason="par" unit="part"/>e</zone><gap reason="plain" quantity="2"/><zone>rṣe</zone><zone>va</zone><zone><unclear>n</unclear><gap reason="plain" unit="part"/>ī</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic url="ASHuard/AS15Hb.jpg" height="3480px" width="4640px"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><gap reason="plain" quantity="1"/><gap reason="par" quantity="1"/><zone><unclear>yṣ</unclear><gap reason="par" unit="part"/></zone><zone><gap reason="par" unit="part"/>s<gap reason="par" unit="part"/></zone><zone>n<gap reason="par" unit="part"/></zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone>hi</zone><zone>ra</zone><zone>ṇ<unclear>y</unclear>a</zone><zone>pra</zone><zone>bhe</zone><zone>ña</zone><zone><unclear>kt</unclear>e</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><zone>pra</zone><zone>ti</zone><zone><unclear>n</unclear>ä</zone><zone>ṣṣai</zone><zone>PA</zone><zone>rri</zone><zone><unclear>T</unclear>TA¯</zone><zone>¯R</zone><space type="string_hole"/><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><zone>na</zone><zone>ttse</zone><zone>swa</zone><zone>ñ<unclear>c</unclear>aiṃ</zone><zone>lkā</zone><zone>ske</zone><space type="string_hole"/><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>lya</zone><zone>kno</zone><zone><unclear>s</unclear>ā</zone><zone>ñī</zone><zone>KA</zone><space type="string_hole"/><gap reason="lost"/></line>
+            <line n="6" xml:id="b6"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone><unclear>ts</unclear>i</zone><zone>॥</zone><zone><unclear>tu</unclear></zone><zone>meṃ</zone><zone><unclear>e</unclear></zone><zone>p<unclear>i</unclear></zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="7" xml:id="b7"><gap reason="lost"/><zone>l<unclear>k</unclear>o</zone><gap reason="plain" quantity="1"/><gap reason="par" quantity="1"/><zone><unclear>l</unclear><gap reason="par" unit="part"/></zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>lko</w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><w><gap reason="plain" unit="part"/><gap reason="plain" unit="part"/>ṃ</w><w>ñiś</w><w>paskemar</w><pc>॥</pc><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><w>yāmu</w><w>wräntsaimeṃ</w><w>ā</w><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="lost"/><w>kṣtar</w><w>piś</w><w>cmela</w><w>śwāma<supplied>ne</supplied></w><gap reason="lost"/>
+<lb corresp="#a5"/><gap reason="lost"/><w><supplied>o</supplied>nmiṃ</w><w>pkārsa-ñ</w><pc>॥</pc><w>tu</w><gap reason="lost"/>
+<lb corresp="#a6"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>āyaṃ</w><pc>•</pc><w>tane</w><w>yākṣi</w><w>ene</w><gap reason="lost"/>
+<lb corresp="#a7"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>ent<supplied>s</supplied>e</w><w><supplied>säsuwe</supplied>rṣe</w><w>van<gap reason="plain" unit="part"/>ī</w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><gap reason="plain" quantity="2"/><w>yṣ<gap reason="plain" unit="part"/></w><w><gap reason="plain" unit="part"/>s<gap reason="plain" unit="part"/></w><w>n<gap reason="plain" unit="part"/></w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><w>hiraṇyaprabhe</w><w>ñakte</w><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><w>pratinäṣṣai</w><w>pärrittär</w><gap reason="lost"/>
+<lb corresp="#b4"/><gap reason="lost"/><w>nattse</w><w>swañcaiṃ</w><w>lkāske<milestone unit="w" type="break"/></w><gap reason="lost"/>
+<lb corresp="#b5"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>lyak</w><w>no</w><w>sāñ</w><w>īkä</w><gap reason="lost"/>
+<lb corresp="#b6"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>tsi</w><pc>॥</pc><w>tumeṃ</w><w>epi</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b7"/><gap reason="lost"/><w>lko</w><gap reason="plain" quantity="2"/><w>l<gap reason="plain" unit="part"/></w><gap reason="lost"/></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">Left part of a leaf with the string hole in lines 3-5, but without the left margin.</note><note corresp="#a1" type="philcomment"><hi>lko</hi> or <hi>lkau</hi>.</note><note corresp="#a7" type="philcomment">The reading <hi>va[n]·ī</hi> seems certain, but makes no sense: rather <hi>‹ca›[nd](r)ī</hi>.</note><note corresp="#b4" type="philcomment"><hi>lkāske(mane)</hi>?</note><note corresp="#b5" type="philcomment">The segmentation is uncertain.</note></p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_completeness_old"/>
+               <item n="m_lines_old">7</item>
+               <item n="m_collection_old">Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</item>
+               <item n="access_old">restricted</item>
+               <item n="file_location_old">pages/manuscript/PK_AS/pkas15h.txt</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old"/>
+               <item n="m_linedistance_old">1,7</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_bib_old"/>
+               <item n="date_publication_old"/>
+               <item n="m_transliteration_old">a1	/// – lk[o] ///
+a2	/// ··ṃ ñiśä\ paskema_r\• || ///
+a3	/// [yā]mu w_r_antsaimeṃ ā ○ ///
+a4	/// kṣta_r\• piś cmela śwāma ○ ///
+a5	/// nmiṃ pkārsa-ñä\ || tu ○ ///
+a6	/// (·)[ā]yaṃ • tane yākṣi ene ///
+a7	/// ·en[t](·)e – – rṣe va[n]·ī ///
+b1	/// – (–) [yṣ](· ·)s(·) n(·) – ///
+b2	/// hiraṇ[y]aprabhe ña[kt]e ///
+b3	/// prati[n]äṣṣai _p_arri[_t]_t_a_r\ ○ ///
+b4	/// nattse swañ[c]aiṃ lkāske ○ ///
+b5	/// – lyak no [s]āñ ī_k_a ○ ///
+b6	/// – [ts]i || [tu]meṃ [e]p[i] – ///
+b7	/// l[k]o – (–) [l](·) ///</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_image_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;a1.&lt;/b&gt; &lt;i&gt;lko&lt;/i&gt; or &lt;i&gt;lkau&lt;/i&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a7.&lt;/b&gt; The reading &lt;i&gt;va[n]·ī&lt;/i&gt; seems certain, but makes no sense: rather &lt;i&gt;‹ca›[nd](r)ī&lt;/i&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b4.&lt;/b&gt; &lt;i&gt;lkāske(mane)&lt;/i&gt;?&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b5.&lt;/b&gt; The segmentation is uncertain.&lt;/p&gt;</item>
+               <item n="m_editor_old">Georges-Jean Pinault (in collaboration with Melanie Malzahn)</item>
+               <item n="file_created_old">1348820088</item>
+               <item n="file_modified_old">1566934032</item>
+               <item n="m_size_h_old">7,5</item>
+               <item n="m_next_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="ms_old">PK AS 15H</item>
+               <item n="project_comment_old">&lt;p&gt;I changed &lt;b&gt;a1&lt;/b&gt; &lt;i&gt;o/au&lt;/i&gt; to &lt;i&gt;o&lt;/i&gt;. No oblique slashes allowed! –Martin (Tue, 2019-08-27, 21:27:12 (CEST))&lt;/p&gt;</item>
+               <item n="m_parallels_old"/>
+               <item n="m_size_w_old">11</item>
+               <item n="m_expedition_old"/>
+               <item n="m_remarks_old">&lt;p&gt;Left part of a leaf with the string hole in lines 3-5, but without the left margin.&lt;/p&gt;</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_other_sigla_old">Pelliot Koutchéen Ancienne Série 15H</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_meter_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_title_old"/>
+               <item n="m_transcription_old">a1	/// – lko ///
+a2	/// ··ṃ ñiś paskemar || ///
+a3	/// yāmu wräntsaimeṃ ā ///
+a4	/// kṣtar piś cmela śwāma(ne) ///
+a5	/// (o)nmiṃ pkārsa-ñ || tu ///
+a6	/// (·)āyaṃ • tane yākṣi ene ///
+a7	/// ·ent(s)e säsuwerṣṣe|(säsuwe)rṣe van·ī ///
+b1	/// – (–) yṣ(·) (·)s(·) n(·) – ///
+b2	/// hiraṇyaprabhe ñakte ///
+b3	/// pratinäṣṣai pärrittär ///
+b4	/// nattse swañcaiṃ lkāske- ///
+b5	/// – lyak no sāñ īkä ///
+b6	/// – tsi || tumeṃ epi – ///
+b7	/// lko – (–) l(·) ///</item>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_prev_old"/>
+               <item n="user_created_old">theres</item>
+               <item n="user_modified_old">martin</item>
+               <item n="project_check_old"/>
+               <item n="m_metric_form_old">Verse</item>
+               <item n="m_tune_old"/>
+               <item n="m_subgenre_old">Jātaka/Avadāna</item>
+               <item n="m_translation_old"/>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;I changed &lt;ref type="ms" target="__a1"/&gt; &lt;hi&gt;o/au&lt;/hi&gt; to &lt;hi&gt;o&lt;/hi&gt;. No oblique slashes allowed! –Martin (Tue, 2019-08-27, 21:27:12 (CEST))&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

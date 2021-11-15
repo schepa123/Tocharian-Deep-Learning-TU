@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-pkas1691">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PK AS 16.9.1</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Georges-Jean Pinault</name>
+            </respStmt>
+            <respStmt>
+               <resp>collaborator</resp>
+               <name>Melanie Malzahn</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <date when="2015-05-26">2015-05-26</date>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</repository>
+                  <idno>PK AS 16.9.1</idno>
+                  <altIdentifier>
+                     <idno>Pelliot Koutchéen Ancienne Série 16.9.1</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>PK AS 16.9A</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Supriyanāṭaka</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>9,6</height>
+                              <width>10,8</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <dimensions type="line_spacing">
+                              <height>1,3</height>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Duldur-Akhur</region>during <rs type="expedition_code">DA GPte</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Drama</term>
+               <term type="prose_verse">prose</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone>mn<gap reason="par" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone><gap reason="par" unit="part"/>o</zone><zone>y<unclear>ñ</unclear>ä</zone><zone>•</zone><zone>MA</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone>lyi</zone><zone>yai</zone><zone>MA</zone><zone>kte</zone><zone>ñ<gap reason="par" unit="part"/></zone><zone>k<gap reason="par" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>k<unclear>o</unclear><unclear>¯</unclear></zone><zone><unclear>¯</unclear><unclear>y</unclear>ñ<unclear>ä</unclear></zone><zone>a</zone><zone>ka</zone><zone>lye</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><gap reason="lost"/><zone>r<gap reason="par" unit="part"/></zone><zone>rsa</zone><zone>i</zone><zone>sta</zone><zone>kī</zone><gap reason="lost"/></line>
+            <line n="6" xml:id="a6"><gap reason="lost"/><zone><gap reason="par" unit="part"/>ñ<gap reason="par" unit="part"/></zone><zone>ci</zone><gap reason="lost"/></line>
+            <line n="7" xml:id="a7"><gap reason="lost"/><zone><unclear>rp</unclear><gap reason="par" unit="part"/>¯</zone><zone>¯M</zone><zone><gap reason="par" unit="part"/><gap reason="par" unit="part"/><unclear>ṃ</unclear></zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone><gap reason="plain" unit="part"/><gap reason="plain" unit="part"/><gap reason="par" unit="part"/>ṃ</zone><zone>ts<unclear>e</unclear></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone>ye¯</zone><zone>¯ñä</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><zone><unclear>k</unclear><gap reason="par" unit="part"/></zone><zone>sta</zone><zone>rya</zone><zone>:</zone><zone>a</zone><zone><unclear>l</unclear><gap reason="par" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><zone>nts<unclear>ā</unclear></zone><zone>ṣṣa</zone><zone>te</zone><zone>sa</zone><zone><unclear>la</unclear></zone><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><gap reason="lost"/><zone>yo</zone><gap reason="lost"/></line>
+            <line n="6" xml:id="b6"><gap reason="lost"/><zone><unclear>m</unclear><gap reason="par" unit="part"/></zone><gap reason="par" quantity="1"/><zone><unclear>s</unclear><gap reason="par" unit="part"/></zone><zone><unclear>k</unclear><gap reason="par" unit="part"/>¯</zone><zone>¯Ṣ</zone><gap reason="lost"/></line>
+            <line n="7" xml:id="b7"><gap reason="lost"/><zone><unclear>l</unclear><gap reason="par" unit="part"/><unclear>ṃ</unclear></zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><w>mn<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>oy-ñ<surplus>ä</surplus></w><pc>•</pc><w>mä<supplied>kte</supplied></w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><w><supplied>yo</supplied>lyiyai</w><w>mäkte</w><w>ñ<supplied>a</supplied>k<supplied>e</supplied></w><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>koy-ñ</w><w>akalye</w><gap reason="lost"/>
+<lb corresp="#a5"/><gap reason="lost"/><w>-r<gap reason="plain" unit="part"/>rsa</w><w>istak</w><w>ī<milestone unit="w" type="break"/></w><gap reason="lost"/>
+<lb corresp="#a6"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>ñ<gap reason="plain" unit="part"/></w><w>ci<milestone unit="w" type="break"/></w><gap reason="lost"/>
+<lb corresp="#a7"/><gap reason="lost"/><w>rp<gap reason="plain" unit="part"/>m</w><w><gap reason="plain" unit="part"/><gap reason="plain" unit="part"/>ṃ</w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><w><gap reason="plain" unit="part"/><gap reason="plain" unit="part"/><gap reason="plain" unit="part"/>ṃtse</w><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><w>-yeñ</w><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><w>k<gap reason="plain" unit="part"/>s</w><w>tarya</w><pc>:</pc><w>al<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#b4"/><gap reason="lost"/><w>-ntsāṣṣa</w><w>tesa</w><w>la<milestone unit="w" type="break"/></w><gap reason="lost"/>
+<lb corresp="#b5"/><gap reason="lost"/><w><milestone unit="w" type="m-bound"/>yo<milestone unit="w" type="break"/></w><gap reason="lost"/>
+<lb corresp="#b6"/><gap reason="lost"/><w>m<gap reason="plain" unit="part"/></w><gap reason="plain" quantity="1"/><w>s<gap reason="plain" unit="part"/>k<gap reason="plain" unit="part"/>ṣ</w><gap reason="lost"/>
+<lb corresp="#b7"/><gap reason="lost"/><w>l<gap reason="plain" unit="part"/>ṃ</w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a2"><seg><seg type="prim_transl">... would ... for me. How ...</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">... the bad [fem.] ... . How now ...</seg></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl">... would ... for me the study ...</seg></seg></choice><choice corresp="#a5"><seg><seg type="prim_transl">... suddently ... </seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl">... three [fem.] ...</seg></seg></choice><choice corresp="#b4"><seg><seg type="prim_transl">... therefore ...</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">Small fragment with a well-preserved script, probably just right from the string hole. Does not belong to the other Supriya fragments. Recto and verso are unclear; at the beginning of line a4 a small piece has been wrongly placed; the piece between lines 4 and 5 also does not seem to belong here.</note><note corresp="#a2 #a4" type="philcomment"><hi>oy-ñ</hi> and <hi>koy-ñ</hi> are the end of 3.sg. optative forms plus suffix pronoun.</note><note corresp="#a5" type="philcomment">-<hi>r(·)rsa</hi> is the end of a perlative from an abstract of a root ending in -<hi>r</hi>.</note><note corresp="#a7" type="philcomment"><hi>rp(·)m</hi> is most likely a 1st person verbal form from a root ending in -<hi>rp</hi>.</note><note corresp="#b3" type="philcomment"><hi>[k](·)s</hi> or <hi>[r](·)s</hi>.</note><note corresp="#b4" type="philcomment">-<hi>ntsāṣṣa</hi> is a fem. adjective made from a stem in <hi>°ntsa</hi>-.</note></p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_size_h_old">9,6</item>
+               <item n="m_next_old"/>
+               <item n="file_created_old">1348820906</item>
+               <item n="file_modified_old">1570719991</item>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;a2, a4.&lt;/b&gt; &lt;i&gt;oy-ñ&lt;/i&gt; and &lt;i&gt;koy-ñ&lt;/i&gt; are the end of 3.sg. optative forms plus suffix pronoun.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a5.&lt;/b&gt; -&lt;i&gt;r(·)rsa&lt;/i&gt; is the end of a perlative from an abstract of a root ending in -&lt;i&gt;r&lt;/i&gt;.&lt;/p&gt; 
+&lt;p&gt;&lt;b&gt;a7.&lt;/b&gt; &lt;i&gt;rp(·)m&lt;/i&gt; is most likely a 1st person verbal form from a root ending in -&lt;i&gt;rp&lt;/i&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b3.&lt;/b&gt; &lt;i&gt;[k](·)s&lt;/i&gt; or &lt;i&gt;[r](·)s&lt;/i&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b4.&lt;/b&gt; -&lt;i&gt;ntsāṣṣa&lt;/i&gt; is a fem. adjective made from a stem in &lt;i&gt;°ntsa&lt;/i&gt;-.&lt;/p&gt;</item>
+               <item n="m_passage_old"/>
+               <item n="m_editor_old">Georges-Jean Pinault (in collaboration with Melanie Malzahn)</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_image_old"/>
+               <item n="date_publication_old">2015-05-26</item>
+               <item n="m_transliteration_old">a1 /// mn(·) ///
+a2 /// (·)oy-[ñ]ä • _m_a ///
+a3 /// lyiyai _m_akte ñ(·)k(·) ///
+a4 /// – k[oy]-ñ[ä\] akalye ///
+a5 /// r(·)rsa istak ī ///
+a6 /// (·)ñ(·) ci ///
+a7 /// [rp](·)_m\ (··)[ṃ] ///
+b1 /// ·· (·)ṃts[e] ///
+b2 /// yeñä\ ///
+b3 /// [k](·)s tarya : a[l](·) ///
+b4 /// nts[ā]ṣṣa tesa [la] ///
+b5 /// yo ///
+b6 /// [m](· –) [s](·)[k](·)_ṣ\ ///
+b7 /// [l](·)[ṃ] ///</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_bib_old"/>
+               <item n="m_linedistance_old">1,3</item>
+               <item n="m_findspot_old">Duldur-Akhur</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="file_location_old">pages/manuscript/PK_AS/pkas1691.txt</item>
+               <item n="m_lines_old">7</item>
+               <item n="m_collection_old">Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</item>
+               <item n="access_old">public</item>
+               <item n="m_completeness_old"/>
+               <item n="m_subgenre_old">Drama</item>
+               <item n="m_translation_old">a2 ... would ... for me. How ...
+a3 ... the bad [fem.] ... . How now ...
+a4 ... would ... for me the study ...
+a5 ... suddently ... 
+b3 ... three [fem.] ...
+b4 ... therefore ...</item>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Both</item>
+               <item n="project_check_old"/>
+               <item n="user_created_old">theres</item>
+               <item n="user_modified_old">bernhard</item>
+               <item n="m_prev_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_title_old">Supriyanāṭaka</item>
+               <item n="m_transcription_old">a1 /// mn(·) ///
+a2 /// (·)oy-ñ«†ä» • mä(kte) ///
+a3 /// (yo)lyiyai mäkte ñ(a)k(e) ///
+a4 /// –koy-ñ akalye ///
+a5 /// -r(·)rsa istak ī- ///
+a6 /// (·)ñ(·) ci- ///
+a7 /// rp(·)m (··)ṃ ///
+b1 /// ··(·)ṃtse ///
+b2 /// -yeñ ///
+b3 /// k(·)s tarya : al(·) ///
+b4 /// -ntsāṣṣa tesa la- ///
+b5 /// -yo- ///
+b6 /// m(·) – s(·)k(·)ṣ ///
+b7 /// l(·)ṃ ///</item>
+               <item n="m_leaf_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old">&lt;p&gt;Small fragment with a well-preserved script, probably just right from the string hole. Does not belong to the other Supriya fragments. Recto and verso are unclear; at the beginning of line a4 a small piece has been wrongly placed; the piece between lines 4 and 5 also does not seem to belong here.&lt;/p&gt;</item>
+               <item n="m_other_sigla_old">Pelliot Koutchéen Ancienne Série 16.9.1; PK AS 16.9A</item>
+               <item n="m_size_w_old">10,8</item>
+               <item n="m_expedition_old">DA GPte</item>
+               <item n="m_parallels_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="ms_old">PK AS 16.9.1</item>
+               <item n="project_comment_old">&lt;p&gt;I changed &lt;b&gt;b3&lt;/b&gt; &lt;i&gt;[k/r](·)s&lt;/i&gt; to &lt;i&gt;[k](·)s&lt;/i&gt;. No oblique slashes allowed! –Martin (Sun, 2019-09-01, 23:39:20 (CEST))&lt;/p&gt;</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;I changed &lt;ref type="ms" target="__b3"/&gt; &lt;hi&gt;[k/r](·)s&lt;/hi&gt; to &lt;hi&gt;[k](·)s&lt;/hi&gt;. No oblique slashes allowed! –Martin (Sun, 2019-09-01, 23:39:20 (CEST))&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht1231">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 1231</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Svetlana Burlak</name>
+            </respStmt>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 1231</idno>
+                  <altIdentifier>
+                     <idno>Prelim. No. 48</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">5</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Buddhastotra</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329873;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329873;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone>ś<gap reason="plain" unit="part"/></zone><zone>mñe</zone><zone>ṣṣe</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><gap reason="plain" quantity="1"/><gap reason="par" quantity="1"/><gap reason="plain" quantity="1"/><zone>ś<unclear>ai</unclear></zone><zone>ṣṣe</zone><zone>ne</zone><zone>ī</zone><zone>ke</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>kk<unclear>e</unclear></zone><zone>nta</zone><zone>śai</zone><zone>ṣṣe</zone><zone>ntse</zone><zone>ma</zone><zone>rSA</zone><zone>rṣṣa</zone><zone>ñca</zone><zone>LA</zone><zone>kle</zone><zone>nta</zone><zone><unclear>śl</unclear>e</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><zone>ta</zone><zone>nMA</zone><zone>ṣṣe</zone><zone>ñca</zone><zone>po</zone><zone>yśī</zone><zone>nta</zone><zone>ā</zone><zone>we</zone><zone>mā</zone><zone>ce</zone><zone>rśai</zone><zone>ṣṣe</zone><zone>ntse</zone><zone>kre</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329882;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329882;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>ñ<gap reason="plain" unit="part"/></zone><zone>po</zone><zone>nta</zone><zone>kre</zone><zone>ntau</zone><zone>na¯</zone><zone>¯tS∘</zone><zone>yo</zone><zone>lai</zone><zone>ññe</zone><zone>nta</zone><zone>tRA</zone><zone>ṅko</zone><zone>nta</zone><zone>cā</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone>6</zone><zone>me</zone><zone>ska</zone><zone>rai</zone><zone>twe</zone><zone>śi</zone><zone>la</zone><zone>ṣṣi</zone><zone>KA</zone><zone>lṣa</zone><zone>mñe</zone><zone>ṣṣa</zone><gap reason="plain" quantity="2"/><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><zone><unclear>sa</unclear></zone><zone>80</zone><zone>7</zone><zone>nau</zone><zone>mye</zone><zone>nta</zone><zone><unclear>ṣ</unclear><gap reason="par" unit="part"/><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><zone>yo</zone><zone>ktsi</zone><zone>ci</zone><zone>ñca</zone><zone><gap reason="plain" unit="part"/>e</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><gap reason="lost"/><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><w><supplied>ai</supplied>ś<supplied>a</supplied>mñeṣṣe</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><gap reason="plain" quantity="3"/><w>śaiṣṣene</w><w>īke</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>kkenta</w><w>śaiṣṣentse</w><w>marsärṣṣañca</w><w>läklenta</w><w>śle</w><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="lost"/><w>tanmäṣṣeñca</w><w>poyśīnta</w><w>āwe</w><w>mācer</w><w>śaiṣṣentse</w><w>kre</w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>ñ<gap reason="plain" unit="part"/></w><w>ponta</w><w>krentaunats</w><w>yolaiññenta</w><w>träṅkonta</w><w>cā</w><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><num value="86"><supplied>80-</supplied>6</num><w>meska</w><w>raitwe</w><w>śilaṣṣi</w><w>kälṣamñeṣṣa</w><gap reason="plain" quantity="2"/><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><w>sa</w><num value="87">80-7</num><w>naumyentaṣ<supplied>ṣ</supplied><gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#b4"/><gap reason="lost"/><w><supplied>śwātsi</supplied></w><w>yoktsi</w><w>ciñca<supplied>r</supplied>e</w><gap reason="lost"/>
+<lb corresp="#b5"/><gap reason="lost"/><gap reason="plain" quantity="1"/><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">... of wisdom ...</seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">... in the world ... a place ...</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">... the ... of the world; one who makes forget the sorrows; with ...</seg></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl">... one who begets omniscient [Buddhas]; the grandfather [and] mother of the world; ... the good ...</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">... of all virtues; evils [and] offences ...</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">...(8)6 Joint [and] connection of moral behaviour; ... of endurance ...</seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl">... 87 ... of the jewels ...</seg></seg></choice><choice corresp="#b4"><seg><seg type="prim_transl">... (food) [and] drink ... lovely ...</seg></seg></choice><choice corresp="#b5"><seg><seg type="prim_transl">...</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="philcomment">Striking is the lack of any finite verb form in the fragment: as far as can be established with the fragmentary portions preserved, the text consists of a series of nominal phrases consisting of a head noun and an adjective, genitive, locative, object, etc. In style it thus reminds of for instance the Buddhastotra with epithets in alphabetical order edited by <bibl><title corresp="ref:schlingloff1955"/><citedRange>82-83</citedRange></bibl>. Indeed, this fragment seems to be part of a Buddhastotra as well, but so far no system in the sequence of the epithets can be found. The asignment of recto and verso is uncertain.</note><note type="philcomment" subtype="Notes_on_the_metre">Even though pāda-marking punctuation seems to be lacking completely, the whole text is probably metrical, witness the strophe numbers b2 (8)6 and b3 87. The metre is most probably 4 x 7¦7, in view of the fact that in all lines sequences of 4 and 3 syllables alternate: 
+a1: <hi>(ai)ś(a)mñeṣṣe</hi> + 3 syllables 
+a2: 4 syllables + <hi>śaiṣṣene</hi> 
+a3: 2 syllables + <hi>kkenta śaiṣṣentse</hi> 
+a3: <hi>marsärṣṣañca läklenta</hi> 
+a4: <hi>tanmäṣṣeñca poyśīnta</hi> 
+a4: <hi>āwe mācer śaiṣṣentse</hi> 
+b1: 1 syllable + <hi>·ñ· ponta krentaunats</hi> 
+b1: <hi>yolaiññenta träṅkonta</hi> 
+b2: <hi>meska raitwe śilaṣṣi</hi> 
+b2: <hi>kälṣamñeṣṣa</hi> + 3 syllables 
+b3: <hi>naumyentaṣ(ṣ)·</hi> + 3 syllables 
+b4: 2 syllables + <hi>yoktsi ciñca(r)e</hi> 
+The only places where pāda-marking punctuation might be found are b1 <distinct type="ms_text">krentaunat_s\•</distinct>, if the virāma dot replaces the pāda-final dot; and a4 <hi>śaiṣṣentse</hi>, which has a remarkable extra stroke on top of the last akṣara. 
+If the metre is indeed 4 x 7¦7, the length of one line was approximately 50 syllables (4 x 14 = 56 syllables from 86 to 87; but since 87 stands about 7 akṣaras right of 86, the line length is 56 – 7 = 49).</note><note corresp="#a1" type="philcomment" subtype="Text_notes"><hi>(ai)ś(a)mñeṣṣe</hi>: possibly followed by <hi>sārathiṃ</hi> 'charioteer', cf. <ref type="ms" target="txt:m-pkas5b"/> a5 = <ref type="ms" target="txt:m-tht313"/> a5.</note><note corresp="#a3" type="philcomment" subtype="Text_notes"><hi>/// – kk[e]nta</hi>: possibly the <hi>e</hi>-vowel is actually <hi>r</hi>. A reading to consider would be <hi>[y](ä)[r]kk(e)nta</hi>.</note><note corresp="#a3" type="philcomment" subtype="Text_notes"><distinct type="ms_text">mar_s_arṣṣañca</distinct>: the second <hi>r</hi> is miswritten for <hi>e</hi>; read <distinct type="ms_text">mar_s_aṣṣeñca</distinct> (see <bibl><title corresp="ref:malzahn2010"/><citedRange>758</citedRange></bibl>; <bibl><title corresp="ref:peyrot2013b"/><citedRange>787</citedRange></bibl>.</note><note corresp="#a4" type="philcomment" subtype="Text_notes">: cf. <bibl><title corresp="ref:thomas1988a"/><citedRange>161</citedRange></bibl>.</note><note corresp="#a4" type="philcomment" subtype="Text_notes"><hi>āwe</hi>: the translation 'grandfather' of <bibl><title corresp="ref:thomas1988a"/><citedRange>161</citedRange></bibl> is here provisionally followed, even though this definitely needs further confirmation.</note><note corresp="#a4" type="philcomment" subtype="Text_notes"><hi>śaiṣṣentse</hi>: a stroke on top of the last akṣara is probably to be ignored.</note><note corresp="#b2" type="philcomment" subtype="Text_notes"><hi>meska raitwe śilaṣṣi</hi>: This sequence is difficult to analyse. The easiest seems to take <hi>meska raitwe</hi> as a juxtaposed <hi>mesk<hi rend="boldface">e</hi> raitwe</hi> 'joint [and] connection'. However, the following <hi>śilaṣṣi</hi> can only be a nom.pl.m., so that the two words <hi>meske raitwe</hi> together would be a plural, a construction not normally found in Tocharian (perhaps this is a calque on Sanskrit?). Not probable is an interpretation <hi>meska rai twe</hi> 'O joint, you!' with <hi>meska</hi> as a vocative, because then <hi>śilaṣṣi</hi> would be even more difficult (the regular vocative would be <hi>śilaṣṣu</hi>).</note><note corresp="#b4" type="philcomment" subtype="Text_notes"><hi>yoktsi</hi>: there are traces under the first akṣara that cannot belong to it if this reading is correct.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition</label><bibl><title corresp="ref:tamai2007a"/><citedRange>№1231</citedRange></bibl>.</p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 1231" type="external">THT 1231</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/12/1231.htm" type="external">THT 1231</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_editor_old">Svetlana Burlak, Michaël Peyrot</item>
+               <item n="m_philcomment_old">&lt;p&gt;Striking is the lack of any finite verb form in the fragment: as far as can be established with the fragmentary portions preserved, the text consists of a series of nominal phrases consisting of a head noun and an adjective, genitive, locative, object, etc. In style it thus reminds of for instance the Buddhastotra with epithets in alphabetical order edited by [[Schlingloff 1955]]: 82-83. Indeed, this fragment seems to be part of a Buddhastotra as well, but so far no system in the sequence of the epithets can be found. The asignment of recto and verso is uncertain.&lt;/p&gt;
+&lt;h3&gt;Text notes&lt;/h3&gt;
+&lt;p&gt;&lt;b&gt;a1&lt;/b&gt; &lt;i&gt;(ai)ś(a)mñeṣṣe&lt;/i&gt;: possibly followed by &lt;i&gt;sārathiṃ&lt;/i&gt; 'charioteer', cf. [[PK AS 5B]] a5 = [[THT 313]] a5.&lt;br&gt;
+&lt;b&gt;a3&lt;/b&gt; &lt;i&gt;/// – kk[e]nta&lt;/i&gt;: possibly the &lt;i&gt;e&lt;/i&gt;-vowel is actually &lt;i&gt;r&lt;/i&gt;. A reading to consider would be &lt;i&gt;[y](ä)[r]kk(e)nta&lt;/i&gt;.&lt;br&gt;
+&lt;b&gt;a3&lt;/b&gt; &lt;trans&gt;&lt;i&gt;mar_s_arṣṣañca&lt;/i&gt;&lt;/trans&gt;: the second &lt;i&gt;r&lt;/i&gt; is miswritten for &lt;i&gt;e&lt;/i&gt;; read &lt;trans&gt;&lt;i&gt;mar_s_aṣṣeñca&lt;/i&gt;&lt;/trans&gt; (see [[Malzahn 2010]]: 758; [[Peyrot, ToSu]]: 787.&lt;br&gt;
+&lt;b&gt;a4&lt;/b&gt;: cf. [[Thomas 1988a]]: 161.&lt;br&gt;
+&lt;b&gt;a4&lt;/b&gt; &lt;i&gt;āwe&lt;/i&gt;: the translation 'grandfather' of [[Thomas 1988a]]: 161 is here provisionally followed, even though this definitely needs further confirmation.&lt;br&gt;
+&lt;b&gt;a4&lt;/b&gt; &lt;i&gt;śaiṣṣentse&lt;/i&gt;: a stroke on top of the last akṣara is probably to be ignored.&lt;br&gt;
+&lt;b&gt;b2&lt;/b&gt; &lt;i&gt;meska raitwe śilaṣṣi&lt;/i&gt;: This sequence is difficult to analyse. The easiest seems to take &lt;i&gt;meska raitwe&lt;/i&gt; as a juxtaposed &lt;i&gt;mesk&lt;b&gt;e&lt;/b&gt; raitwe&lt;/i&gt; 'joint [and] connection'. However, the following &lt;i&gt;śilaṣṣi&lt;/i&gt; can only be a nom.pl.m., so that the two words &lt;i&gt;meske raitwe&lt;/i&gt; together would be a plural, a construction not normally found in Tocharian (perhaps this is a calque on Sanskrit?). Not probable is an interpretation &lt;i&gt;meska rai twe&lt;/i&gt; 'O joint, you!' with &lt;i&gt;meska&lt;/i&gt; as a vocative, because then &lt;i&gt;śilaṣṣi&lt;/i&gt; would be even more difficult (the regular vocative would be &lt;i&gt;śilaṣṣu&lt;/i&gt;).&lt;br&gt;
+&lt;b&gt;b4&lt;/b&gt; &lt;i&gt;yoktsi&lt;/i&gt;: there are traces under the first akṣara that cannot belong to it if this reading is correct.&lt;/p&gt;
+&lt;h3&gt;Notes on the metre&lt;/h3&gt;
+&lt;p&gt;Even though pāda-marking punctuation seems to be lacking completely, the whole text is probably metrical, witness the strophe numbers b2 (8)6 and b3 87. The metre is most probably 4 x 7¦7, in view of the fact that in all lines sequences of 4 and 3 syllables alternate:&lt;br&gt;
+a1: &lt;i&gt;(ai)ś(a)mñeṣṣe&lt;/i&gt; + 3 syllables&lt;br&gt;
+a2: 4 syllables + &lt;i&gt;śaiṣṣene&lt;/i&gt;&lt;br&gt;
+a3: 2 syllables + &lt;i&gt;kkenta śaiṣṣentse&lt;/i&gt;&lt;br&gt;
+a3: &lt;i&gt;marsärṣṣañca läklenta&lt;/i&gt;&lt;br&gt;
+a4: &lt;i&gt;tanmäṣṣeñca poyśīnta&lt;/i&gt;&lt;br&gt;
+a4: &lt;i&gt;āwe mācer śaiṣṣentse&lt;/i&gt;&lt;br&gt;
+b1: 1 syllable + &lt;i&gt;·ñ· ponta krentaunats&lt;/i&gt;&lt;br&gt;
+b1: &lt;i&gt;yolaiññenta träṅkonta&lt;/i&gt;&lt;br&gt;
+b2: &lt;i&gt;meska raitwe śilaṣṣi&lt;/i&gt;&lt;br&gt;
+b2: &lt;i&gt;kälṣamñeṣṣa&lt;/i&gt; + 3 syllables&lt;br&gt;
+b3: &lt;i&gt;naumyentaṣ(ṣ)·&lt;/i&gt; + 3 syllables&lt;br&gt;
+b4: 2 syllables + &lt;i&gt;yoktsi ciñca(r)e&lt;/i&gt;&lt;br&gt;
+The only places where pāda-marking punctuation might be found are b1 &lt;trans&gt;&lt;i&gt;krentaunat_s\•&lt;/i&gt;&lt;/trans&gt;, if the virāma dot replaces the pāda-final dot; and a4 &lt;i&gt;śaiṣṣentse&lt;/i&gt;, which has a remarkable extra stroke on top of the last akṣara.&lt;br&gt;
+If the metre is indeed 4 x 7¦7, the length of one line was approximately 50 syllables (4 x 14 = 56 syllables from 86 to 87; but since 87 stands about 7 akṣaras right of 86, the line length is 56 – 7 = 49).&lt;/p&gt;</item>
+               <item n="m_passage_old"/>
+               <item n="file_modified_old">1582797964</item>
+               <item n="file_created_old">1340136545</item>
+               <item n="m_size_h_old"/>
+               <item n="m_next_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 1231" target="idp"&gt;THT 1231&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/12/1231.htm" target="titus"&gt;THT 1231&lt;/a&gt;.&lt;br&gt;
+Edition: [[Tamai 2007a]]: №1231.</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_transliteration_old">a1 /// ś·mñeṣṣe – ///
+a2 /// – (–) – ś[ai]ṣṣene īke – ///
+a3 /// – kk[e]nta śaiṣṣentse mar_s_arṣṣañca _l_aklenta [śl]e ///
+a4 /// tan_m_aṣṣeñca poyśīnta āwe mācer śaiṣṣentse kre ///
+b1 /// ·ñ· ponta krentaunat_s\• yolaiññenta t_r_aṅkonta cā ///
+b2 /// 6 meska raitwe śilaṣṣi _k_alṣamñeṣṣa – – ///
+b3 /// [sa] 80-7 naumyenta[ṣ](·)· ///
+b4 /// yoktsi ciñca·e ///
+b5 /// – ///</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="date_publication_old"/>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329873;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329873;rotate=0;imageType=_M||THT 1231 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329882;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329882;rotate=0;imageType=_M||THT 1231 verso</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old"/>
+               <item n="m_linedistance_old"/>
+               <item n="m_completeness_old"/>
+               <item n="access_old">public</item>
+               <item n="m_lines_old">5</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="file_location_old">pages/manuscript/THT_1100_2399/tht1231.txt</item>
+               <item n="project_check_old"/>
+               <item n="m_metric_form_old">Verse</item>
+               <item n="m_tune_old"/>
+               <item n="m_subgenre_old">Buddhastotra</item>
+               <item n="m_translation_old">a1 ... of wisdom ...
+a2 ... in the world ... a place ...
+a3 ... the ... of the world; one who makes forget the sorrows; with ...
+a4 ... one who begets omniscient [Buddhas]; the grandfather [and] mother of the world; ... the good ...
+b1 ... of all virtues; evils [and] offences ...
+b2 ...(8)6 Joint [and] connection of moral behaviour; ... of endurance ...
+b3 ... 87 ... of the jewels ...
+b4 ... (food) [and] drink ... lovely ...
+b5 ...</item>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_prev_old"/>
+               <item n="user_modified_old">martin</item>
+               <item n="user_created_old">automatic</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_transcription_old">a1 /// (ai)ś(a)mñeṣṣe – ///
+a2 /// – – – śaiṣṣene īke – ///
+a3 /// – kkenta śaiṣṣentse marsäṣṣeñca|marsärṣṣañca läklenta śle ///
+a4 /// tanmäṣṣeñca poyśinta|poyśīnta āwe mācer śaiṣṣentse kre ///
+b1 /// ·ñ· ponta krentaunaṃts|krentaunats yolaiññenta träṅkonta cā ///
+b2 /// (80-)6 meska raitwe śilaṣṣi kälṣamñeṣṣa – – ///
+b3 /// sa 87 naumyentaṣ(ṣ)· ///
+b4 /// (śwātsi) yoktsi ciñca(r)e ///
+b5 /// – ///</item>
+               <item n="m_title_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="ms_old">THT 1231</item>
+               <item n="project_comment_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="m_parallels_old"/>
+               <item n="m_size_w_old"/>
+               <item n="m_expedition_old"/>
+               <item n="m_other_sigla_old">Prelim. No. 48</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-a45">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A 45</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Gerd Carling</name>
+            </respStmt>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Fanny Meunier</name>
+            </respStmt>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <date when="2013-10-04">04.10.2013</date>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>A 45</idno>
+                  <altIdentifier>
+                     <idno>THT 678</idno>
+                  </altIdentifier>
+                  <msName>A 1-54</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Avadāna</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Šorčuq</region><placeName>Stadthöhle</placeName>during <rs type="expedition_code">T III Š 69.28</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+         <sourceDesc>
+            <p>Transcription and translation are based on <bibl><title corresp="ref:carlingetal2009"/></bibl>. </p>
+            <p>Transcription and references have been transferred from the "Text and Reference Database of the Tocharian A Language" (Gerd Carling Lund University) (funded by the Bank of Sweden Tercentenary Foundation and SCAS).</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="xto"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Jātaka/Avadāna</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328529;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328529;rotate=0;imageType=_M"/>
+            <graphic url="A/A45a.jpg" height="720px" width="618px"/>
+            <line xml:id="lf"><zone>Lost</zone></line>
+            <line n="1" xml:id="a1"><gap reason="par" quantity="1"/><gap reason="plain" quantity="1"/><zone>e¯</zone><zone>¯L</zone><zone>e</zone><zone>ssi</zone><zone>ā</zone><zone>rtaṃ</zone><zone>tRA</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><zone><gap reason="plain" unit="part"/>w<gap reason="plain" unit="part"/></zone><zone>rpr<gap reason="plain" unit="part"/></zone><zone>tā</zone><zone>śśi</zone><zone>śä¯</zone><zone>¯L</zone><zone>ā</zone><zone>ñcā</zone><zone><unclear>l</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><zone>kā</zone><zone>ru</zone><zone>ṇi¯</zone><zone>¯K</zone><zone>:</zone><zone>ptā</zone><zone>ñKA</zone><space type="string_hole"/><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><zone>lpi</zone><zone>mtRA</zone><zone>:</zone><zone>kā</zone><zone>tsa</zone><zone>cwä</zone><space type="string_hole"/><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><zone>mo</zone><zone>di</zone><zone>nyā</zone><zone>mu<add>¯</add></zone><zone><add>¯</add><add>nT</add></zone><zone>pā</zone><zone>TA</zone><zone>ryo</zone><zone>wRA</zone><zone><unclear>ṣ</unclear><gap reason="plain" unit="part"/>ā</zone><gap reason="lost"/></line>
+            <line n="6" xml:id="a6"><zone>pu¯</zone><zone>¯K</zone><zone>pre</zone><zone>tā</zone><zone>śśi</zone><zone>lkā</zone><zone>lā</zone><zone>ā</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328407;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328407;rotate=0;imageType=_M"/>
+            <graphic url="A/A45b.jpg" height="720px" width="618px"/>
+            <line n="1" xml:id="b1"><zone>ñKA</zone><zone>TKA</zone><zone>ṣṣi</zone><zone>kla</zone><zone>noṃ</zone><zone>tsāṃ</zone><zone>ci</zone><zone>ñcä</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><zone>stā</zone><zone>PA¯</zone><zone>¯rK</zone><zone><add>ga</add><add>¯</add></zone><zone><add>¯</add><add>ṅK</add></zone><zone>ā</zone><zone>PA</zone><zone>ṣwä</zone><zone>rśla¯</zone><zone>¯K</zone><zone>ś<unclear>k</unclear>aṃ</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><zone>¯Ṣ</zone><zone>TA</zone><zone>myo</zone><zone>a</zone><zone>SA</zone><zone>swä</zone><zone>rmo</zone><space type="string_hole"/><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><zone>sne</zone><zone>kri</zone><zone>mā</zone><zone>śkaṃ</zone><zone>tā</zone><zone>PA¯</zone><zone>¯rK</zone><space type="string_hole"/><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><zone><gap reason="plain" unit="part"/><unclear>ä</unclear></zone><zone>ṣnā</zone><zone>kā¯</zone><zone>¯ñä</zone><zone>sā</zone><zone>mu</zone><zone>dra¯</zone><zone>¯cä</zone><zone><unclear>y</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="6" xml:id="b6"><gap reason="plain" quantity="1"/><zone><gap reason="plain" unit="part"/>TA</zone><zone>TA</zone><zone>mnu</zone><zone>MA¯</zone><zone>¯nT</zone><zone>wä</zone><zone>knā</zone><zone>॥</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <fw type="leafNum" corresp="#lf">Lost</fw>
+            <p><milestone unit="passage" n="Pretas and drought"/>
+<lb corresp="#a1"/><gap reason="plain" quantity="2"/><w>el</w><w>essi</w><w>ārtaṃträ</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#a2"/><w><gap reason="plain" unit="part"/></w><w>w<supplied>ä</supplied>r</w><w>pr<supplied>e</supplied>tāśśi</w><w>śäl</w><w>āñcāl<supplied>yī</supplied></w><w><supplied>tsaränyo</supplied></w><gap reason="lost"/>
+<lb corresp="#a3"/><w>kāruṇik</w><pc>:</pc><w>ptāñkä<supplied>t</supplied></w><gap reason="lost"/>
+<w><supplied>kä</supplied><lb corresp="#a4"/>lpimträ</w><pc>:</pc><w>kātsac</w><w>wä</w><gap reason="lost"/>
+<w><supplied>anu</supplied><lb corresp="#a5"/>modin</w><w>yāmunt</w><w>pātäryo</w><w>wräṣ</w><w><supplied>p</supplied>ā<supplied>pśunt</supplied></w><gap reason="lost"/>
+<lb corresp="#a6"/><w>puk</w><w>pretāśśi</w><w>lkālā</w><w>ā</w><gap reason="lost"/>
+<w><supplied>ptā</supplied><lb corresp="#b1"/>ñkät</w><w>käṣṣi</w><w>klanoṃtsāṃ</w><w>ciñcä<supplied>ryāṃ</supplied></w><gap reason="lost"/>
+<lb corresp="#b2"/><w>s</w><w>tāpärk</w><w>gaṅk</w><w>āpäṣ</w><w>wär</w><w>ślak</w><w>śkaṃ</w><gap reason="lost"/>
+<lb corresp="#b3"/><w>ṣ</w><w>tämyo</w><w>asäs</w><w>wär</w><w>mo</w><gap reason="lost"/>
+<lb corresp="#b4"/><w>sne</w><w>kri</w><w>mā</w><w>śkaṃ</w><w>tāpärk</w><gap reason="lost"/>
+<lb corresp="#b5"/><w><gap reason="plain" unit="part"/>äṣ</w><w>nākāñ</w><w>sāmudrac</w><w>y<supplied>eñc</supplied></w><gap reason="lost"/>
+<lb corresp="#b6"/><gap reason="plain" quantity="1"/><w><gap reason="plain" unit="part"/>t<surplus>ä</surplus></w><w>täm</w><w>nu</w><w>mänt</w><w>wäknā</w><pc>॥</pc><gap reason="plain" quantity="1"/><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><bibl><title corresp="ref:thomas1954"/><citedRange>721</citedRange></bibl></seg><seg><seg type="prim_transl">... they will approve of giving gift[s] ...</seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">... he brought water to the <hi>Preta</hi>s, [and] with both hands in <hi>añjali</hi> ...</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">... compassionate one. The Buddha ...</seg></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl">... may we obtain ... Towards the belly ...</seg></seg></choice><choice corresp="#a5"><seg><seg type="prim_transl">... having approved ... with the alms-bowl they begged (?) from the water ...</seg></seg></choice><choice corresp="#a6"><seg><seg type="prim_transl">... by the sight of all <hi>Preta</hi>s ...</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">... the Buddha, the teacher, (with) a resounding, lovely (voice) ...</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">... Now at the same time also water from the Gaṅgā river ...</seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl">... Thus the water dried up ...</seg></seg></choice><choice corresp="#b4"><seg><seg type="prim_transl">... Without choice neither now ...</seg></seg></choice><choice corresp="#b5"><seg><bibl><title corresp="ref:carling2000"/><citedRange>133</citedRange></bibl></seg><seg><seg type="prim_transl">... from the (rivers?) the <hi>Nāga</hi>s went (?) to the ocean.</seg></seg></choice><choice corresp="#b6"><seg><seg type="prim_transl">... Just now in that way ...</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note corresp="#a5" type="philcomment"><distinct type="ms_text">n_t\</distinct>: akṣara added later; addition marked with a cross above the line.</note><note corresp="#b1" type="philcomment"><hi>klanoṃtsāṃ ciñcä(ryāṃ)</hi>: cf. <ref type="ms" target="txt:m-a313"/> a5 <hi>klanoṃntsāṃ ciñcäryāṃ brahmaswar waśenyo</hi>.</note><note corresp="#b2" type="philcomment"><distinct type="ms_text">gaṅ_k\</distinct>: akṣaras added later; addition marked with a cross above the line.</note><note corresp="#b6" type="philcomment"><hi>mänt wäknā</hi>: probably followed by an elaboration in verse.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition</label><bibl><title corresp="ref:siegandsiegling1921"/><citedRange>26</citedRange></bibl>. <bibl>Siegling's personal copy of <title corresp="ref:siegandsiegling1921"/><ref target="./images/TS_Siegling/TS_Siegling_Page_026.png" type="external">p. 26</ref></bibl>. </p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT%20678" type="external">THT 678</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/06/0678.htm" type="external">THT 678</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="user_modified_old">theres</item>
+               <item n="user_created_old">automatic</item>
+               <item n="category_old">manuscript</item>
+               <item n="file_name_old">pages/manuscript/A/a45.txt</item>
+               <item n="m_subgenre_old">Jātaka/Avadāna</item>
+               <item n="m_translation_old">a1 ... they will approve of giving gift[s] ...
+a2 ... he brought water to the &lt;i&gt;Preta&lt;/i&gt;s, [and] with both hands in &lt;i&gt;añjali&lt;/i&gt; ...
+a3 ... compassionate one. The Buddha ...
+a4 ... may we obtain ... Towards the belly ...
+a5 ... having approved ... with the alms-bowl they begged (?) from the water ...
+a6 ... by the sight of all &lt;i&gt;Preta&lt;/i&gt;s ...
+b1 ... the Buddha, the teacher, (with) a resounding, lovely (voice) ...
+b2 ... Now at the same time also water from the Gaṅgā river ...
+b3 ... Thus the water dried up ...
+b4 ... Without choice neither now ...
+b5 ... from the (rivers?) the &lt;i&gt;Nāga&lt;/i&gt;s went (?) to the ocean.
+b6 ... Just now in that way ...</item>
+               <item n="file_savedate_old">2018-04-14, 01:40:58 (CEST)</item>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_expedition_old">T III Š 69.28</item>
+               <item n="m_other_sigla_old">THT 678</item>
+               <item n="m_language_old">TA</item>
+               <item n="ms_old">A 45</item>
+               <item n="m_script_old">Classical</item>
+               <item n="edited_date_old">2017-01-30, 18:08:00 (CET)</item>
+               <item n="editgroup_old">Editor</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="group_old">Public</item>
+               <item n="m_title_old">Avadāna</item>
+               <item n="m_leaf_old">Lost</item>
+               <item n="m_transcription_old">a1 – – el essi ārtaṃträ – ///
+a2 · w(ä)r pr(e)tāśśi śäl āñcāl(yī tsaränyo) ///
+a3 kāruṇik : ptāñkä(t) /// kälpimträ|(kä)|lpimträ 
+a4 : kātsac wä /// anumodin|(anu)|modin
+a5 yāmunt pātäryo wräṣ (p)ā(pśunt) ///
+a6 puk pretāśśi lkālā ā /// ptāñkät|(ptā)|ñkät
+b1 käṣṣi klanoṃtsāṃ ciñcä(ryāṃ) ///
+b2 s tāpärk gaṅk āpäṣ wär ślak śkaṃ ///
+b3 ṣ tämyo asäs wär mo ///
+b4 sne kri mā_(TA)|mā śkaṃ tāpärk ///
+b5 ·äṣ nākāñ sāmudrac y(eñc) ///
+b6 – ·t täm nu mänt wäknā || – ///</item>
+               <item n="m_transliteration_old">a1 (–) – e_l\ essi ārtaṃt_r_a – ///
+a2 · w·r pr·tāśśi śä_l\ āñcā[l·] ///
+a3 kāruṇi_k\ : ptāñ_k_a ○ ///
+a4 lpimt_r_a : kātsac wä ○ ///
+a5 modin yāmu«n_t\» pā_t_aryo w_r_a[ṣ] ·ā ///
+a6 pu_k\ pretāśśi lkālā ā ///
+b1 ñ_k_a_t _k_aṣṣi klanoṃtsāṃ ciñcä ///
+b2 s tā_p_ar_k\ «gaṅ_k\» ā_p_aṣ wär śla_k\ ś[k]aṃ ///
+b3 _ṣ\ _t_amyo a_s_as wär mo ○ ///
+b4 sne kri mā śkaṃ tā_p_ar_k\ ○ ///
+b5 ·[ä]ṣ nākāñä\ sāmudracä\ [y]· ///
+b6 – ·_t(\) _t_am nu _m_an_t\ wäknā || – ///</item>
+               <item n="date_publication_old">04.10.2013</item>
+               <item n="m_image_old">http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328529;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328529;rotate=0;imageType=_M||$page; ($m_other_sigla;) recto
+http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328407;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328407;rotate=0;imageType=_M||$page; ($m_other_sigla;) verso</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT%20678"&gt;THT 678&lt;/a&gt;,
+[[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/06/0678.htm"&gt;THT 678&lt;/a&gt;.&lt;br&gt;
+Transcription and references have been transferred from the "Text and Reference Database of the Tocharian A Language" (Gerd Carling, Lund University) (funded by the Bank of Sweden Tercentenary Foundation and SCAS).
+Transcription and translation are based on [[Carling, DThTA]].&lt;br&gt;
+Edition: [[TochSprR(A)]]: 26.&lt;br&gt;
+Siegling's personal copy of [[TochSprR(A)]]: &lt;a href="./images/TS_Siegling/TS_Siegling_Page_026.png"&gt;p. 26&lt;/a&gt;.&lt;br&gt;
+Translation:
+&lt;b&gt;a1&lt;/b&gt; [[Thomas 1954]]: 721;
+&lt;b&gt;b5&lt;/b&gt; [[Carling 2000]]: 133.</item>
+               <item n="m_manuscript_old">A 1-54</item>
+               <item n="file_size_old">4 KB</item>
+               <item n="file_modified_old">1544980141</item>
+               <item n="file_created_old">1328802217</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_editor_old">Gerd Carling, Fanny Meunier, Michaël Peyrot</item>
+               <item n="version_old">12</item>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;a5.&lt;/b&gt; &lt;trans&gt;&lt;i&gt;n_t\&lt;/i&gt;&lt;/trans&gt;: akṣara added later; addition marked with a cross above the line.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b2.&lt;/b&gt; &lt;trans&gt;&lt;i&gt;gaṅ_k\&lt;/i&gt;&lt;/trans&gt;: akṣaras added later; addition marked with a cross above the line.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b1.&lt;/b&gt; &lt;i&gt;klanoṃtsāṃ ciñcä(ryāṃ)&lt;/i&gt;: cf. [[A 313]] a5 &lt;i&gt;klanoṃntsāṃ ciñcäryāṃ brahmaswar waśenyo&lt;/i&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b6.&lt;/b&gt; &lt;i&gt;mänt wäknā&lt;/i&gt;: probably followed by an elaboration in verse.&lt;/p&gt;</item>
+               <item n="m_passage_old">Pretas and drought</item>
+               <item n="page_name_old">A 45</item>
+               <item n="file_location_old">pages/manuscript/A/a45.txt</item>
+               <item n="access_old">public</item>
+               <item n="m_lines_old">6</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="created_date_old">2012-02-09, 16:43:37 (CET)</item>
+               <item n="m_findspot_specific_old">Stadthöhle</item>
+               <item n="m_findspot_old">Šorčuq</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

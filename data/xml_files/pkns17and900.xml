@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="en"
+     xml:id="m-pkns17and900">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PK NS 17 and 900</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Georges-Jean Pinault</name>
+            </respStmt>
+            <respStmt>
+               <resp>collaborator</resp>
+               <name>Hannes A. Fellner</name>
+            </respStmt>
+            <respStmt>
+               <resp>collaborator</resp>
+               <name>Theresa Illés</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <date when="2014-07">July 2014</date>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</repository>
+                  <idno>PK NS 17 and 900</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Mahāsamājasūtra</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>7,5</height>
+                              <width>6</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <dimensions type="line_spacing">
+                              <height>1</height>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Duldur-Akhur</region><placeName>DA, cour</placeName>during <rs type="expedition_code">DA cour</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Colophon</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <line xml:id="lf"><zone>8</zone></line>
+            <line n="1" xml:id="a1"><zone>ma</zone><zone>stu</zone><zone>va</zone><zone>ḥ</zone><zone>pa</zone><zone>ri</zone><zone>vā</zone><zone>rya</zone><zone>sa</zone><zone>ma</zone><zone>nt</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><zone><unclear>v</unclear>ṛ</zone><zone><unclear>t</unclear>a</zone><zone>ḥ</zone><zone>saṃ</zone><zone>kru</zone><zone>ddho</zone><zone>pya</zone><zone>sva</zone><zone>yaṃ</zone><zone>va</zone><zone>śa</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><zone><unclear>t</unclear>aṃ</zone><zone><unclear>c</unclear>a</zone><zone><gap reason="par" unit="part"/><unclear>u</unclear></zone><zone>d<unclear>dh</unclear>o</zone><zone>h<unclear>y</unclear>a</zone><zone>bhi</zone><zone><unclear>j</unclear>ñā</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><zone>ni</zone><zone>śa</zone><zone>ma</zone><zone>ya</zone><zone><unclear>ta</unclear></zone><zone><unclear>bh</unclear>i</zone><zone>kṣa</zone><zone>v<unclear>a</unclear></zone><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><zone><unclear>cā</unclear></zone><zone><unclear>pi</unclear></zone><zone>vi</zone><zone>ji</zone><zone>t<gap reason="par" unit="part"/></zone><zone>sa<gap reason="par" unit="part"/></zone><zone>grā</zone><zone>mā</zone><zone>bha</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <line n="1" xml:id="b1"><zone><unclear>vi</unclear></zone><zone>ṣṇu</zone><zone>ssa</zone><zone>bh<unclear>i</unclear></zone><zone>kā</zone><zone>śu</zone><zone>klā</zone><zone><unclear>śy</unclear></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><zone>ñä</zone><zone>KTA</zone><zone>ññe</zone><zone>pe</zone><zone><unclear>rn</unclear><gap reason="par" unit="part"/></zone><zone>ṣṣe</zone><zone>a</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><zone><gap reason="par" unit="part"/>traṃ</zone><zone><unclear>da</unclear></zone><zone><gap reason="par" unit="part"/>ā</zone><zone>ti</zone><zone>pra</zone><zone><unclear>ci</unclear></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><zone><gap reason="plain" unit="part"/><gap reason="plain" unit="part"/><unclear>ṃ</unclear></zone><zone>śā</zone><zone>ntiṃ</zone><zone>pa</zone><zone>ri</zone><zone>ni</zone><zone><unclear>r</unclear>vṛ</zone><zone>ta</zone><zone>śc<gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><zone>vi</zone><zone>ga</zone><zone>te</zone><zone>ma</zone><zone>no</zone><zone>jñe</zone><zone>:</zone><zone>ni</zone><zone>lo</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <fw type="leafNum" corresp="#lf">8</fw>
+            <p>
+<lb corresp="#a1"/><w>m</w><w>astu</w><w>vaḥ</w><w>parivārya</w><w>samant<supplied>āc</supplied></w><w><supplied>ca</supplied></w><gap reason="lost"/>
+<lb corresp="#a2"/><w>vṛtaḥ</w><w>saṃkruddho</w><w>py</w><w>asvayaṃvaśa<supplied>ḥ</supplied></w><gap reason="lost"/>
+<lb corresp="#a3"/><w>taṃ</w><w>ca</w><w><supplied>b</supplied>uddho</w><w>hy</w><w>abhijñā<supplied>ya</supplied></w><gap reason="lost"/>
+<lb corresp="#a4"/><w>niśamayata</w><w>bhikṣava<supplied>ḥ</supplied></w><gap reason="lost"/>
+<lb corresp="#a5"/><w>cāpi</w><w>vijit<supplied>a</supplied>sa<supplied>ṃ</supplied>grāmā</w><w>bha</w><gap reason="lost"/>
+<lb corresp="#b1"/><w>viṣṇus</w><w>sabhikā</w><w>śuklā</w><w>śy<supplied>āmā</supplied></w><gap reason="lost"/>
+<w><supplied>pa</supplied><lb corresp="#b2"/>ñäktäññe</w><w>pern<supplied>e</supplied>ṣṣe</w><w>a<supplied>kālksa</supplied></w><gap reason="lost"/>
+<lb corresp="#b3"/><w><supplied>s</supplied>traṃ</w><w>da<supplied>d</supplied>āti</w><w>praci</w><gap reason="lost"/>
+<lb corresp="#b4"/><w><gap reason="plain" unit="part"/><gap reason="plain" unit="part"/>ṃ</w><w>śāntiṃ</w><w>parinirvṛtaśc<supplied>a</supplied></w>
+<lb corresp="#b5"/><w>vigate</w><w>manojñe</w><pc>:</pc><w>nilo</w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl"><hi>Sanskrit</hi></seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl"><hi>Sanskrit</hi></seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl"><hi>Sanskrit</hi></seg></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl"><hi>Sanskrit</hi></seg></seg></choice><choice corresp="#a5"><seg><seg type="prim_transl"><hi>Sanskrit</hi></seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl"><hi>Sanskrit</hi></seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">out of longing for the dignity of the Buddha</seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl"><hi>Sanskrit</hi></seg></seg></choice><choice corresp="#b4"><seg><seg type="prim_transl"><hi>Sanskrit</hi></seg></seg></choice><choice corresp="#b5"><seg><seg type="prim_transl"><hi>Sanskrit</hi></seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="philcomment">Contains the closing verses of the Mahāsamājasūtra on the recto side; the verso side contains the antaroddāna/summary in line b1, the scribe's wish in TB (line b2), and three lines of an unidentified Sanskrit text.</note><note type="remarks">This fragment is the left part of a leaf keeping the left margin. PK NS 900 directly connects to it in the top right (resp. bottom right) corner. Leaf number <hi>8</hi> on the verso side. The colophon/the scribe's wish is in TB. Completed by <ref type="ms" target="txt:m-psbl17"/> (<bibl><title corresp="ref:pinault2007"/><citedRange>208</citedRange></bibl>)?</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>other</label>Edition in <bibl><title corresp="ref:couvreur1970"/><citedRange>180-181</citedRange></bibl> pl. IV. <bibl><title corresp="ref:waldschmidt1932"/><citedRange>193, 195</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="file_location_old">pages/manuscript/PK_NS/pkns17and900.txt</item>
+               <item n="m_collection_old">Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</item>
+               <item n="m_lines_old">5</item>
+               <item n="access_old">public</item>
+               <item n="m_completeness_old"/>
+               <item n="m_linedistance_old">1</item>
+               <item n="m_findspot_old">Duldur-Akhur</item>
+               <item n="m_findspot_specific_old">DA, cour</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_image_old"/>
+               <item n="date_publication_old">July 2014</item>
+               <item n="m_transliteration_old">a1 -m astu vaḥ parivārya samant ///
+a2 [v]ṛ[t]aḥ saṃkruddho py asvayaṃvaśa ///
+a3 [t]aṃ [c]a (·)[u]d[dh]o h[y] abhi[j]ñā ///
+a4 niśamaya[ta bh]ikṣav[a] ///
+a5 [cāpi] vijit(·)sa(·)grāmā bha ///
+b1 [vi]ṣṇus sabh[i]kā śuklā [śy] ///
+b2 ñä_k_t_aññe pe[rn](·)ṣṣe a ///
+b3 (·)traṃ [da](·)āti pra[ci] ///
+b4 [··ṃ] śāntiṃ parini[r]vṛtaśc· ///
+b5 vigate manojñe : nilo ///</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_bib_old">Edition in [[Couvreur 1970]]: 180-181, pl. IV.&lt;br&gt;
+[[Waldschmidt 1932]]: 193, 195.</item>
+               <item n="m_size_h_old">7,5</item>
+               <item n="m_next_old"/>
+               <item n="file_created_old">1361557395</item>
+               <item n="file_modified_old">1523663152</item>
+               <item n="m_philcomment_old">&lt;p&gt;Contains the closing verses of the Mahāsamājasūtra on the recto side; the verso side contains the antaroddāna/summary in line b1, the scribe's wish in TB (line b2), and three lines of an unidentified Sanskrit text.&lt;/p&gt;</item>
+               <item n="m_passage_old"/>
+               <item n="m_editor_old">Georges-Jean Pinault (in collaboration with Hannes A. Fellner, Theresa Illés)</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_remarks_old">&lt;p&gt;This fragment is the left part of a leaf keeping the left margin. PK NS 900 directly connects to it in the top right (resp. bottom right) corner. Leaf number &lt;i&gt;8&lt;/i&gt; on the verso side. The colophon/the scribe's wish is in TB. Completed by [[PS Bl 17]] ([[Pinault 2007]]: 208)?&lt;/p&gt;</item>
+               <item n="m_language_old">Sanskrit+TB</item>
+               <item n="m_other_sigla_old"/>
+               <item n="m_size_w_old">6</item>
+               <item n="m_expedition_old">DA cour</item>
+               <item n="m_parallels_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="ms_old">PK NS 17 and 900</item>
+               <item n="project_comment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_transcription_old">a1 |m |astu |vaḥ |parivārya |samant(āc |ca) ///
+a2 |vṛtaḥ |saṃkruddho |py |asvayaṃvaśa(ḥ) ///
+a3 |taṃ |ca |(b)uddho |hy |abhijñā(ya) ///
+a4 |niśamayata |bhikṣava(ḥ) ///
+a5 |cāpi |vijit(a)sa(ṃ)grāmā |bha ///
+b1 |viṣṇus |sabhikā |śuklā |śy(āmā) /// pañäktäññe|(pa)|ñäktäññe
+b2 pern(e)ṣṣe a(kālksa) ///
+b3 |(s)traṃ |da(d)āti |praci ///
+b4 |··ṃ |śāntiṃ |parinirvṛtaśc(a)
+b5 |vigate |manojñe : |nilo ///</item>
+               <item n="m_title_old">Mahāsamājasūtra</item>
+               <item n="m_leaf_old">8</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="user_created_old">theres</item>
+               <item n="user_modified_old">theres</item>
+               <item n="m_prev_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="m_translation_old">a1 &lt;i&gt;Sanskrit&lt;/i&gt;
+a2 &lt;i&gt;Sanskrit&lt;/i&gt;
+a3 &lt;i&gt;Sanskrit&lt;/i&gt;
+a4 &lt;i&gt;Sanskrit&lt;/i&gt;
+a5 &lt;i&gt;Sanskrit&lt;/i&gt;
+b1 &lt;i&gt;Sanskrit&lt;/i&gt;
+b2 out of longing for the dignity of the Buddha
+b3 &lt;i&gt;Sanskrit&lt;/i&gt;
+b4 &lt;i&gt;Sanskrit&lt;/i&gt;
+b5 &lt;i&gt;Sanskrit&lt;/i&gt;</item>
+               <item n="m_subgenre_old">Colophon</item>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Prose</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

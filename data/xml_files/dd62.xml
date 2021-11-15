@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-dd62">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dd 6.2</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Dd 6.2</idno>
+                  <altIdentifier>
+                     <idno>Documents divers 6.2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>wall</material>
+                           <objectType>Graffito</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Duldur-Akhur</region><placeName>Entrance of the temple of the monastery</placeName></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb"/>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone>la</zone><zone>we</zone><zone>ñau</zone><zone>ñke</zone><zone>e</zone><zone>rtsi</zone><zone>a</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>k<gap reason="plain" unit="part"/></zone><zone>sra¯</zone><zone>¯mT</zone><zone>e</zone><zone>ka</zone><zone>MA</zone><zone>cceṃ</zone><zone>kul<unclear>e</unclear></zone><zone>ṅka</zone><zone>rñe¯</zone><zone>¯ñ</zone><zone>k<gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone><gap reason="plain" unit="part"/><unclear>ā</unclear></zone><zone>rśkaṃ</zone><zone>ñi</zone><zone>e</zone><zone>ka</zone><zone>MA</zone><zone>cci</zone><zone>kuse</zone><zone>yne</zone><zone>śaṃ</zone><zone>ñi</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>n<gap reason="plain" unit="part"/></zone><zone>we</zone><zone>s<unclear>u</unclear></zone><zone>KA</zone><zone>t<unclear>k</unclear>ā</zone><zone>ṣTA¯</zone><zone>¯R</zone><zone>ypo</zone><zone>mna</zone><zone>kuṣaiṃ</zone><zone>ṣPA</zone><zone>mā</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>i</zone><zone><gap reason="plain" unit="part"/>k<unclear>o</unclear></zone><zone>mñ<unclear>e</unclear></zone><zone>po</zone><zone>yiṃ</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><w>la</w><w>weñau</w><w>ñke</w><w>ertsi</w><w>a</w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>k<gap reason="plain" unit="part"/>s</w><w>ramt</w><w>ekamäcceṃ</w><w>kUleṅkarñeñ</w><w>k<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>ārśkaṃñi</w><w>ekamäcci</w><w>kUse</w><w>yneśaṃñi</w><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>n<gap reason="plain" unit="part"/></w><w>we</w><w>su</w><w>kätkāṣtär</w><w>ypomna</w><w>kUṣaiṃ</w><w>ṣpä</w><w>mā</w><gap reason="lost"/>
+<lb corresp="#a5"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>i</w><w><gap reason="plain" unit="part"/>komñe</w><w>po</w><w>yiṃ</w><gap reason="lost"/></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition</label><bibl><title corresp="ref:pinault1987"/><citedRange>184-185</citedRange></bibl> pl. XCVI-1.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_prev_old"/>
+               <item n="user_modified_old">theres</item>
+               <item n="user_created_old">martin</item>
+               <item n="m_metric_form_old"/>
+               <item n="m_tune_old"/>
+               <item n="m_subgenre_old"/>
+               <item n="m_translation_old"/>
+               <item n="project_comment_old"/>
+               <item n="ms_old">Dd 6.2</item>
+               <item n="m_script_old"/>
+               <item n="m_parallels_old"/>
+               <item n="m_size_w_old"/>
+               <item n="m_expedition_old"/>
+               <item n="m_other_sigla_old">Documents divers 6.2</item>
+               <item n="m_remarks_old"/>
+               <item n="m_language_old">TB</item>
+               <item n="m_genre_old"/>
+               <item n="m_title_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old">1 /// la weñau ñke ertsi a ///
+2 /// ·k·s ramt ekamäcceṃ k_uleṅkarñeñ k· ///
+3 /// ·ārśkaṃñi ekamäcci k_use yneśaṃñi ///
+4 /// ·n· we su kätkāṣtär ypomna k_uṣaiṃ ṣpä mā ///
+5 /// ·i ·komñe po yiṃ ///</item>
+               <item n="m_meter_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_bib_old">Edition: [[Pinault 1987]]: 184-185, pl. XCVI-1.</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_transliteration_old">1 /// la weñau ñke ertsi a ///
+2 /// ·k·s ram_t\ eka_m_acceṃ k_ul[e]ṅkarñeñ\ k· ///
+3 /// [·ā]rśkaṃñi eka_m_acci k_use yneśaṃñi ///
+4 /// ·n· we s[u] _k_at[k]āṣ_t_a_r\ ypomna k_uṣaiṃ ṣ_p_a mā ///
+5 /// ·i ·k[o]mñ[e] po yiṃ ///</item>
+               <item n="m_language_stage_old"/>
+               <item n="date_publication_old"/>
+               <item n="m_image_old"/>
+               <item n="m_material_old">Ink on wall</item>
+               <item n="m_editor_old"/>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old"/>
+               <item n="file_modified_old">1485189368</item>
+               <item n="file_created_old">1402768375</item>
+               <item n="m_size_h_old"/>
+               <item n="m_next_old"/>
+               <item n="m_completeness_old"/>
+               <item n="access_old">restricted</item>
+               <item n="m_lines_old">5</item>
+               <item n="m_collection_old"/>
+               <item n="file_location_old">pages/manuscript/dd62.txt</item>
+               <item n="m_form_old">Graffito</item>
+               <item n="m_findspot_specific_old">Entrance of the temple of the monastery</item>
+               <item n="m_findspot_old">Duldur-Akhur</item>
+               <item n="m_linedistance_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

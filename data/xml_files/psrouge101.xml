@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-psrouge101">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PS rouge 10.1</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</repository>
+                  <idno>PS rouge 10.1</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="txb"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Gloss</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="verso">
+            <line n="2" xml:id="b2"><zone>klu</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#b2"/><w>klu</w></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#b2"><seg><seg type="prim_transl">rice</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="lingcomment">As remarked by <bibl><title corresp="ref:filliozatandkuno1938"/><citedRange>28</citedRange></bibl>, the gloss is probably in TB, even though the TA word for 'rice' is identical, because another gloss in the same manuscript (see <ref type="ms" target="txt:m-psrouge102"/>) is unambigously in TB.</note><note type="philcomment">Glosses Skt. <hi>odanena</hi> (instr.sg.) 'porridge, boiled rice'. Apparently the case ending was not glossed.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>other</label><bibl><title corresp="ref:peyrot2014"/><citedRange>170</citedRange></bibl>; <bibl><title corresp="ref:filliozatandkuno1938"/></bibl> A Fol. 191.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_subgenre_old">Gloss</item>
+               <item n="m_translation_old">b2 rice</item>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_tune_old"/>
+               <item n="m_prev_old"/>
+               <item n="user_created_old">theres</item>
+               <item n="user_modified_old">theres</item>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_meter_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old">b2 klu</item>
+               <item n="m_title_old"/>
+               <item n="m_size_w_old"/>
+               <item n="m_expedition_old"/>
+               <item n="m_remarks_old"/>
+               <item n="m_language_old">Sanskrit+TB</item>
+               <item n="m_other_sigla_old"/>
+               <item n="m_script_old"/>
+               <item n="project_comment_old"/>
+               <item n="ms_old">PS rouge 10.1</item>
+               <item n="m_parallels_old"/>
+               <item n="file_created_old">1446461097</item>
+               <item n="file_modified_old">1485168406</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old"/>
+               <item n="m_material_old"/>
+               <item n="m_philcomment_old">&lt;p&gt;Glosses Skt. &lt;i&gt;odanena&lt;/i&gt; (instr.sg.) 'porridge, boiled rice'. Apparently the case ending was not glossed.&lt;/p&gt;</item>
+               <item n="m_passage_old"/>
+               <item n="m_editor_old"/>
+               <item n="date_publication_old"/>
+               <item n="m_language_stage_old"/>
+               <item n="m_transliteration_old">b2 klu</item>
+               <item n="m_image_old"/>
+               <item n="m_lingcomment_old">&lt;p&gt;As remarked by [[Filliozat and Kuno 1938]]: 28, the gloss is probably in TB, even though the TA word for 'rice' is identical, because another gloss in the same manuscript (see [[PS rouge 10.2]]) is unambigously in TB.&lt;/p&gt;</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_bib_old">[[Peyrot 2014]]: 170; [[Filliozat and Kuno 1938]] A Fol. 191.</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_form_old"/>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old"/>
+               <item n="file_location_old">pages/manuscript/psrouge101.txt</item>
+               <item n="m_completeness_old"/>
+               <item n="m_collection_old">Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</item>
+               <item n="m_lines_old"/>
+               <item n="access_old">restricted</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

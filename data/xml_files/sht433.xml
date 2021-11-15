@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-sht433">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>SHT 433</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Melanie Malzahn</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <date when="2014-09-12">12.09.2014</date>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>SHT 433</idno>
+                  <altIdentifier>
+                     <idno>Lüders no. S 1237</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>5,4</height>
+                              <width>30</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">3</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Šorčuq</region><placeName>Handschriften-Höhle</placeName>during <rs type="expedition_code">T III Š 15</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Colophon</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=267665;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=267665;rotate=0;imageType=_M"/>
+            <line n="3" xml:id="b3"><zone>wa</zone><zone>sa</zone><zone>tu</zone><zone><unclear>n</unclear>tse</zone><zone>pe</zone><zone>l<gap reason="par" unit="part"/>i</zone><zone>se</zone><zone>po</zone><zone>sta¯</zone><zone>¯K</zone><zone>lyu</zone><zone>ta</zone><zone>ṣṣaṃ</zone><zone>pu</zone><zone>ṇya</zone><zone><unclear>dha</unclear></zone><zone>rme</zone><zone>se</zone><zone>a</zone><zone>yī</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#b3"/><w>wasa</w><w>tuntse</w><w>pel<supplied>k</supplied>i<add>ṃ</add></w><w>se</w><w>postak</w><w>lyutaṣṣaṃ</w><w>puṇyadharme</w><w>se</w><w>ayī<add>-ne</add></w></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#b3"><seg><seg type="prim_transl">He/She gave [this book] for the sake of this one; Puṇyadharma removes this book (?); may he give [it back]!</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="lingcomment">The syntax is not clear; the above translation comes at the cost of accepting that the nominative <hi>se postak</hi> stands for an oblique <hi>ce postak</hi>; taken literally, we have incomplete (abbreviated?) clauses:</note><note type="lingcomment">"Gave for the sake of this one; this book; Puṇyadharma removes; may he give".</note><note type="lingcomment">Note also the wrong spelling <hi>lyutaṣṣaṃ</hi> for <hi>lyutaṣṣäṃ</hi> 'removes' and the omission of an enclitic pronoun after <hi>ayī</hi> (without pronoun one would expect <hi>āyi</hi>).</note><note type="philcomment"><bibl><title corresp="ref:peyrot2015b"/><citedRange>108</citedRange></bibl> has <hi>se postak lyutaṣṣe puṇyaśārmentse āyo(r)</hi> and translates "This book is a gift of the <hi>lyutaṣṣe</hi> Puṇyaśarman". The first four words are written in careful script, whereas the last word is a later addition in "unskilled large writing" (ibid.).</note><note type="philcomment">The first part, <hi>wasa tu{nt}se pel(k)i{m}</hi>, he tentatively translates as "he gave it because of that" (ibid).</note><note type="remarks">A complete leaf; the recto side contains a Sanskrit stotra, the verso side the Karmavācanā Niśraya formula (ed. <bibl><title corresp="ref:schlingloff1955"/><citedRange>47, 116</citedRange></bibl> and <bibl><title corresp="ref:hartel1956"/><citedRange>9, 47f</citedRange></bibl>., 92). In the blank space on the verso side a TB colphon has been written in an uneven script type with varying akṣara size. There are also two tiny, illegible akṣaras immediately after the double daṇḍa.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=SHT 433" type="external">SHT 433</ref></bibl>. </p>
+            <p><label>Edition</label><bibl><title corresp="ref:waldschmidt1965"/><citedRange>195</citedRange></bibl>; <bibl><title corresp="ref:peyrot2015b"/><citedRange>108</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_meter_old"/>
+               <item n="m_title_old"/>
+               <item n="m_transcription_old">b3 wasa tuntse pelkiñ|pel(k)i«ṃ» se postak lyutaṣṣäṃ|lyutaṣṣaṃ puṇyadharme se ayī«-ne»</item>
+               <item n="m_leaf_old"/>
+               <item n="m_expedition_old">T III Š 15</item>
+               <item n="m_size_w_old">30</item>
+               <item n="m_remarks_old">&lt;p&gt;A complete leaf; the recto side contains a Sanskrit stotra, the verso side the Karmavācanā Niśraya formula (ed. [[Schlingloff 1955]]: 47, 116 and [[Härtel 1956]]: 9, 47f., 92). In the blank space on the verso side a TB colphon has been written in an uneven script type with varying akṣara size. There are also two tiny, illegible akṣaras immediately after the double daṇḍa.&lt;/p&gt;</item>
+               <item n="m_language_old">Sanskrit+TB</item>
+               <item n="m_other_sigla_old">Lüders no. S 1237</item>
+               <item n="m_script_old">Classical</item>
+               <item n="ms_old">SHT 433</item>
+               <item n="project_comment_old"/>
+               <item n="m_parallels_old"/>
+               <item n="m_translation_old">b3 He/She gave [this book] for the sake of this one; Puṇyadharma removes this book (?); may he give [it back]!</item>
+               <item n="m_subgenre_old">Colophon</item>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_tune_old"/>
+               <item n="m_prev_old"/>
+               <item n="user_created_old">melanie</item>
+               <item n="user_modified_old">theres</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_old">Šorčuq</item>
+               <item n="m_findspot_specific_old">Handschriften-Höhle</item>
+               <item n="file_location_old">pages/manuscript/sht433.txt</item>
+               <item n="m_completeness_old"/>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_lines_old">3</item>
+               <item n="access_old">public</item>
+               <item n="file_created_old">1410536560</item>
+               <item n="file_modified_old">1485170458</item>
+               <item n="m_size_h_old">5,4</item>
+               <item n="m_next_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old">&lt;p&gt;[[Peyrot 2015b]]: 108 has &lt;i&gt;se postak lyutaṣṣe puṇyaśārmentse āyo(r)&lt;/i&gt; and translates "This book is a gift of the &lt;i&gt;lyutaṣṣe&lt;/i&gt; Puṇyaśarman". The first four words are written in careful script, whereas the last word is a later addition in "unskilled large writing" (ibid.).&lt;/p&gt;
+&lt;p&gt;The first part, &lt;i&gt;wasa tu{nt}se pel(k)i{m}&lt;/i&gt;, he tentatively translates as "he gave it because of that" (ibid).&lt;/p&gt;</item>
+               <item n="m_editor_old">Melanie Malzahn</item>
+               <item n="date_publication_old">12.09.2014</item>
+               <item n="m_transliteration_old">b3 wasa tu[n]tse pel(·)i se posta_k\ lyutaṣṣaṃ puṇya[dha]rme se ayī</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_image_old">http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=267664;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=267664;rotate=0;imageType=_M||SHT 433 recto
+http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=267665;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=267665;rotate=0;imageType=_M||SHT 433 verso</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old">&lt;p&gt;The syntax is not clear; the above translation comes at the cost of accepting that the nominative &lt;i&gt;se postak&lt;/i&gt; stands for an oblique &lt;i&gt;ce postak&lt;/i&gt;; taken literally, we have incomplete (abbreviated?) clauses:&lt;/p&gt; 
+&lt;p&gt;"Gave for the sake of this one; this book; Puṇyadharma removes; may he give".&lt;/p&gt;
+&lt;p&gt;Note also the wrong spelling &lt;i&gt;lyutaṣṣaṃ&lt;/i&gt; for &lt;i&gt;lyutaṣṣäṃ&lt;/i&gt; 'removes' and the omission of an enclitic pronoun after &lt;i&gt;ayī&lt;/i&gt; (without pronoun one would expect &lt;i&gt;āyi&lt;/i&gt;).&lt;/p&gt;</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=SHT 433" target="idp"&gt;SHT 433&lt;/a&gt;.&lt;br&gt;
+Edition: [[SHT I]]: 195; [[Peyrot 2015b]]: 108.</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

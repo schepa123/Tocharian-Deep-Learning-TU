@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht54">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 54</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Hannes A. Fellner</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 54</idno>
+                  <altIdentifier>
+                     <idno>B 54</idno>
+                  </altIdentifier>
+                  <msName>Udānālaṅkāra A</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Udānālaṅkāra</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">4</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Šorčuq</region>during <rs type="expedition_code">T III Š 94 Frgm</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Doctrine</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=327804;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=327804;rotate=0;imageType=_M"/>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone>kuse¯</zone><zone>¯Ṣ</zone><zone>tu</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone>wno</zone><zone>lme¯</zone><zone>¯tS</zone><zone>:</zone><zone>ā</zone><zone><unclear>yo</unclear></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><zone>k<unclear>t</unclear>e</zone><zone>rā</zone><zone><unclear>ja</unclear></zone><zone>gr<unclear>i</unclear></zone><zone>ne</zone><zone><unclear>tā</unclear><unclear>¯</unclear></zone><zone><unclear>¯</unclear><unclear>u</unclear></zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone>:</zone><zone>TA</zone><zone>ryā</zone><zone>ka</zone><zone><unclear>ṣ</unclear>u</zone><zone>KTA</zone><zone><unclear>bo</unclear></zone><zone>dha</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p><milestone unit="passage" n="uncertain"/></p>
+            <lg type="poem">
+               <lg n="X" type="strophe">
+                  <l n="x">
+<lb corresp="#a2"/><gap reason="lost"/><w>kUse</w><w>ṣ</w><w>tu</w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><w>wnolmets</w><pc>:</pc></l>
+                  <l n="x"><w>āyo<supplied>r</supplied></w><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="lost"/><w><supplied>pudñäkte</supplied>kte</w><w>rājagrine</w><w>tāU</w><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><pc>:</pc></l>
+               </lg>
+            </lg>
+            <p><w>täryāka</w><w>ṣukt<surplus>ä</surplus></w><w>bodha</w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a2"><seg><seg type="prim_transl">... who ...</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">... of the beings ...</seg></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl">... the Buddha in Rājagrha ...</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">... thirty-seven Bodhipākṣika- ... </seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="philcomment" subtype="General_remarks">No strophe number. On the 'thirty-seven Bodhipākṣika-Dharmas' in b2, see <bibl><title corresp="ref:mullerandwenzel1885"/></bibl>.</note><note type="remarks">The original manuscript is missing, but was a badly damaged small fragment with remnants of five lines. The writing was extremely attrited.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition</label><bibl><title corresp="ref:siegandsiegling1949"/><citedRange>I, 74</citedRange></bibl>; <bibl><title corresp="ref:siegandsiegling1983"/><citedRange>89 notes 224</citedRange></bibl>. .</p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 54" type="external">THT 54</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/00/0054.htm" type="external">THT 54</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old">Udānālaṅkāra A</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 54" target="idp"&gt;THT 54&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/00/0054.htm" target="titus"&gt;THT 54&lt;/a&gt;.&lt;br&gt;
+Edition: [[TochSprR(B) I]]: I, 74; [[TochSprR(B)2]]: 89, notes 224.&lt;br&gt;.</item>
+               <item n="date_publication_old"/>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_transliteration_old">a2 /// k_use _ṣ\ tu ///
+a3 /// wnolmet_s\ : ā[yo] ///
+a4 /// k[t]e rā[ja]gr[i]ne [tā_u] ///
+b2 /// : _t_aryāka [ṣ]u_k_t(\) [bo]dha ///</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=327804;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=327804;rotate=0;imageType=_M||THT 54 recto</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_passage_old">uncertain</item>
+               <item n="m_philcomment_old">&lt;h3&gt;General remarks&lt;/h3&gt;
+&lt;p&gt;No strophe number. On the 'thirty-seven Bodhipākṣika-Dharmas' in b2, see [[Kasawara, Müller and Wenzel 1885]].&lt;/p&gt;</item>
+               <item n="m_editor_old">Hannes A. Fellner</item>
+               <item n="file_created_old">1332006595</item>
+               <item n="file_modified_old">1580205040</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old"/>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_lines_old">4</item>
+               <item n="access_old">public</item>
+               <item n="file_location_old">pages/manuscript/THT_0001_0633/tht54.txt</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_old">Šorčuq</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_linedistance_old"/>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_prev_old"/>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old">bernhard</item>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Verse</item>
+               <item n="m_translation_old">a2 ... who ...
+a3 ... of the beings ...
+a4 ... the Buddha in Rājagrha ...
+b2 ... thirty-seven Bodhipākṣika- ... </item>
+               <item n="m_subgenre_old">Doctrine</item>
+               <item n="m_script_old">Classical</item>
+               <item n="ms_old">THT 54</item>
+               <item n="project_comment_old">&lt;ul&gt;
+&lt;li&gt;This data set has been created automatically from &amp;quot;THT0001-0633_20120315_Braun.txt&amp;quot; on Sat, 2012-03-17, 18:49:55.&lt;/li&gt;
+&lt;li&gt;IDP image and data set links have been added automatically from &amp;quot;IDPImages_THT_20120306.csv&amp;quot; at the same time.&lt;/li&gt;
+&lt;li&gt;Reference entries have been added automatically from &amp;quot;THT0001-0633_Biblio_Peyrot_20120316.csv&amp;quot; at the same time.&lt;/li&gt;
+&lt;/ul&gt;</item>
+               <item n="m_parallels_old"/>
+               <item n="m_expedition_old">T III Š 94 Frgm</item>
+               <item n="m_size_w_old"/>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old">The original manuscript is missing, but was a badly damaged small fragment with remnants of five lines. The writing was extremely attrited.</item>
+               <item n="m_other_sigla_old">B 54</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_meter_old"/>
+               <item n="m_title_old">Udānālaṅkāra</item>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old">a2 /// k_use ṣ tu ///
+a3 /// onolmeṃts|wnolmets : #Xx āyo(r) ///
+a4 /// (pudñäkte)kte rājagrine tā_u ///
+b2 /// : #Xx täryāka ṣukt bodha ///</item>
+               <item n="m_parallelcomment_old"/>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;ul&gt;&lt;li&gt;This data set has been created automatically from "THT0001-0633_20120315_Braun.txt" on Sat, 2012-03-17, 18:49:55.&lt;/li&gt;&lt;li&gt;IDP image and data set links have been added automatically from "IDPImages_THT_20120306.csv" at the same time.&lt;/li&gt;&lt;li&gt;Reference entries have been added automatically from "THT0001-0633_Biblio_Peyrot_20120316.csv" at the same time.&lt;/li&gt;&lt;/ul&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

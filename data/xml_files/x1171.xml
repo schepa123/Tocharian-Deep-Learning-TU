@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-x1171">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>ГА 1171</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>CEToM</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>ГА 1171</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>wood tablet</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb"/>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <line n="1" xml:id="a1"><zone>ā</zone><zone>rya</zone><zone>śa</zone><zone>rme</zone><zone><unclear>8</unclear></zone><gap reason="lost"/><gap reason="lost"/><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><zone>ya</zone><zone>SA</zone><zone>ś<unclear>ra</unclear></zone><zone>ddhi</zone><gap reason="plain" quantity="1"/><zone><unclear>5</unclear></zone><zone>pu</zone><zone><unclear>ñ</unclear>ya</zone><zone><gap reason="plain" unit="part"/>e</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone>rma</zone><zone>gu</zone><zone><unclear>pte</unclear></zone><zone><unclear>5</unclear></zone><zone>ṣṭa</zone><zone><unclear>gha</unclear></zone><zone>śa</zone><zone><unclear>v</unclear>a</zone><zone><unclear>r</unclear>yu</zone><zone><unclear>t</unclear>e</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone>p<unclear>u</unclear></zone><zone><unclear>ñ</unclear>ya</zone><zone><unclear>gu</unclear></zone><zone>pte</zone><zone>5</zone><gap reason="plain" quantity="2"/><zone><gap reason="plain" unit="part"/>e</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><gap reason="plain" quantity="6"/><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><w>āryaśarme</w><num value="8">8</num><gap reason="lost"/><gap reason="lost"/><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#a2"/><w>yasäśraddhi</w><gap reason="plain" quantity="1"/><num value="5">5</num><w>puñya<gap reason="plain" unit="part"/>e</w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><w><supplied>dha</supplied>rmagupte</w><num value="5">5</num><w>ṣṭaghaśavaryute</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><w>puñyagupte</w><num value="5">5</num><gap reason="plain" quantity="2"/><w><gap reason="plain" unit="part"/>e</w><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><gap reason="plain" quantity="6"/><gap reason="lost"/></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition</label><bibl><title corresp="ref:ching2013a"/><citedRange>35</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_bib_old">Edition: [[Ching 2012a]]: 35.</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_transliteration_old">a1 āryaśarme [8] /// /// – ///
+a2 ya_s_aś[ra]ddhi – [5] pu[ñ]ya·e ///
+b1 /// rmagu[pte 5] ṣṭa[gha]śa[v]a[r]yu[t]e – ///
+b2 /// p[uñ]ya[gu]pte 5 – – ·e ///
+b3 /// – – – – – – ///</item>
+               <item n="m_language_stage_old"/>
+               <item n="date_publication_old"/>
+               <item n="m_image_old"/>
+               <item n="m_material_old">Ink on wood tablet</item>
+               <item n="m_editor_old">CEToM</item>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old"/>
+               <item n="file_modified_old">1485784602</item>
+               <item n="file_created_old">1376476877</item>
+               <item n="m_size_h_old"/>
+               <item n="m_next_old"/>
+               <item n="m_completeness_old"/>
+               <item n="access_old">restricted</item>
+               <item n="m_lines_old"/>
+               <item n="m_collection_old"/>
+               <item n="file_location_old">pages/manuscript/1171.txt</item>
+               <item n="m_form_old"/>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old"/>
+               <item n="m_linedistance_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_prev_old"/>
+               <item n="user_modified_old">theres</item>
+               <item n="user_created_old">michael</item>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old"/>
+               <item n="m_translation_old"/>
+               <item n="m_subgenre_old"/>
+               <item n="ms_old">ГА 1171</item>
+               <item n="project_comment_old"/>
+               <item n="m_script_old"/>
+               <item n="m_parallels_old"/>
+               <item n="m_size_w_old"/>
+               <item n="m_expedition_old"/>
+               <item n="m_other_sigla_old"/>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old"/>
+               <item n="m_genre_old"/>
+               <item n="m_title_old"/>
+               <item n="m_transcription_old">a1 āryaśarme 8 /// /// – ///
+a2 yasäśraddhi – 5 puñya·e ///
+b1 /// (dha)rmagupte 5 ṣṭaghaśavaryute – ///
+b2 /// puñyagupte 5 – – ·e ///
+b3 /// – – – – – – ///</item>
+               <item n="m_leaf_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

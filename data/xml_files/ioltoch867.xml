@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-ioltoch867">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>IOL Toch 867</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library (London)</repository>
+                  <idno>IOL Toch 867</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=79968;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=79968;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL867a.jpg" height="1007px" width="452px"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone>y<unclear>a</unclear></zone><zone><unclear>k</unclear>n<unclear>e</unclear></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone>kl<unclear>o</unclear></zone><zone>ka</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone><unclear>ṢṢAṃ</unclear></zone><zone>yo</zone><zone>k<gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><zone><unclear>ye</unclear></zone><zone>pā</zone><zone><gap reason="plain" unit="part"/>i</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=80065;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=80065;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL867b.jpg" height="1007px" width="462px"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>ṣmeṃ</zone><gap reason="plain" quantity="2"/><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone>lle</zone><zone>•</zone><zone>se</zone><zone><gap reason="plain" unit="part"/><unclear>ā</unclear></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><zone>śai</zone><zone>ya</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>lñe</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><w>yakne</w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><w>kloka</w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><w>ṣṣäṃ</w><w>yok<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="lost"/><w>ye</w><w>pā</w><w><gap reason="plain" unit="part"/>i</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>ṣmeṃ</w><gap reason="plain" quantity="2"/><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><w>lle</w><pc>•</pc><w>se</w><w><gap reason="plain" unit="part"/>ā</w><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><w>śai</w><w>ya</w><gap reason="lost"/>
+<lb corresp="#b4"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>lñe</w><gap reason="lost"/></p>
+         </div>
+         <div type="comments">
+            <p><note corresp="#a4" type="philcomment"><hi>pā ·i</hi>: = pā(kr)i?</note><note corresp="#b1" type="philcomment"><hi>ṣmeṃ</hi>: This syllable occurs mainly in <hi>auṣmeṃ</hi> / <hi>oṃṣmeṃ</hi>, and as a spelling variant in <hi>ṣmeñca</hi>, i.e. often <hi>osta-ṣmeñca</hi> 'householder'. Here it may be possible to read the next akṣara as <hi>c</hi>, so <hi>(osta)-ṣmeṃc(a)</hi> + nts. If correct, this may point to the vinaya.</note><note corresp="#content" type="philcomment">: the only possible key-word is <hi>kloka///</hi>, which could be a form of <hi>klokaśce</hi> ‘pore, follicle’.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 867" type="external">IOL Toch 867</ref></bibl>. </p>
+            <p><label>Edition</label><bibl><title corresp="ref:tamai2007"/><citedRange>№867</citedRange></bibl><bibl><title corresp="ref:tamai2007"/><citedRange>№866</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=79968;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=79968;rotate=0;imageType=_M||IOL Toch 867 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=80065;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=80065;rotate=0;imageType=_M||IOL Toch 867 verso</item>
+               <item n="date_publication_old"/>
+               <item n="m_transliteration_old">a1 /// y[ak]n[e] ///
+a2 /// kl[o]ka ///
+a3 /// [_ṣ_ṣ_aṃ] yok· ///
+a4 /// [ye] pā ·i – ///
+b1 /// – ṣmeṃ – – ///
+b2 /// lle • se ·[ā] ///
+b3 /// śai ya ///
+b4 /// – lñe ///</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 867"&gt;IOL Toch 867&lt;/a&gt;.&lt;br&gt;
+Edition: [[Tamai 2007]]: №867, [[Tamai 2007]]: №866.</item>
+               <item n="m_size_h_old"/>
+               <item n="m_next_old"/>
+               <item n="file_created_old">1330598801</item>
+               <item n="file_modified_old">1479222392</item>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;content&lt;/b&gt;: the only possible key-word is &lt;i&gt;kloka///&lt;/i&gt;, which could be a form of &lt;i&gt;klokaśce&lt;/i&gt; ‘pore, follicle’.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a4.&lt;/b&gt; &lt;i&gt;pā ·i&lt;/i&gt;: = pā(kr)i?&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b1.&lt;/b&gt; &lt;i&gt;ṣmeṃ&lt;/i&gt;: This syllable occurs mainly in &lt;i&gt;auṣmeṃ&lt;/i&gt; / &lt;i&gt;oṃṣmeṃ&lt;/i&gt;, and as a spelling variant in &lt;i&gt;ṣmeñca&lt;/i&gt;, i.e. often &lt;i&gt;osta-ṣmeñca&lt;/i&gt; 'householder'. Here it may be possible to read the next akṣara as &lt;i&gt;c&lt;/i&gt;, so &lt;i&gt;(osta)-ṣmeṃc(a)&lt;/i&gt; + nts. If correct, this may point to the vinaya.&lt;/p&gt;</item>
+               <item n="m_passage_old"/>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="file_location_old">pages/manuscript/IOL_Toch/ioltoch867.txt</item>
+               <item n="m_collection_old">British Library (London)</item>
+               <item n="m_lines_old"/>
+               <item n="access_old">restricted</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="user_created_old">michael</item>
+               <item n="user_modified_old">theres</item>
+               <item n="m_prev_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old"/>
+               <item n="m_translation_old"/>
+               <item n="m_subgenre_old"/>
+               <item n="m_metric_form_old"/>
+               <item n="m_tune_old"/>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old"/>
+               <item n="m_other_sigla_old"/>
+               <item n="m_expedition_old"/>
+               <item n="m_size_w_old"/>
+               <item n="m_parallels_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="ms_old">IOL Toch 867</item>
+               <item n="project_comment_old">&lt;p&gt;&lt;ul&gt;
+&lt;li&gt;Image links and standard properties have been added automatically on Tue, 2012-07-31, 03:59:07.&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</item>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_title_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old">a1 /// yakne ///
+a2 /// kloka ///
+a3 /// ṣṣäṃ yok· ///
+a4 /// ye pā ·i – ///
+b1 /// – ṣmeṃ – – ///
+b2 /// lle • se ·ā ///
+b3 /// śai ya ///
+b4 /// – lñe ///</item>
+               <item n="m_genre_old">Literary</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;&lt;ul&gt;&lt;li&gt;Image links and standard properties have been added automatically on Tue, 2012-07-31, 03:59:07.&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

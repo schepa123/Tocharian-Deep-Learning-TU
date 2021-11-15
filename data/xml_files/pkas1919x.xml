@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-pkas1919x">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PK AS 19.19.X</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Georges-Jean Pinault</name>
+            </respStmt>
+            <respStmt>
+               <resp>collaborator</resp>
+               <name>Hannes A. Fellner</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <date when="2014-07">July 2014</date>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</repository>
+                  <idno>PK AS 19.19.X</idno>
+                  <altIdentifier>
+                     <idno>Pelliot Koutchéen Ancienne Série 19.19 (number in 1982)</idno>
+                  </altIdentifier>
+                  <msName>PK AS 19</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Pratītyasamutpāda</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>6,5</height>
+                              <width>15,7</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <dimensions type="line_spacing">
+                              <height>1,2</height>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>during <rs type="expedition_code">M 504 (provisional number 1303)</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Abhidharma</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f156.zoom"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f156.highres"/>
+            <line n="1" xml:id="a1"><zone>lñ<gap reason="plain" unit="part"/></zone><gap reason="lost"/><gap reason="lost"/><zone>kwi</zone><gap reason="plain" quantity="2"/><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><zone>lyau</zone><zone>ce</zone><gap reason="plain" quantity="4"/><zone>śa¯</zone><zone>¯K</zone><zone>ka</zone><zone>rma</zone><zone>pa</zone><zone>thä</zone><zone>nta</zone><gap reason="plain" quantity="2"/><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><zone>nta</zone><zone>l<unclear>ñ</unclear>e</zone><zone>n<unclear>ts</unclear>e</zone><zone>ṣa</zone><zone>rm<unclear>t</unclear>sa</zone><zone>snai</zone><zone>wä</zone><zone>ste</zone><zone>snai</zone><space type="string_hole"/><gap reason="plain" quantity="1"/><zone>rma¯</zone><zone>¯ṅ<unclear>k</unclear></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><zone>wa</zone><zone>rñai</zone><zone>ke</zone><zone>na</zone><zone>ṣṣa</zone><zone>na</zone><zone>kuse</zone><zone>a</zone><zone>kā</zone><zone>śne</zone><zone>yt<unclear>ā</unclear></zone><gap reason="plain" quantity="4"/><zone>kle</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><zone>so</zone><zone>yä</zone><zone>s<unclear>k</unclear>eṃ</zone><zone>:</zone><zone>po</zone><zone>LA</zone><zone>kle</zone><zone>n<gap reason="plain" unit="part"/>a</zone><zone>meṃ</zone><zone>tSA</zone><zone>lp<unclear>o</unclear><unclear>¯</unclear></zone><zone><unclear>¯</unclear>Ṣ</zone><gap reason="plain" quantity="4"/><zone>ne</zone><zone><unclear>ṣ</unclear>yā</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f155.zoom"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f155.highres"/>
+            <line n="1" xml:id="b1"><zone>m<unclear>oṃ</unclear></zone><zone>tse</zone><zone>mā</zone><zone>sklo</zone><zone>ke</zone><zone>rṣa</zone><zone>lle</zone><zone>te</zone><zone>yä</zone><zone>kne</zone><zone>sa</zone><zone>ñi</zone><gap reason="par" quantity="3"/><gap reason="plain" quantity="1"/><zone>•</zone><zone><unclear>ñu</unclear></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><zone>m<gap reason="plain" unit="part"/><gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="1"/><zone>ne</zone><zone>sklo</zone><zone>ke</zone><zone>rṣa</zone><zone>lle</zone><zone>॥</zone><zone>ña</zone><zone>ke</zone><zone>lwā</zone><zone>ññai</zone><gap reason="plain" quantity="3"/><zone>ykū</zone><zone><unclear>w</unclear>e</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="plain" quantity="2"/><gap reason="par" quantity="1"/><gap reason="plain" quantity="1"/><zone>ṅsa</zone><zone>l<unclear>k</unclear>āṃ</zone><zone>tRA</zone><zone>:</zone><zone>so</zone><zone>mo</zone><zone>na</zone><zone>no</zone><space type="string_hole"/><zone>lwā</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><gap reason="plain" quantity="2"/><gap reason="par" quantity="1"/><gap reason="plain" quantity="2"/><zone>t<unclear>RA</unclear></zone><zone>•</zone><zone>so</zone><zone>mo</zone><zone>naṃ¯</zone><zone>¯tS</zone><zone>ya</zone><zone>ltse</zone><zone>kwä</zone><zone>rsa</zone><gap reason="plain" quantity="2"/><zone><gap reason="plain" unit="part"/>e</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><gap reason="plain" quantity="2"/><gap reason="par" quantity="1"/><gap reason="plain" quantity="1"/><zone>n<gap reason="plain" unit="part"/></zone><zone><unclear>ṣya</unclear></zone><gap reason="par" quantity="4"/><zone><gap reason="plain" unit="part"/>e</zone><gap reason="plain" quantity="1"/><zone><unclear>k</unclear>au</zone><zone>mī</zone><zone><unclear>ye</unclear></zone><zone>so</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><w>lñ<gap reason="plain" unit="part"/></w><gap reason="lost"/><supplied unit="syllable" quantity="12"/><gap reason="lost"/><w>kwi</w><gap reason="plain" quantity="2"/><gap reason="lost"/>
+<w><supplied>a</supplied><lb corresp="#a2"/>lyauce</w><gap reason="plain" quantity="4"/><w>śak</w><w>karmapathänta</w><gap reason="plain" quantity="2"/><gap reason="lost"/>
+<w><supplied>mā</supplied><lb corresp="#a3"/>ntalñentse</w><w>ṣarmtsa</w><w>snai</w><w>wäste</w><w>snai</w><w><supplied>pä</supplied>rmaṅk</w><gap reason="lost"/>
+<lb corresp="#a4"/><w>warñai</w><w>kenaṣṣana</w><w>kUse</w><w>akāśne</w><w>ytā<supplied>rine</supplied></w><w><supplied>lä</supplied>kle<supplied>nta</supplied></w><gap reason="lost"/>
+<lb corresp="#a5"/><w>soyäskeṃ</w><pc>:</pc><w>po</w><w>läklen<supplied>k</supplied>ameṃ</w><w>tsälpoṣ</w><gap reason="plain" quantity="4"/><w>neṣ</w><w>yā</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<w><supplied>aiśa</supplied><lb corresp="#b1"/>moṃtse</w><w>mā</w><w>sklok</w><w>erṣalle</w><w>te</w><w>yäkne</w><w>sañi</w><gap reason="plain" quantity="4"/><pc>•</pc><w>ñu</w><gap reason="lost"/>
+<lb corresp="#b2"/><w>m<gap reason="plain" unit="part"/><gap reason="plain" unit="part"/></w><gap reason="plain" quantity="1"/><w>ne</w><w>sklok</w><w>erṣalle</w><pc>॥</pc><w>ñake</w><w>lwāññai</w><w><supplied>ytārisa</supplied></w><w>ykūwe<supplied>ṣ</supplied></w><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="plain" quantity="2"/><w><supplied>pärman</supplied>ṅsa</w><w>lkāṃträ</w><pc>:</pc><w>somona</w><w>no</w><w>lwā<supplied>sa</supplied></w><gap reason="lost"/>
+<lb corresp="#b4"/><gap reason="plain" quantity="5"/><w>trä</w><pc>•</pc><w>somonaṃts</w><w>yaltse</w><w>kwärsa<supplied>rwa</supplied></w><gap reason="plain" quantity="1"/><w><gap reason="plain" unit="part"/>e</w><gap reason="lost"/>
+<lb corresp="#b5"/><gap reason="plain" quantity="4"/><w>n<gap reason="plain" unit="part"/></w><w>ṣya</w><gap reason="plain" quantity="4"/><w><gap reason="plain" unit="part"/>e</w><gap reason="plain" quantity="1"/><w>kaumīye</w><w>so</w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a2"><seg><seg type="prim_transl">... to each other ... the ten Karmapathas ...</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">... because of the (destru)ction without protection, without hope ...</seg></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl">... the sufferings belonging to the earth starting from ... on the way to heaven ...</seg></seg></choice><choice corresp="#a5"><seg><seg type="prim_transl">... the satiate ... All who have been released from the sufferings ... </seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">... no doubt should arise for the wise (?) one. The enemies of this sort ...</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">... doubt should arise. Now the ones having come on the way of the beasts ...</seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl">... they look ... because of hope. But some beasts ...</seg></seg></choice><choice corresp="#b4"><seg><seg type="prim_transl">... it ... thousand leagues for some of them ...</seg></seg></choice><choice corresp="#b5"><seg><seg type="prim_transl">... pond ...     </seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">This is the largest fragment under the number [[PK AS 19.19]] on the left. It is the left part of the leaf including damaged traces of the string hole. Recto and verso can not be determined with certainty.</note></p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_expedition_old">M 504 (provisional number 1303)</item>
+               <item n="m_size_w_old">15,7</item>
+               <item n="m_other_sigla_old">Pelliot Koutchéen Ancienne Série 19.19 (number in 1982)</item>
+               <item n="m_remarks_old">&lt;p&gt;This is the largest fragment under the number [[PK AS 19.19]] on the left. It is the left part of the leaf including damaged traces of the string hole. Recto and verso can not be determined with certainty.&lt;/p&gt; </item>
+               <item n="m_language_old">TB</item>
+               <item n="ms_old">PK AS 19.19.X</item>
+               <item n="project_comment_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="m_parallels_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old">a1 lñ· /// %12 /// kwi – – /// ālyauce|(a)|lyauce
+a2 – – – – śak karmapathänta – – /// māntalñentse|(mā)|ntalñentse
+a3 ṣarmtsa snai wäste snai (pä)rmaṅk /// 
+a4 warñai kenaṣṣana k_use akāśne ytā(rine) (lä)kle(nta) /// 
+a5 soyäskeṃ : po läklen(k)ameṃ tsälpoṣ – – – – neṣ yā – /// aiśamoṃtse|(aiśa)|moṃtse
+b1 mā sklok erṣalle te yakne|yäkne sañi – – – – • ñu ///
+b2 m·· – ne sklok erṣalle || ñake lwāññai (ytārisa) ykūwe(ṣ) ///
+b3 – – (pärman)ṅsa lkāṃträ : somona no lwā(sa) ///
+b4 – – – – – trä • somonaṃts yaltse kwärsa(rwa) – ·e ///
+b5 – – – – n· ṣya – – – – ·e – kaumiye|kaumīye so ///</item>
+               <item n="m_title_old">Pratītyasamutpāda</item>
+               <item n="m_meter_old">4-3/3-5</item>
+               <item n="m_prev_old"/>
+               <item n="user_modified_old">martin</item>
+               <item n="user_created_old">hannes</item>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_translation_old">a2 ... to each other ... the ten Karmapathas ...
+a3 ... because of the (destru)ction without protection, without hope ...
+a4 ... the sufferings belonging to the earth starting from ... on the way to heaven ...
+a5 ... the satiate ... All who have been released from the sufferings ... 
+b1 ... no doubt should arise for the wise (?) one. The enemies of this sort ...
+b2 ... doubt should arise. Now the ones having come on the way of the beasts ...
+b3 ... they look ... because of hope. But some beasts ...
+b4 ... it ... thousand leagues for some of them ...
+b5 ... pond ...     </item>
+               <item n="m_subgenre_old">Abhidharma</item>
+               <item n="project_check_old"/>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="file_location_old">pages/manuscript/pkas1919x.txt</item>
+               <item n="m_completeness_old"/>
+               <item n="access_old">public</item>
+               <item n="m_lines_old">5</item>
+               <item n="m_collection_old">Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</item>
+               <item n="m_linedistance_old">1,2</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_old"/>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_transliteration_old">a1 lñ· /// /// kwi – – /// 
+a2 lyauce – – – – śa_k\ karmapathänta – – /// 
+a3 ntal[ñ]en[ts]e ṣarm[t]sa snai wäste snai ○ – rmaṅ[k]\ /// 
+a4 warñai kenaṣṣana k_use akāśne yt[ā] – – – – kle /// 
+a5 soyäs[k]eṃ : po _l_aklen·ameṃ t_s_alp[o]_ṣ[\] – – – – ne[ṣ] yā – ///
+b1 m[oṃ]tse mā sklok erṣalle te yäkne sañi (– – –) – • [ñu] ///
+b2 m·· – ne sklok erṣalle || ñake lwāññai – – – ykū[w]e ///
+b3 – – (–) – ṅsa l[k]āṃt_r_a : somona no ○ lwā – ///
+b4 – – (–) – – t[_r_a] • somonaṃt_s\ yaltse kwärsa – – ·e ///
+b5 – – (–) – n· [ṣya] (– – – –) ·e – [k]aumī[ye] so ///</item>
+               <item n="date_publication_old">July 2014</item>
+               <item n="m_image_old">http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f156.zoom|http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f156.highres||$page; recto|transform:rotate(180deg);
+http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f155.zoom|http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f155.highres||$page; verso</item>
+               <item n="m_bib_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old">PK AS 19</item>
+               <item n="file_modified_old">1566216884</item>
+               <item n="file_created_old">1406195474</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old">6,5</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_editor_old">Georges-Jean Pinault (in collaboration with Hannes A. Fellner)</item>
+               <item n="m_philcomment_old"/>
+               <item n="m_passage_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

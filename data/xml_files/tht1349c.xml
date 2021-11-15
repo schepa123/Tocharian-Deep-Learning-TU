@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht1349c">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 1349.c</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 1349.c</idno>
+                  <altIdentifier>
+                     <idno>Prelim. No. 177</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=318063;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=318063;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone>wa</zone><zone>me¯</zone><zone>¯R</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>ā¯</zone><zone>¯R</zone><zone>ka</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone><unclear>wa</unclear></zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=318071;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=318071;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>ka</zone><zone>॥</zone><zone>ma</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>mo</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><gap reason="plain" quantity="2"/><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><w>wamer</w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>ār</w><w>ka</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>wa</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>ka</w><pc>॥</pc><w>ma</w><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>mo</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b4"/><gap reason="lost"/><gap reason="plain" quantity="2"/><gap reason="lost"/></p>
+         </div>
+         <div type="bibliography">
+            <p><label>other</label> Edition: <bibl><title corresp="ref:tamai2007a"/><citedRange>№1349</citedRange></bibl>.c</p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=THT 1349c" type="external">THT 1349c</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/13/1349.htm" type="external">THT 1349</ref></bibl></p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_lines_old">4</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="access_old">restricted</item>
+               <item n="file_location_old">pages/manuscript/THT_1100_2399/tht1349c.txt</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="file_created_old">1340136547</item>
+               <item n="file_modified_old">1534353299</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bl.uk/database/oo_loader.a4d?pm=THT 1349c" target="idp"&gt;THT 1349c&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/13/1349.htm" target="titus"&gt;THT 1349&lt;/a&gt;
+&lt;br&gt;Edition: [[Tamai 2007a]]: №1349.c</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=318063;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=318063;rotate=0;imageType=_M||THT 1349c recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=318071;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=318071;rotate=0;imageType=_M||THT 1349c verso</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_transliteration_old">a1 /// – ///
+a2 /// wame_r\ ///
+a3 /// ·ā_r\ ka – ///
+a4 /// – [wa] – ///
+b1 /// – ///
+b2 /// – ka || ma ///
+b3 /// – mo – ///
+b4 /// – – ///</item>
+               <item n="m_transcription_old">a1 /// – ///
+a2 /// wamer ///
+a3 /// ·ār ka – ///
+a4 /// – wa – ///
+b1 /// – ///
+b2 /// – ka || ma ///
+b3 /// – mo – ///
+b4 /// – – ///</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_script_old">Classical</item>
+               <item n="ms_old">THT 1349.c</item>
+               <item n="project_comment_old"/>
+               <item n="m_language_old">TB</item>
+               <item n="m_other_sigla_old">Prelim. No. 177</item>
+               <item n="category_old">manuscript</item>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

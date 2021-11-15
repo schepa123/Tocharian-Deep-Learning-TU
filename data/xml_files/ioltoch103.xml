@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-ioltoch103">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>IOL Toch 103</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library (London)</repository>
+                  <idno>IOL Toch 103</idno>
+                  <altIdentifier>
+                     <idno>H 149.319</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>A.319</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Udānavarga</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions unit="cm" type="leaf">
+                              <height>6,8</height>
+                              <width>4,8</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass default="false">
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Doctrine</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface n="VMWQPMOPHHJZSWOCFVMBOSQM" type="recto" lrx="768" lry="850">
+            <graphic url="IOL/IOL103a.jpg" height="850px" width="768px"/>
+            <graphic xmlns:trsc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+                     n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=12176;rotate=0;imageType=_L"/>
+            <graphic xmlns:trsc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+                     n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=12176;rotate=0;imageType=_M"/>
+            <line xml:id="a1"
+                  points="12,16 754,12 758,157 283,164 203,169 25,109"
+                  n="1">
+               <gap reason="lost"/>
+               <zone points="134,103 145,19 37,21 32,92 85,114">m<gap unit="part" reason="plain"/></zone>
+               <zone points="136,110 133,59 152,20 242,21 251,65 288,96 273,156 210,165">sk<gap unit="part" reason="plain"/></zone>
+               <zone points="296,98 260,68 261,18 346,29 353,105">TA</zone>
+               <zone points="353,105 345,20 448,15 453,107">m<gap unit="part" reason="plain"/></zone>
+               <zone points="453,107 462,24 559,22 540,126"><gap unit="part" reason="plain"/>t<gap unit="part" reason="plain"/></zone>
+               <gap reason="par" quantity="1"/>
+               <gap reason="plain" quantity="1"/>
+               <gap reason="lost"/>
+            </line>
+            <line xml:id="a2"
+                  points="2,140 198,175 756,184 752,303 562,334 503,295 178,330 6,313"
+                  n="2">
+               <gap reason="lost"/>
+               <zone points="68,283 67,165 4,152 8,295"><gap unit="part" reason="plain"/><unclear>ai</unclear></zone>
+               <zone points="68,286 66,165 133,173 164,234 162,253 196,266 181,324 84,319">ṣṣe</zone>
+               <zone points="197,262 163,252 181,222 226,230 220,265">•</zone>
+               <zone points="221,273 221,204 281,176 351,197 330,222 333,236 311,244 301,286 238,294">mā</zone>
+               <zone points="306,285 309,246 333,236 333,215 414,193 411,277 336,297">na</zone>
+               <zone points="413,272 417,202 507,186 545,214 517,223 521,234 500,266 455,278">sa</zone>
+               <zone points="505,269 510,243 544,195 611,201 613,282 591,318 556,319 511,299">kta</zone>
+               <zone points="616,270 612,202 654,205 649,275">ḥ</zone>
+               <zone points="649,275 662,186 754,207 750,280 701,289">sa</zone>
+               <gap reason="lost"/>
+            </line>
+            <line xml:id="a3"
+                  points="9,322 180,338 505,299 574,344 692,349 652,512 541,551 461,497 293,492 206,561 97,527 27,496"
+                  n="3">
+               <gap reason="lost"/>
+               <zone points="75,388 143,408 143,423 102,430 73,436">•</zone>
+               <zone points="100,435 141,417 132,344 166,340 212,363 212,448 248,500 216,542 189,554 109,519 61,483">kuse</zone>
+               <zone points="214,450 210,369 254,334 355,340 343,393 350,408 322,444 281,458">yai</zone>
+               <zone points="399,485 330,435 341,410 353,404 342,384 392,329 499,377 490,406 467,406 469,427 485,439 461,458 450,487">nmo</zone>
+               <zone points="440,473 481,447 464,426 493,409 490,309 529,313 587,388 562,404 585,482 570,527 526,533 499,523 474,496">rkuse</zone>
+               <gap reason="plain" quantity="1"/>
+               <gap reason="lost"/>
+            </line>
+            <line xml:id="a4"
+                  points="27,532 95,528 173,564 267,562 332,503 462,502 539,557 640,531 686,557 657,671 271,730 26,648"
+                  n="4">
+               <gap reason="lost"/>
+               <zone points="197,698 196,624 213,586 130,549 85,533 60,551 80,662">mye</zone>
+               <zone points="198,691 197,627 236,574 303,585 291,618 294,655 271,679 254,673 215,681">ka</zone>
+               <zone points="219,685 234,675 287,678 295,641 292,618 303,588 295,559 351,507 406,518 407,562 389,573 392,664 323,701 271,700">krau</zone>
+               <zone points="393,576 399,556 426,534 438,501 463,504 530,562 526,578 506,583 486,633 397,636">pau</zone>
+               <zone points="492,633 507,582 551,566 623,568 624,618 535,647">pa</zone>
+               <gap reason="plain" quantity="1"/>
+               <gap reason="lost"/>
+            </line>
+         </surface>
+         <surface n="QOPJLIITQQTSEMNHCNGSTLPS" type="verso" lrx="768" lry="850">
+            <graphic url="IOL/IOL103b.jpg" height="850px" width="768px"/>
+            <graphic xmlns:trsc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+                     n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=12175;rotate=0;imageType=_L"/>
+            <graphic xmlns:trsc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+                     n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=12175;rotate=0;imageType=_M"/>
+            <line xml:id="b1"
+                  points="25,64 713,78 672,267 514,264 433,226 360,276 59,228"
+                  n="1">
+               <gap reason="lost"/>
+               <zone points="76,151 153,137 171,165 152,174 92,179">•</zone>
+               <zone points="144,176 166,163 152,130 293,116 320,195 296,241 156,223">spa</zone>
+               <zone points="308,230 322,198 308,149 398,114 453,159 441,191 387,244 358,259">ktā</zone>
+               <zone points="442,202 440,178 466,126 461,83 529,88 541,161 566,211 497,247">nne</zone>
+               <zone points="570,220 538,152 560,86 659,102 652,231">w<unclear>i</unclear></zone>
+               <gap reason="lost"/>
+            </line>
+            <line xml:id="b2"
+                  points="41,248 227,259 365,287 431,239 650,299 614,458 546,439 49,430"
+                  n="2">
+               <gap reason="lost"/>
+               <gap reason="plain" quantity="1"/>
+               <zone points="77,385 116,263 175,268 196,328 176,366 158,405">ce</zone>
+               <zone points="163,407 182,357 200,323 195,267 261,278 268,363 293,411 185,424">nne</zone>
+               <zone points="290,411 268,378 283,315 356,311 363,396">KA</zone>
+               <zone points="363,396 361,306 436,241 484,267 477,338 474,368 483,394 474,426 396,429">lpā</zone>
+               <zone points="490,411 462,363 517,279 613,321 599,449 549,454 518,477 559,512 550,529 472,466">strä</zone>
+               <gap reason="lost"/>
+            </line>
+            <line xml:id="b3"
+                  points="3,435 464,437 548,439 767,418 765,585 342,623 14,586"
+                  n="3">
+               <gap reason="lost"/>
+               <zone points="70,566 65,524 96,474 23,464 5,505 25,573"><unclear>s</unclear><gap unit="part" reason="plain"/></zone>
+               <zone points="76,582 67,522 105,465 161,482 163,588 126,596 76,589">tva</zone>
+               <zone points="167,587 153,540 168,454 248,459 248,585 240,587">ti</zone>
+               <zone points="257,586 243,524 278,441 362,437 401,487 352,497 335,534 335,584">lī</zone>
+               <zone points="338,560 337,533 358,493 446,498 459,515 442,546 392,577">ya</zone>
+               <zone points="436,572 461,520 444,488 469,460 545,525 529,603 451,602">ti</zone>
+               <zone points="544,553 548,501 676,493 692,534 665,559 583,560">bā</zone>
+               <zone points="694,569 692,461 763,454 762,580"><unclear>l</unclear><gap unit="part" reason="plain"/></zone>
+               <gap reason="lost"/>
+            </line>
+            <line xml:id="b4" points="8,615 695,612 680,755 19,764" n="4">
+               <gap reason="lost"/>
+               <zone points="43,629 154,644 186,693 162,723 151,750 25,755"><unclear>s</unclear><gap unit="part" reason="plain"/>āṃ</zone>
+               <zone points="156,717 227,675 277,687 272,735 196,756"><unclear>p</unclear><gap unit="part" reason="plain"/><unclear>a</unclear></zone>
+               <zone points="270,745 282,664 394,681 371,763"><unclear>pa</unclear></zone>
+               <zone points="381,744 372,706 400,647 455,675 467,701 483,754">ś<gap unit="part" reason="plain"/>a</zone>
+               <zone points="485,741 457,653 521,612 627,634 609,744"><gap unit="part" reason="plain"/><unclear>i</unclear></zone>
+               <gap reason="lost"/>
+            </line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+               <milestone unit="passage" n="27.8c-27.13d"/>
+               <lb corresp="#a1"/>
+               <gap reason="lost"/>
+               <w><supplied>ya</supplied>m<supplied>a</supplied>sk<supplied>au</supplied></w>
+               <w>tä</w>
+               <w>m<gap reason="plain" unit="part"/></w>
+               <w><gap reason="plain" unit="part"/>t<gap reason="plain" unit="part"/></w>
+               <gap reason="plain" quantity="2"/>
+               <gap reason="lost"/>
+               <lb corresp="#a2"/>
+               <gap reason="lost"/>
+               <w><supplied>ś</supplied>aiṣṣe</w>
+               <pc>•</pc>
+               <w>mānasaktaḥ</w>
+               <w>sa<supplied>dā</supplied></w>
+               <gap reason="lost"/>
+               <lb corresp="#a3"/>
+               <gap reason="lost"/>
+               <pc>•</pc>
+               <w>kUse</w>
+               <w>yainmor</w>
+               <w>kUse</w>
+               <gap reason="plain" quantity="1"/>
+               <gap reason="lost"/>
+               <lb corresp="#a4"/>
+               <gap reason="lost"/>
+               <w><supplied>aiśau</supplied>mye</w>
+               <w>kakraupau</w>
+               <w>pa</w>
+               <gap reason="plain" quantity="1"/>
+               <gap reason="lost"/>
+               <lb corresp="#b1"/>
+               <gap reason="lost"/>
+               <pc>•</pc>
+               <w>spaktānne</w>
+               <w>wi<supplied>na</supplied></w>
+               <gap reason="lost"/>
+               <lb corresp="#b2"/>
+               <gap reason="lost"/>
+               <gap reason="plain" quantity="1"/>
+               <w>cenne</w>
+               <w>kälpāsträ</w>
+               <gap reason="lost"/>
+               <lb corresp="#b3"/>
+               <gap reason="lost"/>
+               <w>-s<supplied>a</supplied></w>
+               <w>tv</w>
+               <w>atilīyati</w>
+               <w>bāl<supplied>iśaḥ</supplied></w>
+               <gap reason="lost"/>
+               <lb corresp="#b4"/>
+               <gap reason="lost"/>
+               <w><supplied>cakṣuṣmāṃ</supplied>s</w>
+               <w><supplied>t</supplied>āṃ</w>
+               <w>p<supplied>r</supplied>apaś<supplied>y</supplied>a<supplied>t</supplied>i</w>
+               <gap reason="lost"/>
+            </p>
+         </div>
+         <div type="translation">
+            <p>
+               <choice corresp="#a1">
+                  <seg><seg type="prim_transl">[TB] (they would not think) “I do it”</seg></seg>
+               </choice>
+               <choice corresp="#a2">
+                  <seg><seg type="prim_transl">[TB] this world (is furnished with pride) [SKT] always clinging to pride</seg></seg>
+               </choice>
+               <choice corresp="#a3">
+                  <seg><seg type="prim_transl">[TB] what has been obtained and what (is to be obtained)</seg></seg>
+               </choice>
+               <choice corresp="#a4">
+                  <seg><seg type="prim_transl">[TB] the wise who is concentrated (would overcome)</seg></seg>
+               </choice>
+               <choice corresp="#b1">
+                  <seg><seg type="prim_transl">[TB] (and who) rejoice in service</seg></seg>
+               </choice>
+               <choice corresp="#b2">
+                  <seg><seg type="prim_transl">[TB] (no fault) is found with them</seg></seg>
+               </choice>
+               <choice corresp="#b3">
+                  <seg><seg type="prim_transl">[TB] ... [SKT] fools become slow</seg></seg>
+               </choice>
+               <choice corresp="#b4">
+                  <seg><seg type="prim_transl">[SKT] who has eyes sees through them</seg></seg>
+               </choice>
+            </p>
+         </div>
+         <div type="comments">
+            <p>
+               <note type="parallels"><bibl><title corresp="ref:bernhard1965"/><citedRange>336-338</citedRange></bibl>; <bibl><title corresp="ref:hahn2007"/><citedRange>95-96</citedRange></bibl></note>
+               <note type="remarks">In view of the space above line a1 and under line b4, it would seem that these are indeed the first and the last line of the leaf and the upper margin of the recto (lower of the verso) is preserved. In any case, no line is missing between a4 and b1, so that the manuscript probably had 4 lines on each side. On <ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL%20Toch%20103" type="external">IDP</ref>, recto and verso are reversed.</note>
+               <note type="remarks">According to <bibl><title corresp="ref:broomhead1962"/><citedRange>352</citedRange></bibl> "[w]ritten in medium ductus, and very clearly preserved, it is the middle of a manuscript of which only four lines remain visible". Broomhead gives the size as 3.5" in width and 2" in depth/height and has recto/verso inverted.</note>
+               <note corresp="#a1" type="philcomment">Uv.27.8c <hi>ahaṃ karomīti na tasya hiṃsyāt</hi> (for <hi>hiṃsyāt</hi> one should read <hi>hi syāt</hi>).</note>
+               <note corresp="#a1" type="philcomment">The marginal rests are difficult to interpret. <hi>m·sk·</hi> is here tentatively completed as <hi>(ya)m(a)sk(au)</hi>, for <hi>karomi</hi> Uv. 27.8c.</note>
+               <note corresp="#a2" type="philcomment">Uv.27.9a-b <hi>mānopeto hy ayaṃ loko mānasaktaḥ sadā sthitaḥ</hi></note>
+               <note corresp="#a3" type="philcomment">Uv.27.10a <hi>yat prāptaṃ yac ca prāptavyaṃ</hi></note>
+               <note corresp="#a4" type="philcomment">Uv.27.10d <hi>jahyād vidvāṃ samāhitaḥ</hi></note>
+               <note corresp="#a4" type="philcomment"><hi>kakraupau pa –</hi>: we expect <hi>kakraupau 10</hi>.</note>
+               <note corresp="#b1" type="philcomment">Uv.27.11c <hi>upasthānarataye ca</hi> (for <hi>°rataye</hi> one should read <hi>°ratā ye</hi>)</note>
+               <note corresp="#b2" type="philcomment">Uv.27.12b <hi>na doṣas teṣu vidyate</hi></note>
+               <note corresp="#b3" type="philcomment">Uv.27.13b <hi>tv atilīyanti bāliśaḥ</hi>, here apparently <hi>atilīyati</hi> (no trace of an anusvāra over the <hi>ya</hi> can be discerned). The sg. <hi>atilīyati</hi> matches the otherwise irregular sg. <hi>bāliśaḥ</hi> (<bibl><title corresp="ref:swft1973"/></bibl> III: 254a).</note>
+               <note corresp="#b4" type="philcomment">Uv.27.13d <hi>cakṣuṣmāṃs tāṃ prapaśyati</hi></note>
+            </p>
+         </div>
+         <div type="bibliography">
+            <p>
+               <label>Online access</label>
+               <bibl><title corresp="ref:idp0000"/><ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL%20Toch%20103" type="external">IOL Toch 103</ref></bibl>. </p>
+            <p>
+               <label>Edition</label>
+               <bibl><title corresp="ref:peyrot2007"/><citedRange>№103</citedRange></bibl>
+               <bibl><title corresp="ref:broomhead1962"/><citedRange>352</citedRange></bibl>
+               <bibl><title corresp="ref:peyrot2008a"/><citedRange>109</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_collection_old">British Library (London)</item>
+               <item n="m_lines_old">4</item>
+               <item n="access_old">public</item>
+               <item n="file_location_old">pages/manuscript/IOL_Toch/ioltoch103.txt</item>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;A href="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL%20Toch%20103"&gt;IOL Toch 103&lt;/a&gt;.&lt;br&gt;
+Edition: [[Peyrot 2007]]: №103, [[Broomhead I]]: 352, [[Peyrot 2008a]]: 109.</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=12175;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=12175;rotate=0;imageType=_M||IOL Toch 103 verso
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=12176;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=12176;rotate=0;imageType=_M||IOL Toch 103 recto</item>
+               <item n="date_publication_old"/>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_transliteration_old">a1 /// m· sk· _t_a m· ·t· (–) – ///
+a2 /// ·[ai]ṣṣe • mānasaktaḥ sa- ///
+a3 /// • k_use yainmor k_use – ///
+a4 /// -mye kakraupau pa – ///
+b1 /// • spaktānne w[i]- ///
+b2 /// – cenne _k_alpāsträ ///
+b3 /// -[s]· tv atilīyati bā[l]· ///
+b4 /// [s] ·āṃ [p·apa]ś[·]a·[i] ///</item>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;a1.&lt;/b&gt; Uv.27.8c &lt;i&gt;ahaṃ karomīti na tasya hiṃsyāt&lt;/i&gt; (for &lt;i&gt;hiṃsyāt&lt;/i&gt; one should read &lt;i&gt;hi syāt&lt;/i&gt;).&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a1.&lt;/b&gt; The marginal rests are difficult to interpret. &lt;i&gt;m·sk·&lt;/i&gt; is here tentatively completed as &lt;i&gt;(ya)m(a)sk(au)&lt;/i&gt;, for &lt;i&gt;karomi&lt;/i&gt; Uv. 27.8c.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a2.&lt;/b&gt; Uv.27.9a-b &lt;i&gt;mānopeto hy ayaṃ loko mānasaktaḥ sadā sthitaḥ&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a3.&lt;/b&gt; Uv.27.10a &lt;i&gt;yat prāptaṃ yac ca prāptavyaṃ&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a4.&lt;/b&gt; Uv.27.10d &lt;i&gt;jahyād vidvāṃ samāhitaḥ&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a4.&lt;/b&gt; &lt;i&gt;kakraupau pa –&lt;/i&gt;: we expect &lt;i&gt;kakraupau 10&lt;/i&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b1.&lt;/b&gt; Uv.27.11c &lt;i&gt;upasthānarataye ca&lt;/i&gt; (for &lt;i&gt;°rataye&lt;/i&gt; one should read &lt;i&gt;°ratā ye&lt;/i&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b2.&lt;/b&gt; Uv.27.12b &lt;i&gt;na doṣas teṣu vidyate&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b3.&lt;/b&gt; Uv.27.13b &lt;i&gt;tv atilīyanti bāliśaḥ&lt;/i&gt;, here apparently &lt;i&gt;atilīyati&lt;/i&gt; (no trace of an anusvāra over the &lt;i&gt;ya&lt;/i&gt; can be discerned). The sg. &lt;i&gt;atilīyati&lt;/i&gt; matches the otherwise irregular sg. &lt;i&gt;bāliśaḥ&lt;/i&gt; ([[SWTF]] III: 254a).&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b4.&lt;/b&gt; Uv.27.13d &lt;i&gt;cakṣuṣmāṃs tāṃ prapaśyati&lt;/i&gt;&lt;/p&gt;</item>
+               <item n="m_passage_old">27.8c-27.13d</item>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old">6,8</item>
+               <item n="file_created_old">1322765174</item>
+               <item n="file_modified_old">1476700130</item>
+               <item n="m_parallels_old">[[Bernhard 1965]]: 336-338; [[Hahn 2007]]: 95-96</item>
+               <item n="m_script_old">Classical</item>
+               <item n="project_comment_old">&lt;p&gt;&lt;ul&gt;
+&lt;li&gt;Image links and standard properties have been added automatically on Tue, 2012-07-31, 03:59:07.&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;[[Broomhead I]]: 352 reads thus (recto/verso as in Broomhead): &lt;/p&gt;
+&lt;p&gt;a3 /// .tvati līyatiṣāji /// &lt;/p&gt;
+&lt;p&gt;b1 /// [ma]sk(e)[&lt;u&gt;ta&lt;/u&gt;](r)=m. – – /// &lt;/p&gt;
+&lt;p&gt;b2 /// .eṣṣe : mānasaktaḥ sa /// &lt;/p&gt;
+&lt;p&gt;b4 /// r.y. kakraupau pa- /// &lt;/p&gt;</item>
+               <item n="ms_old">IOL Toch 103</item>
+               <item n="m_language_old">Sanskrit+TB</item>
+               <item n="m_remarks_old">&lt;p&gt;In view of the space above line a1 and under line b4, it would seem that these are indeed the first and the last line of the leaf and the upper margin of the recto (lower of the verso) is preserved. In any case, no line is missing between a4 and b1, so that the manuscript probably had 4 lines on each side. On &lt;a href="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL%20Toch%20103"&gt;IDP&lt;/a&gt;, recto and verso are reversed.&lt;/p&gt;
+&lt;p&gt;According to [[Broomhead I]]: 352 "[w]ritten in medium ductus, and very clearly preserved, it is the middle of a manuscript of which only four lines remain visible". Broomhead gives the size as 3.5" in width and 2" in depth/height and has recto/verso inverted.&lt;/p&gt;</item>
+               <item n="m_other_sigla_old">H 149.319; A.319</item>
+               <item n="m_expedition_old"/>
+               <item n="m_size_w_old">4,8</item>
+               <item n="m_meter_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old">a1 /// (ya)m(a)sk(au) tä m· ·t· – – ///
+a2 /// (ś)aiṣṣe • mānasaktaḥ sa(dā) ///
+a3 /// • k_use yainmor k_use – ///
+a4 /// (aiśau)mye kakraupau pa – ///
+b1 /// • spaktānne wi(na) ///
+b2 /// – cenne kälpāsträ ///
+b3 /// -s(a) tv atilīyati bāl(iśaḥ) ///
+b4 /// (cakṣuṣmāṃ)s (t)āṃ p(r)apaś(y)a(t)i ///</item>
+               <item n="m_title_old">Udānavarga</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_parallelcomment_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old"/>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old">theres</item>
+               <item n="m_prev_old"/>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_translation_old">a1 [TB] (they would not think) “I do it”
+a2 [TB] this world (is furnished with pride) [SKT] always clinging to pride
+a3 [TB] what has been obtained and what (is to be obtained)
+a4 [TB] the wise who is concentrated (would overcome)
+b1 [TB] (and who) rejoice in service
+b2 [TB] (no fault) is found with them
+b3 [TB] ... [SKT] fools become slow
+b4 [SKT] who has eyes sees through them</item>
+               <item n="m_subgenre_old">Doctrine</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;&lt;ul&gt;&lt;li&gt;Image links and standard properties have been added automatically on Tue, 2012-07-31, 03:59:07.&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;&lt;p&gt;&lt;bibl&gt;&lt;title corresp="ref:broomhead1962"/&gt;&lt;citedRange&gt;352&lt;/citedRange&gt;&lt;/bibl&gt; reads thus (recto/verso as in Broomhead): &lt;/p&gt;&lt;p&gt;a3 /// .tvati līyatiṣāji /// &lt;/p&gt;&lt;p&gt;b1 /// [ma]sk(e)[&lt;hi rend="underline"&gt;ta&lt;/hi&gt;](r)=m. – – /// &lt;/p&gt;&lt;p&gt;b2 /// .eṣṣe : mānasaktaḥ sa /// &lt;/p&gt;&lt;p&gt;b4 /// r.y. kakraupau pa- /// &lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

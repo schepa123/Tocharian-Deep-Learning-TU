@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-gsu1">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>G-Su 1</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>G-Su 1</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>wall</material>
+                           <objectType>Graffito</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Subeši</region><placeName>Grotte aux inscriptions</placeName></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-peyrot-C frg:ls-C14"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <line n="1" xml:id="a1"><zone>sa</zone><zone>lpeṃ</zone><zone>pi¯</zone><zone>¯Ś</zone><zone>cme</zone><zone>la</zone><zone>a</zone><zone>ñi</zone><zone>tyā</zone><zone>tṣe</zone><zone>pu</zone><zone>wa</zone><zone><unclear>r</unclear>sa</zone><zone>•</zone><zone>ko¯</zone><zone>¯y<unclear>N</unclear>ä</zone><zone>ka</zone><zone>kā</zone><zone>ya</zone><zone>ṣp<unclear>o</unclear></zone><zone><unclear>k</unclear>a</zone><zone>ṣā</zone><zone>nta</zone><zone><unclear>ṣṣ</unclear>i</zone><zone>kā</zone><zone>ri</zone><zone>po</zone><zone>•</zone><zone>tā</zone><zone>ṣṭä¯</zone><zone>¯R</zone><zone>pe</zone><zone>lai</zone><zone>kne</zone><zone>śau</zone><zone>la</zone><zone>nma</zone><zone>sa</zone><zone>KA</zone><zone>ryau</zone><zone>se</zone><zone>•</zone><zone><unclear>tn</unclear>e</zone><zone>ka</zone><zone>pre</zone><zone>ksau</zone><zone>me</zone><zone>kā</zone><zone>snai</zone><zone>meṃ</zone><zone><add>ts<unclear>i</unclear></add></zone><zone>KLA<unclear>ṃ</unclear></zone><zone>tsa</zone><zone>ñce¯</zone><zone>¯R</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/></p>
+            <lg type="poem" met="frg:M12" subtype="hom">
+               <lg n="1" type="strophe">
+                  <l n="a"><w>salpeṃ</w><w>piś</w><w>cmela</w><caesura ana="frg:cs-s"/><w>añityātṣe</w><caesura ana="frg:cs-w"/><w>puwarsa</w><pc>•</pc></l>
+                  <l n="b"><w>koyn</w><w>kakāyaṣ</w><w>po</w><caesura ana="frg:cs-s"/><w>kaṣāntaṣṣi</w><caesura ana="frg:cs-w"/><w>kāri</w><w>po</w><pc>•</pc></l>
+                  <l n="c"><w>tāṣṭär</w><w>pelaikne</w><caesura ana="frg:cs-s"/><w>śaulanmasa</w><caesura ana="frg:cs-w"/><w>käryau</w><w>se</w><pc>•</pc></l>
+                  <l n="d"><w>tneka</w><w>preksaume</w><caesura ana="frg:cs-s"/><w>kā</w><w>snai</w><w>meṃtsi</w><caesura ana="frg:cs-w"/><w>kläṃtsañcer</w></l>
+               </lg>
+            </lg>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">Those of the five-births burn in the fire of inconstancy, all having opened their mouths, all are pits of <hi>kapānta</hi>, he establishes the law and bought [it] with lives, here indeed I ask you, "how do you sleep without a care?"</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="philcomment">metre 4x12, rythm 5/7</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition and translation</label><bibl><title corresp="ref:pinault1987"/><citedRange>134-137</citedRange></bibl> pl. LIII-LVI-1. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="user_created_old">martin</item>
+               <item n="user_modified_old">bernhard</item>
+               <item n="category_old">manuscript</item>
+               <item n="file_savedate_old">2018-12-27, 10:00:51 (CET)</item>
+               <item n="m_translation_old">1 Those of the five-births burn in the fire of inconstancy, all having opened their mouths, all are pits of &lt;i&gt;kapānta&lt;/i&gt;, he establishes the law and bought [it] with lives, here indeed I ask you, "how do you sleep without a care?"</item>
+               <item n="file_name_old">pages/manuscript/G/gsu1.txt</item>
+               <item n="m_metric_form_old">Verse</item>
+               <item n="m_language_old">TB</item>
+               <item n="project_comment_old">&lt;p&gt;Alternative classifications:
+&lt;table class="table_lines"&gt;
+  &lt;tr&gt;&lt;td title="MP"&gt;Peyrot&lt;/td&gt;&lt;td title="C"&gt;colloquial&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="MM"&gt;Malzahn&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TT"&gt;Tamai&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TTC14"&gt;Tamai-C14&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+&lt;p&gt;English translation taken from [[Adams 2013]]: 12–13; see there (12–16) also for a metrical analysis, alliteration etc. –Martin (Sun, 2014-08-10, 21:23:01)&lt;/p&gt;
+&lt;p&gt;Reading &lt;i&gt;kaṣāntaṣṣi&lt;/i&gt; (Pinault) vs. &lt;i&gt;kapāntaṣṣi&lt;/i&gt; (Adams). –Martin (Sun, 2014-08-10, 21:23:01)&lt;/p&gt;</item>
+               <item n="ms_old">G-Su 1</item>
+               <item n="edited_date_old">2018-07-30, 15:45:26 (CEST)</item>
+               <item n="editgroup_old">Editor</item>
+               <item n="group_old">Editor</item>
+               <item n="m_meter_old">5/4-3</item>
+               <item n="m_transcription_old">1 # salpeṃ piś cmela ; añityātṣe , pūwarsa|puwarsa • #1a koyn kakāyaṣ po ; kaṣāntaṣṣi , kāri po • #1b tāṣṭär pelaikne ; śaulanmasa , käryau se • #1c tneka preksaume ; kā snai mentsi|meṃtsi , kläṃtsañcer #1d</item>
+               <item n="m_transliteration_old">1 salpeṃ pi_ś\ cmela añityātṣe puwa[r]sa • koy[_n]ä\ kakāyaṣ p[o] [k]aṣānta[ṣṣ]i kāri po • tāṣṭä_r\ pelaikne śaulanmasa _k_aryau se • [tn]eka preksaume kā snai meṃ«ts[i]» _k_l_a[ṃ]tsañce_r\</item>
+               <item n="m_bib_old">Edition and translation: [[Pinault 1987]]: 134-137, pl. LIII-LVI-1.&lt;br&gt;
+Translation: [[Adams 2013]]: 12-13.</item>
+               <item n="file_size_old">1 KB</item>
+               <item n="file_created_old">1401484449</item>
+               <item n="file_modified_old">1582650011</item>
+               <item n="m_material_old">Ink on wall</item>
+               <item n="page_name_old">G-Su 1</item>
+               <item n="m_philcomment_old">&lt;p&gt;metre 4x12, rythm 5/7&lt;/p&gt;</item>
+               <item n="version_old">7</item>
+               <item n="file_location_old">pages/manuscript/G/gsu1.txt</item>
+               <item n="m_lines_old">1</item>
+               <item n="access_old">restricted</item>
+               <item n="created_date_old">2014-05-30, 23:14:09 (CEST)</item>
+               <item n="m_form_old">Graffito</item>
+               <item n="m_findspot_specific_old">Grotte aux inscriptions</item>
+               <item n="m_findspot_old">Subeši</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;Alternative classifications:
+
+&lt;/p&gt;&lt;p&gt;English translation taken from &lt;bibl&gt;&lt;title corresp="ref:adams2013"/&gt;&lt;citedRange&gt;12&lt;/citedRange&gt;&lt;/bibl&gt;–13; see there (12–16) also for a metrical analysis, alliteration etc. –Martin (Sun, 2014-08-10, 21:23:01)&lt;/p&gt;&lt;p&gt;Reading &lt;hi&gt;kaṣāntaṣṣi&lt;/hi&gt; (Pinault) vs. &lt;hi&gt;kapāntaṣṣi&lt;/hi&gt; (Adams). –Martin (Sun, 2014-08-10, 21:23:01)&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

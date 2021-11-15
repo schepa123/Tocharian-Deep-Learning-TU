@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-ioltoch268">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>IOL Toch 268</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library (London)</repository>
+                  <idno>IOL Toch 268</idno>
+                  <altIdentifier>
+                     <idno>H 150.109</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>D.109</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical frg:ls-peyrot-A2 frg:ls-C14"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Jātaka/Avadāna</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=14527;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=14527;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL268a.jpg" height="1024px" width="673px"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><gap reason="plain" quantity="3"/><zone><unclear>r</unclear>ma</zone><zone>twe</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>yme</zone><zone>sa</zone><zone>tsre</zone><zone><unclear>lle</unclear></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone>ta</zone><zone>sa</zone><zone>nmā</zone><zone><unclear>t</unclear>e</zone><zone>ma</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>pre</zone><zone>wtKA</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><gap reason="lost"/><gap reason="plain" quantity="2"/><zone><unclear>ṣaṃ</unclear></zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=14529;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=14529;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL268b.jpg" height="1024px" width="678px"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone><unclear>ŚA</unclear></zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><gap reason="plain" quantity="2"/><zone>mc<gap reason="plain" unit="part"/></zone><zone>ṣke</zone><zone>•</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><zone>॥</zone><zone>mc<unclear>u</unclear></zone><zone>ṣke</zone><zone>pkā</zone><zone>te</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>w<gap reason="plain" unit="part"/>o</zone><zone>ñä</zone><zone>ne</zone><zone>wñā</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>e</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><gap reason="plain" quantity="3"/><w>rma</w><w>twe</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>ymesa</w><w>tsrelle</w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><w>ta</w><w>sa</w><w>nmā</w><w>te</w><w>ma</w><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>prewtkä</w><gap reason="lost"/>
+<lb corresp="#a5"/><gap reason="lost"/><gap reason="plain" quantity="2"/><w>ṣaṃ</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>śä</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><gap reason="plain" quantity="2"/><w>mc<supplied>u</supplied>ṣke</w><pc>•</pc><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><pc>॥</pc><w>mcuṣke</w><w>pkāte</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b4"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>w<gap reason="plain" unit="part"/>o</w><w>ñä</w><w>ne</w><w>wñā</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b5"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>e</w><gap reason="plain" quantity="1"/><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">... you ...</seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">... to be separated by ...</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">...</seg></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl">... prison ...</seg></seg></choice><choice corresp="#a5"><seg><seg type="prim_transl">...</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">...</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">... prince ...</seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl">... || The prince intended ...</seg></seg></choice><choice corresp="#b4"><seg><seg type="prim_transl">... said ...</seg></seg></choice><choice corresp="#b5"><seg><seg type="prim_transl">...</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">According to <bibl><title corresp="ref:broomhead1962"/><citedRange>337</citedRange></bibl> "[w]ritten in medium ductus and badly abraded, it is the middle of a manuscript originally having at least five lines."</note><note corresp="#b3" type="philcomment">The double daṇḍa <hi>||</hi> is ornamental, i.e. this is probably the end of a chapter.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition</label><bibl><title corresp="ref:peyrot2007"/><citedRange>№268</citedRange></bibl><bibl><title corresp="ref:broomhead1962"/><citedRange>337</citedRange></bibl>.</p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 268" type="external">IOL Toch 268</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="file_savedate_old">2019-01-12, 18:26:19 (CET)</item>
+               <item n="m_subgenre_old">Jātaka/Avadāna</item>
+               <item n="file_name_old">pages/manuscript/IOL_Toch/ioltoch268.txt</item>
+               <item n="m_translation_old">a1 ... you ...
+a2 ... to be separated by ...
+a3 ...
+a4 ... prison ...
+a5 ...
+b1 ...
+b2 ... prince ...
+b3 ... || The prince intended ...
+b4 ... said ...
+b5 ...</item>
+               <item n="category_old">manuscript</item>
+               <item n="user_modified_old">bernhard</item>
+               <item n="user_created_old">automatic</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="group_old">Editor</item>
+               <item n="m_transcription_old">a1 /// – – – rma twe – ///
+a2 /// – ymesa tsrelle ///
+a3 /// ta sa nmā te ma ///
+a4 /// – prewtkä ///
+a5 /// – – ṣaṃ – ///
+b1 /// – śä – ///
+b2 /// – – mñcuṣke|mc(u)ṣke • ///
+b3 /// || mñcuṣke|mcuṣke pkāte – ///
+b4 /// – w·o ñä ne wñā – ///
+b5 /// ·e – ///</item>
+               <item n="editgroup_old">Editor</item>
+               <item n="project_comment_old">&lt;p&gt;Alternative classifications:
+&lt;table class="table_lines"&gt;
+  &lt;tr&gt;&lt;td title="MP"&gt;Peyrot&lt;/td&gt;&lt;td title="A2"&gt;archaic II&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="MM"&gt;Malzahn&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TT"&gt;Tamai&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TTC14"&gt;Tamai-C14&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;</item>
+               <item n="ms_old">IOL Toch 268</item>
+               <item n="m_script_old">Classical</item>
+               <item n="edited_date_old">2018-07-30, 15:45:26 (CEST)</item>
+               <item n="m_other_sigla_old">H 150.109; D.109</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old">&lt;p&gt;According to [[Broomhead I]]: 337 "[w]ritten in medium ductus and badly abraded, it is the middle of a manuscript originally having at least five lines."&lt;/p&gt;</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="version_old">3</item>
+               <item n="page_name_old">IOL Toch 268</item>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;b3.&lt;/b&gt; The double daṇḍa &lt;i&gt;||&lt;/i&gt; is ornamental, i.e. this is probably the end of a chapter.&lt;/p&gt;</item>
+               <item n="file_modified_old">1547313979</item>
+               <item n="file_created_old">1322765175</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 268"&gt;IOL Toch 268&lt;/a&gt;.&lt;br&gt;
+Edition: [[Peyrot 2007]]: №268, [[Broomhead I]]: 337.</item>
+               <item n="file_size_old">2 KB</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_transliteration_old">a1 /// – – – [r]ma twe – ///
+a2 /// – ymesa tsre[lle] ///
+a3 /// ta sa nmā [t]e ma ///
+a4 /// – prewt_k_a ///
+a5 /// – – [ṣaṃ] – ///
+b1 /// – [_ś_a] – ///
+b2 /// – – mc·ṣke • ///
+b3 /// || mc[u]ṣke pkāte – ///
+b4 /// – w[·]o ñä ne wñā – ///
+b5 /// ·e – ///</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=14527;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=14527;rotate=0;imageType=_M||IOL Toch 268 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=14529;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=14529;rotate=0;imageType=_M||IOL Toch 268 verso</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="created_date_old">2011-12-01, 19:46:15 (CET)</item>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="access_old">restricted</item>
+               <item n="m_lines_old">5</item>
+               <item n="m_collection_old">British Library (London)</item>
+               <item n="file_location_old">pages/manuscript/IOL_Toch/ioltoch268.txt</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;Alternative classifications:
+
+&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

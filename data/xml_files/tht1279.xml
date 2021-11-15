@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht1279">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 1279</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 1279</idno>
+                  <altIdentifier>
+                     <idno>Prelim. No. 98</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">6</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329947;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329947;rotate=0;imageType=_M"/>
+            <line xml:id="lf"><zone>12</zone></line>
+            <line n="1" xml:id="a1"><zone><unclear>sa</unclear></zone><zone>w<unclear>e</unclear></zone><zone>ñña</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><zone>rṢA</zone><zone>LA</zone><zone>kle</zone><zone>yne</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><zone>ñe</zone><zone>nto</zone><zone>sne</zone><zone>e</zone><zone>ṅKña</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><zone>le</zone><zone>ksa</zone><zone>3</zone><zone>pa</zone><zone>pā</zone><zone>ṣo</zone><zone>rñe</zone><zone>sa</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><zone>LA</zone><zone>tse</zone><zone>cye</zone><zone>wa</zone><zone>lā</zone><zone>ntsa</zone><zone><gap reason="plain" unit="part"/>e</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329971;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329971;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="b1"><zone>ṢṢAṃ</zone><zone>:</zone><zone>kuse</zone><zone>ṢA¯</zone><zone>¯ñ∘</zone><gap reason="plain" quantity="1"/><gap reason="par" quantity="1"/><zone><gap reason="plain" unit="part"/>c<gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><zone>ññe</zone><zone>ksa</zone><zone>kuce</zone><zone>mā</zone><zone>yā</zone><zone>mī</zone><zone>5</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><zone>lle</zone><zone>tse</zone><zone>ra</zone><zone>MA</zone><zone>ske</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><zone>i</zone><zone>spe</zone><zone>ne</zone><zone>si</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><zone>ṣṣā</zone><zone>ṅkne</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="6" xml:id="b6"><gap reason="par" quantity="1"/><zone><gap reason="plain" unit="part"/>ā</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <fw type="leafNum" corresp="#lf">12</fw>
+            <p>
+<lb corresp="#a1"/><w>sa</w><w>weñña</w><gap reason="lost"/>
+<lb corresp="#a2"/><w>rṣä</w><w>läkleyne</w><gap reason="lost"/>
+<lb corresp="#a3"/><w>ñento</w><w>sne</w><w>eṅkña</w><gap reason="lost"/>
+<lb corresp="#a4"/><w>le</w><w>ksa</w><num value="3">3</num><w>papāṣorñesa</w><gap reason="lost"/>
+<lb corresp="#a5"/><w>lä</w><w>tse</w><w>cye</w><w>wa</w><w>lāntsa</w><w><gap reason="plain" unit="part"/>e</w><gap reason="lost"/>
+<lb corresp="#b1"/><w>ṣṣäṃ</w><pc>:</pc><w>kUse</w><w>ṣäñ</w><gap reason="plain" quantity="2"/><w><gap reason="plain" unit="part"/>c<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#b2"/><w>ññe</w><w>ksa</w><w>kUce</w><w>mā</w><w>yāmī</w><num value="5">5</num><gap reason="lost"/>
+<lb corresp="#b3"/><w>lle</w><w>tse</w><w>ra</w><w>mäske</w><gap reason="lost"/>
+<lb corresp="#b4"/><w>ispene</w><w>si</w><gap reason="lost"/>
+<lb corresp="#b5"/><w>ṣṣāṅkne</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b6"/><gap reason="plain" quantity="1"/><w><gap reason="plain" unit="part"/>ā</w><gap reason="lost"/></p>
+         </div>
+         <div type="bibliography">
+            <p><label>other</label> Edition: <bibl><title corresp="ref:tamai2007a"/><citedRange>№1279</citedRange></bibl></p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=THT 1279" type="external">THT 1279</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/12/1279.htm" type="external">THT 1279</ref></bibl></p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_leaf_old">12</item>
+               <item n="m_transcription_old">a1 sa weñña ///
+a2 rṣä läkleyne ///
+a3 ñento sne eṅkña ///
+a4 le ksa 3 papāṣorñesa ///
+a5 lä tse cye wa lāntsa ·e ///
+b1 ṣṣäṃ : k_use ṣäñ – – ·c· ///
+b2 ññe ksa k_uce mā yāmī 5 ///
+b3 lle tse ra mäske ///
+b4 ispene si ///
+b5 ṣṣāṅkne – ///
+b6 – ·ā ///</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_other_sigla_old">Prelim. No. 98</item>
+               <item n="m_script_old">Classical</item>
+               <item n="project_comment_old"/>
+               <item n="ms_old">THT 1279</item>
+               <item n="file_created_old">1340136545</item>
+               <item n="file_modified_old">1534353299</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329947;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329947;rotate=0;imageType=_M||THT 1279 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329971;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329971;rotate=0;imageType=_M||THT 1279 verso</item>
+               <item n="m_transliteration_old">a1 [sa] w[e]ñña ///
+a2 r_ṣ_a _l_akleyne ///
+a3 ñento sne eṅ_kña ///
+a4 le ksa 3 papāṣorñesa ///
+a5 _l_a tse cye wa lāntsa ·e ///
+b1 _ṣ_ṣ_aṃ : k_use _ṣ_añ\• – (–) ·c· ///
+b2 ññe ksa k_uce mā yāmī 5 ///
+b3 lle tse ra _m_aske ///
+b4 ispene si ///
+b5 ṣṣāṅkne – ///
+b6 (–) ·ā ///</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bl.uk/database/oo_loader.a4d?pm=THT 1279" target="idp"&gt;THT 1279&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/12/1279.htm" target="titus"&gt;THT 1279&lt;/a&gt;
+&lt;br&gt;Edition: [[Tamai 2007a]]: №1279</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="file_location_old">pages/manuscript/THT_1100_2399/tht1279.txt</item>
+               <item n="m_lines_old">6</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="access_old">restricted</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

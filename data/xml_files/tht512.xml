@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht512">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 512</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 512</idno>
+                  <altIdentifier>
+                     <idno>B 512</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Bleistiftnummer 2033</idno>
+                  </altIdentifier>
+                  <msName>THT 511-513</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Dream oracle</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Siŋgim</region>during <rs type="expedition_code">T II S 72.1</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-late frg:ls-peyrot-L frg:ls-C14 frg:ls-tamai-C3 frg:ls-C14"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Medicine/Magic</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328157;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328157;rotate=0;imageType=_M"/>
+            <graphic url="B/B512a.jpg" height="623px" width="1336px"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone>lñe</zone><zone>meṃ</zone><zone>ñce</zone><zone>wte</zone><zone>ntse</zone><zone>sa</zone><zone>śi</zone><zone>nma</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone>l<gap reason="plain" unit="part"/>ā</zone><zone>lñe</zone><zone>te</zone><zone>te</zone><zone>ko</zone><zone>ṣra</zone><zone>KA</zone><zone>lpā</zone><zone>ṢṢAṃ</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone>yā</zone><zone>ta</zone><zone>lñe</zone><zone>2</zone><zone>॥</zone><zone>॥</zone><zone>na</zone><zone>ku</zone><zone><unclear>le</unclear></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><zone>lñe</zone><zone>yu</zone><zone>ka</zone><zone>lñe</zone><zone>ra</zone><zone>kwri</zone><zone>plā</zone><zone>s<unclear>k</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328110;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328110;rotate=0;imageType=_M"/>
+            <graphic url="B/B512b.jpg" height="611px" width="1340px"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone>ki</zone><zone>me</zone><zone>ntsi</zone><zone>kra</zone><zone>so</zone><zone>nta</zone><zone>pro</zone><zone>skai</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone>wä</zone><zone>wa¯</zone><zone>¯T</zone><zone>wai</zone><zone>pe</zone><zone>cce</zone><zone>kwri</zone><zone>ta¯</zone><zone>¯ñ</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><zone>॥</zone><zone>na</zone><zone>ku</zone><zone>le</zone><zone>wai</zone><zone>sa</zone><zone>rppe</zone><zone><unclear>w</unclear><gap reason="plain" unit="part"/>e</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><zone>krā</zone><zone>so</zone><zone>wRA</zone><zone>ntsai</zone><zone>meṃ</zone><zone>śa</zone><zone>lla</zone><zone>we</zone><zone><unclear>t</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><w>lñemeṃñce</w><w>wtentsesa</w><w>śinma<supplied>lñe</supplied></w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><w>l<supplied>l</supplied>ālñe</w><w>tetekoṣ</w><w>ra</w><w>kälpāṣṣäṃ</w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><w>yātalñe</w><num value="2">2</num><pc>॥</pc><pc>॥</pc><w>nakule</w><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="lost"/><w>lñe</w><w>yukalñe</w><w>ra</w><w>kwri</w><w>plāsk<supplied>aṃ</supplied></w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><w><supplied>te</supplied>ki</w><w>mentsi</w><w>krasonta</w><w>proskai</w><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><w><supplied>śwerpe</supplied>wä</w><w>wat</w><w>waipecce</w><w>kwri</w><w>tañ</w><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><pc>॥</pc><w>nakule</w><w>wai</w><w>sarppe</w><w>w<gap reason="plain" unit="part"/>e</w><gap reason="lost"/>
+<lb corresp="#b4"/><gap reason="lost"/><w>krāso</w><w>wräntsaimeṃ</w><w>śalla</w><w>wet<supplied>a</supplied></w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a2"><seg><bibl><title corresp="ref:peyrot2013a"/><citedRange>217</citedRange></bibl></seg><seg><seg type="prim_transl">... he obtains the sight even when it is touched ...</seg></seg></choice><choice corresp="#b3"><seg><bibl><title corresp="ref:thomas1966"/><citedRange>265</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1967c"/><citedRange>180</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1976a"/><citedRange>74</citedRange></bibl></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">In one frame with <ref type="ms" target="txt:m-tht513"/>.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 512" type="external">THT 512</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/05/0512.htm" type="external">THT 512</ref></bibl>. </p>
+            <p><label>Edition</label><bibl><title corresp="ref:siegandsiegling1953"/><citedRange>317</citedRange></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old">bernhard</item>
+               <item n="category_old">manuscript</item>
+               <item n="m_translation_old">a2 ... he obtains the sight even when it is touched ...</item>
+               <item n="file_name_old">pages/manuscript/THT_0001_0633/tht512.txt</item>
+               <item n="m_subgenre_old">Medicine/Magic</item>
+               <item n="file_savedate_old">2018-07-30, 15:36:56 (CEST)</item>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_remarks_old">In one frame with [[THT 513]].</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_other_sigla_old">B 512, Bleistiftnummer 2033</item>
+               <item n="m_expedition_old">T II S 72.1</item>
+               <item n="edited_date_old">2018-07-30, 15:45:26 (CEST)</item>
+               <item n="m_script_old">Classical</item>
+               <item n="project_comment_old">&lt;p&gt;Alternative classifications:
+&lt;table class="table_lines"&gt;
+  &lt;tr&gt;&lt;td title="MP"&gt;Peyrot&lt;/td&gt;&lt;td title="L"&gt;late&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="MM"&gt;Malzahn&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TT"&gt;Tamai&lt;/td&gt;&lt;td title="C3"&gt;II-2 (700-800)&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TTC14"&gt;Tamai-C14&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;</item>
+               <item n="ms_old">THT 512</item>
+               <item n="editgroup_old">Editor</item>
+               <item n="m_title_old">Dream oracle</item>
+               <item n="m_transcription_old">a1 /// lñemeṃñce wtentsesa śinma(lñe) ///
+a2 /// l(l)ālñe tetekoṣ ra kälpāṣṣäṃ ///
+a3 /// yātalyñe|yātalñe 2 || || nakule ///
+a4 /// lñe yukalñe ra kwri plāsk(aṃ) ///
+b1 /// (te)ki mentsi krasonta proskai ///
+b2 /// (śwerpe)wä wat waipecce kwri tañ ///
+b3 /// || nakule wai sarppe w·e ///
+b4 /// krāso wräntsaimeṃ śalla wet(a) ///</item>
+               <item n="group_old">Public</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_image_old">http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328157;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328157;rotate=0;imageType=_M||THT 512 and 513 recto
+http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328110;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328110;rotate=0;imageType=_M||THT 512 and 513 verso</item>
+               <item n="m_transliteration_old">a1 /// lñemeṃñce wtentsesa śinma ///
+a2 /// l·ālñe tetekoṣ ra _k_alpā_ṣ_ṣ_aṃ ///
+a3 /// yātalñe 2 || || naku[le] ///
+a4 /// lñe yukalñe ra kwri plās[k]· ///
+b1 /// ki mentsi krasonta proskai ///
+b2 /// wä wa_t\ waipecce kwri tañ\ ///
+b3 /// || nakule wai sarppe [w]·e ///
+b4 /// krāso w_r_antsaimeṃ śalla we[t](a) ///</item>
+               <item n="m_language_stage_old">Late</item>
+               <item n="file_size_old">2 KB</item>
+               <item n="m_manuscript_old">THT 511-513</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 512" target="idp"&gt;THT 512&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/05/0512.htm" target="titus"&gt;THT 512&lt;/a&gt;.&lt;br&gt;
+Edition: [[TochSprR(B) II]]: 317.&lt;br&gt;
+Translation:
+&lt;b&gt;a2&lt;/b&gt; [[Peyrot 2013a]]: 217;
+&lt;b&gt;b3&lt;/b&gt; [[Thomas 1967]]: 265, [[Thomas 1967c]]: 180, [[Thomas 1976a]]: 74.</item>
+               <item n="file_created_old">1332006617</item>
+               <item n="file_modified_old">1547318662</item>
+               <item n="page_name_old">THT 512</item>
+               <item n="version_old">5</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="file_location_old">pages/manuscript/THT_0001_0633/tht512.txt</item>
+               <item n="m_lines_old">4</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="access_old">public</item>
+               <item n="m_findspot_old">Siŋgim</item>
+               <item n="created_date_old">2012-03-17, 18:50:17 (CET)</item>
+               <item n="m_form_old">Poṭhī</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;Alternative classifications:
+
+&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

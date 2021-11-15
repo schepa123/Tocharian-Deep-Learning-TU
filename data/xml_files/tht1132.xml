@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht1132">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 1132</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 1132</idno>
+                  <altIdentifier>
+                     <idno>Prelim. No. 170</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Pencil No. 2074</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Garbhasūtra</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>12,7</height>
+                              <width>7,9</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <dimensions type="line_spacing">
+                              <height>2,0</height>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Šorčuq</region>during <rs type="expedition_code">T III Š 91.25</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="xto"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329744;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329744;rotate=0;imageType=_M"/>
+            <line xml:id="lf"><zone>465</zone></line>
+            <line n="1" xml:id="a1"><zone>ta</zone><zone>ryā</zone><zone>kko</zone><zone>KA</zone><zone>tp<unclear>i</unclear></zone><zone><unclear>ñc</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><zone>kro</zone><zone>ne</zone><zone>yaṃ</zone><zone><gap reason="plain" unit="part"/>ä</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><zone>pu¯</zone><zone>¯K</zone><zone><unclear>l</unclear><gap reason="par" unit="part"/><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><zone>lrī</zone><zone>two¯</zone><zone>¯<unclear>Ṣ</unclear></zone><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><zone>rpa</zone><zone>ṣi</zone><gap reason="lost"/></line>
+            <line n="6" xml:id="a6"><zone>ce</zone><zone>SA¯</zone><zone>¯<unclear>M</unclear></zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329721;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329721;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="b1"><zone>lrī</zone><zone>two¯</zone><gap reason="par" quantity="1"/><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><zone>i</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><zone>we</zone><zone>pi</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><zone>KA</zone><zone>tku¯</zone><zone>¯S</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><zone>ṢA</zone><zone>PA</zone><zone>r<unclear>s</unclear><gap reason="plain" unit="part"/></zone><zone><gap reason="plain" unit="part"/>n<gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="6" xml:id="b6"><zone>lypu</zone><zone>rṣi</zone><zone>wa<gap reason="plain" unit="part"/>¯</zone><zone>¯T</zone><zone>c<unclear>a</unclear></zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <fw type="leafNum" corresp="#lf">465</fw>
+            <p>
+<lb corresp="#a1"/><w>taryākk</w><w>okät</w><w>piñc<supplied>inäs</supplied></w><w><supplied>ṣpät</supplied></w><w><supplied>koṃsaṃ</supplied></w><gap reason="lost"/>
+<w><supplied>prā</supplied><lb corresp="#a2"/>kroneyaṃ</w><w><supplied>y</supplied>ä<supplied>ṣ</supplied></w><gap reason="lost"/>
+<lb corresp="#a3"/><w>puk</w><w>l<gap reason="plain" unit="part"/><gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#a4"/><w>l</w><w>rītwoṣ</w><gap reason="lost"/>
+<lb corresp="#a5"/><w>rpaṣi</w><gap reason="lost"/>
+<lb corresp="#a6"/><w>cesäm</w><gap reason="lost"/>
+<lb corresp="#b1"/><w>l</w><w>rītwo<supplied>ṣ</supplied></w><gap reason="lost"/>
+<lb corresp="#b2"/><w>i</w><gap reason="lost"/>
+<lb corresp="#b3"/><w>we</w><w>pi</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<w><supplied>kā</supplied><lb corresp="#b4"/>kätkus</w><gap reason="lost"/>
+<lb corresp="#b5"/><w>ṣä</w><w>pärs<gap reason="plain" unit="part"/></w><w><gap reason="plain" unit="part"/>n<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<w><supplied>lya</supplied><lb corresp="#b6"/>lypurṣi</w><w>wa<supplied>n</supplied>t</w><w>ca</w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">... (in) the 38th (week)</seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">... it goes into solidity ...</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">... all (limbs?) ...</seg></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl">... is attached to ...</seg></seg></choice><choice corresp="#a5"><seg><seg type="prim_transl">...</seg></seg></choice><choice corresp="#a6"><seg><seg type="prim_transl">... these ... </seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">... is attached to ...</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">...</seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl">... ...-two ...</seg></seg></choice><choice corresp="#b4"><seg><seg type="prim_transl">... has arisen ...</seg></seg></choice><choice corresp="#b5"><seg><seg type="prim_transl">...</seg></seg></choice><choice corresp="#b6"><seg><seg type="prim_transl">... the wind of fate (<hi>karma</hi>) ...</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">A fragment from the left side of a leaf: upper, lower and left margins are preserved. Black lineage.</note><note corresp="#a3" type="philcomment"><hi>l··</hi>: the <hi>l</hi> could be in a ligature, and it could have an <hi>ā</hi>-vowel. Thus, a restoration to <hi>lyā</hi> 'limbs' is a possibility, cf. <ref type="ms" target="txt:m-a150"/> b1 <hi>puk lyā āps·</hi>.</note><note corresp="#a4" type="philcomment"><hi>l rītwoṣ</hi>, <ref type="ms" target="#b1"/><hi>l rītwo(ṣ)</hi>: the <hi>l</hi> most probably is to be restored as a com. ending <hi>°(aśśä)l</hi>.</note><note corresp="#a5" type="philcomment"><hi>rpaṣi</hi>: probably a <hi>ṣi</hi>-adjective derived from a noun in <hi>-rp</hi>. According to <bibl><title corresp="ref:poucha1955"/><citedRange>434</citedRange></bibl>, there are only three possibilities: <hi>tarp</hi> 'pond', <hi>sparp</hi> 'rope', and <hi>warp</hi> 'enclosure'.</note><note corresp="#a6" type="philcomment">: cf. e.g. <ref type="ms" target="txt:m-a150"/> b4 <hi>cesäm ṣpät koṃsā</hi> 'by this week', lit. 'by these seven days'.</note><note corresp="#b6" type="philcomment"><hi>lypurṣi wa·t</hi>: even though the element before the <hi>t</hi> is illegible, a reading <hi>wa(n)t</hi> is suggested by the expression 'wind of fate' in <ref type="ms" target="txt:m-a148"/> a2 <hi>lyalypurṣināṃ waṃtyo</hi> and <ref type="ms" target="txt:m-a341"/> a7 <hi>lyalypurṣi want</hi>. <hi>ca</hi> could have to be restored to <hi>ca(mi)</hi> 'its, his', among others.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 1132" type="external">THT 1132</ref></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="project_check_old"/>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old"/>
+               <item n="m_translation_old">a1 ... (in) the 38th (week)
+a2 ... it goes into solidity ...
+a3 ... all (limbs?) ...
+a4 ... is attached to ...
+a5 ...
+a6 ... these ... 
+b1 ... is attached to ...
+b2 ...
+b3 ... ...-two ...
+b4 ... has arisen ...
+b5 ...
+b6 ... the wind of fate (&lt;i&gt;karma&lt;/i&gt;) ...</item>
+               <item n="m_subgenre_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_prev_old"/>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old">martin</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_meter_old"/>
+               <item n="m_transcription_old">a1 taryāk|taryākk okät piñc(inäs ṣpät koṃsaṃ) /// prākroneyaṃ|(prā)|kroneyaṃ
+a2 (y)ä(ṣ) ///
+a3 puk l·· ///
+a4 l rītwoṣ ///
+a5 rpaṣi ///
+a6 cesäm ///
+b1 l rītwo(ṣ) ///
+b2 i ///
+b3 we pi – /// kākätkus|(kā)|kätkus
+b4 ///
+b5 ṣä pärs· ·n· /// lyalypurṣi|(lya)|lypurṣi
+b6 wa(n)t ca ///</item>
+               <item n="m_title_old">Garbhasūtra</item>
+               <item n="m_leaf_old">465</item>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="ms_old">THT 1132</item>
+               <item n="project_comment_old">&lt;p&gt;I changed transcription &lt;b&gt;b6&lt;/b&gt; &lt;i&gt;wa{n}t&lt;/i&gt; to &lt;i&gt;wa(n)t&lt;/i&gt;, because a restoration is not a correction. –Martin (Mon, 2019-07-01, 16:33:17 (CEST))&lt;/p&gt;</item>
+               <item n="m_parallels_old"/>
+               <item n="m_expedition_old">T III Š 91.25</item>
+               <item n="m_size_w_old">7,9</item>
+               <item n="m_language_old">TA</item>
+               <item n="m_remarks_old">A fragment from the left side of a leaf: upper, lower and left margins are preserved. Black lineage.</item>
+               <item n="m_other_sigla_old">Prelim. No. 170, Pencil No. 2074</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old">&lt;b&gt;a3&lt;/b&gt; &lt;i&gt;l··&lt;/i&gt;: the &lt;i&gt;l&lt;/i&gt; could be in a ligature, and it could have an &lt;i&gt;ā&lt;/i&gt;-vowel. Thus, a restoration to &lt;i&gt;lyā&lt;/i&gt; 'limbs' is a possibility, cf. [[A 150]] b1 &lt;i&gt;puk lyā āps·&lt;/i&gt;.&lt;br&gt;
+&lt;b&gt;a4&lt;/b&gt; &lt;i&gt;l rītwoṣ&lt;/i&gt;, &lt;b&gt;b1&lt;/b&gt; &lt;i&gt;l rītwo(ṣ)&lt;/i&gt;: the &lt;i&gt;l&lt;/i&gt; most probably is to be restored as a com. ending &lt;i&gt;°(aśśä)l&lt;/i&gt;.&lt;br&gt;
+&lt;b&gt;a5&lt;/b&gt; &lt;i&gt;rpaṣi&lt;/i&gt;: probably a &lt;i&gt;ṣi&lt;/i&gt;-adjective derived from a noun in &lt;i&gt;-rp&lt;/i&gt;. According to [[Poucha, TLT]]: 434, there are only three possibilities: &lt;i&gt;tarp&lt;/i&gt; 'pond', &lt;i&gt;sparp&lt;/i&gt; 'rope', and &lt;i&gt;warp&lt;/i&gt; 'enclosure'.&lt;br&gt;
+&lt;b&gt;a6&lt;/b&gt;: cf. e.g. [[A 150]] b4 &lt;i&gt;cesäm ṣpät koṃsā&lt;/i&gt; 'by this week', lit. 'by these seven days'.&lt;br&gt;
+&lt;b&gt;b6&lt;/b&gt; &lt;i&gt;lypurṣi wa·t&lt;/i&gt;: even though the element before the &lt;i&gt;t&lt;/i&gt; is illegible, a reading &lt;i&gt;wa(n)t&lt;/i&gt; is suggested by the expression 'wind of fate' in [[A 148]] a2 &lt;i&gt;lyalypurṣināṃ waṃtyo&lt;/i&gt; and [[A 341]] a7 &lt;i&gt;lyalypurṣi want&lt;/i&gt;. &lt;i&gt;ca&lt;/i&gt; could have to be restored to &lt;i&gt;ca(mi)&lt;/i&gt; 'its, his', among others.</item>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="file_created_old">1340136544</item>
+               <item n="file_modified_old">1561991597</item>
+               <item n="m_size_h_old">12,7</item>
+               <item n="m_next_old"/>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 1132" target="idp"&gt;THT 1132&lt;/a&gt;.</item>
+               <item n="date_publication_old"/>
+               <item n="m_transliteration_old">a1 taryākk o_k_at p[iñc]· ///
+a2 kroneyaṃ ·ä ///
+a3 pu_k\ [l](·)· ///
+a4 l rītwo[_ṣ]\ ///
+a5 rpaṣi ///
+a6 ce_s_a[_m]\ ///
+b1 l rītwo (–)\ ///
+b2 i ///
+b3 we pi – ///
+b4 _k_atku_s\ ///
+b5 _ṣ_a _p_ar[s]· ·n· ///
+b6 lypurṣi wa·_t\ c[a] ///</item>
+               <item n="m_language_stage_old"/>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329744;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329744;rotate=0;imageType=_M||THT 1132 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329721;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329721;rotate=0;imageType=_M||THT 1132 verso</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_old">Šorčuq</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_linedistance_old">2,0</item>
+               <item n="m_completeness_old"/>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_lines_old">6</item>
+               <item n="access_old">public</item>
+               <item n="file_location_old">pages/manuscript/THT_1100_2399/tht1132.txt</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;I changed transcription &lt;ref type="ms" target="__b6"/&gt; &lt;hi&gt;wa{n}t&lt;/hi&gt; to &lt;hi&gt;wa(n)t&lt;/hi&gt;, because a restoration is not a correction. –Martin (Mon, 2019-07-01, 16:33:17 (CEST))&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

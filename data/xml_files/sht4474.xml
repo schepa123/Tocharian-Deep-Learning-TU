@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-sht4474">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>SHT 4474</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>SHT 4474</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>9,5</height>
+                              <width>10</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">6? (5+)</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="xto"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Gloss</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="verso">
+            <line n="" xml:id="b_x"><zone>kro¯</zone><zone>¯śä</zone><gap reason="editorial"/><zone><unclear>TA</unclear></zone><zone>ṅKA</zone><zone>ssi</zone><zone>mā</zone><zone>cä</zone><zone>MPA¯</zone><zone>¯Ṣ</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#b_x"/><w>kroś</w><gap reason="editorial"/><w>täṅkässi</w><w>mā</w><w>cämpäṣ</w></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#b_x"><seg><seg type="prim_transl">cold ... he cannot stop</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="lingcomment">On TA <hi>kroś</hi> instead of <hi>k_uraś</hi> (so <bibl><title corresp="ref:krauseandthomas1964"/><citedRange>95</citedRange></bibl>; <bibl><title corresp="ref:carlingetal2009"/><citedRange>152</citedRange></bibl>), see <bibl><title corresp="ref:jietal1998"/><citedRange>286</citedRange></bibl> and <bibl><title corresp="ref:itkin2011"/><citedRange>251-2</citedRange></bibl>.</note><note type="philcomment"><hi>kroś</hi> glosses Skt. <hi>śīta</hi> 'cold'. <hi>täṅkässi mā cämpaṣ</hi> glosses Skt. <hi>pratīghātaṃ notthāpaya(ti)</hi> 'does not arouse resentment'. Apparently <hi>pratīghātaṃ</hi> was taken in the sense 'warding off' and <hi>utthāpayati</hi> in the sense 'can'.</note><note type="remarks">Probably a Vinaya-fragment <bibl><title corresp="ref:idp0000"/></bibl>.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/></bibl>; <bibl><title corresp="ref:peyrot2014"/><citedRange>164</citedRange></bibl>; <bibl><title corresp="ref:wille2012"/><citedRange>79</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_translation_old">b_x cold ... he cannot stop</item>
+               <item n="m_subgenre_old">Gloss</item>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="user_created_old">theres</item>
+               <item n="user_modified_old">theres</item>
+               <item n="m_prev_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_title_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old">b_x kroś ... täṅkässi mā cämpäṣ</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_language_old">Sanskrit+TA</item>
+               <item n="m_remarks_old">&lt;p&gt;Probably a Vinaya-fragment [[IDP]].&lt;/p&gt;</item>
+               <item n="m_other_sigla_old"/>
+               <item n="m_size_w_old">10</item>
+               <item n="m_expedition_old"/>
+               <item n="m_parallels_old"/>
+               <item n="m_script_old"/>
+               <item n="ms_old">SHT 4474</item>
+               <item n="project_comment_old"/>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old">9,5</item>
+               <item n="file_created_old">1446226574</item>
+               <item n="file_modified_old">1582449396</item>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;i&gt;kroś&lt;/i&gt; glosses Skt. &lt;i&gt;śīta&lt;/i&gt; 'cold'. &lt;i&gt;täṅkässi mā cämpaṣ&lt;/i&gt; glosses Skt. &lt;i&gt;pratīghātaṃ notthāpaya(ti)&lt;/i&gt; 'does not arouse resentment'. Apparently &lt;i&gt;pratīghātaṃ&lt;/i&gt; was taken in the sense 'warding off' and &lt;i&gt;utthāpayati&lt;/i&gt; in the sense 'can'.&lt;/p&gt;</item>
+               <item n="m_passage_old"/>
+               <item n="m_editor_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_image_old"/>
+               <item n="date_publication_old"/>
+               <item n="m_language_stage_old"/>
+               <item n="m_transliteration_old">b_x krośä\ ... [_t_a]ṅ_k_assi mā cä_m_p_a_ṣ\</item>
+               <item n="m_lingcomment_old">&lt;p&gt;On TA &lt;i&gt;kroś&lt;/i&gt; instead of &lt;i&gt;k_uraś&lt;/i&gt; (so [[Krause and Thomas, TEB II]]: 95; [[Carling, DThTA]]: 152), see [[Ji et al. 1998]]: 286 and [[Itkin 2011]]: 251-2.&lt;/p&gt;</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_bib_old">[[IDP]]; [[Peyrot 2014]]: 164; [[SHT XI]]: 79.</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="file_location_old">pages/manuscript/sht4474.txt</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_lines_old">6? (5+)</item>
+               <item n="access_old">restricted</item>
+               <item n="m_completeness_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht1616g">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 1616.g</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 1616.g</idno>
+                  <altIdentifier>
+                     <idno>Prelim. No. 541</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Pencil No. 2643</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Qizil Miŋ-Öy</region>during <rs type="expedition_code">MQR</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=324893;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=324893;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><gap reason="plain" quantity="1"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>śle</zone><zone>ta</zone><zone>na</zone><zone>pa</zone><gap reason="plain" quantity="1"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>ā</zone><zone>yā</zone><zone>ṣ<gap reason="plain" unit="part"/></zone></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=324899;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=324899;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone><unclear>9</unclear></zone><zone>kus<gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="3"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone><unclear>ṣa</unclear></zone><zone>mā</zone><zone>ne</zone><zone>ṣa</zone><gap reason="plain" quantity="2"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><gap reason="plain" quantity="2"/><zone><unclear>KA</unclear></zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><gap reason="plain" quantity="1"/>
+<lb corresp="#a2"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>śle</w><w>tanapa<supplied>teṃ</supplied></w>
+<lb corresp="#a3"/><gap reason="lost"/><w><supplied>y</supplied>āyāṣ<gap reason="plain" unit="part"/></w>
+<lb corresp="#b1"/><gap reason="lost"/><num value="9">9</num><w>kUs<supplied>e</supplied></w><w><supplied>ṣamāne</supplied></w>
+<lb corresp="#b2"/><gap reason="lost"/><w><supplied>su</supplied></w><w>ṣamāne</w><w>ṣa<supplied>māneṃ</supplied></w>
+<lb corresp="#b3"/><gap reason="lost"/><gap reason="plain" quantity="2"/><w>kä</w></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a2"><seg><seg type="prim_transl">/// with patron</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">/// begged ///</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">/// If a monk ///</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">/// this monk (by other) monk</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">Frg. zu MQ 49.2/3; tw. ed. sub B 323: (Frg. 1 = Frg. f; Frg. 2 = Frg. b; Frg. 3 = Frg. e; Frg. 4 = Frg. g)</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 1616g" type="external">THT 1616g</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/16/1616.htm" type="external">THT 1616</ref></bibl>. </p>
+            <p><label>Edition</label><bibl><title corresp="ref:tamai2007a"/><citedRange>№1616</citedRange></bibl>.g; <bibl><title corresp="ref:ogihara2009"/><citedRange>195-196</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_size_w_old"/>
+               <item n="m_expedition_old">MQR</item>
+               <item n="m_other_sigla_old">Prelim. No. 541, Pencil No. 2643</item>
+               <item n="m_remarks_old">Frg. zu MQ 49.2/3; tw. ed. sub B 323: (Frg. 1 = Frg. f; Frg. 2 = Frg. b; Frg. 3 = Frg. e; Frg. 4 = Frg. g)</item>
+               <item n="m_language_old">TB</item>
+               <item n="project_comment_old">&lt;p&gt;[[Tamai 2007a]]:&lt;br&gt;
+a1 /// – – ///&lt;br&gt;
+a2 /// – śle ta ta pa ///&lt;br&gt;
+a3 /// ·ā yā ṣa ///&lt;br&gt;
+b1 /// – k_us· ///&lt;br&gt;
+b2 /// – mā ne ṣa ///&lt;br&gt;
+b3 /// – [_k_a] ///&lt;/p&gt; –Martin (Thu, 2015-09-17, 02:47:08 (CEST))</item>
+               <item n="ms_old">THT 1616.g</item>
+               <item n="m_script_old">Classical</item>
+               <item n="m_parallels_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_transcription_old">a1 /// –
+a2 /// – śle tanapa(teṃ)
+a3 /// (y)āyāṣ·
+b1 /// 9 k_us(e ṣamāne)
+b2 /// (su) ṣamāne ṣa(māneṃ)
+b3 /// – – kä</item>
+               <item n="m_leaf_old"/>
+               <item n="m_title_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_prev_old"/>
+               <item n="user_modified_old">martin</item>
+               <item n="user_created_old">automatic</item>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_translation_old">a2 /// with patron
+a3 /// begged ///
+b1 /// If a monk ///
+b2 /// this monk (by other) monk</item>
+               <item n="m_subgenre_old"/>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old"/>
+               <item n="file_location_old">pages/manuscript/THT_1100_2399/tht1616g.txt</item>
+               <item n="access_old">restricted</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_lines_old">3</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_old">Qizil Miŋ-Öy</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_transliteration_old">a1 /// –
+a2 /// – śle tanapa(teṃ)
+a3 /// (y)āyāṣ·
+b1 /// [9] k_us(e ṣamāne)
+b2 /// (su) [ṣa]māne ṣa(māneṃ)
+b3 /// – – [_k_a]</item>
+               <item n="date_publication_old"/>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=324893;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=324893;rotate=0;imageType=_M||THT 1616g recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=324899;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=324899;rotate=0;imageType=_M||THT 1616g verso</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 1616g" target="idp"&gt;THT 1616g&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/16/1616.htm" target="titus"&gt;THT 1616&lt;/a&gt;.&lt;br&gt;
+Edition: [[Tamai 2007a]]: №1616.g; [[Ogihara 2009]]: 195-196.</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old"/>
+               <item n="file_modified_old">1470351268</item>
+               <item n="file_created_old">1340136552</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_editor_old"/>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old"/>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;&lt;bibl&gt;&lt;title corresp="ref:tamai2007a"/&gt;&lt;/bibl&gt;: 
+a1 /// – – /// 
+a2 /// – śle ta ta pa /// 
+a3 /// ·ā yā ṣa /// 
+b1 /// – k_us· /// 
+b2 /// – mā ne ṣa /// 
+b3 /// – [_k_a] ///&lt;/p&gt; –Martin (Thu, 2015-09-17, 02:47:08 (CEST))&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

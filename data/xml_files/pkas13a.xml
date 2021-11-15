@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-pkas13a">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PK AS 13A</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Georges-Jean Pinault</name>
+            </respStmt>
+            <respStmt>
+               <resp>collaborator</resp>
+               <name>Melanie Malzahn</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <date when="2013-02">February 2013</date>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</repository>
+                  <idno>PK AS 13A</idno>
+                  <altIdentifier>
+                     <idno>Pelliot Koutchéen Ancienne Série 13A</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>17</height>
+                              <width>33</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <dimensions type="line_spacing">
+                              <height>2,4</height>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Jātaka/Avadāna</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <line xml:id="lf"><zone>lost</zone></line>
+            <line n="1" xml:id="a1"><zone>si</zone><zone>ddha</zone><zone><gap reason="par" unit="part"/>mā</zone><gap reason="par" quantity="1"/><zone><gap reason="par" unit="part"/>u</zone><zone>ya</zone><zone>ḍi</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><zone>pi</zone><zone>ścme</zone><zone>la</zone><zone>ṣṣeṃ</zone><zone><unclear>c</unclear>au</zone><zone>ka</zone><zone>te</zone><zone>pā</zone><zone>ce¯</zone><zone>¯R</zone><zone>si</zone><gap reason="par" quantity="1"/><zone><gap reason="par" unit="part"/>r</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><zone><unclear>ne</unclear></zone><zone>ya¯</zone><zone>¯<unclear>r</unclear>M</zone><zone>kuśa</zone><zone>la</zone><space type="string_hole"/><zone>mū¯</zone><zone>¯L</zone><zone><unclear>c</unclear><gap reason="par" unit="part"/></zone><zone><gap reason="par" unit="part"/><unclear>y</unclear></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><zone><unclear>ṣṣa</unclear></zone><zone>na</zone><zone>swa</zone><zone>ñcai</zone><space type="string_hole"/><zone>ntsa</zone><zone>lyau</zone><zone>ksa</zone><zone>śai</zone><zone>ṣṣe</zone><zone>yk<gap reason="par" unit="part"/></zone><zone>p<unclear>o</unclear></zone><zone>STA</zone><zone>ykā¯</zone><zone>¯K</zone><zone><gap reason="par" unit="part"/><unclear>k</unclear><gap reason="par" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><gap reason="par" quantity="2"/><zone><gap reason="par" unit="part"/><unclear>e</unclear></zone><zone><unclear>pi</unclear></zone><zone>ṅ<unclear>k</unclear>e</zone><gap reason="par" quantity="1"/><space type="string_hole"/><zone>la</zone><zone>laṃ</zone><zone>ṣki</zone><zone>TA</zone><zone>ttā¯</zone><zone>¯u</zone><zone>ta</zone><zone>rne</zone><zone>śle</zone><zone>yä</zone><zone>rke</zone><zone>ta</zone><zone>ṅsa</zone><zone>wi</zone><gap reason="lost"/></line>
+            <line n="6" xml:id="a6"><gap reason="lost"/><zone><unclear>n</unclear><gap reason="par" unit="part"/></zone><zone>KṢAṃ</zone><zone>snai</zone><zone>lyī</zone><zone>PA¯</zone><zone>¯R∘</zone><zone>cau</zone><zone>ne</zone><zone>yku</zone><zone>ñi</zone><zone>la</zone><zone>rau</zone><zone>ñe</zone><zone>wi</zone><gap reason="lost"/></line>
+            <line n="7" xml:id="a7"><gap reason="lost"/><zone>ññai</zone><zone>lāṃ¯</zone><zone>¯S</zone><zone>śpā</zone><zone>lmeṃ</zone><zone>kuse</zone><zone>sū</zone><zone>lāṃ</zone><zone>ṣtRA</zone><zone>te</zone><zone>TA</zone><zone>ṅtsi</zone><zone><gap reason="par" unit="part"/><unclear>e</unclear></zone><gap reason="lost"/></line>
+            <line n="8" xml:id="a8"><gap reason="lost"/><zone>pa</zone><zone>r<gap reason="par" unit="part"/><gap reason="par" unit="part"/></zone><gap reason="par" quantity="1"/><zone><gap reason="par" unit="part"/>e</zone><zone>nai</zone><zone>ksa</zone><zone>ṅke</zone><zone>ta</zone><zone>ṅKA</zone><zone>KA</zone><zone>lpo¯</zone><zone>¯Ṣ</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <line n="1" xml:id="b1"><zone>ta</zone><zone>ne</zone><zone>pu</zone><zone>tta</zone><zone>wa</zone><zone>nte</zone><zone>śe¯</zone><zone>¯m</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <fw type="leafNum" corresp="#lf">lost</fw>
+            <p>
+<lb corresp="#a1"/><w>siddha<supplied>ṃ</supplied></w><w><gap reason="plain" unit="part"/>mā</w><gap reason="plain" quantity="1"/><w><gap reason="plain" unit="part"/>uyaḍi</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#a2"/><w>piś</w><w>cmelaṣṣeṃ</w><w>caukate</w><w>pācer</w><w>si</w><gap reason="plain" quantity="1"/><w><gap reason="plain" unit="part"/>r<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<w><supplied>s</supplied><lb corresp="#a3"/>n<choice><orig>e</orig><corr>ai</corr></choice></w><w>yarm</w><w>kUśalamūl</w><w>c<gap reason="plain" unit="part"/><gap reason="plain" unit="part"/>y<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#a4"/><w>-ṣṣana</w><w>swañcaintsa</w><w>lyauksa</w><w>śaiṣṣe</w><w>yk<supplied>e</supplied>-postä<add>ṃ</add></w><w>ykāk</w><w><gap reason="plain" unit="part"/>k<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#a5"/><gap reason="plain" quantity="2"/><w><gap reason="plain" unit="part"/></w><w>epiṅke</w><gap reason="plain" quantity="1"/><w>lalaṃṣki</w><w>tättāU</w><w>tarne</w><w>śle-yärke</w><w>taṅsa</w><w>wi</w><gap reason="lost"/>
+<lb corresp="#a6"/><gap reason="lost"/><w>n<supplied>a</supplied>kṣäṃ</w><w>snai</w><w>lyīpär</w><w>caune</w><w>yku</w><w>ñi</w><w>larauñe</w><w>wi<milestone unit="w" type="break"/></w><gap reason="lost"/>
+<lb corresp="#a7"/><gap reason="lost"/><w>-ññai</w><w>lāṃs</w><w>śpālmeṃ</w><w>kUse</w><w>sū</w><w>lāṃṣträ</w><w>te</w><w>täṅtsi</w><w><gap reason="plain" unit="part"/>e</w><gap reason="lost"/>
+<lb corresp="#a8"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>par<gap reason="plain" unit="part"/><gap reason="plain" unit="part"/></w><gap reason="plain" quantity="1"/><w><gap reason="plain" unit="part"/>e</w><w>nai</w><w>ksa</w><w>ṅke</w><w>taṅkä</w><w>kälpoṣ</w><gap reason="lost"/>
+<lb corresp="#b1"/><w>tane</w><w>puttawante</w><w>śem</w><gap reason="plain" quantity="1"/><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">...</seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">... he hid the ... pertaining to the five births, the father ...</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">... without measure the root of merit ...</seg></seg></choice><choice corresp="#a4"><seg><bibl><title corresp="ref:hackstein1995"/><citedRange>124</citedRange></bibl></seg><seg><bibl><title corresp="ref:adams2012a"/><citedRange>27</citedRange></bibl></seg><seg><seg type="prim_transl">... he illuminated the world with ... rays one after the other still ...</seg></seg></choice><choice corresp="#a5"><seg><seg type="prim_transl">... among the ... having put the two tender ones on top with deference out of love the two ...</seg></seg></choice><choice corresp="#a6"><seg><seg type="prim_transl">... destroys ... without remains, having gone in that/him; ... my love ...</seg></seg></choice><choice corresp="#a7"><seg><seg type="prim_transl">... who will work the excellent work pertaining to ... up to this ...</seg></seg></choice><choice corresp="#a8"><seg><seg type="prim_transl">... indeed some then having obtained love ...</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">Puttawante came here.</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">The verso side of this fragment is blank with the exception of two different sequences to be seen in the upper right margin: the first are large akṣaras, almost completely erased, of which traces of “3” are still visible; the second sequence, either originally following the first, or superposed, reads in cursive script: <hi>tane puttawante śe<hi rend="underline">m</hi><hi rend="subscript">\</hi> </hi> – ///</note><note type="remarks">The first ‹i› in <hi>siddhaṃ</hi> (a1) has an elaborated, ornamental bow.</note><note corresp="#a1" type="philcomment">Judging from the remains, this line seems to contain Sanskrit text.</note><note corresp="#a4" type="philcomment"><hi>ṣṣana</hi> is the end of an adjective being the complement of the perlative plural <hi>swañcaintsa</hi> 'rays'. It may be derived from an abstract notion.</note><note corresp="#a7" type="philcomment"><hi>ññai</hi> is the end of an adjective being the complement of <hi>lāṃs</hi> 'work'.</note><note corresp="#a8" type="lingcomment">Note the preservation of the final -<hi>ä</hi> in <hi>taṅkä</hi>.</note></p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;a1.&lt;/b&gt; Judging from the remains, this line seems to contain Sanskrit text.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a4.&lt;/b&gt; &lt;i&gt;ṣṣana&lt;/i&gt; is the end of an adjective being the complement of the perlative plural &lt;i&gt;swañcaintsa&lt;/i&gt; 'rays'. It may be derived from an abstract notion.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a7.&lt;/b&gt; &lt;i&gt;ññai&lt;/i&gt; is the end of an adjective being the complement of &lt;i&gt;lāṃs&lt;/i&gt; 'work'.&lt;/p&gt;</item>
+               <item n="m_editor_old">Georges-Jean Pinault (in collaboration with Melanie Malzahn)</item>
+               <item n="file_created_old">1348760001</item>
+               <item n="file_modified_old">1569275966</item>
+               <item n="m_size_h_old">17</item>
+               <item n="m_next_old"/>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old">&lt;p&gt;&lt;b&gt;a8.&lt;/b&gt; Note the preservation of the final -&lt;i&gt;ä&lt;/i&gt; in &lt;i&gt;taṅkä&lt;/i&gt;.&lt;/p&gt;</item>
+               <item n="m_bib_old">Translation:
+&lt;b&gt;a4&lt;/b&gt; [[Hackstein 1995]]: 124, [[Adams 2012a]]: 27.</item>
+               <item n="date_publication_old">February 2013</item>
+               <item n="m_transliteration_old">a1 siddha (·)mā (– ·)uyaḍi – ///
+a2 piś cmelaṣṣeṃ [c]aukate pāce_r\ si (– ·)r///
+a3 [ne] ya[r]_m\ k_uśala○mū_l\ [c](· ·)[y] ///
+a4 [ṣṣa]na swañcai○ntsa lyauksa śaiṣṣe yk(·) p[o]_s_t_a ykā_k\ (·)[k](·) ///
+a5 (– –) (·) [epi]ṅ[k]e (–) ○ lalaṃṣki _t_attā_u tarne śle-yärke taṅsa wi /// 
+a6 /// [n](·)_k_ṣ_aṃ snai lyī_p_a_r\• caune yku ñi larauñe wi ///
+a7 /// ññai lāṃ_s\ śpālmeṃ k_use sū lāṃṣt_r_a te _t_aṅtsi (·)[e] ///
+a8 /// - par(·· – ·)e nai ksa ṅke taṅ_k_a _k_alpo_ṣ\ ///
+b1 tane puttawante śem\ – ///</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_image_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_linedistance_old">2,4</item>
+               <item n="m_completeness_old"/>
+               <item n="m_lines_old">8</item>
+               <item n="m_collection_old">Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</item>
+               <item n="access_old">public</item>
+               <item n="file_location_old">pages/manuscript/PK_AS/pkas13a.txt</item>
+               <item n="project_check_old"/>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_translation_old">a1 ...
+a2 ... he hid the ... pertaining to the five births, the father ...
+a3 ... without measure the root of merit ...
+a4 ... he illuminated the world with ... rays one after the other still ...
+a5 ... among the ... having put the two tender ones on top with deference out of love the two ...
+a6 ... destroys ... without remains, having gone in that/him; ... my love ...
+a7 ... who will work the excellent work pertaining to ... up to this ...
+a8 ... indeed some then having obtained love ...
+b1 Puttawante came here.</item>
+               <item n="m_subgenre_old">Jātaka/Avadāna</item>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_prev_old"/>
+               <item n="user_created_old">theres</item>
+               <item n="user_modified_old">martin</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_meter_old"/>
+               <item n="m_transcription_old">a1 siddhāṃ|siddha(ṃ) (·)mā (–) (·)uyaḍi – ///
+a2 piś cmelaṣṣeṃ caukate pācer si(–) (·)r(·) /// snai|(s)|n{ai}
+a3 yarm k_uśalamūl c(·)(·)y(·) ///
+a4 -ṣṣana swañcaintsa lyauksa śaiṣṣe ike-postäṃ|yk(e)-postä«ṃ» ykāk (·)k(·) ///
+a5 (– –) (·) epiṅkte|epiṅke (–) lalaṃṣki tättā_u tarne śle-yärke taṅksa|taṅsa wi /// 
+a6 /// n(a)kṣäṃ snai lyipär|lyīpär caune yku ñi larauñe wi- ///
+a7 /// -ññai lāṃs śpālmeṃ k_use su|sū lāṃṣtär_(Sub.)|lāṃṣträ te täṅktsi|täṅtsi (·)e ///
+a8 /// – par(··) (–) (·)e nai ksa ṅke taṅkw|taṅkä kälpoṣ ///
+b1 tane puttawante śem – ///</item>
+               <item n="m_leaf_old">lost</item>
+               <item n="m_title_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="ms_old">PK AS 13A</item>
+               <item n="project_comment_old"/>
+               <item n="m_parallels_old"/>
+               <item n="m_size_w_old">33</item>
+               <item n="m_expedition_old"/>
+               <item n="m_remarks_old">&lt;p&gt;The verso side of this fragment is blank with the exception of two different sequences to be seen in the upper right margin: the first are large akṣaras, almost completely erased, of which traces of “3” are still visible; the second sequence, either originally following the first, or superposed, reads in cursive script: &lt;i&gt;tane puttawante śe&lt;u&gt;m&lt;/u&gt;&lt;sub&gt;\&lt;/sub&gt; &lt;/i&gt; – ///&lt;/p&gt;
+&lt;p&gt;The first ‹i› in &lt;i&gt;siddhaṃ&lt;/i&gt; (a1) has an elaborated, ornamental bow.&lt;/p&gt;</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_other_sigla_old">Pelliot Koutchéen Ancienne Série 13A</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

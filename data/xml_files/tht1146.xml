@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht1146">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 1146</title>
+            <respStmt>
+               <resp>transliteration</resp>
+               <name>Georges-Jean Pinault</name>
+            </respStmt>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 1146</idno>
+                  <altIdentifier>
+                     <idno>Prelim. No. 196</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Pencil No. 2937</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Garbhasūtra</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>7,9</height>
+                              <width>7,3</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <dimensions type="line_spacing">
+                              <height>2,0</height>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Šorčuq</region>during <rs type="expedition_code">T III Š 91</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="xto"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329758;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329758;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>tSA</zone><zone><unclear>w</unclear><gap reason="plain" unit="part"/></zone><zone><unclear>s</unclear>ś<gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>mwā</zone><zone>LA</zone><zone>tkā¯</zone><zone>¯ñä</zone><zone>a</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><gap reason="plain" quantity="2"/><zone>yo</zone><zone>kt<unclear>s</unclear>i</zone><zone>yo</zone><zone>wā</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>ts<gap reason="plain" unit="part"/>ā</zone><zone>TA¯</zone><zone>¯R</zone><zone><unclear>॥</unclear></zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329735;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329735;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone><unclear>R</unclear>A</zone><zone>॥</zone><zone>sa</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>NA</zone><zone><unclear>ṢT</unclear>A<unclear>¯</unclear></zone><zone><unclear>¯</unclear>R</zone><zone>k<gap reason="plain" unit="part"/></zone><zone><unclear>t</unclear><gap reason="plain" unit="part"/></zone><zone><unclear>l</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><zone>pśa</zone><zone>ñi</zone><zone>sne</zone><zone>prā</zone><zone>kro</zone><zone>n<gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>ā</zone><zone>rlu</zone><zone><unclear>n</unclear>e</zone><zone>l<unclear>ā</unclear></zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>ts<surplus>ä</surplus></w><w>w<gap reason="plain" unit="part"/>s</w><w>ś<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>m</w><w>wālätkāñ</w><w>a</w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><gap reason="plain" quantity="2"/><w>yoktsi</w><w>yo</w><w>wā</w><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="lost"/><w><gap reason="plain" unit="part"/></w><w>ts<gap reason="plain" unit="part"/>ātär</w><pc>॥</pc><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><w>r<surplus>ä</surplus></w><pc>॥</pc><w>sa</w><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><w><supplied>täm</supplied>näṣtär</w><w>k<gap reason="plain" unit="part"/></w><w>t<gap reason="plain" unit="part"/></w><w>l<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><w><supplied>ka</supplied>pśañi</w><w>sne</w><w>prākron<supplied>e</supplied></w><gap reason="lost"/>
+<lb corresp="#b4"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>ārlune</w><w>lā</w><gap reason="plain" quantity="1"/><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">...</seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">... turtles ...</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">... drink ...</seg></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl">...</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">...</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">... is born ...</seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl">... body without solidity ...</seg></seg></choice><choice corresp="#b4"><seg><seg type="prim_transl">... ceasing ...</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">According to three different labels on the frame, this fragment may belong together with <ref type="ms" target="txt:m-a154"/>. The reason for this is evidently the word <hi>wālätkāñ</hi>, which occurs in line a2 of this fragment as well as in <ref type="ms" target="txt:m-a154"/> a5. I have not yet found more precise matches proving that the two fragments belong to the same leaf.</note><note corresp="#a2" type="philcomment">: cf. <ref type="ms" target="txt:m-a154"/> a5 <hi>tmäṣ tom wālätkāñ kaṣtyo miṣānt</hi> 'then these turtles were tortured by hunger'. The translation 'turtles' follows <bibl><title corresp="ref:schmidtkt1974"/><citedRange>256</citedRange></bibl>.</note><note corresp="#a4" type="philcomment"><hi>ts·ātär</hi>: perhaps <hi>ts(k)ātär</hi> 'will be pulled out', cf. <ref type="ms" target="txt:m-a154"/> a4 <hi>śākant</hi> 'were pulled out'.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition</label><bibl><title corresp="ref:tamai2007a"/><citedRange>№1146</citedRange></bibl>.</p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 1146" type="external">THT 1146</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/11/1146.htm" type="external">THT 1146</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_leaf_old"/>
+               <item n="m_title_old">Garbhasūtra</item>
+               <item n="m_transcription_old">a1 /// ·ts w·s ś· ///
+a2 /// – m wālätkāñ a ///
+a3 /// – – yoktsi_(TA)|yoktsi yo wā ///
+a4 /// · ts·ātär || – ///
+b1 /// r || sa ///
+b2 /// (täm)näṣtär k· t· l· ///
+b3 /// (ka)pśañi sne prākron(e) ///
+b4 /// – ārlune lā – ///</item>
+               <item n="m_meter_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallels_old"/>
+               <item n="ms_old">THT 1146</item>
+               <item n="project_comment_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="m_other_sigla_old">Prelim. No. 196, Pencil No. 2937</item>
+               <item n="m_language_old">TA</item>
+               <item n="m_remarks_old">According to three different labels on the frame, this fragment may belong together with [[A 154]]. The reason for this is evidently the word &lt;i&gt;wālätkāñ&lt;/i&gt;, which occurs in line a2 of this fragment as well as in [[A 154]] a5. I have not yet found more precise matches proving that the two fragments belong to the same leaf.</item>
+               <item n="m_size_w_old">7,3</item>
+               <item n="m_expedition_old">T III Š 91</item>
+               <item n="m_metric_form_old"/>
+               <item n="m_tune_old"/>
+               <item n="project_check_old"/>
+               <item n="m_translation_old">a1 ...
+a2 ... turtles ...
+a3 ... drink ...
+a4 ...
+b1 ...
+b2 ... is born ...
+b3 ... body without solidity ...
+b4 ... ceasing ...</item>
+               <item n="m_subgenre_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="user_modified_old">martin</item>
+               <item n="user_created_old">automatic</item>
+               <item n="m_prev_old"/>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Šorčuq</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_linedistance_old">2,0</item>
+               <item n="access_old">public</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_lines_old">4</item>
+               <item n="m_completeness_old"/>
+               <item n="file_location_old">pages/manuscript/THT_1100_2399/tht1146.txt</item>
+               <item n="m_editor_old">Michaël Peyrot (on the basis of a transliteration by Georges-Jean Pinault)</item>
+               <item n="m_philcomment_old">&lt;b&gt;a2&lt;/b&gt;: cf. [[A 154]] a5 &lt;i&gt;tmäṣ tom wālätkāñ kaṣtyo miṣānt&lt;/i&gt; 'then these turtles were tortured by hunger'. The translation 'turtles' follows [[Schmidt KT 1974]]: 256.&lt;br&gt;
+&lt;b&gt;a4&lt;/b&gt; &lt;i&gt;ts·ātär&lt;/i&gt;: perhaps &lt;i&gt;ts(k)ātär&lt;/i&gt; 'will be pulled out', cf. [[A 154]] a4 &lt;i&gt;śākant&lt;/i&gt; 'were pulled out'.</item>
+               <item n="m_passage_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_size_h_old">7,9</item>
+               <item n="m_next_old"/>
+               <item n="file_modified_old">1563886520</item>
+               <item n="file_created_old">1340136544</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 1146" target="idp"&gt;THT 1146&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/11/1146.htm" target="titus"&gt;THT 1146&lt;/a&gt;.&lt;br&gt;
+Edition: [[Tamai 2007a]]: №1146.</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329758;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329758;rotate=0;imageType=_M||THT 1146 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329735;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329735;rotate=0;imageType=_M||THT 1146 verso</item>
+               <item n="m_transliteration_old">a1 /// ·t_s(\) [w]·[s] ś· ///
+a2 /// – m wā_l_atkāñä\ a ///
+a3 /// – – yokt[s]i yo wā ///
+a4 /// · ts·ā_t_a_r\ [||] – ///
+b1 /// [_r](\) || sa ///
+b2 /// ·_n_a[_ṣ_t]_a_r[\] k· [t]· [l]· ///
+b3 /// pśañi sne prākron· ///
+b4 /// – ārlu[n]e l[ā] – ///</item>
+               <item n="m_language_stage_old"/>
+               <item n="date_publication_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

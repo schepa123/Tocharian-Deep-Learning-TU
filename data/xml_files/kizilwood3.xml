@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-kizilwood3">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Kizil Wood 3</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Kizil Wood 3</idno>
+                  <msName>Assemblage VI</msName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>wood tablet</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Qizil</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Non-literary</term>
+               <term type="subgenre">Account</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone>śta</zone><zone>rce</zone><zone>pä</zone><zone>le</zone><zone>tne</zone><zone>ke</zone><zone>re</zone><zone>pta</zone><zone>ña</zone><zone>kau</zone><zone>śwā</zone><zone>le</zone><zone>ma</zone><zone>lwe</zone><zone>rku</zone><zone>nti</zone><zone>nta</zone><zone>6</zone><zone>trai</zone><zone>wo</zone><zone>la</zone><zone>śku</zone><zone>nti</zone><zone>nta</zone><zone>4</zone><zone>।</zone><zone>ñweṃ</zone><zone>ne</zone><zone>ku<unclear>ś</unclear>i</zone><zone>ñe</zone><zone>wa</zone><zone>lo</zone><zone>ś<unclear>w</unclear>ā</zone><zone>le</zone><zone>wa</zone><zone>sa</zone><zone>ma</zone><zone>lwe</zone><zone>rla</zone><zone>śku</zone><zone>nti</zone><zone>nta</zone><zone>6</zone><zone>trai</zone><zone>wo</zone><zone>ku</zone><zone>nti</zone><zone>nta</zone><zone><unclear>2</unclear></zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><w>śtarce</w><w>päletne</w><w>kereptañakau</w><w>śwāle</w><w>malwer</w><w>kuntinta</w><num value="6">6</num><w>traiwo</w><w>laś</w><w>kuntinta</w><num value="4">4</num><pc>।</pc><w>ñweṃne</w><w>kUśiñe</w><w>walo</w><w>śwāle</w><w>wasa</w><w>malwer</w><w>laś</w><w>kuntinta</w><num value="6">6</num><w>traiwo</w><w>kuntinta</w><num value="2">2</num><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">/// On the 15th day of the 4th (month), <hi>Kereptañakau</hi> (gave) food. Milk (was spent): 6 pots; <hi>traiwo</hi> was spent: 4 pots. | On the last day of the month, the Kuchean king gave food. Milk was spent: 6 pots; <hi>traiwo</hi> was spent: [2] pots. ///</seg></seg></choice></p>
+         </div>
+         <div type="bibliography">
+            <p><label>other</label><bibl><title corresp="ref:ching2010"/><citedRange>295-296</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_lines_old">1</item>
+               <item n="access_old">restricted</item>
+               <item n="file_location_old">pages/manuscript/kizilwood3.txt</item>
+               <item n="created_date_old">2014-11-05, 16:37:09 (CET)</item>
+               <item n="m_findspot_old">Qizil</item>
+               <item n="m_manuscript_old">Assemblage VI</item>
+               <item n="m_bib_old">[[Ching 2010]]: 295-296.</item>
+               <item n="file_size_old">1 KB</item>
+               <item n="m_transliteration_old">a1 /// śtarce päletne kereptañakau śwāle malwer kuntinta 6 traiwo laś kuntinta 4 | ñweṃne k_u[ś]iñe walo ś[w]āle wasa malwer laś kuntinta 6 traiwo kuntinta [2] ///</item>
+               <item n="m_material_old">Ink on wood tablet</item>
+               <item n="page_name_old">Kizil Wood 3</item>
+               <item n="version_old">5</item>
+               <item n="file_created_old">1415201829</item>
+               <item n="file_modified_old">1545417643</item>
+               <item n="ms_old">Kizil Wood 3</item>
+               <item n="edited_date_old">2017-01-24, 16:23:58 (CET)</item>
+               <item n="m_language_old">TB</item>
+               <item n="group_old">Editor</item>
+               <item n="m_genre_old">Non-literary</item>
+               <item n="m_transcription_old">a1 /// śtarce päletne kereptañakau śwālle|śwāle malkwer|malwer kuntinta 6 traiwo laś kuntinta 4 | ñweṃne k_uśiñe walo śwālle|śwāle wasa malkwer|malwer laś kuntinta 6 traiwo kuntinta 2 ///</item>
+               <item n="editgroup_old">Editor</item>
+               <item n="category_old">manuscript</item>
+               <item n="user_created_old">martin</item>
+               <item n="user_modified_old">theres</item>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_subgenre_old">Account</item>
+               <item n="file_name_old">pages/manuscript/kizilwood3.txt</item>
+               <item n="m_translation_old">a1 /// On the 15th day of the 4th (month), &lt;i&gt;Kereptañakau&lt;/i&gt; (gave) food. Milk (was spent): 6 pots; &lt;i&gt;traiwo&lt;/i&gt; was spent: 4 pots. | On the last day of the month, the Kuchean king gave food. Milk was spent: 6 pots; &lt;i&gt;traiwo&lt;/i&gt; was spent: [2] pots. ///</item>
+               <item n="file_savedate_old">2018-12-21, 19:40:43 (CET)</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

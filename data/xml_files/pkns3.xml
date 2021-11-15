@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-pkns3">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PK NS 3</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Georges-Jean Pinault</name>
+            </respStmt>
+            <respStmt>
+               <resp>collaborator</resp>
+               <name>Hannes A. Fellner</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <date when="2014-08">August 2014</date>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</repository>
+                  <idno>PK NS 3</idno>
+                  <altIdentifier>
+                     <idno>Pelliot Koutchéen Nouvelle Série 3</idno>
+                  </altIdentifier>
+                  <msName>PK NS 1-6</msName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>5,4</height>
+                              <width>15,5</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <dimensions type="line_spacing">
+                              <height>1,4</height>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Subeši</region>during <rs type="expedition_code">882</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="xto"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Medicine/Magic</term>
+               <term type="prose_verse">prose</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000196x/f5.zoom"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000196x/f5.highres"/>
+            <graphic url="NSHuard/NS3a.png" height="891px" width="2109px"/>
+            <line n="1" xml:id="a1"><gap reason="par" quantity="2"/><zone>i</zone><zone>ntha</zone><zone>na</zone><zone>mo</zone><zone>me</zone><zone>na</zone><zone>śa</zone><zone>mā</zone><zone>ga</zone><zone>ccha</zone><zone>tu</zone><zone>ā</zone><zone><unclear>t</unclear>ma</zone><zone><unclear>t</unclear>e</zone><zone>na</zone><gap reason="plain" quantity="2"/><zone><unclear>y</unclear>o</zone><zone>ga</zone><zone>॥</zone><zone>ko</zone><zone>wi</zone><zone>wä</zone><zone>ñc<unclear>y</unclear>o</zone><zone>tka<gap reason="plain" unit="part"/></zone><zone>k<unclear>e</unclear></zone></line>
+            <line n="2" xml:id="a2"><gap reason="par" quantity="3"/><zone><unclear>ya</unclear><unclear>¯</unclear></zone><zone><unclear>¯</unclear><unclear>L</unclear></zone><zone>pyā</zone><zone>pyā</zone><zone>ṣiṃ</zone><zone>a</zone><zone>kkri</zone><zone>ttRAṃ</zone><zone>ma</zone><zone><unclear>ṇḍlaṃ</unclear></zone><zone>ta</zone><zone>lke</zone><zone>ya¯</zone><zone>¯L</zone><zone>klu</zone><zone>trā</zone><zone>yu</zone><zone>yo</zone><zone>:</zone><zone>ma</zone><zone>lke</zone><zone>yo</zone></line>
+            <line n="3" xml:id="a3"><gap reason="par" quantity="2"/><zone>ñ<gap reason="plain" unit="part"/></zone><zone>ku</zone><zone>rka</zone><zone>lpa</zone><gap reason="plain" quantity="1"/><zone>snu</zone><zone>ma</zone><zone><unclear>nT</unclear><gap reason="plain" unit="part"/></zone><zone>pKA¯</zone><zone>¯L</zone><zone>•</zone><zone>mā</zone><zone>rña</zone><zone>kte¯</zone><zone>¯S</zone><zone>a</zone><zone>RAṃ</zone><zone>pā¯</zone><zone>¯T</zone><zone>ṇḍlaṃ</zone><zone>tā</zone><zone>ṢA¯</zone><zone>¯L</zone></line>
+            <line n="4" xml:id="a4"><gap reason="par" quantity="3"/><zone>SA</zone><zone>:</zone><zone>1000</zone><zone>8</zone><zone>100</zone><gap reason="plain" quantity="4"/><zone>tRA</zone><zone>:</zone><zone>tMA</zone><zone>ṣṣa</zone><zone>ci</zone><zone>śvā</zone><zone>tsi</zone><zone>yo¯</zone><zone>¯K</zone><zone>tsyā</zone><zone>ne</zone><zone>sse</zone><zone><unclear>tya</unclear></zone></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000196x/f6.zoom"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000196x/f6.highres"/>
+            <graphic url="NSHuard/NS3b.png" height="891px" width="2095px"/>
+            <line n="1" xml:id="b1"><gap reason="par" quantity="3"/><gap reason="plain" quantity="2"/><gap reason="par" quantity="7"/><zone>ka</zone><zone>rmro</zone><zone>ṣṣāṃ</zone><zone>tāṃ</zone><zone>ku</zone><zone>ñci</zone><zone>ta</zone><zone>śśä¯</zone><zone>¯L</zone><zone>śwā</zone><zone>tsyaṃ</zone><zone>pa</zone><zone>ñ<gap reason="plain" unit="part"/></zone></line>
+            <line n="2" xml:id="b2"><gap reason="par" quantity="3"/><zone><gap reason="plain" unit="part"/>ly<unclear>i</unclear></zone><zone>pa¯</zone><zone>¯T</zone><zone>e</zone><zone>ṢA¯</zone><zone>¯L</zone><zone>sre</zone><zone>pe</zone><zone>mā</zone><zone>MA</zone><zone>ska<gap reason="plain" unit="part"/></zone><zone><unclear>RA</unclear></zone><zone>॥</zone><zone>na</zone><zone>mo</zone><zone>mā</zone><zone>ra</zone><zone>sya</zone><zone>pu</zone><zone>ṣpa</zone><zone>dhva</zone><zone>ja</zone><zone>sya</zone><zone>ku</zone><zone>su</zone><zone>mbhā</zone></line>
+            <line n="3" xml:id="b3"><gap reason="par" quantity="3"/><zone>de</zone><zone>va</zone><zone>d<unclear>e</unclear></zone><zone>va</zone><zone>sya</zone><zone>i</zone><zone>mā<gap reason="plain" unit="part"/></zone><zone><unclear>ca</unclear></zone><zone>tyāṃ</zone><zone>pra</zone><zone>yo</zone><zone>jeṃ</zone><zone>i</zone><zone>sā</zone><zone>me</zone><zone>vi</zone><zone>dyā</zone><zone>sa</zone><zone>mṛ</zone><zone>tya</zone><zone>tu</zone><zone>lya</zone></line>
+            <line n="4" xml:id="b4"><gap reason="par" quantity="2"/><gap reason="plain" quantity="1"/><zone>pra</zone><zone><unclear>m</unclear>ai</zone><zone>śa</zone><zone>re</zone><zone>•</zone><zone>ma</zone><zone>hā</zone><zone>śa</zone><zone>re</zone><zone>•</zone><zone>rā</zone><zone>ge</zone><zone>sa</zone><zone>rā</zone><zone>ge</zone><zone>rā</zone><zone>gā</zone><zone>vi</zone><zone>pa</zone><zone>ti</zone><zone>ye</zone><zone>svā</zone><zone>hā</zone><zone>•</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="plain" quantity="2"/><w>inthanam</w><w>omena</w><w>śam</w><w>āgacchatu</w><w>ātma</w><w>tena</w><gap reason="plain" quantity="2"/><w>yoga</w><pc>॥</pc><w>kowi</w><w>wäñcyo</w><w>tka<supplied>ṃ</supplied></w><w>ke<milestone unit="w" type="break"/></w>
+<lb corresp="#a2"/><gap reason="plain" quantity="3"/><w>yal</w><w>pyāpyāṣiṃ</w><w>akkritträṃ</w><w>maṇḍlaṃ</w><w>talke</w><w>yal</w><w>klu</w><w>trāyuyo</w><pc>:</pc><w>malkeyo</w>
+<lb corresp="#a3"/><gap reason="plain" quantity="2"/><w>ñ<gap reason="plain" unit="part"/></w><w>kurkal</w><w>pa<supplied>tsaṃ</supplied></w><w>snumant<supplied/></w><w>pkäl</w><pc>•</pc><w>mār-ñaktes</w><w>aräṃpāt</w><w><add>ma</add>ṇḍlaṃ</w><w>tāṣal</w>
+<lb corresp="#a4"/><gap reason="plain" quantity="3"/><w>sä</w><pc>:</pc><num value="1108">1000-8-100</num><gap reason="plain" quantity="4"/><w>trä</w><pc>:</pc><w>tmäṣṣ</w><w>aci</w><w>śvātsi</w><w>yoktsyā</w><w>nesset</w>
+<w>ya<lb corresp="#b1"/><supplied>l</supplied></w><gap reason="plain" quantity="11"/><w><supplied>o</supplied>kar</w><w>mroṣṣāṃ</w><w>tāṃ</w><w>kuñcitaśśäl</w><w>śwātsyaṃ</w>
+<w>pañ<supplied>i</supplied><lb corresp="#b2"/><supplied>t</supplied></w><gap reason="plain" quantity="3"/><w><gap reason="plain" unit="part"/>lyi</w><w>pat</w><w>eṣäl</w><w>srepe</w><w>mā</w><w>mäska<supplied>t</supplied>rä</w><pc>॥</pc><w>namo</w><w>mārasya</w><w>puṣpadhvajasya</w>
+<w>kusumbhā<lb corresp="#b3"/><supplied>ya</supplied></w><gap reason="plain" quantity="3"/><w>devadevasya</w><w>imā<supplied>ṃ</supplied></w><w>catyāṃ</w><w>prayojeṃi</w><w>sā</w><w>me</w><w>vidyā</w><w>samṛtya</w><w>tulya</w>
+<lb corresp="#b4"/><gap reason="plain" quantity="3"/><w>pramaiśare</w><pc>•</pc><w>mahāśare</w><pc>•</pc><w>rāge</w><w>sarāge</w><w>rāgā</w><w>vipatiye</w><w>svāhā</w><pc>•</pc></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">... The inflammation should go to rest with the [syllable] <hi>om</hi> (?). The soul with that ... With cow's urine the earth ... </seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">... should be made. The sacrifice should be made in a maṇḍala, a circle of flowers, with rice [and] grains. With milk ...</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">... one should cook perfumes of bdelium [and] Helleborus niger. A figure of the god Māra should be put in the maṇḍala.     </seg></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl">... Beginning with that one should put a spell on the food [and] drink. </seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">... Acorus calamus ... this together with sesame in the food ... molasses ...  </seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">... or one should give ... the <hi>srepe</hi> does not occur. Homage to the saffron of Māra provided with flowers ...   </seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl">... I use this sparrow of Rudra (? lit. 'the god of gods'). This incantation of mine after having touched equally ... </seg></seg></choice><choice corresp="#b4"><seg><seg type="prim_transl">... reed. Big reed. O Rāgā, O Sarāgā! Hail to the enemy of the Rāgā!   </seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">This damaged fragment covers approximately two thirds of a complete leaf. There are traces of horizontal ruling, but there is no place reserved for the string hole which is between lines 2 and 3. The script is less formal than in the average TA manuscripts. Recto and verso can not be securely ascertained because of the absence of a leaf number at the left margin. On the recto side there traces of imprints from akṣaras of another leaf. The number of missing akṣaras can be determined by comparison with the complete leaf <ref type="ms" target="txt:m-pkns1"/>.</note><note corresp="#a1" type="philcomment">As for the last akṣara of the line, at first glance it is possible to read 〈kk〉, but the stroke for gemination maybe due to an imprint of another manuscript.</note><note corresp="#a3" type="lingcomment">The expected form of the gerundive of the root <hi>päk-</hi> 'to cook', <hi>pkal</hi> is written as <hi>pkäl</hi> here. This might be a form of hypercorrection. 
+The form <hi>aräṃpāt</hi> is written for <hi>arämpāt</hi>. The scribe probably confused it with the word <hi>aräṃ</hi> 'appearance'.</note><note corresp="#a3" type="philcomment">The scribe forgot to write the 〈ma〉 of <hi>maṇḍala</hi>.</note><note corresp="#a4" type="philcomment">There is no indication that the number <hi>1800</hi> is complete. It is possible that <hi>100</hi> was followed by the signs for the decades and the digits.</note><note corresp="#a4 #b1" type="lingcomment">The word for 'food' is spelled with <hi>śv</hi> in line a4 and with <hi>św</hi> in line b1.</note><note corresp="#b1" type="lingcomment">The comitative form <hi>kuñcitaśśäl</hi> is written for <hi>kuñcitaśśal</hi>. Maybe this kind of spelling similar to the one of <hi>pkäl</hi>  for <hi>pkal</hi> is a kind of hypercorrection.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>other</label><bibl><title corresp="ref:couvreur1956"/><citedRange>97-98</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="user_created_old">theres</item>
+               <item n="user_modified_old">bernhard</item>
+               <item n="m_prev_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="m_translation_old">a1 ... The inflammation should go to rest with the [syllable] &lt;i&gt;om&lt;/i&gt; (?). The soul with that ... With cow's urine the earth ... 
+a2 ... should be made. The sacrifice should be made in a maṇḍala, a circle of flowers, with rice [and] grains. With milk ...
+a3 ... one should cook perfumes of bdelium [and] Helleborus niger. A figure of the god Māra should be put in the maṇḍala.     
+a4 ... Beginning with that one should put a spell on the food [and] drink. 
+b1 ... Acorus calamus ... this together with sesame in the food ... molasses ...  
+b2 ... or one should give ... the &lt;i&gt;srepe&lt;/i&gt; does not occur. Homage to the saffron of Māra provided with flowers ...   
+b3 ... I use this sparrow of Rudra (? lit. 'the god of gods'). This incantation of mine after having touched equally ... 
+b4 ... reed. Big reed. O Rāgā, O Sarāgā! Hail to the enemy of the Rāgā!   </item>
+               <item n="m_subgenre_old">Medicine/Magic</item>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Both</item>
+               <item n="project_check_old"/>
+               <item n="m_remarks_old">&lt;p&gt;This damaged fragment covers approximately two thirds of a complete leaf. There are traces of horizontal ruling, but there is no place reserved for the string hole which is between lines 2 and 3. The script is less formal than in the average TA manuscripts. Recto and verso can not be securely ascertained because of the absence of a leaf number at the left margin. On the recto side there traces of imprints from akṣaras of another leaf. The number of missing akṣaras can be determined by comparison with the complete leaf [[PK NS 1]].&lt;/p&gt;</item>
+               <item n="m_language_old">Sanskrit+TA</item>
+               <item n="m_other_sigla_old">Pelliot Koutchéen Nouvelle Série 3</item>
+               <item n="m_expedition_old">882</item>
+               <item n="m_size_w_old">15,5</item>
+               <item n="m_parallels_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="project_comment_old"/>
+               <item n="ms_old">PK NS 3</item>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_meter_old">6/7+7/6</item>
+               <item n="m_title_old"/>
+               <item n="m_transcription_old">a1 – – inthanam omena śam āgacchatu ātma tena – – yoga || kowi wäñcyo tka(ṃ) ke-
+a2 – – – yal pyāpyāṣiṃ akkritträṃ maṇḍlaṃ talke yal klu trāyuyo : malkeyo 
+a3 – – ñ· kurkal pa(tsaṃ) snumant() pkäl • mār-ñaktes aräṃpāt «ma»ṇḍlaṃ tāṣal 
+a4 – – – sä : 1000-8-100 – – – – trä : tmäṣṣ aci śvātsi yoktsyā nesset yal|ya|(l) 
+b1 – – – – – – – – – – – (o)kar mroṣṣāṃ tāṃ_(TA)|tāṃ kuñcitaśśäl śwātsyaṃ pañit|pañ(i)|(t)
+b2 – – – ·lyi pat eṣäl srepe mā mäska(t)rä || namo mārasya puṣpadhvajasya kusumbhāya|kusumbhā|(ya)
+b3 – – – devadevasya imā(ṃ) catyāṃ prayojeṃi sā me vidyā samṛtya tulya 
+b4 – – – pramaiśare • mahāśare • rāge sarāge rāgā vipatiye svāhā • </item>
+               <item n="m_leaf_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_image_old">http://gallica.bnf.fr/ark:/12148/btv1b6000196x/f5.zoom|http://gallica.bnf.fr/ark:/12148/btv1b6000196x/f5.highres||$page; recto|transform:rotate(180deg);
+http://gallica.bnf.fr/ark:/12148/btv1b6000196x/f6.zoom|http://gallica.bnf.fr/ark:/12148/btv1b6000196x/f6.highres||$page; verso</item>
+               <item n="date_publication_old">August 2014</item>
+               <item n="m_transliteration_old">a1 (– –) inthanam omena śam āgacchatu ā[t]ma [t]ena – – [y]oga || kowi wäñc[y]o tka· k[e]-
+a2 (– – –) [ya_l\] pyāpyāṣiṃ akkritt_r_aṃ ma[ṇḍlaṃ] talke ya_l\ klu trāyuyo : malkeyo 
+a3 (– –) ñ· kurkal pa – snuma[n_t·] p_k_a_l\ • mār-ñakte_s\ a_r_aṃpā_t\ ṇḍlaṃ tā_ṣ_a_l\ 
+a4 (– – –) _s_a : 1000-8-100 – – – – t_r_a : t_m_aṣṣ aci śvātsi yo_k\tsyā nesse[t ya] 
+b1 (– – –) – – (– – – – – – –) kar mroṣṣāṃ tāṃ kuñcitaśśä_l\ śwātsyaṃ pañ·
+b2 (– – –) ·ly[i] pa_t\ e_ṣ_a_l\ srepe mā _m_aska·[_r_a] || namo mārasya puṣpadhvajasya kusumbhā 
+b3 (– – –) devad[e]vasya imā· [ca]tyāṃ prayojeṃi sā me vidyā samṛtya tulya 
+b4 (– –) – pra[m]aiśare • mahāśare • rāge sarāge rāgā vipatiye svāhā • </item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_manuscript_old">PK NS 1-6</item>
+               <item n="m_lingcomment_old">&lt;p&gt;&lt;b&gt;a3.&lt;/b&gt; The expected form of the gerundive of the root &lt;i&gt;päk-&lt;/i&gt; 'to cook', &lt;i&gt;pkal&lt;/i&gt; is written as &lt;i&gt;pkäl&lt;/i&gt; here. This might be a form of hypercorrection.&lt;br&gt;
+The form &lt;i&gt;aräṃpāt&lt;/i&gt; is written for &lt;i&gt;arämpāt&lt;/i&gt;. The scribe probably confused it with the word &lt;i&gt;aräṃ&lt;/i&gt; 'appearance'.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b1.&lt;/b&gt; The comitative form &lt;i&gt;kuñcitaśśäl&lt;/i&gt; is written for &lt;i&gt;kuñcitaśśal&lt;/i&gt;. Maybe this kind of spelling similar to the one of &lt;i&gt;pkäl&lt;/i&gt;  for &lt;i&gt;pkal&lt;/i&gt; is a kind of hypercorrection.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a4, b1.&lt;/b&gt; The word for 'food' is spelled with &lt;i&gt;śv&lt;/i&gt; in line a4 and with &lt;i&gt;św&lt;/i&gt; in line b1.&lt;/p&gt;
+  
+ </item>
+               <item n="m_bib_old">[[Couvreur 1956]]: 97-98.</item>
+               <item n="m_size_h_old">5,4</item>
+               <item n="m_next_old"/>
+               <item n="file_created_old">1361519059</item>
+               <item n="file_modified_old">1575020231</item>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;a1.&lt;/b&gt; As for the last akṣara of the line, at first glance it is possible to read 〈kk〉, but the stroke for gemination maybe due to an imprint of another manuscript.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a3.&lt;/b&gt; The scribe forgot to write the 〈ma〉 of &lt;i&gt;maṇḍala&lt;/i&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a4.&lt;/b&gt; There is no indication that the number &lt;i&gt;1800&lt;/i&gt; is complete. It is possible that &lt;i&gt;100&lt;/i&gt; was followed by the signs for the decades and the digits.&lt;/p&gt;</item>
+               <item n="m_passage_old"/>
+               <item n="m_editor_old">Georges-Jean Pinault (in collaboration with Hannes A. Fellner)</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="file_location_old">pages/manuscript/PK_NS/pkns3.txt</item>
+               <item n="m_collection_old">Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</item>
+               <item n="m_lines_old">4</item>
+               <item n="access_old">public</item>
+               <item n="m_completeness_old"/>
+               <item n="m_linedistance_old">1,4</item>
+               <item n="m_findspot_old">Subeši</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_form_old">Poṭhī</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

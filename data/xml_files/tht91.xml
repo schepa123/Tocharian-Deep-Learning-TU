@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht91">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 91</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Melanie Malzahn</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 91</idno>
+                  <altIdentifier>
+                     <idno>B 91</idno>
+                  </altIdentifier>
+                  <msName>Araṇemi α</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Araṇemijātaka</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Šorčuq</region>during <rs type="expedition_code">T III Š 91.25 + 91.26</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical frg:ls-cetom-aberrant-late frg:ls-cetom-aberrant-hypercorrect frg:ls-tamai-C5 frg:ls-C14"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Jātaka/Avadāna</term>
+               <term type="prose_verse">prose</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=327874;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=327874;rotate=0;imageType=_M"/>
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=336026;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=336026;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="a1"><zone>ntse</zone><zone>sa</zone><zone>wa</zone><zone>tsā</zone><zone>lai</zone><zone>pre</zone><zone>ma</zone><zone>ne</zone><zone>wa</zone><zone>rā</zone><zone>ṣtsi</zone><zone>śya</zone><zone>kne</zone><zone>ya</zone><zone>ma</zone><zone>ṢAṃ</zone><zone>sa</zone><zone>tya</zone><zone>kā</zone><zone>r<unclear>a</unclear></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><zone>wa</zone><zone>rpo</zone><zone>rṣe</zone><zone>mai</zone><zone>klā</zone><zone>tsā</zone><zone>TA∘</zone><zone>a</zone><zone>ra</zone><zone>ṇe</zone><zone>mi</zone><zone>we</zone><zone>ṢṢAṃ</zone><zone>ta</zone><zone>ñyai</zone><zone><unclear>tk</unclear>o</zone><gap reason="par" quantity="1"/><zone><gap reason="par" unit="part"/>y<gap reason="par" unit="part"/></zone><zone>ñca</zone><zone>ne</zone><zone>s<unclear>au</unclear></zone><zone>sa</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><zone>r<gap reason="par" unit="part"/>i</zone><zone>ye</zone><zone>nne</zone><zone>pā</zone><zone>sa</zone><zone>॥</zone><zone>o</zone><zone>mno</zone><zone>ña</zone><zone>ke</zone><space type="string_hole"/><zone><unclear>a</unclear></zone><gap reason="par" quantity="1"/><zone>ṇe</zone><zone>mi</zone><zone>we</zone><zone>rpi</zone><zone>śka</zone><zone>tse</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="par" quantity="2"/><zone>te</zone><zone>॥</zone><zone><unclear>t</unclear>e</zone><zone>maṃ</zone><zone>tya</zone><zone>kne</zone><zone>sa</zone><space type="string_hole"/><gap reason="par" quantity="1"/><zone><unclear>laṃ</unclear></zone><zone><unclear>tu</unclear></zone><zone>ññe</zone><zone>ṣṣe</zone><zone>pi</zone><zone>rṣā</zone><zone>ke</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><gap reason="par" quantity="2"/><zone>l<gap reason="par" unit="part"/>ā</zone><zone>sa</zone><zone>sa</zone><zone>lkā</zone><zone>ṣṣi</zone><zone>cwi</zone><zone>pe</zone><zone>rne</zone><zone><unclear>sa</unclear></zone><gap reason="par" quantity="3"/><gap reason="plain" quantity="1"/><zone>po</zone><zone>stā</zone><zone>na</zone><zone>ñä</zone><zone>kci</zone><gap reason="lost"/></line>
+            <line n="6" xml:id="a6"><gap reason="par" quantity="2"/><gap reason="plain" quantity="1"/><zone>no</zone><zone>śwe</zone><zone>ṢṢAṃ</zone><zone>ṣa</zone><zone>rya</zone><zone><unclear>k</unclear>auṃ</zone><zone><gap reason="par" unit="part"/><unclear>ū</unclear></zone><gap reason="par" quantity="1"/><zone>rn<gap reason="par" unit="part"/></zone><zone><unclear>w</unclear>t<gap reason="par" unit="part"/></zone><zone>kā¯</zone><zone>¯ñä</zone><zone>e</zone><zone>nte</zone><zone>ce</zone><zone>śau</zone><zone>mo</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="3"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=327881;rotate=0;imageType=_L"/>
+            <graphic n="3"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=327881;rotate=0;imageType=_M"/>
+            <graphic n="4"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=336025;rotate=0;imageType=_L"/>
+            <graphic n="4"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=336025;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="b1"><gap reason="par" quantity="3"/><zone>t<unclear>a</unclear></zone><zone>kā¯</zone><zone>¯ñä</zone><zone>po</zone><zone>kkā</zone><zone>k<gap reason="par" unit="part"/></zone><zone><unclear>s</unclear><gap reason="par" unit="part"/></zone><gap reason="par" quantity="1"/><zone>pā</zone><zone>k<unclear>r</unclear>i</zone><zone>tā</zone><zone>kā</zone><zone>re¯</zone><zone>¯ñ<unclear>ä</unclear></zone><zone>ñä</zone><zone>kcya</zone><zone>na</zone><zone>ra¯</zone><zone>¯mT∘</zone><zone>॥</zone><zone>ta</zone><zone>ne</zone><zone>ca</zone><zone>ndra</zone><zone>mu</zone><zone>khi</zone><zone>lā</zone><zone>nte</zone><zone>ke<gap reason="par" unit="part"/></zone><zone>cc<gap reason="par" unit="part"/></zone><zone>yai</zone><zone>nne</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="par" quantity="2"/><zone>kkā</zone><zone><unclear>k</unclear><gap reason="par" unit="part"/></zone><zone>rmeṃ</zone><zone>sā</zone><zone>rri</zone><zone>wa</zone><zone>rpo</zone><zone>ṢAṃ</zone><zone>tSA</zone><zone>e</zone><gap reason="par" quantity="5"/><zone><unclear>o</unclear></zone><zone>mno</zone><zone>ña</zone><zone>ke</zone><zone>se</zone><zone>a</zone><zone>ra</zone><zone>ṇe</zone><zone>mi</zone><zone>we</zone><zone>rpi</zone><zone>śka</zone><zone>tstse</zone><zone>śpa</zone><zone>lu</zone><zone>we</zone><zone>nta¯</zone><zone>¯tS∘</zone><zone>yw<gap reason="par" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="par" quantity="2"/><zone>śā</zone><zone>nmya</zone><zone>ra</zone><zone>mno</zone><zone>pa</zone><zone>lsko</zone><zone>la</zone><space type="string_hole"/><gap reason="par" quantity="2"/><gap reason="plain" quantity="1"/><zone>ce¯</zone><zone>¯tS</zone><zone>kre</zone><zone>nTA</zone><zone>śwa</zone><zone>tsa</zone><zone>nma</zone><zone>e</zone><zone>ne</zone><zone>pre</zone><zone>tā</zone><zone>ko</zone><zone>yeṃ</zone><zone>tu</zone><zone>kcwi</zone><zone>PA</zone><zone>stai</zone><zone>ṣṣi</zone><zone>y<unclear>e</unclear></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><zone><gap reason="par" unit="part"/><unclear>w</unclear><gap reason="par" unit="part"/></zone><zone>sk<gap reason="plain" unit="part"/>ṃ</zone><zone>kuse</zone><zone>pi</zone><zone>se</zone><zone>e</zone><zone>ṅwe</zone><zone>ste</zone><zone>tsw<unclear>ai</unclear></zone><space type="string_hole"/><gap reason="par" quantity="1"/><zone><unclear>ta</unclear></zone><zone>ne</zone><zone>cä</zone><zone>rke</zone><zone>nta</zone><zone>klā</zone><zone>stRA</zone><zone>po</zone><zone>kre</zone><zone>ntau</zone><zone>na</zone><zone>sa</zone><zone>ke</zone><zone>ke</zone><zone>nu</zone><zone>ste</zone><zone>mā</zone><zone>we</zone><zone>SAṃ</zone><zone>sa</zone><zone>swe</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><zone>cwi</zone><zone>kre</zone><zone>ntau</zone><zone>na¯</zone><zone>¯Śc∘</zone><zone>pa</zone><zone>LKAṃ</zone><zone>॥</zone><zone>tu</zone><zone>meṃ</zone><zone>ca</zone><zone>ndra</zone><zone><unclear>m</unclear>u</zone><zone>kh<unclear>e</unclear></zone><zone><unclear>wa</unclear></zone><gap reason="par" quantity="1"/><zone>ṣe</zone><zone>ca</zone><zone>ke</zone><zone>cce</zone><zone>a</zone><zone>sā</zone><zone>nne</zone><zone>ṣme</zone><zone>ma</zone><zone>ne</zone><zone>twā</zone><zone>rṢ<unclear>P</unclear>A</zone><zone>a</zone><zone>ra</zone><zone>ṇe</zone><zone>miṃ</zone><zone>we</zone><zone>rpi</zone><zone>śka</zone><zone>cce</zone><zone>cä</zone><gap reason="lost"/></line>
+            <line n="6" xml:id="b6"><zone>a</zone><zone>mā</zone><zone>cä</zone><zone>nTA</zone><zone>pre</zone><zone>KṢAṃ</zone><zone>kuse</zone><zone>sa</zone><zone>mpe</zone><zone>ṅwe</zone><zone>ste</zone><zone>po</zone><zone>śā</zone><zone>mna</zone><zone><unclear>s</unclear><gap reason="par" unit="part"/></zone><gap reason="par" quantity="1"/><zone><unclear>ṣ</unclear><gap reason="par" unit="part"/></zone><zone>PA</zone><zone>lkā</zone><zone>tsi</zone><zone>ste</zone><zone>॥</zone><zone>ki</zone><zone>nta</zone><zone>ri</zone><zone>kne</zone><zone>॥</zone><zone>rā</zone><zone>ja</zone><zone>va</zone><zone>tyo¯</zone><zone>¯K</zone><zone>ma</zone><zone>tsi</zone><zone>cwi¯</zone><zone>¯m<unclear>P</unclear>∘</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<w><supplied>ā</supplied><lb corresp="#a1"/>ntsesa</w><w>watsālai</w><w>premane</w><w>war</w><w>āṣtsiś</w><w>yakne</w><w>yamaṣäṃ</w><w>satyakār</w><w>a<milestone unit="w" type="break"/></w><gap reason="lost"/>
+<lb corresp="#a2"/><w>warporṣe</w><w>mai</w><w>klātsāt<surplus>ä</surplus></w><w>araṇemi</w><w>weṣṣäṃ</w><w>tañ</w><w>yaitko<supplied>rne</supplied></w><w><supplied>kl</supplied>y<supplied>e</supplied>ñca</w><w>nesau</w><w>sa<milestone unit="w" type="break"/></w><gap reason="lost"/>
+<w><supplied>ker</supplied><lb corresp="#a3"/>r<supplied>cc</supplied>iyenne</w><w>pāsa</w><pc>॥</pc><w>om</w><w>no</w><w>ñake</w><w>a<supplied>ra</supplied>ṇemi</w><w>werpiśkatse</w><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="plain" quantity="2"/><w>te</w><pc>॥</pc><w>te-maṃt</w><w>yaknesa</w><w><supplied>cwi</supplied></w><w>laṃtuññeṣṣepi</w><w>rṣāke<supplied>ntse</supplied></w><gap reason="lost"/>
+<lb corresp="#a5"/><gap reason="plain" quantity="1"/><w><supplied>pi</supplied>l<supplied>t</supplied>āsasa</w><w>lkāṣṣi</w><w>cwi</w><w>pernesa</w><gap reason="plain" quantity="4"/><w>po</w><w>stāna</w><w>ñäkci<supplied>ye</supplied></w><gap reason="lost"/>
+<lb corresp="#a6"/><gap reason="plain" quantity="2"/><w><supplied>śa</supplied>noś</w><w>weṣṣäṃ</w><w>ṣarya</w><w>kauṃ</w><w><supplied>s</supplied>ū</w><w><supplied>pe</supplied>rn<supplied>e</supplied>w</w><w>t<supplied>a</supplied>kā-ñ</w><w>ente</w><w>ce</w><w>śaumo<supplied>n</supplied></w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="plain" quantity="3"/><w>takā-ñ</w><w>pokkāk<supplied>a</supplied></w><w>s<supplied>āri</supplied></w><w>pākri</w><w>tākāre-ñ</w><w>ñäkcyana</w><w>ramt</w><pc>॥</pc><w>tane</w><w>candramukhi</w><w>lānte</w><w>ke<supplied>r</supplied>cc<supplied>i</supplied>yainne</w><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="plain" quantity="1"/><w><supplied>ka</supplied>kkāk<supplied>a</supplied>rmeṃ</w><w>sārri</w><w>warpoṣäṃts<surplus>ä</surplus></w><w>e<supplied>nepre</supplied></w><gap reason="plain" quantity="3"/><w>om</w><w>no</w><w>ñake</w><w>se</w><w>araṇemi</w><w>werpiśkatstse</w><w>śpaluwentats</w><w>yw<supplied>ārc</supplied></w><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="plain" quantity="2"/><w>śānmya</w><w>ram</w><w>no</w><w>palsko</w><w>la<supplied>ntsoy</supplied></w><w><supplied>kUse</supplied></w><w>cets</w><w>krent<choice><orig>ä</orig><corr>a</corr></choice></w><w>śwatsanma</w><w>enepre</w><w>tākoyeṃ</w><w>tuk</w><w>cwi</w><w>päst</w><w>aiṣṣiye<supplied>ṃ</supplied></w><gap reason="lost"/>
+<lb corresp="#b4"/><w><gap reason="plain" unit="part"/></w><w>w<supplied>e</supplied>sk<supplied>e</supplied>ṃ</w><w>kUse</w><w>pi</w><w>se</w><w>eṅwe</w><w>ste</w><w>tswai<supplied>ññe</supplied></w><w>tane</w><w>cärkenta</w><w>klāsträ</w><w>po</w><w>krentaunasa</w><w>kekenu</w><w>ste</w><w>mā</w><w>wesäṃ</w><w>saswe</w><gap reason="lost"/>
+<lb corresp="#b5"/><w>cwi</w><w>krentaunaśc</w><w>palkäṃ</w><pc>॥</pc><w>tumeṃ</w><w>candramukhe</w><w>w<supplied>alo</supplied></w><w>ṣecakecce</w><w>asānne</w><w>ṣmemane</w><w>twār</w><w>ṣpä</w><w>araṇemiṃ</w><w>werpiśkacce</w><w>cä<supplied>rkenta</supplied></w><gap reason="lost"/>
+<lb corresp="#b6"/><w>amācänt<choice><orig>ä</orig><corr>a</corr></choice></w><w>prekṣäṃ</w><w>kUse</w><w>samp</w><w>eṅwe</w><w>ste</w><w>po</w><w>śāmnas<supplied>a</supplied></w><w><supplied>oṃ</supplied>ṣ<supplied>a</supplied>p<surplus>ä</surplus></w><w>lkātsi</w><w>ste</w><pc>॥</pc><w>kintarikne</w><pc>॥</pc><w>rājavat-yok</w><w>matsi</w><w>cwimp</w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><bibl><title corresp="ref:carling2000"/><citedRange>205</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1954"/><citedRange>754</citedRange></bibl></seg><seg><bibl><title corresp="ref:siegandsiegling1983"/><citedRange>244</citedRange></bibl></seg><seg><seg type="prim_transl">Carrying a waterskin (?) over his (s)houlder, he [= Araṇemi] behaves like a water bearer. [As a] pledge (?) ....</seg></seg></choice><choice corresp="#a1 #a2 #a3 #a4 #a5 #a6 #b1 #b2 #b3 #b4 #b5 #b6"><seg><bibl><title corresp="ref:schmidtkt2001"/><citedRange>321-322</citedRange></bibl></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">but you shall oppress your joy/feelings (?)!” Araṇemi speaks: “(Under) your command I am stand(ing)! ...” ....</seg></seg></choice><choice corresp="#a3"><seg><bibl><title corresp="ref:carling2000"/><citedRange>153</citedRange></bibl></seg><seg><seg type="prim_transl">“Take (the garlands) into the (pa)lace!” || Thereupon, however, the gardener A(ra)ṇemi now ...</seg></seg><seg><seg type="prim_transl">... bringe (die Kränze?) in den Palast!</seg><seg type="sec_transl" resp="TI">... bring (the wreaths?) into the palace!</seg><bibl><title corresp="ref:schmidtkt1974"/><citedRange>388</citedRange></bibl></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl">.... || In this way from (this) Ṛṣi of royal dignity ...</seg></seg></choice><choice corresp="#a5"><seg><seg type="prim_transl">... he kept seeing ... on the (lea)ves. For the sake of this one ... all trees divine ...</seg></seg></choice><choice corresp="#a6"><seg><bibl><title corresp="ref:carling2000"/><citedRange>404</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1969c"/><citedRange>203</citedRange></bibl></seg><seg><seg type="prim_transl">... he speaks to [his] wife: "[My] love! This day has become a glorious one for me, when (I saw?) this man ...</seg></seg></choice><choice corresp="#b1"><seg><bibl><title corresp="ref:siegandsiegling1983"/><citedRange>245</citedRange></bibl></seg><seg><seg type="prim_transl">... was for me. Call [hither]! Divine ... have appeared to me, as it were." || There in the palace of king Candramukha ...</seg></seg></choice><choice corresp="#b2"><seg><bibl><title corresp="ref:siegandsiegling1983"/><citedRange>245</citedRange></bibl></seg><seg><seg type="prim_transl">after having called ... in (the midst of) the members of council ... There however now the gardener Araṇemi in (the midst) of the best [ministers] ...</seg></seg></choice><choice corresp="#b3"><seg><bibl><title corresp="ref:thomas1968"/><citedRange>213</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1970a"/><citedRange>456</citedRange></bibl></seg><seg><bibl><title corresp="ref:siegandsiegling1983"/><citedRange>245</citedRange></bibl></seg><seg><seg type="prim_transl">... He virtually enthralled (the) que(en’s) mind. (Whichever) were the best foodstuffs before them, this they gave onto him. ...</seg></seg></choice><choice corresp="#b4"><seg><bibl><title corresp="ref:thomas1957"/><citedRange>251</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1979b"/><citedRange>12</citedRange></bibl></seg><seg><bibl><title corresp="ref:siegandsiegling1983"/><citedRange>245</citedRange></bibl></seg><seg><seg type="prim_transl">they speak: “Who may this man be? He is a-bringing garlands here. He is in possession of all virtues. Our lord (can) not (compete with him.) ...</seg></seg><seg><seg type="prim_transl">They say, «Who may this man be?» </seg><bibl><title corresp="ref:peyrot2013b"/><citedRange>362</citedRange></bibl></seg></choice><choice corresp="#b5"><seg><bibl><title corresp="ref:thomas1988"/><citedRange>252</citedRange></bibl></seg><seg><bibl><title corresp="ref:carling2000"/><citedRange>170</citedRange></bibl></seg><seg><seg type="prim_transl">[Compared] to his virtues he shines. Thereupon ki(ng) Candramukha, sitting on the lion-throne and for this reason (beholding?) the gardener Araṇemi (carrying) ga(rlands) ...</seg></seg></choice><choice corresp="#b5 #b6"><seg><bibl><title corresp="ref:schmidtkt1974"/><citedRange>377f</citedRange></bibl></seg><seg><seg type="prim_transl">Darauf fragt König Candramukha ... die Minister: "Wer ist jener Mann? ..."</seg><seg type="sec_transl" resp="TI">Thereupon king Candramukha asks ... the ministers: "Who is that man? ..."</seg><bibl><title corresp="ref:schmidtkt1974"/><citedRange>377-8</citedRange></bibl></seg></choice><choice corresp="#b6"><seg><bibl><title corresp="ref:hackstein1995"/><citedRange>73</citedRange></bibl></seg><seg><seg type="prim_transl">he [= Candramukha] asks the ministers: “Who is that man? He looks more (dis)tinguished than all [other] people.” || In [the tune] kintarik || Blue-coloured [is] the hair of his head ...</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="lingcomment">Often the nasal in gen.pl. endings is missing and incorrect vowels written: <hi>ā</hi> for <hi>a</hi> (<hi>klātsāt</hi> a2, <hi>tākāre-ñ</hi> b1), <hi>ä</hi> for <hi>a</hi> (<hi>krentä</hi> b3, <hi>amācäntä</hi> b6), <hi>a</hi> for <hi>ä</hi> (<hi>warporṣe</hi> a2, <hi>warpoṣäṃts</hi> b2), and <hi>ai</hi> for <hi>e</hi> (<hi>ke(r)cc(i)yainne</hi> b1). While the wrong interchange betwen the <hi>a</hi>-vowels is maybe simply due to sloppy copying, <hi>ai</hi> for <hi>e</hi> may rather be a hypercorrect.</note><note type="philcomment">Continues <ref type="ms" target="txt:m-tht90"/> after a gap of indeterminate length, continued on <ref type="ms" target="txt:m-tht92"/>. The translation basically follows <bibl><title corresp="ref:schmidtkt2001"/><citedRange>321-2</citedRange></bibl>. Araṇemi appears here as a gardener, who is sent to the palace of the king Candramukha with an errand from his master.</note><note type="remarks">Two fragments from the same leaf with a more or less direct joint in line 1 and 6; in line 2 only one akṣaras is completetly missing, in lines 3 and 4 only one, and in line 5 four; the left margin is partly preserved but no leaf number. Large part of the upper layer on the verso side of the right fragment is lost. According to the content, this leaf directly preceds <ref type="ms" target="txt:m-tht92"/>. Therefore, it was probably originally leaf 42 of the manuscript.</note><note corresp="#a1" type="lingcomment">If <hi>satyakār</hi> is the correct word separation, one may derive it from a presupposed Sanskrit form *<hi>satyakāra</hi>- 'satya-making', which is, however, not attested; to be sure, the phrase <hi>satya kṛ</hi>- (e.g., <hi>satyakriyā</hi>- 'oath') means 'to make a pledge, conclude to an agreement'. Accordingly, <bibl><title corresp="ref:schmidtkt2001"/><citedRange>321</citedRange></bibl> suggests the translation "Pfand" with question mark.</note><note corresp="#a1" type="philcomment">On the construction <hi>war āṣtsiś yakne yamaṣṣäṃ</hi>, see <bibl><title corresp="ref:dietz1981"/><citedRange>90</citedRange></bibl> and 153, note 4.</note><note corresp="#a2" type="lingcomment"><hi>warporṣe</hi> seems to be a <hi>ṣṣe</hi>-derivative from the abstract <hi>warpor</hi> from the root <hi>wärpā</hi>- (Gv.) which has many different meanings: 'feel; enjoy; suffer; receive; consent'. Note that one would expect <hi>wärporṣe</hi>; if this is not simply a misspelling, the accent may be analogical to the initially accented abstract <hi>warpalñe</hi> beside derived <hi>warpalñeṣṣe</hi>. Note that the PPt <hi>warpoṣäṃts</hi> made from the same root in b2 also shows incorrect <hi>wa</hi>.</note><note corresp="#a2" type="lingcomment">2.sg.act. <hi>klātsāt</hi> from <hi>kältsā</hi>- (Gv.) is a misspelling for either <hi>klātsat</hi> or <hi>klatsāt</hi>; but since the full grade in the root rather speaks in favor of an ablauting subjunctive V stem, initial accent in the active singular and accordingly <hi>klātsat</hi> ought to be the correct form (cf. <bibl><title corresp="ref:malzahn2010"/><citedRange>286</citedRange></bibl>). Note that we have a similar misspelling <hi>tākāre-ñ</hi> for <hi>takāre-ñ</hi> in b1.</note><note corresp="#a5" type="philcomment">The sense no doubt is that nature mirrors the presence of Araṇemi such as "he kept seeing (blissfull signs) on the (lea)ves. For the sake of this one ... all trees (showed) divine (bloom/smell vel sim.)". Obl.pl. <hi>ñäkci(yeṃ)</hi> is also possible.</note><note corresp="#b1" type="lingcomment"><hi>ke(r)cc(i)yainne</hi> for <hi>ke(r)cc(i)yenne</hi> (correct in a3) may be a hypercorrect form.</note><note corresp="#b1" type="philcomment">If the general calculation about the joint of the two fragments is correct, there is only space for one single missing akṣara (as per Sieg/Siegling). Thomas <bibl><title corresp="ref:siegandsiegling1983"/><citedRange>245</citedRange></bibl> proposed restoration to <hi>s(kwamna)</hi> ‘fortune', followed by <bibl><title corresp="ref:schmidtkt2001"/><citedRange>322</citedRange></bibl>; however, one would expect traces of the complex sign <hi>kw</hi> to be seen below the <hi>s</hi>, so this is unlikely even though it would fit the fem.pl. adjective very well. 2.pl. Imp <hi>pokkāk(a)s</hi> is also possible.</note><note corresp="#b2" type="lingcomment">The adjective gen.pl. <hi>śpaluwenta(ṃ)ts</hi> "among the best" no doubt refers to the members of council, so that one would expect a masculine form, but a gen.pl.masc. from a <hi>u</hi>-adjective ought to be written <hi>śpaluwentäṃts</hi> (cf. <bibl><title corresp="ref:krauseandthomas1960"/><citedRange>155f</citedRange></bibl>., § 243-4.)</note><note corresp="#b4" type="lingcomment">The 3.sg.mid. Prs Xa <hi>klāsträ</hi> for <hi>källāsträ</hi> shows irregular syncope, a characteristics of informal speech. Note that the whole Araṇemi manuscript not so rarely shows informal style characteristics. The hypercorrect 〈ai〉 in b1 fits here as well. Furthermore, <hi>eṅwe</hi> for <hi>eṅkwe</hi>.</note><note corresp="#b4" type="philcomment">Thomas <bibl><title corresp="ref:siegandsiegling1983"/><citedRange>245</citedRange></bibl> correctly points out that there is only space for one single missing akṣara in the lacuna between the two fragments, so only the restoration <hi>tswai(ññe)</hi> is possible.</note><note corresp="#b6" type="lingcomment"><hi>eṅwe</hi> for <hi>eṅkwe</hi>.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition</label><bibl><title corresp="ref:siegandsiegling1953"/><citedRange>28-29</citedRange></bibl>;<seg corresp="#b1"><bibl><title corresp="ref:meunier2013"/><citedRange>133</citedRange></bibl>. </seg></p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 91" type="external">THT 91</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/00/0091.htm" type="external">THT 91</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="date_publication_old"/>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_transliteration_old">a1 ntsesa watsālai premane war āṣtsiś yakne yama_ṣ_aṃ satyakār [a] ///
+a2 warporṣe mai klātsā_t(\)• araṇemi we_ṣ_ṣ_aṃ tañ yai[tk]o (– ·)y(·) ñca nes[au] sa ///
+a3 r(·)iyenne pāsa || om no ñake ○ [a](–)ṇemi werpiśkatse ///
+a4 (– –) te || [t]e-maṃt yaknesa ○ (–) [laṃtu]ññeṣṣepi rṣāke ///
+a5 (– –) l(·)āsasa lkāṣṣi cwi perne[sa] (– – – ) – po stāna ñäkci ///
+a6 (– –) – noś we_ṣ_ṣ_aṃ ṣarya [k]auṃ (·)[ū] (–)rn(·)[w] t(·)kā-ñä\ ente ce śaumo ///
+b1 (– – –) t[a]kā-ñä\ pokkāk(·)[s](· –) pāk[r]i tākāre-ñ[ä]\ ñäkcyana ram_t\• || tane candramukhi lānte ke(·)cc(·)yainne ///
+b2 (– –)kkā[k](·)rmeṃ sārri warpo_ṣ_aṃt_s(\) e (– – – – –) [o]m no ñake se araṇemi werpiśkatstse śpaluwentat_s\• yw(·) ///
+b3 (– –) śānmya ram no palsko la ○ (– –) – cet_s\ kren_t_a śwatsanma enepre tākoyeṃ tuk cwi _p_ast aiṣṣiy[e] ///
+b4 (·)[w](·)sk·ṃ k_use pi se eṅwe ste tsw[ai] ○ (–) [ta]ne cärkenta klāst_r_a po krentaunasa kekenu ste mā we_s_aṃ saswe ///
+b5 cwi krentauna_śc\• pa_l_k_aṃ || tumeṃ candra[m]ukh[e] [wa](–) ṣecakecce asānne ṣmemane twār _ṣ[_p]_a araṇemiṃ werpiśkacce cä ///
+b6 amācän_t_a pre_k_ṣ_aṃ k_use samp eṅwe ste po śāmna[s](· –)[ṣ](·)_p(\) lkātsi ste || kintarikne || rājavat-yo_k\ matsi cwim[_p]\• ///</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=327874;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=327874;rotate=0;imageType=_M||THT 91 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=336026;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=336026;rotate=0;imageType=_M||THT 91 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=327881;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=327881;rotate=0;imageType=_M||THT 91 verso
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=336025;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=336025;rotate=0;imageType=_M||THT 91 verso</item>
+               <item n="m_lingcomment_old">&lt;p&gt;
+Often the nasal in gen.pl. endings is missing and incorrect vowels written: &lt;i&gt;ā&lt;/i&gt; for &lt;i&gt;a&lt;/i&gt; (&lt;i&gt;klātsāt&lt;/i&gt; a2, &lt;i&gt;tākāre-ñ&lt;/i&gt; b1), &lt;i&gt;ä&lt;/i&gt; for &lt;i&gt;a&lt;/i&gt; (&lt;i&gt;krentä&lt;/i&gt; b3, &lt;i&gt;amācäntä&lt;/i&gt; b6), &lt;i&gt;a&lt;/i&gt; for &lt;i&gt;ä&lt;/i&gt; (&lt;i&gt;warporṣe&lt;/i&gt; a2, &lt;i&gt;warpoṣäṃts&lt;/i&gt; b2), and &lt;i&gt;ai&lt;/i&gt; for &lt;i&gt;e&lt;/i&gt; (&lt;i&gt;ke(r)cc(i)yainne&lt;/i&gt; b1). While the wrong interchange betwen the &lt;i&gt;a&lt;/i&gt;-vowels is maybe simply due to sloppy copying, &lt;i&gt;ai&lt;/i&gt; for &lt;i&gt;e&lt;/i&gt; may rather be a hypercorrect.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;a1&lt;/b&gt; If &lt;i&gt;satyakār&lt;/i&gt; is the correct word separation, one may derive it from a presupposed Sanskrit form *&lt;i&gt;satyakāra&lt;/i&gt;- 'satya-making', which is, however, not attested; to be sure, the phrase &lt;i&gt;satya kṛ&lt;/i&gt;- (e.g., &lt;i&gt;satyakriyā&lt;/i&gt;- 'oath') means 'to make a pledge, conclude to an agreement'. Accordingly, [[Schmidt KT 2001]]: 321 suggests the translation "Pfand" with question mark.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;a2&lt;/b&gt; &lt;i&gt;warporṣe&lt;/i&gt; seems to be a &lt;i&gt;ṣṣe&lt;/i&gt;-derivative from the abstract &lt;i&gt;warpor&lt;/i&gt; from the root &lt;i&gt;wärpā&lt;/i&gt;- (Gv.) which has many different meanings: 'feel; enjoy; suffer; receive; consent'. Note that one would expect &lt;i&gt;wärporṣe&lt;/i&gt;; if this is not simply a misspelling, the accent may be analogical to the initially accented abstract &lt;i&gt;warpalñe&lt;/i&gt; beside derived &lt;i&gt;warpalñeṣṣe&lt;/i&gt;. Note that the PPt &lt;i&gt;warpoṣäṃts&lt;/i&gt; made from the same root in b2 also shows incorrect &lt;i&gt;wa&lt;/i&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;a2&lt;/b&gt; 2.sg.act. &lt;i&gt;klātsāt&lt;/i&gt; from &lt;i&gt;kältsā&lt;/i&gt;- (Gv.) is a misspelling for either &lt;i&gt;klātsat&lt;/i&gt; or &lt;i&gt;klatsāt&lt;/i&gt;; but since the full grade in the root rather speaks in favor of an ablauting subjunctive V stem, initial accent in the active singular and accordingly &lt;i&gt;klātsat&lt;/i&gt; ought to be the correct form (cf. [[Malzahn 2010]]: 286). Note that we have a similar misspelling &lt;i&gt;tākāre-ñ&lt;/i&gt; for &lt;i&gt;takāre-ñ&lt;/i&gt; in b1.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;b1&lt;/b&gt; &lt;i&gt;ke(r)cc(i)yainne&lt;/i&gt; for &lt;i&gt;ke(r)cc(i)yenne&lt;/i&gt; (correct in a3) may be a hypercorrect form.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;b2&lt;/b&gt; The adjective gen.pl. &lt;i&gt;śpaluwenta(ṃ)ts&lt;/i&gt; "among the best" no doubt refers to the members of council, so that one would expect a masculine form, but a gen.pl.masc. from a &lt;i&gt;u&lt;/i&gt;-adjective ought to be written &lt;i&gt;śpaluwentäṃts&lt;/i&gt; (cf. [[Krause and Thomas, TEB I]]: 155f., § 243-4.)
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;b4&lt;/b&gt; The 3.sg.mid. Prs Xa &lt;i&gt;klāsträ&lt;/i&gt; for &lt;i&gt;källāsträ&lt;/i&gt; shows irregular syncope, a characteristics of informal speech. Note that the whole Araṇemi manuscript not so rarely shows informal style characteristics. The hypercorrect 〈ai〉 in b1 fits here as well. Furthermore, &lt;i&gt;eṅwe&lt;/i&gt; for &lt;i&gt;eṅkwe&lt;/i&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;b6&lt;/b&gt; &lt;i&gt;eṅwe&lt;/i&gt; for &lt;i&gt;eṅkwe&lt;/i&gt;.
+&lt;/p&gt;</item>
+               <item n="m_manuscript_old">Araṇemi α</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 91" target="idp"&gt;THT 91&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/00/0091.htm" target="titus"&gt;THT 91&lt;/a&gt;.&lt;br&gt;
+Edition: [[TochSprR(B) II]]: 28-29;
+&lt;b&gt;b1&lt;/b&gt; [[Meunier 2013]]: 133.&lt;br&gt;
+Complete translation: [[Schmidt KT 2001]]: 321-322.&lt;br&gt;
+Translation:
+&lt;b&gt;a1&lt;/b&gt; [[Carling 2000]]: 205, [[Thomas 1954]]: 754, [[TochSprR(B)2]]: 244;
+&lt;b&gt;a3&lt;/b&gt; [[Carling 2000]]: 153, [[Schmidt KT 1974]]: 388;
+&lt;b&gt;a6&lt;/b&gt; [[Carling 2000]]: 404, [[Thomas 1969c]]: 203;
+&lt;b&gt;b1&lt;/b&gt; [[TochSprR(B)2]]: 245;
+&lt;b&gt;b2&lt;/b&gt; [[TochSprR(B)2]]: 245;
+&lt;b&gt;b3&lt;/b&gt; [[Thomas 1968]]: 213, [[Thomas 1970a]]: 456, [[TochSprR(B)2]]: 245;
+&lt;b&gt;b4&lt;/b&gt; [[Thomas 1957]]: 251, [[Thomas 1979b]]: 12, [[TochSprR(B)2]]: 245; [[Peyrot, ToSu]]: 362;
+&lt;b&gt;b5&lt;/b&gt; [[Thomas 1988]]: 252;
+&lt;b&gt;b5.&lt;/b&gt; [[Carling 2000]]: 170;
+&lt;b&gt;b5f&lt;/b&gt; [[Schmidt KT 1974]]: 377f;
+&lt;b&gt;b6&lt;/b&gt; [[Hackstein 1995]]: 73.</item>
+               <item n="file_created_old">1332006597</item>
+               <item n="file_modified_old">1532957829</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_philcomment_old">&lt;p&gt;Continues [[THT 90]] after a gap of indeterminate length, continued on [[THT 92]]. The translation basically follows [[Schmidt KT 2001]]: 321-2. Araṇemi appears here as a gardener, who is sent to the palace of the king Candramukha with an errand from his master.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a1&lt;/b&gt; On the construction &lt;i&gt;war āṣtsiś yakne yamaṣṣäṃ&lt;/i&gt;, see [[Dietz 1981]]: 90 and 153, note 4.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a5&lt;/b&gt; The sense no doubt is that nature mirrors the presence of Araṇemi such as "he kept seeing (blissfull signs) on the (lea)ves. For the sake of this one ... all trees (showed) divine (bloom/smell vel sim.)". Obl.pl. &lt;i&gt;ñäkci(yeṃ)&lt;/i&gt; is also possible.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b1&lt;/b&gt; If the general calculation about the joint of the two fragments is correct, there is only space for one single missing akṣara (as per Sieg/Siegling). Thomas [[TochSprR(B)2]]: 245 proposed restoration to &lt;i&gt;s(kwamna)&lt;/i&gt; ‘fortune', followed by [[Schmidt KT 2001]]: 322; however, one would expect traces of the complex sign &lt;i&gt;kw&lt;/i&gt; to be seen below the &lt;i&gt;s&lt;/i&gt;, so this is unlikely even though it would fit the fem.pl. adjective very well. 2.pl. Imp &lt;i&gt;pokkāk(a)s&lt;/i&gt; is also possible.&lt;/p&gt; 
+&lt;p&gt;&lt;b&gt;b4&lt;/b&gt; Thomas [[TochSprR(B)2]]: 245 correctly points out that there is only space for one single missing akṣara in the lacuna between the two fragments, so only the restoration &lt;i&gt;tswai(ññe)&lt;/i&gt; is possible.&lt;/p&gt;</item>
+               <item n="m_passage_old"/>
+               <item n="m_editor_old">Melanie Malzahn</item>
+               <item n="file_location_old">pages/manuscript/THT_0001_0633/tht91.txt</item>
+               <item n="m_completeness_old"/>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_lines_old">6</item>
+               <item n="access_old">public</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_old">Šorčuq</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_prev_old"/>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old">bernhard</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old">With late and hypercorrect forms</item>
+               <item n="category_old">manuscript</item>
+               <item n="m_translation_old">a1 Carrying a waterskin (?) over his (s)houlder, he [= Araṇemi] behaves like a water bearer. [As a] pledge (?) ....
+a2 but you shall oppress your joy/feelings (?)!” Araṇemi speaks: “(Under) your command I am stand(ing)! ...” ....
+a3 “Take (the garlands) into the (pa)lace!” || Thereupon, however, the gardener A(ra)ṇemi now ...
+a4 .... || In this way from (this) Ṛṣi of royal dignity ...
+a5 ... he kept seeing ... on the (lea)ves. For the sake of this one ... all trees divine ...
+a6 ... he speaks to [his] wife: "[My] love! This day has become a glorious one for me, when (I saw?) this man ...
+b1 ... was for me. Call [hither]! Divine ... have appeared to me, as it were." || There in the palace of king Candramukha ...
+b2 after having called ... in (the midst of) the members of council ... There however now the gardener Araṇemi in (the midst) of the best [ministers] ...
+b3 ... He virtually enthralled (the) que(en’s) mind. (Whichever) were the best foodstuffs before them, this they gave onto him. ...
+b4 they speak: “Who may this man be? He is a-bringing garlands here. He is in possession of all virtues. Our lord (can) not (compete with him.) ...
+b5 [Compared] to his virtues he shines. Thereupon ki(ng) Candramukha, sitting on the lion-throne and for this reason (beholding?) the gardener Araṇemi (carrying) ga(rlands) ...
+b6 he [= Candramukha] asks the ministers: “Who is that man? He looks more (dis)tinguished than all [other] people.” || In [the tune] kintarik || Blue-coloured [is] the hair of his head ...</item>
+               <item n="m_subgenre_old">Jātaka/Avadāna</item>
+               <item n="m_metric_form_old">Both</item>
+               <item n="m_tune_old"/>
+               <item n="m_size_w_old"/>
+               <item n="m_expedition_old">T III Š 91.25 + 91.26</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old">Two fragments from the same leaf with a more or less direct joint in line 1 and 6; in line 2 only one akṣaras is completetly missing, in lines 3 and 4 only one, and in line 5 four; the left margin is partly preserved but no leaf number. Large part of the upper layer on the verso side of the right fragment is lost. According to the content, this leaf directly preceds [[THT 92]]. Therefore, it was probably originally leaf 42 of the manuscript.</item>
+               <item n="m_other_sigla_old">B 91</item>
+               <item n="m_script_old">Classical</item>
+               <item n="ms_old">THT 91</item>
+               <item n="project_comment_old">&lt;p&gt;Alternative classifications:
+&lt;table class="table_lines"&gt;
+  &lt;tr&gt;&lt;td title="MP"&gt;Peyrot&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="MM"&gt;Malzahn&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TT"&gt;Tamai&lt;/td&gt;&lt;td title="C5"&gt;II-3 (800-900)&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TTC14"&gt;Tamai-C14&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+&lt;p&gt;Translations from [[Peyrot, ToSu]]
+&lt;table class="table_lines"&gt;
+&lt;th&gt;Lines&lt;/th&gt;
+&lt;th&gt;Translation&lt;/th&gt;
+&lt;th&gt;Pages&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt;b4&lt;/td&gt;
+&lt;td&gt;They say, «Who may this man be?» &lt;/td&gt;
+&lt;td&gt;362&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+&lt;p&gt;Translations from [[Schmidt KT 1974]]
+&lt;table class="table_lines"&gt;
+&lt;th&gt;Lines&lt;/th&gt;
+&lt;th&gt;Translation&lt;/th&gt;
+&lt;th&gt;Pages&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt;a3&lt;/td&gt;
+&lt;td&gt;&lt;span title="... bring (the wreaths?) into the palace!"&gt;... bringe (die Kränze?) in den Palast!&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;388&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;b5-6&lt;/td&gt;
+&lt;td&gt;&lt;span title='Thereupon king Candramukha asks ... the ministers: "Who is that man? ..."'&gt;Darauf fragt König Candramukha ... die Minister: "Wer ist jener Mann? ..."&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;377-8&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;</item>
+               <item n="m_parallels_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_meter_old">4-4/4-3</item>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old"> āntsesa|(ā)|ntsesa
+a1 watsālai premane war āṣtsiś yakne yamaṣṣäṃ|yamaṣäṃ satyakār a- ///
+a2 warporṣe mai klātsāt araṇemi weṣṣäṃ tañ yaitko(rne) (kl)y(e)ñca nesau sa- /// kercciyeṃne|(ker)|r(cc)iyenne
+a3 pāsa || omp|om no ñake a(ra)ṇemi werpiśkatstse|werpiśkatse ///
+a4 (– –) te || te-mant|te-maṃt yaknesa (cwi) lantuññeṣṣepi|laṃtuññeṣṣepi rṣāke(ntse) ///
+a5 (– pi)l(t)āsasa lkāṣṣi cwi pernesa (– – –) – po stāna ñäkci(ye) ///
+a6 (– –) śanośc|(śa)noś weṣṣäṃ ṣarya kauṃ (s)ū (pe)rn(e)w t(a)kā-ñ ente ce śaumoṃ|śaumo(n) ///
+b1 (– – –) takā-ñ pokkāk(a) s(āri) pākri takāre-ñ|tākāre-ñ ñäkciyana|ñäkcyana ramt || tane candramukhi lānte kercciyeṃne|ke(r)cc(i)yainne ///
+b2 – (ka)kkāk(a)rmeṃ sārri wärpoṣäṃts|warpoṣäṃts e(nepre – – –) omp|om no ñake se araṇemi werpiśkatstse śpaluwentaṃts|śpaluwentats yw(ārc) ///
+b3 – – śānmya ramt|ram no palsko lāntsoy|la(ntsoy k_use) ceṃts|cets krent{a} śwatsanma enepre tākoyeṃ tuk cwi päst aiṣṣiye(ṃ) ///
+b4 (·) w(e)sk(e)ṃ k_use pi se eṅkwe|eṅwe ste tswai(ññe) tane cärkenta källāstär|klāsträ po krentaunasa kekenu ste mā wesäṃ saswe ///
+b5 cwi krentaunaśc palkäṃ_(Prs.Sg.)|palkäṃ || tumeṃ candramukhe w(alo) ṣecakecce asāṃne|asānne ṣmemane twār ṣpä araṇemiṃ werpiśkacce cä(rkenta) ///
+b6 amācänt{a} prekṣäṃ k_use samp eṅkwe|eṅwe ste po śāmnas(a) (oṃ)ṣ(a)p lkātsi ste || kintarikne || rājavat-yok matsi cwimp ///</item>
+               <item n="m_title_old">Araṇemijātaka</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;Alternative classifications:
+
+&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

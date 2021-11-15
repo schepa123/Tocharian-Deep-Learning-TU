@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-ioltoch869">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>IOL Toch 869</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library (London)</repository>
+                  <idno>IOL Toch 869</idno>
+                  <altIdentifier>
+                     <idno>C 47</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Bhikṣu-Prātimokṣasūtra</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>5,1</height>
+                              <width>4,1</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">5?</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical frg:ls-cetom-aberrant-None"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Vinaya</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=79970;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=79970;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL869a.jpg" height="1007px" width="808px"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone><unclear>ly</unclear><gap reason="plain" unit="part"/></zone><zone>sa</zone><zone>wa</zone><zone>ssi</zone><zone>yā</zone><zone>mtRA</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone><unclear>s</unclear><gap reason="plain" unit="part"/></zone><zone>tu</zone><zone>meṃ</zone><zone>au</zone><zone>ṣa¯</zone><zone>¯P</zone><zone><unclear>y</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone>rso</zone><zone>nta</zone><zone>PA</zone><zone>rka</zone><zone>rñe</zone><zone>sa</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><zone>pa</zone><zone>ñä</zone><zone>kte</zone><zone>ntse</zone><zone>ra</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>i</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=80067;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=80067;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL869b.jpg" height="1007px" width="808px"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone><gap reason="plain" unit="part"/><unclear>ñ</unclear><gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone><gap reason="plain" unit="part"/>ts<gap reason="plain" unit="part"/></zone><zone>a</zone><zone>śi</zone><zone>yai</zone><zone>me</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><zone><unclear>ś</unclear>wā</zone><zone>ma</zone><zone>ne</zone><zone>tā</zone><zone>kaṃ</zone><zone><unclear>a</unclear></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><zone><unclear>po</unclear></zone><zone>sta</zone><zone>ññe</zone><zone>ṣa</zone><zone>mā</zone><zone>ne</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>cca</zone><zone>lu</zone><zone>wa</zone><zone>o</zone><zone>stwai</zone><zone>we</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p><milestone unit="passage" n="Pāt.90-Pratid.3"/>
+<lb corresp="#a1"/><gap reason="lost"/><w>-ly<gap reason="plain" unit="part"/>sa</w><w>wassi</w><w>yāmträ</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><w>s<gap reason="plain" unit="part"/></w><w>tumeṃ</w><w>auṣap</w><w>y<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><w>rsonta</w><w>pärkarñesa</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="lost"/><w>pañäktentse</w><w>ra</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#a5"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>i</w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>ñ<gap reason="plain" unit="part"/></w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w><gap reason="plain" unit="part"/>ts<gap reason="plain" unit="part"/></w><w>aśiyaime</w><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><w>śwāmane</w><w>tākaṃ</w><w>a<milestone unit="w" type="break"/></w><gap reason="lost"/>
+<lb corresp="#b4"/><gap reason="lost"/><w>postaññe</w><w>ṣamāne</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b5"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>ccaluwa</w><w>ostwaiwe</w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">/// If (a monk) makes the clothes in the raining ... ///</seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">/// ... [If he makes] more than that ///</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">/// spans in length ///</seg></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl">/// (according to) the span of Buddha ///</seg></seg></choice><choice corresp="#a5"><seg><seg type="prim_transl">/// ... ///</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">/// ... ///</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">/// from an unrelated nun ///</seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl">/// are eating, a nun ///</seg></seg></choice><choice corresp="#b4"><seg><seg type="prim_transl">/// finally a monk ///</seg></seg></choice><choice corresp="#b5"><seg><seg type="prim_transl">/// the single houses which have been accepted ///</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note corresp="#a1" type="philcomment">last character = <hi>pā</hi>?</note><note corresp="#b5" type="philcomment"><hi>ccaluwa</hi>: a little inkspot on top of the <hi>wa</hi> is probably not to be read as anusvāra.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 869" type="external">IOL Toch 869</ref></bibl>. </p>
+            <p><label>Identification</label> Schmidt apud <bibl><title corresp="ref:simson2000"/><citedRange>65</citedRange></bibl>.</p>
+            <p><label>Edition</label><bibl><title corresp="ref:tamai2007"/><citedRange>№869</citedRange></bibl><bibl><title corresp="ref:tamai2007"/><citedRange>№869</citedRange></bibl>; <bibl><title corresp="ref:ogihara2009"/><citedRange>65, 254-256</citedRange></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=79970;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=79970;rotate=0;imageType=_M||IOL Toch 869 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=80067;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=80067;rotate=0;imageType=_M||IOL Toch 869 verso</item>
+               <item n="date_publication_old"/>
+               <item n="m_transliteration_old">a1 /// -[ly]·sa wassi yāmt_r_a – ///
+a2 /// [s]· tumeṃ auṣa_p\ [y]· ///
+a3 /// rsonta _p_arkarñesa – ///
+a4 /// pañäktentse ra – ///
+a5 /// ·i ///
+b1 /// ·[ñ]· – ///
+b2 /// – [·]ts· aśiyaime ///
+b3 /// [ś]wāmane tākaṃ [a]- ///
+b4 /// [po]staññe ṣamāne – ///
+b5 /// – ccaluwa ostwaiwe ///</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 869"&gt;IOL Toch 869&lt;/a&gt;.&lt;br&gt;
+Edition: [[Tamai 2007]]: №869, [[Tamai 2007]]: №869; [[Ogihara 2009]]: 65, 254-256.&lt;br&gt;
+Identification: Schmidt apud [[Simson 2000]]: 65.</item>
+               <item n="m_size_h_old">5,1</item>
+               <item n="m_next_old"/>
+               <item n="file_created_old">1326271078</item>
+               <item n="file_modified_old">1479222670</item>
+               <item n="m_passage_old">Pāt.90-Pratid.3</item>
+               <item n="m_philcomment_old">&lt;b&gt;a1.&lt;/b&gt; last character = &lt;i&gt;pā&lt;/i&gt;?
+&lt;p&gt;&lt;b&gt;b5.&lt;/b&gt; &lt;i&gt;ccaluwa&lt;/i&gt;: a little inkspot on top of the &lt;i&gt;wa&lt;/i&gt; is probably not to be read as anusvāra.&lt;/p&gt;</item>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="file_location_old">pages/manuscript/IOL_Toch/ioltoch869.txt</item>
+               <item n="m_lines_old">5?</item>
+               <item n="m_collection_old">British Library (London)</item>
+               <item n="access_old">restricted</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="user_created_old">michael</item>
+               <item n="user_modified_old">theres</item>
+               <item n="m_prev_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old">None</item>
+               <item n="m_translation_old">a1 /// If (a monk) makes the clothes in the raining ... ///
+a2 /// ... [If he makes] more than that ///
+a3 /// spans in length ///
+a4 /// (according to) the span of Buddha ///
+a5 /// ... ///
+b1 /// ... ///
+b2 /// from an unrelated nun ///
+b3 /// are eating, a nun ///
+b4 /// finally a monk ///
+b5 /// the single houses which have been accepted ///</item>
+               <item n="m_subgenre_old">Vinaya</item>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_tune_old"/>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old"/>
+               <item n="m_other_sigla_old">C 47</item>
+               <item n="m_size_w_old">4,1</item>
+               <item n="m_expedition_old"/>
+               <item n="m_parallels_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="project_comment_old"/>
+               <item n="ms_old">IOL Toch 869</item>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_title_old">Bhikṣu-Prātimokṣasūtra</item>
+               <item n="m_transcription_old">a1 /// -ly·sa wastsi|wassi yāmtär|yāmträ – ///
+a2 /// s· tumeṃ auṣap y· ///
+a3 /// rsonta pärkarñesa – ///
+a4 /// pañäktentse ra – ///
+a5 /// ·i ///
+b1 /// ·ñ· – ///
+b2 /// – ·ts· aśiyaime ///
+b3 /// śwāmane tākaṃ a- ///
+b4 /// postaññe ṣamāne – ///
+b5 /// – ccaluwa ostwaiwe ///</item>
+               <item n="m_genre_old">Literary</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

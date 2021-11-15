@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-sht3354">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>SHT 3354</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>SHT 3354</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Śikhālakasūtra</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>6,5</height>
+                              <width>5,2</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">4(+?)</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="txb"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Gloss</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="verso">
+            <line n="1" xml:id="b1"><zone>mā</zone><zone>la</zone><zone><unclear>y</unclear>o</zone></line>
+            <line n="3" xml:id="b3"><zone>mn<gap reason="plain" unit="part"/></zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#b1"/><w>māla</w><w>yo<add>ksi</add></w>
+<lb corresp="#b3"/><w><add>śā</add>mn<supplied>a</supplied></w></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#b1"><seg><seg type="prim_transl">to drink alcohol</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">men (?)</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="philcomment">The Sanskrit text on the fragments (from the Śikhālakasūtra) corresponds to sūtra 135 in the Chinese Madhyamāgama.</note><note type="remarks">The small fragment (<hi>ya[ṃ]ti</hi>) belongs at the beginning of line r.1/a1 (or v.4/b4) of the large fragment. Belongs to the same leaf as SHT 1914.</note><note corresp="#b1" type="philcomment">glosses Skt. <hi>surāpānam</hi> 'drinking liquor'. There seem to be no further traces after <hi>[y]o –</hi>. Although several Tocharian glosses on this fragment are deciphered by Schmidt (apud <bibl><title corresp="ref:wille2008"/><citedRange>51</citedRange></bibl>), this gloss has been left unmentioned. As for the glosses deciphered, one of these is (b3) <hi>ānu po ok <hi rend="underline">ra</hi>ṃta<hi rend="underline">r</hi><hi rend="subscript">\</hi></hi> 'übe das Aufhören, [und] du wirst alle acht aufgeben!' ['practice cessation [and] you will give up all eight [of them]!'] (found on the joined fragment SHT 1914). Unfortunately, <bibl><title corresp="ref:peyrot2014"/><citedRange>159</citedRange></bibl> cannot confirm Schmidt's reading; to him, this gloss is essentially illegible.</note><note corresp="#b3" type="philcomment">glosses Skt. <hi>(puru)[ṣ](aṃ)</hi> 'man' (<bibl><title corresp="ref:wille2008"/><citedRange>50</citedRange></bibl>). The gloss is found on top of the akṣara <hi>ti</hi> of v4/b4 <hi>(dhva)ṃ(sa)ya[ṃ]ti</hi>, on a loose piece in the frame that directly joins the main fragment.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/></bibl>; <bibl><title corresp="ref:peyrot2014"/><citedRange>159</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="file_location_old">pages/manuscript/sht3354.txt</item>
+               <item n="m_completeness_old"/>
+               <item n="access_old">restricted</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_lines_old">4(+?)</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_transliteration_old">b1 māla [y]o
+b3 mn·</item>
+               <item n="m_language_stage_old"/>
+               <item n="date_publication_old"/>
+               <item n="m_image_old"/>
+               <item n="m_bib_old">[[IDP]]; [[Peyrot 2014]]: 159.</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="file_modified_old">1485173900</item>
+               <item n="file_created_old">1446206831</item>
+               <item n="m_size_h_old">6,5</item>
+               <item n="m_next_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_editor_old"/>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old">&lt;p&gt;The Sanskrit text on the fragments (from the Śikhālakasūtra) corresponds to sūtra 135 in the Chinese Madhyamāgama.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b1.&lt;/b&gt; glosses Skt. &lt;i&gt;surāpānam&lt;/i&gt; 'drinking liquor'. There seem to be no further traces after &lt;i&gt;[y]o –&lt;/i&gt;. Although several Tocharian glosses on this fragment are deciphered by Schmidt (apud [[SHT X]]: 51), this gloss has been left unmentioned. As for the glosses deciphered, one of these is (b3) &lt;i&gt;ānu po ok &lt;u&gt;ra&lt;/u&gt;ṃta&lt;u&gt;r&lt;/u&gt;&lt;sub&gt;\&lt;/sub&gt;&lt;/i&gt; 'übe das Aufhören, [und] du wirst alle acht aufgeben!' ['practice cessation [and] you will give up all eight [of them]!'] (found on the joined fragment SHT 1914). Unfortunately, [[Peyrot 2014]]: 159 cannot confirm Schmidt's reading; to him, this gloss is essentially illegible.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b3.&lt;/b&gt; glosses Skt. &lt;i&gt;(puru)[ṣ](aṃ)&lt;/i&gt; 'man' ([[SHT X]]: 50). The gloss is found on top of the akṣara &lt;i&gt;ti&lt;/i&gt; of v4/b4 &lt;i&gt;(dhva)ṃ(sa)ya[ṃ]ti&lt;/i&gt;, on a loose piece in the frame that directly joins the main fragment.&lt;/p&gt;</item>
+               <item n="m_size_w_old">5,2</item>
+               <item n="m_expedition_old"/>
+               <item n="m_other_sigla_old"/>
+               <item n="m_language_old">Sanskrit+TB</item>
+               <item n="m_remarks_old">&lt;p&gt;The small fragment (&lt;i&gt;ya[ṃ]ti&lt;/i&gt;) belongs at the beginning of line r.1/a1 (or v.4/b4) of the large fragment. Belongs to the same leaf as SHT 1914.&lt;/p&gt;</item>
+               <item n="ms_old">SHT 3354</item>
+               <item n="project_comment_old"/>
+               <item n="m_script_old"/>
+               <item n="m_parallels_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_title_old">Śikhālakasūtra</item>
+               <item n="m_transcription_old">b1 māla yo«ksi»
+b3 «śā»mn(a)</item>
+               <item n="m_leaf_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_prev_old"/>
+               <item n="user_modified_old">theres</item>
+               <item n="user_created_old">theres</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_translation_old">b1 to drink alcohol
+b2 men (?)</item>
+               <item n="m_subgenre_old">Gloss</item>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_tune_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-pkas12c">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PK AS 12C</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Hannes A. Fellner</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</repository>
+                  <idno>PK AS 12C</idno>
+                  <altIdentifier>
+                     <idno>Pelliot Koutchéen Ancienne Série 12C</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Mahābhiniṣkramaṇa</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>archaic</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-archaic frg:ls-peyrot-A1 frg:ls-C14 frg:ls-malzahn-A4 frg:ls-C14"/>
+         </langUsage>
+         <textClass default="false">
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Drama</term>
+               <term type="prose_verse">prose</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface n="XLKFUZYZTPMXBPOSOZNTMENU" type="recto" lrx="1536" lry="593">
+            <graphic url="ASHuard/AS12Ca.png" height="1252px" width="3413px"/>
+            <graphic xmlns:trsc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+                     n="1"
+                     rend="large"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f98.zoom"/>
+            <graphic xmlns:trsc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+                     n="1"
+                     rend="medium"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f98.highres"/>
+            <line xml:id="a1"
+                  points="157,309 934,304 1018,282 3225,272 3225,165 156,156"
+                  n="1">
+               <gap reason="plain" quantity="1"/>
+               <zone points="262,293 375,292 392,202 262,193">¯ī</zone>
+               <gap reason="plain" quantity="1"/>
+               <zone points="377,298 492,298 500,263 471,243 475,227 456,222 454,194 395,196">ste</zone>
+               <zone points="498,277 562,275 567,228 544,215 543,192 465,193 467,225 496,262">mi</zone>
+               <zone points="554,270 638,271 657,218 597,185 546,189 552,221 564,225">si</zone>
+               <zone points="644,304 713,304 742,266 717,250 720,214 656,215 644,245">LLA</zone>
+               <zone points="722,302 830,301 842,265 805,249 813,213 725,207 718,237 742,271 723,283">ññe</zone>
+               <zone points="808,245 882,257 899,213 896,181 822,179">sā</zone>
+               <zone points="895,285 957,286 961,177 903,178">||</zone>
+               <zone points="961,273 1049,274 1052,241 1033,240 1045,173 964,166">a<gap unit="part" reason="plain"/></zone>
+               <zone points="1055,249 1129,249 1126,170 1052,171 1034,217">wa</zone>
+               <zone points="1134,250 1211,247 1215,165 1135,161">n<gap unit="part" reason="plain"/></zone>
+               <zone points="1203,268 1265,269 1266,167 1209,164">||</zone>
+               <zone points="1265,268 1348,269 1354,164 1267,168">kā</zone>
+               <zone points="1350,266 1469,266 1470,161 1352,158">lm<gap unit="part" reason="plain"/></zone>
+               <zone points="1469,262 1539,263 1541,161 1467,162">tā</zone>
+               <zone points="1544,257 1624,258 1628,165 1539,166">k<gap unit="part" reason="plain"/></zone>
+               <zone points="1662,253 1749,251 1765,212 1760,172 1667,172"><gap unit="part" reason="plain"/>tu</zone>
+               <zone points="1754,249 1835,229 1812,210 1803,170 1768,173">e</zone>
+               <gap reason="plain" quantity="1"/>
+               <zone points="1891,259 1997,260 1998,161 1892,167">tk<gap unit="part" reason="plain"/></zone>
+               <gap reason="plain" quantity="2"/>
+               <zone points="2139,247 2209,250 2212,163 2139,169"><gap unit="part" reason="plain"/>r<gap unit="part" reason="plain"/></zone>
+               <gap reason="plain" quantity="3"/>
+               <zone points="2433,234 2528,232 2528,169 2437,169">a</zone>
+               <gap reason="plain" quantity="1"/>
+               <zone points="2578,259 2667,257 2668,167 2578,168"><gap unit="part" reason="plain"/>l<gap unit="part" reason="plain"/></zone>
+               <gap reason="plain" quantity="2"/>
+               <zone points="2846,270 2956,273 2960,189 2842,191"><gap unit="part" reason="plain"/>sk<gap unit="part" reason="plain"/></zone>
+               <gap reason="plain" quantity="3"/>
+            </line>
+            <line xml:id="a2"
+                  points="316,453 1165,443 1204,480 1299,472 1309,456 2362,421 3252,433 3250,273 261,319"
+                  n="2">
+               <gap reason="plain" quantity="3"/>
+               <zone points="343,436 446,439 443,333 342,333">l<gap unit="part" reason="plain"/></zone>
+               <zone points="467,360 466,440 589,442 591,355"><gap unit="part" reason="plain"/>e</zone>
+               <gap reason="plain" quantity="1"/>
+               <zone points="637,440 730,443 744,324 645,309"><gap unit="part" reason="plain"/>a</zone>
+               <zone points="733,445 811,445 831,317 737,321">m<gap unit="part" reason="plain"/></zone>
+               <zone points="818,445 898,443 894,318 834,315">d<gap unit="part" reason="plain"/>A</zone>
+               <zone points="904,445 1000,442 1008,396 948,309 893,316">rntse</zone>
+               <zone points="1003,431 1067,427 1078,400 1070,385 1085,326 1002,330">to</zone>
+               <zone points="1077,433 1160,435 1181,395 1150,383 1146,329 1091,326 1070,389 1078,399">tte</zone>
+               <zone points="1187,460 1282,458 1295,427 1243,406 1263,380 1239,324 1172,324 1163,390 1182,401">ññe</zone>
+               <zone points="1266,418 1329,403 1322,384 1304,373 1297,355 1264,355 1250,412">e</zone>
+               <zone points="1326,406 1386,406 1390,346 1321,347 1307,376 1322,385">KA</zone>
+               <zone points="1388,435 1477,432 1480,393 1473,364 1490,352 1432,337 1387,355">tkā</zone>
+               <zone points="1480,422 1554,424 1568,396 1531,365 1539,316 1472,314 1485,354 1472,364">tte</zone>
+               <zone points="1557,381 1602,392 1627,373 1649,339 1562,307 1546,346 1545,374">se</zone>
+               <zone points="1626,397 1704,398 1722,329 1670,318 1625,374">mā</zone>
+               <zone points="1708,420 1813,420 1797,372 1803,339 1724,334 1704,377">sru</zone>
+               <zone points="1812,412 1853,412 1888,398 1892,333 1813,332 1800,373">ka</zone>
+               <zone points="1862,422 1970,429 2025,413 2024,396 1971,371 1973,302 1908,304 1890,367 1884,396 1861,402">lñe</zone>
+               <zone points="2003,382 2070,380 2097,336 2063,305 1996,308 1983,370">yä</zone>
+               <zone points="2079,407 2187,406 2200,364 2188,360 2194,338 2142,324 2092,339 2078,377">nmā</zone>
+               <zone points="2198,425 2273,425 2273,361 2279,294 2212,292 2190,354 2201,365 2190,400">lle</zone>
+               <zone points="2275,328 2275,372 2330,369 2333,333">1</zone>
+               <zone points="2323,413 2376,417 2389,281 2334,279">||</zone>
+               <zone points="2383,388 2467,389 2470,306 2387,314">wa</zone>
+               <zone points="2469,387 2562,388 2582,325 2576,297 2474,297">lo</zone>
+               <zone points="2569,386 2657,382 2660,356 2652,353 2658,334 2613,290 2585,289">we</zone>
+               <zone points="2656,397 2749,402 2782,381 2762,354 2759,322 2692,291 2660,307 2652,352">ṢṢAṃ</zone>
+               <zone points="2758,351 2783,363 2790,347 2801,328 2783,322 2763,332">•</zone>
+               <zone points="2787,386 2858,384 2859,321 2805,322 2783,362">ta</zone>
+               <zone points="2860,425 2937,425 2944,386 2931,368 2950,357 2904,295 2876,294 2867,313 2858,370">kuce</zone>
+               <zone points="2934,380 3007,384 3022,323 2957,320">ca</zone>
+               <zone points="3010,401 3100,401 3106,323 3027,317 3011,360">kkra</zone>
+               <zone points="3103,386 3170,385 3173,351 3183,324 3108,314">vā</zone>
+               <zone points="3175,392 3242,390 3232,276 3140,275 3143,314 3184,324 3171,362">rt<gap unit="part" reason="plain"/>i</zone>
+               <gap reason="lost"/>
+            </line>
+            <line xml:id="a3"
+                  points="1038,635 1821,628 2005,587 2314,602 2401,624 2488,617 2711,597 2779,624 2898,606 2912,583 3020,578 3116,637 3241,656 3254,460 1033,481"
+                  n="3">
+               <gap reason="lost"/>
+               <zone points="1061,628 1156,629 1163,593 1139,573 1139,538 1064,531">dTA</zone>
+               <zone points="1169,623 1266,624 1268,566 1182,482 1145,483 1143,579 1163,596">rntse</zone>
+               <zone points="1269,602 1347,596 1343,550 1359,519 1339,503 1256,518">to</zone>
+               <zone points="1344,599 1434,590 1448,565 1419,549 1419,497 1360,494 1340,571">tte</zone>
+               <zone points="1411,627 1531,627 1531,584 1514,569 1519,535 1470,488 1449,490 1428,554 1444,564 1406,599">ññe</zone>
+               <zone points="1515,576 1601,577 1626,529 1592,500 1529,501">yä</zone>
+               <zone points="1601,604 1728,603 1723,530 1705,523 1619,518 1616,547 1604,566">nmā</zone>
+               <zone points="1725,620 1854,617 1859,559 1810,544 1830,520 1788,492 1712,493 1716,536 1725,548">skeṃ</zone>
+               <zone points="1819,549 1871,550 1876,523 1815,527">•</zone>
+               <zone points="1866,601 1950,596 1946,574 1934,539 1948,523 1914,507 1868,534">a</zone>
+               <zone points="1942,571 2005,566 2028,520 1953,490 1923,492 1923,512 1947,523 1935,544">si</zone>
+               <zone points="2018,569 2086,571 2095,545 2080,532 2072,484 2010,483 2011,513 2029,518 2016,540">te</zone>
+               <zone points="2089,571 2162,571 2184,546 2131,505 2120,484 2085,482">we</zone>
+               <zone points="2182,580 2286,583 2291,548 2261,538 2271,514 2202,482 2174,484 2165,536 2189,549" ana="lex:p-S2-gap">ṢṢAṃ</zone>
+               <zone points="2262,536 2291,545 2313,521 2268,510">•</zone>
+               <zone points="2298,566 2358,566 2380,539 2369,507 2329,505 2307,523 2296,545">ta</zone>
+               <zone points="2374,610 2430,617 2453,600 2452,570 2439,562 2458,551 2427,483 2391,483 2379,533 2361,560">kuce</zone>
+               <zone points="2459,578 2522,570 2527,506 2454,510 2456,548 2440,561">ca</zone>
+               <zone points="2521,594 2584,594 2616,543 2585,512 2527,511 2522,556 2507,573">kra</zone>
+               <zone points="2607,574 2678,574 2693,522 2660,506 2615,522 2606,560">vā</zone>
+               <zone points="2677,566 2755,604 2779,576 2771,552 2746,538 2760,480 2701,469 2666,472 2666,511 2692,522">rtti</zone>
+               <zone points="2796,618 2882,604 2883,575 2844,556 2843,524 2813,482 2780,479 2753,537 2772,558">ññe</zone>
+               <zone points="2845,558 2927,558 2937,514 2858,493 2840,539">TA</zone>
+               <zone points="2933,568 2995,565 3004,555 3011,539 2959,475 2923,476">ne</zone>
+               <zone points="3002,566 3073,570 3086,550 3105,540 3020,503">PA</zone>
+               <zone points="3080,612 3179,641 3191,600 3171,563 3185,516 3130,507 3096,517 3099,540 3079,561 3043,572">kuTA¯</zone>
+               <zone points="3184,645 3238,644 3237,556 3176,551 3170,564 3189,603">¯R</zone>
+            </line>
+            <line xml:id="a4"
+                  points="1317,805 1778,814 1944,795 2047,788 2461,799 2556,801 2669,798 3252,772 3248,664 2366,640 1713,663 1308,663"
+                  n="4">
+               <gap reason="lost"/>
+               <zone points="1319,760 1391,762 1397,674 1314,667">ne</zone>
+               <zone points="1396,766 1489,767 1495,686 1397,687">wä</zone>
+               <zone points="1491,807 1591,807 1592,700 1493,703">tkā</zone>
+               <zone points="1602,807 1679,810 1700,772 1667,740 1671,701 1602,701 1586,731">LtSA</zone>
+               <zone points="1685,803 1802,802 1810,774 1745,706 1742,677 1693,680 1669,735 1704,778">ññe</zone>
+               <zone points="1794,740 1819,709 1774,700 1762,733">•</zone>
+               <zone points="1802,777 1887,779 1896,703 1824,699 1792,734 1780,752">bra</zone>
+               <zone points="1901,787 2007,784 2014,741 2000,733 2002,697 1897,703">hma</zone>
+               <zone points="2008,763 2091,759 2107,703 2058,670 2029,672 2003,726">ṇe</zone>
+               <zone points="2100,760 2181,757 2205,730 2174,710 2153,671 2107,670 2098,730">we</zone>
+               <zone points="2198,772 2309,766 2315,735 2246,657 2206,657 2180,713 2206,732 2194,746">ṢṢAṃ</zone>
+               <zone points="2296,724 2339,718 2340,700 2299,697">•</zone>
+               <zone points="2322,750 2411,747 2417,722 2400,706 2438,678 2378,645 2353,646 2320,693 2343,700">nau</zone>
+               <zone points="2420,735 2497,730 2523,709 2487,683 2415,690 2399,708">ṢA</zone>
+               <zone points="2498,794 2634,794 2636,760 2610,731 2595,687 2612,665 2525,656 2517,698 2527,702 2492,734">ññeṃ</zone>
+               <zone points="2610,740 2682,736 2706,696 2675,661 2618,661 2599,682">rṣā</zone>
+               <zone points="2686,772 2763,772 2784,711 2761,692 2778,659 2694,657 2692,688 2707,698 2686,730">keṃ¯</zone>
+               <zone points="2771,764 2850,770 2863,661 2775,659 2764,690 2790,712 2777,729">¯ts</zone>
+               <zone points="2853,776 2927,775 2934,664 2858,661">po</zone>
+               <zone points="2933,755 3002,753 3017,722 3009,666 2934,667">ñä</zone>
+               <zone points="3015,744 3075,744 3103,688 3048,681 3023,696">śa</zone>
+               <zone points="3092,755 3201,759 3213,726 3183,708 3191,683 3111,686 3094,701">STA</zone>
+            </line>
+            <line xml:id="a5"
+                  points="1511,957 2115,945 2391,972 2458,982 2528,962 2617,941 3216,932 3218,804 1512,811"
+                  n="5">
+               <gap reason="lost"/>
+               <zone points="1519,955 1611,959 1635,918 1562,872 1526,886">sśa</zone>
+               <zone points="1635,949 1737,951 1758,916 1721,887 1721,860 1612,870 1612,909 1635,917">sTA</zone>
+               <zone points="1748,946 1843,944 1863,887 1845,832 1757,828 1731,895 1757,917">rnmā</zone>
+               <zone points="1854,940 1958,945 1954,915 1933,883 1950,854 1904,845 1860,867">a</zone>
+               <zone points="1937,911 2010,909 2034,815 1939,816 1937,847 1948,861 1937,881">lai</zone>
+               <zone points="2017,942 2106,943 2114,905 2088,825 2034,825 2015,897">kne</zone>
+               <zone points="2110,906 2175,911 2213,846 2116,851 2104,871">sa</zone>
+               <zone points="2179,909 2265,913 2281,860 2207,851" ana="lex:p-M-crossed">MA</zone>
+               <zone points="2265,946 2396,947 2407,900 2372,872 2354,831 2283,823 2269,838 2275,873">ske</zone>
+               <zone points="2415,968 2490,971 2496,894 2453,873 2468,850 2426,847 2384,869 2391,891 2413,903">ntRA</zone>
+               <zone points="2457,874 2484,889 2516,851 2484,844 2460,859">•</zone>
+               <zone points="2503,913 2574,912 2599,817 2567,811 2499,866">la</zone>
+               <zone points="2578,926 2669,926 2687,892 2672,884 2677,854 2631,843 2581,861">kṣa</zone>
+               <zone points="2687,903 2732,905 2764,854 2717,837 2679,855 2672,882" ana="lex:p-N-grid">NA</zone>
+               <zone points="2742,895 2812,929 2846,919 2849,893 2825,871 2809,848 2764,850">nta</zone>
+               <zone points="2847,927 2946,934 2955,912 2959,895 2955,853 2847,847 2836,883 2852,897">ntSA</zone>
+               <zone points="2955,919 3000,921 3031,905 2991,853 2967,851">e</zone>
+               <zone points="3011,886 3085,890 3113,843 3004,815 2989,825 2989,851">pi</zone>
+               <zone points="3095,917 3208,919 3211,846 3120,836">ṅt<gap unit="part" reason="plain"/></zone>
+               <gap reason="plain" quantity="2"/>
+            </line>
+            <line xml:id="a6" points="1531,1117 3206,1087 3202,957 1534,964" n="6">
+               <gap reason="lost"/>
+               <zone points="1569,1073 1657,1073 1653,1029 1571,1027">vā</zone>
+               <zone points="1668,1074 1729,1074 1730,970 1634,972 1631,1017 1662,1040">rt<gap unit="part" reason="plain"/>i</zone>
+               <zone points="1734,1074 1826,1076 1827,1011 1734,1010">n<gap unit="part" reason="plain"/>ā</zone>
+               <zone points="1831,1079 1914,1079 1922,1054 1910,1039 1908,1016 1833,1016">nt<gap unit="part" reason="plain"/></zone>
+               <zone points="1911,1042 1932,1060 1962,1033 1935,1017">•</zone>
+               <zone points="1953,1080 2038,1079 2036,1013 1957,1017">TA</zone>
+               <zone points="2049,1087 2115,1085 2118,1003 2055,1004 2039,1031">ryā</zone>
+               <zone points="2123,1087 2208,1085 2214,1046 2190,1004 2121,1013">ka</zone>
+               <zone points="2206,1060 2287,1059 2306,975 2242,973 2204,983"><gap unit="part" reason="plain"/>ī</zone>
+               <zone points="2294,1075 2373,1072 2393,968 2361,966 2302,988">la</zone>
+               <zone points="2381,1083 2483,1083 2482,1029 2504,1022 2486,995 2417,998 2382,1031">kṣā</zone>
+               <zone points="2488,1078 2568,1080 2585,1011 2570,975 2499,979 2496,1006 2509,1014 2482,1022">ṇä</zone>
+               <zone points="2585,1080 2682,1076 2679,1055 2657,1040 2654,1005 2591,1012 2575,1047">nta</zone>
+               <zone points="2745,1064 2763,1003 2706,973 2645,985 2674,1030 2666,1045 2691,1068">tai</zone>
+               <zone points="2761,1094 2856,1094 2831,973 2766,972">k<gap unit="part" reason="plain"/>e</zone>
+               <zone points="2857,1067 2947,1058 2973,996 2970,970 2841,975">sā</zone>
+               <zone points="2958,1071 3038,1068 3020,1002 2977,1002 2953,1027">KA</zone>
+               <zone points="3037,1063 3098,1057 3068,972 3013,975">•</zone>
+               <zone points="3085,1076 3154,1072 3146,975 3082,977"><gap unit="part" reason="plain"/>e</zone>
+               <gap reason="lost"/>
+            </line>
+         </surface>
+         <surface n="QFBIVENVCUAHOTLRZOKBMTKC" type="verso" lrx="1536" lry="593">
+            <graphic url="ASHuard/AS12Cb.png" height="1252px" width="3413px"/>
+            <graphic xmlns:trsc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+                     n="2"
+                     rend="large"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f97.zoom"/>
+            <graphic xmlns:trsc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+                     n="2"
+                     rend="medium"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f97.highres"/>
+            <line xml:id="b1" points="1492,293 3206,291 3194,157 1501,171" n="1">
+               <gap reason="lost"/>
+               <gap reason="plain" quantity="1"/>
+               <zone points="1549,242 1613,243 1631,201 1551,204">n<gap unit="part" reason="plain"/></zone>
+               <zone points="1627,233 1707,235 1730,199 1630,199">yä</zone>
+               <zone points="1714,260 1813,259 1829,192 1727,195 1709,226">nm<gap unit="part" reason="plain"/></zone>
+               <zone points="1821,283 1936,287 1941,234 1912,219 1912,187 1829,191 1822,223">sk<gap unit="part" reason="plain"/></zone>
+               <zone points="1914,220 1947,233 1976,185 1919,184">•</zone>
+               <zone points="1959,240 2030,237 2046,190 1982,188 1965,211">p<gap unit="part" reason="plain"/></zone>
+               <zone points="2039,287 2134,288 2143,245 2122,232 2129,176 2046,177 2036,221">lk<gap unit="part" reason="plain"/></zone>
+               <zone points="2129,237 2177,270 2226,268 2228,203 2134,202">tu</zone>
+               <zone points="2239,254 2308,249 2320,199 2241,203">w<gap unit="part" reason="plain"/></zone>
+               <zone points="2303,268 2359,269 2359,187 2315,190">||</zone>
+               <zone points="2361,260 2431,260 2451,187 2371,188">pr<gap unit="part" reason="plain"/></zone>
+               <zone points="2434,244 2502,244 2528,190 2455,187">ś<gap unit="part" reason="plain"/></zone>
+               <zone points="2509,240 2593,283 2611,233 2566,192 2529,195">nta</zone>
+               <zone points="2614,252 2683,251 2708,201 2624,196 2606,200">hā<gap unit="part" reason="plain"/></zone>
+               <zone points="2690,283 2778,282 2776,178 2718,188 2691,238">n<gap unit="part" reason="plain"/></zone>
+               <zone points="2782,174 2778,282 2826,281 2823,175">||</zone>
+               <zone points="2825,256 2883,252 2925,202 2902,170 2823,170">TA</zone>
+               <zone points="2899,277 2962,278 2994,233 2974,214 2976,179 2928,179 2912,224 2900,244">ka</zone>
+               <zone points="3044,266 3034,233 3057,186 2981,186 2980,222 2993,236 2980,265">ra</zone>
+               <zone points="3044,253 3111,253 3110,199 3053,199 3038,235">n<gap unit="part" reason="plain"/></zone>
+               <gap reason="plain" quantity="1"/>
+            </line>
+            <line xml:id="b2"
+                  points="1435,420 1715,444 1749,460 1835,459 1854,453 2184,465 2220,481 2298,488 2392,477 2576,443 3210,434 3210,295 3030,297 1435,319"
+                  n="2">
+               <gap reason="lost"/>
+               <zone points="1501,417 1573,417 1605,379 1578,363 1578,335 1500,335">STA</zone>
+               <zone points="1593,422 1650,423 1660,387 1684,359 1630,335 1589,358 1599,382">ryā</zone>
+               <zone points="1661,400 1725,407 1749,381 1755,362 1684,350 1657,387">PA</zone>
+               <zone points="1743,450 1817,450 1833,399 1835,371 1851,318 1762,318 1745,386">lle</zone>
+               <zone points="1839,429 1948,430 1946,397 1896,348 1846,359 1830,385">nTA</zone>
+               <zone points="1946,414 2044,416 2056,374 1965,323 1936,325 1935,359">ṣṣe</zone>
+               <zone points="2050,408 2136,406 2146,395 2130,388 2146,349 2054,326 2023,337 2031,364 2058,378">pi</zone>
+               <zone points="2133,413 2195,415 2227,372 2178,352 2134,373 2133,389 2149,393">LA</zone>
+               <zone points="2240,478 2275,484 2341,461 2335,426 2252,323 2216,322 2220,385 2208,398 2222,462">kutse</zone>
+               <zone points="2337,452 2432,451 2418,412 2396,396 2406,373 2340,322 2279,325 2288,358 2306,412 2329,431">wñai</zone>
+               <zone points="2440,454 2519,451 2544,417 2490,395 2477,314 2410,317 2400,341 2397,395 2426,420">ścme</zone>
+               <zone points="2493,393 2567,421 2597,370 2565,319 2502,319">ñä</zone>
+               <zone points="2590,398 2657,439 2706,437 2734,375 2623,321 2598,323">ntse</zone>
+               <zone points="2719,420 2786,421 2805,388 2817,383 2764,357 2739,362 2717,401" ana="lex:p-M-crossed">MA</zone>
+               <zone points="2797,419 2892,420 2917,369 2855,351 2819,367 2819,380 2802,394">k<gap unit="part" reason="plain"/>ā</zone>
+               <zone points="2900,432 2981,433 2998,403 2985,391 3007,378 2969,350 2916,363 2901,391">ntā</zone>
+               <zone points="2991,407 3075,403 3087,361 3109,354 3037,300 3007,307 2981,352">sau</zone>
+               <zone points="3084,422 3173,421 3184,358 3138,343 3083,366">tā</zone>
+               <gap reason="plain" quantity="1"/>
+            </line>
+            <line xml:id="b3"
+                  points="1285,591 2230,600 2258,598 2626,610 2667,621 2758,628 2795,612 3273,607 3270,474 2727,453 2335,477 2251,486 1319,457"
+                  n="3">
+               <gap reason="lost"/>
+               <zone points="1323,576 1426,573 1437,536 1422,531 1436,491 1384,486 1340,503">kṣā</zone>
+               <zone points="1435,551 1494,549 1532,520 1501,466 1434,468 1425,529">nä</zone>
+               <zone points="1518,571 1608,572 1626,541 1609,529 1636,520 1582,490 1522,511">ntā</zone>
+               <zone points="1611,533 1659,579 1701,592 1726,588 1756,555 1679,494 1637,498">ntSA</zone>
+               <zone points="1751,563 1803,562 1835,535 1802,499 1749,504 1726,529">o</zone>
+               <zone points="1818,587 1914,587 1915,546 1902,528 1924,494 1891,479 1819,489 1820,514 1841,529 1822,545">ko</zone>
+               <zone points="1919,556 1991,554 2014,529 2009,485 1928,482 1906,537">yä</zone>
+               <zone points="2030,589 2121,587 2129,546 2084,542 2075,488 2029,481 2019,496 2013,532 2002,550">nmaṃ</zone>
+               <zone points="2083,539 2130,550 2148,540 2152,520 2116,512 2088,521">•</zone>
+               <zone points="2135,594 2236,595 2221,540 2235,522 2213,508 2149,516 2134,559">a</zone>
+               <zone points="2227,565 2283,564 2319,533 2321,517 2241,487 2213,508 2232,526 2219,546">si</zone>
+               <zone points="2307,571 2384,571 2384,539 2359,482 2318,481 2310,507 2320,519 2302,549">te</zone>
+               <zone points="2389,569 2476,567 2476,537 2454,516 2433,479 2399,482 2392,504 2381,535">we</zone>
+               <zone points="2483,581 2578,579 2586,545 2564,531 2571,515 2523,468 2485,469 2459,524 2480,542 2474,550" ana="lex:p-S2-gap">ṢṢAṃ</zone>
+               <zone points="2565,531 2593,548 2619,519 2593,509 2573,513">•</zone>
+               <zone points="2584,566 2656,567 2696,534 2625,507 2611,526 2583,549">PA</zone>
+               <zone points="2665,616 2759,617 2773,546 2759,534 2782,504 2740,465 2714,467 2682,510 2698,534 2656,562">klyau</zone>
+               <zone points="2775,558 2870,556 2877,510 2861,496 2774,515 2761,537" ana="lex:p-S2-gap">ṢA</zone>
+               <zone points="2866,593 2924,592 2931,465 2881,464 2867,488 2874,534">||</zone>
+               <zone points="2933,560 3009,559 3030,517 3004,504 2936,509">pa</zone>
+               <zone points="3014,592 3104,591 3118,552 3125,530 3078,483 3018,490 3017,509 3031,517 3015,544">ñcä</zone>
+               <zone points="3109,599 3205,598 3206,487 3138,482 3120,505 3125,531 3114,548">mne</zone>
+               <zone points="3213,596 3264,598 3262,487 3215,488">||</zone>
+               <gap reason="plain" quantity="1"/>
+            </line>
+            <line xml:id="b4"
+                  points="1005,729 1464,737 1564,773 1615,738 1979,759 2504,776 2548,796 2616,791 2833,787 2850,777 3237,774 3232,633 2048,610 1042,599"
+                  n="4">
+               <gap reason="lost"/>
+               <zone points="1051,680 1140,682 1172,638 1149,604 1050,611">po</zone>
+               <zone points="1155,694 1238,696 1265,623 1171,618 1166,646 1150,659">o</zone>
+               <zone points="1248,728 1361,731 1383,703 1360,674 1359,637 1274,637 1247,680">STA</zone>
+               <zone points="1381,719 1448,720 1476,652 1456,629 1371,630 1372,691 1386,704">meṃ</zone>
+               <zone points="1462,724 1562,765 1610,734 1559,695 1555,625 1488,623 1458,691">ltu</zone>
+               <zone points="1559,695 1601,729 1660,729 1664,704 1610,663 1606,636 1565,641">we</zone>
+               <zone points="1675,718 1735,696 1757,673 1714,653 1631,678" ana="lex:p-S2-gap">ṢA</zone>
+               <zone points="1737,722 1812,720 1844,670 1808,662 1748,675 1732,695">ma</zone>
+               <zone points="1819,739 1908,741 1931,717 1917,698 1945,686 1889,662 1836,674 1816,703">ntā</zone>
+               <zone points="1915,750 1993,751 2014,694 2032,675 1984,660 1936,672 1918,695">kcā</zone>
+               <zone points="2012,725 2108,723 2117,640 2060,612 2021,623 2016,668 2030,677 2009,705">nau</zone>
+               <zone points="2112,747 2236,748 2237,717 2202,696 2205,658 2120,670 2106,712">ṣŚA</zone>
+               <zone points="2245,728 2309,728 2340,672 2293,643 2229,661 2223,707">rsā</zone>
+               <zone points="2315,744 2387,744 2392,641 2331,630 2309,651 2334,670">re</zone>
+               <zone points="2398,733 2497,736 2514,706 2472,656 2404,639 2388,662 2394,691 2383,698">spe</zone>
+               <zone points="2536,784 2630,784 2630,734 2594,711 2607,646 2539,642 2510,699">lke</zone>
+               <zone points="2645,756 2747,754 2746,714 2718,698 2696,651 2604,657 2594,712">sso</zone>
+               <zone points="2684,772 2813,784 2840,730 2839,680 2754,671 2732,707 2762,726">ñcrā</zone>
+               <zone points="2843,741 2936,742 2940,647 2853,646 2838,720">ne</zone>
+               <zone points="2941,762 3070,766 3082,712 3030,650 2954,656 2935,714">smā</zone>
+               <zone points="3082,739 3145,740 3169,711 3123,644 3078,646">ne</zone>
+               <zone points="3152,748 3230,745 3227,644 3157,639 3164,710">cai</zone>
+               <gap reason="plain" quantity="1"/>
+            </line>
+            <line xml:id="b5"
+                  points="1108,891 1870,935 2204,938 2303,934 3215,932 3229,802 2753,791 2423,789 1541,783 1463,745 1165,750"
+                  n="5">
+               <gap reason="lost"/>
+               <zone points="1143,877 1242,879 1276,780 1234,759 1156,787">lyī</zone>
+               <zone points="1253,864 1345,862 1370,807 1260,811">pRA</zone>
+               <zone points="1352,876 1424,877 1439,816 1384,804 1354,833">KA</zone>
+               <zone points="1432,878 1510,876 1537,830 1521,808 1538,792 1466,747 1432,751 1414,808 1437,828">rsau</zone>
+               <zone points="1531,890 1600,889 1601,841 1571,792 1529,790 1523,815 1536,834 1523,865">te</zone>
+               <zone points="1604,891 1703,887 1706,831 1615,830 1599,860" ana="lex:p-M-crossed">MA</zone>
+               <zone points="1696,877 1795,924 1809,894 1746,797 1706,799">nte</zone>
+               <zone points="1824,928 1886,930 1910,855 1863,795 1790,810 1789,868 1807,879">mpreṃ</zone>
+               <zone points="1904,911 2022,912 2019,855 2028,841 1950,826 1910,839">tsā</zone>
+               <zone points="2023,896 2086,895 2099,874 2103,829 2041,828 2019,855">KA</zone>
+               <zone points="2088,933 2167,932 2177,887 2204,809 2169,804 2116,809 2090,898">llaṃ</zone>
+               <zone points="2177,925 2241,926 2284,874 2283,833 2215,835 2170,889">klā</zone>
+               <zone points="2281,899 2373,902 2392,863 2328,808 2284,811">wi</zone>
+               <zone points="2385,893 2448,893 2471,853 2450,796 2376,801 2385,854">śai</zone>
+               <zone points="2460,905 2569,908 2590,870 2546,813 2484,796 2466,814 2471,851">ṣṣe</zone>
+               <zone points="2581,899 2678,897 2678,870 2656,856 2647,803 2596,799">ne</zone>
+               <zone points="2660,860 2685,874 2725,863 2729,845 2693,833 2661,849">1</zone>
+               <zone points="2706,917 2763,917 2778,794 2735,789">||</zone>
+               <zone points="2776,881 2853,878 2861,848 2876,837 2875,807 2828,799 2775,812 2769,826">po</zone>
+               <zone points="2866,914 2958,916 2969,878 2958,872 2982,843 2927,821 2884,827 2866,848 2857,854">ñcā</zone>
+               <zone points="2969,927 3056,927 3052,807 2994,799 2973,811 2958,873 2982,889">kte</zone>
+               <zone points="3062,922 3147,919 3150,805 3062,806 3057,877">ke</zone>
+               <zone points="3148,917 3210,916 3223,805 3150,806" ana="lex:p-M-crossed">MA</zone>
+               <gap reason="plain" quantity="1"/>
+            </line>
+            <line xml:id="b6"
+                  points="149,980 1077,1078 1554,1094 3193,1096 3190,960 1863,947 1434,937 159,864"
+                  n="6">
+               <zone points="180,973 279,980 274,944 253,928 260,880 178,881">ntä¯</zone>
+               <zone points="258,930 282,983 323,987 323,893 256,893">¯R∘</zone>
+               <gap reason="plain" quantity="1"/>
+               <zone points="394,981 496,991 523,898 426,893 400,943">lo</zone>
+               <zone points="511,990 608,992 612,963 573,922 509,940">w<gap unit="part" reason="plain"/></zone>
+               <zone points="615,1011 736,1014 727,981 716,967 718,909 601,910" ana="lex:p-S2-gap">ṢṢAṃ</zone>
+               <zone points="715,970 751,994 772,960 733,948 715,959">•</zone>
+               <zone points="790,1010 861,1012 856,931 802,910 774,924 759,994">ñe</zone>
+               <zone points="858,1050 950,1062 980,942 886,939">mklā</zone>
+               <zone points="966,1035 1079,1041 1075,960 971,963">w<gap unit="part" reason="plain"/></zone>
+               <zone points="1080,1061 1207,1067 1210,958 1077,959">ssu</zone>
+               <zone points="1219,985 1221,1009 1246,1001 1265,980 1233,974">•</zone>
+               <zone points="1250,1040 1326,1043 1332,965 1273,961 1246,998">o</zone>
+               <zone points="1329,1067 1409,1068 1414,988 1331,987">ro</zone>
+               <zone points="1413,1085 1506,1084 1512,942 1403,942">cce</zone>
+               <zone points="1519,1055 1611,1056 1609,980 1529,981">wa</zone>
+               <zone points="1616,1078 1710,1078 1709,965 1609,964">ki</zone>
+               <zone points="1714,1088 1830,1087 1832,1037 1793,1031 1790,988 1704,987">tSA</zone>
+               <zone points="1801,1028 1866,1060 1902,1059 1900,958 1823,957">ñ<gap unit="part" reason="plain"/>e</zone>
+               <zone points="1904,1049 1963,1068 2006,1041 2003,1007 1964,955 1926,956">ne</zone>
+               <zone points="2008,1072 2165,1074 2168,1045 2115,1019 2117,963 1991,964 1984,1005 2009,1014">stmo</zone>
+               <zone points="2123,1018 2175,1047 2240,1041 2241,984 2128,990">ṢA</zone>
+               <zone points="2246,1089 2343,1091 2331,1031 2347,1016 2312,992 2239,1001">wñā</zone>
+               <zone points="2343,1059 2455,1080 2465,1050 2426,985 2343,987 2343,1018 2335,1028">sta</zone>
+               <zone points="2465,1071 2565,1070 2567,1037 2545,1003 2466,1003 2457,1044">tu</zone>
+               <zone points="2572,1062 2662,1062 2666,1037 2636,1015 2623,966 2572,966 2563,1031">we</zone>
+               <zone points="2640,1018 2659,1038 2693,1028 2704,1015 2667,1002">•</zone>
+               <zone points="2682,1053 2765,1053 2784,1018 2717,996 2672,1038">PA</zone>
+               <zone points="2777,1053 2865,1053 2876,1030 2848,969 2779,974">ñä</zone>
+               <zone points="2869,1052 2944,1054 2946,997 2875,1004">KTA</zone>
+               <zone points="2948,1052 3035,1054 3038,963 2957,962">ñ<gap unit="part" reason="plain"/>e</zone>
+               <gap reason="plain" quantity="1"/>
+               <zone points="3042,1045 3160,1046 3161,979 3036,978"><gap unit="part" reason="plain"/>i</zone>
+            </line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+               <lb corresp="#a1"/>
+               <w><supplied>ko</supplied>Ī</w>
+               <w><supplied>snai</supplied></w>
+               <w>stemi</w>
+               <w>silläññesā</w>
+               <pc>॥</pc>
+               <w>a<supplied>r</supplied>wan<supplied>e</supplied></w>
+               <pc>॥</pc>
+            </p>
+            <lg type="poem" subtype="hom" met="frg:M12">
+               <lg n="1" type="strophe">
+                  <l n="a" part="N">
+                     <w>kā</w>
+                     <w>lm<supplied>au</supplied></w>
+                     <w>tāk<gap reason="plain" unit="part"/></w>
+                     <w><gap reason="plain" unit="part"/>tu</w>
+                     <caesura ana="frg:cs-s"/>
+                     <w>e<supplied>kä</supplied>tk<supplied>ātte</supplied></w>
+                     <caesura ana="frg:cs-w"/>
+                     <gap reason="plain" quantity="1"/>
+                     <w><gap reason="plain" unit="part"/>r<gap reason="plain" unit="part"/></w>
+                     <gap reason="plain" quantity="1"/>
+                  </l>
+                  <l n="b" part="N">
+                     <gap reason="plain" quantity="2"/>
+                     <w>a</w>
+                     <gap reason="plain" quantity="1"/>
+                     <w><gap reason="plain" unit="part"/>l<gap reason="plain" unit="part"/></w>
+                     <caesura ana="frg:cs-s"/>
+                     <gap reason="plain" quantity="2"/>
+                     <w><gap reason="plain" unit="part"/>sk<gap reason="plain" unit="part"/></w>
+                     <gap reason="plain" quantity="1"/>
+                     <caesura ana="frg:cs-w"/>
+                     <gap reason="plain" quantity="2"/>
+                     <lb corresp="#a2"/>
+                     <gap reason="plain" quantity="1"/>
+                  </l>
+                  <l n="c" part="N">
+                     <w><supplied>piś</supplied></w>
+                     <w><supplied>cme</supplied>l<supplied>aṣṣ</supplied>e<supplied>ntsä</supplied></w>
+                     <caesura ana="frg:cs-s"/>
+                     <w><supplied>s</supplied>am<supplied>u</supplied>d<supplied>t</supplied>ärntse</w>
+                     <caesura ana="frg:cs-w"/>
+                     <w>totteññe</w>
+                  </l>
+                  <l n="d" part="N">
+                     <w>ekätkātte</w>
+                     <w>se</w>
+                     <caesura ana="frg:cs-s"/>
+                     <w>mā</w>
+                     <w>srukalñe</w>
+                     <caesura ana="frg:cs-w"/>
+                     <w>yänmālle</w>
+                     <num value="1">1</num>
+                  </l>
+               </lg>
+            </lg>
+            <p>
+               <pc>॥</pc>
+               <w>walo</w>
+               <w>weṣṣäṃ</w>
+               <pc>•</pc>
+               <w>ta</w>
+               <w>kUce</w>
+               <w>cakkravārt<supplied>t</supplied>i<supplied>ññe</supplied></w>
+               <gap reason="lost"/>
+               <lb corresp="#a3"/>
+               <gap reason="lost"/>
+               <w><supplied>samu</supplied>dtärntse</w>
+               <w>totteññe</w>
+               <w>yänmāskeṃ</w>
+               <pc>•</pc>
+               <w>asite</w>
+               <w>weṣṣäṃ</w>
+               <pc>•</pc>
+               <w>ta</w>
+               <w>kUce</w>
+               <w>cakravārttiññe</w>
+               <w>täne</w>
+               <w>päkUtär</w>
+               <lb corresp="#a4"/>
+               <gap reason="lost"/>
+               <w><supplied>śaiṣṣe</supplied>ne</w>
+               <w>wätkāltsäññe</w>
+               <pc>•</pc>
+               <w>brahmaṇe</w>
+               <w>weṣṣäṃ</w>
+               <pc>•</pc>
+               <w>nauṣäññeṃ</w>
+               <w>rṣākeṃts</w>
+               <w>poñä</w>
+               <w>śastä<lb corresp="#a5"/><supplied>rnma</supplied></w>
+               <gap reason="lost"/>
+            </p>
+            <lg type="poem" met="frg:M12">
+               <lg n="1" type="strophe">
+                  <l n="a" part="N">
+                     <w><supplied>pklyauṣä</supplied>s</w>
+                     <w>śastärnmā</w>
+                     <caesura ana="frg:cs-s"/>
+                     <w>alaiknesa</w>
+                     <caesura ana="frg:cs-w"/>
+                     <w>mäskenträ</w>
+                     <pc>•</pc>
+                  </l>
+                  <l n="b" part="N">
+                     <w>lakṣanäntantsä</w>
+                     <caesura ana="frg:cs-s"/>
+                     <w>epiṅt<supplied>e</supplied></w>
+                     <gap reason="plain" quantity="2"/>
+                     <lb corresp="#a6"/>
+                     <gap reason="plain" quantity="3"/>
+                  </l>
+                  <l n="c" part="N">
+                     <gap reason="plain" quantity="5"/>
+                     <caesura ana="frg:cs-s"/>
+                     <gap reason="plain" quantity="1"/>
+                     <w><supplied>cakkra</supplied>vārt<supplied>t</supplied>in<supplied>t</supplied>ānt<supplied>sä</supplied></w>
+                     <pc>•</pc>
+                  </l>
+                  <l n="d" part="N">
+                     <w>täryāka</w>
+                     <w><supplied>w</supplied>ī</w>
+                     <caesura ana="frg:cs-s"/>
+                     <w>lakṣāṇänta</w>
+                     <caesura ana="frg:cs-w"/>
+                     <w>taik<supplied>n</supplied>esākä</w>
+                     <pc>•</pc>
+                  </l>
+               </lg>
+            </lg>
+            <p>
+               <w><gap reason="plain" unit="part"/>e</w>
+               <gap reason="plain" quantity="1"/>
+               <gap reason="lost"/>
+               <lb corresp="#b1"/>
+               <gap reason="lost"/>
+               <gap reason="plain" quantity="1"/>
+               <w>n<gap reason="plain" unit="part"/></w>
+               <w>yänm<supplied>ā</supplied>sk<supplied>eṃ</supplied></w>
+               <pc>•</pc>
+               <w>p<supplied>ā</supplied>lk<supplied>a</supplied></w>
+               <w>tuw<supplied>e</supplied></w>
+               <pc>॥</pc>
+               <w>pr<supplied>a</supplied>ś<supplied>a</supplied>ntahā<supplied>r</supplied>n<supplied>e</supplied></w>
+               <pc>॥</pc>
+            </p>
+            <lg type="poem" subtype="hom" met="frg:M12">
+               <lg n="1" type="strophe">
+                  <l n="a" part="N">
+                     <w>täka</w>
+                     <w>ran<supplied>o</supplied></w>
+                     <gap reason="plain" quantity="1"/>
+                     <caesura ana="frg:cs-s"/>
+                     <lb corresp="#b2"/>
+                     <gap reason="plain" quantity="6"/>
+                  </l>
+                  <l n="b" part="N">
+                     <gap reason="plain" quantity="4"/>
+                     <caesura ana="frg:cs-s"/>
+                     <gap reason="plain" quantity="4"/>
+                     <caesura ana="frg:cs-w"/>
+                     <w><supplied>a</supplied>stäryā</w>
+                  </l>
+                  <l n="c" part="N">
+                     <w>pällentäṣṣepi</w>
+                     <caesura ana="frg:cs-s"/>
+                     <w>läkUtsewñaiśc</w>
+                     <caesura ana="frg:cs-w"/>
+                     <w>meñäntse</w>
+                  </l>
+                  <l n="d" part="N">
+                     <w>mäk<supplied>t</supplied>ān</w>
+                     <w>tāsau</w>
+                     <w>tā</w>
+                     <caesura ana="frg:cs-s"/>
+                     <gap reason="plain" quantity="1"/>
+                     <lb corresp="#b3"/>
+                     <gap reason="plain" quantity="5"/>
+                  </l>
+               </lg>
+            </lg>
+            <p>
+               <gap reason="plain" quantity="2"/>
+               <w><supplied>la</supplied>kṣānäntāntsä</w>
+               <w>oko</w>
+               <w>yänmaṃ</w>
+               <pc>•</pc>
+               <w>asite</w>
+               <w>weṣṣäṃ</w>
+               <pc>•</pc>
+               <w>päklyauṣä</w>
+               <pc>॥</pc>
+               <w>pañcämne</w>
+               <pc>॥</pc>
+            </p>
+            <lg type="poem" subtype="hom" met="frg:M14">
+               <lg n="1" type="strophe">
+                  <l n="a" part="N">
+                     <gap reason="plain" quantity="1"/>
+                     <lb corresp="#b4"/>
+                     <gap reason="plain" quantity="6"/>
+                     <caesura ana="frg:cs-s"/>
+                     <w>po</w>
+                     <w>ostämeṃ</w>
+                     <caesura ana="frg:cs-w"/>
+                     <w>ltuweṣä</w>
+                  </l>
+                  <l n="b" part="N">
+                     <w>mantā</w>
+                     <w>kcā</w>
+                     <w>nauṣ</w>
+                     <caesura ana="frg:cs-w"/>
+                     <w>śärsāre</w>
+                     <caesura ana="frg:cs-s"/>
+                     <w>spelkessoñc</w>
+                     <w>rā</w>
+                     <caesura ana="frg:cs-w"/>
+                     <w>nesmāne</w>
+                  </l>
+                  <l n="c" part="N">
+                     <w>cai</w>
+                     <gap reason="plain" quantity="1"/>
+                     <lb corresp="#b5"/>
+                     <gap reason="plain" quantity="2"/>
+                     <caesura ana="frg:cs-w"/>
+                     <gap reason="plain" quantity="3"/>
+                     <caesura ana="frg:cs-s"/>
+                     <gap reason="plain" quantity="4"/>
+                     <caesura ana="frg:cs-w"/>
+                     <w><supplied>snai</supplied></w>
+                     <w>lyīprä</w>
+                  </l>
+                  <l n="d" part="N">
+                     <w>kärsau</w>
+                     <w>te</w>
+                     <w>mänt</w>
+                     <caesura ana="frg:cs-w"/>
+                     <w>empreṃtsā</w>
+                     <caesura ana="frg:cs-s"/>
+                     <w>källaṃ</w>
+                     <w>klāwi</w>
+                     <caesura ana="frg:cs-w"/>
+                     <w>śaiṣṣene</w>
+                     <num value="1">1</num>
+                  </l>
+               </lg>
+            </lg>
+            <p>
+               <pc>॥</pc>
+               <w>poñc</w>
+               <w>ākteke</w>
+               <w>mä<supplied>ske</supplied><lb corresp="#b6"/>ntär</w>
+               <w><supplied>wa</supplied>lo</w>
+               <w>w<supplied>e</supplied>ṣṣäṃ</w>
+               <pc>•</pc>
+               <w>ñem-klāw<supplied>i</supplied>ssu</w>
+               <pc>•</pc>
+               <w>orocce</w>
+               <w>wakitsäñ<supplied>ñ</supplied>ene</w>
+               <w>stmoṣä</w>
+               <w>wñāsta</w>
+               <w>tuwe</w>
+               <pc>•</pc>
+               <w>päñäktäñ<supplied>ñ</supplied>e</w>
+               <w><supplied>klāw</supplied>i</w>
+            </p>
+         </div>
+         <div type="translation">
+            <p>
+               <choice corresp="#a1 #a2 #a3 #a4 #a5 #a6 #b1 #b2 #b3 #b4 #b5 #b6">
+                  <seg><bibl><title corresp="ref:couvreur1953"/><citedRange>280</citedRange></bibl></seg>
+               </choice>
+               <choice corresp="#a3">
+                  <seg><seg type="prim_transl">... he will obtain the fruit of the <hi>lakṣaṇa</hi>s.</seg></seg>
+                  <seg><seg type="prim_transl">… he will obtain the fruit of the lakṣaṇas. (Georges-Jean Pinault, p.c.; cf 280)</seg><bibl><title corresp="ref:peyrot2013b"/><citedRange>673</citedRange></bibl></seg>
+               </choice>
+               <choice corresp="#a5">
+                  <seg><seg type="prim_transl">Thus having understood it for truth he will obtain fame in the world.</seg></seg>
+                  <seg><seg type="prim_transl">Thus having understood it for truth he will obtain fame in the world. (Georges-Jean Pinault, p.c.; cf 280)</seg><bibl><title corresp="ref:peyrot2013b"/><citedRange>300</citedRange></bibl></seg>
+               </choice>
+            </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_transcription_old">a1 (ko)_ī |(snai) stemi silñesa|silläññesā || a(r)wan(e) || #M12# kā lm(au) tāk· ·tu ; e(kä)tk(ātte) , – ·r· – #1a – – a – ·l· ; – – ·sk· – , – –
+a2 – #1b (piś cmelaṣṣeṃts|cme)l(aṣṣ)e(ntsä ; s)am(u)d(t)ärntse , totteññe #1c ekätkātte se ; mā srukalñe , yänmālle 1 #1d || walo weṣṣäṃ • tā|ta k_uce cakravārttiññe|cakkravārt(t)i(ññe) ///
+a3 /// (samu)dtärntse totteññe yänmāskeṃ • asite weṣṣäṃ • tā|ta k_uce cakravārttiññe tane|täne pakutär|päk_utär
+a4 /// (śaiṣṣe)ne wätkāltsäññe • brāhmaṇe|brahmaṇe weṣṣäṃ • nauṣaññeṃ|nauṣäññeṃ rṣākeṃts poñ|poñä śastarma|śastä|(rnma)
+a5 /// #M12# päklyauṣso|(pklyauṣä)s śastarma|śastärnmā ; allaiknesa|alaiknesa , mäskentär|mäskenträ • #1a lakṣānäntants|lakṣanäntantsä ; epiṅkte|epiṅt(e) – –
+a6 – – – #1b – – – – – ; – cakravārttintants|(cakkra)vārt(t)in(t)ānt(sä) • #1c täryāka wi|(w)ī ; lakṣānänta|lakṣāṇänta , te-yäknesak|taik(n)esākä • #1d ·e – ///
+b1 /// – n· yänm(ā)sk(eṃ) • p(ā)lk(a) twe|tuw(e) || pr(a)ś(a)ntahā(r)n(e) || #M12# taka|täka ran(o) – ;
+b2 – – – – – – #1a – – – – ; – – – – , astarya|(a)stäryā #1b pällentäṣṣepi ; läkutsauñaiśc|läk_utsewñaiśc , meñantse|meñäntse #1c mäk(t)ān tāsau tā ; –
+b3 – – – – – #1d – – lakṣānäntants|(la)kṣānäntāntsä oko yanmaṃ|yänmaṃ • asite weṣṣäṃ • päklyauṣ|päklyauṣä || pañcamne|pañcämne || #M14# –
+b4 – – – – – – ; po ostameṃ|ostämeṃ , ltuweṣ_(Pl.)|ltuweṣä #1a manta|mantā kca|kcā nauṣ , śärsāre ; spelkkessoñc|spelkessoñc ra|rā , nesamane|nesmāne #1b cai –
+b5 – – , – – – ; – – – – , |(snai) lyipär|lyīprä #1c kärsau te mant|mänt , empreṃtsa|empreṃtsā ; kallaṃ|källaṃ klāwi , śaiṣṣene 1 #1d || poñc ākteke mäskentär|mä(ske)|ntär
+b6 (wa)lo w(e)ṣṣäṃ • ñem-klawissu|ñem-klāw(i)ssu • orocce wakitsäñ(ñ)ene stmoṣ|stmoṣä weñāsta|wñāsta twe|tuwe • pañäktäññe|päñäktäñ(ñ)e (klāw)i</item>
+               <item n="m_title_old">Mahābhiniṣkramaṇa</item>
+               <item n="m_leaf_old"/>
+               <item n="m_meter_old">4/4/4+5/4-3+4-3/4-3+5/6</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallels_old"/>
+               <item n="ms_old">PK AS 12C</item>
+               <item n="project_comment_old">&lt;p&gt;I have entered a very preliminary transliteration based on the transcription and the photograph in order to test the XML conversion scripts. It should be revised while marking up the akṣaras in Transkribus. (BK)&lt;/p&gt;
+&lt;p&gt;Alternative classifications:
+&lt;table class="table_lines"&gt;
+  &lt;tr&gt;&lt;td title="MP"&gt;Peyrot&lt;/td&gt;&lt;td title="A1"&gt;archaic I&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="MM"&gt;Malzahn&lt;/td&gt;&lt;td title="A4"&gt;common archaic&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TT"&gt;Tamai&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TTC14"&gt;Tamai-C14&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+&lt;p&gt;Translations from [[Peyrot, ToSu]]
+&lt;table class="table_lines"&gt;
+&lt;th&gt;Lines&lt;/th&gt;
+&lt;th&gt;Translation&lt;/th&gt;
+&lt;th&gt;Pages&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt;a3&lt;/td&gt;
+&lt;td&gt;… he will obtain the fruit of the &lt;i&gt;lakṣaṇa&lt;/i&gt;s. (Georges-Jean Pinault, p.c.; cf [[Couvreur 1953]]: 280)&lt;/td&gt;
+&lt;td&gt;673&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;a5&lt;/td&gt;
+&lt;td&gt;Thus having understood it for truth he will obtain fame in the world. (Georges-Jean Pinault, p.c.; cf [[Couvreur 1953]]: 280)&lt;/td&gt;
+&lt;td&gt;300&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;span style="color: red;"&gt;please do not cite without asking Michaël Peyrot or Georges-Jean Pinault
+&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;"&lt;code&gt;&amp;lt;sup&amp;gt;1a&amp;lt;/sup&amp;gt;&lt;/code&gt;" etc. changed to "&lt;code&gt;#1a&lt;/code&gt;" etc., "&lt;code&gt;¦&lt;/code&gt;" changed to "&lt;code&gt;;&lt;/code&gt;". –Martin (Wed, 2014-10-15, 16:34:48)&lt;/li&gt;
+&lt;li&gt;What does b3 "&lt;code&gt;~&lt;/code&gt;" mean!? –Martin (Wed, 2014-10-15, 16:34:48)
+&lt;ul&gt;
+&lt;li&gt;"&lt;code&gt;~&lt;/code&gt;" replaced by "&lt;code&gt;•&lt;/code&gt;". Presumably "&lt;code&gt;~&lt;/code&gt;" stands for a stretched-out "&lt;code&gt;•&lt;/code&gt;"? - BK, TI&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;First line "&lt;code&gt;(tā)&lt;/code&gt;" removed due to violations of several notation rules. –Martin (Wed, 2014-10-15, 16:41:04)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;additional classification
+&lt;peyrot&gt;A1&lt;/peyrot&gt;
+&lt;/p&gt;</item>
+               <item n="m_script_old">Archaic</item>
+               <item n="m_other_sigla_old">Pelliot Koutchéen Ancienne Série 12C</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old"/>
+               <item n="m_size_w_old"/>
+               <item n="m_expedition_old"/>
+               <item n="m_metric_form_old">Both</item>
+               <item n="m_tune_old">pañcämne+praśantahārne</item>
+               <item n="project_check_old"/>
+               <item n="m_translation_old">a3 ... he will obtain the fruit of the &lt;i&gt;lakṣaṇa&lt;/i&gt;s.
+a5 Thus having understood it for truth he will obtain fame in the world.</item>
+               <item n="m_subgenre_old">Drama</item>
+               <item n="category_old">manuscript</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="user_modified_old">bernhard</item>
+               <item n="user_created_old">theres</item>
+               <item n="m_prev_old"/>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_linedistance_old"/>
+               <item n="access_old">restricted</item>
+               <item n="m_lines_old"/>
+               <item n="m_collection_old">Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</item>
+               <item n="m_completeness_old"/>
+               <item n="file_location_old">pages/manuscript/PK_AS/pkas12c.txt</item>
+               <item n="m_editor_old">Hannes A. Fellner</item>
+               <item n="m_philcomment_old"/>
+               <item n="m_passage_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old"/>
+               <item n="file_modified_old">1585234330</item>
+               <item n="file_created_old">1348759333</item>
+               <item n="m_bib_old">Complete translation: [[Couvreur 1953]]: 280.&lt;br&gt;
+Translation:
+&lt;b&gt;a3&lt;/b&gt; [[Peyrot, ToSu]]: 673;
+&lt;b&gt;a5&lt;/b&gt; [[Peyrot, ToSu]]: 300.</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old"/>
+               <item n="m_image_old">http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f98.zoom|http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f98.highres||$page; recto|transform:rotate(180deg);
+http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f97.zoom|http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f97.highres||$page; verso</item>
+               <item n="m_language_stage_old">Archaic</item>
+               <item n="m_transliteration_old">a1 – ī\ – stemi si_l_l_aññesā || a·wan· || kā lm· tāk· ·tu e – tk· – – ·r· – – – a – ·l· – – ·sk· – – – 
+a2 – – – l··e – ·am·d·_arntse totteññe e_k_atkātte se mā srukalñe yänmālle 1 || walo we_ṣ_ṣ_aṃ • ta k_uce cakkravārt·i ///
+a3 /// d_t_arntse totteññe yänmāskeṃ • asite we_ṣ_ṣ_aṃ • ta k_uce cakravārttiññe _t_ane _p_ak_u_t_a_r\
+a4 /// ne wätkā_lt_s_aññe • brahmaṇe we_ṣ_ṣ_aṃ • nau_ṣ_aññeṃ rṣākeṃts\ poñä śa_s_t_a
+a5 /// s śas_t_arnmā alaiknesa _m_askent_r_a • lakṣa_n_antant_s_a epiṅt· – – 
+a6 /// vārt·in·ānt· • _t_aryāka·ī lakṣāṇänta taik·esā_k_a • ·e ///
+b1 /// – n· yänm·sk· • p·lk· tuw· || pr·ś·ntahā·n· || _t_aka ran· –
+b2 /// _s_t_aryā _p_allen_t_aṣṣepi _l_ak_utsewñaiśc meñäntse _m_ak·ān tāsau tā – 
+b3 /// kṣānäntānt_s_a oko yänmaṃ • asite we_ṣ_ṣ_aṃ • _p_aklyau_ṣ_a || pañcämne || – 
+b4 /// po o_s_t_ameṃ ltuwe_ṣ_a mantā kcā nauṣ _ś_arsāre spelkessoñc rā nesmāne cai – 
+b5 /// lyīp_r_a _k_arsau te _m_ant empreṃtsā _k_allaṃ klāwi śaiṣṣene 1 || poñc ākteke _m_a –
+b6 ntä_r\• – lo w·_ṣ_ṣ_aṃ • ñem-klāw·ssu • orocce wakit_s_añ·ene stmo_ṣ_a wñāsta tuwe • _p_añä_k_t_añ·e – ·i</item>
+               <item n="date_publication_old"/>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;I have entered a very preliminary transliteration based on the transcription and the photograph in order to test the XML conversion scripts. It should be revised while marking up the akṣaras in Transkribus. (BK)&lt;/p&gt;&lt;p&gt;Alternative classifications:
+
+&lt;/p&gt;&lt;p&gt;&lt;span style="color: red;"&gt;please do not cite without asking Michaël Peyrot or Georges-Jean Pinault
+&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;"&lt;code&gt;&amp;lt;sup&amp;gt;1a&amp;lt;/sup&amp;gt;&lt;/code&gt;" etc. changed to "&lt;code&gt;#1a&lt;/code&gt;" etc., "&lt;code&gt;¦&lt;/code&gt;" changed to "&lt;code&gt;;&lt;/code&gt;". –Martin (Wed, 2014-10-15, 16:34:48)&lt;/li&gt;&lt;li&gt;What does b3 "&lt;code&gt;~&lt;/code&gt;" mean!? –Martin (Wed, 2014-10-15, 16:34:48)
+&lt;ul&gt;&lt;li&gt;"&lt;code&gt;~&lt;/code&gt;" replaced by "&lt;code&gt;•&lt;/code&gt;". Presumably "&lt;code&gt;~&lt;/code&gt;" stands for a stretched-out "&lt;code&gt;•&lt;/code&gt;"? - BK, TI&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;First line "&lt;code&gt;(tā)&lt;/code&gt;" removed due to violations of several notation rules. –Martin (Wed, 2014-10-15, 16:41:04)&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;additional classification
+&lt;peyrot&gt;A1&lt;/peyrot&gt;
+&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-sht1121">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>SHT 1121</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>SHT 1121</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>9</height>
+                              <width>18.5</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">5</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Murtuq</region>during <rs type="expedition_code">T III M 135</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="txb"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Gloss</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=294276;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=294276;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="b1"><zone>KLA</zone><zone>tse</zone><zone><unclear>ma</unclear></zone><zone><unclear>n</unclear><gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="1"/><gap reason="editorial"/><zone><unclear>ś</unclear><gap reason="plain" unit="part"/></zone><zone><gap reason="plain" unit="part"/>e</zone><zone><unclear>ma</unclear></zone><zone>ne¯</zone><zone>¯t<unclear>S</unclear></zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#b1"/><w>klätseman<supplied>ets</supplied></w><gap reason="editorial"/><w>ś<supplied>auk</supplied>emanets</w></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#b1"><seg><seg type="prim_transl">of those who drive ... of those who shout</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="lingcomment"><bibl><title corresp="ref:malzahn2007b"/><citedRange>305</citedRange></bibl> reads <hi><hi rend="underline">kla</hi>ṅsā(–)</hi>, but the second akṣara is probably <hi>tse</hi> with a very developed top of the <hi>t</hi>. The restoration of the final part is inspired by the following gloss, where at least the last akṣaras are clear. The root may be that of 3sg.prs.mid. <ref type="ms" target="txt:m-tht3"/>: a3 <hi>kalṣtär</hi>, 3pl.prs.mid. <ref type="ms" target="txt:m-tht3"/>: a4 <hi>kältsenträ</hi>, traditionally set up as <hi>kälts-</hi> 'threaten', on the assumption that <hi>klätseman(ets)</hi> is simply a misspelling of <hi>kältsemanets</hi>, similar to <ref type="ms" target="txt:m-tht1524"/>: b3 <hi>präkare</hi> 'long' fpr <hi>pärkare</hi> (<bibl><title corresp="ref:peyrot2010b"/><citedRange>136</citedRange></bibl>). However, the meaning is now commonly set up as 'goad, drive' (<bibl><title corresp="ref:malzahn2010"/><citedRange>590-1</citedRange></bibl>; <bibl><title corresp="ref:adams2013a"/><citedRange>181</citedRange></bibl>), and it may eventually be the same verb as <hi>kǝl-</hi> 'carry' (<bibl><title corresp="ref:peyrot2013b"/><citedRange>736</citedRange></bibl>). The simplest solution seems to assume that the Tocharian glossator took <hi>prativah-</hi> in the menaing 'lead towards' (cf. <bibl><title corresp="ref:monierwilliams1899"/><citedRange>670a</citedRange></bibl>). Apparently, he understood the Sanskrit pt.ptc. as active; in principle, <hi>klätseman(ets)</hi> cannot mean 'of those who are are driven'. It should be noted that the Tocharian present participle is normally indeclinable: the gen.pl. ending here can be compared to rare genitive singulars that are calques on Sanskrit (<bibl><title corresp="ref:peyrot2013a"/><citedRange>237</citedRange></bibl>).</note><note type="lingcomment">Of the second gloss, only the ending can be read with relative certainty, while the root is essentially illegible. Assuming that <hi>pratikruś-</hi> was taken as 'shout at' (cf. <hi>kruś-</hi> 'cry out' etc.), the glos could be restored as <hi>ś(auk)emanets</hi> (on the gen.pl. see note above on <hi>klätseman(ets)</hi>). However, it must be pointed out that the uncertain reading of the <hi>[ś]·</hi> is the only indication for this restoration: it has to be assumed that any trace of the vowel sign <hi>au</hi> has been completey abraded.</note><note type="philcomment">The first item gloses Skt. <hi>prativahatāṃ</hi> (gen.pl.masc.) 'of the rejected' (<bibl><title corresp="ref:swft1973"/><citedRange>III, 181a</citedRange></bibl>).</note><note type="philcomment">The second item glosses Skt. <hi>pratikrośatāṃ</hi> 'of the scorned, the rejected'.</note><note type="remarks">The fragment has to be reversed compared to the edition in <bibl><title corresp="ref:sanderandwaldschmidt1985"/><citedRange>116</citedRange></bibl>; see <bibl><title corresp="ref:wille2000"/><citedRange>195</citedRange></bibl>.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>other</label><bibl><title corresp="ref:peyrot2014"/><citedRange>133, 149-50</citedRange></bibl>; <bibl><title corresp="ref:malzahn2007b"/><citedRange>305</citedRange></bibl>.</p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=SHT 1121" type="external">SHT 1121</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="file_modified_old">1485172682</item>
+               <item n="file_created_old">1445589001</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old">9</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_editor_old"/>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old">&lt;p&gt;The first item gloses Skt. &lt;i&gt;prativahatāṃ&lt;/i&gt; (gen.pl.masc.) 'of the rejected' ([[SWTF]]: III, 181a).&lt;/p&gt;
+&lt;p&gt;The second item glosses Skt. &lt;i&gt;pratikrośatāṃ&lt;/i&gt; 'of the scorned, the rejected'.&lt;/p&gt;</item>
+               <item n="m_language_stage_old"/>
+               <item n="m_transliteration_old">b1 _k_l_atse[man]· – ... [ś]··e[ma]net[_s]\</item>
+               <item n="date_publication_old"/>
+               <item n="m_image_old">http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=294225;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=294225;rotate=0;imageType=_M||$page; recto
+http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=294276;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=294276;rotate=0;imageType=_M||$page; verso</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=SHT 1121" target="idp"&gt;SHT 1121&lt;/a&gt;.&lt;br&gt;
+[[Peyrot 2014]]: 133, 149-50; [[Malzahn 2007b]]: 305.</item>
+               <item n="m_lingcomment_old">&lt;p&gt;[[Malzahn 2007b]]: 305 reads &lt;i&gt;&lt;u&gt;kla&lt;/u&gt;ṅsā(–)&lt;/i&gt;, but the second akṣara is probably &lt;i&gt;tse&lt;/i&gt; with a very developed top of the &lt;i&gt;t&lt;/i&gt;. The restoration of the final part is inspired by the following gloss, where at least the last akṣaras are clear. The root may be that of 3sg.prs.mid. [[THT 3]]: a3 &lt;i&gt;kalṣtär&lt;/i&gt;, 3pl.prs.mid. [[THT 3]]: a4 &lt;i&gt;kältsenträ&lt;/i&gt;, traditionally set up as &lt;i&gt;kälts-&lt;/i&gt; 'threaten', on the assumption that &lt;i&gt;klätseman(ets)&lt;/i&gt; is simply a misspelling of &lt;i&gt;kältsemanets&lt;/i&gt;, similar to [[THT 1524]]: b3 &lt;i&gt;präkare&lt;/i&gt; 'long' fpr &lt;i&gt;pärkare&lt;/i&gt; ([[Peyrot 2010b]]: 136). However, the meaning is now commonly set up as 'goad, drive' ([[Malzahn 2010]]: 590-1; [[Adams, 2DoT]]: 181), and it may eventually be the same verb as &lt;i&gt;kǝl-&lt;/i&gt; 'carry' ([[Peyrot, ToSu]]: 736). The simplest solution seems to assume that the Tocharian glossator took &lt;i&gt;prativah-&lt;/i&gt; in the menaing 'lead towards' (cf. [[M-W]]: 670a). Apparently, he understood the Sanskrit pt.ptc. as active; in principle, &lt;i&gt;klätseman(ets)&lt;/i&gt; cannot mean 'of those who are are driven'. It should be noted that the Tocharian present participle is normally indeclinable: the gen.pl. ending here can be compared to rare genitive singulars that are calques on Sanskrit ([[Peyrot 2013a]]: 237).&lt;/p&gt;
+&lt;p&gt;Of the second gloss, only the ending can be read with relative certainty, while the root is essentially illegible. Assuming that &lt;i&gt;pratikruś-&lt;/i&gt; was taken as 'shout at' (cf. &lt;i&gt;kruś-&lt;/i&gt; 'cry out' etc.), the glos could be restored as &lt;i&gt;ś(auk)emanets&lt;/i&gt; (on the gen.pl. see note above on &lt;i&gt;klätseman(ets)&lt;/i&gt;). However, it must be pointed out that the uncertain reading of the &lt;i&gt;[ś]·&lt;/i&gt; is the only indication for this restoration: it has to be assumed that any trace of the vowel sign &lt;i&gt;au&lt;/i&gt; has been completey abraded.&lt;/p&gt;</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_linedistance_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_old">Murtuq</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="file_location_old">pages/manuscript/sht1121.txt</item>
+               <item n="m_completeness_old"/>
+               <item n="access_old">restricted</item>
+               <item n="m_lines_old">5</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_translation_old">b1 of those who drive ... of those who shout</item>
+               <item n="m_subgenre_old">Gloss</item>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_prev_old"/>
+               <item n="user_modified_old">theres</item>
+               <item n="user_created_old">theres</item>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_title_old"/>
+               <item n="m_transcription_old">b1 klätseman(ets) ... ś(auk)emanets</item>
+               <item n="m_leaf_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_expedition_old">T III M 135</item>
+               <item n="m_size_w_old">18.5</item>
+               <item n="m_other_sigla_old"/>
+               <item n="m_remarks_old">&lt;p&gt;The fragment has to be reversed compared to the edition in [[SHT V]]: 116; see [[SHT VIII]]: 195.&lt;/p&gt;</item>
+               <item n="m_language_old">Sanskrit+TB</item>
+               <item n="project_comment_old"/>
+               <item n="ms_old">SHT 1121</item>
+               <item n="m_script_old"/>
+               <item n="m_parallels_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

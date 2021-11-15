@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht225">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 225</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 225</idno>
+                  <altIdentifier>
+                     <idno>B 225</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Bleistiftnummer 2759</idno>
+                  </altIdentifier>
+                  <msName>THT 224-227</msName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>archaic</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Qizil Miŋ-Öy</region><placeName>Rothkuppelraum</placeName>during <rs type="expedition_code">T III MQR 78</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-archaic frg:ls-peyrot-A1 frg:ls-C14 frg:ls-malzahn-A4 frg:ls-C14 frg:ls-tamai-A2 frg:ls-C14"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Buddhastotra</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328135;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328135;rotate=0;imageType=_M"/>
+            <graphic url="B/B225a.jpg" height="730px" width="1316px"/>
+            <line n="1" xml:id="a1"><zone>n<unclear>e</unclear></zone><zone>ne</zone><zone>॥</zone><zone>wi</zone><zone>na</zone><zone>ske</zone><zone>wc<unclear>ä</unclear></zone><zone>cā</zone><zone>KA<gap reason="plain" unit="part"/></zone><zone><unclear>ṣ</unclear><gap reason="plain" unit="part"/></zone><zone>tri</zone><zone><gap reason="plain" unit="part"/><unclear>e</unclear></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><zone>PA</zone><zone>lsko</zone><zone>ce</zone><zone>kwä</zone><zone>rñai</zone><zone>ñä</zone><zone>śva</zone><zone>la</zone><zone>tsya</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="plain" quantity="1"/><zone>no</zone><zone>ṣkre<unclear>¯</unclear></zone><zone><unclear>¯</unclear>n<unclear>t</unclear></zone><zone>krui</zone><zone>twe</zone><zone>ñä</zone><zone>kta</zone><zone>te</zone><zone>te</zone><zone>mu</zone><zone>ka</zone><zone><gap reason="plain" unit="part"/><unclear>ai</unclear></zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328132;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328132;rotate=0;imageType=_M"/>
+            <graphic url="B/B225b.jpg" height="714px" width="1208px"/>
+            <line n="1" xml:id="b1"><gap reason="plain" quantity="1"/><zone>st<gap reason="plain" unit="part"/></zone><zone>re</zone><zone>ki</zone><zone><unclear>t</unclear>e</zone><zone>kpo</zone><zone>sTA</zone><zone>ññe</zone><zone>TA</zone><zone>nMA</zone><zone>ṣle</zone><zone><unclear>ñ</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><zone><unclear>c</unclear>e</zone><zone>MA</zone><zone>ntre</zone><zone>ki</zone><zone>2</zone><zone>e</zone><zone>rke</zone><zone>nma</zone><zone>yna</zone><zone><unclear>ñ</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><zone>ṢA</zone><zone>snai</zone><zone>sai</zone><zone>mne</zone><zone>se¯</zone><zone>¯u</zone><zone>te</zone><zone>tRA</zone><zone>ṅma</zone><zone>ne</zone><zone><gap reason="plain" unit="part"/>e</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><w>nene</w><pc>॥</pc><w>winaskewcä</w><w>cākä<supplied>r</supplied></w><w>ṣ<supplied>o</supplied>tri</w><w><supplied>p</supplied>e<supplied>rneñc</supplied></w><w><supplied>paiyne</supplied></w><gap reason="lost"/>
+<lb corresp="#a2"/><w>pälsko</w><w>cek</w><w>wärñai</w><w>ñäś</w><w>valatsy</w><w>a</w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="plain" quantity="1"/><w>noṣ</w><w>krent</w><w>krUi</w><w>twe</w><w>ñäkta</w><w>tetemu</w><w>ka</w><w><gap reason="plain" unit="part"/>ai</w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="plain" quantity="1"/><w>st<supplied>a</supplied></w><w>reki</w><w>tek</w><w>postäññe</w><w>tänmäṣle</w><w>ñ<supplied>i</supplied></w><gap reason="lost"/>
+<lb corresp="#b2"/><w>ce</w><w>mänt</w><w>reki</w><num value="2">2</num><w>erkenma</w><w>ynañ<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#b3"/><w>ṣä</w><w>snai</w><w>saim</w><w>neseU</w><w>te</w><w>träṅmane</w><w><gap reason="plain" unit="part"/>e</w><gap reason="lost"/></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">In one frame with <ref type="ms" target="txt:m-tht226"/> and <ref type="ms" target="txt:m-tht227"/>, <ref type="ms" target="txt:m-tht227b"/>, <ref type="ms" target="txt:m-tht227c"/>.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition</label><bibl><title corresp="ref:siegandsiegling1953"/><citedRange>134-135</citedRange></bibl>.</p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 225" type="external">THT 225</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/02/0225.htm" type="external">THT 225</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="access_old">public</item>
+               <item n="m_lines_old">3</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="file_location_old">pages/manuscript/THT_0001_0633/tht225.txt</item>
+               <item n="m_findspot_specific_old">Rothkuppelraum</item>
+               <item n="m_findspot_old">Qizil Miŋ-Öy</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="created_date_old">2012-03-17, 18:50:03 (CET)</item>
+               <item n="file_size_old">2 KB</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 225" target="idp"&gt;THT 225&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/02/0225.htm" target="titus"&gt;THT 225&lt;/a&gt;.&lt;br&gt;
+Edition: [[TochSprR(B) II]]: 134-135.</item>
+               <item n="m_manuscript_old">THT 224-227</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328135;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328135;rotate=0;imageType=_M||THT 225 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328132;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328132;rotate=0;imageType=_M||THT 225 verso</item>
+               <item n="m_language_stage_old">Archaic</item>
+               <item n="m_transliteration_old">a1 n[e]ne || winaskewc[ä] cā_k_a(r) [ṣ](o)tri [·e] ///
+a2 _p_alsko cek wärñai ñäś valatsy a ///
+a3 – noṣ kren[t\] kr_ui twe ñäkta tetemu ka [·ai] ///
+b1 – st(a) reki [t]ek pos_t_aññe _t_an_m_aṣle [ñ](i) ///
+b2 [c]e _m_ant reki 2 erkenma yna[ñ·] ///
+b3 _ṣ_a snai saim nese_u te t_r_aṅmane ·e ///</item>
+               <item n="version_old">4</item>
+               <item n="page_name_old">THT 225</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="file_modified_old">1545200112</item>
+               <item n="file_created_old">1332006603</item>
+               <item n="edited_date_old">2018-07-30, 15:45:26 (CEST)</item>
+               <item n="project_comment_old">&lt;p&gt;Alternative classifications:
+&lt;table class="table_lines"&gt;
+  &lt;tr&gt;&lt;td title="MP"&gt;Peyrot&lt;/td&gt;&lt;td title="A1"&gt;archaic I&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="MM"&gt;Malzahn&lt;/td&gt;&lt;td title="A4"&gt;common archaic&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TT"&gt;Tamai&lt;/td&gt;&lt;td title="A2"&gt;I-2 (400-500)&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TTC14"&gt;Tamai-C14&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;additional classification
+&lt;peyrot&gt;A1&lt;/peyrot&gt;
+&lt;/p&gt;</item>
+               <item n="ms_old">THT 225</item>
+               <item n="m_script_old">Archaic</item>
+               <item n="m_other_sigla_old">B 225, Bleistiftnummer 2759</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old">In one frame with [[THT 226]] and [[THT 227.a]], [[THT 227.b]], [[THT 227.c]].</item>
+               <item n="m_expedition_old">T III MQR 78</item>
+               <item n="m_transcription_old">a1 nene || winaskewcä cākä(r) ṣ(o)tri (p)e(rneñc paiyne) ///
+a2 pälsko cek wärñai ñäś valatsy a ///
+a3 – noṣ krent kwri|kr_ui twe ñäkta tetemu ka ·ai ///
+b1 – st(a) reki tek postäññe tänmäṣle ñ(i) ///
+b2 ce mänt reki 2 erkenma ynañ· ///
+b3 ṣä snai saim nese_u te träṅmane ·e ///</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="group_old">Public</item>
+               <item n="editgroup_old">Editor</item>
+               <item n="category_old">manuscript</item>
+               <item n="user_modified_old">bernhard</item>
+               <item n="user_created_old">automatic</item>
+               <item n="m_metric_form_old">Verse</item>
+               <item n="file_savedate_old">2018-07-30, 15:36:33 (CEST)</item>
+               <item n="m_subgenre_old">Buddhastotra</item>
+               <item n="file_name_old">pages/manuscript/THT_0001_0633/tht225.txt</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;Alternative classifications:
+
+&lt;/p&gt;&lt;p&gt;additional classification
+&lt;peyrot&gt;A1&lt;/peyrot&gt;
+&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

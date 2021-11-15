@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-a422">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A 422</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>A 422</idno>
+                  <altIdentifier>
+                     <idno>THT 1056</idno>
+                  </altIdentifier>
+                  <msName>A 418-426</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Varṇārhavarṇastotra</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Siŋgim</region>during <rs type="expedition_code">T II S 51.5</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+         <sourceDesc>
+            <p>Transcription and translation are based on <bibl><title corresp="ref:carlingetal2009"/></bibl>. </p>
+            <p>Transcription and references have been transferred from the "Text and Reference Database of the Tocharian A Language" (Gerd Carling Lund University) (funded by the Bank of Sweden Tercentenary Foundation and SCAS).</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="xto"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Buddhastotra</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329584;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329584;rotate=0;imageType=_M"/>
+            <graphic url="A/A422a.jpg" height="880px" width="1088px"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone>wra¯</zone><zone>¯M</zone><zone>•</zone><zone>ā</zone><zone>śa</zone><zone>yā</zone><zone>nu</zone><zone>gu</zone><zone>ṇaṃ</zone><zone>mi</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone><gap reason="plain" unit="part"/><unclear>y</unclear><gap reason="plain" unit="part"/></zone><zone>ya¯</zone><zone>¯m</zone><zone>•</zone><zone>tso</zone><zone>pa¯</zone><zone>¯tS</zone><zone>cä</zone><zone>mpla¯</zone><zone>¯<unclear>M</unclear></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone>ṣā</zone><zone>ña</zone><zone>tsu¯</zone><zone>¯<unclear>M</unclear></zone><gap reason="plain" quantity="2"/><zone><unclear>pū</unclear></zone><zone>rṇa</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329593;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329593;rotate=0;imageType=_M"/>
+            <graphic url="A/A422b.jpg" height="808px" width="1072px"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone>nn<gap reason="plain" unit="part"/></zone><zone>w<gap reason="plain" unit="part"/></zone><zone>wñu</zone><zone>•</zone><zone>pr<gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="2"/><zone><gap reason="plain" unit="part"/>y<gap reason="plain" unit="part"/></zone><zone>vi</zone><zone>p<gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone>y<gap reason="plain" unit="part"/></zone><zone>•</zone><zone>ta</zone><zone>vā</zone><zone>ne</zone><zone>kāṃ</zone><zone>śa</zone><zone>vā</zone><zone>di</zone><zone>na</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><zone>ma</zone><zone>KA</zone><zone>lyme</zone><zone>tRA</zone><zone>ṅKA</zone><zone>ntā¯</zone><zone>¯ñä</zone><zone>20</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p><milestone unit="passage" n="6.25-29"/>
+<lb corresp="#a1"/><gap reason="lost"/><w>wram</w><pc>•</pc><w>āśayānuguṇaṃ</w><w>mi<supplied>tam</supplied></w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><w><supplied>av</supplied>y<supplied>a</supplied>yam</w><pc>•</pc><w>tsopats</w><w>cämplam</w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><w>ṣāñatsum</w><pc><supplied>•</supplied></pc><w><supplied>pari</supplied>pūrṇa<supplied>m</supplied></w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><w><supplied>ta</supplied>nn<supplied>e</supplied></w><w>w<supplied>e</supplied>wñu</w><pc>•</pc><w>pr<supplied>atiṣev</supplied>y<supplied>aṃ</supplied></w><w>vip<supplied>aryayāt</supplied></w><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><w>y<gap reason="plain" unit="part"/></w><pc>•</pc><w>tavānekāṃśavādina<supplied>ḥ</supplied></w><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><w><supplied>ṣo</supplied>ma-kälyme</w><w>träṅkäntāñ</w><num value="29">20<supplied>-9</supplied></num><gap reason="lost"/></p>
+         </div>
+         <div type="comments">
+            <p><note type="parallels"><bibl><title corresp="ref:hartmannju1987"/><citedRange>205-208</citedRange></bibl></note><note corresp="#a1" type="philcomment"><hi>wram</hi>: translates <hi>°artham</hi> in 6.25a <hi>anvartham</hi> 'der Bedeutung entsprechend' (<bibl><title corresp="ref:hartmannju1987"/><citedRange>205</citedRange></bibl>).</note><note corresp="#a2" type="philcomment"><hi>tsopats cämplam</hi>: translates 6.25d <hi>mahāsāmārthyam</hi> in <hi>ekāntamahāsāmārthyam</hi> 'von ganz und gar gewaltiger Kraft' (<bibl><title corresp="ref:hartmannju1987"/><citedRange>205</citedRange></bibl>).</note><note corresp="#a3" type="philcomment"><hi>ṣāñatsum</hi>: translates 6.26b <hi>upāyavat</hi> 'heilvolle Mittel besitzend' (<bibl><title corresp="ref:hartmannju1987"/><citedRange>206</citedRange></bibl>).</note><note corresp="#b1" type="philcomment"><hi>(ta)nn(e) w(e)wñu</hi>: translates 6.28c <hi>ity uktaṃ</hi> 'so ist (von dir) gesagt' (<bibl><title corresp="ref:hartmannju1987"/><citedRange>207</citedRange></bibl>).</note><note corresp="#b2" type="philcomment"><hi>/// y·</hi>: this is the end of the translation of 6.29a <hi>°sevāyāṃ</hi> 'in service' in <hi>iṣṭāniṣṭasevāyāṃ</hi> 'die Pflege des Erwünschten und des Unerwünschten' (<bibl><title corresp="ref:hartmannju1987"/><citedRange>208</citedRange></bibl>). <bibl><title corresp="ref:couvreur1966"/><citedRange>176</citedRange></bibl> suggests to restore <hi>(paṃ yāmlune)y(aṃ)</hi> 'in serving'.</note><note corresp="#b3" type="philcomment"><hi>(ṣo)ma-kälyme träṅkäntāñ</hi>: translates 6.29d <hi>ekāṃśavādinaḥ</hi> 'die (nur) einseitig lehren' (<bibl><title corresp="ref:hartmannju1987"/><citedRange>208</citedRange></bibl>).</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition</label><bibl><title corresp="ref:siegandsiegling1921"/><citedRange>232</citedRange></bibl>. <bibl>Siegling's personal copy of <title corresp="ref:siegandsiegling1921"/><ref target="./images/TS_Siegling/TS_Siegling_Page_232.png" type="external">p. 232</ref></bibl>.  <bibl><title corresp="ref:siegandsiegling1921"/><citedRange>232</citedRange></bibl>; <bibl><title corresp="ref:couvreur1966"/><citedRange>175-176</citedRange></bibl>.</p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT%201056" type="external">THT 1056</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/10/1056.htm" type="external">THT 1056</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="project_check_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_tune_old"/>
+               <item n="m_subgenre_old">Buddhastotra</item>
+               <item n="m_translation_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_prev_old"/>
+               <item n="user_modified_old">martin</item>
+               <item n="user_created_old">michael</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_title_old">Varṇārhavarṇastotra</item>
+               <item n="m_transcription_old">a1 /// wram • āśayānuguṇaṃ mi(tam) ///
+a2 /// (av)y(a)yam • tsopats cämplam ///
+a3 /// ṣāñatsum (• pari)pūrṇa(m) ///
+b1 /// taṃne|(ta)nn(e) w(e)wñu • pr(atiṣev)y(aṃ) vip(aryayāt) ///
+b2 /// y· • tavānekāṃśavādina(ḥ) ///
+b3 /// (ṣo)ma-kälyme träṅkäntāñ 20(-9) ///</item>
+               <item n="m_leaf_old"/>
+               <item n="m_meter_old">6/5</item>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="ms_old">A 422</item>
+               <item n="project_comment_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="m_parallels_old">[[Hartmann JU 1987]]: 205-208</item>
+               <item n="m_size_w_old"/>
+               <item n="m_expedition_old">T II S 51.5</item>
+               <item n="m_other_sigla_old">THT 1056</item>
+               <item n="m_remarks_old"/>
+               <item n="m_language_old">Sanskrit+TA</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="m_passage_old">6.25-29</item>
+               <item n="m_philcomment_old">&lt;b&gt;a1&lt;/b&gt; &lt;i&gt;wram&lt;/i&gt;: translates &lt;i&gt;°artham&lt;/i&gt; in 6.25a &lt;i&gt;anvartham&lt;/i&gt; 'der Bedeutung entsprechend' ([[Hartmann JU 1987]]: 205).
+&lt;br&gt;&lt;b&gt;a2&lt;/b&gt; &lt;i&gt;tsopats cämplam&lt;/i&gt;: translates 6.25d &lt;i&gt;mahāsāmārthyam&lt;/i&gt; in &lt;i&gt;ekāntamahāsāmārthyam&lt;/i&gt; 'von ganz und gar gewaltiger Kraft' ([[Hartmann JU 1987]]: 205).
+&lt;br&gt;&lt;b&gt;a3&lt;/b&gt; &lt;i&gt;ṣāñatsum&lt;/i&gt;: translates 6.26b &lt;i&gt;upāyavat&lt;/i&gt; 'heilvolle Mittel besitzend' ([[Hartmann JU 1987]]: 206).
+&lt;br&gt;&lt;b&gt;b1&lt;/b&gt; &lt;i&gt;(ta)nn(e) w(e)wñu&lt;/i&gt;: translates 6.28c &lt;i&gt;ity uktaṃ&lt;/i&gt; 'so ist (von dir) gesagt' ([[Hartmann JU 1987]]: 207).
+&lt;br&gt;&lt;b&gt;b2&lt;/b&gt; &lt;i&gt;/// y·&lt;/i&gt;: this is the end of the translation of 6.29a &lt;i&gt;°sevāyāṃ&lt;/i&gt; 'in service' in &lt;i&gt;iṣṭāniṣṭasevāyāṃ&lt;/i&gt; 'die Pflege des Erwünschten und des Unerwünschten' ([[Hartmann JU 1987]]: 208). [[Couvreur 1966]]: 176 suggests to restore &lt;i&gt;(paṃ yāmlune)y(aṃ)&lt;/i&gt; 'in serving'.
+&lt;br&gt;&lt;b&gt;b3&lt;/b&gt; &lt;i&gt;(ṣo)ma-kälyme träṅkäntāñ&lt;/i&gt;: translates 6.29d &lt;i&gt;ekāṃśavādinaḥ&lt;/i&gt; 'die (nur) einseitig lehren' ([[Hartmann JU 1987]]: 208).</item>
+               <item n="file_modified_old">1574430913</item>
+               <item n="file_created_old">1345804055</item>
+               <item n="m_size_h_old"/>
+               <item n="m_next_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT%201056"&gt;THT 1056&lt;/a&gt;,
+[[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/10/1056.htm"&gt;THT 1056&lt;/a&gt;.&lt;br&gt;
+Transcription and references have been transferred from the "Text and Reference Database of the Tocharian A Language" (Gerd Carling, Lund University) (funded by the Bank of Sweden Tercentenary Foundation and SCAS).
+Transcription and translation are based on [[Carling, DThTA]].&lt;br&gt;
+Edition: [[TochSprR(A)]]: 232.&lt;br&gt;
+Siegling's personal copy of [[TochSprR(A)]]: &lt;a href="./images/TS_Siegling/TS_Siegling_Page_232.png"&gt;p. 232&lt;/a&gt;.&lt;br&gt;
+Edition: [[TochSprR(A)]]: 232; [[Couvreur 1966]]: 175-176.</item>
+               <item n="m_manuscript_old">A 418-426</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_transliteration_old">a1 /// wra_m\ • āśayānuguṇaṃ mi ///
+a2 /// [·y·]yam\ • tsopat_s\ cämpla[_m]\ ///
+a3 /// ṣāñatsu[_m]\ – – [pū]rṇa ///
+b1 /// nn· w·wñu • pr· – – ·y· vip· ///
+b2 /// y· • tavānekāṃśavādina ///
+b3 /// ma-_k_alyme t_r_aṅ_k_antāñä\ 20 ///</item>
+               <item n="m_language_stage_old"/>
+               <item n="date_publication_old"/>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329584;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329584;rotate=0;imageType=_M||THT 1056 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329593;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329593;rotate=0;imageType=_M||THT 1056 verso</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_old">Siŋgim</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_linedistance_old"/>
+               <item n="m_completeness_old"/>
+               <item n="access_old">public</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_lines_old"/>
+               <item n="file_location_old">pages/manuscript/A/a422.txt</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

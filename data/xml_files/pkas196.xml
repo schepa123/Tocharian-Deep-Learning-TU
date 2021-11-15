@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-pkas196">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PK AS 19.6</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Georges-Jean Pinault</name>
+            </respStmt>
+            <respStmt>
+               <resp>collaborator</resp>
+               <name>Hannes A. Fellner</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <date when="2014-07">July 2014</date>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</repository>
+                  <idno>PK AS 19.6</idno>
+                  <altIdentifier>
+                     <idno>Pelliot Koutchéen Ancienne Série 19.5 (number in 1982)</idno>
+                  </altIdentifier>
+                  <msName>PK AS 19</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Pratītyasamutpāda</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>6,5</height>
+                              <width>21</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <dimensions type="line_spacing">
+                              <height>1,2</height>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>during <rs type="expedition_code">M 504.6 (provisional number 1396)</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Abhidharma</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f130.zoom"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f130.highres"/>
+            <line xml:id="lf"><zone>81</zone></line>
+            <line n="1" xml:id="a1"><gap reason="illegible"/></line>
+            <line n="2" xml:id="a2"><gap reason="plain" quantity="2"/><gap reason="par" quantity="1"/><zone><unclear>rk</unclear><gap reason="plain" unit="part"/></zone><zone>le</zone><zone>sa</zone><zone>ma</zone><zone>lkwe</zone><zone>RA</zone><zone>tū</zone><zone>ne</zone><zone>pru</zone><zone>KA</zone><zone>ṢṢA</zone><zone><unclear>l</unclear>l<unclear>e</unclear></zone><zone>tu</zone><zone>meṃ</zone><zone>u</zone><zone>ppā</zone><gap reason="par" quantity="3"/><zone>p<unclear>ā</unclear></zone><zone>kri</zone><zone>MA</zone><zone>s<gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><zone>me</zone><zone><unclear>ma</unclear><gap reason="par" unit="part"/>¯</zone><zone>¯T</zone><zone>pa</zone><zone>lsko</zone><zone>ne</zone><zone>ya</zone><zone>ma</zone><zone>ṢA</zone><space type="string_hole"/><zone>lle</zone><zone>•</zone><zone>pya</zone><zone>pyai</zone><zone>ṣṣa</zone><zone>na</zone><zone>śu</zone><zone>k<unclear>e</unclear></zone><zone>nta</zone><zone>ñ<unclear>i</unclear></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><zone>yTA¯</zone><zone>¯rñä</zone><zone>PA</zone><zone>lsko</zone><zone>ṣṣa</zone><zone>ṢPA</zone><zone>•</zone><zone>cai</zone><zone>kre¯</zone><zone>¯ñcä</zone><zone><unclear>o</unclear></zone><zone><unclear>n</unclear><gap reason="plain" unit="part"/></zone><zone>lmi</zone><zone>pe</zone><zone>lai</zone><zone>kne</zone><zone>nta</zone><zone>ai</zone><zone>ksa</zone><zone>nte</zone><zone>ŚA</zone><zone>rsā</zone><zone>re</zone><zone>•</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><zone>TA</zone><zone>nta</zone><zone>meṃ</zone><zone>kuse</zone><zone>wri</zone><zone>ya</zone><zone>na</zone><zone>pya</zone><zone>pyai</zone><zone>nmeṃ</zone><zone>:</zone><zone>kuse</zone><zone>tu</zone><zone>ne</zone><zone>śū</zone><zone>ke</zone><zone>nta</zone><zone>po</zone><zone>ñi</zone><zone>ā</zone><zone>li</zone><zone>ne</zone><zone>kā</zone><zone>rp<unclear>o</unclear></zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f129.zoom"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f129.highres"/>
+            <line n="1" xml:id="b1"><zone><unclear>tu</unclear></zone><zone>me<unclear>ṃ</unclear></zone><zone>po</zone><zone>saṃ</zone><zone>tke</zone><zone>nta</zone><zone>śu</zone><zone>ke</zone><zone>nta</zone><zone>na</zone><zone>no</zone><zone>ā</zone><zone>li</zone><zone>ne</zone><zone>kā</zone><zone>rPA</zone><zone>ṣle</zone><zone>na</zone><zone>no</zone><zone><unclear>y</unclear>o</zone><zone>ka</zone><zone>lle</zone><zone>ke</zone><zone>ktse</zone><zone>ñe</zone><zone>sa</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><zone>ke</zone><zone>nta</zone><zone>po</zone><zone>ñi</zone><zone>ā</zone><zone>li</zone><zone>ne</zone><zone>kā</zone><zone>rpo</zone><zone>yeṃ</zone><zone>t<unclear>ū</unclear></zone><zone>PA¯</zone><zone>¯sTä</zone><zone>yo</zone><zone>ka</zone><zone>lle</zone><zone>4</zone><zone>॥</zone><zone>tu</zone><zone>meṃ</zone><zone>kuse</zone><zone>śa</zone><zone>tre</zone><zone><unclear>ntSA</unclear></zone><zone>pe</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><zone><unclear>y</unclear>o</zone><zone>ka</zone><zone>l<unclear>l</unclear>e</zone><zone>॥</zone><zone>tu</zone><zone>meṃ</zone><zone>kuse</zone><zone>ra</zone><zone>tsa</zone><zone>yo</zone><space type="string_hole"/><zone>ktsa</zone><zone>nma</zone><zone>wra</zone><zone>nta</zone><zone>sa</zone><zone>wa</zone><zone>rñai</zone><zone>•</zone><zone>t<unclear>o</unclear><gap reason="plain" unit="part"/>¯</zone><zone>¯tS</zone><zone>yā</zone><zone><unclear>ta</unclear></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><zone>r<unclear>sa</unclear></zone><zone><unclear>ś</unclear>twā</zone><zone><unclear>ra</unclear></zone><gap reason="par" quantity="1"/><zone><gap reason="plain" unit="part"/><gap reason="plain" unit="part"/><unclear>e</unclear></zone><zone>nma</zone><zone>meṃ</zone><zone>śu</zone><zone>ke</zone><zone>n<unclear>t</unclear>a</zone><zone>ñi</zone><zone>po</zone><zone><unclear>ā</unclear></zone><zone>li</zone><zone>ne</zone><zone>kā</zone><zone>rpo</zone><zone>yeṃ</zone><zone>tū</zone><zone>PA¯</zone><zone>¯sTä</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><gap reason="plain" quantity="2"/><gap reason="par" quantity="2"/><zone>॥</zone><gap reason="plain" quantity="9"/><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <fw type="leafNum" corresp="#lf">81</fw>
+            <p>
+<lb corresp="#a1"/><gap reason="illegible"/>
+<lb corresp="#a2"/><gap reason="plain" quantity="2"/><w><supplied>kä</supplied>rk<supplied>a</supplied>lesa</w><w>malkwer<surplus>ä</surplus></w><w>tūne</w><w>prukäṣṣä<supplied>l</supplied>l<supplied>e</supplied></w><w>tumeṃ</w><w>uppā<supplied>l-pyapyaiñ</supplied></w><w>pākri</w><w>mäs<supplied>ketär</supplied></w><gap reason="lost"/>
+<w><supplied>i</supplied><lb corresp="#a3"/>me</w><w>ma<supplied>ṃ</supplied>t</w><w>palskone</w><w>yamaṣälle</w><pc>•</pc><w>pyapyaiṣṣana</w><w>śukenta</w><w>ñi</w><gap reason="lost"/>
+<lb corresp="#a4"/><w>ytärñ</w><w>pälskoṣṣa</w><w>ṣpä</w><pc>•</pc><w>cai</w><w>kreñc</w><w>on<supplied>o</supplied>lmi</w><w>pelaiknenta</w><w>aiksante</w><w>śärsāre</w><pc>•</pc><gap reason="lost"/>
+<w><supplied>kmu</supplied><lb corresp="#a5"/>täntameṃ</w><w>kUse</w><w>wriyana</w><w>pyapyainmeṃ</w><pc>:</pc><w>kUse</w><w>tune</w><w>śūkenta</w><w>po</w><w>ñi</w><w>āline</w><w>kārpo<supplied>yeṃ</supplied></w><gap reason="lost"/>
+<lb corresp="#b1"/><w>tumeṃ</w><w>po</w><w>saṃtkenta</w><w>śukenta</w><w>nano</w><w>āline</w><w>kārpäṣle</w><w>nano</w><w>yokalle</w><w>kektseñe</w><w>sa<milestone unit="w" type="break"/></w><gap reason="lost"/>
+<w><supplied>su</supplied><lb corresp="#b2"/>kenta</w><w>po</w><w>ñi</w><w>āline</w><w>kārpoyeṃ</w><w>tū</w><w>päst</w><w>yokalle</w><num value="4">4</num><pc>॥</pc><w>tumeṃ</w><w>kUse</w><w>śatrentsä</w><w>pe<milestone unit="w" type="break"/></w><gap reason="lost"/>
+<lb corresp="#b3"/><w>yokalle</w><pc>॥</pc><w>tumeṃ</w><w>kUse</w><w>ra</w><w>tsa</w><w>yoktsanma</w><w>wrantasa</w><w>warñai</w><pc>•</pc><w>to<supplied>ṃ</supplied>ts</w><w>yāta<supplied>lñenta</supplied></w><gap reason="lost"/>
+<lb corresp="#b4"/><w>-rsa</w><w>śtwara</w><w><supplied>empr</supplied>enmameṃ</w><w>śukenta</w><w>ñi</w><w>po</w><w>āline</w><w>kārpoyeṃ</w><w>tū</w><w>päst</w><w><supplied>yokalle</supplied></w><gap reason="lost"/>
+<lb corresp="#b5"/><gap reason="plain" quantity="4"/><pc>॥</pc><gap reason="plain" quantity="9"/><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a2"><seg><seg type="prim_transl">... by the pond, the milk ought to be filled in that. Thereupon the lotus flowers become visible ...</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">The consciousness should be made thus in the mind. The nectars of flowers ... for me ... </seg></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl">... and the (flower?) of the mind should ... for me. This good beings have known [and] have understood the Laws. </seg></seg></choice><choice corresp="#a5"><seg><seg type="prim_transl">those (nectars) from the water lilies [and] from the water flowers. Those nectars which are in that may they all descend in my palm. </seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">Thereupon all the remedies and nectars should be made to descend again in the palm and again they should be drunk. The body ...</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">May all the nectars descend into my palm that ought to be drunk up. Thereupon which are ...</seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl">... it ought to be drunk. Thereupon which are even the capacities of those starting with the drinks [and] the waters ...</seg></seg></choice><choice corresp="#b4"><seg><seg type="prim_transl">... May all nectars from the four truths descend into my palm, that ought to be drunk up ...  </seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">The fragments of the PK AS 19 series (19.1-19.22) all belong to the same manuscript. The fragment is the left side of a manuscript including the string hole. The leaf number which is identifiable on the verso side is 81. It exhibits the same kind of damage as PK AS 19.5 (M 504.5). The string hole interrupts the third line.</note><note corresp="#a2" type="philcomment">The manuscript has <hi>prukäṣṣälle</hi> which would be the Antigrundverb of the root <hi>pruk-</hi> 'to neglect'. However, this would not make sense with <hi>malkwer</hi> 'milk'. It is thus better to view it as a scribal mistake for <hi>prutkäṣṣälle</hi> belonging to the Kausativ of the root <hi>prutk-</hi> 'to fill up'.</note><note corresp="#a4" type="philcomment">In the beginning of the line there is the ending of an optative 3.sg. with a suffixed pronoun.</note><note corresp="#b5" type="philcomment">This line is severely damaged and mostly covered by imprints of akṣaras of another leaf.</note></p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="created_date_old">2012-09-28, 14:35:46 (CEST)</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_linedistance_old">1,2</item>
+               <item n="m_lines_old">5</item>
+               <item n="m_collection_old">Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</item>
+               <item n="access_old">restricted</item>
+               <item n="file_location_old">pages/manuscript/PK_AS/pkas196.txt</item>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;a2.&lt;/b&gt; The manuscript has &lt;i&gt;prukäṣṣälle&lt;/i&gt; which would be the Antigrundverb of the root &lt;i&gt;pruk-&lt;/i&gt; 'to neglect'. However, this would not make sense with &lt;i&gt;malkwer&lt;/i&gt; 'milk'. It is thus better to view it as a scribal mistake for &lt;i&gt;prutkäṣṣälle&lt;/i&gt; belonging to the Kausativ of the root &lt;i&gt;prutk-&lt;/i&gt; 'to fill up'.&lt;/p&gt; 
+&lt;p&gt;&lt;b&gt;a4.&lt;/b&gt; In the beginning of the line there is the ending of an optative 3.sg. with a suffixed pronoun.&lt;/p&gt; 
+&lt;p&gt;&lt;b&gt;b5.&lt;/b&gt; This line is severely damaged and mostly covered by imprints of akṣaras of another leaf.&lt;/p&gt; </item>
+               <item n="page_name_old">PK AS 19.6</item>
+               <item n="m_editor_old">Georges-Jean Pinault (in collaboration with Hannes A. Fellner)</item>
+               <item n="version_old">15</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_size_h_old">6,5</item>
+               <item n="file_created_old">1348835746</item>
+               <item n="file_modified_old">1574332172</item>
+               <item n="file_size_old">4 KB</item>
+               <item n="m_manuscript_old">PK AS 19</item>
+               <item n="m_image_old">http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f130.zoom|http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f130.highres||$page; recto|transform:rotate(180deg);
+http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f129.zoom|http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f129.highres||$page; verso</item>
+               <item n="date_publication_old">July 2014</item>
+               <item n="m_transliteration_old">a1 &lt;i&gt;illegible&lt;/i&gt;
+a2 – – (–) [rk]·lesa malkwe_r_a tūne pru_k_a_ṣ_ṣ_a[l]l[e] tumeṃ uppā (– – –) p[ā]kri _m_as· ///
+a3 me [ma](·)_t\ palskone yama_ṣ_a○lle • pyapyaiṣṣana śuk[e]nta ñ[i] ///
+a4 y_t_arñä\ _p_alskoṣṣa _ṣ_p_a • cai kreñcä\ [on]·lmi pelaiknenta aiksante _ś_arsāre • – ///
+a5 _t_antameṃ k_use wriyana pyapyainmeṃ : k_use tune śūkenta po ñi āline kārp[o] ///
+b1 [tu]me[ṃ] po saṃtkenta śukenta nano āline kār_p_aṣle nano [y]okalle kektseñe sa ///
+b2 kenta po ñi āline kārpoyeṃ t[ū] _p_as_tä\ yokalle 4 || tumeṃ k_use śatre[nt_s_a] pe ///
+b3 [y]okal[l]e || tumeṃ k_use ra tsa yo○ktsanma wrantasa warñai • t[o]·t_s\ yā[ta] ///
+b4 r[sa] [ś]twā[ra] (–) ··[e]nmameṃ śuken[t]a ñi po [ā]line kārpoyeṃ tū _p_as_tä\ ///
+b5 – – (– –) || – – – – – – – – – ///</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_meter_old">5/4/3/3</item>
+               <item n="m_transcription_old">a2 – – (kä)rk(a)lesa malkwer«†ä» tūne prukäṣṣä(l)l(e) tumeṃ uppā(l-pyapyaiñ) pākri mäs(ketär) /// ime|(i)|me
+a3 ma(ṃ)t palskone yamaṣṣälle|yamaṣälle • pyapyaiṣṣana śukenta ñi ///
+a4 ytärñ pälskoṣṣa ṣpä • cai kreñc on(o)lmi pelaiknenta aiksante śärsāre • /// kmutäntameṃ|(kmu)|täntameṃ
+a5 k_use wriyana pyapyainmeṃ : k_use tune śūkenta po ñi āline kārpo(yeṃ) ///
+b1 tumeṃ po saṃtkenta śukenta nano āline kārpäṣle nano yokalle kektseñe sa- /// sukenta|(su)|kenta
+b2 po ñi āline kārpoyeṃ tū päst yokalle 4 || tumeṃ k_use śatrentsä pe- ///
+b3 yokalle || tumeṃ k_use ra tsa yoktsanma wrantasa warñai • to(ṃ)ts yāta(lñenta) ///
+b4 -rsa śtwāra|śtwara (empr)enmameṃ śukenta ñi po āline kārpoyeṃ tū päst (yokalle) ///
+b5 – – (– –) || – – – – – – – – – ///</item>
+               <item n="m_title_old">Pratītyasamutpāda</item>
+               <item n="m_leaf_old">81</item>
+               <item n="group_old">Editor</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="editgroup_old">Admin</item>
+               <item n="edited_date_old">2017-01-09, 17:09:39 (CET)</item>
+               <item n="m_script_old">Classical</item>
+               <item n="ms_old">PK AS 19.6</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old">&lt;p&gt;The fragments of the PK AS 19 series (19.1-19.22) all belong to the same manuscript. The fragment is the left side of a manuscript including the string hole. The leaf number which is identifiable on the verso side is 81. It exhibits the same kind of damage as PK AS 19.5 (M 504.5). The string hole interrupts the third line.&lt;/p&gt; </item>
+               <item n="m_other_sigla_old">Pelliot Koutchéen Ancienne Série 19.5 (number in 1982)</item>
+               <item n="m_expedition_old">M 504.6 (provisional number 1396)</item>
+               <item n="m_size_w_old">21</item>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="file_name_old">pages/manuscript/PK_AS/pkas196.txt</item>
+               <item n="m_subgenre_old">Abhidharma</item>
+               <item n="m_translation_old">a2 ... by the pond, the milk ought to be filled in that. Thereupon the lotus flowers become visible ...
+a3 The consciousness should be made thus in the mind. The nectars of flowers ... for me ... 
+a4 ... and the (flower?) of the mind should ... for me. This good beings have known [and] have understood the Laws. 
+a5 those (nectars) from the water lilies [and] from the water flowers. Those nectars which are in that may they all descend in my palm. 
+b1 Thereupon all the remedies and nectars should be made to descend again in the palm and again they should be drunk. The body ...
+b2 May all the nectars descend into my palm that ought to be drunk up. Thereupon which are ...
+b3 ... it ought to be drunk. Thereupon which are even the capacities of those starting with the drinks [and] the waters ...
+b4 ... May all nectars from the four truths descend into my palm, that ought to be drunk up ...  </item>
+               <item n="file_savedate_old">2018-12-17, 00:37:48 (CET)</item>
+               <item n="category_old">manuscript</item>
+               <item n="user_created_old">theres</item>
+               <item n="user_modified_old">theres</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

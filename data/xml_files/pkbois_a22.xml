@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-pkbois_a22">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PK Bois A22</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</repository>
+                  <idno>PK Bois A22</idno>
+                  <altIdentifier>
+                     <idno>Pelliot Koutchéen Bois A22</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>LP 102</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>wood tablet</material>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>0,9–0,8</height>
+                              <width>4,83–4,25</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Šaldiraŋ</region><placeName>Watchtower</placeName></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Non-literary</term>
+               <term type="subgenre">Laissez-passer</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone>kaṃ</zone><zone>•</zone><zone>tu</zone><zone>mā</zone><zone>TA</zone><zone>r<unclear>k</unclear>a</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><w><supplied>tā</supplied>kaṃ</w><pc>•</pc><w>tu</w><w>mā</w><w>tärka<supplied>nat</supplied></w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">... don't let it [pass].</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">thickness 0,49–0,43 cm</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition</label><bibl><title corresp="ref:pinault1987"/><citedRange>113</citedRange></bibl> pl. LI-22. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_subgenre_old">Laissez-passer</item>
+               <item n="m_translation_old">a1 ... don't let it [pass].</item>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_tune_old"/>
+               <item n="m_prev_old"/>
+               <item n="user_created_old">martin</item>
+               <item n="user_modified_old">theres</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_genre_old">Non-literary</item>
+               <item n="m_meter_old"/>
+               <item n="m_title_old"/>
+               <item n="m_transcription_old">a1 /// (tā)kaṃ • tu mā tärka(nat) ///</item>
+               <item n="m_leaf_old"/>
+               <item n="m_size_w_old">4,83–4,25</item>
+               <item n="m_expedition_old"/>
+               <item n="m_remarks_old">&lt;p&gt;thickness 0,49–0,43 cm&lt;/p&gt;</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_other_sigla_old">Pelliot Koutchéen Bois A22; LP 102</item>
+               <item n="m_script_old"/>
+               <item n="project_comment_old">&lt;p&gt;[[Peyrot, ToSu: 320]] supplements to &lt;i&gt;s(e tesa ṣap tākaṃ • tu mā tärkanat)&lt;/i&gt; and translates on p. 321: "What is more than this, don't let it [pass]." (TI)&lt;/p&gt;</item>
+               <item n="ms_old">PK Bois A22</item>
+               <item n="m_parallels_old"/>
+               <item n="file_created_old">1395961200</item>
+               <item n="file_modified_old">1484228085</item>
+               <item n="m_size_h_old">0,9–0,8</item>
+               <item n="m_next_old"/>
+               <item n="m_material_old">Ink on wood tablet</item>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old"/>
+               <item n="m_editor_old"/>
+               <item n="date_publication_old"/>
+               <item n="m_transliteration_old">a1 /// kaṃ • tu mā _t_ar[k]a ///</item>
+               <item n="m_language_stage_old"/>
+               <item n="m_image_old"/>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_bib_old">Edition: [[Pinault 1987]]: 113, pl. LI-22.&lt;br&gt;
+Translation: [[Peyrot, ToSu]]: 320-1.</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_form_old"/>
+               <item n="m_findspot_specific_old">Watchtower</item>
+               <item n="m_findspot_old">Šaldiraŋ</item>
+               <item n="file_location_old">pages/manuscript/PK_Bois/pkbois_a22.txt</item>
+               <item n="m_completeness_old"/>
+               <item n="m_lines_old">1</item>
+               <item n="m_collection_old">Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</item>
+               <item n="access_old">restricted</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;[[Peyrot, ToSu: 320]] supplements to &lt;hi&gt;s(e tesa ṣap tākaṃ • tu mā tärkanat)&lt;/hi&gt; and translates on p. 321: "What is more than this, don't let it [pass]." (TI)&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

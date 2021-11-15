@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-ioltoch825">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>IOL Toch 825</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <date when="2015-01-14">14 January 2015</date>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library (London)</repository>
+                  <idno>IOL Toch 825</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=383257;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=383257;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone>tske</zone><zone>rtka</zone><zone>ne</zone><zone>meṃ</zone><zone>e</zone><zone>ne</zone><zone>pre</zone><zone>LA</zone></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone>i</zone><zone>ndrī</zone><zone>nta</zone><zone>cä</zone><zone>mpyeṃ</zone><zone>pa</zone></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=383287;rotate=2;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=383287;rotate=2;imageType=_M"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone>ke</zone><zone>ktse</zone><zone>ñm<unclear>e</unclear><gap reason="par" unit="part"/></zone><zone>LA</zone><zone>ñy<unclear>e</unclear><gap reason="par" unit="part"/></zone><zone>ñä</zone></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>lpau</zone><zone>ce</zone><zone>mpa</zone><zone>ta</zone><zone>ka</zone><zone>rṣkñe</zone><zone>:</zone></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone><gap reason="plain" unit="part"/><unclear>ä</unclear></zone><zone><gap reason="plain" unit="part"/>ā</zone><zone><gap reason="plain" unit="part"/>e</zone><zone>PA</zone><zone>l<gap reason="par" unit="part"/>e</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><w>tskertkanemeṃ</w><w>enepre</w><w>lä</w>
+<lb corresp="#a2"/><gap reason="lost"/><w>indrīnta</w><w>cämpyeṃ</w><w>pa</w>
+<lb corresp="#b1"/><gap reason="lost"/><w>kektseñme<supplied>ṃ</supplied></w><w>läñye<supplied>ṃ</supplied></w><w>ñä</w>
+<lb corresp="#b2"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>lpau</w><w>cempa</w><w>takarṣkñe</w><pc>:</pc>
+<lb corresp="#b3"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w><gap reason="plain" unit="part"/>ä</w><w><gap reason="plain" unit="part"/>ā</w><w><gap reason="plain" unit="part"/>e</w><w>pä</w><w>l<gap reason="plain" unit="part"/>e</w></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">... from the calves of the leg, before ...</seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">... the senses could ...</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">... may go out of the body ...</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">... has obtained (?) faith with him (?).</seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl">...</seg></seg></choice></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 825" type="external">IOL Toch 825</ref></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_size_h_old"/>
+               <item n="m_next_old"/>
+               <item n="file_created_old">1421228190</item>
+               <item n="file_modified_old">1566113519</item>
+               <item n="m_philcomment_old"/>
+               <item n="m_passage_old"/>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=383257;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=383257;rotate=0;imageType=_M||IOL Toch 825 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=383287;rotate=2;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=383287;rotate=2;imageType=_M||IOL Toch 825 verso</item>
+               <item n="date_publication_old">14 January 2015</item>
+               <item n="m_transliteration_old">a1 /// tskertkanemeṃ enepre _l_a
+a2 /// indrīnta cämpyeṃ pa
+b1 /// kektseñm[e](·) _l_añy[e](·) ñä
+b2 /// – lpau cempa takarṣkñe :
+b3 /// – ·[ä] ·ā ·e _p_a l(·)e</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 825"&gt;IOL Toch 825&lt;/a&gt;.</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="file_location_old">pages/manuscript/ioltoch825.txt</item>
+               <item n="m_collection_old">British Library (London)</item>
+               <item n="m_lines_old"/>
+               <item n="access_old">public</item>
+               <item n="m_completeness_old"/>
+               <item n="m_translation_old">a1 ... from the calves of the leg, before ...
+a2 ... the senses could ...
+b1 ... may go out of the body ...
+b2 ... has obtained (?) faith with him (?).
+b3 ...</item>
+               <item n="m_subgenre_old"/>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old"/>
+               <item n="project_check_old"/>
+               <item n="user_created_old">michael</item>
+               <item n="user_modified_old">martin</item>
+               <item n="m_prev_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_title_old"/>
+               <item n="m_transcription_old">a1 /// tskertkanemeṃ enepre lä
+a2 /// indrinta|indrīnta cämpiyeṃ|cämpyeṃ pa
+b1 /// kektseñme(ṃ) läñye(ṃ) ñä
+b2 /// – lpau cempa takarṣkñe :
+b3 /// – ·ä ·ā ·e pä l(·)e</item>
+               <item n="m_genre_old"/>
+               <item n="m_remarks_old"/>
+               <item n="m_language_old">TB</item>
+               <item n="m_other_sigla_old"/>
+               <item n="m_expedition_old"/>
+               <item n="m_size_w_old"/>
+               <item n="m_parallels_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="ms_old">IOL Toch 825</item>
+               <item n="project_comment_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

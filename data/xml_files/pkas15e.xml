@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-pkas15e">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PK AS 15E</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Georges-Jean Pinault</name>
+            </respStmt>
+            <respStmt>
+               <resp>collaborator</resp>
+               <name>Melanie Malzahn</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</repository>
+                  <idno>PK AS 15E</idno>
+                  <altIdentifier>
+                     <idno>Pelliot Koutchéen Ancienne Série 15E</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>10,9</height>
+                              <width>11,3</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <dimensions type="line_spacing">
+                              <height>1,7</height>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Jātaka/Avadāna</term>
+               <term type="prose_verse">prose</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic url="ASHuard/AS15Ea.jpg" height="3480px" width="4640px"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><gap reason="plain" quantity="2"/><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone>ḍa</zone><zone>ṅku</zone><zone>ri</zone><zone>śa</zone><zone>kke</zone><zone><unclear>nts</unclear><gap reason="par" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone>॥</zone><zone>tu</zone><zone>meṃ</zone><zone>bo</zone><zone>dhi</zone><zone>sa</zone><space type="string_hole"/><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><zone><unclear>s</unclear><gap reason="par" unit="part"/></zone><zone>ma</zone><zone>ne</zone><zone>mṛ</zone><zone>gai</zone><space type="string_hole"/><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><gap reason="lost"/><zone><gap reason="par" unit="part"/><gap reason="par" unit="part"/>w<gap reason="par" unit="part"/></zone><zone>ly<gap reason="par" unit="part"/></zone><zone>ṣa</zone><zone>rsa</zone><zone>ysā</zone><zone>ṣṣe</zone><zone>ko</zone><zone>rṣe</zone><zone>ṅku</zone><space type="string_hole"/><gap reason="lost"/></line>
+            <line n="6" xml:id="a6"><gap reason="lost"/><zone>ne</zone><zone>॥</zone><zone>e</zone><zone>nte</zone><zone>mñcu</zone><zone>ṣke</zone><zone>te</zone><zone>mtsaṃ</zone><zone>te</zone><zone>o</zone><zone>ta¯</zone><zone>¯K</zone><zone>pa</zone><zone>ls<unclear>k</unclear>o</zone><gap reason="lost"/></line>
+            <line n="7" xml:id="a7"><gap reason="lost"/><gap reason="plain" quantity="2"/><zone>sā</zone><zone>s<unclear>t</unclear>a</zone><zone>rñA</zone><zone>nau</zone><gap reason="par" quantity="4"/><zone>lo</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic url="ASHuard/AS15Eb.jpg" height="3480px" width="4640px"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone><unclear>ṅ</unclear>kä¯</zone><zone>¯L</zone><zone>ypa<gap reason="par" unit="part"/></zone><zone>w<gap reason="par" unit="part"/></zone><zone>hā</zone><zone>r</zone><gap reason="par" quantity="4"/><zone><unclear>n</unclear><gap reason="par" unit="part"/></zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone>rne</zone><zone>ṣṣa</zone><zone>na</zone><zone>yā</zone><zone>mo</zone><zone>rnta</zone><zone>ya</zone><zone>ma</zone><zone>ṣa</zone><zone>mai</zone><zone>•</zone><zone>ta</zone><zone>ne</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>ai</zone><zone>mā</zone><zone>wa</zone><zone>rpa</zone><zone>ma</zone><zone>rsā</zone><zone>ta</zone><zone>llau</zone><space type="string_hole"/><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><zone><gap reason="par" unit="part"/>e</zone><zone>kṛ</zone><zone>tā</zone><zone>tñe</zone><zone>mṛ</zone><zone>gai</zone><space type="string_hole"/><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><gap reason="lost"/><zone><gap reason="par" unit="part"/>au</zone><zone>ṣpre</zone><zone>ke</zone><zone>sa</zone><zone>mu</zone><zone>dtä</zone><space type="string_hole"/><gap reason="lost"/></line>
+            <line n="6" xml:id="b6"><gap reason="lost"/><zone>o¯</zone><zone>¯<unclear>K</unclear></zone><zone><unclear>ś</unclear>a</zone><zone>mñāṃ</zone><zone>śka</zone><zone>:</zone><zone>sā</zone><zone><unclear>u</unclear></zone><gap reason="lost"/></line>
+            <line n="7" xml:id="b7"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone><gap reason="plain" unit="part"/>e</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><gap reason="plain" quantity="2"/><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><w>ḍaṅku</w><w>ri</w><w>śakkents<supplied>e</supplied></w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><pc>॥</pc><w>tumeṃ</w><w>bodhisa<supplied>tve</supplied></w><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="lost"/><w>s<gap reason="plain" unit="part"/>mane</w><w>mṛgai</w><gap reason="lost"/>
+<lb corresp="#a5"/><gap reason="lost"/><w><gap reason="plain" unit="part"/><gap reason="plain" unit="part"/>w<gap reason="plain" unit="part"/></w><w>ly<gap reason="plain" unit="part"/></w><w>ṣarsa</w><w>ysāṣṣe</w><w>korṣ=</w><w>eṅku</w><gap reason="lost"/>
+<lb corresp="#a6"/><gap reason="lost"/><w>ne</w><pc>॥</pc><w>ente</w><w>mñcuṣke</w><w>temtsaṃte</w><w>otak</w><w>palsko</w><gap reason="lost"/>
+<lb corresp="#a7"/><gap reason="lost"/><gap reason="plain" quantity="2"/><w>sā</w><w>star-ñ<surplus>ä</surplus></w><w>nau</w><gap reason="plain" quantity="4"/><w>lo</w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><w>ṅkäl</w><w>ypa<supplied>r</supplied>w<supplied>e</supplied></w><w>hār</w><gap reason="plain" quantity="4"/><w>n<gap reason="plain" unit="part"/></w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><w>rneṣṣana</w><w>yāmornta</w><w>yamaṣamai</w><pc>•</pc><w>tane</w><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>ai</w><w>mā</w><w>warpamar</w><w>sā</w><w>tallau</w><gap reason="lost"/>
+<lb corresp="#b4"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>e</w><w>kṛtātñe</w><w>mṛgai</w><gap reason="lost"/>
+<lb corresp="#b5"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>auṣ</w><w>preke</w><w>samudtä</w><gap reason="lost"/>
+<lb corresp="#b6"/><gap reason="lost"/><w>ok</w><w>śamñāṃśka</w><pc>:</pc><w>sāU</w><gap reason="lost"/>
+<lb corresp="#b7"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w><gap reason="plain" unit="part"/>e</w><gap reason="lost"/></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks"><ref type="ms" target="txt:m-pkas15f"/> and this fragment do not belong together, and both do not belong to the series PK AS 15 etc. either.</note><note type="remarks">Left part of a leaf with the string hole but without left margin. At the beginn of line a4/b4 a small piece has been wrongly glued.</note><note corresp="#a7" type="philcomment"><hi>(twa)sastar-ñ</hi> 'you shine for me?'; <hi>s[<hi rend="underline">t</hi>]<hi rend="underline">a</hi>r-ñ(\)</hi> is also possible.</note><note corresp="#b3" type="philcomment">Perhaps <hi>śai</hi>.</note><note corresp="#b6" type="philcomment">No <hi>•i</hi>, because too low, the bow belongs to <hi>[ś]amñāṃśka</hi> 'girl'.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>other</label><bibl><title corresp="ref:bernhard1958"/><citedRange>241 n. 144</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_prev_old"/>
+               <item n="user_modified_old">theres</item>
+               <item n="user_created_old">theres</item>
+               <item n="m_metric_form_old">Both</item>
+               <item n="m_tune_old"/>
+               <item n="m_subgenre_old">Jātaka/Avadāna</item>
+               <item n="m_translation_old"/>
+               <item n="project_comment_old"/>
+               <item n="ms_old">PK AS 15E</item>
+               <item n="m_script_old">Classical</item>
+               <item n="m_parallels_old"/>
+               <item n="m_expedition_old"/>
+               <item n="m_size_w_old">11,3</item>
+               <item n="m_other_sigla_old">Pelliot Koutchéen Ancienne Série 15E</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old">&lt;p&gt;[[PK AS 15F]] and this fragment do not belong together, and both do not belong to the series PK AS 15 etc. either.&lt;/p&gt;
+&lt;p&gt;Left part of a leaf with the string hole but without left margin. At the beginn of line a4/b4 a small piece has been wrongly glued.&lt;/p&gt;</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_title_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old">a1	/// – – ///
+a2	/// ḍaṅku ri śakkents(e) ///
+a3	/// || tumeṃ bodhisātve|bodhisa(tve) ///
+a4	/// s(·)mane mṛgai ///
+a5	/// (··)w(·) ly(·) ṣarsa ysāṣṣe korṣ= eṅku ///
+a6	/// ne || ente mñcuṣke temtsaṃte otak palsko ///
+a7	/// – – sā star-ñ nau (– – – –) lo ///
+b1	/// ṅkäl ypa(r)w(e) hār (– – – –) n(·) – ///
+b2	/// rneṣṣana yāmornta yamaṣamai • tane ///
+b3	/// ·ai mā warpamar sā tallau ///
+b4	/// (·)e kṛtātñe mṛgai ///
+b5	/// (·)auṣ preke samudtä ///
+b6	/// ok śamñāṃśka : sā_u ///
+b7	/// – ·e ///</item>
+               <item n="m_meter_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_bib_old">[[Bernhard 1958]]: 241 n. 144.</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old"/>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_transliteration_old">a1	/// – – ///
+a2	/// ḍaṅku ri śakke[nts](·) ///
+a3	/// || tumeṃ bodhisa ○ ///
+a4	/// [s](·)mane mṛgai ○ ///
+a5	/// (··)w(·) ly(·) ṣarsa ysāṣṣe korṣ= eṅku ○ ///
+a6	/// ne || ente mñcuṣke temtsaṃte ota_k\ pals[k]o ///
+a7	/// – – sā s[t]ar-ñ(\) nau (– – – –) lo ///
+b1	/// [ṅ]kä_l\ ypa(·)w(·) hār (– – – –) [n](·) – ///
+b2	/// rneṣṣana yāmornta yamaṣamai • tane ///
+b3	/// ·ai mā warpamar sā tallau ○ ///
+b4	/// (·)e kṛtātñe mṛgai ○ ///
+b5	/// (·)auṣ preke samudtä ○ ///
+b6	/// o[_k]\ [ś]amñāṃśka : sā[_u] ///
+b7	/// – ·e ///</item>
+               <item n="date_publication_old"/>
+               <item n="m_image_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_editor_old">Georges-Jean Pinault (in collaboration with Melanie Malzahn)</item>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;a7.&lt;/b&gt; &lt;i&gt;(twa)sastar-ñ&lt;/i&gt; 'you shine for me?'; &lt;i&gt;s[&lt;u&gt;t&lt;/u&gt;]&lt;u&gt;a&lt;/u&gt;r-ñ(\)&lt;/i&gt; is also possible.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b3.&lt;/b&gt; Perhaps &lt;i&gt;śai&lt;/i&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b6.&lt;/b&gt; No &lt;i&gt;•i&lt;/i&gt;, because too low, the bow belongs to &lt;i&gt;[ś]amñāṃśka&lt;/i&gt; 'girl'.&lt;/p&gt;</item>
+               <item n="file_modified_old">1481811075</item>
+               <item n="file_created_old">1348819965</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old">10,9</item>
+               <item n="access_old">restricted</item>
+               <item n="m_lines_old">7</item>
+               <item n="m_collection_old">Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</item>
+               <item n="file_location_old">pages/manuscript/PK_AS/pkas15e.txt</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="m_linedistance_old">1,7</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

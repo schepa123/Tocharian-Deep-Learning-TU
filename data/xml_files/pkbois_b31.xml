@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-pkbois_b31">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PK Bois B31</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</repository>
+                  <idno>PK Bois B31</idno>
+                  <altIdentifier>
+                     <idno>Pelliot Koutchéen Bois B31</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>LP 32</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>wood tablet</material>
+                           <objectType>Woodslip</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>2,5–2,32</height>
+                              <width>13,37–12,35</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Šaldiraŋ</region><placeName>Watchtower</placeName></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Non-literary</term>
+               <term type="subgenre">Laissez-passer</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <line n="1" xml:id="a1"><zone>trai</zone><zone>yne</zone><zone>•</zone><zone>o</zone><zone>ro</zone><zone>ce</zone><zone>pi</zone><zone>lā</zone><zone>nte</zone><zone>s<unclear>w</unclear>a</zone><zone>rna</zone><zone>te</zone><zone>pi</zone><zone>kṣu<gap reason="plain" unit="part"/></zone></line>
+            <line n="2" xml:id="a2"><zone>ne</zone><zone>o</zone><zone>rśa</zone><zone>cā</zone><zone>ka</zone><zone>re</zone><zone>ā</zone><zone>kṣa</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><w>traiyne</w><pc>•</pc><w>orocepi</w><w>lānte</w><w>swarnatepi</w>
+<w>kṣu<supplied>ṃ</supplied><lb corresp="#a2"/>ne</w><w>orśa</w><w>cākare</w><w>ākṣa</w></p>
+         </div>
+         <div type="translation">
+            <p/>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">thickness 0,73–0,47 cm</note><note corresp="#a2" type="philcomment">For the reading <hi>orśa cākare</hi> instead of a compound <hi>or-śacakare</hi>, see <bibl><title corresp="ref:ogiharaandpinault2010"/><citedRange>186f</citedRange></bibl>.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition</label><bibl><title corresp="ref:levi1913"/><citedRange>317</citedRange></bibl>; <bibl><title corresp="ref:pinault1987"/><citedRange>95</citedRange></bibl> Pl. XLVII-1. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_subgenre_old">Laissez-passer</item>
+               <item n="m_translation_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_tune_old"/>
+               <item n="m_prev_old"/>
+               <item n="user_modified_old">theres</item>
+               <item n="user_created_old">martin</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_genre_old">Non-literary</item>
+               <item n="m_transcription_old">a1 traiyne • orocepi lānte swarnatepi kṣuṃne|kṣu(ṃ)|ne
+a2 orśa ccākare|cākare ākṣa</item>
+               <item n="m_title_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_size_w_old">13,37–12,35</item>
+               <item n="m_expedition_old"/>
+               <item n="m_other_sigla_old">Pelliot Koutchéen Bois B31; LP 32</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old">&lt;p&gt;thickness 0,73–0,47 cm&lt;/p&gt;</item>
+               <item n="ms_old">PK Bois B31</item>
+               <item n="project_comment_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="m_parallels_old"/>
+               <item n="file_modified_old">1484235817</item>
+               <item n="file_created_old">1395874800</item>
+               <item n="m_size_h_old">2,5–2,32</item>
+               <item n="m_next_old"/>
+               <item n="m_material_old">Ink on wood tablet</item>
+               <item n="m_editor_old"/>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;a2.&lt;/b&gt; For the reading &lt;i&gt;orśa cākare&lt;/i&gt; instead of a compound &lt;i&gt;or-śacakare&lt;/i&gt;, see [[Ogihara and Pinault 2010]]: 186f.&lt;/p&gt;</item>
+               <item n="m_transliteration_old">a1 traiyne • orocepi lānte s[w]arnatepi kṣu(ṃ)
+a2 ne orśa cākare ākṣa</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="date_publication_old"/>
+               <item n="m_image_old"/>
+               <item n="m_bib_old">Edition: [[Lévi 1913]]: 317; [[Pinault 1987]]: 95, Pl. XLVII-1.&lt;br&gt;
+Translation: [[Lévi 1913]]: 317.</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_linedistance_old"/>
+               <item n="m_form_old">Woodslip</item>
+               <item n="m_findspot_old">Šaldiraŋ</item>
+               <item n="m_findspot_specific_old">Watchtower</item>
+               <item n="file_location_old">pages/manuscript/PK_Bois/pkbois_b31.txt</item>
+               <item n="m_completeness_old"/>
+               <item n="access_old">restricted</item>
+               <item n="m_lines_old">2</item>
+               <item n="m_collection_old">Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

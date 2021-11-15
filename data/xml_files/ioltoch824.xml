@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-ioltoch824">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>IOL Toch 824</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <date when="2015-01-12">12 January 2015</date>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library (London)</repository>
+                  <idno>IOL Toch 824</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=383256;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=383256;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="a1"><zone>lmi</zone><zone>ce</zone><zone>sru</zone><zone>k<unclear>a</unclear></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><zone>9</zone><zone>snai</zone><zone>ypa</zone><zone>rwe</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><zone>ma</zone><zone>ne</zone><zone>mai</zone><zone>yā</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=383286;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=383286;rotate=2;imageType=_M"/>
+            <line n="1" xml:id="b1"><zone>k<gap reason="plain" unit="part"/></zone><zone>ly<unclear>ai</unclear></zone><zone>pre</zone><zone><unclear>ścyai</unclear></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><zone>neṃ</zone><zone>yña</zone><zone>kteṃ</zone><zone>:</zone><zone>yña</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><zone>m<unclear>i</unclear></zone><zone>yä</zone><zone>ṢA</zone><zone>l<unclear>ñ</unclear>e</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<w><supplied>ono</supplied><lb corresp="#a1"/>lmi</w><w>ce</w><w>sruka</w><gap reason="lost"/>
+<lb corresp="#a2"/><num value="9">9</num><w>snai</w><w>yparwe</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#a3"/><w>mane</w><w>maiyā<milestone unit="w" type="break"/></w><gap reason="lost"/>
+<w><supplied>tsaṅ</supplied><lb corresp="#b1"/>k<supplied>a</supplied>lyai</w><w>preścyai<supplied>ne</supplied></w><gap reason="lost"/>
+<lb corresp="#b2"/><w>neṃ</w><w>yñakteṃ</w><pc>:</pc><w>yña<supplied>kteṃ</supplied></w><gap reason="lost"/>
+<lb corresp="#b3"/><w>miyäṣälñe</w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">... beings ... this death (?) ...</seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">9 Without beginning ...</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">... powerful ...</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">... in a time to arise ...</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">... among the gods. Among the gods ...</seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl">... damage ...</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note corresp="#b1" type="philcomment"><hi>(tsaṃ)k(a)lyai</hi>: Tentatively restored after <ref type="ms" target="txt:m-tht552"/> a6 <hi>tsaṅkälyai preściyaine</hi>.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 824" type="external">IOL Toch 824</ref></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_linedistance_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_old"/>
+               <item n="m_findspot_specific_old"/>
+               <item n="file_location_old">pages/manuscript/ioltoch824.txt</item>
+               <item n="m_collection_old">British Library (London)</item>
+               <item n="m_lines_old"/>
+               <item n="access_old">public</item>
+               <item n="file_created_old">1421095146</item>
+               <item n="file_modified_old">1479197403</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;b1.&lt;/b&gt; &lt;i&gt;(tsaṃ)k(a)lyai&lt;/i&gt;: Tentatively restored after [[THT 552]] a6 &lt;i&gt;tsaṅkälyai preściyaine&lt;/i&gt;.&lt;/p&gt;</item>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="date_publication_old">12 January 2015</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_transliteration_old">a1 lmi ce sruk[a] ///
+a2 9 snai yparwe – ///
+a3 mane maiyā ///
+b1 k·ly[ai] pre[ścyai] ///
+b2 neṃ yñakteṃ : yña ///
+b3 m[i]yä_ṣ_al[ñ]e ///</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=383256;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=383256;rotate=0;imageType=_M||IOL Toch 824 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=383286;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=383286;rotate=2;imageType=_M||IOL Toch 824 verso</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 824"&gt;IOL Toch 824&lt;/a&gt;.</item>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_genre_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old"> onolmi|(ono)|lmi
+a1 ce sruka ///
+a2 9 snai yparwe – ///
+a3 mane maiyā- /// tsaṅkalyai|(tsaṅ)|k(a)lyai
+b1 preścyai(ne) ///
+b2 neṃ yñakteṃ : yña(kteṃ) ///
+b3 miyäṣälñe ///</item>
+               <item n="m_title_old"/>
+               <item n="m_expedition_old"/>
+               <item n="m_size_w_old"/>
+               <item n="m_remarks_old"/>
+               <item n="m_language_old">TB</item>
+               <item n="m_other_sigla_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="ms_old">IOL Toch 824</item>
+               <item n="project_comment_old"/>
+               <item n="m_parallels_old"/>
+               <item n="m_subgenre_old"/>
+               <item n="m_translation_old">a1 ... beings ... this death (?) ...
+a2 9 Without beginning ...
+a3 ... powerful ...
+b1 ... in a time to arise ...
+b2 ... among the gods. Among the gods ...
+b3 ... damage ...</item>
+               <item n="m_metric_form_old"/>
+               <item n="m_tune_old"/>
+               <item n="m_prev_old"/>
+               <item n="user_created_old">michael</item>
+               <item n="user_modified_old">theres</item>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

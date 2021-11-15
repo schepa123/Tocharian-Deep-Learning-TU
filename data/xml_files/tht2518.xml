@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht2518">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 2518</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 2518</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="xto"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=332368;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=332368;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone>o</zone><zone>yno</zone><zone>śśā¯</zone><zone>¯ñä</zone><zone>SA</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>sklu</zone><zone>ne</zone><zone>yo</zone><zone>a</zone><zone>ś<unclear>ś</unclear>i</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>pi</zone><zone>ntwa</zone><zone><unclear>T</unclear></zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=332089;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=332089;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>r<gap reason="plain" unit="part"/></zone><zone>sa¯</zone><zone>¯ñä</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone>ṅk<unclear>i</unclear></zone><zone>ñcä</zone><zone>PA</zone><zone>lkā</zone><zone>c<unclear>PA</unclear></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><zone><unclear>ṅ</unclear>ki¯</zone><zone>¯ñcä</zone><zone>saṃ</zone><zone>na</zone><zone>ś<unclear>ś</unclear>i</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><w>o</w><w>yno</w><w>śśāñ</w><w>sä</w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>skluneyo</w><w>aśśi</w><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>pintwat</w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>r<gap reason="plain" unit="part"/></w><w>sañ</w><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><w>ṅkiñcä</w><w>pälkāc</w><w>pä</w><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><w>ṅkiñc</w><w>saṃ</w><w>na</w><w>śśi</w><gap reason="lost"/></p>
+         </div>
+         <div type="bibliography">
+            <p><label>other</label> Edition: <bibl><title corresp="ref:tamai2007a"/><citedRange>№2518</citedRange></bibl></p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=THT 2518" type="external">THT 2518</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/25/2518.htm" type="external">THT 2518</ref></bibl></p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_transcription_old">a1 /// – ///
+a2 /// o yno śśāñ sä ///
+a3 /// – skluneyo aśśi ///
+a4 /// – pintwat ///
+b1 /// ·r· sañ ///
+b2 /// ṅkiñcä pälkāc pä ///
+b3 /// ṅkiñc saṃ na śśi ///</item>
+               <item n="m_language_old">TA</item>
+               <item n="m_script_old">Classical</item>
+               <item n="project_comment_old"/>
+               <item n="ms_old">THT 2518</item>
+               <item n="file_created_old">1340137297</item>
+               <item n="file_modified_old">1534353300</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_transliteration_old">a1 /// – ///
+a2 /// o yno śśāñä\ _s_a ///
+a3 /// – skluneyo aś[ś]i ///
+a4 /// – pintwa[_t] ///
+b1 /// ·r· sañä\ ///
+b2 /// ṅk[i]ñcä _p_alkāc [_p_a] ///
+b3 /// [ṅ]kiñcä\ saṃ na ś[ś]i ///</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=332089;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=332089;rotate=0;imageType=_M||THT 2518 verso
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=332368;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=332368;rotate=0;imageType=_M||THT 2518 recto</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bl.uk/database/oo_loader.a4d?pm=THT 2518" target="idp"&gt;THT 2518&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/25/2518.htm" target="titus"&gt;THT 2518&lt;/a&gt;
+&lt;br&gt;Edition: [[Tamai 2007a]]: №2518</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="file_location_old">pages/manuscript/THT_2400_4170/tht2518.txt</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_lines_old">4</item>
+               <item n="access_old">restricted</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-pkas13g">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PK AS 13G</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Georges-Jean Pinault</name>
+            </respStmt>
+            <respStmt>
+               <resp>collaborator</resp>
+               <name>Melanie Malzahn</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</repository>
+                  <idno>PK AS 13G</idno>
+                  <altIdentifier>
+                     <idno>Pelliot Koutchéen Ancienne Série 13G</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>15,8</height>
+                              <width>20</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <dimensions type="line_spacing">
+                              <height>2,5</height>
+                           </dimensions>
+                           <measure type="lines">7?</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Jātaka/Avadāna</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic url="ASHuard/AS13Ga.jpeg" height="3120px" width="3706px"/>
+            <line n="1" xml:id="a1"><zone>s<unclear>so</unclear></zone><zone>ta</zone><zone>ne</zone><zone>w<gap reason="plain" unit="part"/></zone><zone>e</zone><zone>pi</zone><zone>ṅte</zone><zone><unclear>ne</unclear></zone><zone>saṃ</zone><zone>te</zone><zone>ka</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><zone>i</zone><zone>me</zone><zone>trai</zone><zone>ksa</zone><zone>•</zone><zone>vi</zone><zone>śva</zone><zone>ka</zone><zone>rmi</zone><zone>no</zone><zone>po</zone><zone><unclear>l</unclear><gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="1"/><zone><gap reason="plain" unit="part"/>e</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><zone><unclear>l</unclear><gap reason="plain" unit="part"/></zone><gap reason="par" quantity="2"/><zone>ce</zone><zone>ra</zone><zone>no</zone><zone>ga</zone><zone>ndhā</zone><zone>rvi</zone><zone>ññe</zone><zone>m<unclear>cu</unclear></zone><zone>ṣ<unclear>ke</unclear></zone><gap reason="plain" quantity="3"/><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="par" quantity="2"/><zone><gap reason="par" unit="part"/>RA</zone><zone><unclear>w</unclear><gap reason="par" unit="part"/></zone><zone><unclear>ṣ</unclear>ṣaṃ</zone><zone>ne</zone><zone>śco</zone><zone>kwä</zone><zone>ntsaṃ</zone><zone>ñe</zone><zone>pe</zone><space type="string_hole"/><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><zone>yya</zone><zone><unclear>a</unclear></zone><zone>kṣaṃ</zone><zone><unclear>n</unclear>e</zone><gap reason="par" quantity="1"/><zone><unclear>p</unclear>ā</zone><zone>lka</zone><zone>pi</zone><zone>ña</zone><space type="string_hole"/><gap reason="lost"/></line>
+            <line n="6" xml:id="a6"><gap reason="par" quantity="3"/><zone><gap reason="plain" unit="part"/><unclear>au</unclear></zone><zone><gap reason="par" unit="part"/><unclear>o</unclear></zone><gap reason="par" quantity="1"/><zone>e</zone><zone>tsu</zone><zone>wai</zone><zone>y<unclear>ku</unclear></zone><gap reason="lost"/></line>
+            <line n="7" xml:id="a7"><gap reason="par" quantity="9"/><zone>we</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic url="ASHuard/AS13Gb.jpeg" height="3199px" width="3851px"/>
+            <line n="1" xml:id="b1"><gap reason="par" quantity="9"/><zone><unclear>d</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="par" quantity="5"/><zone>we</zone><zone>śeṃ</zone><zone>ñai</zone><zone>sa</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="par" quantity="1"/><zone><gap reason="par" unit="part"/><gap reason="par" unit="part"/>s<unclear>o</unclear></zone><zone>yce</zone><zone><unclear>ṣ</unclear>ma</zone><zone>reṃ</zone><zone><unclear>pi</unclear></zone><zone>lko</zone><zone>sa</zone><zone>bo</zone><zone>dhi</zone><space type="string_hole"/><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><gap reason="par" quantity="2"/><zone>wä<gap reason="par" unit="part"/></zone><zone>kā</zone><zone>lycu</zone><zone>:</zone><zone>pa</zone><zone>du</zone><zone>me</zone><zone><unclear>r</unclear>e</zone><space type="string_hole"/><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><zone><gap reason="par" unit="part"/><gap reason="par" unit="part"/>n<gap reason="par" unit="part"/></zone><zone><gap reason="par" unit="part"/><unclear>s</unclear><gap reason="par" unit="part"/></zone><zone>ña</zone><zone>k<unclear>e</unclear></zone><zone>pre</zone><zone>ke</zone><zone>sta¯</zone><zone>¯rcä</zone><zone>॥</zone><zone>ŚA</zone><zone>rkā</zone><zone><unclear>tts</unclear>e</zone><zone>ā</zone><zone>ra</zone><gap reason="lost"/></line>
+            <line n="6" xml:id="b6"><zone>śau</zone><zone>mo</zone><zone>ntse</zone><zone>klai</zone><zone>na</zone><zone>meṃ</zone><zone>pau</zone><zone>to</zone><zone>a</zone><zone>ppa</zone><zone>mā</zone><zone><unclear>t</unclear>a</zone><gap reason="plain" quantity="2"/><gap reason="lost"/></line>
+            <line n="7" xml:id="b7"><zone>rmeṃ</zone><zone>ku</zone><zone>śe</zone><zone>śai</zone><zone>pya</zone><zone>pyai</zone><zone>ṣ<unclear>ṣ</unclear>a</zone><zone>na</zone><zone>PA</zone><zone>ssa</zone><gap reason="par" quantity="2"/><zone><unclear>ā</unclear></zone><zone>s<gap reason="par" unit="part"/>a</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><w>-sso</w><w>tane</w><w>w<gap reason="plain" unit="part"/></w><w>epiṅte</w><w>nesaṃ</w><w>te</w><w>ka</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#a2"/><w>ime</w><w>traiksa</w><pc>•</pc><w>viśvakarmi</w><w>no</w><w>po</w><w>l<gap reason="plain" unit="part"/></w><gap reason="plain" quantity="1"/><w><gap reason="plain" unit="part"/>e</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#a3"/><w>l<gap reason="plain" unit="part"/></w><gap reason="plain" quantity="2"/><w>ce</w><w>rano</w><w>gandhārviññe</w><w>mcuṣke</w><gap reason="plain" quantity="3"/><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="plain" quantity="2"/><w><gap reason="plain" unit="part"/>rä</w><w>w<supplied>e</supplied>ṣṣaṃ-neśco</w><w>kwäntsaṃñe</w><w>pe<milestone unit="w" type="break"/></w><gap reason="lost"/>
+<lb corresp="#a5"/><w>-yya</w><w>akṣaṃne</w><gap reason="plain" quantity="1"/><w>pālka</w><w>piña<milestone unit="w" type="break"/></w><gap reason="lost"/>
+<lb corresp="#a6"/><gap reason="plain" quantity="3"/><w><gap reason="plain" unit="part"/>au</w><w><gap reason="plain" unit="part"/>o</w><gap reason="plain" quantity="1"/><w>etsuwai</w><w>yku</w><gap reason="lost"/>
+<lb corresp="#a7"/><gap reason="plain" quantity="9"/><w>we</w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="plain" quantity="9"/><w>d<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="plain" quantity="5"/><w>weśeṃ</w><w>ñaisa</w><gap reason="lost"/>
+<lb corresp="#b3"/><w><supplied>ont</supplied>soyce</w><w>ṣmareṃ</w><w>pilkosa</w><w>bodhi</w><gap reason="lost"/>
+<lb corresp="#b4"/><gap reason="plain" quantity="2"/><w>wä<supplied>t</supplied>kālycu</w><pc>:</pc><w>padum</w><w>ere</w><gap reason="lost"/>
+<lb corresp="#b5"/><w><gap reason="plain" unit="part"/><gap reason="plain" unit="part"/>n<gap reason="plain" unit="part"/></w><w><gap reason="plain" unit="part"/>s<gap reason="plain" unit="part"/></w><w>ñake</w><w>preke</w><w>star-c</w><pc>॥</pc><w>śärkāttse</w><w>āra</w><gap reason="lost"/>
+<lb corresp="#b6"/><w>śaumontse</w><w>klainameṃ</w><w>pauto</w><w>appamāt</w><w>a</w><gap reason="plain" quantity="2"/><gap reason="lost"/>
+<lb corresp="#b7"/><w>-rmeṃ</w><w>kuśeśai</w><w>pyapyaiṣṣana</w><w>pässa<supplied>känta</supplied></w><w>ās<gap reason="plain" unit="part"/>a</w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#b7"><seg><seg type="prim_transl">... garlands [made] from kuśeśaya-blossoms ...</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">Lower left part of a leaf.</note><note corresp="#a5" type="philcomment">reads <hi>yya [a]kṣaṃ[n]e • [p]ālka piña ○ ///</hi>, but the dot could be all sorts of things (GJP).</note><note corresp="#b7" type="philcomment">The phrase <hi>kuśeśai pyapyaiṣ[ṣ]ana passa(kanta)</hi> is translated as 'garlands from Kuśeśaya-blossoms' in <bibl><title corresp="ref:bernhard1958"/><citedRange>100</citedRange></bibl>.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>other</label><bibl><title corresp="ref:bernhard1958"/><citedRange>100</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_old"/>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_linedistance_old">2,5</item>
+               <item n="m_completeness_old"/>
+               <item n="m_collection_old">Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</item>
+               <item n="m_lines_old">7?</item>
+               <item n="access_old">restricted</item>
+               <item n="file_location_old">pages/manuscript/PK_AS/pkas13g.txt</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;a5.&lt;/b&gt; reads &lt;i&gt;yya [a]kṣaṃ[n]e • [p]ālka piña ○ ///&lt;/i&gt;, but the dot could be all sorts of things (GJP).&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b7.&lt;/b&gt; The phrase &lt;i&gt;kuśeśai pyapyaiṣ[ṣ]ana passa(kanta)&lt;/i&gt; is translated as 'garlands from Kuśeśaya-blossoms' in [[Bernhard 1958]]: 100.&lt;/p&gt;</item>
+               <item n="m_editor_old">Georges-Jean Pinault (in collaboration with Melanie Malzahn)</item>
+               <item n="file_created_old">1348760266</item>
+               <item n="file_modified_old">1568063480</item>
+               <item n="m_size_h_old">15,8</item>
+               <item n="m_next_old"/>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_bib_old">[[Bernhard 1958]]: 100.</item>
+               <item n="date_publication_old"/>
+               <item n="m_transliteration_old">a1 s[so] tane w· epiṅte [ne]saṃ te ka – ///
+a2 ime traiksa • viśvakarmi no po [l]· – ·e – ///
+a3 [l]· (– –) ce rano gandhārviññe m[cu]ṣ[ke] – – – ///
+a4 (– – ·)_r_a [w](·)[ṣ]ṣaṃ-neśco kwäntsaṃñe pe ○ ///
+a5 yya [a]kṣaṃ[n]e (–) [p]ālka piña ○ ///
+a6 (– – –) ·[au] (·)[o] (–) etsuwai y[ku] ///
+a7 (– – – – – – – – –) we ///
+b1 (– – – – – – – – –) [d]· ///
+b2 (– – – – –) weśeṃ ñaisa ///
+b3 (– ··)s[o]yce [ṣ]mareṃ [pi]lkosa bodhi ○ /// 
+b4 (– –) wä(·)kālycu : padum e[r]e ○ ///
+b5 (··)n(· ·)[s](·) ñak[e] preke star-cä\ || _ś_arkā[tts]e āra ///
+b6 śaumontse klainameṃ pauto appamā[t] a – – ///
+b7 rmeṃ kuśeśai pyapyaiṣ[ṣ]ana _p_assa(– –) [ā]s(·)a ///</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_image_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_meter_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_title_old"/>
+               <item n="m_transcription_old">a1 -sso tane w· epiṅkte|epiṅte nesaṃ te ka – ///
+a2 ime traiksa • viśvakarmi no po l· – ·e – ///
+a3 l· (– –) ce rano gandhārviññe mñcuṣke|mcuṣke – – – ///
+a4 (– –) (·)rä weṣṣäṃ-neśc|w(e)ṣṣaṃ-neśco kwäntsaññe|kwäntsaṃñe pe- ///
+a5 -yya akṣaṃne (–) pālka piña- ///
+a6 (– – –) ·au (·)o (–) etsuwai yku ///
+a7 (– – – – – – – – –) we ///
+b1 (– – – – – – – – –) d· ///
+b2 (– – – – –) weśeṃ ñaisa ///
+b3 ontsoyäcce|(ont)soyce ṣmareṃ pilkosa bodhi /// 
+b4 (– –) wä(t)kālycu : padum ere ///
+b5 (··)n(·) (·)s(·) ñake preke star-c || śärkāttse āra ///
+b6 śaumontse klainameṃ pauto appamāt a – – ///
+b7 -rmeṃ kuśeśai pyapyaiṣṣana pässa(känta) ās(·)a ///</item>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="project_comment_old"/>
+               <item n="ms_old">PK AS 13G</item>
+               <item n="m_parallels_old"/>
+               <item n="m_expedition_old"/>
+               <item n="m_size_w_old">20</item>
+               <item n="m_remarks_old">&lt;p&gt;Lower left part of a leaf.&lt;/p&gt;</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_other_sigla_old">Pelliot Koutchéen Ancienne Série 13G</item>
+               <item n="project_check_old"/>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_translation_old">b7 ... garlands [made] from kuśeśaya-blossoms ...</item>
+               <item n="m_subgenre_old">Jātaka/Avadāna</item>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_prev_old"/>
+               <item n="user_created_old">theres</item>
+               <item n="user_modified_old">martin</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

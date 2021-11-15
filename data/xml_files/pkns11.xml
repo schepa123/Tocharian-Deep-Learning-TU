@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-pkns11">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PK NS 11</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Georges-Jean Pinault</name>
+            </respStmt>
+            <respStmt>
+               <resp>collaborator</resp>
+               <name>Hannes A. Fellner</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <date when="2014-07">July 2014</date>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</repository>
+                  <idno>PK NS 11</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>5</height>
+                              <width>14,5</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <dimensions type="line_spacing">
+                              <height>0,9</height>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Duldur-Akhur</region>during <rs type="expedition_code">FM 496.13</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Doctrine</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic url="NSHuard/NS11a.png" height="846px" width="1997px"/>
+            <line n="1" xml:id="a1"><gap reason="plain" quantity="2"/><zone>ñn<gap reason="plain" unit="part"/></zone><zone>kr<gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="1"/><zone><unclear>gho</unclear></zone><zone>ṣa</zone><zone>pre</zone><zone>kṣa</zone><zone>ṇa</zone><zone>va</zone><zone>ktrai</zone><zone>ḥ</zone><gap reason="par" quantity="4"/><zone>ś<gap reason="plain" unit="part"/></zone><zone><unclear>ñ</unclear>ñ<gap reason="plain" unit="part"/></zone><zone>sa</zone><zone>e</zone><zone>śa</zone><zone>ne</zone><zone>sa</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><zone><unclear>ly</unclear><gap reason="plain" unit="part"/></zone><zone>pRA</zone><zone>•</zone><zone>gṛ</zone><zone>ha</zone><zone>ga</zone><zone>ta</zone><zone>ma</zone><zone>hi</zone><zone>mi</zone><zone>va</zone><zone>•</zone><zone>o</zone><zone>stne</zone><zone>yku</zone><zone>we</zone><zone>ṣa</zone><zone>rṣā<gap reason="par" unit="part"/></zone><zone>lai</zone><zone>ra¯</zone><zone>¯mT</zone><zone>•</zone><zone>sa</zone><zone>mu</zone><zone>da</zone><zone>ya</zone><zone>ma</zone><zone>ja</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><zone><unclear>o</unclear></zone><zone>nu</zone><zone>wä</zone><zone>ññe</zone><zone>i</zone><zone>ke</zone><zone>o</zone><zone>ko</zone><zone>tsai</zone><zone>•</zone><zone>prā</zone><zone>pya</zone><zone>ca</zone><zone>śā</zone><zone>nti¯</zone><zone>¯m∘</zone><zone>yai</zone><zone>nmo</zone><zone>rm<unclear>e</unclear>ṃ</zone><zone>ṢPA</zone><zone>kse</zone><zone>lñe</zone><zone>•</zone><zone>kā</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><zone><unclear>bha</unclear></zone><zone>va</zone><zone>jña</zone><zone>•</zone><zone>mā</zone><zone>po</zone><zone>ne</zone><zone>sa</zone><zone>lle</zone><zone>ta</zone><zone>tā</zone><zone>ka¯</zone><zone>¯R</zone><zone>MA</zone><zone>ske</zone><zone>ma</zone><zone>ne</zone><zone>ai</zone><zone>śe</zone><zone>ñ<unclear>c</unclear>ai</zone><zone>•</zone><zone>ce<unclear>¯</unclear></zone><zone><unclear>¯</unclear><unclear>d</unclear></zone><zone><unclear>le</unclear></zone><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><gap reason="plain" quantity="1"/><zone>•</zone><zone>śa</zone><zone>ma</zone><zone>da</zone><zone>ma</zone><zone>vi</zone><zone>ni</zone><zone>ya</zone><zone>ta</zone><zone><unclear>ś</unclear>u</zone><zone>bhā</zone><zone><unclear>śu</unclear></zone><zone>ci</zone><zone>ma</zone><zone>ta</zone><zone>ye</zone><zone>•</zone><zone>ke</zone><zone>ke</zone><zone><unclear>s</unclear>o</zone></line>
+         </surface>
+         <surface type="verso">
+            <graphic url="NSHuard/NS11b.png" height="846px" width="1996px"/>
+            <line n="1" xml:id="b1"><gap reason="plain" quantity="1"/><zone>:</zone><zone>tsi</zone><zone>rau</zone><zone>ñe</zone><zone>ṣṣe</zone><zone>co</zone><zone>lo</zone><zone>rme</zone><zone>tse</zone><zone>•</zone><zone>su</zone><zone>ca</zone><zone>ri</zone><zone>t<unclear>a</unclear></zone><zone>sa</zone><zone>ma</zone><zone>su</zone><zone>kha</zone><zone>śi</zone><zone>khi</zone><zone>sa</zone><zone>kh</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><zone><unclear>tt</unclear>i</zone><zone>ma</zone><zone>ti</zone><zone>dhṛ</zone><zone>ti</zone><zone>ba</zone><zone>la</zone><zone>vi</zone><zone>ni</zone><zone>su</zone><zone>ta</zone><zone>ca</zone><zone>ri</zone><zone>ta</zone><zone>ḥ</zone><zone>i</zone><zone>me</zone><zone>ai</zone><zone>śa</zone><zone>mne</zone><zone>kwä</zone><zone>ntsa</zone><zone>ññ<gap reason="plain" unit="part"/></zone><zone>m<gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="plain" quantity="1"/><zone>kre</zone><zone>ntau</zone><zone>na</zone><zone>ṣṣeṃ</zone><zone>krau</zone><zone>pe</zone><zone>ṣṣeṃ</zone><zone>wa</zone><zone>rne</zone><zone>ynū</zone><zone>ca</zone><zone>ntsa</zone><zone>ā</zone><zone>tse</zone><zone>•</zone><zone>so</zone><zone>stu</zone><zone>ga</zone><zone>ti</zone><zone>rme</zone><zone>•</zone><zone>su</zone><zone>t<gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><zone><unclear>y</unclear>ā</zone><zone>mu</zone><zone>10</zone><zone>3</zone><zone>॥</zone><zone>vā</zone><zone>yva</zone><zone>na</zone><zone>lā</zone><zone>rke</zone><zone>ndrā</zone><zone><unclear>tma</unclear></zone><zone>va</zone><zone>lo</zone><zone>ke</zone><zone>•</zone><zone>ye<gap reason="plain" unit="part"/></zone><zone>te</zone><zone>pu</zone><zone>wa¯</zone><zone>¯R</zone><zone>kau¯</zone><zone>¯n</zone><zone>ylai</zone><zone>ñä</zone><zone>kte</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><zone><gap reason="plain" unit="part"/>i</zone><zone><unclear>śo</unclear></zone><zone><unclear>ṣ</unclear><gap reason="plain" unit="part"/></zone><zone>ṇ<gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="1"/><zone><unclear>da</unclear></zone><zone>ha</zone><zone>na</zone><zone>vi</zone><zone><unclear>t</unclear><gap reason="plain" unit="part"/></zone><zone>pa</zone><zone>na</zone><zone>ha</zone><gap reason="par" quantity="2"/><gap reason="plain" quantity="1"/><zone>ṣ<unclear>ṣ</unclear><gap reason="plain" unit="part"/></zone><zone><unclear>l</unclear><gap reason="plain" unit="part"/><unclear>e</unclear></zone><zone>tsa</zone><zone>KA</zone><zone>lñe</zone><zone>PA</zone><zone>Lśa</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="plain" quantity="2"/><w>ñ</w><w>n<gap reason="plain" unit="part"/></w><w>kr<gap reason="plain" unit="part"/></w><gap reason="plain" quantity="1"/><w>ghoṣa-prekṣaṇa-vaktraiḥ</w><gap reason="plain" quantity="3"/><w><supplied>we</supplied>ś<supplied>e</supplied>ññ<supplied>ai</supplied>sa</w><w>eśanesa</w><gap reason="plain" quantity="1"/><gap reason="lost"/><w><supplied>snai</supplied></w>
+<lb corresp="#a2"/><w>ly<supplied>i</supplied>prä</w><pc>•</pc><w>gṛhagatam</w><w>ahim</w><w>iva</w><pc>•</pc><w>ostne</w><w>ykuweṣ</w><w>arṣā<supplied>k</supplied>lai</w><w>ramt</w><pc>•</pc><w>samudayam</w><w>aja<milestone unit="w" type="break"/></w><gap reason="lost"/>
+<lb corresp="#a3"/><w>onuwäññe</w><w>ike</w><w>okotsai</w><pc>•</pc><w>prāpya</w><w>ca</w><w>śāntim</w><w>yainmormeṃ</w><w>ṣpä</w><w>kselñe</w><pc>•</pc><w>kā</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#a4"/><w>bhavajña</w><pc>•</pc><w>mā</w><w>po</w><w>nesalle</w><w>tatākar</w><w>mäskemane</w><w>aiśeñcai</w><pc>•</pc><w>ced</w><w>le<milestone unit="w" type="break"/></w><gap reason="lost"/>
+<lb corresp="#a5"/><gap reason="plain" quantity="1"/><pc>•</pc><w>śama-dama-vini</w><w>yata-śubhā-śuci-mataye</w><pc>•</pc>
+<w>kekeso<lb corresp="#b1"/><supplied>rñe</supplied></w><gap reason="plain" quantity="1"/><pc>:</pc><w>tsirauñeṣṣe</w><w>colormetse</w><pc>•</pc><w>sucarita-sama-sukha-śikhi</w><w>sakh<supplied>ā</supplied></w><gap reason="lost"/><w><supplied>ci<milestone unit="w" type="break"/></supplied></w>
+<lb corresp="#b2"/><w>tti-mati-dhṛti-balavini</w><w>sutacaritaḥ</w><w>ime</w><w>aiśamñe</w><w>kwäntsaññ<supplied>e</supplied></w><w>m<supplied>aiyyāccene</supplied></w><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="plain" quantity="1"/><w>krentaunaṣṣeṃ</w><w>kraupeṣṣeṃ</w><w>warne</w><w>ynūcantsa</w><w>ātse</w><pc>•</pc><w>so</w><w><add>a</add>stu</w><w>gatir</w><w>me</w><pc>•</pc><w>su</w><w>t<supplied>ākaṃ</supplied></w><gap reason="lost"/>
+<lb corresp="#b4"/><w>yāmu</w><num value="13">10-3</num><pc>॥</pc><w>vāyvanalārkendrātmava-loke</w><pc>•</pc><w>ye<supplied>n</supplied>te</w><w>puwar</w><w>kaun</w><w>ylai-ñäkte</w><gap reason="lost"/>
+<lb corresp="#b5"/><w><gap reason="plain" unit="part"/>i</w><w>śoṣ<supplied>a</supplied>ṇ<supplied>a</supplied></w><gap reason="plain" quantity="1"/><w>dahanavi</w><w>t<supplied>a</supplied>panaha</w><gap reason="plain" quantity="2"/><w><supplied>āsä</supplied>ṣṣ<supplied>a</supplied>l<supplied>ñ</supplied>e</w><w>tsakälñe</w><w>pälśa<supplied>lñe</supplied></w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">... <hi>Sanskrit</hi> with shouting, with eyes, ...</seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">without rest • <hi>Sanskrit</hi> • like the snake going into [its] home • <hi>Sanskrit</hi></seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">the fruitful (one), the place of immortality • <hi>Sanskrit</hi> having reached also the extinction • <hi>Sanskrit</hi>  </seg></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl"><hi>Sanskrit</hi> • not knowing (obl. m. sg.) the whole real existence as becoming • <hi>Sanskrit</hi></seg></seg></choice><choice corresp="#a5"><seg><seg type="prim_transl"><hi>Sanskrit</hi> • the extinction, ...</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">the firmness provided with sharp (thing?) • <hi>Sanskrit</hi> </seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl"><hi>Sanskrit</hi> in the one provided with consciousness, wisdom, firmness, strength</seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl">the section about the one that entered into the stream (Skt. srotaāpanna-) belonging to community (Skt. saṃgha-), characterized by virtues <hi>Sanskrit</hi> • This should be (my way)  </seg></seg></choice><choice corresp="#b4"><seg><seg type="prim_transl">having done || <hi>Sanskrit</hi> • the wind, the fire, the sun, Indra ...</seg></seg></choice><choice corresp="#b5"><seg><seg type="prim_transl"><hi>Sanskrit</hi> drying, glowing, tormenting ...       </seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">This fragment is probably the right part of a leaf without trace of the string hole. Traces of ruling are still visible.</note><note corresp="#a3" type="lingcomment">The form <hi>okotsai</hi> looks like the obl. sg. f. of the adjective <hi>oko(ts)tse</hi>, however, in this passage there is no feminine substantive with which it could agree. In theory it could be the epithet of the substantive <hi>maiyya</hi> 'strength'. The most likely hypothesis is a mistake due to a wrong analysis of the Sanskrit source text, in which the epithet 'fruitful' was constructed with Skt. <hi>śāntim</hi> (f.) which comes in the following Sanskrit phrase.</note><note corresp="#a5" type="philcomment">The literal translation of Skt. <hi>śama-</hi> 'exstinction' should be a verbal noun of the root <hi>käs-</hi>. Therefore the most likely restoration seems to be <hi>kekesorñe</hi> which is already attested in one passage in <ref type="ms" target="txt:m-ioltoch221"/> a6, but <hi>kekesor</hi> in the same meaning could also be taken as an alternative.</note><note corresp="#b1" type="philcomment">The word <hi>colormetse</hi> is an adjective derived from noun <hi>colorme</hi> which is attested elsewhere (<ref type="ms" target="txt:m-pkas17h"/> a3, <ref type="ms" target="txt:m-tht355"/> b2). The precise meaning remains to be ascertained.</note><note corresp="#b5" type="philcomment">The form <hi>ātse</hi> is written for <hi>āntse</hi> by common cluster simplification. In this context is the equivalent of Skt. <hi>skandha-</hi> in the philosophical meaning.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>other</label><bibl><title corresp="ref:couvreur1970"/><citedRange>177</citedRange></bibl> (identification of the genre).</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_subgenre_old">Doctrine</item>
+               <item n="m_translation_old">a1 ... &lt;i&gt;Sanskrit&lt;/i&gt; with shouting, with eyes, ...
+a2 without rest • &lt;i&gt;Sanskrit&lt;/i&gt; • like the snake going into [its] home • &lt;i&gt;Sanskrit&lt;/i&gt;
+a3 the fruitful (one), the place of immortality • &lt;i&gt;Sanskrit&lt;/i&gt; having reached also the extinction • &lt;i&gt;Sanskrit&lt;/i&gt;  
+a4 &lt;i&gt;Sanskrit&lt;/i&gt; • not knowing (obl. m. sg.) the whole real existence as becoming • &lt;i&gt;Sanskrit&lt;/i&gt;
+a5 &lt;i&gt;Sanskrit&lt;/i&gt; • the extinction, ...
+b1 the firmness provided with sharp (thing?) • &lt;i&gt;Sanskrit&lt;/i&gt; 
+b2 &lt;i&gt;Sanskrit&lt;/i&gt; in the one provided with consciousness, wisdom, firmness, strength
+b3 the section about the one that entered into the stream (Skt. srotaāpanna-) belonging to community (Skt. saṃgha-), characterized by virtues &lt;i&gt;Sanskrit&lt;/i&gt; • This should be (my way)  
+b4 having done || &lt;i&gt;Sanskrit&lt;/i&gt; • the wind, the fire, the sun, Indra ...
+b5 &lt;i&gt;Sanskrit&lt;/i&gt; drying, glowing, tormenting ...       
+ 
+  </item>
+               <item n="project_check_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_tune_old"/>
+               <item n="m_prev_old"/>
+               <item n="user_modified_old">martin</item>
+               <item n="user_created_old">theres</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old">a1 – – ñ n· kr· – |ghoṣa-prekṣaṇa-vaktraiḥ – – – (we)ś(e)ññ(ai)sa eśanesa – /// (snai) 
+a2  ly(i)prä • |gṛhagatam |ahim |iva • ostne ykuweṣ arṣā(k)lai ramt • |samudayam |aja- ///
+a3 onuwaññe|onuwäññe īke|ike okotsai • |prāpya |ca |śāntim yainmormeṃ ṣpä kselñe • |kā – /// 
+a4 |bhavajña • mā po nesalle tatākar mäskemane aiśeñcai • |ced |le- ///
+a5 – • |śama-dama-vini |yata-śubhā-śuci-mataye • kekesorñe|kekeso|(rñe) 
+b1 – : tsirauñeṣṣe colormetse • |sucarita-sama-sukha-śikhi |sakh(ā) /// |(ci-)
+b2 |tti-mati-dhṛti-balavini |sutacaritaḥ īme|ime aiśamñe kwäntsaññ(e) m(aiyyāccene) /// 
+b3 – krentaunaṣṣeṃ kraupeṣṣeṃ warne ynūcantsa ātse • |so |«a»stu |gatir |me • su t(ākaṃ) ///
+b4 yāmu 13 || |vāyvanalārkendrātmava-loke • ye(n)te pūwar|puwar kauṃ|kaun ylai-ñäkte ///
+b5 ·i |śoṣ(a)ṇ(a) – |dahanavi |t(a)panaha – – (āsä)ṣṣ(a)l(ñ)e tsakälñe pälśa(lñe) /// </item>
+               <item n="m_title_old"/>
+               <item n="m_meter_old">6/4/5+5/6</item>
+               <item n="m_size_w_old">14,5</item>
+               <item n="m_expedition_old">FM 496.13</item>
+               <item n="m_other_sigla_old"/>
+               <item n="m_remarks_old">&lt;p&gt;This fragment is probably the right part of a leaf without trace of the string hole. Traces of ruling are still visible.&lt;/p&gt; </item>
+               <item n="m_language_old">Sanskrit+TB</item>
+               <item n="ms_old">PK NS 11</item>
+               <item n="project_comment_old">&lt;p&gt;Same manuscript as [[PK NS 305 and 306]]?&lt;/p&gt;</item>
+               <item n="m_script_old">Classical</item>
+               <item n="m_parallels_old"/>
+               <item n="file_modified_old">1569273817</item>
+               <item n="file_created_old">1361520912</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old">5</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_editor_old">Georges-Jean Pinault (in collaboration with Hannes A. Fellner)</item>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;a5.&lt;/b&gt; The literal translation of Skt. &lt;i&gt;śama-&lt;/i&gt; 'exstinction' should be a verbal noun of the root &lt;i&gt;käs-&lt;/i&gt;. Therefore the most likely restoration seems to be &lt;i&gt;kekesorñe&lt;/i&gt; which is already attested in one passage in [[IOL Toch 221]] a6, but &lt;i&gt;kekesor&lt;/i&gt; in the same meaning could also be taken as an alternative.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b1.&lt;/b&gt; The word &lt;i&gt;colormetse&lt;/i&gt; is an adjective derived from noun &lt;i&gt;colorme&lt;/i&gt; which is attested elsewhere ([[PK AS 17H]] a3, [[THT 355]] b2). The precise meaning remains to be ascertained.&lt;/p&gt; 
+&lt;p&gt;&lt;b&gt;b5.&lt;/b&gt; The form &lt;i&gt;ātse&lt;/i&gt; is written for &lt;i&gt;āntse&lt;/i&gt; by common cluster simplification. In this context is the equivalent of Skt. &lt;i&gt;skandha-&lt;/i&gt; in the philosophical meaning.&lt;/p&gt;</item>
+               <item n="m_passage_old"/>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_transliteration_old">a1 – – ñ n· kr· – [gho]ṣa-prekṣaṇa-vaktraiḥ (– – – –)ś·[ñ]ñ·sa eśanesa – /// 
+a2 [ly·]p_r_a • gṛhagatam ahim iva • ostne ykuweṣ arṣā(·)lai ram_t\ • samudayam aja ///
+a3 [o]nuwäññe ike okotsai • prāpya ca śāntim\• yainmorm[e]ṃ _ṣ_p_a kselñe • kā – /// 
+a4 [bha]vajña • mā po nesalle tatāka_r\ _m_askemane aiśeñ[c]ai • ce[d\] [le] ///
+a5 – • śama-dama-vini yata-[ś]ubhā-[śu]ci-mataye • keke[s]o 
+b1 – : tsirauñeṣṣe colormetse • sucarit[a]-sama-sukha-śikhi sakh ///
+b2 [tt]i-mati-dhṛti-balavini sutacaritaḥ ime aiśamne kwäntsaññ· m· /// 
+b3 – krentaunaṣṣeṃ kraupeṣṣeṃ warne ynūcantsa ātse • so stu gatir me • su t· ///
+b4 [y]āmu 10-3 || vāyvanalārkendrā[tma]va-loke • ye·te puwa_r\ kaun\ ylai-ñäkte ///
+b5 ·i [śoṣ·]ṇ· – [da]hanavi [t]·panaha (– –) – ṣ[ṣ·l·e] tsa_k_alñe _p_a_lśa /// </item>
+               <item n="date_publication_old">July 2014</item>
+               <item n="m_image_old"/>
+               <item n="m_bib_old">[[Couvreur 1970]]: 177 (identification of the genre).</item>
+               <item n="m_lingcomment_old">&lt;p&gt;&lt;b&gt;a3.&lt;/b&gt; The form &lt;i&gt;okotsai&lt;/i&gt; looks like the obl. sg. f. of the adjective &lt;i&gt;oko(ts)tse&lt;/i&gt;, however, in this passage there is no feminine substantive with which it could agree. In theory it could be the epithet of the substantive &lt;i&gt;maiyya&lt;/i&gt; 'strength'. The most likely hypothesis is a mistake due to a wrong analysis of the Sanskrit source text, in which the epithet 'fruitful' was constructed with Skt. &lt;i&gt;śāntim&lt;/i&gt; (f.) which comes in the following Sanskrit phrase.&lt;/p&gt;  </item>
+               <item n="m_manuscript_old"/>
+               <item n="m_linedistance_old">0,9</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Duldur-Akhur</item>
+               <item n="file_location_old">pages/manuscript/PK_NS/pkns11.txt</item>
+               <item n="m_completeness_old"/>
+               <item n="access_old">public</item>
+               <item n="m_lines_old">5</item>
+               <item n="m_collection_old">Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;Same manuscript as &lt;ref type="ms" target="txt:m-pkns305and306"/&gt;?&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

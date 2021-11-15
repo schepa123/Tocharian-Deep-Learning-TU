@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-sht4201">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>SHT 4201</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>SHT 4201</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>7,5</height>
+                              <width>4,5</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">7(+?)</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="xto"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Gloss</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="verso">
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone>nyā</zone><zone>tu</zone><zone>ne</zone><zone>LA</zone><zone>kña¯</zone><zone>¯M∘</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#b2"/><gap reason="lost"/><w>nyātune</w><w>läkñam</w></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#b2"><seg><seg type="prim_transl">I will hang up ...</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="lingcomment">Schmidt (<bibl><title corresp="ref:wille2008"/><citedRange>313</citedRange></bibl>) reads <hi>läṃkñam</hi> for expected <hi>läṅkñam</hi>, but there is no trace of an anusvāra. The velar nasal may simply have been lost in the cluster <hi>ṅkñ</hi>. As noted by Schmidt, the restoration of the preceding noun, which may also be read <hi>tyātune</hi>, is uncertain and the relation of the gloss to the Sanskrit text is unclear. <bibl><title corresp="ref:peyrot2014"/><citedRange>161</citedRange></bibl> identifies a further possible reading, <hi>kyātune</hi>, which would make a restoration <hi>(ā)kyātune</hi> possible. This could be an abstract derived from a borrowing from Skt. <hi>ākhyāta</hi> 'declared', etc. i.e. 'declaration'. But even if this speculative restoration is correct, the combination with the verb <hi>länk-</hi> 'hang up, let dangle' remains mysterious.</note><note type="philcomment">Glosses Skt. <hi>s(a)ṃmod(a)y(āmi)</hi> 'I carry on a salutatory conversation' (<bibl><title corresp="ref:edgerton1953"/><citedRange>II, 581b</citedRange></bibl>).</note><note type="remarks">May belong to the same ms. as SHT 3286.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/></bibl>; <bibl><title corresp="ref:peyrot2014"/><citedRange>160-1</citedRange></bibl>; <bibl><title corresp="ref:wille2008"/><citedRange>313</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_lines_old">7(+?)</item>
+               <item n="access_old">restricted</item>
+               <item n="m_completeness_old"/>
+               <item n="file_location_old">pages/manuscript/sht4201.txt</item>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old">&lt;p&gt;Glosses Skt. &lt;i&gt;s(a)ṃmod(a)y(āmi)&lt;/i&gt; 'I carry on a salutatory conversation' ([[Edgerton BHSD]]: II, 581b).&lt;/p&gt;</item>
+               <item n="m_editor_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old">7,5</item>
+               <item n="file_created_old">1446213952</item>
+               <item n="file_modified_old">1485173978</item>
+               <item n="m_lingcomment_old">&lt;p&gt;Schmidt ([[SHT X]]: 313) reads &lt;i&gt;läṃkñam&lt;/i&gt; for expected &lt;i&gt;läṅkñam&lt;/i&gt;, but there is no trace of an anusvāra. The velar nasal may simply have been lost in the cluster &lt;i&gt;ṅkñ&lt;/i&gt;. As noted by Schmidt, the restoration of the preceding noun, which may also be read &lt;i&gt;tyātune&lt;/i&gt;, is uncertain and the relation of the gloss to the Sanskrit text is unclear. [[Peyrot 2014]]: 161 identifies a further possible reading, &lt;i&gt;kyātune&lt;/i&gt;, which would make a restoration &lt;i&gt;(ā)kyātune&lt;/i&gt; possible. This could be an abstract derived from a borrowing from Skt. &lt;i&gt;ākhyāta&lt;/i&gt; 'declared', etc. i.e. 'declaration'. But even if this speculative restoration is correct, the combination with the verb &lt;i&gt;länk-&lt;/i&gt; 'hang up, let dangle' remains mysterious.&lt;/p&gt;</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_bib_old">[[IDP]]; [[Peyrot 2014]]: 160-1; [[SHT X]]: 313.</item>
+               <item n="m_image_old"/>
+               <item n="date_publication_old"/>
+               <item n="m_language_stage_old"/>
+               <item n="m_transliteration_old">b2 /// nyātune _l_akña_m\•</item>
+               <item n="m_meter_old"/>
+               <item n="m_title_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old">b2 /// nyātune läkñam</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_parallels_old"/>
+               <item n="m_script_old"/>
+               <item n="ms_old">SHT 4201</item>
+               <item n="project_comment_old"/>
+               <item n="m_remarks_old">&lt;p&gt;May belong to the same ms. as SHT 3286.&lt;/p&gt;</item>
+               <item n="m_language_old">Sanskrit+TA</item>
+               <item n="m_other_sigla_old"/>
+               <item n="m_size_w_old">4,5</item>
+               <item n="m_expedition_old"/>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_subgenre_old">Gloss</item>
+               <item n="m_translation_old">b2 I will hang up ...</item>
+               <item n="category_old">manuscript</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="user_created_old">theres</item>
+               <item n="user_modified_old">theres</item>
+               <item n="m_prev_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

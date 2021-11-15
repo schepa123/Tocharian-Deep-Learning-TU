@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-pkas15j">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PK AS 15J</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Georges-Jean Pinault</name>
+            </respStmt>
+            <respStmt>
+               <resp>collaborator</resp>
+               <name>Melanie Malzahn</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</repository>
+                  <idno>PK AS 15J</idno>
+                  <altIdentifier>
+                     <idno>Pelliot Koutchéen Ancienne Série 15J</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Mahākāśyapa</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>10,9</height>
+                              <width>8,7</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <dimensions type="line_spacing">
+                              <height>1,8</height>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Duldur-Akhur</region>during <rs type="expedition_code">DA</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Jātaka/Avadāna</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic url="ASHuard/AS15Ja.jpg" height="3480px" width="4640px"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone>rpai</zone><zone>ne</zone><zone>meṃ</zone><zone>l<gap reason="par" unit="part"/><unclear>ṃ</unclear></zone><zone>me</zone><zone>nai</zone><zone>ṣṣ<gap reason="par" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone><unclear>yw</unclear>ā</zone><zone>rccä</zone><zone>yne</zone><zone>ma</zone><zone>ne</zone><zone>ywā</zone><zone>rcca</zone><zone><unclear>kra</unclear></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone>na</zone><zone>no</zone><zone>ṣe</zone><zone>lkā</zone><zone>tRA</zone><zone>k<unclear>ā</unclear></zone><zone>śya</zone><zone>pe</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><zone>r<unclear>kw</unclear>a</zone><zone>nta</zone><zone>ne</zone><zone>ṣa</zone><zone>rne</zone><zone>ne</zone><zone>ṅtRA</zone><zone>kau</zone><zone>nm<unclear>e</unclear></zone><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><gap reason="lost"/><zone>ṣṣ<gap reason="par" unit="part"/></zone><zone>krau</zone><zone>pe</zone><zone>ntse</zone><zone>pyā</zone><zone>mtso</zone><zone><gap reason="par" unit="part"/>e</zone><gap reason="lost"/></line>
+            <line n="6" xml:id="a6"><gap reason="lost"/><zone><unclear>lye</unclear></zone><zone>cca</zone><zone>nne</zone><zone>pa</zone><zone>pā</zone><zone>lau</zone><gap reason="lost"/></line>
+            <line n="7" xml:id="a7"><gap reason="ink_lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic url="ASHuard/AS15Jb.jpg" height="3480px" width="4640px"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone><unclear>p</unclear>TA</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone>kā</zone><zone>ś<unclear>n</unclear>e</zone><zone>swā</zone><zone>SA</zone><zone>ske</zone><zone>nme</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><zone>tRA</zone><zone>RA</zone><zone>skre</zone><zone>mā</zone><zone>ntsa</zone><zone>ntRA</zone><zone>PA</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><zone><unclear>w</unclear><gap reason="par" unit="part"/></zone><zone>rñ<unclear>ai</unclear></zone><zone>ya</zone><zone>kni</zone><zone>yo</zone><zone>lai</zone><zone>ñe</zone><zone>m<unclear>p</unclear>e</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><gap reason="lost"/><zone>kuse</zone><zone>toṃ</zone><zone>tspe</zone><zone>lki</zone><zone>ñä</zone><zone>ā</zone><zone>lyau</zone><gap reason="lost"/></line>
+            <line n="6" xml:id="b6"><gap reason="lost"/><zone><unclear>ma</unclear></zone><zone>ntKA</zone><zone>rso</zone><zone>rmeṃ</zone><zone>mrau</zone><zone>skā</zone><zone>ntRA</zone><zone>s<unclear>n</unclear>ai</zone><gap reason="lost"/></line>
+            <line n="7" xml:id="b7"><gap reason="lost"/><zone>hā</zone><zone>kā</zone><zone>ś<unclear>y</unclear>a</zone><zone><unclear>p</unclear>e</zone><zone>:</zone><zone>p<unclear>r</unclear><gap reason="par" unit="part"/><gap reason="par" unit="part"/></zone><zone>ka</zone><zone><unclear>ṢṢA</unclear>ṃ</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><w>r</w><w>painemeṃ</w><w>l<supplied>a</supplied>ṃ-me</w><w>naiṣṣ<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><w>ywārccä</w><w>ynemane</w><w>ywārc</w><w>cakra</w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><w>nano</w><w>ṣe</w><w>lkāträ</w><w>kāśyape</w><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="lost"/><w>rkwantane</w><w>ṣarnen=</w><w>eṅträ</w><w>kaunme</w><gap reason="lost"/>
+<lb corresp="#a5"/><gap reason="lost"/><w><gap reason="plain" unit="part"/><gap reason="plain" unit="part"/>ṣṣ<gap reason="plain" unit="part"/></w><w>kraupentse</w><w>pyāmtso</w><w><gap reason="plain" unit="part"/>e</w><gap reason="lost"/>
+<lb corresp="#a6"/><gap reason="lost"/><w>lyeccanne</w><w>papālau</w><gap reason="lost"/>
+<lb corresp="#a7"/><gap reason="ink_lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><w>ptä</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><w>kāśne</w><w>swāsäsken-me</w><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><w>trä</w><w>räskre</w><w>māntsanträ</w><w>pä</w><gap reason="lost"/>
+<lb corresp="#b4"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>w<gap reason="plain" unit="part"/>rñai</w><w>yakni</w><w>yolaiñemp=</w><w>e</w><gap reason="lost"/>
+<lb corresp="#b5"/><gap reason="lost"/><w>kUse</w><w>toṃts</w><w>pelkiñ</w><w>ālyau</w><gap reason="lost"/>
+<lb corresp="#b6"/><gap reason="lost"/><w>mant</w><w>kärsormeṃ</w><w>mrauskānträ</w><w>snai</w><gap reason="lost"/>
+<lb corresp="#b7"/><gap reason="lost"/><w><supplied>ma</supplied>hākāśyape</w><pc>:</pc><w>pr<supplied>ut</supplied>kaṣṣäṃ</w><gap reason="lost"/></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">Recto and verso are uncertain; there is a small piece wrongly placed at the beginning of lines a5 and b2.</note></p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old"/>
+               <item n="m_editor_old">Georges-Jean Pinault (in collaboration with Melanie Malzahn)</item>
+               <item n="file_created_old">1348820216</item>
+               <item n="file_modified_old">1481813242</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old">10,9</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old"/>
+               <item n="m_bib_old"/>
+               <item n="date_publication_old"/>
+               <item n="m_language_stage_old"/>
+               <item n="m_transliteration_old">a1	/// r painemeṃ l(·)[ṃ]-me naiṣṣ(·) ///
+a2	/// [yw]ārccä ynemane ywārc ca[kra] ///
+a3	/// nano ṣe lkāt_r_a k[ā]śyape ///
+a4	/// r[kw]antane ṣarnen= eṅt_r_a kaunm[e] ///
+a5	/// ṣṣ(·) kraupentse pyāmtso (·)e ///
+a6	/// [lye]ccanne papālau ///
+a7 &lt;i&gt;lost&lt;/i&gt;
+b1	/// [p]_t_a – ///
+b2	/// kāś[n]e swā_s_asken-me ///
+b3	/// t_r_a _r_askre māntsant_r_a _p_a ///
+b4	/// [w](·)rñ[ai] yakni yolaiñem[p]= e ///
+b5	/// k_use toṃts pelkiñ^ä ālyau ///
+b6	/// [ma]nt _k_arsormeṃ mrauskānt_r_a s[n]ai ///
+b7	/// hākāś[y]a[p]e : p[r](··)ka[_ṣ_ṣ_a]ṃ ///</item>
+               <item n="m_image_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_old">Duldur-Akhur</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_linedistance_old">1,8</item>
+               <item n="m_collection_old">Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</item>
+               <item n="m_lines_old">7</item>
+               <item n="access_old">restricted</item>
+               <item n="file_location_old">pages/manuscript/PK_AS/pkas15j.txt</item>
+               <item n="m_metric_form_old"/>
+               <item n="m_tune_old"/>
+               <item n="m_translation_old"/>
+               <item n="m_subgenre_old">Jātaka/Avadāna</item>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_prev_old"/>
+               <item n="user_created_old">theres</item>
+               <item n="user_modified_old">theres</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_meter_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old">a1	/// r painemeṃ l(a)ṃ-me naiṣṣ(·) ///
+a2	/// ywārccä ynemane ywārc cakra ///
+a3	/// nano ṣe lkāträ kāśyape ///
+a4	/// rkwantane ṣarnen= eṅträ kaunme ///
+a5	/// (··)ṣṣ(·) kraupentse pyāmtso (·)e ///
+a6	/// lyeccanne papālau ///
+a7 &lt;i&gt;lost&lt;/i&gt;
+b1	/// ptä – ///
+b2	/// kāśne swāsäsken-me ///
+b3	/// trä räskre māntsanträ pä ///
+b4	/// (·)w(·)rñai yakni yolaiñemp= e ///
+b5	/// k_use toṃts pelkiñ ālyau ///
+b6	/// mant kärsormeṃ mrauskānträ snai ///
+b7	/// (ma)hākāśyape : pr(ut)kaṣṣäṃ ///</item>
+               <item n="m_title_old">Mahākāśyapa</item>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_script_old"/>
+               <item n="ms_old">PK AS 15J</item>
+               <item n="project_comment_old"/>
+               <item n="m_parallels_old"/>
+               <item n="m_expedition_old">DA</item>
+               <item n="m_size_w_old">8,7</item>
+               <item n="m_remarks_old">&lt;p&gt;Recto and verso are uncertain; there is a small piece wrongly placed at the beginning of lines a5 and b2.&lt;/p&gt;</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_other_sigla_old">Pelliot Koutchéen Ancienne Série 15J</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

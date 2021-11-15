@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-a408d">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A 408.d</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>A 408.d</idno>
+                  <altIdentifier>
+                     <idno>THT 1042d</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Bleistiftnummer 3112</idno>
+                  </altIdentifier>
+                  <msName>A 406-408</msName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>3,2</height>
+                              <width>3,5</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Siŋgim</region>during <rs type="expedition_code">T II S 19.20; T II S 19.19f</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="xto"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=338748;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=338748;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone><gap reason="plain" unit="part"/><unclear>k</unclear><gap reason="plain" unit="part"/></zone><zone>m<gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>KA</zone><zone>lpā</zone><zone>ntRA</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone>me</zone><zone>m<unclear>ā</unclear></zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=317197;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=317197;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone><gap reason="plain" unit="part"/>k<gap reason="plain" unit="part"/></zone><zone><unclear>TA</unclear></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone><unclear>ky</unclear><gap reason="plain" unit="part"/></zone><zone>TA¯</zone><zone>¯R</zone><zone>pkā</zone><zone>m<unclear>a</unclear></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><zone>TA</zone><zone>ṣ<gap reason="plain" unit="part"/>e</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>k<gap reason="plain" unit="part"/></w><w>m<gap reason="plain" unit="part"/></w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>kälpānträ</w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><w>me</w><w>mā</w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w><gap reason="plain" unit="part"/>k<gap reason="plain" unit="part"/></w><w>tä</w><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><w>k</w><w>y<supplied>a</supplied>tär</w><w>pkāma</w><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><w>tä</w><w>ṣ<gap reason="plain" unit="part"/>e</w><gap reason="plain" quantity="1"/><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">...</seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">... they will obtain ...</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">...</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">...</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">... he does ... Bring ...!</seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl">...</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">In one frame with <ref type="ms" target="txt:m-a408"/>-<ref type="ms" target="txt:m-a408c"/> and <ref type="ms" target="txt:m-a408e"/>-<ref type="ms" target="txt:m-a408i"/>.</note><note corresp="#b2" type="philcomment"><hi>pkāma ///</hi>: apparently a form of <hi>kāmā-</hi>. However, all relevant forms have <hi>pkāmā°</hi>, e.g. sg.ipv. <hi>pkāmār</hi>, pl.ipv. <hi>pkāmāc</hi>, while such a reading seems excluded here.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 1042d" type="external">THT 1042d</ref></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_prev_old"/>
+               <item n="user_created_old">michael</item>
+               <item n="user_modified_old">martin</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_translation_old">a1 ...
+a2 ... they will obtain ...
+a3 ...
+b1 ...
+b2 ... he does ... Bring ...!
+b3 ...</item>
+               <item n="m_subgenre_old"/>
+               <item n="project_check_old"/>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old"/>
+               <item n="m_size_w_old">3,5</item>
+               <item n="m_expedition_old">T II S 19.20; T II S 19.19f</item>
+               <item n="m_language_old">TA</item>
+               <item n="m_remarks_old">In one frame with [[A 408]]-[[A 408.c]] and [[A 408.e]]-[[A 408.i]].</item>
+               <item n="m_other_sigla_old">THT 1042d; Bleistiftnummer 3112</item>
+               <item n="m_script_old">Classical</item>
+               <item n="ms_old">A 408.d</item>
+               <item n="project_comment_old"/>
+               <item n="m_parallels_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_meter_old"/>
+               <item n="m_title_old"/>
+               <item n="m_transcription_old">a1 /// ·k· m· – ///
+a2 /// – kälpānträ ///
+a3 /// me mā ///
+b1 /// – ·k· tä ///
+b2 /// k y(a)tär pkāma ///
+b3 /// tä ṣ·e – ///</item>
+               <item n="m_leaf_old"/>
+               <item n="date_publication_old"/>
+               <item n="m_transliteration_old">a1 /// ·[k]· m· – ///
+a2 /// – _k_alpānt_r_a ///
+a3 /// me m[ā] ///
+b1 /// – ·k· [_t_a] ///
+b2 /// [k y]·_t_a_r\ pkām[a] ///
+b3 /// _t_a ṣ·e – ///</item>
+               <item n="m_language_stage_old"/>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=338748;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=338748;rotate=0;imageType=_M||$page; recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=317197;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=317197;rotate=0;imageType=_M||$page; verso</item>
+               <item n="m_manuscript_old">A 406-408</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 1042d" target="idp"&gt;THT 1042d&lt;/a&gt;.</item>
+               <item n="file_created_old">1345627704</item>
+               <item n="file_modified_old">1558236257</item>
+               <item n="m_size_h_old">3,2</item>
+               <item n="m_next_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_philcomment_old">&lt;b&gt;b2&lt;/b&gt; &lt;i&gt;pkāma ///&lt;/i&gt;: apparently a form of &lt;i&gt;kāmā-&lt;/i&gt;. However, all relevant forms have &lt;i&gt;pkāmā°&lt;/i&gt;, e.g. sg.ipv. &lt;i&gt;pkāmār&lt;/i&gt;, pl.ipv. &lt;i&gt;pkāmāc&lt;/i&gt;, while such a reading seems excluded here.</item>
+               <item n="m_passage_old"/>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="file_location_old">pages/manuscript/A_frag/a408d.txt</item>
+               <item n="m_completeness_old"/>
+               <item n="m_lines_old">3</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="access_old">public</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Siŋgim</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

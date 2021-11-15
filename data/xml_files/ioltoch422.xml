@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-ioltoch422">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>IOL Toch 422</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library (London)</repository>
+                  <idno>IOL Toch 422</idno>
+                  <altIdentifier>
+                     <idno>D 63</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Vinayavibhaṅga</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>5,8</height>
+                              <width>5,4</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical frg:ls-cetom-aberrant-None"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Vinaya</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=7906;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=7906;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL422a.jpg" height="878px" width="768px"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone><unclear>m</unclear><gap reason="plain" unit="part"/></zone><zone><unclear>ṢA</unclear></zone><zone>lle</zone><zone>•</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>ka</zone><zone>ñi</zone><zone>ññe</zone><zone>sa</zone><zone>•</zone><gap reason="par" quantity="1"/><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone><unclear>50</unclear></zone><zone>5</zone><zone>॥</zone><zone>ṣa</zone><zone>ḍva</zone><zone>rgi</zone><zone>nt<unclear>a</unclear></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><zone><gap reason="plain" unit="part"/><unclear>e</unclear></zone><zone>nta</zone><zone>•</zone><zone>pa</zone><zone>ñä</zone><zone>kte</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><gap reason="lost"/><zone><unclear>50</unclear><gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=7905;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=7905;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL422b.jpg" height="878px" width="768px"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>n<gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone>sn<gap reason="plain" unit="part"/></zone><zone>ke¯</zone><zone>¯ś</zone><zone>klau</zone><zone>tke</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><zone><unclear>n</unclear><gap reason="plain" unit="part"/></zone><zone>ntsa</zone><zone>we</zone><zone>ske</zone><zone>ma</zone><zone>ne</zone><zone>•</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><zone>sa</zone><zone>ra</zone><zone>no</zone><zone>•</zone><zone>tri</zone><zone>te</zone><gap reason="plain" quantity="1"/><zone><gap reason="plain" unit="part"/><gap reason="plain" unit="part"/><unclear>ṃ</unclear></zone><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone><unclear>M</unclear>A</zone><zone>ntrā</zone><zone>kka</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p><milestone unit="passage" n="Pāt.55-57"/>
+<lb corresp="#a1"/><gap reason="lost"/><w><supplied>ya</supplied>m<supplied>a</supplied>ṣälle</w><pc>•</pc><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>kañiññesa</w><pc>•</pc><gap reason="plain" quantity="2"/><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><num value="55">50-5</num><pc>॥</pc><w>ṣaḍvarginta</w><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>enta</w><pc>•</pc><w>pañäkte</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#a5"/><gap reason="lost"/><num value="50">50<gap reason="plain" unit="part"/></num><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>n<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><w>sn<supplied>ai</supplied></w><w>keś</w><w>klautke</w><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><w>-n<gap reason="plain" unit="part"/>ntsa</w><w>weskemane</w><pc>•</pc><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b4"/><gap reason="lost"/><w>sa</w><w>rano</w><pc>•</pc><w>trite</w><gap reason="plain" quantity="1"/><w><gap reason="plain" unit="part"/><gap reason="plain" unit="part"/>ṃ</w><gap reason="lost"/>
+<lb corresp="#b5"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>mäntrākka</w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">/// ... should be done ///</seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">/// by the possession ///</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">/// [55] The monks of the group of six ///</seg></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl">/// ... Buddha ... ///</seg></seg></choice><choice corresp="#a5"><seg><seg type="prim_transl">/// [5](6) ///</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">/// ... ///</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">/// in innumerable ways ///</seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl">/// being said by the monks ///</seg></seg></choice><choice corresp="#b4"><seg><seg type="prim_transl">/// [a second time] also a third time (also) ///</seg></seg></choice><choice corresp="#b5"><seg><seg type="prim_transl">/// in this way ///</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">After <bibl><title corresp="ref:ogihara2009"/><citedRange>103</citedRange></bibl>, recto and verso have been reversed compared to <ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL%20Toch%20422" type="external">IDP</ref>.</note><note corresp="#b2" type="philcomment"><hi>keś</hi>: pace <bibl><title corresp="ref:ogihara2009"/><citedRange>103</citedRange></bibl>, the vowel <hi>e</hi> is clearly visible.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Identification</label><bibl><title corresp="ref:ogihara2009"/><citedRange>103</citedRange></bibl>. </p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 422" type="external">IOL Toch 422</ref></bibl>. </p>
+            <p><label>Edition</label><bibl><title corresp="ref:peyrot2007"/><citedRange>№422</citedRange></bibl><bibl><title corresp="ref:peyrot2007"/><citedRange>№422</citedRange></bibl>; <bibl><title corresp="ref:ogihara2009"/><citedRange>103, 362-364</citedRange></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="user_modified_old">theres</item>
+               <item n="user_created_old">automatic</item>
+               <item n="m_language_add_old">None</item>
+               <item n="category_old">manuscript</item>
+               <item n="file_savedate_old">2016-10-27, 16:26:11 (CEST)</item>
+               <item n="file_name_old">pages/manuscript/IOL_Toch/ioltoch422.txt</item>
+               <item n="m_translation_old">a1 /// ... should be done ///
+a2 /// by the possession ///
+a3 /// [55] The monks of the group of six ///
+a4 /// ... Buddha ... ///
+a5 /// [5](6) ///
+b1 /// ... ///
+b2 /// in innumerable ways ///
+b3 /// being said by the monks ///
+b4 /// [a second time] also a third time (also) ///
+b5 /// in this way ///</item>
+               <item n="m_subgenre_old">Vinaya</item>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_size_w_old">5,4</item>
+               <item n="m_other_sigla_old">D 63</item>
+               <item n="m_remarks_old">&lt;p&gt;After [[Ogihara 2009]]: 103, recto and verso have been reversed compared to &lt;a href="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL%20Toch%20422"&gt;IDP&lt;/a&gt;.&lt;/p&gt;</item>
+               <item n="m_language_old">TB</item>
+               <item n="ms_old">IOL Toch 422</item>
+               <item n="m_script_old">Classical</item>
+               <item n="edited_date_old">2016-10-27, 16:26:11 (CEST)</item>
+               <item n="editgroup_old">Editor</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="group_old">Editor</item>
+               <item n="m_title_old">Vinayavibhaṅga</item>
+               <item n="m_transcription_old">a1 /// yamaṣṣälle|(ya)m(a)ṣälle • – ///
+a2 /// – kañiññesa • – – ///
+a3 /// 50-5 || ṣaḍvarginta ///
+a4 /// ·enta • pañäkte – ///
+a5 /// 50· – ///
+b1 /// ·n· ///
+b2 /// sn(ai) keś klautke ///
+b3 /// -n·ntsa weskemane • – ///
+b4 /// sa rano • trite – ··ṃ ///
+b5 /// – mäntrākka ///</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_transliteration_old">a1 /// -[m]·[_ṣ_a]lle • – ///
+a2 /// – kañiññesa • (–) – ///
+a3 /// [50]-5 || ṣaḍvargint[a] ///
+a4 /// ·[e]nta • pañäkte – ///
+a5 /// [50]· – ///
+b1 /// ·n· ///
+b2 /// sn· keś\ klautke ///
+b3 /// -[n]·ntsa weskemane • – ///
+b4 /// sa rano • trite – ··[ṃ] ///
+b5 /// – [_m]_antrākka ///</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=7906;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=7906;rotate=0;imageType=_M||IOL Toch 422 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=7905;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=7905;rotate=0;imageType=_M||IOL Toch 422 verso</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 422"&gt;IOL Toch 422&lt;/a&gt;.&lt;br&gt;
+Identification: [[Ogihara 2009]]: 103.&lt;br&gt;
+Edition: [[Peyrot 2007]]: №422, [[Peyrot 2007]]: №422; [[Ogihara 2009]]: 103, 362-364.&lt;br&gt;
+Translation: [[Ogihara 2009]]: 363.</item>
+               <item n="file_size_old">2 KB</item>
+               <item n="file_modified_old">1576075385</item>
+               <item n="file_created_old">1322765175</item>
+               <item n="m_size_h_old">5,8</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="version_old">9</item>
+               <item n="page_name_old">IOL Toch 422</item>
+               <item n="m_passage_old">Pāt.55-57</item>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;b2.&lt;/b&gt; &lt;i&gt;keś&lt;/i&gt;: pace [[Ogihara 2009]]: 103, the vowel &lt;i&gt;e&lt;/i&gt; is clearly visible.&lt;/p&gt;</item>
+               <item n="file_location_old">pages/manuscript/IOL_Toch/ioltoch422.txt</item>
+               <item n="access_old">restricted</item>
+               <item n="m_lines_old">5</item>
+               <item n="m_collection_old">British Library (London)</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="created_date_old">2011-12-01, 19:46:15 (CET)</item>
+               <item n="m_findspot_old">Unknown</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

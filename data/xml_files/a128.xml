@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-a128">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A 128</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Gerd Carling</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>A 128</idno>
+                  <altIdentifier>
+                     <idno>THT 761</idno>
+                  </altIdentifier>
+                  <msName>A 89-143</msName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>late</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Šorčuq</region><placeName>Stadthöhle</placeName>during <rs type="expedition_code">T III Š 79.07</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+         <sourceDesc>
+            <p>Transcription and translation are based on <bibl><title corresp="ref:carlingetal2009"/></bibl>. </p>
+            <p>Transcription and references have been transferred from the "Text and Reference Database of the Tocharian A Language" (Gerd Carling Lund University) (funded by the Bank of Sweden Tercentenary Foundation and SCAS).</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="xto"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328505;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328505;rotate=0;imageType=_M"/>
+            <graphic url="A/A128a.jpg" height="771px" width="618px"/>
+            <line xml:id="lf"><zone>202</zone></line>
+            <line n="1" xml:id="a1"><zone>TMA</zone><zone><unclear>ṣ</unclear>la</zone><zone>paṃ</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><zone>wla</zone><zone>lu</zone><zone>ne</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><zone>rī¯</zone><zone>¯S</zone><zone>sne</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><zone>¯LtS</zone><zone>a</zone><zone>tra</zone><zone><unclear>t</unclear><gap reason="plain" unit="part"/><gap reason="plain" unit="part"/></zone><zone>p<gap reason="plain" unit="part"/>¯</zone><zone>¯S</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><zone>wṣe</zone><zone>ññe</zone><zone>eṃ</zone><zone>tsā¯</zone><zone>¯T</zone><zone>o</zone><zone>KA</zone><gap reason="lost"/></line>
+            <line n="6" xml:id="a6"><zone>wLA¯</zone><zone>¯S</zone><zone>bra</zone><zone>hma</zone><zone>lo</zone><zone>kaṃ</zone><zone>ta</zone><zone><unclear>MA</unclear></zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328560;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328560;rotate=0;imageType=_M"/>
+            <graphic url="A/A128b.jpg" height="780px" width="618px"/>
+            <line n="1" xml:id="b1"><zone>wa</zone><zone>ṢTA¯</zone><zone>¯Ṣ</zone><zone>LA¯</zone><zone>¯cä</zone><zone>bra</zone><zone>hma</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><zone>mā</zone><zone>ca</zone><gap reason="plain" quantity="1"/><zone>va</zone><zone>rtti¯</zone><zone>¯ñä</zone><zone>lā<unclear>¯</unclear></zone><zone><unclear>¯</unclear><unclear>śä</unclear></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><zone>PA</zone><zone>lkā</zone><zone>rna</zone><gap reason="plain" quantity="1"/><zone>ce¯</zone><zone>¯M</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><zone>ska¯</zone><zone>¯R</zone><zone>wa</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><zone>mā</zone><zone>NA</zone><zone>ṣna</zone><gap reason="lost"/></line>
+            <line n="6" xml:id="b6"><zone>ṢLAṃ</zone><zone>TṢA¯</zone><zone>¯L</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <fw type="leafNum" corresp="#lf">202</fw>
+            <p>
+<lb corresp="#a1"/><w>tmäṣ</w><w>lapaṃ</w><gap reason="lost"/>
+<lb corresp="#a2"/><w>wlalune</w><gap reason="lost"/>
+<lb corresp="#a3"/><w>rīs</w><w>sne</w><gap reason="lost"/>
+<w><supplied>wä</supplied><lb corresp="#a4"/>lts</w><w>atra-t<supplied>am</supplied>p<supplied>e</supplied>s</w><gap reason="lost"/>
+<lb corresp="#a5"/><w>wṣeññe</w><w>eṃtsāt</w><w>okä</w><gap reason="lost"/>
+<lb corresp="#a6"/><w>wläs</w><w>brahmalokaṃ</w><w>tamä</w><gap reason="lost"/>
+<lb corresp="#b1"/><w>waṣtäṣ</w><w>läc</w><w>brahma</w><gap reason="lost"/>
+<lb corresp="#b2"/><w>mā</w><w>ca<supplied>kra</supplied>varttiñ</w><w>lāś</w><gap reason="lost"/>
+<lb corresp="#b3"/><w>pälkār</w><w>na</w><gap reason="plain" quantity="1"/><w>cem</w><gap reason="lost"/>
+<lb corresp="#b4"/><w>skar</w><w>wa</w><gap reason="lost"/>
+<lb corresp="#b5"/><w>mā</w><w>näṣ</w><w>na</w><gap reason="lost"/>
+<lb corresp="#b6"/><w>ṣ</w><w>läṃtṣäl</w><gap reason="lost"/></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition</label><bibl><title corresp="ref:siegandsiegling1921"/><citedRange>70</citedRange></bibl>. <bibl>Siegling's personal copy of <title corresp="ref:siegandsiegling1921"/><ref target="./images/TS_Siegling/TS_Siegling_Page_070.png" type="external">p. 70</ref></bibl>.</p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT%20761" type="external">THT 761</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/07/0761.htm" type="external">THT 761</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_linedistance_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_old">Šorčuq</item>
+               <item n="m_findspot_specific_old">Stadthöhle</item>
+               <item n="file_location_old">pages/manuscript/A/a128.txt</item>
+               <item n="m_completeness_old"/>
+               <item n="access_old">public</item>
+               <item n="m_lines_old">6</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="file_modified_old">1549512006</item>
+               <item n="file_created_old">1328802216</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_editor_old">Gerd Carling</item>
+               <item n="m_philcomment_old"/>
+               <item n="m_passage_old"/>
+               <item n="m_language_stage_old"/>
+               <item n="m_transliteration_old">a1 _t_m_a[ṣ] lapaṃ ///
+a2 wlalune ///
+a3 rī_s\ sne ///
+a4 _lt_s\ atra-[t]·· p· _s\ ///
+a5 wṣeññe eṃtsā_t\ o_k_a ///
+a6 w_l_a_s\ brahmalokaṃ ta[_m_a] ///
+b1 wa_ṣ_t_a_ṣ\ _l_acä\ brahma ///
+b2 mā ca – varttiñä\ lā[śä\] ///
+b3 _p_alkār na – ce_m\ ///
+b4 ska_r\ wa ///
+b5 mā _n_aṣ na ///
+b6 _ṣ _l_aṃ_t_ṣ_a_l\ ///</item>
+               <item n="date_publication_old"/>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328505;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328505;rotate=0;imageType=_M||THT 761 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328560;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328560;rotate=0;imageType=_M||THT 761 verso</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT%20761"&gt;THT 761&lt;/a&gt;,
+[[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/07/0761.htm"&gt;THT 761&lt;/a&gt;.&lt;br&gt;
+Transcription and references have been transferred from the "Text and Reference Database of the Tocharian A Language" (Gerd Carling, Lund University) (funded by the Bank of Sweden Tercentenary Foundation and SCAS).
+Transcription and translation are based on [[Carling, DThTA]].&lt;br&gt;
+Edition: [[TochSprR(A)]]: 70.&lt;br&gt;
+Siegling's personal copy of [[TochSprR(A)]]: &lt;a href="./images/TS_Siegling/TS_Siegling_Page_070.png"&gt;p. 70&lt;/a&gt;.</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old">A 89-143</item>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_transcription_old">a1 tmäṣ lapaṃ ///
+a2 wlalune ///
+a3 rīs sne /// wälts|(wä)|lts
+a4 atra-t(am)p(e)s ///
+a5 wṣeññe eṃtsāt okä ///
+a6 wläs brahmalokaṃ tamä ///
+b1 waṣtäṣ läc brahma ///
+b2 mā ca(kra)varttiñ lāś ///
+b3 pälkār na – cem ///
+b4 skar wa ///
+b5 mā näṣ na ///
+b6 ṣ läṃtṣäl ///</item>
+               <item n="m_leaf_old">202</item>
+               <item n="m_title_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_size_w_old"/>
+               <item n="m_expedition_old">T III Š 79.07</item>
+               <item n="m_other_sigla_old">THT 761</item>
+               <item n="m_language_old">TA</item>
+               <item n="m_remarks_old"/>
+               <item n="ms_old">A 128</item>
+               <item n="project_comment_old">&lt;p&gt;Translation from [[Winter 1992]]:&lt;br&gt;
+&lt;b&gt;a3-4&lt;/b&gt; "... thousand having the strength of heroes" [125].&lt;/p&gt;</item>
+               <item n="m_script_old">Late</item>
+               <item n="m_parallels_old"/>
+               <item n="m_translation_old"/>
+               <item n="m_subgenre_old"/>
+               <item n="project_check_old"/>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old"/>
+               <item n="m_prev_old"/>
+               <item n="user_modified_old">martin</item>
+               <item n="user_created_old">automatic</item>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="category_old">manuscript</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;Translation from &lt;bibl&gt;&lt;title corresp="ref:winter1992"/&gt;&lt;/bibl&gt;: 
+&lt;ref type="ms" target="__a3-4"/&gt; "... thousand having the strength of heroes" [125].&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

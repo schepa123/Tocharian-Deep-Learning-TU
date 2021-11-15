@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-a417">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A 417</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Gerd Carling</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>A 417</idno>
+                  <altIdentifier>
+                     <idno>THT 1051</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Karmavācanā</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>late</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Siŋgim</region>during <rs type="expedition_code">T II D12</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+         <sourceDesc>
+            <p>Transcription and translation are based on <bibl><title corresp="ref:carlingetal2009"/></bibl>. </p>
+            <p>Transcription and references have been transferred from the "Text and Reference Database of the Tocharian A Language" (Gerd Carling Lund University) (funded by the Bank of Sweden Tercentenary Foundation and SCAS).</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="xto"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329588;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329588;rotate=0;imageType=_M"/>
+            <graphic url="A/A417a.jpg" height="956px" width="1236px"/>
+            <line n="1" xml:id="a1"><gap reason="plain" quantity="2"/><zone>tRA</zone><zone>ṅKA¯</zone><zone>¯L</zone><zone>pra</zone><zone>vā</zone><zone>r<gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="plain" quantity="1"/><zone>tRA</zone><zone>ṅKA¯</zone><zone>¯L</zone><zone>•</zone><zone>sa</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="plain" quantity="1"/><zone>dha</zone><zone>rma</zone><zone>ra</zone><zone>kṣi</zone><zone>to</zone><zone>bhi</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><zone>tṛ</zone><zone>bhi</zone><zone>sthā</zone><zone>nai</zone><zone>pra</zone><zone>vā</zone><zone>ra</zone><zone>yā</zone><zone><unclear>mi</unclear></zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329579;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329579;rotate=0;imageType=_M"/>
+            <graphic url="A/A417b.jpg" height="1264px" width="1612px"/>
+            <line n="1" xml:id="b1"><zone>vaṃ</zone><zone>saṃ</zone><zone>gha</zone><zone>sya</zone><zone>ya</zone><zone>smā</zone><zone>ttu</zone><zone><unclear>ṣṇ</unclear>i</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><zone>॥</zone><zone>śṛ</zone><zone>ṇo</zone><zone>tu</zone><zone>bha</zone><zone>da</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><zone>pta</zone><zone>kā</zone><zone>laṃ</zone><zone>kṣa</zone><zone>ma</zone><zone>te</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><gap reason="plain" quantity="1"/><zone>kā</zone><zone>RA¯</zone><zone>¯M</zone><zone>tRA</zone><zone>ṅKA</zone><zone>ntā¯</zone><zone>¯P</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="plain" quantity="2"/><w>träṅkäl</w><w>pravār<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="plain" quantity="1"/><w>träṅkäl</w><pc>•</pc><w>sa</w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="plain" quantity="1"/><w>dharmarakṣito</w><w>bhi</w><gap reason="lost"/>
+<lb corresp="#a4"/><w>tṛbhi</w><w>sthānai</w><w>pravārayāmi</w><gap reason="lost"/>
+<lb corresp="#b1"/><w>vaṃ</w><w>saṃghasya</w><w>yasmāt</w><w>tuṣṇi</w><gap reason="lost"/>
+<lb corresp="#b2"/><pc>॥</pc><w>śṛṇotu</w><w>bhada</w><gap reason="lost"/>
+<lb corresp="#b3"/><w>ptakālaṃ</w><w>kṣamate</w><gap reason="lost"/>
+<lb corresp="#b4"/><gap reason="plain" quantity="1"/><w>kāräm</w><w>träṅkäntāp</w><gap reason="lost"/></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition</label><bibl><title corresp="ref:siegandsiegling1921"/><citedRange>230</citedRange></bibl><bibl>Siegling's personal copy of <title corresp="ref:siegandsiegling1921"/><ref target="./images/TS_Siegling/TS_Siegling_Page_230.png" type="external">p. 230</ref></bibl></p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT%201051" type="external">THT 1051</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/10/1051.htm" type="external">THT 1051</ref></bibl></p>
+            <p><label>Lines</label><seg corresp="#a1"><bibl><title corresp="ref:couvreur1959"/><citedRange>253</citedRange></bibl></seg></p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT%201051"&gt;THT 1051&lt;/a&gt;,
+[[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/10/1051.htm"&gt;THT 1051&lt;/a&gt;&lt;br&gt;
+Transcription and references have been transferred from the "Text and Reference Database of the Tocharian A Language" (Gerd Carling, Lund University) (funded by the Bank of Sweden Tercentenary Foundation and SCAS).
+Transcription and translation are based on [[Carling, DThTA]].&lt;br&gt;
+Edition: [[TochSprR(A)]]: 230&lt;br&gt;Siegling's personal copy of [[TochSprR(A)]]: &lt;a href="./images/TS_Siegling/TS_Siegling_Page_230.png"&gt;p. 230&lt;/a&gt;&lt;br&gt;
+a1: [[Couvreur 1959]]:253</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329579;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329579;rotate=0;imageType=_M||THT 1051 verso
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329588;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329588;rotate=0;imageType=_M||THT 1051 recto</item>
+               <item n="date_publication_old"/>
+               <item n="m_transliteration_old">a1 – – t_r_aṅ_k_a_l\ pravār· ///
+a2 – t_r_aṅ_k_a_l\ • sa ///
+a3 – dharmarakṣito bhi ///
+a4 tṛbhi sthānai pravārayā[mi] ///
+b1 vaṃ saṃghasya yasmāt tu[ṣṇ]i ///
+b2 || śṛṇotu bhada ///
+b3 ptakālaṃ kṣamate ///
+b4 – kā_r_a_m\ t_r_aṅ_k_antā_p\ ///</item>
+               <item n="m_language_stage_old"/>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old"/>
+               <item n="m_editor_old">Gerd Carling</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_size_h_old"/>
+               <item n="file_created_old">1328802217</item>
+               <item n="file_modified_old">1470351264</item>
+               <item n="m_lines_old">4</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="access_old">public</item>
+               <item n="file_location_old">pages/manuscript/A/a417.txt</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Siŋgim</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_linedistance_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old"/>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old">martin</item>
+               <item n="m_metric_form_old"/>
+               <item n="m_translation_old"/>
+               <item n="m_subgenre_old"/>
+               <item n="m_parallels_old"/>
+               <item n="m_script_old">Late</item>
+               <item n="ms_old">A 417</item>
+               <item n="project_comment_old">&lt;ul&gt;
+&lt;li&gt;This data set has been created automatically from &amp;quot;Carling_DB_of_TochA_Michael_20120206.xml&amp;quot; on Thu, 2012-02-09, 16:43:37.&lt;/li&gt;
+&lt;li&gt;This data set has been completed automatically on Sun, 2012-10-14, 22:47:57:&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;transliteration from &amp;quot;A001-467_20121001.txt&amp;quot;&lt;/li&gt;
+&lt;li&gt;image links from &amp;quot;IDPImages_THT_20120306.csv&amp;quot;&lt;/li&gt;
+&lt;li&gt;expedition, ms, leaf numbers, S&amp;S refs and links from &amp;quot;ta_catalogue_peyrot.txt&amp;quot;&lt;/li&gt;
+&lt;li&gt;translation refs from &amp;quot;ta_biblio_peyrot.txt&amp;quot;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;</item>
+               <item n="m_language_old">Sanskrit+TA</item>
+               <item n="m_remarks_old"/>
+               <item n="m_other_sigla_old">THT 1051</item>
+               <item n="m_size_w_old"/>
+               <item n="m_expedition_old">T II D12</item>
+               <item n="m_transcription_old">a1 – – träṅkäl pravār· ///
+a2 – träṅkäl • sa ///
+a3 – dharmarakṣito bhi ///
+a4 tṛbhi sthānai pravārayāmi ///
+b1 vaṃ saṃghasya yasmāt tuṣṇi ///
+b2 || śṛṇotu bhada ///
+b3 ptakālaṃ kṣamate ///
+b4 – kāräm träṅkäntāp ///</item>
+               <item n="m_leaf_old"/>
+               <item n="m_title_old">Karmavācanā</item>
+               <item n="m_genre_old">Literary</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;ul&gt;&lt;li&gt;This data set has been created automatically from "Carling_DB_of_TochA_Michael_20120206.xml" on Thu, 2012-02-09, 16:43:37.&lt;/li&gt;&lt;li&gt;This data set has been completed automatically on Sun, 2012-10-14, 22:47:57:&lt;/li&gt;&lt;ul&gt;&lt;li&gt;transliteration from "A001-467_20121001.txt"&lt;/li&gt;&lt;li&gt;image links from "IDPImages_THT_20120306.csv"&lt;/li&gt;&lt;li&gt;expedition, ms, leaf numbers, S&amp;amp;S refs and links from "ta_catalogue_peyrot.txt"&lt;/li&gt;&lt;li&gt;translation refs from "ta_biblio_peyrot.txt"&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

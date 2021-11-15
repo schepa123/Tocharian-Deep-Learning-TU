@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-pklc_3">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PK LC 3</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</repository>
+                  <idno>PK LC 3</idno>
+                  <altIdentifier>
+                     <idno>Pelliot Koutchéen Lettres Commerciales III</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>PK LC III</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>2,5–4</height>
+                              <width>28,2</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Non-literary</term>
+               <term type="subgenre">Letter</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <line n="1" xml:id="a1"><zone>ṣu</zone><zone>kta</zone><zone>ñce</zone><zone>śa<gap reason="plain" unit="part"/></zone><zone>w<gap reason="plain" unit="part"/></zone><zone>k<gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="1"/><zone>k<gap reason="plain" unit="part"/></zone><zone><gap reason="plain" unit="part"/>k<gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><zone><unclear>ṣu</unclear></zone><zone><unclear>kt</unclear>a</zone><zone>ñc<gap reason="plain" unit="part"/></zone><zone><gap reason="plain" unit="part"/>e</zone><zone><unclear>i</unclear></zone><zone>KAṃ</zone><zone>wi</zone><zone>ne</zone><zone>ka</zone><zone>me</zone><zone>ki</zone><zone>śkaṃ</zone><zone>ne</zone><zone>ya¯</zone><zone>¯P</zone><zone>te</zone><zone>mtsa</zone><zone>te</zone><zone>ca</zone><zone>k<gap reason="plain" unit="part"/></zone><zone><unclear>n</unclear>m<gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="2"/></line>
+            <line n="3" xml:id="a3"><gap reason="par" quantity="6"/><zone><unclear>KA</unclear></zone><zone>lwā¯</zone><zone>¯M</zone><zone>ca</zone><zone>ka</zone><zone>nma</zone><zone>10</zone><zone>8</zone></line>
+         </surface>
+         <surface type="verso">
+            <line n="1" xml:id="b1"><zone>ñ<gap reason="plain" unit="part"/></zone><zone><unclear>n</unclear><gap reason="plain" unit="part"/></zone><zone>sa</zone><zone>ma</zone><zone><unclear>10</unclear></zone><zone><unclear>5</unclear></zone><zone>•</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><w>ṣuktañce</w><w>śa<supplied>k</supplied></w><w>w<supplied>i</supplied></w><w>k<gap reason="plain" unit="part"/></w><gap reason="plain" quantity="1"/><w>k<gap reason="plain" unit="part"/></w><w><gap reason="plain" unit="part"/>k<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#a2"/><w>ṣuktañc<supplied>e</supplied></w><w><supplied>n</supplied>e</w><w>ikäṃ</w><w>wine</w><w>kamekiśkaṃne</w><w>yap</w><w>temtsate</w><w>cak<supplied>a</supplied>nm<supplied>a</supplied></w><gap reason="plain" quantity="2"/>
+<lb corresp="#a3"/><gap reason="plain" quantity="6"/><w>kälwām</w><w>cakanma</w><num value="18">10-8</num>
+<lb corresp="#b1"/><w>ñ<gap reason="plain" unit="part"/></w><w>n<gap reason="plain" unit="part"/></w><w>sama</w><num value="15">10-5</num><pc>•</pc></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">The [12th] day of the 7th (month), (in <hi>Kamekiśka</hi>*?) ///</seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">In the 7th (month). On the 22nd day, in <hi>Kamekiśka</hi>*, barley has been produced: ... [piculs]</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">We have [obtained]: 18 piculs.</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">...</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note corresp="#a1" type="philcomment"><hi>k· – k· ·k·</hi> may probably be restored as <hi>K(ame)k(iś)k(aṃne)</hi> (<bibl><title corresp="ref:ching2010"/><citedRange>336</citedRange></bibl>).</note><note corresp="#b1" type="philcomment">"(Effectively a scrawl)" (<bibl><title corresp="ref:ching2010"/><citedRange>336</citedRange></bibl>).</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>other</label><bibl><title corresp="ref:pinault0000"/><citedRange>95-97</citedRange></bibl>; <bibl><title corresp="ref:ching2010"/><citedRange>335-336</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_form_old"/>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old"/>
+               <item n="m_linedistance_old"/>
+               <item n="m_completeness_old"/>
+               <item n="m_collection_old">Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</item>
+               <item n="m_lines_old">3</item>
+               <item n="access_old">restricted</item>
+               <item n="file_location_old">pages/manuscript/PK_LC/pklc_3.txt</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;a1.&lt;/b&gt; &lt;i&gt;k· – k· ·k·&lt;/i&gt; may probably be restored as &lt;i&gt;K(ame)k(iś)k(aṃne)&lt;/i&gt; ([[Ching 2010]]: 336).&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b1.&lt;/b&gt; "(Effectively a scrawl)" ([[Ching 2010]]: 336).&lt;/p&gt;</item>
+               <item n="m_editor_old"/>
+               <item n="file_created_old">1395874800</item>
+               <item n="file_modified_old">1484561209</item>
+               <item n="m_size_h_old">2,5–4</item>
+               <item n="m_next_old"/>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_bib_old">[[Pinault typoscript]]: 95-97; [[Ching 2010]]: 335-336.</item>
+               <item n="date_publication_old"/>
+               <item n="m_transliteration_old">a1 ṣuktañce śa(k) w(i) k· – k· ·k· ///
+a2 [ṣukt]añc(e) (n)e [i]_k_aṃ wine kamekiśkaṃne ya_p\ temtsate cak(a)[n]m(a) – –
+a3 (– – – – – –) [_k_a]lwā_m\ cakanma 10-8
+b1 ñ· [n]· sama [10-5] •</item>
+               <item n="m_language_stage_old"/>
+               <item n="m_image_old"/>
+               <item n="m_genre_old">Non-literary</item>
+               <item n="m_meter_old"/>
+               <item n="m_title_old"/>
+               <item n="m_transcription_old">a1 ṣuktañce śa(k) w(i) k· – k· ·k· ///
+a2 ṣuktañc(e) (n)e ikäṃ wine kamekiśkaṃne yap temtsate cak(a)nm(a) – –
+a3 (– – – – – –) kälwām cakanma 18
+b1 ñ· n· sama 15 •</item>
+               <item n="m_leaf_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_script_old"/>
+               <item n="ms_old">PK LC 3</item>
+               <item n="project_comment_old">&lt;p&gt;&lt;ul&gt;
+&lt;li&gt;Transliteration "&lt;b&gt;b&lt;/b&gt; ñ(ā)nas[o]me [l]yā[k]a •" (from [[Pinault typoscript]]?) replaced by Ching's transliteration. –Martin (Fri, 2014-10-17, 12:38:35)&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</item>
+               <item n="m_parallels_old"/>
+               <item n="m_expedition_old"/>
+               <item n="m_size_w_old">28,2</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old"/>
+               <item n="m_other_sigla_old">Pelliot Koutchéen Lettres Commerciales III, PK LC III</item>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_translation_old">a1 The [12th] day of the 7th (month), (in &lt;i&gt;Kamekiśka&lt;/i&gt;*?) ///
+a2 In the 7th (month). On the 22nd day, in &lt;i&gt;Kamekiśka&lt;/i&gt;*, barley has been produced: ... [piculs]
+a3 We have [obtained]: 18 piculs.
+b1 ...</item>
+               <item n="m_subgenre_old">Letter</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_prev_old"/>
+               <item n="user_created_old">martin</item>
+               <item n="user_modified_old">theres</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;&lt;ul&gt;&lt;li&gt;Transliteration "&lt;b&gt;b&lt;/b&gt; ñ(ā)nas[o]me [l]yā[k]a •" (from &lt;bibl&gt;&lt;title corresp="ref:pinault0000"/&gt;&lt;/bibl&gt;?) replaced by Ching's transliteration. –Martin (Fri, 2014-10-17, 12:38:35)&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

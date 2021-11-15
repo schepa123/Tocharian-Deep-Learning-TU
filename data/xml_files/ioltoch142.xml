@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-ioltoch142">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>IOL Toch 142</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library (London)</repository>
+                  <idno>IOL Toch 142</idno>
+                  <altIdentifier>
+                     <idno>H 149.add.50</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>B.50</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Karmavācanā</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>5,1</height>
+                              <width>8,7</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Vinaya</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=12768;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=12768;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL142a.jpg" height="710px" width="1024px"/>
+            <line xml:id="lf"><zone>126</zone></line>
+            <line n="1" xml:id="a1"><zone>yu</zone><zone>ṣma</zone><zone>t<unclear>āṃ</unclear></zone><zone>kṣa</zone><zone>ma</zone><zone>te</zone><zone>e</zone><zone>vaṃ</zone><zone>nā</zone><zone>m<unclear>n</unclear>o</zone><gap reason="plain" quantity="1"/><zone>kṣo</zone><zone>kā</zone><zone>l<gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><zone>vā</zone><zone>a</zone><zone>bhi</zone><zone>mu</zone><zone>khaṃ</zone><zone>vai</zone><space type="string_hole"/><zone>bhaṃ</zone><zone>gi</zone><zone>kaṃ</zone><zone><unclear>k</unclear><gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><zone>sā</zone><zone>da</zone><zone><unclear>k</unclear><gap reason="plain" unit="part"/></zone><zone>rā</zone><zone>ṇāṃ</zone><zone>saṃ</zone><space type="string_hole"/><zone>gha</zone><zone>ka</zone><zone>rma</zone><zone>ṇ<gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><zone>ghe</zone><zone>na</zone><zone>e</zone><zone>vaṃ</zone><zone>nā</zone><zone>mno</zone><space type="string_hole"/><zone>bhi</zone><zone>kṣo</zone><zone>kā</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><zone>vā</zone><zone>a</zone><zone>bhi</zone><zone>mu</zone><zone>kho</zone><zone>vai</zone><zone>bhaṃ</zone><zone>gi</zone><zone>ka</zone><zone>:</zone><zone>sa</zone><zone>ma</zone><zone>va</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=12684;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=12684;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL142b.jpg" height="710px" width="1024px"/>
+            <line n="1" xml:id="b1"><zone>k<gap reason="plain" unit="part"/></zone><zone>rā</zone><zone>ṇāṃ</zone><zone>saṃ</zone><zone>gha</zone><zone>ka</zone><zone>rma</zone><zone>ṇāṃ</zone><zone>kṣa</zone><zone>ma</zone><zone>te</zone><zone>a</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><zone><unclear>k</unclear>o</zone><zone><unclear>s</unclear>e</zone><zone><gap reason="plain" unit="part"/>i</zone><zone>ṣa¯</zone><zone>¯ñä</zone><zone>e</zone><zone>kaṃ</zone><space type="string_hole"/><zone>ñe</zone><zone>pā</zone><zone>k<unclear>e</unclear></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><zone>ta</zone><zone>:</zone><gap reason="plain" quantity="1"/><zone>sya</zone><zone>yā</zone><zone>vaṃ</zone><zone>nta</zone><space type="string_hole"/><zone>:</zone><zone>ṣa</zone><zone><unclear>pi</unclear></zone><zone><unclear>r</unclear>i</zone><zone>ṣkā</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><zone><unclear>s</unclear>aṃ</zone><zone>gha</zone><zone>sya</zone><zone>vi</zone><zone>bha</zone><zone>ja</zone><zone>mā</zone><zone>nā</zone><zone>•</zone><zone>sa</zone><gap reason="plain" quantity="2"/><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><zone>tsaṃ</zone><zone>gha</zone><zone>:</zone><zone>e</zone><zone>vaṃ</zone><zone>nā</zone><zone>mno</zone><zone>bhi</zone><zone>kṣu</zone><zone>kā</zone><zone>la</zone><zone><unclear>ga</unclear></zone><zone><unclear>t</unclear><gap reason="plain" unit="part"/></zone><zone>sya</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <fw type="leafNum" corresp="#lf">126</fw>
+            <p><milestone unit="passage" n="Cīvara-vastu"/>
+<w><supplied>ā</supplied><lb corresp="#a1"/>yuṣmatāṃ</w><w>kṣamate</w><w>evaṃnāmno</w><w><supplied>bhi</supplied>kṣo</w><w>kāl<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#a2"/><w>vā</w><w>abhimukhaṃ</w><w>vaibhaṃgikaṃ</w><w>k<gap reason="plain" unit="part"/></w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#a3"/><w>sāda</w><w>k<supplied>a</supplied>rāṇāṃ</w><w>saṃghakarma</w><w>ṇ<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<w><supplied>saṃ</supplied><lb corresp="#a4"/>ghena</w><w>evaṃnāmno</w><w>bhikṣo</w><w>kā<milestone unit="w" type="break"/></w><gap reason="lost"/>
+<lb corresp="#a5"/><w>vā</w><w>abhimukho</w><w>vaibhaṃgika</w><pc>:</pc><w>samava<supplied>hita</supplied></w><gap reason="lost"/>
+<lb corresp="#b1"/><w>k<supplied>a</supplied>rāṇāṃ</w><w>saṃghakarmaṇāṃ</w><w>kṣamate</w><w>a<milestone unit="w" type="break"/></w><gap reason="lost"/>
+<lb corresp="#b2"/><w>kos</w><w>e<gap reason="plain" unit="part"/>i</w><w>ṣañ</w><w>ekaṃñe</w><w>pāke</w><gap reason="lost"/>
+<lb corresp="#b3"/><w>-ta</w><pc>:</pc><gap reason="plain" quantity="1"/><w>sya</w><w>yāvaṃnta</w><pc>:</pc><w>ṣa</w><w>pi</w><w>ri</w><w>ṣkā</w><gap reason="lost"/>
+<lb corresp="#b4"/><w>saṃghasya</w><w>vibhajamānā</w><pc>•</pc><w>sa</w><gap reason="plain" quantity="2"/><gap reason="lost"/>
+<lb corresp="#b5"/><w>-t</w><w>saṃgha</w><pc>:</pc><w>evaṃnāmno</w><w>bhikṣu</w><w>kālagat<supplied>a</supplied>sya</w><gap reason="lost"/></p>
+         </div>
+         <div type="comments">
+            <p><note type="parallels">See <bibl><title corresp="ref:hartel1956"/><citedRange>§94-103</citedRange></bibl>.</note><note type="philcomment">not yet transliterated by Broomhead; not listed by Schmidt.</note><note type="remarks">The upper, lower, and left margins, as well as the string hole space are preserved.</note><note type="remarks">According to <bibl><title corresp="ref:broomhead1962"/><citedRange>324</citedRange></bibl> "[w]ritten in small ductus, slightly abraded both sides, it is the left edge of a five line manuscript".</note><note corresp="#a4" type="philcomment"><hi>nā</hi>: wrong vowel sign, same as <hi>jā</hi> or <hi>ṇā</hi>.</note><note corresp="#b4" type="philcomment"><hi>vibhajamānā</hi>: really with final <hi>°ā</hi>, pace <bibl><title corresp="ref:ogihara2009"/><citedRange>164</citedRange></bibl>, who reads <hi>vibhajamāna</hi>.</note><note corresp="#leaf number" type="philcomment">: the leaf number reads <hi>1[2]6</hi>; the <hi>6</hi> is lengthened vertically.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition</label><bibl><title corresp="ref:peyrot2007"/><citedRange>№142</citedRange></bibl><bibl><title corresp="ref:peyrot2007"/><citedRange>№142</citedRange></bibl>; <bibl><title corresp="ref:ogihara2009"/><citedRange>163-164</citedRange></bibl> (not edited by <bibl><title corresp="ref:broomhead1962"/><citedRange>324-325</citedRange></bibl>). </p>
+            <p><label>Identification</label><bibl><title corresp="ref:hartmannandwille1992"/><citedRange>53</citedRange></bibl> (not listed by <bibl><title corresp="ref:schmidtkt1986"/><citedRange>36</citedRange></bibl>).</p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 142" type="external">IOL Toch 142</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_meter_old">6/5</item>
+               <item n="m_title_old">Karmavācanā</item>
+               <item n="m_transcription_old"> āyuṣmatāṃ|(ā)|yuṣmatāṃ
+a1 kṣamate evaṃnāmno (bhi)kṣo kāl· ///
+a2 vā abhimukhaṃ vaibhaṃgikaṃ k· – ///
+a3 sāda k(a)rāṇāṃ saṃghakarma ṇ· /// saṃghena|(saṃ)|ghena
+a4 evaṃnāmno bhikṣo kā- ///
+a5 vā abhimukho vaibhaṃgika : samava(hita) ///
+b1 k(a)rāṇāṃ saṃghakarmaṇāṃ kṣamate a- ///
+b2 kos e·i ṣañ ekaṃñe pāke ///
+b3 -ta : – sya yāvaṃnta : ṣa pi ri ṣkā ///
+b4 saṃghasya vibhajamānā • sa – – ///
+b5 -t saṃgha : evaṃnāmno bhikṣu kālagat(a)sya ///</item>
+               <item n="m_leaf_old">126</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_parallels_old">See [[Härtel 1956]]: §94-103.</item>
+               <item n="m_script_old">Classical</item>
+               <item n="ms_old">IOL Toch 142</item>
+               <item n="project_comment_old"/>
+               <item n="m_remarks_old">&lt;p&gt;The upper, lower, and left margins, as well as the string hole space are preserved.&lt;/p&gt;
+&lt;p&gt;According to [[Broomhead I]]: 324 "[w]ritten in small ductus, slightly abraded both sides, it is the left edge of a five line manuscript".&lt;/p&gt;</item>
+               <item n="m_language_old">Sanskrit+TB</item>
+               <item n="m_other_sigla_old">H 149.add.50; B.50</item>
+               <item n="m_size_w_old">8,7</item>
+               <item n="m_expedition_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_tune_old"/>
+               <item n="m_translation_old"/>
+               <item n="m_subgenre_old">Vinaya</item>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old"/>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old">theres</item>
+               <item n="m_prev_old"/>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_collection_old">British Library (London)</item>
+               <item n="m_lines_old">5</item>
+               <item n="access_old">restricted</item>
+               <item n="file_location_old">pages/manuscript/IOL_Toch/ioltoch142.txt</item>
+               <item n="m_philcomment_old">&lt;p&gt;not yet transliterated by Broomhead; not listed by Schmidt.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a4.&lt;/b&gt; &lt;i&gt;nā&lt;/i&gt;: wrong vowel sign, same as &lt;i&gt;jā&lt;/i&gt; or &lt;i&gt;ṇā&lt;/i&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b4.&lt;/b&gt; &lt;i&gt;vibhajamānā&lt;/i&gt;: really with final &lt;i&gt;°ā&lt;/i&gt;, pace [[Ogihara 2009]]: 164, who reads &lt;i&gt;vibhajamāna&lt;/i&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;leaf number&lt;/b&gt;: the leaf number reads &lt;i&gt;1[2]6&lt;/i&gt;; the &lt;i&gt;6&lt;/i&gt; is lengthened vertically.&lt;/p&gt;</item>
+               <item n="m_passage_old">Cīvara-vastu</item>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_size_h_old">5,1</item>
+               <item n="m_next_old"/>
+               <item n="file_created_old">1322765174</item>
+               <item n="file_modified_old">1476723717</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 142"&gt;IOL Toch 142&lt;/a&gt;.&lt;br&gt;
+Edition: [[Peyrot 2007]]: №142, [[Peyrot 2007]]: №142; [[Ogihara 2009]]: 163-164 (not edited by [[Broomhead I]]: 324-325).&lt;br&gt;
+Identification: [[Hartmann and Wille 1992]]: 53 (not listed by [[Schmidt KT 1986]]: 36).</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=12768;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=12768;rotate=0;imageType=_M||IOL Toch 142 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=12684;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=12684;rotate=0;imageType=_M||IOL Toch 142 verso</item>
+               <item n="date_publication_old"/>
+               <item n="m_transliteration_old">a1 -yuṣmat[āṃ] kṣamate evaṃnām[n]o – kṣo kāl· ///
+a2 vā abhimukhaṃ vai○bhaṃgikaṃ [k]· – ///
+a3 sāda [k]·rāṇāṃ saṃ○ghakarma ṇ· ///
+a4 -ghena evaṃnāmno ○ bhikṣo kā- ///
+a5 vā abhimukho vaibhaṃgika : samava- ///
+b1 k·rāṇāṃ saṃghakarmaṇāṃ kṣamate a- ///
+b2 [k]o[s] e·i ṣañä\ ekaṃ○ñe pāk[e] ///
+b3 -ta : – sya yāvaṃnta ○ : ṣa [pi r]i ṣkā ///
+b4 [s]aṃghasya vibhajamānā • sa – – ///
+b5 -t saṃgha : evaṃnāmno bhikṣu kāla[gat]·sya ///</item>
+               <item n="m_language_stage_old">Classical</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

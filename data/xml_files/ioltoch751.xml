@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-ioltoch751">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>IOL Toch 751</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library (London)</repository>
+                  <idno>IOL Toch 751</idno>
+                  <altIdentifier>
+                     <idno>Tb 055</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Vinayavibhaṅga</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>6,4</height>
+                              <width>4,4</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical frg:ls-cetom-aberrant-None"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Vinaya</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=22453;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=22453;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL751a.jpg" height="1024px" width="664px"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>k<gap reason="plain" unit="part"/></zone><zone>R<gap reason="plain" unit="part"/></zone></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone>lā</zone><zone>RA</zone><zone>•</zone></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone><gap reason="plain" unit="part"/><unclear>k</unclear><gap reason="plain" unit="part"/></zone><zone><unclear>nt</unclear>RA</zone><gap reason="plain" quantity="2"/><zone>mai</zone><zone>yye</zone></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><zone>pa</zone><zone>ñä</zone><zone>kte</zone><zone>sā</zone><zone>ṅKA</zone></line>
+            <line n="5" xml:id="a5"><gap reason="lost"/><zone><gap reason="plain" unit="part"/><unclear>ñ</unclear>a</zone><zone>na</zone><zone>mī</zone><zone>sa</zone><zone>•</zone></line>
+            <line n="6" xml:id="a6"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>s<gap reason="plain" unit="part"/></zone><zone><gap reason="plain" unit="part"/><unclear>ṣ</unclear>a</zone><zone>yā</zone><zone>tka</zone><zone>•</zone><zone><gap reason="plain" unit="part"/><unclear>ā</unclear></zone></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=12915;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=12915;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL751b.jpg" height="1024px" width="670px"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><gap reason="plain" quantity="2"/><zone>yā</zone><zone>MAṃ</zone><zone>•</zone><zone><unclear>tu</unclear></zone><gap reason="plain" quantity="1"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>MA</zone><zone>skī</zone><zone>tRA</zone><zone>•</zone><zone>ma</zone></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><zone>cyeṃ</zone><zone>•</zone><zone>tu</zone><zone>su</zone><zone>śu</zone></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><gap reason="plain" quantity="2"/><zone><unclear>m</unclear>eṃ</zone><zone>cai</zone><zone>ce¯</zone><zone>¯u</zone></line>
+            <line n="5" xml:id="b5"><gap reason="lost"/><zone><gap reason="plain" unit="part"/><unclear>ā</unclear></zone><zone><unclear>m</unclear>e</zone><gap reason="plain" quantity="2"/><zone><unclear>pp</unclear>a</zone></line>
+            <line n="6" xml:id="b6"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>pa</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p><milestone unit="passage" n="not identified"/>
+<lb corresp="#a1"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>k<gap reason="plain" unit="part"/></w><w>r<gap reason="plain" unit="part"/></w>
+<lb corresp="#a2"/><gap reason="lost"/><w>lārä</w><pc>•</pc>
+<lb corresp="#a3"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>k<gap reason="plain" unit="part"/></w><w>nträ</w><gap reason="plain" quantity="2"/><w>maiyye</w>
+<lb corresp="#a4"/><gap reason="lost"/><w>pañäkte</w><w>sāṅkä</w>
+<lb corresp="#a5"/><gap reason="lost"/><w><supplied>-ñ</supplied>ñana</w><w>mīsa</w><pc>•</pc>
+<lb corresp="#a6"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>s<gap reason="plain" unit="part"/></w><w><gap reason="plain" unit="part"/>ṣa</w><w>yātka</w><pc>•</pc><w><gap reason="plain" unit="part"/>ā</w>
+<lb corresp="#b1"/><gap reason="lost"/><gap reason="plain" quantity="2"/><w>yāmäṃ</w><pc>•</pc><w>tu</w><gap reason="plain" quantity="1"/>
+<lb corresp="#b2"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>mäskīträ</w><pc>•</pc><w>ma</w>
+<lb corresp="#b3"/><gap reason="lost"/><w>-cyeṃ</w><pc>•</pc><w>tu</w><w>su</w><w>śu</w>
+<lb corresp="#b4"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w><supplied>tu</supplied>meṃ</w><w>cai</w><w>ceU</w>
+<lb corresp="#b5"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>ā</w><w>me</w><gap reason="plain" quantity="2"/><w>ppa</w>
+<lb corresp="#b6"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>pa</w></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">The lower margin of the recto (upper of the verso), the right margin, and possibly also the upper margin of the recto (lower of the verso), are preserved.</note><note corresp="#a6" type="philcomment"><hi>·[ā]</hi>: If read correctly, the akṣara was <hi>ṅ</hi>, because the vocalism is left-bound.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Identification</label><bibl><title corresp="ref:peyrot2007"/><citedRange>№751</citedRange></bibl> (approximate); <bibl><title corresp="ref:ogihara2009"/><citedRange>128</citedRange></bibl> (approximate).</p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 751" type="external">IOL Toch 751</ref></bibl>. </p>
+            <p><label>Edition</label><bibl><title corresp="ref:peyrot2007"/><citedRange>№751</citedRange></bibl><bibl><title corresp="ref:peyrot2007"/><citedRange>№751</citedRange></bibl>; <bibl><title corresp="ref:ogihara2009"/><citedRange>128, 414-415</citedRange></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="file_savedate_old">2016-11-07, 15:03:27 (CET)</item>
+               <item n="m_subgenre_old">Vinaya</item>
+               <item n="file_name_old">pages/manuscript/IOL_Toch/ioltoch751.txt</item>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="user_modified_old">theres</item>
+               <item n="user_created_old">automatic</item>
+               <item n="m_language_add_old">None</item>
+               <item n="category_old">manuscript</item>
+               <item n="editgroup_old">Admin</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="group_old">Editor</item>
+               <item n="m_transcription_old">a1 /// – k· r·
+a2 /// lārä •
+a3 /// ·k· nträ – – maiyye
+a4 /// pañäkte sāṅkä
+a5 /// -(ñ)ñana mīsa •
+a6 /// ·s· ·ṣa yātka • ·ā
+b1 /// – – yāmäṃ • tu –
+b2 /// – mäskīträ • ma
+b3 /// -cyeṃ • tu su śu
+b4 /// – (tu)meṃ cai cau|ce_u
+b5 /// ·ā me – – ppa
+b6 /// – pa</item>
+               <item n="m_title_old">Vinayavibhaṅga</item>
+               <item n="m_size_w_old">4,4</item>
+               <item n="m_other_sigla_old">Tb 055</item>
+               <item n="m_remarks_old">&lt;p&gt;The lower margin of the recto (upper of the verso), the right margin, and possibly also the upper margin of the recto (lower of the verso), are preserved.&lt;/p&gt;</item>
+               <item n="m_language_old">TB</item>
+               <item n="ms_old">IOL Toch 751</item>
+               <item n="project_comment_old">&lt;p&gt;&lt;ul&gt;
+&lt;li&gt;Image links and standard properties have been added automatically on Tue, 2012-07-31, 03:59:07.&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;a6.&lt;/b&gt; &lt;i&gt;·[ā]&lt;/i&gt;: If read correctly, the akṣara was &lt;i&gt;ṅ&lt;/i&gt;, because the vocalism is left-bound. {ER ZIJN GEEN WOORDEN DIE ZO BEGINNEN}&lt;/p&gt;</item>
+               <item n="m_script_old">Classical</item>
+               <item n="edited_date_old">2016-11-07, 15:03:27 (CET)</item>
+               <item n="file_modified_old">1576142440</item>
+               <item n="file_created_old">1322765176</item>
+               <item n="m_size_h_old">6,4</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="version_old">4</item>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="page_name_old">IOL Toch 751</item>
+               <item n="m_passage_old">not identified</item>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;a6.&lt;/b&gt; &lt;i&gt;·[ā]&lt;/i&gt;: If read correctly, the akṣara was &lt;i&gt;ṅ&lt;/i&gt;, because the vocalism is left-bound.&lt;/p&gt;</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_transliteration_old">a1 /// – k· _r·
+a2 /// lā_r_a •
+a3 /// ·[k]· [nt]_r_a – – maiyye
+a4 /// pañäkte sāṅ_k_a
+a5 /// -·[ñ]ana mīsa •
+a6 /// ·s· ·[ṣ]a yātka • ·[ā]
+b1 /// – – yā_m_aṃ • [tu] –
+b2 /// – _m_askīt_r_a • ma
+b3 /// -cyeṃ • tu su śu
+b4 /// – – [m]eṃ cai ce_u\
+b5 /// ·[ā] [m]e [– – pp]a
+b6 /// – pa</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=12915;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=12915;rotate=0;imageType=_M||IOL Toch 751 verso
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=22453;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=22453;rotate=0;imageType=_M||IOL Toch 751 recto</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 751"&gt;IOL Toch 751&lt;/a&gt;.&lt;br&gt;
+Edition: [[Peyrot 2007]]: №751, [[Peyrot 2007]]: №751; [[Ogihara 2009]]: 128, 414-415.&lt;br&gt;
+Identification: [[Peyrot 2007]]: №751 (approximate); [[Ogihara 2009]]: 128 (approximate).</item>
+               <item n="file_size_old">2 KB</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="created_date_old">2011-12-01, 19:46:16 (CET)</item>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="file_location_old">pages/manuscript/IOL_Toch/ioltoch751.txt</item>
+               <item n="access_old">restricted</item>
+               <item n="m_collection_old">British Library (London)</item>
+               <item n="m_lines_old">6</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;&lt;ul&gt;&lt;li&gt;Image links and standard properties have been added automatically on Tue, 2012-07-31, 03:59:07.&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;&lt;p&gt;&lt;ref type="ms" target="__a6."/&gt;&lt;hi&gt;·[ā]&lt;/hi&gt;: If read correctly, the akṣara was &lt;hi&gt;ṅ&lt;/hi&gt;, because the vocalism is left-bound. {ER ZIJN GEEN WOORDEN DIE ZO BEGINNEN}&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

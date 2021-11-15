@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-sht4477">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>SHT 4477</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>SHT 4477</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Vasubandhu, Abhidharmakośabhāṣya</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>5,7</height>
+                              <width>10,3</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">3+</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="txb"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Gloss</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="verso">
+            <line n="" xml:id="b_y"><zone>kra</zone><zone><unclear>m</unclear>tsa</zone><zone>sa</zone><zone>ntā</zone><zone>nä</zone><zone>ntse</zone></line>
+            <line n="" xml:id="b_z"><zone><unclear>k</unclear>o¯</zone><zone>¯<unclear>S</unclear></zone><zone><unclear>yā</unclear></zone><zone><unclear>m</unclear>o</zone><zone><unclear>r</unclear><gap reason="plain" unit="part"/><gap reason="plain" unit="part"/></zone><gap reason="editorial"/><zone>mo</zone><zone>kṣa</zone><zone>bhā</zone><zone>gi</zone><zone>MA</zone><zone>skeṃ</zone><zone>t<unclear>RA</unclear></zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p><milestone unit="passage" n="349.8-22"/>
+<lb corresp="#b_y"/><w>kramtsa</w><w>santānäntse</w>
+<lb corresp="#b_z"/><w>kos</w><w>yāmor<supplied>nta</supplied></w><gap reason="editorial"/><w>mokṣabhāgi</w><w>mäskeṃträ</w></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#b_y"><seg><seg type="prim_transl">through the krama ... of the santāna</seg></seg></choice><choice corresp="#b_z"><seg><seg type="prim_transl">how many deeds? ... [these] are mokṣabhāgīyas</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note corresp="#b_y" type="lingcomment">The TB gloss with the two calques <hi>kram*</hi> and <hi>santāṃ*</hi> is remarkable: perhaps the glossator only wanted to indicate the case of the Sanskrit words.</note><note corresp="#b_y" type="philcomment">Glosses Skt. Abhidh-k-bh (<bibl><title corresp="ref:pradhan1975"/><citedRange>349</citedRange></bibl> l. 9 - for this section of the Abhidharmakośabhaṣya, cf. <bibl><title corresp="ref:lavalleepoussin1980"/></bibl>: vol. IV, 178-9) <hi>krameṇa hi santān(a)sy(a)</hi> 'step by step ... of the series'.</note><note corresp="#b_z" type="philcomment"><hi>kos yāmor(nta)</hi> glosses Skt. Abhidh-k-bh (<bibl><title corresp="ref:pradhan1975"/><citedRange>349</citedRange></bibl> l. 13) <hi>kati karmaṇi</hi> (for <hi>karmāṇi</hi>) 'how many deeds?'. <hi>mokṣabhāgi mäskeṃträ</hi> glosses Skt. Abhidh-k-bh (<bibl><title corresp="ref:pradhan1975"/><citedRange>349</citedRange></bibl> l. 13-4) <hi>kati karmaṇi : triṇi karmā(ṇi)</hi> (for <hi>kati karmāṇi : triṇi karmā(ṇi)</hi> 'How many deeds? Three deeds.' This gloss clearly specifies which kinds of deed are discussed, namely <hi>mokṣabhāgīyas</hi> 'leading to final deliverance'.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/></bibl>; <bibl><title corresp="ref:peyrot2014"/><citedRange>165</citedRange></bibl>; <bibl><title corresp="ref:wille2012"/><citedRange>81-2</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old">5,7</item>
+               <item n="file_modified_old">1582449458</item>
+               <item n="file_created_old">1446228274</item>
+               <item n="m_editor_old"/>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;b_y.&lt;/b&gt; Glosses Skt. Abhidh-k-bh ([[Pradhan 1975]]: 349 l. 9 - for this section of the Abhidharmakośabhaṣya, cf. [[La Vallée Poussin 1980]]: vol. IV, 178-9) &lt;i&gt;krameṇa hi santān(a)sy(a)&lt;/i&gt; 'step by step ... of the series'.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b_z.&lt;/b&gt; &lt;i&gt;kos yāmor(nta)&lt;/i&gt; glosses Skt. Abhidh-k-bh ([[Pradhan 1975]]: 349 l. 13) &lt;i&gt;kati karmaṇi&lt;/i&gt; (for &lt;i&gt;karmāṇi&lt;/i&gt;) 'how many deeds?'. &lt;i&gt;mokṣabhāgi mäskeṃträ&lt;/i&gt; glosses Skt. Abhidh-k-bh ([[Pradhan 1975]]: 349 l. 13-4) &lt;i&gt;kati karmaṇi : triṇi karmā(ṇi)&lt;/i&gt; (for &lt;i&gt;kati karmāṇi : triṇi karmā(ṇi)&lt;/i&gt; 'How many deeds? Three deeds.' This gloss clearly specifies which kinds of deed are discussed, namely &lt;i&gt;mokṣabhāgīyas&lt;/i&gt; 'leading to final deliverance'.&lt;/p&gt;</item>
+               <item n="m_passage_old">349.8-22</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_image_old"/>
+               <item n="m_language_stage_old"/>
+               <item n="m_transliteration_old">b_y kra[m]tsa santānäntse
+b_z [k]o[_s]\ [yām]o[r]·· ... mokṣabhāgi _m_askeṃt[_r_a]</item>
+               <item n="date_publication_old"/>
+               <item n="m_bib_old">[[IDP]]; [[Peyrot 2014]]: 165; [[SHT XI]]: 81-2.</item>
+               <item n="m_lingcomment_old">&lt;p&gt;&lt;b&gt;b_y.&lt;/b&gt; The TB gloss with the two calques &lt;i&gt;kram*&lt;/i&gt; and &lt;i&gt;santāṃ*&lt;/i&gt; is remarkable: perhaps the glossator only wanted to indicate the case of the Sanskrit words.&lt;/p&gt;</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_linedistance_old"/>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="file_location_old">pages/manuscript/sht4477.txt</item>
+               <item n="access_old">restricted</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_lines_old">3+</item>
+               <item n="m_completeness_old"/>
+               <item n="m_translation_old">b_y through the krama ... of the santāna
+b_z how many deeds? ... [these] are mokṣabhāgīyas</item>
+               <item n="m_subgenre_old">Gloss</item>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="user_modified_old">theres</item>
+               <item n="user_created_old">theres</item>
+               <item n="m_prev_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_transcription_old">b_y kramtsa santānäntse
+b_z kos yāmor(nta) ... mokṣabhāgi mäskeṃträ</item>
+               <item n="m_leaf_old"/>
+               <item n="m_title_old">Vasubandhu, Abhidharmakośabhāṣya</item>
+               <item n="m_meter_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_other_sigla_old"/>
+               <item n="m_remarks_old"/>
+               <item n="m_language_old">Sanskrit+TB</item>
+               <item n="m_size_w_old">10,3</item>
+               <item n="m_expedition_old"/>
+               <item n="m_parallels_old"/>
+               <item n="project_comment_old"/>
+               <item n="ms_old">SHT 4477</item>
+               <item n="m_script_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

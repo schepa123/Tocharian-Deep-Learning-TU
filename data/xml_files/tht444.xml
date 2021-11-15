@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht444">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 444</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Martin Braun</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 444</idno>
+                  <altIdentifier>
+                     <idno>B 444</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Bleistiftnummer 2579</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>cursive</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Qizil Miŋ-Öy</region>during <rs type="expedition_code">T III MQ 143.3C</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-peyrot-C frg:ls-C14 frg:ls-tamai-L1 frg:ls-C14"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Non-literary</term>
+               <term type="subgenre">Account</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328040;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328040;rotate=0;imageType=_M"/>
+            <graphic url="B/B444a.jpg" height="870px" width="996px"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>r<gap reason="plain" unit="part"/></zone><gap reason="lost"/><gap reason="lost"/><zone><gap reason="plain" unit="part"/><unclear>KA</unclear></zone><zone><unclear>s</unclear>t<gap reason="plain" unit="part"/></zone><zone>r<gap reason="plain" unit="part"/></zone><zone><gap reason="plain" unit="part"/>l<gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="1"/><zone><gap reason="plain" unit="part"/>r<gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone><gap reason="plain" unit="part"/><unclear>ā</unclear></zone><gap reason="par" quantity="2"/><zone>kle</zone><zone>se</zone><zone>ma</zone><zone>sa</zone><zone>ta</zone><zone>rya</zone><zone>to¯</zone><zone>¯M∘</zone><space type="blank"/><zone><unclear>TA</unclear></zone><zone>lai</zone><zone>ka</zone><zone>ntsaṃ¯</zone><zone>¯S∘</zone><zone>yi</zone><zone>kṣye</zone><zone>wa</zone><zone>sto</zone></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone>sa</zone><zone>ṅ<unclear>KA</unclear></zone><zone>s<gap reason="plain" unit="part"/>e</zone><zone><unclear>r</unclear>e</zone><zone>ś<gap reason="plain" unit="part"/></zone><zone>caṃ</zone><zone>dre</zone><zone>śa</zone><zone>rsa</zone><zone>¤</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>r<gap reason="plain" unit="part"/></w><gap reason="lost"/><gap reason="lost"/><w><supplied>saṅ</supplied>käst<supplied>e</supplied>r<supplied>e</supplied></w><w><supplied>ś</supplied>l<supplied>acaṃd</supplied>r<supplied>e</supplied></w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><w><supplied>kapy</supplied>ā<supplied>res</supplied></w><w>klese</w><w>masa</w><w>tarya</w><w>tom</w><w>tälaikantsaṃs</w><w>yikṣye</w><w>wasto</w>
+<lb corresp="#a3"/><gap reason="lost"/><w>saṅkäs<supplied>t</supplied>ere</w><w>ś<supplied>la</supplied>caṃdre</w><w>śarsa</w><seg type="monogram">¤</seg></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">... <hi>Ślacaṃdre</hi> the <hi>saṅkästere</hi> ...</seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">... to the workers <hi>klese</hi>-food has gone: three <hi>tau</hi>s, to the bearers (?): twice the flour.</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">... <hi>Ślacaṃdre</hi> the <hi>saṅkästere</hi> has recognized. ¤</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">In one frame with <ref type="ms" target="txt:m-tht443"/>.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 444" type="external">THT 444</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/04/0444.htm" type="external">THT 444</ref></bibl>. </p>
+            <p><label>Edition</label><bibl><title corresp="ref:siegandsiegling1953"/><citedRange>292</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_linedistance_old"/>
+               <item n="m_form_old"/>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Qizil Miŋ-Öy</item>
+               <item n="file_location_old">pages/manuscript/THT_0001_0633/tht444.txt</item>
+               <item n="m_completeness_old"/>
+               <item n="access_old">restricted</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_lines_old">3</item>
+               <item n="file_modified_old">1547591537</item>
+               <item n="file_created_old">1332006614</item>
+               <item n="m_size_h_old"/>
+               <item n="m_next_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_editor_old">Martin Braun</item>
+               <item n="m_philcomment_old"/>
+               <item n="m_passage_old"/>
+               <item n="m_transliteration_old">a1 /// – r· /// /// ·[_k_as]t·r· ·l· – ·r· – ///
+a2 /// ·[ā] (– –) klese masa tarya to_m\• &lt;i&gt;blank&lt;/i&gt; [_t_a]laikantsaṃ_s\• yikṣye wasto
+a3 /// saṅ[_k_a]s(t)e[r]e ś(la)caṃdre śarsa ¤</item>
+               <item n="m_language_stage_old"/>
+               <item n="date_publication_old"/>
+               <item n="m_image_old">http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328040;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328040;rotate=0;imageType=_M||THT 443 and 444 recto</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 444" target="idp"&gt;THT 444&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/04/0444.htm" target="titus"&gt;THT 444&lt;/a&gt;.&lt;br&gt;
+Edition: [[TochSprR(B) II]]: 292.</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_genre_old">Non-literary</item>
+               <item n="m_transcription_old">a1 /// – r· /// /// (saṅ)käst(e)r(e) (ś)l(acaṃd)r(e) – ///
+a2 /// (kapy)ā(res) klese masa tarya tom tällaikantsaṃts|tälaikantsaṃs yäkṣiye|yikṣye wasto
+a3 /// saṅkäs(t)ere ś(la)caṃdre śarsa ¤</item>
+               <item n="m_title_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_size_w_old"/>
+               <item n="m_expedition_old">T III MQ 143.3C</item>
+               <item n="m_other_sigla_old">B 444, Bleistiftnummer 2579</item>
+               <item n="m_remarks_old">In one frame with [[THT 443]].</item>
+               <item n="m_language_old">TB</item>
+               <item n="ms_old">THT 444</item>
+               <item n="project_comment_old">&lt;p&gt;Alternative classifications:
+&lt;table class="table_lines"&gt;
+  &lt;tr&gt;&lt;td title="MP"&gt;Peyrot&lt;/td&gt;&lt;td title="C"&gt;colloquial&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="MM"&gt;Malzahn&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TT"&gt;Tamai&lt;/td&gt;&lt;td title="L1"&gt;III-1 (900-1000)&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TTC14"&gt;Tamai-C14&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+&lt;p&gt;Translations from [[Adams, 2DoT]]: &lt;b&gt;a2&lt;/b&gt; "for the workers barley (meal) went, three deciliters; for the &lt;i&gt;tällaikantsas&lt;/i&gt; double the flour" [315].&lt;/p&gt;
+&lt;p&gt;It is possible that THT 443 and THT 444 fit together almost exactly as mounted in the frame, with THT 443 a3 and THT 444 a1 being the same line /// &lt;i&gt;(saṅ)kästere (ś)l(acaṃd)r(e śarsa) ¤&lt;/i&gt; . The horizontally mirrored shapes of the fragments then result from having been stored as furled scroll. –Martin (Tue, 2019-01-15, 23:32:17 (CET))&lt;/p&gt;</item>
+               <item n="m_script_old">Cursive</item>
+               <item n="m_parallels_old"/>
+               <item n="m_translation_old">a1 ... &lt;i&gt;Ślacaṃdre&lt;/i&gt; the &lt;i&gt;saṅkästere&lt;/i&gt; ...
+a2 ... to the workers &lt;i&gt;klese&lt;/i&gt;-food has gone: three &lt;i&gt;tau&lt;/i&gt;s, to the bearers (?): twice the flour.
+a3 ... &lt;i&gt;Ślacaṃdre&lt;/i&gt; the &lt;i&gt;saṅkästere&lt;/i&gt; has recognized. ¤</item>
+               <item n="m_subgenre_old">Account</item>
+               <item n="project_check_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_tune_old"/>
+               <item n="m_prev_old"/>
+               <item n="user_modified_old">martin</item>
+               <item n="user_created_old">automatic</item>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="category_old">manuscript</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;Alternative classifications:
+
+&lt;/p&gt;&lt;p type="translations"&gt;Translations from &lt;bibl&gt;&lt;title corresp="ref:adams2013a"/&gt;&lt;/bibl&gt;: &lt;ref type="ms" target="__a2"/&gt; "for the workers barley (meal) went, three deciliters; for the &lt;hi&gt;tällaikantsas&lt;/hi&gt; double the flour" [315].&lt;/p&gt;&lt;p&gt;It is possible that THT 443 and THT 444 fit together almost exactly as mounted in the frame, with THT 443 a3 and THT 444 a1 being the same line /// &lt;hi&gt;(saṅ)kästere (ś)l(acaṃd)r(e śarsa) ¤&lt;/hi&gt; . The horizontally mirrored shapes of the fragments then result from having been stored as furled scroll. –Martin (Tue, 2019-01-15, 23:32:17 (CET))&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

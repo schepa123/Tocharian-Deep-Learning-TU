@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-ioltoch807">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>IOL Toch 807</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library (London)</repository>
+                  <idno>IOL Toch 807</idno>
+                  <altIdentifier>
+                     <idno>Tb 110</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Udānavarga</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>4,4</height>
+                              <width>4,7</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Doctrine</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=7016;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=7016;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL807a.jpg" height="704px" width="680px"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone><gap reason="plain" unit="part"/><unclear>n</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone><unclear>LA</unclear><gap reason="plain" unit="part"/></zone><zone>l<gap reason="plain" unit="part"/></zone><zone>ṢPA</zone><zone>ka</zone><zone>krau</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone><unclear>k</unclear><gap reason="plain" unit="part"/></zone><zone>rma</zone><zone>bhi</zone><zone>ḥ</zone><zone>pā</zone><zone>pai</zone><zone>ḥ</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>lo</zone><zone>pa</zone><zone>pā</zone><zone>ṣṣo</zone><zone>rñe</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=13192;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=13192;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL807b.jpg" height="717px" width="697px"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone>wsā</zone><zone>ññä</zone><zone>ṣtRA</zone><zone>10</zone><zone>sth<gap reason="plain" unit="part"/></zone><zone>v<gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone>:</zone><zone>mo</zone><zone>ha</zone><zone>jī</zone><zone>rṇa</zone><zone>ḥ</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>tse</zone><zone>•</zone><zone>vi</zone><zone>śre</zone><zone>ṇa</zone><zone><unclear>y</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><zone>•</zone><zone><unclear>a</unclear></zone><gap reason="plain" quantity="2"/><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p><milestone unit="passage" n="11.8-11.13b"/>
+<lb corresp="#a1"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>n<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><w>lä<supplied>k</supplied>l<supplied>e</supplied></w><w>ṣpä</w><w>kakrau<supplied>pau</supplied></w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><foreign xml:lang="san"><w>k<supplied>a</supplied>rmabhiḥ</w><w>pāpaiḥ</w><gap reason="plain" quantity="1"/></foreign><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="lost"/><w><supplied>yo</supplied>lo</w><w>papāṣṣorñe</w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><w>-w</w><w>sāñ</w><w>ñäṣträ</w><num value="10">10</num><foreign xml:lang="san"><w>sth<supplied>a</supplied>v<supplied>iro</supplied></w></foreign><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><foreign xml:lang="san"><pc>:</pc><w>mohajīrṇaḥ</w><gap reason="plain" quantity="1"/></foreign><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>tse</w><pc>•</pc><foreign xml:lang="san"><w>viśreṇay<supplied>itvā</supplied></w></foreign><gap reason="lost"/>
+<lb corresp="#b4"/><gap reason="lost"/><pc>•</pc><foreign xml:lang="san"><w>a<supplied>vṛtas</supplied></w></foreign><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">...</seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">[TB] accumulated (rebirth) is sorrow, too</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">[SKT] because of their bad deeds (the bad)</seg></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl">[TB] (he who has excessively) bad morals</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">[TB] (like) [his] enemy wishes [to have] (him) [SKT] (one does not become) an elder (just because)</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">[SKT] (he is called) “pseudo-old”</seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl">[TB] (who has put aside [merit and evil], who leads the pure life) [SKT] (who goes) in dissociation</seg></seg></choice><choice corresp="#b4"><seg><seg type="prim_transl">[SKT] [if] (one is telling lies) without restraint</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="parallels"><bibl><title corresp="ref:bernhard1965"/><citedRange>187-189</citedRange></bibl>; <bibl><title corresp="ref:chakravarti1930"/><citedRange>129-134</citedRange></bibl>; <bibl><title corresp="ref:hahn2007"/><citedRange>45-46</citedRange></bibl>. See also <ref type="ms" target="txt:m-ioltoch505"/>.</note><note type="remarks">On <ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL%20Toch%20807" type="external">IDP</ref>, recto and verso are reversed.</note><note corresp="#a2" type="philcomment">Uv.11.8d <hi>duḥkhāś copacitā bhavāḥ</hi>. In the Tocharian translation, <hi>lä(k)l(e)</hi> 'sorrow' is singular, unlike Skt. <hi>duḥkhāś</hi>, which is plural.</note><note corresp="#a3" type="philcomment">Uv.11.9c <hi>pāpā hi karmabhiḥ pāpair</hi></note><note corresp="#a4" type="philcomment">Uv.11.10a <hi>yo ’sāv atyantaduḥśīlaḥ</hi></note><note corresp="#b1" type="lingcomment"><hi>sāñ</hi>: a variant of <hi>sān</hi>, nom.sg. ‘enemy’, in sandhi before the following <hi>ñäṣträ</hi>.</note><note corresp="#b1" type="philcomment">Uv.11.10d-11a <hi>yathainaṃ dviṣa-d icchati // 10 sthaviro na tāvatā bhavati</hi></note><note corresp="#b1" type="philcomment"><hi>10</hi>: something that might be the stroke of <hi>11</hi> is seen above, but we expect just <hi>10</hi> because pāda 11 follows.</note><note corresp="#b2" type="philcomment">Uv.11.11d <hi>mohajīrṇaḥ sa ucyate</hi></note><note corresp="#b3" type="philcomment">Uv.11.12b-c <hi>prahāya brahmacaryavān / viśreṇayitvā carati</hi></note><note corresp="#b4" type="philcomment">Uv.11.13b <hi>hy avṛtas tv anṛtaṃ vadan</hi>; the hiatus-resolving <hi>hy</hi> is lacking in this version (this occurs frequently with these pādas divided in two, because there is no hiatus anyway, cf. <bibl><title corresp="ref:thomas1974"/><citedRange>82</citedRange></bibl>, <bibl><title corresp="ref:thomas1977a"/><citedRange>271</citedRange></bibl> and e.g. <ref type="ms" target="txt:m-tht101"/> a3 <hi>as(m)iṃ</hi> for <hi>hy asmiṃ</hi>).</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition</label><bibl><title corresp="ref:peyrot2007"/><citedRange>№807</citedRange></bibl>; <bibl><title corresp="ref:peyrot2008a"/><citedRange>98</citedRange></bibl>.</p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL%20Toch%20807" type="external">IOL Toch 807</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="user_modified_old">martin</item>
+               <item n="user_created_old">automatic</item>
+               <item n="m_prev_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_tune_old"/>
+               <item n="project_check_old"/>
+               <item n="m_translation_old">a1 ...
+a2 [TB] accumulated (rebirth) is sorrow, too
+a3 [SKT] because of their bad deeds (the bad)
+a4 [TB] (he who has excessively) bad morals
+b1 [TB] (like) [his] enemy wishes [to have] (him) [SKT] (one does not become) an elder (just because)
+b2 [SKT] (he is called) “pseudo-old”
+b3 [TB] (who has put aside [merit and evil], who leads the pure life) [SKT] (who goes) in dissociation
+b4 [SKT] [if] (one is telling lies) without restraint</item>
+               <item n="m_subgenre_old">Doctrine</item>
+               <item n="m_parallels_old">[[Bernhard 1965]]: 187-189; [[Chakravarti 1930]]: 129-134; [[Hahn 2007]]: 45-46. See also [[IOL Toch 505]].</item>
+               <item n="ms_old">IOL Toch 807</item>
+               <item n="project_comment_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="m_other_sigla_old">Tb 110</item>
+               <item n="m_remarks_old">&lt;p&gt;On &lt;a href="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL%20Toch%20807"&gt;IDP&lt;/a&gt;, recto and verso are reversed.&lt;/p&gt;</item>
+               <item n="m_language_old">Sanskrit+TB</item>
+               <item n="m_size_w_old">4,7</item>
+               <item n="m_expedition_old"/>
+               <item n="m_title_old">Udānavarga</item>
+               <item n="m_transcription_old">a1 /// ·n· ///
+a2 /// lakle|lä(k)l(e) ṣpä kakrau(pau) ///
+a3 /// &lt;span lang="Sanskrit"&gt;k(a)rmabhiḥ pāpaiḥ –&lt;/span&gt; ///
+a4 /// (yo)lo papāṣṣorñe ///
+b1 /// -w sāñ ñäṣträ 10 &lt;span lang="Sanskrit"&gt;sth(a)v(iro)&lt;/span&gt; ///
+b2 /// &lt;span lang="Sanskrit"&gt;: mohajīrṇaḥ –&lt;/span&gt; ///
+b3 /// – tse • &lt;span lang="Sanskrit"&gt;viśreṇay(itvā)&lt;/span&gt; ///
+b4 /// • &lt;span lang="Sanskrit"&gt;a(vṛtas)&lt;/span&gt; ///</item>
+               <item n="m_leaf_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;A href="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL%20Toch%20807"&gt;IOL Toch 807&lt;/a&gt;.&lt;br&gt;
+Edition: [[Peyrot 2007]]: №807; [[Peyrot 2008a]]: 98.</item>
+               <item n="m_lingcomment_old">&lt;p&gt;&lt;b&gt;b1.&lt;/b&gt; &lt;i&gt;sāñ&lt;/i&gt;: a variant of &lt;i&gt;sān&lt;/i&gt;, nom.sg. ‘enemy’, in sandhi before the following &lt;i&gt;ñäṣträ&lt;/i&gt;.&lt;/p&gt;</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=7016;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=7016;rotate=0;imageType=_M||IOL Toch 807 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=13192;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=13192;rotate=0;imageType=_M||IOL Toch 807 verso</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_transliteration_old">a1 /// [·n]· ///
+a2 /// [_l_a]·l· _ṣ_p_a kakrau- ///
+a3 /// [k]·rmabhiḥ pāpaiḥ – ///
+a4 /// – lo papāṣṣorñe ///
+b1 /// -w sāñ ñäṣt_r_a 10 sth·v·- ///
+b2 /// : mohajīrṇaḥ – ///
+b3 /// – tse • viśreṇa[y]·- ///
+b4 /// • [a] – – ///</item>
+               <item n="date_publication_old"/>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="m_passage_old">11.8-11.13b</item>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;a2.&lt;/b&gt; Uv.11.8d &lt;i&gt;duḥkhāś copacitā bhavāḥ&lt;/i&gt;. In the Tocharian translation, &lt;i&gt;lä(k)l(e)&lt;/i&gt; 'sorrow' is singular, unlike Skt. &lt;i&gt;duḥkhāś&lt;/i&gt;, which is plural.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a3.&lt;/b&gt; Uv.11.9c &lt;i&gt;pāpā hi karmabhiḥ pāpair&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a4.&lt;/b&gt; Uv.11.10a &lt;i&gt;yo ’sāv atyantaduḥśīlaḥ&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b1.&lt;/b&gt; Uv.11.10d-11a &lt;i&gt;yathainaṃ dviṣa-d icchati // 10 sthaviro na tāvatā bhavati&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b1.&lt;/b&gt; &lt;i&gt;10&lt;/i&gt;: something that might be the stroke of &lt;i&gt;11&lt;/i&gt; is seen above, but we expect just &lt;i&gt;10&lt;/i&gt; because pāda 11 follows.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b2.&lt;/b&gt; Uv.11.11d &lt;i&gt;mohajīrṇaḥ sa ucyate&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b3.&lt;/b&gt; Uv.11.12b-c &lt;i&gt;prahāya brahmacaryavān / viśreṇayitvā carati&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b4.&lt;/b&gt; Uv.11.13b &lt;i&gt;hy avṛtas tv anṛtaṃ vadan&lt;/i&gt;; the hiatus-resolving &lt;i&gt;hy&lt;/i&gt; is lacking in this version (this occurs frequently with these pādas divided in two, because there is no hiatus anyway, cf. [[Thomas 1974]]: 82, [[Thomas 1977a]]: 271 and e.g. [[THT 101]] a3 &lt;i&gt;as(m)iṃ&lt;/i&gt; for &lt;i&gt;hy asmiṃ&lt;/i&gt;).&lt;/p&gt;</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old">4,4</item>
+               <item n="file_modified_old">1576143195</item>
+               <item n="file_created_old">1322765176</item>
+               <item n="access_old">public</item>
+               <item n="m_lines_old">4</item>
+               <item n="m_collection_old">British Library (London)</item>
+               <item n="m_completeness_old"/>
+               <item n="file_location_old">pages/manuscript/IOL_Toch/ioltoch807.txt</item>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_linedistance_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

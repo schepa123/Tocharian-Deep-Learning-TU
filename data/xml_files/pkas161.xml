@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-pkas161">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PK AS 16.1</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Georges-Jean Pinault</name>
+            </respStmt>
+            <respStmt>
+               <resp>collaborator</resp>
+               <name>Melanie Malzahn</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <date when="2012-08">August 2012</date>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</repository>
+                  <idno>PK AS 16.1</idno>
+                  <altIdentifier>
+                     <idno>Pelliot Koutchéen Ancienne Série 16.1</idno>
+                  </altIdentifier>
+                  <msName>Supriyanāṭaka</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Supriyanāṭaka</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>12,4</height>
+                              <width>23,3</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <dimensions type="line_spacing">
+                              <height>2,2</height>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Duldur-Akhur</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Drama</term>
+               <term type="prose_verse">prose</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <line n="1" xml:id="a1"><gap reason="lost"/><gap reason="plain" quantity="2"/><zone><unclear>o</unclear></zone><zone><unclear>s</unclear><gap reason="plain" unit="part"/></zone><zone><unclear>meṃ</unclear></zone><zone><unclear>k</unclear><gap reason="par" unit="part"/></zone><zone><unclear>ka</unclear></zone><zone><unclear>mu</unclear></zone><zone><unclear>:</unclear></zone><gap reason="plain" quantity="4"/><zone><unclear>na</unclear></zone><gap reason="par" quantity="1"/><zone><unclear>l</unclear><gap reason="plain" unit="part"/><unclear>i</unclear></zone><zone>PA¯</zone><zone>¯R</zone></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone><gap reason="par" unit="part"/>ū</zone><gap reason="par" quantity="2"/><zone><unclear>me</unclear></zone><zone><unclear>p</unclear>u</zone><zone>ro</zone><zone>hi</zone><zone>te</zone><zone>sā</zone><zone>rri</zone><zone>ne</zone><zone>te</zone><zone>la</zone><zone>nma</zone><zone>ṣeṃ</zone><zone>rai</zone><zone>twe</zone><zone>ri</zone><zone><unclear>TA</unclear></zone><zone>ske</zone></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone>tSA</zone><zone>ti</zone><zone>ri</zone><zone>nta</zone><zone>tu</zone><zone>po</zone><zone>ya</zone><zone>ma</zone><zone>ske</zone><zone>ma</zone><zone>ne</zone><zone>•</zone><zone>tu</zone><zone>meṃ</zone><zone>klā</zone><zone>nte</zone><zone>ya</zone><zone><unclear>lts</unclear>e</zone><zone>y<unclear>so</unclear></zone></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><zone>ri</zone><zone>yaṃ</zone><zone>po</zone><zone>ca</zone><zone>ra</zone><zone>nma</zone><zone><unclear>s</unclear>a</zone><zone>re</zone><zone>ṅka</zone><zone>re</zone><zone>tu</zone><zone>meṃ</zone><zone>ma</zone><zone>ṅkā</zone><zone>LA</zone><zone>ṣṣai</zone><zone><unclear>keṃ</unclear></zone><zone>rā</zone><zone><unclear>ja</unclear></zone></line>
+            <line n="5" xml:id="a5"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>na</zone><zone>śk<unclear>w</unclear>a</zone><zone>lyiṃ</zone><zone>ne</zone><zone>yo</zone><zone>k<unclear>ai</unclear></zone><zone>we</zone><zone>nta</zone><zone>te</zone><zone>sa</zone><zone>re</zone><zone>ś<unclear>t</unclear>wā</zone><zone>ra</zone><zone>kau</zone><zone>cci</zone><zone>yaṃ</zone><zone>n<gap reason="par" unit="part"/></zone><zone>ma</zone><zone>ṇḍ<unclear>ā</unclear></zone></line>
+            <line n="6" xml:id="a6"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone><gap reason="plain" unit="part"/><unclear>ño</unclear></zone><zone>ṢAṃ</zone><zone>•</zone><zone>tu</zone><zone>meṃ</zone><zone><unclear>ā</unclear></zone><zone>rk<unclear>wi</unclear></zone><zone>nā</zone><zone><unclear>k</unclear>e</zone><zone><unclear>k</unclear><gap reason="par" unit="part"/>e</zone><zone>K<gap reason="par" unit="part"/>A</zone><gap reason="par" quantity="1"/><zone>ta<gap reason="par" unit="part"/></zone><zone><gap reason="par" unit="part"/><unclear>ā</unclear></zone><zone>ṅka¯</zone><zone>¯Ṣ</zone><gap reason="par" quantity="2"/></line>
+         </surface>
+         <surface type="verso">
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone><unclear>c</unclear>ä</zone><zone><unclear>mp</unclear><gap reason="par" unit="part"/></zone><zone>mñ<gap reason="par" unit="part"/></zone><zone>ṣṣ<gap reason="par" unit="part"/></zone><zone><gap reason="plain" unit="part"/><unclear>c</unclear><gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="2"/><zone>m<gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="2"/><zone>nn<unclear>o</unclear></zone><gap reason="plain" quantity="5"/><zone><unclear>naṃ</unclear></zone><zone>tSA</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone><unclear>se</unclear></zone><zone><unclear>wä</unclear></zone><zone>ntre</zone><zone>ykā</zone><zone>ka</zone><zone>ka</zone><zone>pa</zone><zone>kt<unclear>RA</unclear></zone><zone>:</zone><zone>yā</zone><zone>meṃ</zone><zone>ra</zone><zone>me¯</zone><zone>¯R</zone><zone>PA</zone><zone>rkwa</zone><zone><unclear>r</unclear>TA</zone><zone>nta</zone><zone>wro</zone><zone>cceṃ</zone><zone>yā</zone><zone><unclear>m</unclear><gap reason="par" unit="part"/></zone></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><zone><unclear>e</unclear></zone><zone>ṅka</zone><zone>lñ<gap reason="par" unit="part"/></zone><zone>pa</zone><zone>rśaiṃ</zone><zone>klo</zone><zone>yoṃ</zone><zone>tRA</zone><zone><unclear>:</unclear></zone><zone>pa</zone><zone>rska</zone><zone>lyi</zone><zone>sa</zone><zone>ne</zone><zone>wi</zone><zone>wro</zone><zone>cci</zone><zone><unclear>so</unclear></zone><gap reason="plain" quantity="1"/><zone><unclear>KA</unclear><gap reason="plain" unit="part"/></zone><zone>ymī</zone></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><zone>ls<unclear>n</unclear>aṃ</zone><zone>i</zone><zone><unclear>pr</unclear><gap reason="plain" unit="part"/></zone><zone>rpo</zone><zone>pra</zone><zone>śye</zone><zone>lkā</zone><zone>lyi</zone><zone>kha</zone><zone>dyo</zone><zone>TA</zone><zone>nta</zone><zone>lwa</zone><zone>sāṃ¯</zone><zone>¯tS</zone><zone><unclear>w</unclear><gap reason="par" unit="part"/></zone><zone>km<unclear>ā</unclear></zone><gap reason="plain" quantity="1"/><gap reason="par" quantity="1"/></line>
+            <line n="5" xml:id="b5"><gap reason="lost"/><zone><gap reason="plain" unit="part"/><unclear>i</unclear></zone><gap reason="plain" quantity="2"/><zone><unclear>rnta</unclear></zone><zone>e</zone><zone>mpe</zone><zone>l<unclear>o</unclear></zone><zone>na</zone><zone>PA</zone><zone>rkau</zone><zone>wa</zone><zone>toṃ</zone><zone>i</zone><zone>pre</zone><zone>rne</zone><zone>ni</zone><zone><unclear>rghā</unclear></zone><zone>TA</zone><zone>nta</zone><zone>klyau</zone></line>
+            <line n="6" xml:id="b6"><gap reason="lost"/><gap reason="plain" quantity="3"/><zone><unclear>l</unclear><gap reason="plain" unit="part"/><unclear>o</unclear></zone><gap reason="plain" quantity="2"/><zone>no</zone><zone>p<unclear>r</unclear>e</zone><zone><unclear>ś</unclear>yai</zone><zone>ne</zone><zone>to</zone><zone>naṃ<unclear>¯</unclear></zone><zone><unclear>¯</unclear><unclear>tS</unclear></zone><zone>t<unclear>SA</unclear></zone><zone>ṅka</zone><zone>lñe</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><gap reason="plain" quantity="2"/><w>os<supplied>t</supplied>meṃ</w><w>k<supplied>e</supplied>kamu</w><pc>:</pc><gap reason="plain" quantity="4"/><w>na</w><w><supplied>snai</supplied></w><w>l<supplied>y</supplied>ipär</w>
+<lb corresp="#a2"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>ū</w><gap reason="plain" quantity="2"/><w>me</w><w>purohite</w><w>sārrine</w><w>tel<add>k</add>anma<add>ṣ</add>ṣeṃ</w><w>raitwe<add>nta</add></w>
+<w>ritäske<lb corresp="#a3"/><supplied>mane</supplied></w><gap reason="lost"/><w>ts<surplus>ä</surplus></w><w>tirinta</w><w>tu</w><w>po</w><w>yamaskemane</w><pc>•</pc><w>tumeṃ</w><w>klānte</w><w>yaltse</w>
+<w>yso<lb corresp="#a4"/><supplied>mo</supplied></w><gap reason="lost"/><w>riyaṃ</w><w>po</w><w>caranmasa</w><w>reṅkare</w><w>tumeṃ</w><w>maṅkāläṣṣai</w><w>keṃ</w>
+<w>rāja<lb corresp="#a5"/><supplied>vat-yok</supplied></w><gap reason="lost"/><gap reason="plain" quantity="1"/><w>naś</w><w>kwalyiṃne</w><w>yokaiwenta</w><w>tesare</w><w>śtwāra</w><w>kaucciyaṃn<supplied>a</supplied></w>
+<w>maṇḍā<lb corresp="#a6"/><supplied>l</supplied></w><gap reason="lost"/><w><supplied>wew</supplied>ñoṣäṃ</w><pc>•</pc><w>tumeṃ</w><w>ārkwi</w><w>nāke</w><w>k<gap reason="plain" unit="part"/>ek<gap reason="plain" unit="part"/>ä</w><gap reason="plain" quantity="1"/><w>ta<supplied>tw</supplied>āṅkaṣ</w><gap reason="plain" quantity="2"/>
+<lb corresp="#b1"/><gap reason="lost"/><w>cämp<supplied>a</supplied>mñ<supplied>a</supplied>ṣṣ<supplied>e</supplied></w><w><gap reason="plain" unit="part"/>c<gap reason="plain" unit="part"/></w><gap reason="plain" quantity="2"/><w>m<gap reason="plain" unit="part"/></w><gap reason="plain" quantity="2"/><w>nno</w><gap reason="plain" quantity="5"/><w>naṃts<surplus>ä</surplus></w><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><w>se</w><w>wäntre</w><w>ykāka</w><w>ka</w><w>pakträ</w><pc>:</pc><w>yāmeṃ</w><w>ramer</w><w>pärkwartänta</w><w>wrocceṃ</w><w>yām<gap reason="plain" unit="part"/></w>
+<lb corresp="#b3"/><gap reason="lost"/><w>eṅkalñ<supplied>e</supplied></w><w>parśaiṃ</w><w>kloyoṃträ</w><pc>:</pc><w>parskalyisa</w><w>newi</w><w>wrocci</w><w>so<supplied>mo</supplied></w><w>kä<supplied>l</supplied>ymī</w>
+<lb corresp="#b4"/><gap reason="lost"/><w><supplied>ka</supplied>lsnaṃ</w><w>ipr<supplied>e</supplied>r</w><w>po</w><w>praśye</w><w>lkālyi</w><w>khadyotänta</w><w>lwasāṃts</w><w>w<supplied>e</supplied>k</w><w>mā</w><gap reason="plain" quantity="2"/>
+<lb corresp="#b5"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>i</w><gap reason="plain" quantity="2"/><w>rnta</w><w>empelona</w><w>pärkauwa</w><w>toṃ</w><w>iprerne</w><w>nirghātänta</w>
+<w>klyau<lb corresp="#b6"/><supplied>sentär</supplied></w><gap reason="lost"/><gap reason="plain" quantity="3"/><w>l<gap reason="plain" unit="part"/>o</w><gap reason="plain" quantity="2"/><w>no</w><w>preśyaine</w><w>tonaṃts</w><w>tsäṅkalñe</w></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">... he came out of the house. ... (without?) rest</seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">... the purohita N.N. in the assembly combining combinations pertaining to the sacrifices</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">... (as) rules doing that completely. Thereupon thousand fell alto(gether)</seg></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl">... the (musical instruments?) ascended over the movable (?) ... Thereupon over the auspicious earth a multi(colored) (shine?)</seg></seg></choice><choice corresp="#a5"><seg><seg type="prim_transl">... they put the individual hairs in the strainers (?) for the ..., the ... (belonging to) the maṇḍala [= ritual circle]</seg></seg></choice><choice corresp="#a6"><seg><seg type="prim_transl">... being (said). Thereupon the white snake ... the squeezed ...</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">... the ... pertaining to power ... of the ...</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">... he indeed still relies on the thing. They will quickly do the ..., the big (doers?)</seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl">... the clinging ... the lightenings fall down. Because of the fear the great roars in a single direction</seg></seg></choice><choice corresp="#b4"><seg><seg type="prim_transl">... the rainshower oppresses the sky completely, fire flies are to be seen, the voice of animals</seg></seg></choice><choice corresp="#b5"><seg><seg type="prim_transl">... horrible ... are risen, these hurricanes (are) heard in the sky.</seg></seg></choice><choice corresp="#b6"><seg><seg type="prim_transl">... but at that moment the rising of these</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="philcomment">The verse part maybe has the meter 4 x 15 (7/8 or 8/7).</note><note type="remarks">Right part of a large leaf with part of the right margin preserved; recto and verso are unclear; there has been a small piece wrongly placed at the end of lines a 4 and b 3, it has to be turned by 45 degrees.</note><note corresp="#a2" type="philcomment"><hi>me</hi> is the end of the name of the purohita; the <hi>ū</hi> either also belongs to this name or is the pronoun <hi>(s)ū</hi>; <hi>telanma</hi> is most likely an error for <hi>telkanma</hi> "sacrifices". The next forms <hi>ṣeṃ raitwe</hi> cannot be correct either, <hi>ṣeṃ</hi> should belong to <hi>telkanma</hi> being the adjectival complement of <hi>raitwe</hi>; either the anusvara is mistaken, or the form <hi>raitwe</hi> is a plural.</note><note corresp="#a4" type="philcomment"><hi>riyaṃ</hi> is certainly the end of a plural form being the subject of the verb; maybe <hi>(plo)riyaṃ</hi>, pl. of <hi>ploriyo</hi> "musical instrument".</note><note corresp="#a4" type="philcomment"><hi>caranmasa</hi> is a perl.pl. of a word <hi>car</hi>* that is certainly a borrowing from Sanskrit <hi>cara</hi>- from the root <hi>car</hi>- "to move"; the precise meaning, however, remains unclear.</note><note corresp="#a4" type="philcomment"><hi>rāja</hi>- is the start of a color-compound borrowed from Skt. <hi>rājavarta</hi>- "multicolored", cf. TA <hi>rājavartt</hi> "id." <ref type="ms" target="txt:m-yqii9"/> b3 and <ref type="ms" target="txt:m-yqii10"/> a7. It can be restored as <hi>rājavat-yok</hi>, which is already attested in <ref type="ms" target="txt:m-tht91"/> b 6, but one would rather expect <hi>rājavart</hi>*, unless the form has been borrowed via Prākrit.</note><note corresp="#a5" type="philcomment">The loc.pl. <hi>k[w]alyiṃne</hi> is an hapax of the <hi>kälymiye</hi>-inflection type; this separation is more likely than <hi>śk[w]alyiṃne</hi>; it may belong to the root <hi>kul<hi rend="superscript">ā</hi></hi>- "to recede" referring to a ritual instrument such a a strainer or filter. <hi>naś</hi> is the end of an allative form. <hi>yokaiwenta</hi> rather refers to <hi>yok</hi> 'hair' than to <hi>yoko</hi> 'drink' (note that filters are made from animal hair), cf. the magical text <ref type="ms" target="txt:m-pkas8c"/> b5, where yokaiwenta is again used in the context of a Maṇḍala.</note><note corresp="#a5" type="philcomment"><hi>kaucciyaṃn(a)</hi> is the fem.pl. of an adj. <hi>kaucciye</hi>*, the meaning of this hapax remains unclear; the form <hi>maṇḍāl</hi> either has to be restored to the (yet unattested) plural <hi>maṇḍālänta</hi> (which would mean that the form is an alternant) or to an adj. derived from it.</note><note corresp="#a6" type="philcomment">The segmentation of <hi>k(·)ek(·)ä(–)</hi> is uncertain; it is either a nominal sentence or a verb, though the latter seems unlikely with respect to the structure of this complex.</note><note corresp="#b2" type="philcomment"><hi>yām</hi> most likely belongs to a form of the root <hi>yām</hi>- "to do".</note><note corresp="#b3" type="lingcomment"><hi>parskalyisa</hi> ought to be a perl.sg. of an abstract of the type <hi>akalye/āklyi</hi>; it is based on the abstract of the subj. V stem <hi>parskalñe</hi> (with initial accent), the transfer to the <hi>akalye/āklyi</hi>-inflection may be based on an analogy by replacing the suffix -<hi>ñe</hi> with -<hi>iye</hi>; alternatively, the derivation started with the substantivized Ger. <hi>parskalye</hi>, the suffix of which was restructered as an abstract based on the <hi>akalye/āklyi</hi>-type. Note that there is at least one other form of this type attested, i.e.<hi>wikṣalyisa</hi> "through avoidence" in <ref type="ms" target="txt:m-pkas7o"/> b 4.</note><note corresp="#b4" type="philcomment"><hi>khadyotänta</hi> is no doubt a loan from Skt. <hi>khadyota</hi>- “fire fly”.</note><note corresp="#b5" type="philcomment"><hi>nirghātänta</hi> is no doubt a loan from Skt. <hi>nirghāta</hi>- “hurricane, earthquake”.</note></p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_prev_old"/>
+               <item n="user_modified_old">bernhard</item>
+               <item n="user_created_old">melanie</item>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_translation_old">a1 ... he came out of the house. ... (without?) rest
+a2 ... the purohita N.N. in the assembly combining combinations pertaining to the sacrifices
+a3 ... (as) rules doing that completely. Thereupon thousand fell alto(gether)
+a4 ... the (musical instruments?) ascended over the movable (?) ... Thereupon over the auspicious earth a multi(colored) (shine?)
+a5 ... they put the individual hairs in the strainers (?) for the ..., the ... (belonging to) the maṇḍala [= ritual circle]
+a6 ... being (said). Thereupon the white snake ... the squeezed ...
+b1 ... the ... pertaining to power ... of the ...
+b2 ... he indeed still relies on the thing. They will quickly do the ..., the big (doers?)
+b3 ... the clinging ... the lightenings fall down. Because of the fear the great roars in a single direction
+b4 ... the rainshower oppresses the sky completely, fire flies are to be seen, the voice of animals
+b5 ... horrible ... are risen, these hurricanes (are) heard in the sky.
+b6 ... but at that moment the rising of these</item>
+               <item n="m_subgenre_old">Drama</item>
+               <item n="project_check_old"/>
+               <item n="m_metric_form_old">Both</item>
+               <item n="m_tune_old"/>
+               <item n="m_size_w_old">23,3</item>
+               <item n="m_expedition_old"/>
+               <item n="m_other_sigla_old">Pelliot Koutchéen Ancienne Série 16.1</item>
+               <item n="m_remarks_old">&lt;p&gt;Right part of a large leaf with part of the right margin preserved; recto and verso are unclear; there has been a small piece wrongly placed at the end of lines a 4 and b 3, it has to be turned by 45 degrees.&lt;/p&gt;</item>
+               <item n="m_language_old">TB</item>
+               <item n="project_comment_old"/>
+               <item n="ms_old">PK AS 16.1</item>
+               <item n="m_script_old">Classical</item>
+               <item n="m_parallels_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old">a1 /// – – os(t)meṃ k(e)kamu : – – – – na (snai) l(y)ipär
+a2 /// (·)ū (– –)me purohite sārrine tel«k»anma«ṣ»ṣeṃ raitwe«nta» rittäskemane|ritäske|(mane)
+a3 /// ts terinta|tirinta tu po yamaskemane • tumeṃ klānte yaltse ysomo|yso|(mo)
+a4 /// riyaṃ po caranmasa reṅkare tumeṃ maṅkāläṣṣai keṃ rājavat-yok|rāja|(vat-yok)
+a5 /// – naś kwalyiṃne yokaiwenta tesare śtwāra kaucciyaṃn(a) maṇḍāl|maṇḍā|(l)
+a6 /// weweñoṣäṃ|(wew)ñoṣäṃ • tumeṃ ārkwi nāke k(·)ek(·)ä(–) ta(tw)āṅkaṣ (– –)
+b1 /// cämp(a)mñ(a)ṣṣ(e) ·c· – – m· – – nno – – – – – naṃts ///
+b2 /// se wäntare|wäntre ykāka ka paktär|pakträ : yāmeṃ ramer pärkwartänta orocceṃ|wrocceṃ yām(·)
+b3 /// eṅkalñ(e) parśaiṃ kloyontär|kloyoṃträ : parskalyisa newi orocci|wrocci so(mo) kä(l)ymī
+b4 /// (ka)lsnaṃ ipr(e)r po praśiye|praśye lkālyi khadyotänta lwāsaṃts|lwasāṃts w(e)k mā – (–)
+b5 /// ·i – – rnta empelona pärkauwa toṃ iprerne nirghātänta klyausentär|klyau|(sentär)
+b6 /// – – – l·o – – no preśyaine tonaṃts tsäṅkalñe</item>
+               <item n="m_title_old">Supriyanāṭaka</item>
+               <item n="m_meter_old"/>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_transliteration_old">a1 /// – – [os]·[meṃ k](·)[kamu :] – – – – [na] (–) [l]·[i]_p_a_r\
+a2 /// (·)ū (– –)[me] [p]urohite sārrine telanmaṣeṃ raitwe ri[_t_a]ske
+a3 /// t_s(\) tirinta tu po yamaskemane • tumeṃ klānte ya[lts]e y[so]
+a4 /// riyaṃ po caranma[s]a reṅkare tumeṃ maṅkā_l_aṣṣai [keṃ] rā[ja]
+a5 /// – naś k[w]alyiṃne yok[ai]wenta tesare ś[t]wāra kaucciyaṃn(·) maṇḍ[ā]
+a6 /// – ·[ño]_ṣ_aṃ • tumeṃ [ā]rk[wi] nā[k]e [k](·)e_k(·)_a(–) ta(··)[ā]ṅka_ṣ\ (– –)
+b1 /// [c]ä[mp](·)mñ(·)ṣṣ(·) ·[c]· – – m· – – nn[o] – – – – – [naṃ]t_s(\) ///
+b2 /// [se] [wä]ntre ykāka ka pakt[_r_a] : yāmeṃ rame_r\ _p_arkwa[r]_t_anta wrocceṃ yā[m](·)
+b3 /// [e]ṅkalñ(·) parśaiṃ kloyoṃt_r_a [:] parskalyisa newi wrocci [so] – [_k_a](l)ymī
+b4 /// ls[n]aṃ i[pr]·r po praśye lkālyi khadyo_t_anta lwasāṃt_s\ [w](·)k m[ā] – (–)
+b5 /// ·[i] – – [rnta] empel[o]na _p_arkauwa toṃ iprerne ni[rghā]_t_anta klyau
+b6 /// – – – [l]·[o] – – no p[r]e[ś]yaine tonaṃ[t_s\] t[_s_a]ṅkalñe</item>
+               <item n="date_publication_old">August 2012</item>
+               <item n="m_image_old"/>
+               <item n="m_bib_old"/>
+               <item n="m_lingcomment_old">&lt;p&gt;&lt;b&gt;b3.&lt;/b&gt; &lt;i&gt;parskalyisa&lt;/i&gt; ought to be a perl.sg. of an abstract of the type &lt;i&gt;akalye/āklyi&lt;/i&gt;; it is based on the abstract of the subj. V stem &lt;i&gt;parskalñe&lt;/i&gt; (with initial accent), the transfer to the &lt;i&gt;akalye/āklyi&lt;/i&gt;-inflection may be based on an analogy by replacing the suffix -&lt;i&gt;ñe&lt;/i&gt; with -&lt;i&gt;iye&lt;/i&gt;; alternatively, the derivation started with the substantivized Ger. &lt;i&gt;parskalye&lt;/i&gt;, the suffix of which was restructered as an abstract based on the &lt;i&gt;akalye/āklyi&lt;/i&gt;-type. Note that there is at least one other form of this type attested, i.e.&lt;i&gt;wikṣalyisa&lt;/i&gt; "through avoidence" in [[PK AS 7O]] b 4.&lt;/p&gt;</item>
+               <item n="m_manuscript_old">Supriyanāṭaka</item>
+               <item n="file_modified_old">1557761482</item>
+               <item n="file_created_old">1343560298</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old">12,4</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_editor_old">Georges-Jean Pinault (in collaboration with Melanie Malzahn)</item>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old">&lt;p&gt;The verse part maybe has the meter 4 x 15 (7/8 or 8/7).&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a2.&lt;/b&gt; &lt;i&gt;me&lt;/i&gt; is the end of the name of the purohita; the &lt;i&gt;ū&lt;/i&gt; either also belongs to this name or is the pronoun &lt;i&gt;(s)ū&lt;/i&gt;; &lt;i&gt;telanma&lt;/i&gt; is most likely an error for &lt;i&gt;telkanma&lt;/i&gt; "sacrifices". The next forms &lt;i&gt;ṣeṃ raitwe&lt;/i&gt; cannot be correct either, &lt;i&gt;ṣeṃ&lt;/i&gt; should belong to &lt;i&gt;telkanma&lt;/i&gt; being the adjectival complement of &lt;i&gt;raitwe&lt;/i&gt;; either the anusvara is mistaken, or the form &lt;i&gt;raitwe&lt;/i&gt; is a plural.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a4.&lt;/b&gt; &lt;i&gt;riyaṃ&lt;/i&gt; is certainly the end of a plural form being the subject of the verb; maybe &lt;i&gt;(plo)riyaṃ&lt;/i&gt;, pl. of &lt;i&gt;ploriyo&lt;/i&gt; "musical instrument".&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a4.&lt;/b&gt; &lt;i&gt;caranmasa&lt;/i&gt; is a perl.pl. of a word &lt;i&gt;car&lt;/i&gt;* that is certainly a borrowing from Sanskrit &lt;i&gt;cara&lt;/i&gt;- from the root &lt;i&gt;car&lt;/i&gt;- "to move"; the precise meaning, however, remains unclear.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a4.&lt;/b&gt; &lt;i&gt;rāja&lt;/i&gt;- is the start of a color-compound borrowed from Skt. &lt;i&gt;rājavarta&lt;/i&gt;- "multicolored", cf. TA &lt;i&gt;rājavartt&lt;/i&gt; "id." [[YQ II.9]] b3 and [[YQ II.10]] a7. It can be restored as &lt;i&gt;rājavat-yok&lt;/i&gt;, which is already attested in [[THT 91]] b 6, but one would rather expect &lt;i&gt;rājavart&lt;/i&gt;*, unless the form has been borrowed via Prākrit.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a5.&lt;/b&gt; The loc.pl. &lt;i&gt;k[w]alyiṃne&lt;/i&gt; is an hapax of the &lt;i&gt;kälymiye&lt;/i&gt;-inflection type; this separation is more likely than &lt;i&gt;śk[w]alyiṃne&lt;/i&gt;; it may belong to the root &lt;i&gt;kul&lt;sup&gt;ā&lt;/sup&gt;&lt;/i&gt;- "to recede" referring to a ritual instrument such a a strainer or filter. &lt;i&gt;naś&lt;/i&gt; is the end of an allative form. &lt;i&gt;yokaiwenta&lt;/i&gt; rather refers to &lt;i&gt;yok&lt;/i&gt; 'hair' than to &lt;i&gt;yoko&lt;/i&gt; 'drink' (note that filters are made from animal hair), cf. the magical text [[PK AS 8C]] b5, where yokaiwenta is again used in the context of a Maṇḍala.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a5.&lt;/b&gt; &lt;i&gt;kaucciyaṃn(a)&lt;/i&gt; is the fem.pl. of an adj. &lt;i&gt;kaucciye&lt;/i&gt;*, the meaning of this hapax remains unclear; the form &lt;i&gt;maṇḍāl&lt;/i&gt; either has to be restored to the (yet unattested) plural &lt;i&gt;maṇḍālänta&lt;/i&gt; (which would mean that the form is an alternant) or to an adj. derived from it.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a6.&lt;/b&gt; The segmentation of &lt;i&gt;k(·)ek(·)ä(–)&lt;/i&gt; is uncertain; it is either a nominal sentence or a verb, though the latter seems unlikely with respect to the structure of this complex.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b2.&lt;/b&gt; &lt;i&gt;yām&lt;/i&gt; most likely belongs to a form of the root &lt;i&gt;yām&lt;/i&gt;- "to do".&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b4.&lt;/b&gt; &lt;i&gt;khadyotänta&lt;/i&gt; is no doubt a loan from Skt. &lt;i&gt;khadyota&lt;/i&gt;- “fire fly”.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b5.&lt;/b&gt; &lt;i&gt;nirghātänta&lt;/i&gt; is no doubt a loan from Skt. &lt;i&gt;nirghāta&lt;/i&gt;- “hurricane, earthquake”.&lt;/p&gt;</item>
+               <item n="file_location_old">pages/manuscript/PK_AS/pkas161.txt</item>
+               <item n="m_completeness_old"/>
+               <item n="access_old">public</item>
+               <item n="m_lines_old">6</item>
+               <item n="m_collection_old">Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</item>
+               <item n="m_linedistance_old">2,2</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Duldur-Akhur</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

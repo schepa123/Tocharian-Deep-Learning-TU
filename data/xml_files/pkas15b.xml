@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-pkas15b">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PK AS 15B</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Georges-Jean Pinault</name>
+            </respStmt>
+            <respStmt>
+               <resp>collaborator</resp>
+               <name>Melanie Malzahn</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</repository>
+                  <idno>PK AS 15B</idno>
+                  <altIdentifier>
+                     <idno>Pelliot Koutchéen Ancienne Série 15B</idno>
+                  </altIdentifier>
+                  <msName>PK AS 15</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Departure of the Bodhisattva?</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>11,5</height>
+                              <width>12,9</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <dimensions type="line_spacing">
+                              <height>1,7</height>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Duldur-Akhur</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Jātaka/Avadāna</term>
+               <term type="prose_verse">prose</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic url="ASHuard/AS15Ba.jpg" height="3480px" width="4640px"/>
+            <line n="1" xml:id="a1"><gap reason="par" quantity="2"/><gap reason="plain" quantity="1"/><zone>s<gap reason="par" unit="part"/></zone><zone>ṣk<gap reason="par" unit="part"/></zone><zone>sn</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><zone><unclear>tu</unclear></zone><zone><unclear>me</unclear><gap reason="par" unit="part"/></zone><zone>KA</zone><zone>nte</zone><zone>nma</zone><zone><unclear>yaiṃ</unclear></zone><gap reason="par" quantity="1"/><gap reason="plain" quantity="1"/><zone><gap reason="par" unit="part"/>m</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><zone><unclear>ya</unclear><unclear>¯</unclear></zone><zone><unclear>¯</unclear>rM<unclear>ä</unclear></zone><zone><unclear>s</unclear>nai</zone><zone>ke</zone><zone><unclear>ś</unclear>ä</zone><gap reason="plain" quantity="2"/><zone>ṢPA</zone><zone>mā</zone><zone>rñä</zone><zone>kte</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><zone>tā</zone><zone><unclear>u</unclear>o</zone><zone><unclear>ro</unclear></zone><zone><unclear>tsai</unclear></zone><zone>p<unclear>r</unclear>o</zone><zone>skai</zone><zone>sa</zone><zone>pre</zone><zone>ntse</zone><zone><unclear>b</unclear>raṃ</zone><space type="string_hole"/><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><zone>ntu</zone><zone>k<gap reason="plain" unit="part"/>e</zone><zone>॥</zone><zone>kau</zone><zone>nyo</zone><zone>ko</zone><zone>yw<unclear>ā</unclear>¯</zone><zone>¯rcä</zone><zone>me</zone><zone>ñyo</zone><zone>ko</zone><space type="string_hole"/><gap reason="lost"/></line>
+            <line n="6" xml:id="a6"><zone><unclear>y</unclear>e</zone><zone>t<unclear>w</unclear>e</zone><zone>ṣṣi</zone><zone><unclear>ceṃ</unclear><unclear>¯</unclear></zone><zone><unclear>¯</unclear><unclear>tS</unclear></zone><zone>PA</zone><zone>lyca</zone><zone>PA</zone><zone>lyci</zone><zone>pā</zone><zone>lau</zone><zone>pā</zone><zone>l<unclear>au</unclear></zone><zone>tsa</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="7" xml:id="a7"><zone><unclear>ls</unclear><gap reason="par" unit="part"/>o</zone><zone>po</zone><gap reason="plain" quantity="1"/><zone>¯R∘</zone><zone>c<gap reason="plain" unit="part"/></zone><zone>SA</zone><zone>l<unclear>pm</unclear>oṃ</zone><gap reason="plain" quantity="1"/><zone>nta</zone><zone>lyci</zone><zone>ka</zone><zone>meṃ</zone><zone>tsa</zone><zone>ktsi</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic url="ASHuard/AS15Bb.jpg" height="3480px" width="4640px"/>
+            <line n="1" xml:id="b1"><gap reason="plain" quantity="4"/><zone><gap reason="plain" unit="part"/>y<gap reason="par" unit="part"/></zone><zone><gap reason="plain" unit="part"/>c<unclear>o</unclear></zone><zone>nai</zone><zone>ṣṣe</zone><gap reason="plain" quantity="1"/><zone>kuse</zone><zone>sa</zone><zone>tri</zone><zone>ko</zone><zone>ṣra</zone><zone>mno</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><zone>sa</zone><gap reason="plain" quantity="1"/><zone>SA</zone><zone><unclear>lp</unclear><gap reason="plain" unit="part"/></zone><zone>ñ<unclear>c</unclear>ä¯</zone><zone>¯nä</zone><zone>yo¯</zone><zone>¯K</zone><zone>wä</zone><zone>sko</zone><zone><add>sa</add></zone><zone>nau</zone><zone><unclear>my</unclear>e</zone><zone>ṣṣe</zone><zone>su</zone><zone>w<unclear>ä</unclear></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><zone><unclear>ṣe</unclear></zone><zone><unclear>m</unclear>i</zone><zone>ṣe</zone><zone>ca</zone><zone>ki</zone><zone>o</zone><zone>ksaiṃ</zone><zone>ra</zone><zone>mno</zone><zone>nu</zone><zone>wä</zone><zone>ṣyeṃ</zone><space type="string_hole"/><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><zone>ku</zone><gap reason="plain" quantity="1"/><zone><unclear>y</unclear>n<gap reason="plain" unit="part"/></zone><zone>sa</zone><zone>ke<gap reason="par" unit="part"/></zone><zone>ts<unclear>a</unclear></zone><zone>pru</zone><zone>kno</zone><zone>yeṃ</zone><zone>•</zone><zone>t<unclear>oṃ</unclear></zone><zone>we</zone><space type="string_hole"/><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><zone>we</zone><zone>śe</zone><zone><unclear>ñ</unclear>ñ<unclear>a</unclear></zone><zone>:</zone><zone>ya</zone><zone>kṣa</zone><zone>ññ<unclear>a</unclear></zone><zone><unclear>n</unclear><gap reason="plain" unit="part"/></zone><zone>tai</zone><zone>wa<unclear>ṃ</unclear></zone><zone>ñña</zone><gap reason="lost"/></line>
+            <line n="6" xml:id="b6"><gap reason="plain" quantity="1"/><zone><gap reason="plain" unit="part"/>tse</zone><zone>pā</zone><zone>ke</zone><zone>ne</zone><zone><unclear>p</unclear>e</zone><zone><gap reason="par" unit="part"/>e</zone><zone>a</zone><zone>k<unclear>ṣ</unclear>a</zone><zone>l<gap reason="plain" unit="part"/>o</zone><gap reason="lost"/></line>
+            <line n="7" xml:id="b7"><gap reason="plain" quantity="4"/><zone><gap reason="plain" unit="part"/>i</zone><zone>yA</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="plain" quantity="3"/><w>s<gap reason="plain" unit="part"/></w><w>ṣk<gap reason="plain" unit="part"/>s</w><w>n<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#a2"/><w>tume<supplied>ṃ</supplied></w><w>käntenma</w><w>yaiṃ</w><gap reason="plain" quantity="2"/><w><gap reason="plain" unit="part"/>m<gap reason="plain" unit="part"/></w><gap reason="lost"/><w><supplied>snai</supplied></w>
+<lb corresp="#a3"/><w>yarm</w><w>snai</w><w>keś<surplus>ä</surplus></w><gap reason="plain" quantity="2"/><w>ṣpä</w><w>mār-ñäkte</w><gap reason="lost"/>
+<lb corresp="#a4"/><w>tāU</w><w>orotsai</w><w>proskaisa</w><w>prentse</w><w>braṃ<milestone unit="w" type="break"/><supplied>ñäkte</supplied></w><gap reason="lost"/>
+<lb corresp="#a5"/><w>ntuk<supplied>n</supplied>e</w><pc>॥</pc><w>kaun</w><w>yoko</w><w>ywārc</w><w>meñ</w><w>yoko</w><gap reason="lost"/>
+<lb corresp="#a6"/><w>yetweṣṣi</w><w>ceṃts</w><w>pälyca</w><w>pälyci</w><w>pālau</w><w>pālau</w><w>tsa</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#a7"/><w>ls<supplied>k</supplied>o</w><w>po<supplied>rse</supplied>r</w><w>c<supplied>ai</supplied></w><w>sälpmoṃ</w><gap reason="plain" quantity="1"/><w>ntalyci</w><w>kameṃ</w><w>tsaktsi</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="plain" quantity="4"/><w><gap reason="plain" unit="part"/>y<gap reason="plain" unit="part"/></w><w><supplied>ś</supplied>conaiṣṣe</w><w><supplied>śa</supplied>kUsesa</w><w>trikoṣ</w><w>ram</w><w>no</w><gap reason="lost"/>
+<lb corresp="#b2"/><w>sa</w><gap reason="plain" quantity="1"/><w>sälp<supplied>e</supplied>ñcän</w><w>yok</w><w>wäsko<add>sa</add></w><w>naumyeṣṣe</w><w>su</w><w>wä<milestone unit="w" type="break"/></w><gap reason="lost"/>
+<lb corresp="#b3"/><w>ṣemi</w><w>ṣecaki</w><w>oksaiṃ</w><w>ram</w><w>no</w><w>nuwäṣyeṃ</w><gap reason="lost"/>
+<lb corresp="#b4"/><w>ku</w><gap reason="plain" quantity="1"/><w>yn<gap reason="plain" unit="part"/></w><w>sa</w><w>ke<supplied>n</supplied>tsa</w><w>pruknoyeṃ</w><pc>•</pc><w>toṃ</w><w>we<milestone unit="w" type="break"/></w><gap reason="lost"/>
+<lb corresp="#b5"/><w>weśeñña</w><pc>:</pc><w>yakṣaññan<supplied>a</supplied></w><w>tai</w><w>waṃñña</w><gap reason="lost"/>
+<lb corresp="#b6"/><gap reason="plain" quantity="1"/><w><gap reason="plain" unit="part"/>tse</w><w>pākene</w><w>pe</w><w><gap reason="plain" unit="part"/>e</w><w>akṣal<gap reason="plain" unit="part"/>o</w><gap reason="lost"/>
+<lb corresp="#b7"/><gap reason="plain" quantity="4"/><w><gap reason="plain" unit="part"/>i</w><w>yä<milestone unit="w" type="break"/></w><gap reason="lost"/></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">This is the left part of a leaf with the string hole.</note><note corresp="#a1" type="lingcomment"><hi>ṣkas</hi> may be part of a deminutive in <hi>-ṣk(e)</hi>.</note><note corresp="#a2" type="philcomment"><hi>yaiṃ</hi> could also be <hi>yeṃ</hi>.</note><note corresp="#a6" type="philcomment">After <hi>tsa</hi> there is maybe a <hi>[ry]</hi>, but there is also something below.</note><note corresp="#a7" type="lingcomment"><hi>ntalyci</hi> is the end of an adjective made to an l-stem, such as <hi>mantalyci</hi> 'irritated'.</note><note corresp="#a7" type="philcomment">After <hi>tsaksi</hi> there is probably <hi>[mu]</hi>.</note><note corresp="#b2" type="lingcomment"><hi>sälpeñcän</hi> does not inflect like a normal participle; Obl.pl. as epithet of <hi>yok</hi> and <hi>wesko</hi> is probably an oblique dual of a form of <hi>sälpe<hi rend="subscript">u</hi>*</hi>.</note><note corresp="#b4" type="philcomment">The beginning could perhaps be <hi>kura-yknesa</hi>.</note><note corresp="#b6" type="philcomment">The vowel before <hi>·tse</hi> is <hi>a</hi> or <hi>o</hi>. <hi>pe</hi> could also be <hi>ṣe</hi>.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>other</label>Cited by <bibl><title corresp="ref:bernhard1958"/><citedRange>42, 118</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_parallels_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="ms_old">PK AS 15B</item>
+               <item n="project_comment_old">&lt;p&gt;I removed &lt;i&gt;/e&lt;/i&gt; from &lt;b&gt;a2&lt;/b&gt; &lt;i&gt;yai/eṃ&lt;/i&gt;, and &lt;i&gt;/ṣ&lt;/i&gt; from &lt;b&gt;b6&lt;/b&gt; &lt;i&gt;p/ṣe&lt;/i&gt;. No oblique slashes allowed! –Martin (Wed, 2019-02-06, 04:48:58 (CET))&lt;/p&gt;</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old">&lt;p&gt;This is the left part of a leaf with the string hole.&lt;/p&gt;</item>
+               <item n="m_other_sigla_old">Pelliot Koutchéen Ancienne Série 15B</item>
+               <item n="m_expedition_old"/>
+               <item n="m_size_w_old">12,9</item>
+               <item n="m_meter_old"/>
+               <item n="m_transcription_old">a1 (– –) – s(·) ṣk(·)s n(·) ///
+a2 tume(ṃ) käntenma yaiṃ – – (·)m(·) /// (snai)
+a3 yarm snai keś – – ṣpä mār-ñäkte ///
+a4 tā_u orotstsai|orotsai proskaisa prentse braṃ-(ñäkte) ///
+a5 ntuk(n)e || kauṃ|kaun yoko ywārc meñ yoko ///
+a6 yetweṣṣi ceṃts pälyca pälyci pālau pālau tsa – ///
+a7 ls(k)o po(rse)r c(ai) sälpmoṃ – ntalyci kameṃ tsaktsi – ///
+b1 – – – – ·y(·) (ś)conaiṣṣe (śa)k_usesa trikoṣ ramt|ram no ///
+b2 sa – sälp(e)ñcän yok wäsko«sa» naumyeṣṣe su wä° ///
+b3 ṣemi ṣecaki oksaiṃ ramt|ram no nuwäṣyeṃ ///
+b4 ku – yn· sa ke(n)tsa pruknoyeṃ • toṃ we° ///
+b5 weśeñña : yakṣaññan(a) tai waṃñña ///
+b6 – ·tse pākene pe (·)e akṣal·o ///
+b7 – – – – ·i yä- /// </item>
+               <item n="m_title_old">Departure of the Bodhisattva?</item>
+               <item n="m_leaf_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="user_created_old">theres</item>
+               <item n="user_modified_old">martin</item>
+               <item n="m_prev_old"/>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Both</item>
+               <item n="project_check_old"/>
+               <item n="m_translation_old"/>
+               <item n="m_subgenre_old">Jātaka/Avadāna</item>
+               <item n="m_lines_old">7</item>
+               <item n="m_collection_old">Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</item>
+               <item n="access_old">restricted</item>
+               <item n="m_completeness_old"/>
+               <item n="file_location_old">pages/manuscript/PK_AS/pkas15b.txt</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Duldur-Akhur</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_linedistance_old">1,7</item>
+               <item n="m_manuscript_old">PK AS 15</item>
+               <item n="m_lingcomment_old">&lt;p&gt;&lt;b&gt;a1.&lt;/b&gt; &lt;i&gt;ṣkas&lt;/i&gt; may be part of a deminutive in &lt;i&gt;-ṣk(e)&lt;/i&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a7.&lt;/b&gt; &lt;i&gt;ntalyci&lt;/i&gt; is the end of an adjective made to an l-stem, such as &lt;i&gt;mantalyci&lt;/i&gt; 'irritated'.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b2.&lt;/b&gt; &lt;i&gt;sälpeñcän&lt;/i&gt; does not inflect like a normal participle; Obl.pl. as epithet of &lt;i&gt;yok&lt;/i&gt; and &lt;i&gt;wesko&lt;/i&gt; is probably an oblique dual of a form of &lt;i&gt;sälpe&lt;sub&gt;u&lt;/sub&gt;*&lt;/i&gt;.&lt;/p&gt;</item>
+               <item n="m_bib_old">Cited by [[Bernhard 1958]]: 42, 118.</item>
+               <item n="m_image_old"/>
+               <item n="date_publication_old"/>
+               <item n="m_transliteration_old">a1 (– –) – s(·) ṣk(·)s n ///
+a2 [tume](·) _k_antenma [yaiṃ] (–) – (·)m /// 
+a3 [ya]r_m[ä\] [s]nai ke[ś]ä(\) – – _ṣ_p_a mār-ñäkte ///
+a4 tā[_u] o[rotsai] p[r]oskaisa prentse [b]raṃ ○ ///
+a5 ntuk·e || kaun yoko yw[ā]rcä\ meñ yoko ○ ///
+a6 [y]et[w]eṣṣi [ceṃt_s\] _p_alyca _p_alyci pālau pāl[au] tsa – ///
+a7 [ls](·)o po – _r\• c· _s_al[pm]oṃ – ntalyci kameṃ tsaktsi – ///
+b1 – – – – ·y(·) ·c[o]naiṣṣe – k_usesa trikoṣ ram no ///
+b2 sa – _s_a[lp]·ñ[c]änä\ yo_k\ wäsko«sa» nau[my]eṣṣe su w[ä] ///
+b3 [ṣem]i ṣecaki oksaiṃ ram no nuwäṣyeṃ ○ ///
+b4 ku – [y]n· sa ke(·)ts[a] pruknoyeṃ • t[oṃ] we ○ ///
+b5 weśe[ñ]ñ[a] : yakṣaññ[an]· tai wa[ṃ]ñña ///
+b6 – ·tse pākene [p]e (·)e ak[ṣ]al·o ///
+b7 – – – – ·i y_a /// </item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;a2.&lt;/b&gt; &lt;i&gt;yaiṃ&lt;/i&gt; could also be &lt;i&gt;yeṃ&lt;/i&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a6.&lt;/b&gt; After &lt;i&gt;tsa&lt;/i&gt; there is maybe a &lt;i&gt;[ry]&lt;/i&gt;, but there is also something below.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a7.&lt;/b&gt; After &lt;i&gt;tsaksi&lt;/i&gt; there is probably &lt;i&gt;[mu]&lt;/i&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b4.&lt;/b&gt; The beginning could perhaps be &lt;i&gt;kura-yknesa&lt;/i&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b6.&lt;/b&gt; The vowel before &lt;i&gt;·tse&lt;/i&gt; is &lt;i&gt;a&lt;/i&gt; or &lt;i&gt;o&lt;/i&gt;. &lt;i&gt;pe&lt;/i&gt; could also be &lt;i&gt;ṣe&lt;/i&gt;.&lt;/p&gt;</item>
+               <item n="m_passage_old"/>
+               <item n="m_editor_old">Georges-Jean Pinault (in collaboration with Melanie Malzahn)</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_size_h_old">11,5</item>
+               <item n="m_next_old"/>
+               <item n="file_created_old">1348819332</item>
+               <item n="file_modified_old">1566932946</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;I removed &lt;hi&gt;/e&lt;/hi&gt; from &lt;ref type="ms" target="__a2"/&gt; &lt;hi&gt;yai/eṃ&lt;/hi&gt;, and &lt;hi&gt;/ṣ&lt;/hi&gt; from &lt;ref type="ms" target="__b6"/&gt; &lt;hi&gt;p/ṣe&lt;/hi&gt;. No oblique slashes allowed! –Martin (Wed, 2019-02-06, 04:48:58 (CET))&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

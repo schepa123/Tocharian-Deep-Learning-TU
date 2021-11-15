@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-a425a">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A 425.a</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>A 425.a</idno>
+                  <altIdentifier>
+                     <idno>THT 1059a</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Bleistiftnummer 3120</idno>
+                  </altIdentifier>
+                  <msName>A 418-426</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Udānavarga</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>4,5</height>
+                              <width>3,4</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Siŋgim</region>during <rs type="expedition_code">T II S 52</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="xto"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Doctrine</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=317230;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=317230;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone>vī</zone><zone>mi</zone><zone>brā</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone>k<unclear>c</unclear>i</zone><zone>nä¯</zone><zone>¯S</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>ṅ<gap reason="par" unit="part"/>ā</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=317231;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=317231;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone><gap reason="plain" unit="part"/><unclear>k</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>•</zone><zone>a</zone><zone>smiṃ</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><zone>ra</zone><zone>tiṃ</zone><zone>cā</zone><zone>p<gap reason="par" unit="part"/>a</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p><milestone unit="passage" n="33.44"/>
+<lb corresp="#a1"/><gap reason="lost"/><w><supplied>bra</supplied>vīmi</w><w>brā<supplied>hmaṇaṃ</supplied></w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><w>kcinäs</w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>ṅ<gap reason="plain" unit="part"/>ā</w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>k<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><gap reason="plain" quantity="1"/><pc>•</pc><w>asmiṃ</w><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><w>ratiṃ</w><w>cā</w><w>p<gap reason="plain" unit="part"/>a</w><gap reason="lost"/></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 1059a" type="external">THT 1059a</ref></bibl></p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Siŋgim</item>
+               <item n="m_linedistance_old"/>
+               <item n="access_old">restricted</item>
+               <item n="m_lines_old">3</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="file_location_old">pages/manuscript/A_frag/a425a.txt</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="m_passage_old">33.44</item>
+               <item n="m_philcomment_old"/>
+               <item n="file_modified_old">1470351264</item>
+               <item n="file_created_old">1346061526</item>
+               <item n="m_size_h_old">4,5</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 1059a" target="idp"&gt;THT 1059a&lt;/a&gt;</item>
+               <item n="m_manuscript_old">A 418-426</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_transliteration_old">a1 /// vīmi brā – ///
+a2 /// k[c]inä_s\ ///
+a3 /// – ṅ(·)ā ///
+b1 /// ·[k]· ///
+b2 /// – • asmiṃ ///
+b3 /// ratiṃ cā p(·)a ///</item>
+               <item n="m_language_stage_old"/>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=317230;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=317230;rotate=0;imageType=_M||edit recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=317231;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=317231;rotate=0;imageType=_M||edit verso</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_transcription_old">a1 /// (bra)vīmi brā(hmaṇaṃ) ///
+a2 /// kcinäs ///
+a3 /// – ṅ(·)ā ///
+b1 /// ·k· ///
+b2 /// – • asmiṃ ///
+b3 /// ratiṃ cā p(·)a ///</item>
+               <item n="m_leaf_old"/>
+               <item n="m_title_old">Udānavarga</item>
+               <item n="ms_old">A 425.a</item>
+               <item n="project_comment_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="m_parallels_old"/>
+               <item n="m_expedition_old">T II S 52</item>
+               <item n="m_size_w_old">3,4</item>
+               <item n="m_other_sigla_old">THT 1059a; Bleistiftnummer 3120</item>
+               <item n="m_language_old">Sanskrit+TA</item>
+               <item n="m_remarks_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_subgenre_old">Doctrine</item>
+               <item n="m_translation_old"/>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="user_modified_old">michael</item>
+               <item n="user_created_old">michael</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

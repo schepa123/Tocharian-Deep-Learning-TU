@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht196">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 196</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 196</idno>
+                  <altIdentifier>
+                     <idno>B 196</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Bleistiftnummer 2449</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Abhidharmakośa</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Murtuq</region>during <rs type="expedition_code">T III M 143.3</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical frg:ls-cetom-aberrant-late frg:ls-peyrot-CL frg:ls-C14 frg:ls-tamai-C1 frg:ls-C14"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Abhidharma</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328052;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328052;rotate=0;imageType=_M"/>
+            <graphic url="B/B196a.jpg" height="1128px" width="794px"/>
+            <line xml:id="lf"><zone>97</zone></line>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone>k<unclear>r</unclear>o</zone><zone>śśe</zone><zone>ññe</zone><zone>au</zone><zone>ṣa¯</zone><zone>¯P</zone><zone>e</zone><zone>tsu</zone><zone>wai</zone><zone>o</zone></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone><unclear>ṣa</unclear></zone><zone><unclear>c</unclear>ā</zone><zone>re</zone><zone>ññe</zone><zone>ta</zone><zone>ne</zone></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone>dhā</zone><zone>tu</zone><zone>sa</zone><zone>krau</zone><zone>śśe</zone><zone>ññe</zone></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><zone><unclear>¯</unclear>tS</zone><zone>ā</zone><zone>lyo</zone><zone>ce</zone><zone>sa</zone><zone>e</zone></line>
+            <line n="5" xml:id="a5"><gap reason="lost"/><zone>lkā</zone><zone>sta¯</zone><zone>¯R</zone><zone>ma</zone><zone>hā</zone><zone>bhū¯</zone><zone>¯t</zone><zone>te</zone></line>
+            <line n="6" xml:id="a6"><gap reason="lost"/><zone><unclear>y</unclear><gap reason="plain" unit="part"/></zone><zone>kka</zone><zone>lña</zone><zone>ne</zone><zone>ṣa</zone><zone>RA¯</zone><zone>¯M</zone><zone>ne</zone><zone>sa</zone><zone>lñe</zone><zone>MA</zone></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328092;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328092;rotate=0;imageType=_M"/>
+            <graphic url="B/B196b.jpg" height="1144px" width="817px"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone>pu</zone><zone>tkā</zone><zone>lñe</zone><zone>MA</zone><zone>ske</zone><zone>TA¯</zone><zone>¯R</zone><zone>•</zone><zone>ta</zone><zone>ne</zone><zone>no</zone><zone>•</zone></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone><unclear>•</unclear></zone><zone>ta</zone><zone>smā¯</zone><zone>¯t</zone><zone>•</zone><zone>tu</zone><zone>sa</zone><zone>•</zone><zone>śi</zone><zone>taṃ</zone><zone>ta¯</zone><zone>¯t</zone></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><zone><unclear>pe</unclear></zone><zone>nta¯</zone><zone>¯tS</zone><zone>bhū</zone><zone>tā</zone><zone>nta</zone><zone>ra</zone></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><zone>wa</zone><zone>rñai</zone><zone>ce¯</zone><zone>¯tS</zone><zone>pṛ</zone><zone>thi</zone></line>
+            <line n="5" xml:id="b5"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>ā</zone><zone>śra</zone><zone>yā</zone><zone>śri</zone><zone>ta</zone><zone>bhā</zone></line>
+            <line n="6" xml:id="b6"><gap reason="lost"/><zone>na</zone><zone>nu</zone><zone>dṛ</zone><zone>ṣṭaṃ</zone><zone>m<gap reason="plain" unit="part"/></zone><zone>pi</zone><zone>ka</zone><zone>le</zone><zone>lya</zone><zone>ko</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <fw type="leafNum" corresp="#lf">97</fw>
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><w>krośśeññe</w><w>auṣap</w><w>etsuwai</w><w>o</w>
+<lb corresp="#a2"/><gap reason="lost"/><w>ṣacāreññe</w><w>tane</w>
+<lb corresp="#a3"/><gap reason="lost"/><w>dhātusa</w><w>krauśśeññe</w>
+<lb corresp="#a4"/><gap reason="lost"/><w>ts</w><w>ālyocesa</w><w>e</w>
+<lb corresp="#a5"/><gap reason="lost"/><w>lkāstar</w><w>mahābhūt</w><w>te</w>
+<lb corresp="#a6"/><gap reason="lost"/><w>y<gap reason="plain" unit="part"/>kkalñane</w><w>ṣaräm</w><w>nesalñe</w><w>mä</w>
+<lb corresp="#b1"/><gap reason="lost"/><w>putkālñe</w><w>mäsketär</w><pc>•</pc><w>tane</w><w>no</w><pc>•</pc>
+<lb corresp="#b2"/><gap reason="lost"/><pc>•</pc><w>tasmāt</w><pc>•</pc><w>tusa</w><pc>•</pc><w>śitaṃ</w><w>tat</w>
+<lb corresp="#b3"/><gap reason="lost"/><w>pentats</w><w>bhūtāntara</w>
+<lb corresp="#b4"/><gap reason="lost"/><w>warñai</w><w>cets</w>
+<w>pṛthi<lb corresp="#b5"/><supplied>vīdhātu</supplied></w><gap reason="lost"/><w><gap reason="plain" unit="part"/>āśrayāśrita</w><w>bhā</w>
+<lb corresp="#b6"/><gap reason="lost"/><w>nanu</w><w>dṛṣṭaṃ</w><w>m<supplied>a</supplied>pi</w><w>ka</w><w>lelyako</w></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#b6"><seg><seg type="prim_transl">[SKT:] isn’t [it] seen [TB:] isn’t [it] seen</seg></seg><seg><seg type="prim_transl">[skt:] isn't [it] seen [tb:] isn't [it] seen</seg><bibl><title corresp="ref:peyrot2013b"/><citedRange>365</citedRange></bibl></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">On <ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 196" type="external">IDP</ref>, recto and verso are reversed.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 196" type="external">THT 196</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/01/0196.htm" type="external">THT 196</ref></bibl></p>
+            <p><label>Edition</label><bibl><title corresp="ref:siegandsiegling1953"/><citedRange>113-114</citedRange></bibl></p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_title_old">Abhidharmakośa</item>
+               <item n="m_leaf_old">97</item>
+               <item n="m_transcription_old">a1 /// krośśeññe auṣap etsuwai o
+a2 /// ṣacāreññe tane
+a3 /// dhātusa krauśśeññe
+a4 /// ts ālyocesa e
+a5 /// lkāstar mahābhūt te
+a6 /// y·kkalñane ṣaräm nesalñe mä
+b1 /// putkālñe mäsketär • tane no •
+b2 /// • tasmāt • tusa • śitaṃ tat
+b3 /// pentats bhūtāntara
+b4 /// warñai cets pṛthivīdhātu|pṛthi|(vīdhātu)
+b5 /// ·āśrayāśrita bhā
+b6 /// nanu dṛṣṭaṃ m(a)pi ka lelyako</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_parallels_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="ms_old">THT 196</item>
+               <item n="project_comment_old">&lt;p&gt;Alternative classifications:
+&lt;table class="table_lines"&gt;
+  &lt;tr&gt;&lt;td title="MP"&gt;Peyrot&lt;/td&gt;&lt;td title="CL"&gt;classical ~ late&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="MM"&gt;Malzahn&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TT"&gt;Tamai&lt;/td&gt;&lt;td title="C1"&gt;II-1 (600-700)&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TTC14"&gt;Tamai-C14&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+&lt;p&gt;Translations from [[Peyrot, ToSu]]
+&lt;table class="table_lines"&gt;
+&lt;th&gt;Lines&lt;/th&gt;
+&lt;th&gt;Translation&lt;/th&gt;
+&lt;th&gt;Pages&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt;b6&lt;/td&gt;
+&lt;td&gt;[skt:] isn't [it] seen [tb:] isn't [it] seen&lt;/td&gt;
+&lt;td&gt;365&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old">On &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 196" target="idp"&gt;IDP&lt;/a&gt;, recto and verso are reversed.</item>
+               <item n="m_other_sigla_old">B 196, Bleistiftnummer 2449</item>
+               <item n="m_expedition_old">T III M 143.3</item>
+               <item n="m_size_w_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_translation_old">b6 [SKT:] isn’t [it] seen [TB:] isn’t [it] seen</item>
+               <item n="m_subgenre_old">Abhidharma</item>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old">With late forms</item>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old">bernhard</item>
+               <item n="m_findspot_old">Murtuq</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_lines_old">6</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="access_old">public</item>
+               <item n="file_location_old">pages/manuscript/THT_0001_0633/tht196.txt</item>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old"/>
+               <item n="m_editor_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_size_h_old"/>
+               <item n="file_created_old">1332006601</item>
+               <item n="file_modified_old">1532957791</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 196" target="idp"&gt;THT 196&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/01/0196.htm" target="titus"&gt;THT 196&lt;/a&gt;&lt;br&gt;
+Edition: [[TochSprR(B) II]]: 113-114&lt;br&gt;
+Translation: &lt;b&gt;b6&lt;/b&gt; [[Peyrot, ToSu]]: 365</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328052;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328052;rotate=0;imageType=_M||THT 196 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328092;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328092;rotate=0;imageType=_M||THT 196 verso</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_transliteration_old">a1 /// k[r]ośśeññe auṣa_p\ etsuwai o
+a2 /// [ṣac]āreññe tane
+a3 /// dhātusa krauśśeññe
+a4 /// t_s[\] ālyocesa e
+a5 /// lkāsta_r\ mahābhūt\ te
+a6 /// [y·]kkalñane ṣa_r_a_m\ nesalñe _m_a
+b1 /// putkālñe _m_aske_t_a_r\ • tane no •
+b2 /// [•] tasmāt\ • tusa • śitaṃ tat\
+b3 /// [pe]ntat_s\ bhūtāntara
+b4 /// warñai cet_s\ pṛthi
+b5 /// ·āśrayāśrita bhā
+b6 /// nanu dṛṣṭaṃ m(a)pi ka lelyako</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;Alternative classifications:
+
+&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

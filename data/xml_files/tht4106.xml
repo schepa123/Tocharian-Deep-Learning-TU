@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht4106">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 4106</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Melanie Malzahn</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <date when="2014-08-04">04.08.2014</date>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 4106</idno>
+                  <altIdentifier>
+                     <idno>SHT 4116</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>prelim. no. X 4686 </idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">3+</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Unknown</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=382222;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=382222;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>nau</zone><zone>mye</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone><unclear>c</unclear><gap reason="par" unit="part"/>¯</zone><zone>¯u</zone><zone>tsr<unclear>e</unclear></zone><zone>r<unclear>me</unclear></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone>ñi</zone><zone>•</zone><zone>ski</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>naumye</w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><w>c<supplied>e</supplied>U</w><w>tsrerme</w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><w>-ñi</w><pc>•</pc><w>ski<milestone unit="w" type="break"/></w><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="lost"/><gap reason="plain" quantity="1"/><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">... the jewel ...</seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">... this ditch ...</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">Formerly part of the SHT series (cf. <bibl><title corresp="ref:wille2008"/><citedRange>271</citedRange></bibl>, no. 4116). Very small fragment from the middle of a leaf, the verso side is blank.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>other</label><bibl><title corresp="ref:wille2008"/><citedRange>271</citedRange></bibl>.</p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 4106" type="external">THT 4106</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old"/>
+               <item n="user_created_old">melanie</item>
+               <item n="user_modified_old">martin</item>
+               <item n="m_prev_old"/>
+               <item n="m_metric_form_old">Verse</item>
+               <item n="m_tune_old"/>
+               <item n="m_translation_old">a1 ... the jewel ...
+a2 ... this ditch ...</item>
+               <item n="m_subgenre_old">Unknown</item>
+               <item n="m_parallels_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="project_comment_old"/>
+               <item n="ms_old">THT 4106</item>
+               <item n="m_remarks_old">Formerly part of the SHT series (cf. [[SHT X]]: 271, no. 4116). Very small fragment from the middle of a leaf, the verso side is blank.</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_other_sigla_old">SHT 4116, prelim. no. X 4686 </item>
+               <item n="m_expedition_old"/>
+               <item n="m_size_w_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_title_old"/>
+               <item n="m_transcription_old">a1 /// – naumiye|naumye ///
+a2 /// cau|c(e)_u tsrerme ///
+a3 /// -ñi • ski- ///
+a4 /// – ///</item>
+               <item n="m_leaf_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 4106" target="idp"&gt;THT 4106&lt;/a&gt;.&lt;br&gt;
+[[SHT X]]: 271.</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=382222;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=382222;rotate=0;imageType=_M||$page; recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=382225;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=382225;rotate=0;imageType=_M||$page; verso</item>
+               <item n="date_publication_old">04.08.2014</item>
+               <item n="m_transliteration_old">a1 /// – naumye ///
+a2 /// §[c](·)§_u\ §tsr[e]§r[me] ///
+a3 /// ñi • ski ///
+a4 /// – ///</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old"/>
+               <item n="m_editor_old">Melanie Malzahn</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_size_h_old"/>
+               <item n="m_next_old"/>
+               <item n="file_created_old">1407163817</item>
+               <item n="file_modified_old">1579433457</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_lines_old">3+</item>
+               <item n="access_old">public</item>
+               <item n="file_location_old">pages/manuscript/tht4106.txt</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_linedistance_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-sht7127">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>SHT 7127</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>SHT 7127</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Gloss</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=289926;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=289926;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="a1x"><zone>pā</zone><zone><unclear>t</unclear>ri</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1x"/><w>pātri</w></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1x"><seg><seg type="prim_transl">to the father</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="lingcomment">TB <hi>pākri</hi> 'manifest, evident' does not seem a likely reading, but TA <hi>pācri</hi>, gen.sg. of <hi>pācar</hi> 'father', might perhaps also be possible. Unfortunately, the Sanskrit text of this line has been lost completely.</note><note type="philcomment">The reading is uncertain.</note><note type="remarks">Tiny fragment.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=SHT 7127" type="external">SHT 7127</ref></bibl><bibl><title corresp="ref:peyrot2015b"/><citedRange>125</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_completeness_old"/>
+               <item n="access_old">restricted</item>
+               <item n="m_lines_old"/>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="file_location_old">pages/manuscript/sht7127.txt</item>
+               <item n="m_form_old"/>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old"/>
+               <item n="m_linedistance_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=SHT 7127" target="idp"&gt;SHT 7127&lt;/a&gt;, [[Peyrot 2015b]]: 125.</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old">&lt;p&gt;TB &lt;i&gt;pākri&lt;/i&gt; 'manifest, evident' does not seem a likely reading, but TA &lt;i&gt;pācri&lt;/i&gt;, gen.sg. of &lt;i&gt;pācar&lt;/i&gt; 'father', might perhaps also be possible. Unfortunately, the Sanskrit text of this line has been lost completely.&lt;/p&gt;</item>
+               <item n="m_transliteration_old">a1x pā[t]ri</item>
+               <item n="m_language_stage_old"/>
+               <item n="date_publication_old"/>
+               <item n="m_image_old">http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=289926;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=289926;rotate=0;imageType=_M||$page; recto
+http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=289917;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=289917;rotate=0;imageType=_M||$page; verso</item>
+               <item n="m_material_old"/>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old">&lt;p&gt;The reading is uncertain.&lt;/p&gt;</item>
+               <item n="file_modified_old">1538185968</item>
+               <item n="file_created_old">1460971795</item>
+               <item n="m_size_h_old"/>
+               <item n="m_next_old"/>
+               <item n="ms_old">SHT 7127</item>
+               <item n="project_comment_old">&lt;p&gt;As can be seen on the picture at &lt;a href="http://idp.bbaw.de/database/oo_scroll_h.a4d?uid=-18856768346;recnum=112406;index=1"&gt;IDP&lt;/a&gt;, the glass case has a sticker with the note "aus Toch 188" - does this mean it has been identified as belonging to [[THT 188]] or some such? (TI)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;No, "Toch 188" means "[[search&amp;field=m_other_sigla&amp;showfield=m_other_sigla&amp;value=Prelim.+No.+188|Prelim. No. 188]]". –Martin (Sat, 2018-04-14, 02:27:08 (CEST))&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Wille forth. is quoted in [[Peyrot 2015b]]: 128 as Wille, Klaus (forth.) &lt;i&gt;Sanskrithandschriften aus den Turfanfunden. Teil 12&lt;/i&gt;. Add bib entry if year is known. (TI)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I removed "Wille forth." from the references. Add the correct and full reference when published and checked! –Martin (Sat, 2018-04-14, 02:27:08 (CEST))&lt;/li&gt;
+&lt;/ul&gt;</item>
+               <item n="m_script_old"/>
+               <item n="m_parallels_old"/>
+               <item n="m_expedition_old"/>
+               <item n="m_size_w_old"/>
+               <item n="m_other_sigla_old"/>
+               <item n="m_remarks_old">&lt;p&gt;Tiny fragment.&lt;/p&gt;</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_title_old"/>
+               <item n="m_transcription_old">a1x pātri</item>
+               <item n="m_leaf_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_prev_old"/>
+               <item n="user_modified_old">martin</item>
+               <item n="user_created_old">theres</item>
+               <item n="project_check_old"/>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old"/>
+               <item n="m_translation_old">a1x to the father</item>
+               <item n="m_subgenre_old">Gloss</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

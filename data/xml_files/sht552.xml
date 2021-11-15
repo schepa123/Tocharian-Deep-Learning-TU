@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-sht552">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>SHT 552</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Melanie Malzahn</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <date when="2014-09-12">12.09.2014</date>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>SHT 552</idno>
+                  <altIdentifier>
+                     <idno>SHT 552 Bl. 22</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Lüders no. M 586</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Gö 396</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Book mark</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>8,3</height>
+                              <width>50,2</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">5</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Murtuq</region>during <rs type="expedition_code">(none)</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Colophon</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=291899;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=291899;rotate=0;imageType=_M"/>
+            <line xml:id="lf"><zone>22</zone></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=291900;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=291900;rotate=0;imageType=_M"/>
+            <line n="2" xml:id="b2"><zone>vi</zone><zone>nai</zone><zone>ṣṣe</zone><zone>kṣu</zone><zone>tta¯</zone><zone>¯R∘</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <fw type="leafNum" corresp="#lf">22</fw>
+            <p>
+<lb corresp="#b2"/><w>vinaiṣṣe</w><w>kṣuttar</w></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#b2"><seg><seg type="prim_transl">Kṣudra(vastu) of the Vinaya </seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">A complete leaf containing Devadatta episodes from the Saṃghabhedavastu of the Sarvāstivādins in Sanskrit (ed. <bibl><title corresp="ref:waldschmidt1963a"/><citedRange>552f</citedRange></bibl>.); the TB text has been written in the string hole space of the verso side.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=SHT 552" type="external">SHT 552</ref></bibl>. </p>
+            <p><label>Edition</label> Franz Bernhard apud <bibl><title corresp="ref:waldschmidt1965"/><citedRange>246</citedRange></bibl> no. 552 with fn. 2.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=SHT 552" target="idp"&gt;SHT 552&lt;/a&gt;.&lt;br&gt;
+Edition: Franz Bernhard apud [[SHT I]]: 246, no. 552 with fn. 2.</item>
+               <item n="date_publication_old">12.09.2014</item>
+               <item n="m_transliteration_old">b2 vinaiṣṣe kṣutta_r\•</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_image_old">http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=291899;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=291899;rotate=0;imageType=_M||$page; recto
+http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=291900;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=291900;rotate=0;imageType=_M||$page; verso</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_philcomment_old"/>
+               <item n="m_passage_old"/>
+               <item n="m_editor_old">Melanie Malzahn</item>
+               <item n="file_created_old">1410541429</item>
+               <item n="file_modified_old">1485170968</item>
+               <item n="m_size_h_old">8,3</item>
+               <item n="m_next_old"/>
+               <item n="m_completeness_old"/>
+               <item n="m_lines_old">5</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="access_old">public</item>
+               <item n="file_location_old">pages/manuscript/sht552.txt</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_old">Murtuq</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_linedistance_old"/>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_prev_old"/>
+               <item n="user_created_old">melanie</item>
+               <item n="user_modified_old">theres</item>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_translation_old">b2 Kṣudra(vastu) of the Vinaya </item>
+               <item n="m_subgenre_old">Colophon</item>
+               <item n="m_script_old">Classical</item>
+               <item n="ms_old">SHT 552</item>
+               <item n="project_comment_old"/>
+               <item n="m_parallels_old"/>
+               <item n="m_size_w_old">50,2</item>
+               <item n="m_expedition_old">(none)</item>
+               <item n="m_remarks_old">&lt;p&gt;A complete leaf containing Devadatta episodes from the Saṃghabhedavastu of the Sarvāstivādins in Sanskrit (ed. [[Waldschmidt 1963a]]: 552f.); the TB text has been written in the string hole space of the verso side.&lt;/p&gt;</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_other_sigla_old">SHT 552 Bl. 22, Lüders no. M 586, Gö 396</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_meter_old"/>
+               <item n="m_leaf_old">22</item>
+               <item n="m_title_old">Book mark</item>
+               <item n="m_transcription_old">b2 vinaiṣṣe kṣuttar</item>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-sht4413">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>SHT 4413</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>SHT 4413</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>2,8</height>
+                              <width>3,4</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">2+ ?</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region>during <rs type="expedition_code">T III S 51 (?)</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="txb"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Gloss</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=366379;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=366379;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="a1x"><zone>ña</zone><zone>kci</zone><zone>ya</zone></line>
+            <line n="2" xml:id="a2x"><zone><unclear>L</unclear>ä</zone></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=368189;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=368189;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="b1x"><zone>RA</zone><zone>tro</zone><zone>na</zone></line>
+            <line n="2" xml:id="b2x"><zone>kse</zone><zone>ññe</zone><zone>ṣṣe</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1x"/><w>ñakciya</w>
+<lb corresp="#a2x"/><w>lä<add>ktsetse</add></w>
+<lb corresp="#b1x"/><w>rätrona</w>
+<lb corresp="#b2x"/><w>kseññeṣṣe</w></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1x"><seg><seg type="prim_transl">divine</seg></seg></choice><choice corresp="#a2x"><seg><seg type="prim_transl">brilliant(?)</seg></seg></choice><choice corresp="#b1x"><seg><seg type="prim_transl">red</seg></seg></choice><choice corresp="#b2x"><seg><seg type="prim_transl">belonging to nirvāṇa</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">“T III S 51” only to be found on tag/label.</note><note corresp="#a1x" type="lingcomment">Note the spelling <hi>ña</hi> for regular <hi>ñä</hi> in the first syllable.</note><note corresp="#a1x" type="philcomment">glosses Skt. <hi>[v]y·</hi>, which can be restored as <hi>(di)vy·</hi> 'divine' on the basis of the gloss (perhaps <hi>(di)vy(ā)</hi>, since <hi>ñakciya</hi> is nom.sg.fem.).</note><note corresp="#a2x" type="philcomment">Under this line, the first akṣara of a further, so far undeciphered gloss is found: TB(?) <hi>[w]ä</hi> under Skt. <hi>sarvabhā [t]·</hi> 'shining in all directions (?)' (<bibl><title corresp="ref:wille2012"/><citedRange>26</citedRange></bibl>) reads <hi>sarvabh[ā] –</hi>). If the reading is in fact <hi>[<hi rend="underline">l</hi>]ä</hi>, the gloss may have been <hi>lä(ktsetse)</hi> v.s. (for class. <hi>läk<hi rend="subscript">u</hi>tsetse</hi>) 'brilliant'.</note><note corresp="#b1x" type="lingcomment"><hi>rätrona</hi> 'red' is a pl.fem.</note><note corresp="#b2x" type="lingcomment">Note that <hi>kseññe°</hi> is a late form for <hi>kselñe</hi> 'nirvāṇa' (<bibl><title corresp="ref:peyrot2008"/><citedRange>64</citedRange></bibl>).</note><note corresp="#b2x" type="philcomment">glosses Skt. <hi>niḥśreya[s](a)</hi> 'most ecellent; ultimate bliss'. Over this line a further gloss is found: <ref type="ms" target="#b1x"/> TB <hi><hi rend="underline">ra</hi>trona</hi> 'red', but unfortunately the Sanskrit line to which this gloss belonged is not preserved.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>other</label><bibl><title corresp="ref:peyrot2014"/><citedRange>161</citedRange></bibl>; <bibl><title corresp="ref:wille2012"/><citedRange>26</citedRange></bibl>.</p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=SHT 4413 " type="external">SHT 4413</ref></bibl></p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_language_stage_old"/>
+               <item n="m_transliteration_old">a1x ñakciya
+a2x [_l]ä
+b1x _r_atrona
+b2x kseññeṣṣe</item>
+               <item n="date_publication_old"/>
+               <item n="m_image_old">http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=366379;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=366379;rotate=0;imageType=_M||SHT 4413 recto
+http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=368189;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=368189;rotate=0;imageType=_M||SHT 4413 verso</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=SHT 4413 " target="idp"&gt;SHT 4413&lt;/a&gt;,
+[[Peyrot 2014]]: 161; [[SHT XI]]: 26.</item>
+               <item n="m_lingcomment_old">&lt;p&gt;&lt;b&gt;a1x&lt;/b&gt; Note the spelling &lt;i&gt;ña&lt;/i&gt; for regular &lt;i&gt;ñä&lt;/i&gt; in the first syllable.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b1x&lt;/b&gt; &lt;i&gt;rätrona&lt;/i&gt; 'red' is a pl.fem.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b2x&lt;/b&gt; Note that &lt;i&gt;kseññe°&lt;/i&gt; is a late form for &lt;i&gt;kselñe&lt;/i&gt; 'nirvāṇa' ([[Peyrot 2008]]: 64).&lt;/p&gt;</item>
+               <item n="m_manuscript_old"/>
+               <item n="file_modified_old">1539093893</item>
+               <item n="file_created_old">1446216257</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old">2,8</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_editor_old"/>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;a1x&lt;/b&gt; glosses Skt. &lt;i&gt;[v]y·&lt;/i&gt;, which can be restored as &lt;i&gt;(di)vy·&lt;/i&gt; 'divine' on the basis of the gloss (perhaps &lt;i&gt;(di)vy(ā)&lt;/i&gt;, since &lt;i&gt;ñakciya&lt;/i&gt; is nom.sg.fem.).&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a2x&lt;/b&gt; Under this line, the first akṣara of a further, so far undeciphered gloss is found: TB(?) &lt;i&gt;[w]ä&lt;/i&gt; under Skt. &lt;i&gt;sarvabhā [t]·&lt;/i&gt; 'shining in all directions (?)' ([[SHT XI]]: 26) reads &lt;i&gt;sarvabh[ā] –&lt;/i&gt;). If the reading is in fact &lt;i&gt;[&lt;u&gt;l&lt;/u&gt;]ä&lt;/i&gt;, the gloss may have been &lt;i&gt;lä(ktsetse)&lt;/i&gt; v.s. (for class. &lt;i&gt;läk&lt;sub&gt;u&lt;/sub&gt;tsetse&lt;/i&gt;) 'brilliant'.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b2x&lt;/b&gt; glosses Skt. &lt;i&gt;niḥśreya[s](a)&lt;/i&gt; 'most ecellent; ultimate bliss'. Over this line a further gloss is found: &lt;b&gt;b1x&lt;/b&gt; TB &lt;i&gt;&lt;u&gt;ra&lt;/u&gt;trona&lt;/i&gt; 'red', but unfortunately the Sanskrit line to which this gloss belonged is not preserved.&lt;/p&gt;</item>
+               <item n="file_location_old">pages/manuscript/sht4413.txt</item>
+               <item n="m_completeness_old"/>
+               <item n="access_old">restricted</item>
+               <item n="m_lines_old">2+ ?</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_prev_old"/>
+               <item n="user_modified_old">martin</item>
+               <item n="user_created_old">theres</item>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_subgenre_old">Gloss</item>
+               <item n="m_translation_old">a1x divine
+a2x brilliant(?)
+b1x red
+b2x belonging to nirvāṇa</item>
+               <item n="project_check_old"/>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_size_w_old">3,4</item>
+               <item n="m_expedition_old">T III S 51 (?)</item>
+               <item n="m_other_sigla_old"/>
+               <item n="m_language_old">Sanskrit+TB</item>
+               <item n="m_remarks_old">“T III S 51” only to be found on tag/label.</item>
+               <item n="ms_old">SHT 4413</item>
+               <item n="project_comment_old"/>
+               <item n="m_script_old"/>
+               <item n="m_parallels_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_title_old"/>
+               <item n="m_transcription_old">a1x ñäkciya|ñakciya
+a2x lä«ktsetse»
+b1x rätrona
+b2x kseññeṣṣe</item>
+               <item n="m_leaf_old"/>
+               <item n="m_meter_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

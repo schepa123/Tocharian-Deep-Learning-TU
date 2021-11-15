@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-ioltoch813">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>IOL Toch 813</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library (London)</repository>
+                  <idno>IOL Toch 813</idno>
+                  <altIdentifier>
+                     <idno>156.Tb.2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=13915;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=13915;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL813a.jpg" height="579px" width="662px"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone><unclear>l</unclear><gap reason="plain" unit="part"/></zone><zone>ktsai</zone><zone>tSA</zone><zone>ññe</zone><zone>sa</zone><zone><unclear>o</unclear></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone>KA</zone><zone>rtse</zone><zone>ya</zone><zone>MA</zone><zone><unclear>lñ</unclear>e</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone><unclear>s</unclear>a</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=392;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=392;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL813b.jpg" height="562px" width="645px"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone><unclear>l</unclear>ñ<gap reason="plain" unit="part"/></zone><zone>•</zone><zone>6</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone>ti</zone><zone>:</zone><zone>pa</zone><zone>pā</zone><zone>ṣṣo</zone><zone>rñe</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><w>l<gap reason="plain" unit="part"/></w><w>ktsaitsäññesa</w><w>o<milestone unit="w" type="break"/></w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><w>kärtse-yamälñe</w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><w>sa</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><w>-lñ<supplied>e</supplied></w><pc>•</pc><num value="6">6</num><pc><supplied>॥</supplied></pc><w><supplied>śruṣa</supplied></w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><w>-ti</w><pc>:</pc><w>papāṣṣorñe</w><gap reason="lost"/></p>
+         </div>
+         <div type="comments">
+            <p><note corresp="#a2" type="philcomment"><hi><hi rend="underline">ka</hi>rtse</hi>: the <hi>e</hi> is wrongly attached to the <hi>t</hi> instead of the <hi>r</hi></note><note corresp="#b1" type="philcomment"><hi>śruṣa</hi>: with extra vertical stroke and a crossing horizontal one; <hi>|| śruṣa</hi>: this akṣara is added below, with a cross above</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 813" type="external">IOL Toch 813</ref></bibl>. </p>
+            <p><label>Edition</label><bibl><title corresp="ref:peyrot2007"/><citedRange>№813</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old"/>
+               <item n="m_other_sigla_old">156.Tb.2</item>
+               <item n="m_expedition_old"/>
+               <item n="m_size_w_old"/>
+               <item n="m_parallels_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="project_comment_old"/>
+               <item n="ms_old">IOL Toch 813</item>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_title_old"/>
+               <item n="m_transcription_old">a1 /// l· ktsaitstsäññesa|ktsaitsäññesa o- ///
+a2 /// kärtse-yamälñe ///
+a3 /// sa – ///
+b1 /// -lñ(e) • 6 (|| śruṣa –) ///
+b2 /// -ti : papāṣṣorñe ///</item>
+               <item n="m_leaf_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old">martin</item>
+               <item n="m_prev_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="m_subgenre_old"/>
+               <item n="m_translation_old"/>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old"/>
+               <item n="project_check_old"/>
+               <item n="file_location_old">pages/manuscript/IOL_Toch/ioltoch813.txt</item>
+               <item n="m_lines_old">3</item>
+               <item n="m_collection_old">British Library (London)</item>
+               <item n="access_old">restricted</item>
+               <item n="m_completeness_old"/>
+               <item n="m_linedistance_old"/>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=13915;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=13915;rotate=0;imageType=_M||IOL Toch 813 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=392;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=392;rotate=0;imageType=_M||IOL Toch 813 verso</item>
+               <item n="date_publication_old"/>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_transliteration_old">a1 /// [l]· ktsait_s_aññesa [o]- ///
+a2 /// _k_artse-ya_m_a[lñ]e ///
+a3 /// [s]a – ///
+b1 /// -[l]ñ· • 6 – ///
+b2 /// -ti : papāṣṣorñe ///</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 813"&gt;IOL Toch 813&lt;/a&gt;.&lt;br&gt;
+Edition: [[Peyrot 2007]]: №813.</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old"/>
+               <item n="file_created_old">1322765176</item>
+               <item n="file_modified_old">1566111719</item>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;a2.&lt;/b&gt; &lt;i&gt;&lt;u&gt;ka&lt;/u&gt;rtse&lt;/i&gt;: the &lt;i&gt;e&lt;/i&gt; is wrongly attached to the &lt;i&gt;t&lt;/i&gt; instead of the &lt;i&gt;r&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b1.&lt;/b&gt; &lt;i&gt;śruṣa&lt;/i&gt;: with extra vertical stroke and a crossing horizontal one; &lt;i&gt;|| śruṣa&lt;/i&gt;: this akṣara is added below, with a cross above&lt;/p&gt;</item>
+               <item n="m_passage_old"/>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="m_material_old">Ink on paper</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

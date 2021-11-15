@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-kizilwood2">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Kizil Wood 2</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Kizil Wood 2</idno>
+                  <msName>Assemblage VI</msName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>wood tablet</material>
+                           <objectType>Woodslip</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>cursive</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Qizil</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-late"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Non-literary</term>
+               <term type="subgenre">Account</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone>c<gap reason="par" unit="part"/>e</zone><zone>k<gap reason="plain" unit="part"/></zone><zone>me</zone><zone>sa</zone><zone>a</zone><zone>waṃ</zone><zone>ta</zone><zone>ñai</zone><zone>1</zone><zone>sā</zone><zone>ṅkśā</zone><zone>wa</zone><zone>pa</zone><zone>ñcwa</zone><zone>ri</zone><zone>ke</zone><zone>ṣa</zone><zone>mā</zone><zone>ne</zone><zone>jñā</zone><zone>ṇa</zone><zone>vi</zone><zone>re</zone><zone>lyā</zone><zone>ka</zone><zone>o</zone><zone>ta</zone><zone>krä</zone><zone>ktā</zone><zone>śka</zone><zone>klai</zone><zone>yri</zone><zone>ta</zone><zone>ñai</zone><zone>ṣā</zone><zone><unclear>r</unclear>wai</zone><zone>klā</zone><zone>te</zone><zone>1</zone><zone>klai</zone><zone>śro</zone><zone>ta</zone><zone>ñai</zone><zone>1</zone><zone>a</zone><zone>laṃ</zone><zone>śro</zone><zone>ta</zone><zone>ñai</zone><zone>1</zone><zone>klai</zone><zone>na</zone><zone>śa</zone><zone>wā</zone><zone>re</zone><zone>yo</zone><zone>tko</zone><zone>lau</zone><zone>śi</zone><zone>la</zone><zone>wra</zone><zone>tti</zone><zone>wsā</zone><zone>me</zone><zone>•</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><w><supplied>oro</supplied>c<supplied>c</supplied>e</w><w>k<supplied>e</supplied>mesa</w><w>awaṃtañai</w><num value="1">1</num><w>sāṅk</w><w>śāwa</w><w>pañcwarike</w><w>ṣamāne</w><w>jñāṇavire</w><w>lyāka</w><w>otak</w><w>räktāśka</w><w>klai-yritañai</w><w>ṣārwai</w><w>klāte</w><num value="1">1</num><w>klai-śrotañai</w><num value="1">1</num><w>alaṃ-śrotañai</w><num value="1">1</num><w>klaina</w><w>śawāre</w><w>yotkolau</w><w>śilawratti</w><w>wsā</w><w>me</w><pc>•</pc></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">/// [full-mouthed], ovine, 1. The <hi>saṃgha</hi> ate (it). <hi>Jñāṇavire</hi> the <hi>Pañcwarike</hi> monk has seen [it]. Then, <hi>Räktāśka</hi> took the meat of 1 female new-born, 1 female goat kid, (and) 1 male goat kid. Women ate (them). <hi>Śilawratti</hi> the <hi>Yotkolau</hi> gave to them. </seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">Found in 1989 during excavations in the monastery (<bibl><title corresp="ref:schmidtkt1997"/><citedRange>244</citedRange></bibl>)</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>other</label><bibl><title corresp="ref:schmidtkt1997"/><citedRange>244 [f</citedRange></bibl>rom <hi>otak.</hi>]; <bibl><title corresp="ref:ching2010"/><citedRange>295</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old">a1 /// (oro)c(c)e k(e)mesa awaṃtañai 1 sāṅk śāwa pañcwarike ṣamāne jñāṇavire lyāka otak räktāśka klai-yritaññai|klai-yritañai ṣārwai klāte 1 klai-śrotaññai|klai-śrotañai 1 alaṃ-śrotaññai|alaṃ-śrotañai 1 klaina śawāre yotkolau śilawratti wsā me •</item>
+               <item n="m_title_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_genre_old">Non-literary</item>
+               <item n="m_other_sigla_old"/>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old">&lt;p&gt;Found in 1989 during excavations in the monastery ([[Schmidt KT 1997]]: 244)&lt;/p&gt;</item>
+               <item n="m_size_w_old"/>
+               <item n="m_expedition_old"/>
+               <item n="m_parallels_old"/>
+               <item n="project_comment_old"/>
+               <item n="ms_old">Kizil Wood 2</item>
+               <item n="m_script_old">Cursive</item>
+               <item n="m_translation_old">a1 /// [full-mouthed], ovine, 1. The &lt;i&gt;saṃgha&lt;/i&gt; ate (it). &lt;i&gt;Jñāṇavire&lt;/i&gt; the &lt;i&gt;Pañcwarike&lt;/i&gt; monk has seen [it]. Then, &lt;i&gt;Räktāśka&lt;/i&gt; took the meat of 1 female new-born, 1 female goat kid, (and) 1 male goat kid. Women ate (them). &lt;i&gt;Śilawratti&lt;/i&gt; the &lt;i&gt;Yotkolau&lt;/i&gt; gave to them. </item>
+               <item n="m_subgenre_old">Account</item>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="user_modified_old">melanie</item>
+               <item n="user_created_old">martin</item>
+               <item n="m_prev_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="m_linedistance_old"/>
+               <item n="m_findspot_old">Qizil</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_form_old">Woodslip</item>
+               <item n="file_location_old">pages/manuscript/kizilwood2.txt</item>
+               <item n="access_old">restricted</item>
+               <item n="m_collection_old"/>
+               <item n="m_lines_old">1</item>
+               <item n="m_completeness_old"/>
+               <item n="m_size_h_old"/>
+               <item n="m_next_old"/>
+               <item n="file_modified_old">1507218333</item>
+               <item n="file_created_old">1415199104</item>
+               <item n="m_editor_old"/>
+               <item n="m_philcomment_old"/>
+               <item n="m_passage_old"/>
+               <item n="m_material_old">Ink on wood tablet</item>
+               <item n="m_image_old"/>
+               <item n="m_transliteration_old">a1 /// c(·)e k(e)mesa awaṃtañai 1 sāṅk śāwa pañcwarike ṣamāne jñāṇavire lyāka otak räktāśka klai yritañai ṣā[r]wai klāte 1 klai śrotañai 1 alaṃ śrotañai 1 klaina śawāre yotkolau śilawratti wsā me •</item>
+               <item n="m_language_stage_old">Late</item>
+               <item n="date_publication_old"/>
+               <item n="m_bib_old">[[Schmidt KT 1997]]: 244 [from &lt;i&gt;otak.&lt;/i&gt;]; [[Ching 2010]]: 295.</item>
+               <item n="m_manuscript_old">Assemblage VI</item>
+               <item n="m_lingcomment_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

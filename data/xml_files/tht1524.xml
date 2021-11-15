@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht1524">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 1524</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>CEToM</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 1524</idno>
+                  <altIdentifier>
+                     <idno>SHT 6731</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Prelim. No. 395</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Pencil No. 2175</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>8,2</height>
+                              <width>9,5</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">6</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Šorčuq</region>during <rs type="expedition_code">Š 79.23</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=330207;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=330207;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>¯Kä</zone><zone>i</zone><zone>ndri</zone><zone>syo</zone><zone>ka</zone><zone>kno¯</zone><zone>¯Ṣ</zone><zone>tā</zone><zone>ki</zone><zone>MA¯</zone><zone>¯S</zone><zone>sū</zone></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone>ī</zone><zone>ndrā</zone><zone>ju</zone><zone>ne</zone><zone>wa</zone><zone>lo</zone><zone>yRA</zone><zone>ṣa</zone><zone>ññe</zone><zone>ya</zone><zone>ma</zone><gap reason="plain" quantity="1"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone>śo¯</zone><zone>¯L∘</zone><zone>pRA</zone><zone>ka</zone><zone>re</zone><zone>tā</zone><zone>kaṃ</zone><zone><gap reason="plain" unit="part"/>e</zone><zone><gap reason="plain" unit="part"/>e</zone><zone>ke</zone><zone>tse</zone><zone>snai</zone><zone>te</zone><zone>kī</zone></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><zone>pa¯</zone><zone>¯L∘</zone><zone>tsko</zone><zone>tse</zone><zone>a</zone><zone>nā</zone><zone>sta</zone><zone>ññe</zone><zone>tā</zone><zone>kaṃ</zone></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=330210;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=330210;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone>pta</zone><zone>:</zone><zone>paṃ</zone><zone>ca</zone><zone>s<gap reason="plain" unit="part"/></zone><zone>lā</zone><gap reason="plain" quantity="2"/><zone><gap reason="plain" unit="part"/>ā</zone><zone>ra</zone><zone>tyu</zone></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone><unclear>d</unclear><gap reason="plain" unit="part"/></zone><zone>ṣu</zone><zone>ca</zone><zone>ryāṃ</zone><zone>ca</zone><zone>raṃ</zone><zone>pa</zone><zone>ñca</zone><zone>sā</zone><zone>lā</zone><zone>ma</zone></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><zone>pū</zone><zone>gā</zone><zone>tpū</zone><zone>gaṃ</zone><zone>saṃ</zone><zone>ga</zone><zone>mya</zone><zone>sa</zone><zone>mā</zone><zone>ga</zone><zone>mya</zone></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>e</zone><zone>kā</zone><zone>nte</zone><zone>nya</zone><zone>ṣī</zone><zone>da</zone><zone>nte</zone><zone>kā</zone><zone>nta</zone><zone>ni</zone><zone>ṣa</zone><zone>ṇṇāṃ</zone></line>
+            <line n="5" xml:id="b5"><gap reason="lost"/><zone>ha</zone><zone>pa</zone><zone>ta</zone><zone>yo</zone><zone>ma</zone><zone>nā</zone><gap reason="plain" quantity="1"/><zone>jā</zone><zone>tī</zone><zone>ya</zone><zone>ḥ</zone><zone>śā</zone></line>
+            <line n="6" xml:id="b6"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>yā</zone><zone>pa</zone><zone>saṃ</zone><zone>kra</zone><zone>ma</zone><zone>ṇā</zone><zone>ya</zone><zone>pa</zone><gap reason="plain" quantity="1"/><zone><gap reason="plain" unit="part"/>ā</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>k</w><w>indrisyo</w><w>kaknoṣ</w><w>tākimäs</w><w>sū</w>
+<lb corresp="#a2"/><gap reason="lost"/><w>īndrājune</w><w>walo</w><w>yräṣaññe</w><w>yama</w><gap reason="plain" quantity="1"/>
+<lb corresp="#a3"/><gap reason="lost"/><w>śol</w><w>präkare</w><w>tākaṃ</w><w><gap reason="plain" unit="part"/>e</w><w><gap reason="plain" unit="part"/>e</w><w>ke</w><w>tse</w><w>snai</w><w>tekī</w>
+<lb corresp="#a4"/><gap reason="lost"/><w>paltskotse</w><w>anāstaññe</w><w>tākaṃ</w>
+<lb corresp="#b1"/><gap reason="lost"/><w>pta</w><pc>:</pc><w>paṃca</w><w>s<gap reason="plain" unit="part"/></w><w>lā</w><gap reason="plain" quantity="2"/><w><gap reason="plain" unit="part"/>ā</w><w>ra</w><w>tyu</w>
+<lb corresp="#b2"/><gap reason="lost"/><w>d<gap reason="plain" unit="part"/></w><w>ṣu</w><w>caryāṃ</w><w>caraṃ</w><w>pañca</w><w>sālāma</w>
+<lb corresp="#b3"/><gap reason="lost"/><w>pūgāt</w><w>pūgaṃ</w><w>saṃgamya</w><w>samāgamya</w>
+<lb corresp="#b4"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>ekāntenya</w><w>ṣīdante</w><w>kānta</w><w>niṣaṇṇāṃ</w>
+<lb corresp="#b5"/><gap reason="lost"/><w>ha</w><w>pa</w><w>ta</w><w>yo</w><w>ma</w><w>nā</w><gap reason="plain" quantity="1"/><w>jātīyaḥ</w><w>śā</w>
+<lb corresp="#b6"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>yā</w><w>pa</w><w>saṃkramaṇāya</w><w>pa</w><gap reason="plain" quantity="1"/><w><gap reason="plain" unit="part"/>ā</w></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition</label><bibl><title corresp="ref:tamai2007a"/><citedRange>№1524</citedRange></bibl>; <bibl><title corresp="ref:peyrot2010b"/><citedRange>135-136</citedRange></bibl>; <bibl><title corresp="ref:schaefer2013"/><citedRange>331-333</citedRange></bibl>; <bibl><title corresp="ref:ogihara2014"/><citedRange>108-109</citedRange></bibl>.</p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 1524" type="external">THT 1524</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/15/1524.htm" type="external">THT 1524</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old">a1 /// – k indrisyo kaknoṣ tākimäs sū
+a2 /// īndrājune walo yräṣaññe yama –
+a3 /// śol präkare tākaṃ ·e ·e ke tse snai tekī
+a4 /// paltskotse anāstaññe tākaṃ
+b1 /// pta : paṃca s· lā – – ·ā ra tyu
+b2 /// d· ṣu caryāṃ caraṃ pañca sālāma
+b3 /// pūgāt pūgaṃ saṃgamya samāgamya
+b4 /// – ekāntenya ṣīdante kānta niṣaṇṇāṃ
+b5 /// ha pa ta yo ma nā – jātīyaḥ śā
+b6 /// ·yā pa saṃkramaṇāya pa – ·ā</item>
+               <item n="m_title_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallels_old"/>
+               <item n="ms_old">THT 1524</item>
+               <item n="project_comment_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="m_other_sigla_old">SHT 6731; Prelim. No. 395; Pencil No. 2175</item>
+               <item n="m_remarks_old"/>
+               <item n="m_language_old">Sanskrit+TB</item>
+               <item n="m_expedition_old">Š 79.23</item>
+               <item n="m_size_w_old">9,5</item>
+               <item n="m_metric_form_old"/>
+               <item n="m_translation_old"/>
+               <item n="m_subgenre_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="user_modified_old">theres</item>
+               <item n="user_created_old">automatic</item>
+               <item n="m_prev_old"/>
+               <item n="m_findspot_old">Šorčuq</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_linedistance_old"/>
+               <item n="access_old">restricted</item>
+               <item n="m_lines_old">6</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_completeness_old"/>
+               <item n="file_location_old">pages/manuscript/THT_1100_2399/tht1524.txt</item>
+               <item n="m_editor_old">CEToM</item>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old">8,2</item>
+               <item n="file_modified_old">1534353299</item>
+               <item n="file_created_old">1340136551</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 1524" target="idp"&gt;THT 1524&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/15/1524.htm" target="titus"&gt;THT 1524&lt;/a&gt;.&lt;br&gt;
+Edition: [[Tamai 2007a]]: №1524; [[Peyrot 2010b]]: 135-136; [[Schaefer 2013]]: 331-333; [[Ogihara 2014]]: 108-109.</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old"/>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=330207;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=330207;rotate=0;imageType=_M||THT 1524 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=330210;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=330210;rotate=0;imageType=_M||THT 1524 verso</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_transliteration_old">a1 /// – _kä\ indrisyo kakno_ṣ\ tāki_m_a_s\ sū
+a2 /// īndrājune walo y_r_aṣaññe yama –
+a3 /// śo_l\• p_r_akare tākaṃ ·e ·e ke tse snai tekī
+a4 /// pa_l\•tskotse anāstaññe tākaṃ
+b1 /// pta : paṃca s· lā – – ·ā ra tyu
+b2 /// [d]· ṣu caryāṃ caraṃ pañca sālāma
+b3 /// pūgāt pūgaṃ saṃgamya samāgamya
+b4 /// – ekāntenya ṣīdante kānta niṣaṇṇāṃ
+b5 /// ha pa ta yo ma nā – jātīyaḥ śā
+b6 /// ·yā pa saṃkramaṇāya pa – ·ā</item>
+               <item n="date_publication_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

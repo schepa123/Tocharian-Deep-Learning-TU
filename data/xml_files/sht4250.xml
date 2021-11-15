@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-sht4250">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>SHT 4250</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>SHT 4250</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>7,3</height>
+                              <width>5,5</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">4+</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="xto"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Gloss</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="verso">
+            <line n="2" xml:id="b2"><zone>PA¯</zone><zone>¯L</zone><zone><unclear>t</unclear>sk<unclear>ā</unclear></zone><zone>ya</zone><zone>tRA</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#b2"/><w>pältskā</w><w>yaträ</w></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#b2"><seg><seg type="prim_transl">he does with his mind</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="philcomment">Glosses Skt. <hi>upalakṣayati</hi> 'he observes'. Schmidt (<bibl><title corresp="ref:wille2008"/><citedRange>336</citedRange></bibl>) reads <hi><hi rend="underline">pal</hi><hi rend="subscript">\</hi>skā yat<hi rend="underline">ra</hi></hi>, but I think that a trace of the expected <hi>t</hi> can be seen.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/></bibl>; <bibl><title corresp="ref:peyrot2014"/><citedRange>161</citedRange></bibl>; <bibl><title corresp="ref:wille2008"/><citedRange>336</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_remarks_old"/>
+               <item n="m_language_old">Sanskrit+TA</item>
+               <item n="m_other_sigla_old"/>
+               <item n="m_size_w_old">5,5</item>
+               <item n="m_expedition_old"/>
+               <item n="m_parallels_old"/>
+               <item n="m_script_old"/>
+               <item n="ms_old">SHT 4250</item>
+               <item n="project_comment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_transcription_old">b2 pältskā yaträ</item>
+               <item n="m_title_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="user_created_old">theres</item>
+               <item n="user_modified_old">theres</item>
+               <item n="m_prev_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="m_subgenre_old">Gloss</item>
+               <item n="m_translation_old">b2 he does with his mind</item>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_tune_old"/>
+               <item n="file_location_old">pages/manuscript/sht4250.txt</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_lines_old">4+</item>
+               <item n="access_old">restricted</item>
+               <item n="m_completeness_old"/>
+               <item n="m_linedistance_old"/>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_image_old"/>
+               <item n="date_publication_old"/>
+               <item n="m_language_stage_old"/>
+               <item n="m_transliteration_old">b2 _p_a_l\[t]sk[ā] yat_r_a</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old"/>
+               <item n="m_bib_old">[[IDP]]; [[Peyrot 2014]]: 161; [[SHT X]]: 336.</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old">7,3</item>
+               <item n="file_created_old">1446214694</item>
+               <item n="file_modified_old">1485174006</item>
+               <item n="m_philcomment_old">&lt;p&gt;Glosses Skt. &lt;i&gt;upalakṣayati&lt;/i&gt; 'he observes'. Schmidt ([[SHT X]]: 336) reads &lt;i&gt;&lt;u&gt;pal&lt;/u&gt;&lt;sub&gt;\&lt;/sub&gt;skā yat&lt;u&gt;ra&lt;/u&gt;&lt;/i&gt;, but I think that a trace of the expected &lt;i&gt;t&lt;/i&gt; can be seen.&lt;/p&gt;</item>
+               <item n="m_passage_old"/>
+               <item n="m_editor_old"/>
+               <item n="m_material_old">Ink on paper</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

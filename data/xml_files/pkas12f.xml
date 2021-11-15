@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-pkas12f">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PK AS 12F</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>CEToM</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</repository>
+                  <idno>PK AS 12F</idno>
+                  <altIdentifier>
+                     <idno>Pelliot Koutchéen Ancienne Série 12F</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Mahābhiniṣkramaṇa</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>archaic</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-archaic frg:ls-peyrot-A1 frg:ls-C14 frg:ls-malzahn-A4 frg:ls-C14"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Drama</term>
+               <term type="prose_verse">prose</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="translation">
+            <p><choice corresp="#a5"><seg><seg type="prim_transl">The hero says: "Nevertheless I will [take] that decision. The minister thinking the way ..."</seg></seg><seg><seg type="prim_transl">The hero says: «Nevertheless I will [take] that decision. The minister thinking the way …» (Georges-Jean Pinault, p.c.)</seg><bibl><title corresp="ref:peyrot2013b"/><citedRange>661</citedRange></bibl></seg></choice><choice corresp="#b4"><seg><bibl><title corresp="ref:peyrot2013b"/><citedRange>363</citedRange></bibl></seg><seg><seg type="prim_transl">O noble one, he has now returned, hasn’t he?</seg></seg><seg><seg type="prim_transl">O noble one, he has now returned, hasn’t he? (Georges-Jean Pinault, p.c.)</seg><bibl><title corresp="ref:peyrot2013b"/><citedRange>363 fn. 462</citedRange></bibl></seg></choice></p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_prev_old"/>
+               <item n="user_created_old">theres</item>
+               <item n="user_modified_old">bernhard</item>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_subgenre_old">Drama</item>
+               <item n="m_translation_old">a5 The hero says: "Nevertheless I will [take] that decision. The minister thinking the way ..."
+b4 O noble one, he has now returned, hasn’t he?</item>
+               <item n="m_metric_form_old">Both</item>
+               <item n="m_expedition_old"/>
+               <item n="m_size_w_old"/>
+               <item n="m_remarks_old"/>
+               <item n="m_language_old">TB</item>
+               <item n="m_other_sigla_old">Pelliot Koutchéen Ancienne Série 12F</item>
+               <item n="m_script_old">Archaic</item>
+               <item n="ms_old">PK AS 12F</item>
+               <item n="project_comment_old">&lt;p&gt;Alternative classifications:
+&lt;table class="table_lines"&gt;
+  &lt;tr&gt;&lt;td title="MP"&gt;Peyrot&lt;/td&gt;&lt;td title="A1"&gt;archaic I&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="MM"&gt;Malzahn&lt;/td&gt;&lt;td title="A4"&gt;common archaic&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TT"&gt;Tamai&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TTC14"&gt;Tamai-C14&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+&lt;p&gt;Translations from [[Peyrot, ToSu]]
+&lt;table class="table_lines"&gt;
+&lt;th&gt;Lines&lt;/th&gt;
+&lt;th&gt;Translation&lt;/th&gt;
+&lt;th&gt;Pages&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt;a5&lt;/td&gt;
+&lt;td&gt;The hero says: «Nevertheless I will [take] that decision. The minister thinking the way …» (Georges-Jean Pinault, p.c.)&lt;/td&gt;
+&lt;td&gt;661&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;b4&lt;/td&gt;
+&lt;td&gt;O noble one, he has now returned, hasn’t he? (Georges-Jean Pinault, p.c.)&lt;/td&gt;
+&lt;td&gt;363 fn. 462&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;additional classification
+&lt;peyrot&gt;A1&lt;/peyrot&gt;
+&lt;/p&gt;</item>
+               <item n="m_parallels_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_title_old">Mahābhiniṣkramaṇa</item>
+               <item n="m_transcription_old"/>
+               <item n="m_leaf_old"/>
+               <item n="date_publication_old"/>
+               <item n="m_language_stage_old">Archaic</item>
+               <item n="m_transliteration_old"/>
+               <item n="m_image_old">http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f103.zoom|http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f103.highres||$page; recto|transform:rotate(180deg);
+http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f104.zoom|http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f104.highres||$page; verso</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old"/>
+               <item n="m_bib_old">Translation:
+&lt;b&gt;a5&lt;/b&gt; [[Peyrot, ToSu]]: 661;
+&lt;b&gt;b4&lt;/b&gt; [[Peyrot, ToSu]]: 363.</item>
+               <item n="file_created_old">1348759505</item>
+               <item n="file_modified_old">1532957778</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_philcomment_old"/>
+               <item n="m_passage_old"/>
+               <item n="m_editor_old">CEToM</item>
+               <item n="file_location_old">pages/manuscript/PK_AS/pkas12f.txt</item>
+               <item n="m_completeness_old"/>
+               <item n="m_collection_old">Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</item>
+               <item n="m_lines_old"/>
+               <item n="access_old">restricted</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old"/>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;Alternative classifications:
+
+&lt;/p&gt;&lt;p&gt;additional classification
+&lt;peyrot&gt;A1&lt;/peyrot&gt;
+&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht1144">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 1144</title>
+            <respStmt>
+               <resp>transliteration</resp>
+               <name>Georges-Jean Pinault</name>
+            </respStmt>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 1144</idno>
+                  <altIdentifier>
+                     <idno>Prelim. No. 194</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Pencil No. 2138</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>6,2</height>
+                              <width>6,7</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <dimensions type="line_spacing">
+                              <height>2,0 - 2,3</height>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Šorčuq</region>during <rs type="expedition_code">T III Š 96.14</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="xto"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Jātaka/Avadāna</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329756;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329756;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone>SA</zone><zone>klā</zone><zone>ṅkaṃ</zone><zone>kr<gap reason="plain" unit="part"/></zone><zone>mā</zone><zone><unclear>kr</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone>da</zone><zone>śā</zone><zone>stRA</zone><zone>ntu</zone><zone>ā</zone><zone><unclear>k</unclear>l<unclear>u</unclear></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone><unclear>ñ</unclear><gap reason="plain" unit="part"/></zone><zone>knu</zone><zone>SA</zone><zone>KSA¯</zone><zone>¯K</zone><zone><unclear>ś</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329733;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329733;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone>mk<gap reason="plain" unit="part"/></zone><zone>klyu</zone><zone>ṣu</zone><zone>RA¯</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone><unclear>l</unclear>y<gap reason="plain" unit="part"/></zone><zone>KA</zone><zone>ñcaṃ</zone><zone>wä</zone><zone>rta</zone><zone>ṣiṃ</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><zone>sa</zone><zone>ś<unclear>ś</unclear>i</zone><zone>ā</zone><zone>rt<unclear>s</unclear><gap reason="plain" unit="part"/>oṃ</zone><zone>ā</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><w>s<surplus>ä</surplus></w><w>klāṅka-ṃ</w><w>kr<supplied>i</supplied></w><w>mā</w><w>kr<supplied>i</supplied></w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><w><supplied>ve</supplied>daśāsträntu</w><w>āklu</w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><w>ñ<supplied>u</supplied>k</w><w>nu</w><w>säksäk</w><w>ś<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><w><supplied>tä</supplied>m</w><w>k<supplied>a</supplied>klyuṣurä<supplied>ṣ</supplied></w><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><w><supplied>ā</supplied>ly<supplied>a</supplied>käñcaṃ</w><w>wärtaṣiṃ</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><w><supplied>wra</supplied>saśśi</w><w>ārts<supplied>k</supplied>oṃ</w><w>ā</w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">... he rode him/her, [if this is his/her] will or not ...</seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">... has taught the teachings of the vedas ...</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">... but I ... sixty ...</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">... having heard this ...</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">... the ... of another forest ...</seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl">... of the beings ... each day ...</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">The lower margin (recto) is preserved.</note><note corresp="#a1" type="philcomment"><hi>klāṅka-ṃ</hi>: cf. <bibl><title corresp="ref:carlingetal2009"/><citedRange>176b</citedRange></bibl>.</note><note corresp="#a2" type="philcomment">: cf. <ref type="ms" target="txt:m-a97"/> b6 <hi>vedaśāstraṃ</hi>.</note><note corresp="#a3" type="philcomment"><hi>ñ(u)k nu</hi>: another possibility would be <hi>ñ (k)[a]knu</hi>. There is no vowel sign on top of the ‹ñ›, and there seems to be no ligature part below it, but a lower part ‹k› or ‹u› cannot be excluded.</note><note corresp="#b2" type="philcomment"><hi>(ā)ly(a)käñcaṃ</hi>: this variant is attested once more in <ref type="ms" target="txt:m-a267"/> a1, against <hi>ālakäñcaṃ</hi> in <ref type="ms" target="txt:m-a12"/> a3, <ref type="ms" target="txt:m-a15"/> a6, <ref type="ms" target="txt:m-a110"/> b5 (<bibl><title corresp="ref:siegetal1931"/><citedRange>193</citedRange></bibl>).</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 1144" type="external">THT 1144</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/11/1144.htm" type="external">THT 1144</ref></bibl>. </p>
+            <p><label>Edition</label><bibl><title corresp="ref:tamai2007a"/><citedRange>№1144</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_script_old">Classical</item>
+               <item n="project_comment_old"/>
+               <item n="ms_old">THT 1144</item>
+               <item n="m_parallels_old"/>
+               <item n="m_size_w_old">6,7</item>
+               <item n="m_expedition_old">T III Š 96.14</item>
+               <item n="m_remarks_old">The lower margin (recto) is preserved.</item>
+               <item n="m_language_old">TA</item>
+               <item n="m_other_sigla_old">Prelim. No. 194, Pencil No. 2138</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_meter_old"/>
+               <item n="m_title_old"/>
+               <item n="m_transcription_old">a1 /// s klāṅka-ṃ kr(i) mā_(TA)|mā kr(i) ///
+a2 /// (ve)daśāsträntu āklu ///
+a3 /// ñ(u)k nu säksäk ś· ///
+b1 /// (tä)m k(a)klyuṣurä(ṣ) ///
+b2 /// (ā)ly(a)käñcaṃ wärtaṣiṃ – ///
+b3 /// (wra)saśśi ārts(k)oṃ ā ///</item>
+               <item n="m_leaf_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_prev_old"/>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old">martin</item>
+               <item n="project_check_old"/>
+               <item n="m_metric_form_old"/>
+               <item n="m_tune_old"/>
+               <item n="m_translation_old">a1 ... he rode him/her, [if this is his/her] will or not ...
+a2 ... has taught the teachings of the vedas ...
+a3 ... but I ... sixty ...
+b1 ... having heard this ...
+b2 ... the ... of another forest ...
+b3 ... of the beings ... each day ...</item>
+               <item n="m_subgenre_old">Jātaka/Avadāna</item>
+               <item n="m_completeness_old"/>
+               <item n="m_lines_old">3</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="access_old">public</item>
+               <item n="file_location_old">pages/manuscript/THT_1100_2399/tht1144.txt</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Šorčuq</item>
+               <item n="m_linedistance_old">2,0 - 2,3</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 1144" target="idp"&gt;THT 1144&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/11/1144.htm" target="titus"&gt;THT 1144&lt;/a&gt;.&lt;br&gt;
+Edition: [[Tamai 2007a]]: №1144.</item>
+               <item n="date_publication_old"/>
+               <item n="m_transliteration_old">a1 /// _s(\) klāṅka-ṃ kr· mā [kr]· ///
+a2 /// daśāst_r_antu ā[k]l[u] ///
+a3 /// [ñ]·k nu _s_a_k_s_a_k\ [ś]· ///
+b1 /// m k·klyuṣu_r_a–\ ///
+b2 /// [l]y·_k_añcaṃ wärtaṣiṃ – ///
+b3 /// saś[ś]i ārt[s]·oṃ ā ///</item>
+               <item n="m_language_stage_old"/>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329756;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329756;rotate=0;imageType=_M||THT 1144 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329733;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329733;rotate=0;imageType=_M||THT 1144 verso</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old">&lt;b&gt;a1&lt;/b&gt; &lt;i&gt;klāṅka-ṃ&lt;/i&gt;: cf. [[Carling, DThTA]]: 176b.&lt;br&gt;
+&lt;b&gt;a2&lt;/b&gt;: cf. [[A 97]] b6 &lt;i&gt;vedaśāstraṃ&lt;/i&gt;.&lt;br&gt;
+&lt;b&gt;a3&lt;/b&gt; &lt;i&gt;ñ(u)k nu&lt;/i&gt;: another possibility would be &lt;i&gt;ñ (k)[a]knu&lt;/i&gt;. There is no vowel sign on top of the ‹ñ›, and there seems to be no ligature part below it, but a lower part ‹k› or ‹u› cannot be excluded.&lt;br&gt;
+&lt;b&gt;b2&lt;/b&gt; &lt;i&gt;(ā)ly(a)käñcaṃ&lt;/i&gt;: this variant is attested once more in [[A 267]] a1, against &lt;i&gt;ālakäñcaṃ&lt;/i&gt; in [[A 12]] a3, [[A 15]] a6, [[A 110]] b5 ([[TG]]: 193).</item>
+               <item n="m_editor_old">Michaël Peyrot (on the basis of a transliteration by Georges-Jean Pinault)</item>
+               <item n="file_created_old">1340136544</item>
+               <item n="file_modified_old">1562288400</item>
+               <item n="m_size_h_old">6,2</item>
+               <item n="m_next_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

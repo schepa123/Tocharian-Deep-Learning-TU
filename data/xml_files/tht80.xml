@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht80">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 80</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Melanie Malzahn</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 80</idno>
+                  <altIdentifier>
+                     <idno>B 80</idno>
+                  </altIdentifier>
+                  <msName>Araṇemi α</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Araṇemijātaka</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Šorčuq</region>during <rs type="expedition_code">T III Š 67</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical frg:ls-tamai-C5 frg:ls-C14"/>
+         </langUsage>
+         <textClass default="false">
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Jātaka/Avadāna</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface n="GNFNBCHSXCOUMITTVLPNXYQI" type="recto" lrx="928" lry="652">
+            <graphic url="THT/THT80a.jpg" height="652px" width="928px"/>
+            <graphic xmlns:trsc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+                     n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=327851;rotate=0;imageType=_L"/>
+            <graphic xmlns:trsc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+                     n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=327851;rotate=0;imageType=_M"/>
+            <line xml:id="a1"
+                  points="19,117 29,197 84,213 108,200 147,197 202,247 277,214 549,199 557,95"
+                  n="1">
+               <gap reason="lost"/>
+               <gap reason="par" quantity="1"/>
+               <zone points="236,211 238,177 210,147 164,158 174,220 208,241 234,224"><gap unit="part" reason="par"/><unclear>K</unclear>A</zone>
+               <zone points="312,149 306,113 277,108 236,112 233,157 244,180 243,209 281,208 320,209 315,162">k<unclear>au</unclear></zone>
+               <zone points="375,153 373,130 350,120 316,149 324,186 367,195 376,163">ta</zone>
+               <zone points="446,125 434,103 381,105 375,144 381,187 428,199 476,152">tsi</zone>
+               <gap reason="lost"/>
+            </line>
+            <line xml:id="a2"
+                  points="112,204 83,217 17,211 12,334 103,351 181,380 431,339 557,344 564,303 571,226 562,199 287,221 198,252 132,202"
+                  n="2">
+               <gap reason="lost"/>
+               <zone points="40,320 37,280 46,274 54,264 26,251 15,278 15,325"><unclear>m</unclear><gap unit="part" reason="par"/></zone>
+               <zone points="154,269 139,223 126,207 117,206 101,211 55,257 44,270 44,296 107,325 126,305 142,277">lā¯</zone>
+               <zone points="192,321 169,284 147,285 134,298 118,318 117,349 156,369 169,369 193,344">¯nT</zone>
+               <zone points="283,289 279,237 262,231 238,239 205,277 213,329 254,349 285,338">ści</zone>
+               <zone points="346,308 357,274 377,270 369,240 332,232 291,241 284,265 290,306 290,340 370,344">ro</zone>
+               <zone points="433,271 421,250 375,261 369,274 356,284 392,322 417,307 445,289">na</zone>
+               <zone points="426,319 449,333 500,338 505,334 484,309 484,256 436,252 449,287"><unclear>r</unclear><gap unit="part" reason="par"/></zone>
+               <zone points="499,297 496,316 513,335 553,336 561,310 546,251 500,252"><unclear>k</unclear><gap unit="part" reason="par"/></zone>
+               <gap reason="lost"/>
+            </line>
+            <line xml:id="a3"
+                  points="14,353 116,358 185,385 417,346 562,351 564,505 424,500 335,496 178,496 101,484 65,493 14,493"
+                  n="3">
+               <gap reason="lost"/>
+               <zone points="70,428 87,412 50,384 24,389 19,463 52,489 68,490 86,454"><unclear>TKA</unclear></zone>
+               <zone points="171,424 158,379 125,368 101,364 86,392 92,413 74,427 108,472 158,487 184,453">sTä</zone>
+               <zone points="249,434 253,397 222,390 177,409 180,437 191,457 169,453 164,459 174,481 216,491 266,484 243,451">ā</zone>
+               <zone points="293,481 328,472 335,445 337,417 319,372 290,373 263,397 251,417 253,440 248,456">rṢṢA</zone>
+               <zone points="401,497 411,491 427,362 397,353 352,370 340,417 337,449 332,476 345,492 354,496 383,496">lle</zone>
+               <zone points="426,479 514,492 494,449 497,421 465,392 425,412 420,444">ka</zone>
+               <zone points="513,447 520,468 552,442 543,385 506,396 498,441"><unclear>p</unclear><gap unit="part" reason="par"/></zone>
+               <gap reason="lost"/>
+            </line>
+            <line xml:id="a4"
+                  points="17,500 106,491 173,503 496,505 554,508 559,633 540,635 533,657 470,645 366,621 219,648 106,609 34,623"
+                  n="4">
+               <gap reason="lost"/>
+               <zone points="83,549 123,601 167,579 164,560 180,531 146,503 111,496">ne¯</zone>
+               <zone points="254,581 246,522 223,513 185,525 171,556 166,569 167,584 193,626 243,640 262,610">¯sTä</zone>
+               <zone points="309,613 307,514 261,515 261,599 268,629 303,625">॥</zone>
+               <zone points="375,561 370,513 329,509 312,574 312,606 355,612 381,588">te</zone>
+               <zone points="456,556 442,511 409,508 380,562 387,612 424,628 466,628 468,621 435,592 461,573">ke</zone>
+               <zone points="543,560 550,523 527,521 497,518 465,546 464,574 442,589 452,602 474,623 479,645 530,652 547,581">kly<unclear>au</unclear></zone>
+               <gap reason="lost"/>
+            </line>
+            <line xml:id="a5"
+                  points="65,756 60,635 103,621 195,655 296,648 357,628 419,635 525,662 537,655 542,640 562,640 565,652 554,768 451,739 400,756"
+                  n="5">
+               <gap reason="lost"/>
+               <zone points="155,679 146,644 105,626 72,695 87,745 145,750 151,720 146,697">nte</zone>
+               <zone points="237,732 240,701 252,684 216,668 159,679 150,703 155,726 180,734">ya</zone>
+               <zone points="313,738 319,682 285,677 258,680 246,693 241,707 251,739">ma</zone>
+               <zone points="378,739 384,708 399,697 386,678 329,675 321,690 318,727">ṣa</zone>
+               <zone points="427,739 456,717 446,704 457,692 453,651 423,640 386,645 388,676 402,697 387,712 389,726 411,740">tai</zone>
+               <zone points="488,741 535,739 531,716 539,703 550,703 542,676 513,662 477,664 459,689 454,710 464,733">mā</zone>
+               <zone points="561,649 556,647 546,642 539,644 537,657 539,670 548,676 543,687 536,719 549,745 555,745"><gap unit="part" reason="par"/>e</zone>
+               <gap reason="lost"/>
+            </line>
+            <line xml:id="a6"
+                  points="91,766 386,768 453,746 545,778 545,903 434,913 106,898"
+                  n="6">
+               <gap reason="lost"/>
+               <zone points="186,866 194,780 135,777 111,851"><gap unit="part" reason="par"/><unclear>ä</unclear></zone>
+               <zone points="243,897 267,878 269,873 262,835 244,807 213,812 193,889"><unclear>nta</unclear></zone>
+               <zone points="283,886 328,885 335,852 348,831 322,816 255,809 254,820 274,845 267,861 274,886">PA</zone>
+               <zone points="432,876 442,849 447,827 441,801 432,776 412,765 388,782 362,819 344,838 338,853 351,886 370,904 401,906 448,904">lko</zone>
+               <zone points="484,887 538,887 533,788 496,770 467,756 447,755 451,805 445,813 448,828 449,880">rmeṃ</zone>
+               <gap reason="lost"/>
+            </line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+               <lb corresp="#a1"/>
+               <gap reason="lost"/>
+               <w><gap reason="plain" unit="part"/>k<surplus>ä</surplus></w>
+               <w>kautatsi</w>
+               <gap reason="lost"/>
+               <lb corresp="#a2"/>
+               <gap reason="lost"/>
+               <w><supplied>araṇe</supplied>m<supplied>i</supplied></w>
+               <w>lānt</w>
+               <w>ścirona</w>
+               <w>r<supplied>e</supplied>k<supplied>aunasa</supplied></w>
+               <gap reason="lost"/>
+               <lb corresp="#a3"/>
+               <gap reason="lost"/>
+               <w>tkästä</w>
+               <w>ārṣṣälle</w>
+               <w>kap<gap reason="plain" unit="part"/></w>
+               <gap reason="lost"/>
+               <lb corresp="#a4"/>
+               <gap reason="lost"/>
+               <w>nest</w>
+               <pc>॥</pc>
+               <w>te</w>
+               <w>keklyau<supplied>ṣormeṃ</supplied></w>
+               <gap reason="lost"/>
+               <lb corresp="#a5"/>
+               <gap reason="lost"/>
+               <w>nte</w>
+               <w>yamaṣatai</w>
+               <w>mā</w>
+               <w><gap reason="plain" unit="part"/>e</w>
+               <gap reason="lost"/>
+               <lb corresp="#a6"/>
+               <gap reason="lost"/>
+               <w><gap reason="plain" unit="part"/>änta</w>
+               <w>pälkormeṃ</w>
+               <gap reason="lost"/>
+            </p>
+         </div>
+         <div type="translation">
+            <p>
+               <choice corresp="#a1">
+                  <seg><seg type="prim_transl">... to cleave ...</seg></seg>
+               </choice>
+               <choice corresp="#a1 #a2 #a3 #a4 #a5 #a6">
+                  <seg><bibl><title corresp="ref:schmidtkt2001"/><citedRange>307</citedRange></bibl></seg>
+               </choice>
+               <choice corresp="#a2">
+                  <seg><seg type="prim_transl">... (scolding vel sim.) the king (Araṇe)m(i with) harsh wor(ds) ...</seg></seg>
+               </choice>
+               <choice corresp="#a3">
+                  <seg><seg type="prim_transl">... you (sg.) ... is to be given up ...</seg></seg>
+               </choice>
+               <choice corresp="#a4">
+                  <seg><seg type="prim_transl">... you are. (Having) heard this ...</seg></seg>
+               </choice>
+               <choice corresp="#a5">
+                  <seg><seg type="prim_transl">... you have made. Not ...</seg></seg>
+               </choice>
+               <choice corresp="#a6">
+                  <seg><seg type="prim_transl">... with regard to ...</seg></seg>
+               </choice>
+            </p>
+         </div>
+         <div type="comments">
+            <p>
+               <note type="philcomment">Continues <ref type="ms" target="txt:m-a342"/>, continued by <ref type="ms" target="txt:m-tht78"/>. The translation follows <bibl><title corresp="ref:schmidtkt2001"/><citedRange>306-7</citedRange></bibl>.</note>
+               <note type="philcomment">According to <bibl><title corresp="ref:schmidtkt2001"/><citedRange>307</citedRange></bibl>, it would appear that a leaf of an Uyghur version of the Araṇemi-Jātaka (= <ref target="http://www.bbaw.de/forschung/turfanforschung/dta/u/images/u2293seite1.jpg" type="external">U 2293</ref>), remnants of which are preserved in an Uyghur manuscript collection of the Berlin Turfan collection, also belongs within this context; the translated text of this leaf is also given in Schmidt KT 2001 (op.cit). In English, the text runs as follows:</note>
+               <note type="philcomment">[“However it may] be, death will come! Separated from you I will be.”
+In this way he will continue to lament: “You will not be able to redeem m[e]! [Through] unnumbered, tens of thousands of existences I have been born, I have died. The useless body [I have] cast off. Now great benefit has come [to] me. Are you all of one mind with me! If you foster good thoughts towards me, let you not rise a bad thought against this my [ ... ] Brahmin! Provide for [country and] town, folk and people, have-nots and the poor, [miserable] and needy beggars! Without hope they shall not be!
+Since I have sat on the [throne] of the kingdom, so and so many beggars have come. What they have begged for I have given them. If I keep giving in this way, the goods and chattels (of the) seven treasure houses of my town Aruṇāvatī will remain entirely empty.
+Not one day you have shown me a grim face. My heart you have not hurt.
+If your hearts..., because out of [greed] for power and strength you have ..., punished, scolded or cursed, ... or have become negligent, [of] these sins acquitted [you may be].”</note>
+               <note type="remarks">Little fragment from one side of a leaf, possibly the verso of <ref type="ms" target="txt:m-tht79"/>. In one frame with <ref type="ms" target="txt:m-tht72"/> und <ref type="ms" target="txt:m-tht1684"/>.</note>
+               <note corresp="#Line 2" type="philcomment">Schmidt seems to restore correctly to <hi>(araṇe)m(i)</hi>.</note>
+               <note corresp="#Line 3" type="lingcomment"><hi>tkästä</hi> certainly contains a 2sg. active verb form from a root ending in -<hi>tk</hi>. Schmidt seems to propose the restoration <hi>(wa)tkäst</hi> 'you command' from the kausativum of the root <hi>wätkā</hi>-. In any case, the preservation of the final <hi>-ä</hi> (if not an error) may be due to the demands of metre and verse; there are no other indications of metrical passages in this small fragment.</note>
+               <note corresp="#Line 3" type="philcomment">A reading <hi>ka[ṣ](·)</hi> is also possible.</note>
+            </p>
+         </div>
+         <div type="bibliography">
+            <p>
+               <label>Online access</label>
+               <bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 80" type="external">THT 80</ref></bibl>
+               <bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/00/0080.htm" type="external">THT 80</ref></bibl>. </p>
+            <p>
+               <label>Edition</label>
+               <bibl><title corresp="ref:siegandsiegling1953"/><citedRange>19</citedRange></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="file_location_old">pages/manuscript/THT_0001_0633/tht80.txt</item>
+               <item n="access_old">public</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_lines_old">6</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Šorčuq</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=327851;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=327851;rotate=0;imageType=_M||THT 80 recto</item>
+               <item n="m_transliteration_old">1 /// (– ·)[_k](\) k[au]tatsi ///
+2 /// [m](·) lān_t\ ścirona [r](·)[k](·) ///
+3 /// [_t_k_a]s_tä ār_ṣ_ṣ_alle ka[p](·) ///
+4 /// nes_tä\ || te kekly[au] ///
+5 /// nte yamaṣatai mā (·)e ///
+6 /// (·)[änta] _p_alkormeṃ ///</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="date_publication_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 80" target="idp"&gt;THT 80&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/00/0080.htm" target="titus"&gt;THT 80&lt;/a&gt;.&lt;br&gt;
+Edition: [[TochSprR(B) II]]: 19.&lt;br&gt;
+Complete translation: [[Schmidt KT 2001]]: 307.</item>
+               <item n="m_manuscript_old">Araṇemi α</item>
+               <item n="m_lingcomment_old">&lt;p&gt;
+&lt;b&gt;Line 3.&lt;/b&gt; &lt;i&gt;tkästä&lt;/i&gt; certainly contains a 2sg. active verb form from a root ending in -&lt;i&gt;tk&lt;/i&gt;. Schmidt seems to propose the restoration &lt;i&gt;(wa)tkäst&lt;/i&gt; 'you command' from the kausativum of the root &lt;i&gt;wätkā&lt;/i&gt;-. In any case, the preservation of the final &lt;i&gt;-ä&lt;/i&gt; (if not an error) may be due to the demands of metre and verse; there are no other indications of metrical passages in this small fragment.
+&lt;/p&gt;</item>
+               <item n="m_size_h_old"/>
+               <item n="m_next_old"/>
+               <item n="file_modified_old">1532957827</item>
+               <item n="file_created_old">1332006596</item>
+               <item n="m_editor_old">Melanie Malzahn</item>
+               <item n="m_philcomment_old">&lt;p&gt;
+Continues [[A 342]], continued by [[THT 78]]. The translation follows [[Schmidt KT 2001]]: 306-7.
+&lt;/p&gt;
+&lt;p&gt;
+According to [[Schmidt KT 2001]]: 307, it would appear that a leaf of an Uyghur version of the Araṇemi-Jātaka (= &lt;a href="http://www.bbaw.de/forschung/turfanforschung/dta/u/images/u2293seite1.jpg"&gt;U 2293&lt;/a&gt;), remnants of which are preserved in an Uyghur manuscript collection of the Berlin Turfan collection, also belongs within this context; the translated text of this leaf is also given in Schmidt KT 2001 (op.cit). In English, the text runs as follows:
+&lt;/p&gt;
+&lt;p&gt;
+[“However it may] be, death will come! Separated from you I will be.”
+In this way he will continue to lament: “You will not be able to redeem m[e]! [Through] unnumbered, tens of thousands of existences I have been born, I have died. The useless body [I have] cast off. Now great benefit has come [to] me. Are you all of one mind with me! If you foster good thoughts towards me, let you not rise a bad thought against this my [ ... ] Brahmin! Provide for [country and] town, folk and people, have-nots and the poor, [miserable] and needy beggars! Without hope they shall not be!
+Since I have sat on the [throne] of the kingdom, so and so many beggars have come. What they have begged for I have given them. If I keep giving in this way, the goods and chattels (of the) seven treasure houses of my town Aruṇāvatī will remain entirely empty.
+Not one day you have shown me a grim face. My heart you have not hurt.
+If your hearts..., because out of [greed] for power and strength you have ..., punished, scolded or cursed, ... or have become negligent, [of] these sins acquitted [you may be].”
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;Line 2.&lt;/b&gt; Schmidt seems to restore correctly to &lt;i&gt;(araṇe)m(i)&lt;/i&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;Line 3.&lt;/b&gt; A reading &lt;i&gt;ka[ṣ](·)&lt;/i&gt; is also possible.
+&lt;/p&gt;</item>
+               <item n="m_passage_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_other_sigla_old">B 80</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old">&lt;p&gt;
+Little fragment from one side of a leaf, possibly the verso of [[THT 79]]. In one frame with [[THT 72]] und [[THT 1684]].
+&lt;/p&gt;</item>
+               <item n="m_size_w_old"/>
+               <item n="m_expedition_old">T III Š 67</item>
+               <item n="m_parallels_old"/>
+               <item n="ms_old">THT 80</item>
+               <item n="project_comment_old">&lt;p&gt;Alternative classifications:
+&lt;table class="table_lines"&gt;
+  &lt;tr&gt;&lt;td title="MP"&gt;Peyrot&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="MM"&gt;Malzahn&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TT"&gt;Tamai&lt;/td&gt;&lt;td title="C5"&gt;II-3 (800-900)&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TTC14"&gt;Tamai-C14&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;</item>
+               <item n="m_script_old">Classical</item>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_transcription_old">1 /// (·)k kautatsi ///
+2 /// (araṇe)m(i) lānt ścirona r(e)k(aunasa) ///
+3 /// tkästä ārṣṣälle kap(·) ///
+4 /// nest || te keklyau(ṣormeṃ) ///
+5 /// nte yamaṣatai mā ·e ///
+6 /// ·änta pälkormeṃ ///</item>
+               <item n="m_title_old">Araṇemijātaka</item>
+               <item n="m_leaf_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="user_modified_old">bernhard</item>
+               <item n="user_created_old">automatic</item>
+               <item n="m_prev_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old"/>
+               <item n="m_subgenre_old">Jātaka/Avadāna</item>
+               <item n="m_translation_old">1 ... to cleave ...
+2 ... (scolding vel sim.) the king (Araṇe)m(i with) harsh wor(ds) ...
+3 ... you (sg.) ... is to be given up ...
+4 ... you are. (Having) heard this ...
+5 ... you have made. Not ...
+6 ... with regard to ...</item>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Prose</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;Alternative classifications:
+
+&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

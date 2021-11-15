@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-ioltoch433">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>IOL Toch 433</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library (London)</repository>
+                  <idno>IOL Toch 433</idno>
+                  <altIdentifier>
+                     <idno>D 74</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=7611;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=7611;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL433a.jpg" height="768px" width="413px"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>t<gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>ñ<gap reason="plain" unit="part"/></zone><zone>wrā</zone><zone>k<gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>na</zone><zone>ṣṣi</zone><zone>ye</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><zone>mta¯</zone><zone>¯K</zone><zone>pre</zone><zone>ṣ<gap reason="plain" unit="part"/>i</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=8889;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=8889;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL433b.jpg" height="768px" width="413px"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone>ye</zone><zone>pi</zone><zone>e</zone><zone>k<gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone>sa</zone><zone>we</zone><zone>śa</zone><zone>ñ<unclear>ñ</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><zone>॥</zone><zone>te</zone><zone>po</zone><zone>s<gap reason="plain" unit="part"/><gap reason="plain" unit="part"/>ṃ</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><zone><unclear>¯</unclear></zone><gap reason="plain" quantity="2"/><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>t<gap reason="plain" unit="part"/></w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>ñ<gap reason="plain" unit="part"/></w><w>wrā</w><w>k<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>naṣṣi</w><w>ye<milestone unit="w" type="break"/></w><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="lost"/><w>-mtak</w><w>preṣ<gap reason="plain" unit="part"/>i</w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><w>-yepi</w><w>ek<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><w>-sa</w><w>weśaññ<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><pc>॥</pc><w>te</w><w>pos<supplied>tä</supplied>ṃ</w><gap reason="lost"/>
+<lb corresp="#b4"/><gap reason="lost"/><gap reason="plain" quantity="2"/><gap reason="lost"/></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 433" type="external">IOL Toch 433</ref></bibl>. </p>
+            <p><label>Edition</label><bibl><title corresp="ref:peyrot2007"/><citedRange>№433</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="file_modified_old">1477638042</item>
+               <item n="file_created_old">1322765175</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old"/>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_transliteration_old">a1 /// ·t· – ///
+a2 /// ·ñ· wrā k· ///
+a3 /// – naṣṣi ye- ///
+a4 /// -mta_k\ preṣ·i ///
+b1 /// -yepi ek· ///
+b2 /// -sa weśañ[ñ]· ///
+b3 /// || te pos··ṃ ///
+b4 /// – [\] – ///</item>
+               <item n="date_publication_old"/>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=7611;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=7611;rotate=0;imageType=_M||IOL Toch 433 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=8889;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=8889;rotate=0;imageType=_M||IOL Toch 433 verso</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 433"&gt;IOL Toch 433&lt;/a&gt;.&lt;br&gt;
+Edition: [[Peyrot 2007]]: №433.</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old"/>
+               <item n="m_linedistance_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="file_location_old">pages/manuscript/IOL_Toch/ioltoch433.txt</item>
+               <item n="access_old">restricted</item>
+               <item n="m_collection_old">British Library (London)</item>
+               <item n="m_lines_old">4</item>
+               <item n="m_translation_old"/>
+               <item n="m_subgenre_old"/>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old"/>
+               <item n="m_prev_old"/>
+               <item n="user_modified_old">theres</item>
+               <item n="user_created_old">automatic</item>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_title_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old">a1 /// ·t· – ///
+a2 /// ·ñ· wrā k· ///
+a3 /// – naṣṣi ye- ///
+a4 /// -mtak preṣ·i ///
+b1 /// -yepi ek· ///
+b2 /// -sa weśaññ· ///
+b3 /// || te pos(tä)ṃ ///
+b4 /// – – ///</item>
+               <item n="m_meter_old"/>
+               <item n="m_expedition_old"/>
+               <item n="m_size_w_old"/>
+               <item n="m_other_sigla_old">D 74</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old"/>
+               <item n="ms_old">IOL Toch 433</item>
+               <item n="project_comment_old">&lt;p&gt;&lt;ul&gt;
+&lt;li&gt;Dieser Datensatz wurde automatisch erstellt aus &amp;quot;Peyrot_2007_Martin_20111129_2.xml&amp;quot; am Sat, 2011-12-03, 15:17:01.&lt;/li&gt;
+&lt;li&gt;Image links and standard properties have been added automatically on Tue, 2012-07-31, 03:59:07.&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</item>
+               <item n="m_script_old">Classical</item>
+               <item n="m_parallels_old"/>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;&lt;ul&gt;&lt;li&gt;Dieser Datensatz wurde automatisch erstellt aus "Peyrot_2007_Martin_20111129_2.xml" am Sat, 2011-12-03, 15:17:01.&lt;/li&gt;&lt;li&gt;Image links and standard properties have been added automatically on Tue, 2012-07-31, 03:59:07.&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

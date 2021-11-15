@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht145">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 145</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 145</idno>
+                  <altIdentifier>
+                     <idno>B 145</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Bleistiftnummer 2692</idno>
+                  </altIdentifier>
+                  <msName>THT 133-147</msName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">8</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Qizil Miŋ-Öy</region><placeName>Rothkuppelraum</placeName>during <rs type="expedition_code">T III MQR 47</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical frg:ls-peyrot-A1 frg:ls-C14 frg:ls-malzahn-A4 frg:ls-C14 frg:ls-tamai-A2 frg:ls-C14"/>
+         </langUsage>
+         <textClass default="false">
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Kāvya</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface n="WIVRBAUELOKOFBTLKUFUHRAF" type="recto" lrx="2146" lry="1476">
+            <graphic url="B/B145a.jpg" height="1476px" width="2146px"/>
+            <graphic xmlns:trsc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+                     n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=327996;rotate=0;imageType=_L"/>
+            <graphic xmlns:trsc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+                     n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=327996;rotate=0;imageType=_M"/>
+            <line xml:id="a6"
+                  points="212,334 304,365 396,363 473,314 645,321 719,393 821,401 849,362 1164,362 1236,408 1288,406 1315,317 1139,70 240,68"
+                  n="6">
+               <gap reason="illegible"/>
+            </line>
+            <line xml:id="a7"
+                  points="106,576 369,600 500,679 618,606 686,634 773,629 851,672 977,677 1068,604 1234,584 1298,667 1429,676 1489,587 1580,600 1663,543 1835,540 1766,374 1508,288 1314,318 1291,405 1237,411 1164,362 853,364 822,399 722,394 645,319 466,315 375,360 302,365 215,335"
+                  n="7">
+               <gap reason="lost"/>
+               <zone points="147,556 167,569 259,569 304,475 289,453 187,469">p<gap unit="part" reason="par"/></zone>
+               <zone points="435,570 453,359 413,342 367,358 312,360 303,473 273,543 333,585">lai</zone>
+               <zone points="433,601 491,649 523,651 585,618 609,523 544,357 499,338 445,450">kne</zone>
+               <zone points="621,372 584,454 608,522 599,566 634,612 672,627 751,618 776,560 765,527 735,470 645,373">ṣṣe</zone>
+               <zone points="766,528 781,587 884,587 944,569 896,381 841,376">ce¯</zone>
+               <zone points="808,649 847,670 898,673 953,668 979,640 936,578 858,606 809,635">¯u</zone>
+               <gap reason="plain" quantity="1"/>
+               <zone points="1130,579 1244,567 1259,543 1258,500 1281,467 1234,408 1178,387 1142,413">KAṃ</zone>
+               <zone points="1451,499 1376,324 1316,333 1282,466 1259,496 1259,543 1239,564 1290,638 1375,669 1433,665 1474,600">kuse</zone>
+               <zone points="1450,492 1504,573 1550,585 1617,572 1651,494 1616,467 1621,415 1562,361 1480,369">cp<unclear>ī</unclear></zone>
+               <gap reason="lost"/>
+            </line>
+            <line xml:id="a8"
+                  points="108,577 62,683 93,852 304,1005 954,1023 1817,1008 1862,786 1840,540 1662,543 1586,599 1497,586 1432,675 1297,666 1238,583 1073,604 973,682 852,669 780,626 684,636 620,609 503,677 370,603"
+                  n="8">
+               <gap reason="lost"/>
+               <zone points="223,837 259,761 247,718 173,600 141,601 117,671 123,836">ṣ<unclear>ṣ</unclear>eṃ</zone>
+               <zone points="291,707 227,837 247,851 423,851 421,722 362,697">10</zone>
+               <zone points="423,792 423,835 486,979 588,977 574,902 576,752 548,723 447,724">8</zone>
+               <zone points="576,914 607,936 675,923 712,883 741,744 666,628 634,616 591,669 577,763">pre¯</zone>
+               <zone points="830,908 826,837 795,804 740,821 708,887 681,901 675,913 726,934 801,932">¯u</zone>
+               <zone points="968,908 981,843 931,732 834,661 789,640 774,677 824,831 816,874 821,900 885,1002 939,1006">tke</zone>
+               <zone points="1148,811 1150,695 1126,666 1042,664 980,745 984,849 969,873 962,896 1019,906 1104,897">wr<unclear>o</unclear></zone>
+               <zone points="1318,804 1302,769 1220,602 1183,593 1157,632 1152,780 1156,874 1252,899 1298,864">ttse</zone>
+               <zone points="1303,774 1318,804 1405,829 1438,815 1454,703 1414,685">e</zone>
+               <zone points="1459,757 1465,865 1521,887 1568,888 1608,847 1617,793 1581,756 1576,704 1541,600 1503,593 1477,627">ntse</zone>
+               <zone points="1722,803 1745,711 1729,669 1669,576 1625,578 1579,757 1603,780 1630,816">me¯</zone>
+               <zone points="1679,872 1705,900 1776,907 1839,800 1802,773 1747,769">¯u</zone>
+               <gap reason="lost"/>
+            </line>
+         </surface>
+         <surface n="OJTXTNNOZRYPWDCHPTXYWRQE" type="verso" lrx="2215" lry="1476">
+            <graphic url="B/B145b.jpg" height="1476px" width="2215px"/>
+            <graphic xmlns:trsc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+                     n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=327936;rotate=0;imageType=_L"/>
+            <graphic xmlns:trsc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+                     n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=327936;rotate=0;imageType=_M"/>
+            <line xml:id="b1"
+                  points="162,491 233,496 414,527 677,517 749,543 1022,505 1177,512 1230,475 1612,559 1689,552 1728,512 1897,499 1906,381 1820,209 321,208 160,391"
+                  n="1">
+               <gap reason="lost"/>
+               <zone points="184,470 204,488 285,500 308,492 326,410 198,406"><gap unit="part" reason="par"/>ś<gap unit="part" reason="par"/></zone>
+               <zone points="542,422 517,363 515,215 423,214 339,321 330,404 401,518 486,509">lme</zone>
+               <zone points="664,425 672,352 682,264 635,231 553,251 533,291 536,404 567,431">śī</zone>
+               <zone points="849,442 808,386 824,211 727,213 674,331 686,447 705,524 737,541 801,536">lke</zone>
+               <zone points="957,408 971,328 939,288 856,300 807,379 848,437 897,448">t<unclear>e</unclear></zone>
+               <zone points="878,456 942,479 1033,477 1095,442 1117,348 1141,323 1134,265 1075,250 1001,283 965,372 952,428 886,443">prā</zone>
+               <zone points="1308,407 1285,359 1290,313 1236,258 1173,254 1142,348 1122,375 1096,455 1057,448 1040,456 1076,495 1138,504 1203,489">kre</zone>
+               <zone points="1296,366 1340,426 1447,429 1455,391 1497,331 1470,301 1372,310">ma</zone>
+               <zone points="1616,453 1582,396 1599,349 1571,319 1506,338 1457,392 1502,480 1545,510 1575,505">nta</zone>
+               <zone points="1585,405 1615,448 1602,517 1621,548 1711,535 1715,479 1764,431 1752,329 1698,227 1655,224">ke</zone>
+               <zone points="1771,232 1759,279 1767,387 1776,444 1817,468 1880,468 1882,398 1812,234"><unclear>we</unclear></zone>
+               <gap reason="lost"/>
+            </line>
+            <line xml:id="b2"
+                  points="161,495 155,629 226,815 520,827 633,911 781,911 840,756 1532,786 1678,843 1815,845 1908,659 1899,498 1727,511 1689,549 1609,558 1229,474 1178,512 1022,506 777,541 708,520 411,527 241,498"
+                  n="2">
+               <gap reason="lost"/>
+               <zone points="391,726 351,675 355,641 381,626 357,592 271,509 232,503 205,581 214,681 312,799 340,799 377,762">ste</zone>
+               <zone points="465,690 475,620 456,594 413,592 356,637 350,670 386,701 449,724">20</zone>
+               <zone points="413,743 401,759 450,785 541,793 610,775 623,699 642,671 646,635 590,599 498,603 470,644 461,745">6</zone>
+               <zone points="661,527 638,544 632,626 630,688 643,886 760,889 764,669 766,546 724,523">||</zone>
+               <gap reason="par" quantity="1"/>
+               <zone points="1318,645 1259,493 1221,488 1181,531 1168,621 1203,719 1267,721">se</zone>
+               <zone points="1459,664 1502,622 1479,571 1348,564 1322,598 1325,651 1301,689 1338,731 1390,744 1472,715">no</zone>
+               <zone points="1636,709 1650,651 1617,592 1524,583 1467,659 1486,707 1536,728 1603,728">ñä</zone>
+               <zone points="1795,719 1784,672 1788,637 1744,535 1719,533 1642,681 1658,808 1735,812">ke</zone>
+               <gap reason="lost"/>
+            </line>
+            <line xml:id="b3"
+                  points="226,822 322,1094 593,1105 1655,1087 1812,846 1680,844 1527,783 845,756 783,906 633,912 521,827"
+                  n="3">
+               <gap reason="illegible"/>
+            </line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+               <lb corresp="#a6"/>
+               <gap reason="illegible"/>
+               <lb corresp="#a7"/>
+               <gap reason="lost"/>
+               <w>p<supplied>e</supplied>laikneṣṣe</w>
+               <w>ceU</w>
+               <gap reason="plain" quantity="1"/>
+               <w>käṃ</w>
+               <w>kUse</w>
+               <w>cpī</w>
+               <gap reason="lost"/>
+               <lb corresp="#a8"/>
+               <gap reason="lost"/>
+               <w>ṣṣeṃ</w>
+               <num value="18">10-8</num>
+               <w>preUtke</w>
+               <w>wrottse</w>
+               <w>entse</w>
+               <w>meU</w>
+               <gap reason="lost"/>
+               <lb corresp="#b1"/>
+               <gap reason="lost"/>
+               <w><supplied>y</supplied>ś<supplied>e</supplied>lme</w>
+               <w>śīl</w>
+               <w>kete</w>
+               <w>prākre</w>
+               <w>manta</w>
+               <w>kewe</w>
+               <gap reason="lost"/>
+               <lb corresp="#b2"/>
+               <gap reason="lost"/>
+               <w>ste</w>
+               <num value="26">20-6</num>
+               <pc>॥</pc>
+               <pc><supplied>॥</supplied></pc>
+               <w>se</w>
+               <w>no</w>
+               <w>ñäke</w>
+               <gap reason="lost"/>
+               <lb corresp="#b3"/>
+               <gap reason="illegible"/>
+            </p>
+         </div>
+         <div type="comments">
+            <p>
+               <note type="remarks">In one frame with <ref type="ms" target="txt:m-tht141"/> and <ref type="ms" target="txt:m-tht144"/>.</note>
+            </p>
+         </div>
+         <div type="bibliography">
+            <p>
+               <label>Edition</label>
+               <bibl><title corresp="ref:siegandsiegling1953"/><citedRange>76</citedRange></bibl>.</p>
+            <p>
+               <label>Online access</label>
+               <bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 145" type="external">THT 145</ref></bibl>
+               <bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/01/0145.htm" type="external">THT 145</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_expedition_old">T III MQR 47</item>
+               <item n="m_other_sigla_old">B 145, Bleistiftnummer 2692</item>
+               <item n="m_remarks_old">In one frame with [[THT 141]] and [[THT 144]].</item>
+               <item n="m_language_old">TB</item>
+               <item n="project_comment_old">&lt;p&gt;Alternative classifications:
+&lt;table class="table_lines"&gt;
+  &lt;tr&gt;&lt;td title="MP"&gt;Peyrot&lt;/td&gt;&lt;td title="A1"&gt;archaic I&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="MM"&gt;Malzahn&lt;/td&gt;&lt;td title="A4"&gt;common archaic&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TT"&gt;Tamai&lt;/td&gt;&lt;td title="A2"&gt;I-2 (400-500)&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TTC14"&gt;Tamai-C14&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;additional classification
+&lt;peyrot&gt;A1&lt;/peyrot&gt;
+&lt;/p&gt;</item>
+               <item n="ms_old">THT 145</item>
+               <item n="m_script_old">Classical</item>
+               <item n="edited_date_old">2018-07-30, 15:45:26 (CEST)</item>
+               <item n="editgroup_old">Admin</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="group_old">Public</item>
+               <item n="m_transcription_old">a7 /// p(e)laikneṣṣe cau|ce_u – käṃ k_use cpī ///
+a8 /// ṣṣeṃ 18 pre_utke orotstse|wrottse entse me_u ///
+b1 /// (y)ś(e)lme śīl kete prākre manta kewe ///
+b2 /// ste 26 || (||) se no ñäke ///</item>
+               <item n="user_modified_old">bernhard</item>
+               <item n="user_created_old">automatic</item>
+               <item n="category_old">manuscript</item>
+               <item n="file_savedate_old">2018-12-19, 07:39:51 (CET)</item>
+               <item n="m_subgenre_old">Kāvya</item>
+               <item n="file_name_old">pages/manuscript/THT_0001_0633/tht145.txt</item>
+               <item n="m_metric_form_old">Verse</item>
+               <item n="file_location_old">pages/manuscript/THT_0001_0633/tht145.txt</item>
+               <item n="access_old">public</item>
+               <item n="m_lines_old">8</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="created_date_old">2012-03-17, 18:49:59 (CET)</item>
+               <item n="m_findspot_specific_old">Rothkuppelraum</item>
+               <item n="m_findspot_old">Qizil Miŋ-Öy</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_transliteration_old">a6 &lt;i&gt;illegible&lt;/i&gt;
+a7 /// p(e)laikneṣṣe ce_u – _k_aṃ k_use cp[ī] ///
+a8 /// ṣ[ṣ]eṃ 10-8 pre_utke wr[o]ttse entse me_u ///
+b1 /// (y)ś(e)lme śīl ket[e] prākre manta ke[we] ///
+b2 /// ste 20-6 || (||) se no ñäke ///
+b3 &lt;i&gt;illegible&lt;/i&gt;</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=327996;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=327996;rotate=0;imageType=_M||THT 145 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=327936;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=327936;rotate=0;imageType=_M||THT 145 verso</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 145" target="idp"&gt;THT 145&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/01/0145.htm" target="titus"&gt;THT 145&lt;/a&gt;.&lt;br&gt;
+Edition: [[TochSprR(B) II]]: 76.</item>
+               <item n="m_manuscript_old">THT 133-147</item>
+               <item n="file_size_old">2 KB</item>
+               <item n="file_modified_old">1558169705</item>
+               <item n="file_created_old">1332006599</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="version_old">3</item>
+               <item n="page_name_old">THT 145</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;Alternative classifications:
+
+&lt;/p&gt;&lt;p&gt;additional classification
+&lt;peyrot&gt;A1&lt;/peyrot&gt;
+&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

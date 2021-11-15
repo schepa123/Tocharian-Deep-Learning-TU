@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-ioltoch854">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>IOL Toch 854</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library (London)</repository>
+                  <idno>IOL Toch 854</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Pratītyasamutpāda</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical frg:ls-cetom-aberrant-None"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Abhidharma</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=79955;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=79955;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL854a.jpg" height="1007px" width="730px"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>m<gap reason="plain" unit="part"/></zone><zone>rsnā¯</zone><zone>¯<unclear>t</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>rnt<unclear>s</unclear>e</zone><zone>ṢA</zone><zone>rma</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=80052;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=80052;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL854b.jpg" height="1007px" width="671px"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone><unclear>ñ</unclear>ñ<gap reason="plain" unit="part"/></zone><zone><unclear>w</unclear><gap reason="plain" unit="part"/></zone><zone>nta</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>i</zone><zone>n<unclear>ts</unclear>e</zone><zone>ṢA</zone><zone>rm<gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><w><supplied>ñe</supplied>m<supplied>-e</supplied>rsnā<add>ṃ</add>t<supplied>s</supplied></w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><w><supplied>yāmo</supplied>rntse</w><w>ṣärma<supplied>meṃ</supplied></w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><w>-ññ<supplied>e</supplied></w><w>w<supplied>ä</supplied>nta<supplied>re</supplied></w><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><w>intse</w><w>ṣärm<supplied>ameṃ</supplied></w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">of name and matter</seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">because of the act (= saṃskāra)</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">because of ...</seg></seg></choice></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 854" type="external">IOL Toch 854</ref></bibl>. </p>
+            <p><label>Edition</label><bibl><title corresp="ref:tamai2007"/><citedRange>№854</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 854"&gt;IOL Toch 854&lt;/a&gt;.&lt;br&gt;
+Edition: [[Tamai 2007]]: №854.</item>
+               <item n="date_publication_old"/>
+               <item n="m_transliteration_old">a1 /// ·m· rsnā[t]·\ ///
+a2 /// – rnt[s]e _ṣ_arma ///
+b1 /// [ñ]ñ· [w]·nta – ///
+b2 /// ·in[ts]e _ṣ_arm· ///</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=79955;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=79955;rotate=0;imageType=_M||IOL Toch 854 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=80052;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=80052;rotate=0;imageType=_M||IOL Toch 854 verso</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_philcomment_old"/>
+               <item n="m_passage_old"/>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="file_created_old">1321095827</item>
+               <item n="file_modified_old">1576144151</item>
+               <item n="m_size_h_old"/>
+               <item n="m_next_old"/>
+               <item n="m_collection_old">British Library (London)</item>
+               <item n="m_lines_old"/>
+               <item n="access_old">restricted</item>
+               <item n="file_location_old">pages/manuscript/IOL_Toch/ioltoch854.txt</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_language_add_old">None</item>
+               <item n="category_old">manuscript</item>
+               <item n="m_prev_old"/>
+               <item n="user_created_old">michael</item>
+               <item n="user_modified_old">theres</item>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_tune_old"/>
+               <item n="m_translation_old">a1 of name and matter
+a2 because of the act (= saṃskāra)
+b2 because of ...</item>
+               <item n="m_subgenre_old">Abhidharma</item>
+               <item n="m_script_old">Classical</item>
+               <item n="ms_old">IOL Toch 854</item>
+               <item n="project_comment_old">&lt;p&gt;&lt;ul&gt;
+&lt;li&gt;Image links and standard properties have been added automatically on Tue, 2012-07-31, 03:59:07.&lt;/li&gt;
+&lt;li&gt;Transcription "&lt;code&gt;a2 /// (yāmo&lt;span style="color: red;"&gt;?&lt;/span&gt;)rntse ṣärma(meṃ) /// b1 -ññe wäntare&lt;span style="color: red;"&gt;?&lt;/span&gt;&lt;/code&gt;" changed to "&lt;code&gt;a2 /// (yāmo)rntse ṣärma(meṃ) /// b1 -ññe w(ä)nta(re)&lt;/code&gt;". No question marks allowed! –Martin (Wed, 2014-10-08, 12:52:10)&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</item>
+               <item n="m_parallels_old"/>
+               <item n="m_expedition_old"/>
+               <item n="m_size_w_old"/>
+               <item n="m_remarks_old"/>
+               <item n="m_language_old">TB</item>
+               <item n="m_other_sigla_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_meter_old"/>
+               <item n="m_title_old">Pratītyasamutpāda</item>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old">a1 /// (ñe)m(-e)rsnā«ṃ»t(s) ///
+a2 /// (yāmo)rntse ṣärma(meṃ) ///
+b1 /// -ññ(e) w(ä)nta(re) ///
+b2 /// intse ṣärm(ameṃ) ///</item>
+               <item n="m_parallelcomment_old"/>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;&lt;ul&gt;&lt;li&gt;Image links and standard properties have been added automatically on Tue, 2012-07-31, 03:59:07.&lt;/li&gt;&lt;li&gt;Transcription "&lt;code&gt;a2 /// (yāmo&lt;span style="color: red;"&gt;?&lt;/span&gt;)rntse ṣärma(meṃ) /// b1 -ññe wäntare&lt;span style="color: red;"&gt;?&lt;/span&gt;&lt;/code&gt;" changed to "&lt;code&gt;a2 /// (yāmo)rntse ṣärma(meṃ) /// b1 -ññe w(ä)nta(re)&lt;/code&gt;". No question marks allowed! –Martin (Wed, 2014-10-08, 12:52:10)&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

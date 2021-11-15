@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-sht2054b">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>SHT 2054.b</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>SHT 2054.b</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Aśvaghoṣa, Buddhacarita</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>5</height>
+                              <width>3,7</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">4+</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Siŋgim</region><placeName>[purchased]</placeName>during <rs type="expedition_code">T II S 50</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="txb"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Gloss</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <line n="2" xml:id="a2x"><zone>ai</zone><zone>ma</zone><zone>su</zone></line>
+            <line n="3" xml:id="a3x"><zone>kā</zone><zone>wa</zone><zone>ñe</zone><zone>sa</zone></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=335975;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=335975;rotate=0;imageType=_M"/>
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=335974;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=335974;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="b1x"><zone><unclear>p</unclear>r<gap reason="plain" unit="part"/>¯</zone><zone>¯M</zone><zone><unclear>ñ</unclear>ä</zone><zone>kte</zone><zone>ra¯</zone><zone>¯M</zone></line>
+            <line n="2" xml:id="b2x"><gap reason="lost"/><zone>lki<gap reason="par" unit="part"/></zone><zone>wa</zone><zone>lo</zone><zone>tā</zone><zone>ka</zone></line>
+            <line n="2" xml:id="b2y"><zone>ka</zone><zone>mā</zone><zone>te</zone></line>
+            <line n="3" xml:id="b3x"><gap reason="lost"/><zone><unclear>y</unclear>a</zone><zone>ma</zone><zone>te</zone></line>
+            <line n="3" xml:id="b3y"><zone>ra</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p><milestone unit="passage" n="2.48a-54d"/>
+<lb corresp="#a2x"/><w>aimasu</w>
+<lb corresp="#a3x"/><w>kāwañesa</w>
+<lb corresp="#b1x"/><w>pr<supplied>a</supplied>m-ñäkte</w><w>ram</w>
+<lb corresp="#b2x"/><gap reason="lost"/><w><supplied>pe</supplied>lki<supplied>ṃ</supplied></w><w>walo</w><w>tāka</w>
+<lb corresp="#b2y"/><w>kamāte</w>
+<lb corresp="#b3x"/><gap reason="lost"/><w>yamate</w>
+<lb corresp="#b3y"/><w>ra</w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a2x"><seg><seg type="prim_transl">wishing</seg></seg></choice><choice corresp="#a3x"><seg><seg type="prim_transl">by killing</seg></seg></choice><choice corresp="#b1x"><seg><seg type="prim_transl">like Brahman</seg></seg></choice><choice corresp="#b2x"><seg><seg type="prim_transl">because [of ...] he was a king</seg></seg></choice><choice corresp="#b2y"><seg><seg type="prim_transl">brought</seg></seg></choice><choice corresp="#b3x"><seg><seg type="prim_transl">he did (?)</seg></seg></choice><choice corresp="#b3y"><seg><seg type="prim_transl">...</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note corresp="#a2x" type="lingcomment">The clasical form would be <hi>añmassu</hi> (<bibl><title corresp="ref:adams2013a"/><citedRange>43</citedRange></bibl>); <hi>aimasu</hi>  is probably a late variant of it, although the precise status of the variant <hi>āyme</hi> of the base word <hi>āñme</hi> 'soul, self' has not been settled yet (cf. <bibl><title corresp="ref:peyrot2008"/><citedRange>159-60</citedRange></bibl>). Most forms are from late texts or texts with late features: <ref type="ms" target="txt:m-tht289"/>: a5 <hi>āymtsa</hi> (late), <ref type="ms" target="txt:m-tht330"/>: a1 <hi>āymesa</hi> (late), <ref type="ms" target="txt:m-tht1393c"/>: a3 <hi>āyme</hi> (fragmentary), <ref type="ms" target="txt:m-tht1575a"/>: a5 <hi>āym°</hi> ? (late), <ref type="ms" target="txt:m-tht1635a"/>: b5 <hi>āym</hi> (Tocharian text fragmentary). The problem is that we also find one archaic attestation: <ref type="ms" target="txt:m-tht1214"/>: b4 <hi>aymäntse</hi>. A similar variation is found with <hi>añmālaṣke</hi> 'pitying' and the derived abstract: <ref type="ms" target="txt:m-tht1298"/>: b1 <hi>aym(ā)lāṣke</hi> (perhaps arch.), <ref type="ms" target="txt:m-ioltoch139"/>: a5 <hi>āymelaṣkäññesa</hi> (a text with both arch. and late features).</note><note corresp="#a2x" type="philcomment">glosses Skt. Bc.2.48d <hi>(ārur)ukṣa(ṃ)</hi> 'wishing to ascend'.</note><note corresp="#a3x" type="lingcomment">The classical form would be <hi>kāwälñesa</hi> (as in <ref type="ms" target="txt:m-tht358"/>: b3 <hi>kāwälñemeṃ</hi>, though we also find <ref type="ms" target="txt:m-tht102"/> <hi>kāwalyñesa</hi>): note the late simplification of <hi>lñ</hi> to <hi>ñ</hi> and the spelling of <hi>wä</hi> as <hi>wa</hi>.</note><note corresp="#a3x" type="philcomment">glosses Skt. Bc.2.49d <hi>hiṃsrā°</hi> 'cruel, murderous', a text variant found in this fragment, the correct reading of the Buddhacarita text being rather <hi>hiṃsā°</hi> 'injury' (<bibl><title corresp="ref:hartmannju1988a"/><citedRange>60</citedRange></bibl>; <bibl><title corresp="ref:johnston1935"/><citedRange>I, 18</citedRange></bibl>).</note><note corresp="#b1x" type="lingcomment">Note late <hi>ram</hi> for class. <hi>ramt</hi>. Conversely, the vocalism of <hi>ñäkte</hi> seems clear and the expected late <hi>ñikte</hi> is not found.</note><note corresp="#b1x" type="philcomment">glosses Skt. Bc.2.51d <hi>(ka) iv</hi> 'like Ka'. Apparently the glossator preferred to replace Ka with the more common Brahman. A tiny piece of paper seems to cover the upper left stroke of the <hi>p</hi>. A trace of a further gloss is found right of <hi>ra<hi rend="underline">m</hi><hi rend="subscript">\</hi></hi> under Bc.2.51d <hi>ād(ikale)</hi> 'in the beginning'.</note><note corresp="#b2x" type="philcomment">The first item seems to gloss Skt. Bc.2.52d <hi>dadarśa</hi> 'he regarded' (<bibl><title corresp="ref:olivelle2008"/><citedRange>55</citedRange></bibl>), if we understand it as an explanatory gloss clarifying that <hi>dadarśa</hi> here effectively means 'reigned over'. Schmidt apud <bibl><title corresp="ref:hartmannju1988a"/><citedRange>60</citedRange></bibl> reads <hi>(pe)lkiṃ</hi>, but no anusvāra is visible; the dot to the left of the <hi>l</hi> probably belongs to the body of the <hi>l</hi>.</note><note corresp="#b2y" type="lingcomment"><hi>kamāta</hi> is the 3sg.pt. of <hi>pər-</hi> 'bring'.</note><note corresp="#b2y" type="philcomment">The second item glosses Skt. Bc.2.53a <hi>babhā(ra)</hi>, here 'fostered' (<bibl><title corresp="ref:olivelle2008"/><citedRange>55</citedRange></bibl>), 'maintained' (<bibl><title corresp="ref:johnston1935"/><citedRange>II, 30</citedRange></bibl>), and is written a little higher than <hi>tāka</hi>, the last word of the gloss to the left (see above), and so apparently does not belong to it.</note><note corresp="#b3x" type="lingcomment"><hi>yamate</hi> is no regular form of any known Tocharian B verb. Closest in form would seem to be <hi>yamaṣṣate</hi> 'he did', for which it could be a mistake. If so, this would at once explain why the first and second syllable both have short <hi>a</hi>: in a regular non-causative preterite the second should be long, in a regular causative preterite the first. This mistake may have been favoured by the fact that in the late language the classical preterite with a 3sg.mid. <hi>yamaṣṣate</hi> had developed into a shorter stem with a 3sg.mid. <hi>maṣṣate*</hi> (the late stem is so far only attested in the active, i.e. 3sg. <hi>maṣṣa</hi>; <bibl><title corresp="ref:peyrot2008"/><citedRange>160</citedRange></bibl>). <hi>yam-</hi> 'do' is frequently used in phrasal verbs, and was probably used with a preceding frozen noun here as well, even though a suitable combination is not attested so far (cf. <bibl><title corresp="ref:meunier2013"/></bibl>).</note><note corresp="#b3x" type="philcomment">glosses Skt. Bc.2.53d <hi>(āca)kāṃkṣe</hi> (v.l. of <hi>ācakāṅkṣa</hi>, <bibl><title corresp="ref:johnston1935"/><citedRange>I, 19</citedRange></bibl>) 'expected, desired' (<bibl><title corresp="ref:olivelle2008"/><citedRange>55</citedRange></bibl>, 'sought').</note><note corresp="#b3y" type="philcomment">A further, fainter gloss is found to the right, starting with <hi>ra</hi> ///.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=SHT 2054b" type="external">SHT 2054b</ref></bibl>. </p>
+            <p><label>other</label><bibl><title corresp="ref:peyrot2014"/><citedRange>154-6</citedRange></bibl>; <bibl><title corresp="ref:hartmannju1988a"/><citedRange>59-60</citedRange></bibl>; <bibl><title corresp="ref:malzahn2007b"/><citedRange>312-3</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_editor_old"/>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;a2x&lt;/b&gt; glosses Skt. Bc.2.48d &lt;i&gt;(ārur)ukṣa(ṃ)&lt;/i&gt; 'wishing to ascend'.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a3x&lt;/b&gt; glosses Skt. Bc.2.49d &lt;i&gt;hiṃsrā°&lt;/i&gt; 'cruel, murderous', a text variant found in this fragment, the correct reading of the Buddhacarita text being rather &lt;i&gt;hiṃsā°&lt;/i&gt; 'injury' ([[Hartmann JU 1988a]]: 60; [[Johnston 1935-1936]]: I, 18).&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b1x&lt;/b&gt; glosses Skt. Bc.2.51d &lt;i&gt;(ka) iv&lt;/i&gt; 'like Ka'. Apparently the glossator preferred to replace Ka with the more common Brahman. A tiny piece of paper seems to cover the upper left stroke of the &lt;i&gt;p&lt;/i&gt;. A trace of a further gloss is found right of &lt;i&gt;ra&lt;u&gt;m&lt;/u&gt;&lt;sub&gt;\&lt;/sub&gt;&lt;/i&gt; under Bc.2.51d &lt;i&gt;ād(ikale)&lt;/i&gt; 'in the beginning'.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b2x&lt;/b&gt; The first item seems to gloss Skt. Bc.2.52d &lt;i&gt;dadarśa&lt;/i&gt; 'he regarded' ([[Olivelle 2008]]: 55), if we understand it as an explanatory gloss clarifying that &lt;i&gt;dadarśa&lt;/i&gt; here effectively means 'reigned over'. Schmidt apud [[Hartmann JU 1988a]]: 60 reads &lt;i&gt;(pe)lkiṃ&lt;/i&gt;, but no anusvāra is visible; the dot to the left of the &lt;i&gt;l&lt;/i&gt; probably belongs to the body of the &lt;i&gt;l&lt;/i&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b2y&lt;/b&gt; The second item glosses Skt. Bc.2.53a &lt;i&gt;babhā(ra)&lt;/i&gt;, here 'fostered' ([[Olivelle 2008]]: 55), 'maintained' ([[Johnston 1935-1936]]: II, 30), and is written a little higher than &lt;i&gt;tāka&lt;/i&gt;, the last word of the gloss to the left (see above), and so apparently does not belong to it.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b3x&lt;/b&gt; glosses Skt. Bc.2.53d &lt;i&gt;(āca)kāṃkṣe&lt;/i&gt; (v.l. of &lt;i&gt;ācakāṅkṣa&lt;/i&gt;, [[Johnston 1935-1936]]: I, 19) 'expected, desired' ([[Olivelle 2008]]: 55, 'sought').&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b3y&lt;/b&gt; A further, fainter gloss is found to the right, starting with &lt;i&gt;ra&lt;/i&gt; ///.&lt;/p&gt;</item>
+               <item n="m_passage_old">2.48a-54d</item>
+               <item n="file_modified_old">1539091786</item>
+               <item n="file_created_old">1445937935</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old">5</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=SHT 2054b" target="idp"&gt;SHT 2054b&lt;/a&gt;.&lt;br&gt;
+[[Peyrot 2014]]: 154-6; [[Hartmann JU 1988a]]: 59-60; [[Malzahn 2007b]]: 312-3.</item>
+               <item n="m_lingcomment_old">&lt;p&gt;&lt;b&gt;a2x&lt;/b&gt; The clasical form would be &lt;i&gt;añmassu&lt;/i&gt; ([[Adams, 2DoT]]: 43); &lt;i&gt;aimasu&lt;/i&gt;  is probably a late variant of it, although the precise status of the variant &lt;i&gt;āyme&lt;/i&gt; of the base word &lt;i&gt;āñme&lt;/i&gt; 'soul, self' has not been settled yet (cf. [[Peyrot 2008]]: 159-60). Most forms are from late texts or texts with late features: [[THT 289]]: a5 &lt;i&gt;āymtsa&lt;/i&gt; (late), [[THT 330]]: a1 &lt;i&gt;āymesa&lt;/i&gt; (late), [[THT 1393.c]]: a3 &lt;i&gt;āyme&lt;/i&gt; (fragmentary), [[THT 1575.a]]: a5 &lt;i&gt;āym°&lt;/i&gt; ? (late), [[THT 1635.a]]: b5 &lt;i&gt;āym&lt;/i&gt; (Tocharian text fragmentary). The problem is that we also find one archaic attestation: [[THT 1214]]: b4 &lt;i&gt;aymäntse&lt;/i&gt;. A similar variation is found with &lt;i&gt;añmālaṣke&lt;/i&gt; 'pitying' and the derived abstract: [[THT 1298]]: b1 &lt;i&gt;aym(ā)lāṣke&lt;/i&gt; (perhaps arch.), [[IOL Toch 139]]: a5 &lt;i&gt;āymelaṣkäññesa&lt;/i&gt; (a text with both arch. and late features).&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a3x&lt;/b&gt; The classical form would be &lt;i&gt;kāwälñesa&lt;/i&gt; (as in [[THT 358.a]]: b3 &lt;i&gt;kāwälñemeṃ&lt;/i&gt;, though we also find [[THT 102]]: 3 &lt;i&gt;kāwalyñesa&lt;/i&gt;): note the late simplification of &lt;i&gt;lñ&lt;/i&gt; to &lt;i&gt;ñ&lt;/i&gt; and the spelling of &lt;i&gt;wä&lt;/i&gt; as &lt;i&gt;wa&lt;/i&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b1x&lt;/b&gt; Note late &lt;i&gt;ram&lt;/i&gt; for class. &lt;i&gt;ramt&lt;/i&gt;. Conversely, the vocalism of &lt;i&gt;ñäkte&lt;/i&gt; seems clear and the expected late &lt;i&gt;ñikte&lt;/i&gt; is not found.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b2y&lt;/b&gt; &lt;i&gt;kamāta&lt;/i&gt; is the 3sg.pt. of &lt;i&gt;pər-&lt;/i&gt; 'bring'.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b3x&lt;/b&gt; &lt;i&gt;yamate&lt;/i&gt; is no regular form of any known Tocharian B verb. Closest in form would seem to be &lt;i&gt;yamaṣṣate&lt;/i&gt; 'he did', for which it could be a mistake. If so, this would at once explain why the first and second syllable both have short &lt;i&gt;a&lt;/i&gt;: in a regular non-causative preterite the second should be long, in a regular causative preterite the first. This mistake may have been favoured by the fact that in the late language the classical preterite with a 3sg.mid. &lt;i&gt;yamaṣṣate&lt;/i&gt; had developed into a shorter stem with a 3sg.mid. &lt;i&gt;maṣṣate*&lt;/i&gt; (the late stem is so far only attested in the active, i.e. 3sg. &lt;i&gt;maṣṣa&lt;/i&gt;; [[Peyrot 2008]]: 160). &lt;i&gt;yam-&lt;/i&gt; 'do' is frequently used in phrasal verbs, and was probably used with a preceding frozen noun here as well, even though a suitable combination is not attested so far (cf. [[Meunier 2013]]).&lt;/p&gt;</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_language_stage_old"/>
+               <item n="m_transliteration_old">a2x aimasu
+a3x kāwañesa
+b1x [p]r·_m\-[ñ]äkte ra_m\
+b2x /// lki(·) walo tāka
+b2y kamāte
+b3x /// [y]amate
+b3y ra ///</item>
+               <item n="date_publication_old"/>
+               <item n="m_image_old">http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=335975;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=335975;rotate=0;imageType=_M||SHT 2054.b recto and .a verso
+http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=335974;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=335974;rotate=0;imageType=_M||SHT 2054.b verso and .a recto</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_old">Siŋgim</item>
+               <item n="m_findspot_specific_old">[purchased]</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_completeness_old"/>
+               <item n="access_old">restricted</item>
+               <item n="m_lines_old">4+</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="file_location_old">pages/manuscript/sht2054b.txt</item>
+               <item n="project_check_old"/>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_subgenre_old">Gloss</item>
+               <item n="m_translation_old">a2x wishing
+a3x by killing
+b1x like Brahman
+b2x because [of ...] he was a king
+b2y brought
+b3x he did (?)
+b3y ...</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_prev_old"/>
+               <item n="user_modified_old">martin</item>
+               <item n="user_created_old">theres</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_title_old">Aśvaghoṣa, Buddhacarita</item>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old">a2x aimasu
+a3x kāwañesa
+b1x pr(a)m-ñäkte ramt|ram
+b2x /// (pe)lki(ṃ) walo tāka
+b2y kamāte
+b3x /// yamate
+b3y ra ///</item>
+               <item n="m_meter_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="project_comment_old"/>
+               <item n="ms_old">SHT 2054.b</item>
+               <item n="m_script_old"/>
+               <item n="m_parallels_old"/>
+               <item n="m_size_w_old">3,7</item>
+               <item n="m_expedition_old">T II S 50</item>
+               <item n="m_other_sigla_old"/>
+               <item n="m_language_old">Sanskrit+TB</item>
+               <item n="m_remarks_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

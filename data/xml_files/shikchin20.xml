@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-shikchin20">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Shikchin 20</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>CEToM</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <date when="2015-09-09">2015-09-09</date>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>IOM (St. Petersburg)</repository>
+                  <idno>Shikchin 20</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>wall</material>
+                           <objectType>Graffito</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Šorčuq</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="xto"/>
+            <language ident=""/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Non-literary</term>
+               <term type="subgenre">Painting caption</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone><unclear>s</unclear><gap reason="plain" unit="part"/></zone><zone>lā</zone><zone>॥</zone><zone><gap reason="plain" unit="part"/>ā</zone><zone><unclear>k</unclear><gap reason="plain" unit="part"/></zone><zone>nt<gap reason="plain" unit="part"/></zone><zone>wta<unclear>¯</unclear></zone><zone><unclear>¯</unclear><unclear>R</unclear></zone><zone>॥</zone><zone>s<unclear>e</unclear></zone><zone>bho</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone><unclear>h</unclear>w<gap reason="plain" unit="part"/></zone><zone>KA</zone><zone>lyTRA</zone><zone>॥</zone><zone>SA¯</zone><zone>¯S</zone><zone>śrā</zone><zone>ddhe</zone><zone>se<gap reason="par" unit="part"/></zone><zone>m<gap reason="plain" unit="part"/>¯</zone><zone>¯R</zone><zone>॥</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><w>s<gap reason="plain" unit="part"/>lā</w><pc>॥</pc><w><gap reason="plain" unit="part"/>āk<gap reason="plain" unit="part"/>nt<gap reason="plain" unit="part"/>wtar</w><pc>॥</pc><w>se</w><w>bho</w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><w>hw<gap reason="plain" unit="part"/></w><w>kälyträ</w><pc>॥</pc><w>säs</w><w>śrāddhe</w><w>se<supplied>r</supplied>m<supplied>i</supplied>r</w><pc>॥</pc></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a2"><seg><seg type="prim_transl">... stands. This believer [is] Sirmir (?).</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="philcomment">Transliteration by <bibl><title corresp="ref:ogihara2014"/><citedRange>121</citedRange></bibl>, translation based on him. The language of the first caption is unclear, the second is clearly TA. Ogihara compares the name to the Chinese proper name <hi>Sirmir</hi> attested in Uyghur documents (as per p.c. by Prof. Matsui and Dr. Kitsudo).</note><note type="remarks">Two captions above a wall painting labeled "Tocharian Donors in Black Hats" on exhibition in the Hermitage Museum, St. Petersburg (<bibl><title corresp="ref:ogihara2014"/><citedRange>120, fn. 21</citedRange></bibl>).</note><note type="remarks">The press mark used here is provisorial.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Image</label><bibl><title corresp="ref:dyakonova2011"/><citedRange>346-349</citedRange></bibl> plate 20. </p>
+            <p><label>Edition</label><bibl><title corresp="ref:ogihara2014"/><citedRange>120-121</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="category_old">manuscript</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="user_modified_old">theres</item>
+               <item n="user_created_old">melanie</item>
+               <item n="m_prev_old"/>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_subgenre_old">Painting caption</item>
+               <item n="m_translation_old">2 ... stands. This believer [is] Sirmir (?).</item>
+               <item n="m_parallels_old"/>
+               <item n="ms_old">Shikchin 20</item>
+               <item n="project_comment_old"/>
+               <item n="m_script_old"/>
+               <item n="m_other_sigla_old"/>
+               <item n="m_remarks_old">&lt;p&gt;Two captions above a wall painting labeled "Tocharian Donors in Black Hats" on exhibition in the Hermitage Museum, St. Petersburg ([[Ogihara 2014]]: 120, fn. 21).&lt;/p&gt; 
+&lt;p&gt;The press mark used here is provisorial.&lt;/p&gt;</item>
+               <item n="m_language_old">TA+Unknown</item>
+               <item n="m_expedition_old"/>
+               <item n="m_size_w_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old">1 /// &lt;i&gt;s·lā || ·āk·nt·wtar || se bho &lt;/i&gt; ///
+2 /// hw· kälyträ || säs śrāddhe_(TA)|śrāddhe se(r)m(i)r ||</item>
+               <item n="m_title_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_genre_old">Non-literary</item>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_bib_old">Image: [[Dyakonova 2011]]: 346-349, plate 20.&lt;br&gt;
+Edition: [[Ogihara 2014]]: 120-121.</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old"/>
+               <item n="m_image_old"/>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_transliteration_old">1 /// [s]·lā || ·ā[k]·nt·wta[_r\] || s[e] bho ///
+2 /// [h]w· _k_aly_t_r_a || _s_a_s\ śrāddhe se(·)m·_r\ ||</item>
+               <item n="date_publication_old">2015-09-09</item>
+               <item n="m_editor_old">CEToM</item>
+               <item n="m_philcomment_old">&lt;p&gt;Transliteration by [[Ogihara 2014]]: 121, translation based on him. The language of the first caption is unclear, the second is clearly TA. Ogihara compares the name to the Chinese proper name &lt;i&gt;Sirmir&lt;/i&gt; attested in Uyghur documents (as per p.c. by Prof. Matsui and Dr. Kitsudo).&lt;/p&gt;</item>
+               <item n="m_passage_old"/>
+               <item n="m_material_old">Ink on wall</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old"/>
+               <item n="file_modified_old">1485169429</item>
+               <item n="file_created_old">1441798096</item>
+               <item n="access_old">public</item>
+               <item n="m_lines_old"/>
+               <item n="m_collection_old">IOM (St. Petersburg)</item>
+               <item n="m_completeness_old"/>
+               <item n="file_location_old">pages/manuscript/shikchin20.txt</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Šorčuq</item>
+               <item n="m_form_old">Graffito</item>
+               <item n="m_linedistance_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

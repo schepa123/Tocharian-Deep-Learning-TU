@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht4083d">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 4083.d</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 4083.d</idno>
+                  <altIdentifier>
+                     <idno>SHT 1098.d</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">5</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Murtuq</region>during <rs type="expedition_code">T III M 132, T III M 143, T III M 145</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="xto"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Gloss</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=336161;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=336161;rotate=0;imageType=_M"/>
+            <line n="4" xml:id="a4"><zone>klā</zone><zone>wa</zone><zone>ṣ<unclear>T</unclear>Rä</zone></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=336162;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=336162;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="b1"><zone>śa</zone><zone>rKA</zone><zone><unclear>pa</unclear><unclear>¯</unclear></zone><zone><unclear>¯</unclear><unclear>T</unclear></zone></line>
+            <line n="5" xml:id="b5"><zone><unclear>ñ</unclear>u</zone><zone>ñu</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a4"/><w>klāwaṣträ</w>
+<lb corresp="#b1"/><w>śarkä</w><w>pat</w>
+<lb corresp="#b5"/><w>ñuñu</w></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a4"><seg><seg type="prim_transl">(s)he calls</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">or he burnt</seg></seg></choice><choice corresp="#b5"><seg><seg type="prim_transl">[unclear]</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note corresp="#a4" type="lingcomment"><bibl><title corresp="ref:malzahn2007b"/><citedRange>305</citedRange></bibl> reads <hi>klāwat<hi rend="underline">ra</hi></hi>, which cannot be correct. On top of the akṣara <hi>ṣ[<hi rend="underline">t</hi>]<hi rend="underline">r</hi>ä</hi> a horizontal line is found that is apparently not to be taken as  an anusvāra; a suffixed <hi>klāwaṣ[<hi rend="underline">t</hi>]<hi rend="underline">r</hi>-äṃ</hi> would not be expected on the basis of the Sanskrit text anyhow. <hi>klāwaṣ[<hi rend="underline">t</hi>]<hi rend="underline">r</hi>ä</hi> probably stands for <hi>klāwäṣträ*</hi> (with <hi>wa</hi> for <hi>wä</hi>), the 3sg.prs. of the otherwise unattested caus. <hi>klāw-</hi>, caus., 'call; recite'. Apparently, the 3sg. mistakenly glosses the 3pl. of the Sanskrit text.</note><note corresp="#a4" type="philcomment">glosses Skt. <hi>paṭhaṃti</hi> 'they recite' (<bibl><title corresp="ref:waldschmidt1968"/><citedRange>106</citedRange></bibl>.</note><note corresp="#b1" type="lingcomment">This gloss is difficult to interpret for a number of reasons. First of all, <hi>śarkä</hi> seems to be only the beginning of a word, since no TA word ends in <hi>-ä</hi> and a corrected reading <hi>śark</hi> does not yield any known form. On the assumption that it is to be completed as a finite verbal form, the most likely verb from a grammatical point of view is <hi>kärk-</hi> 'bind'. for which an <hi>s-</hi>preterite is attested. This would result in a 3sg.pt. <hi>śarkä〈s〉</hi> 'bound'. However, this meaning does not fit the context at all. A second verb fits the context much better: <hi>t<hi rend="superscript">s</hi>ärk-</hi> 'torment'. For this verb, the meaning 'burn' is attested in TB, and it fits the story inasfar as ultimately king Māghandika pays back his daughter, who has made it possible that he has become king, by burning her rival and her rival's 500 harem women (<bibl><title corresp="ref:waldschmidt1968"/><citedRange>107</citedRange></bibl>). This interpretation can, however, only be put forward with caution, since the TA verb <hi>t<hi rend="superscript">s</hi>ärk-</hi> is only attested with a vn <hi>tsärślune</hi> 'torment', which may well have to be explained as an isolated remnant of a verb that has otherwise disappeared from the language. Nevertheless, this verb very probably did form an <hi>s-</hi> preterite originally (<bibl><title corresp="ref:peyrot2013b"/><citedRange>845</citedRange></bibl>). A further assumption that is needed is that the Tocharian glossator misunderstood the Sanskrit construction and glossed <hi>pratikṛtaṃ</hi> as if it were an isolated participle, i.e. 'paid back' (as it is translated above). In fact, it is part of a compound tense: <hi>kiṃ mayā tasyāḥ kṛtaṃ vā syāt pratikṛtaṃ vā</hi> 'Was könnte von mir für sie getan oder in Vergeltung getan werden?' ['What could be done by me for her, or done to pay back?'] (Waldschmidt, l.c.).</note><note corresp="#b1" type="philcomment">possibly explains Skt. <hi>pratikṛtaṃ vā</hi> 'or paid back' (on the actual meaning in the context, see below).</note><note corresp="#b5" type="lingcomment">This gloss, which might also have <hi>[n]u</hi> as its first akṣara, is unclear. At the right edge of the same line. a further gloss <hi>t·</hi> /// is found, glossing <hi>dvigu(ṇaṃ)</hi> 'double' or the following word, which is lost. Excluded are in any case TA <hi>wäṣt</hi> 'double' and <hi>treyo</hi> 'thrice'.</note><note corresp="#b5" type="philcomment">glosses Skt. <hi>sthāpitāḥ</hi> 'established' (cf. <bibl><title corresp="ref:waldschmidt1968"/><citedRange>108</citedRange></bibl>, '... Die dort als Verwalter eingesetzt waren' ['... who were instated as stewards there']).</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 4083" type="external">THT 4083</ref></bibl><bibl><title corresp="ref:peyrot2014"/><citedRange>133, 141-3</citedRange></bibl>; <bibl><title corresp="ref:peyrot2013b"/><citedRange>743</citedRange></bibl>; <bibl><title corresp="ref:peyrot2013a"/><citedRange>243</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_meter_old"/>
+               <item n="m_transcription_old">a4 klāwaṣträ
+b1 śarkä pat
+b5 ñuñu</item>
+               <item n="m_leaf_old"/>
+               <item n="m_title_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_script_old"/>
+               <item n="project_comment_old"/>
+               <item n="ms_old">THT 4083.d</item>
+               <item n="m_parallels_old"/>
+               <item n="m_size_w_old"/>
+               <item n="m_expedition_old">T III M 132, T III M 143, T III M 145</item>
+               <item n="m_remarks_old"/>
+               <item n="m_language_old">Sanskrit+TA</item>
+               <item n="m_other_sigla_old">SHT 1098.d</item>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_translation_old">a4 (s)he calls
+b1 or he burnt
+b5 [unclear]</item>
+               <item n="m_subgenre_old">Gloss</item>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_prev_old"/>
+               <item n="user_created_old">michael</item>
+               <item n="user_modified_old">martin</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_old">Murtuq</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_linedistance_old"/>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_lines_old">5</item>
+               <item n="access_old">restricted</item>
+               <item n="file_location_old">pages/manuscript/tht4083d.txt</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;a4&lt;/b&gt; glosses Skt. &lt;i&gt;paṭhaṃti&lt;/i&gt; 'they recite' ([[Waldschmidt 1968]]: 106.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b1&lt;/b&gt; possibly explains Skt. &lt;i&gt;pratikṛtaṃ vā&lt;/i&gt; 'or paid back' (on the actual meaning in the context, see below).&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b5&lt;/b&gt; glosses Skt. &lt;i&gt;sthāpitāḥ&lt;/i&gt; 'established' (cf. [[Waldschmidt 1968]]: 108, '... Die dort als Verwalter eingesetzt waren' ['... who were instated as stewards there']).&lt;/p&gt;</item>
+               <item n="m_editor_old"/>
+               <item n="file_created_old">1390571270</item>
+               <item n="file_modified_old">1479955603</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old"/>
+               <item n="m_lingcomment_old">&lt;p&gt;&lt;b&gt;a4.&lt;/b&gt; [[Malzahn 2007b]]: 305 reads &lt;i&gt;klāwat&lt;u&gt;ra&lt;/u&gt;&lt;/i&gt;, which cannot be correct. On top of the akṣara &lt;i&gt;ṣ[&lt;u&gt;t&lt;/u&gt;]&lt;u&gt;r&lt;/u&gt;ä&lt;/i&gt; a horizontal line is found that is apparently not to be taken as  an anusvāra; a suffixed &lt;i&gt;klāwaṣ[&lt;u&gt;t&lt;/u&gt;]&lt;u&gt;r&lt;/u&gt;-äṃ&lt;/i&gt; would not be expected on the basis of the Sanskrit text anyhow. &lt;i&gt;klāwaṣ[&lt;u&gt;t&lt;/u&gt;]&lt;u&gt;r&lt;/u&gt;ä&lt;/i&gt; probably stands for &lt;i&gt;klāwäṣträ*&lt;/i&gt; (with &lt;i&gt;wa&lt;/i&gt; for &lt;i&gt;wä&lt;/i&gt;), the 3sg.prs. of the otherwise unattested caus. &lt;i&gt;klāw-&lt;/i&gt;, caus., 'call; recite'. Apparently, the 3sg. mistakenly glosses the 3pl. of the Sanskrit text.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b1.&lt;/b&gt; This gloss is difficult to interpret for a number of reasons. First of all, &lt;i&gt;śarkä&lt;/i&gt; seems to be only the beginning of a word, since no TA word ends in &lt;i&gt;-ä&lt;/i&gt; and a corrected reading &lt;i&gt;śark&lt;/i&gt; does not yield any known form. On the assumption that it is to be completed as a finite verbal form, the most likely verb from a grammatical point of view is &lt;i&gt;kärk-&lt;/i&gt; 'bind'. for which an &lt;i&gt;s-&lt;/i&gt;preterite is attested. This would result in a 3sg.pt. &lt;i&gt;śarkä〈s〉&lt;/i&gt; 'bound'. However, this meaning does not fit the context at all. A second verb fits the context much better: &lt;i&gt;t&lt;sup&gt;s&lt;/sup&gt;ärk-&lt;/i&gt; 'torment'. For this verb, the meaning 'burn' is attested in TB, and it fits the story inasfar as ultimately king Māghandika pays back his daughter, who has made it possible that he has become king, by burning her rival and her rival's 500 harem women ([[Waldschmidt 1968]]: 107). This interpretation can, however, only be put forward with caution, since the TA verb &lt;i&gt;t&lt;sup&gt;s&lt;/sup&gt;ärk-&lt;/i&gt; is only attested with a vn &lt;i&gt;tsärślune&lt;/i&gt; 'torment', which may well have to be explained as an isolated remnant of a verb that has otherwise disappeared from the language. Nevertheless, this verb very probably did form an &lt;i&gt;s-&lt;/i&gt; preterite originally ([[Peyrot, ToSu]]: 845). A further assumption that is needed is that the Tocharian glossator misunderstood the Sanskrit construction and glossed &lt;i&gt;pratikṛtaṃ&lt;/i&gt; as if it were an isolated participle, i.e. 'paid back' (as it is translated above). In fact, it is part of a compound tense: &lt;i&gt;kiṃ mayā tasyāḥ kṛtaṃ vā syāt pratikṛtaṃ vā&lt;/i&gt; 'Was könnte von mir für sie getan oder in Vergeltung getan werden?' ['What could be done by me for her, or done to pay back?'] (Waldschmidt, l.c.).&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b5.&lt;/b&gt; This gloss, which might also have &lt;i&gt;[n]u&lt;/i&gt; as its first akṣara, is unclear. At the right edge of the same line. a further gloss &lt;i&gt;t·&lt;/i&gt; /// is found, glossing &lt;i&gt;dvigu(ṇaṃ)&lt;/i&gt; 'double' or the following word, which is lost. Excluded are in any case TA &lt;i&gt;wäṣt&lt;/i&gt; 'double' and &lt;i&gt;treyo&lt;/i&gt; 'thrice'.&lt;/p&gt;</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 4083" target="idp"&gt;THT 4083&lt;/a&gt;, [[Peyrot 2014]]: 133, 141-3; [[Peyrot, ToSu]]: 743; [[Peyrot 2013a]]: 243.</item>
+               <item n="date_publication_old"/>
+               <item n="m_language_stage_old"/>
+               <item n="m_transliteration_old">a4 klāwaṣ[_t]_rä
+b1 śar_k_a [pa_t\]
+b5 [ñ]uñu</item>
+               <item n="m_image_old">http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=336161;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=336161;rotate=0;imageType=_M||$page; recto
+http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=336162;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=336162;rotate=0;imageType=_M||$page; verso</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

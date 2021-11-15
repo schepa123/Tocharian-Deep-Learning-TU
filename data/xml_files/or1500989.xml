@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-or1500989">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Or 15009.89</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library (London)</repository>
+                  <idno>Or 15009.89</idno>
+                  <altIdentifier>
+                     <idno>Or.15009/89</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="txb"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Gloss</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=112227;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=112227;rotate=0;imageType=_M"/>
+            <line n="4" xml:id="b4x"><zone>ka</zone><zone><unclear>r</unclear>sa</zone><zone>na</zone><zone>l<unclear>e</unclear></zone></line>
+            <line n="4" xml:id="b4y"><zone>ka</zone><gap reason="plain" quantity="1"/></line>
+            <line n="5" xml:id="b5x"><gap reason="editorial"/></line>
+            <line n="5" xml:id="b5y"><zone>wa</zone><zone>k<unclear>ī</unclear></zone><zone>pa</zone><zone>ke</zone><zone><unclear>ñ</unclear>e</zone></line>
+            <line n="6" xml:id="b6x"><gap reason="editorial"/></line>
+            <line n="6" xml:id="b6y"><gap reason="editorial"/></line>
+            <line n="6" xml:id="b6z"><zone>po</zone><zone>o</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#b4x"/><w>karsanale</w>
+<lb corresp="#b4y"/><w>ka</w><gap reason="plain" quantity="1"/>
+<lb corresp="#b5x"/><gap reason="editorial"/>
+<lb corresp="#b5y"/><w>wakī-pakeñe</w>
+<lb corresp="#b6x"/><gap reason="editorial"/>
+<lb corresp="#b6y"/><gap reason="editorial"/>
+<lb corresp="#b6z"/><w>po</w><w>o<supplied>nolmi</supplied></w></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#b4x"><seg><seg type="prim_transl">to be recognized</seg></seg></choice><choice corresp="#b5y"><seg><seg type="prim_transl">belonging to a distinction part</seg></seg></choice><choice corresp="#b6z"><seg><seg type="prim_transl">all b(eings)</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note corresp="#b4x" type="lingcomment"><hi>karsanale</hi>: <bibl><title corresp="ref:tamai2009"/><citedRange>662</citedRange></bibl> reads <hi>... sa na la</hi>. The classical form of this word is <hi>kärsanalle</hi>.</note><note corresp="#b4x" type="philcomment"><hi>karsanale</hi> glosses Skt. <hi>'bhijñeyaḥ</hi> 'to be recognised (intuitively)'. The <hi>r</hi> of the akṣara <hi>[r]sa</hi> is inclined very far to the right and difficult to read.</note><note corresp="#b5y" type="lingcomment"><hi>wakī-pakeñe</hi>: <bibl><title corresp="ref:tamai2009"/><citedRange>661</citedRange></bibl> reads <hi>wa ki pa ke ...</hi> suggesting a connection with <hi>wāki</hi> 'difference' and <hi>pakenta</hi> 'parts'. In my view, it is more likely that it is one word, and that the last akṣara is a deformed <hi>ñe</hi>. Obviously, the Tocharian gloss is literal and impossible to understand without recourse to the Sanskrit model.</note><note corresp="#b5y" type="philcomment"><hi>wakī-pakeñe</hi> glosses Skt. <hi>viśeṣabhāgīya</hi> 'zur Vorzüglichkeit führend' ('leading to excellence', <bibl><title corresp="ref:swft1973"/></bibl>: IV, 137b).</note><note corresp="#b6z" type="lingcomment"><hi>po o(nolmi)</hi>. <bibl><title corresp="ref:tamai2009"/><citedRange>662</citedRange></bibl> reads <hi>[v]yo tu</hi>.</note><note corresp="#b6z" type="philcomment"><hi>po o(nolmi)</hi> glosses Skt. <hi>sarv(asatvā)</hi> (<bibl><title corresp="ref:hartmannju1991"/></bibl>; <bibl><title corresp="ref:mittal1957"/><citedRange>55</citedRange></bibl>, I.9).</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>other</label><bibl><title corresp="ref:peyrot2015b"/><citedRange>122-123</citedRange></bibl>.</p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=Or.15009/89" type="external">Or.15009/89</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_prev_old"/>
+               <item n="user_modified_old">martin</item>
+               <item n="user_created_old">theres</item>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_subgenre_old">Gloss</item>
+               <item n="m_translation_old">b4x to be recognized
+b5y belonging to a distinction part
+b6z all b(eings)</item>
+               <item n="project_check_old">transliteration+transcription+line numbers+incomplete</item>
+               <item n="m_metric_form_old"/>
+               <item n="m_tune_old"/>
+               <item n="m_size_w_old"/>
+               <item n="m_expedition_old"/>
+               <item n="m_other_sigla_old">Or.15009/89</item>
+               <item n="m_language_old">Sanskrit+TB</item>
+               <item n="m_remarks_old"/>
+               <item n="project_comment_old">&lt;p&gt;The sequence and separation of the glosses has to be corrected. According to the photo there are &lt;u&gt;at least&lt;/u&gt; 6 glosses on the "verso" (?) side. Please check and correct! Transcription as of 2019-03-21 has been:
+&lt;b&gt;bx&lt;/b&gt; &lt;i&gt;wakī-pakeñe&lt;/i&gt;
+&lt;b&gt;by&lt;/b&gt; &lt;i&gt;karsanale&lt;/i&gt;
+&lt;b&gt;bz&lt;/b&gt; &lt;i&gt;po o(nolmi)&lt;/i&gt;
+–Martin (Thu, 2019-03-21, 20:45:26 (CET))&lt;/p&gt;</item>
+               <item n="ms_old">Or 15009.89</item>
+               <item n="m_script_old"/>
+               <item n="m_parallels_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_transcription_old">b4x kärsanalle|karsanale
+b4y ka –
+b5x ...
+b5y wakī-pakeñe
+b6x ...
+b6y ...
+b6z po o(nolmi)</item>
+               <item n="m_leaf_old"/>
+               <item n="m_title_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_language_stage_old"/>
+               <item n="m_transliteration_old">b4x ka[r]sanal[e]
+b4y ka –
+b5x ...
+b5y wak[ī]-pake[ñ]e
+b6x ...
+b6y ...
+b6z po o – ///</item>
+               <item n="date_publication_old"/>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=112226;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=112226;rotate=0;imageType=_M||$page; recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=112227;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=112227;rotate=0;imageType=_M||$page; verso</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bl.uk/database/oo_loader.a4d?pm=Or.15009/89"&gt;Or.15009/89&lt;/a&gt;.&lt;br&gt;
+[[Peyrot 2015b]]: 122-123.</item>
+               <item n="m_lingcomment_old">&lt;p&gt;&lt;b&gt;b4x&lt;/b&gt; &lt;i&gt;karsanale&lt;/i&gt;: [[Tamai 2009]]: 662 reads &lt;i&gt;... sa na la&lt;/i&gt;. The classical form of this word is &lt;i&gt;kärsanalle&lt;/i&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b5y&lt;/b&gt; &lt;i&gt;wakī-pakeñe&lt;/i&gt;: [[Tamai 2009]]: 661 reads &lt;i&gt;wa ki pa ke ...&lt;/i&gt; suggesting a connection with &lt;i&gt;wāki&lt;/i&gt; 'difference' and &lt;i&gt;pakenta&lt;/i&gt; 'parts'. In my view, it is more likely that it is one word, and that the last akṣara is a deformed &lt;i&gt;ñe&lt;/i&gt;. Obviously, the Tocharian gloss is literal and impossible to understand without recourse to the Sanskrit model.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b6z&lt;/b&gt; &lt;i&gt;po o(nolmi)&lt;/i&gt;. [[Tamai 2009]]: 662 reads &lt;i&gt;[v]yo tu&lt;/i&gt;.&lt;/p&gt;</item>
+               <item n="m_manuscript_old"/>
+               <item n="file_modified_old">1582734718</item>
+               <item n="file_created_old">1460966369</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;b4x&lt;/b&gt; &lt;i&gt;karsanale&lt;/i&gt; glosses Skt. &lt;i&gt;'bhijñeyaḥ&lt;/i&gt; 'to be recognised (intuitively)'. The &lt;i&gt;r&lt;/i&gt; of the akṣara &lt;i&gt;[r]sa&lt;/i&gt; is inclined very far to the right and difficult to read.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b5y&lt;/b&gt; &lt;i&gt;wakī-pakeñe&lt;/i&gt; glosses Skt. &lt;i&gt;viśeṣabhāgīya&lt;/i&gt; 'zur Vorzüglichkeit führend' ('leading to excellence', [[SWTF]]: IV, 137b).&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b6z&lt;/b&gt; &lt;i&gt;po o(nolmi)&lt;/i&gt; glosses Skt. &lt;i&gt;sarv(asatvā)&lt;/i&gt; ([[Hartmann JU 1991]]; [[Mittal 1957]]: 55, I.9).&lt;/p&gt;</item>
+               <item n="file_location_old">pages/manuscript/or1500989.txt</item>
+               <item n="m_completeness_old"/>
+               <item n="access_old">restricted</item>
+               <item n="m_lines_old"/>
+               <item n="m_collection_old">British Library (London)</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Unknown</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;The sequence and separation of the glosses has to be corrected. According to the photo there are &lt;hi rend="underline"&gt;at least&lt;/hi&gt; 6 glosses on the "verso" (?) side. Please check and correct! Transcription as of 2019-03-21 has been:
+&lt;b&gt;bx&lt;/b&gt; &lt;hi&gt;wakī-pakeñe&lt;/hi&gt;
+&lt;b&gt;by&lt;/b&gt; &lt;hi&gt;karsanale&lt;/hi&gt;
+&lt;b&gt;bz&lt;/b&gt; &lt;hi&gt;po o(nolmi)&lt;/hi&gt;
+–Martin (Thu, 2019-03-21, 20:45:26 (CET))&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

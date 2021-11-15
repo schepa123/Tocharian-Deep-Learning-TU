@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-pkas10">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PK AS 10</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Georges-Jean Pinault</name>
+            </respStmt>
+            <respStmt>
+               <resp>collaborator</resp>
+               <name>Melanie Malzahn</name>
+            </respStmt>
+            <respStmt>
+               <resp>collaborator</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <date when="2014-02">February 2014</date>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</repository>
+                  <idno>PK AS 10</idno>
+                  <altIdentifier>
+                     <idno>Pelliot Koutchéen Ancienne Série 10</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>P 4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>6,2</height>
+                              <width>9,5</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <dimensions type="line_spacing">
+                              <height>0,9</height>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Qumtura</region>during <rs type="expedition_code">M 498, 2</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Medicine/Magic</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f91.zoom"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f91.highres"/>
+            <graphic url="ASHuard/AS10a.png" height="998px" width="1401px"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone>¯T</zone><zone>sū</zone><zone>ṣa</zone><zone>lype</zone><zone>yo</zone><zone>ka</zone><zone>lle</zone><zone>ṣe</zone><zone>tu</zone><zone>meṃ</zone><zone><gap reason="par" unit="part"/>r<gap reason="par" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone><gap reason="par" unit="part"/>s<gap reason="par" unit="part"/></zone><zone>e</zone><zone>ka</zone><zone>lymi</zone><zone>MA</zone><zone>ske</zone><zone>TA</zone><zone>rne</zone><zone>o</zone><zone>tka</zone><zone>te</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone><unclear>ṣ</unclear><gap reason="par" unit="part"/>¯</zone><zone>¯P</zone><zone>॥</zone><zone>ña</zone><zone>ke</zone><zone>no</zone><zone>te</zone><zone>ntse</zone><zone>u</zone><zone>pa</zone><zone>cā</zone><zone><unclear>R</unclear>A</zone><zone><unclear>w</unclear><gap reason="par" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><zone><gap reason="par" unit="part"/>m<gap reason="par" unit="part"/></zone><zone>ka</zone><zone>rtse</zone><zone>ne</zone><zone>ssi</zone><zone>śā</zone><zone>ñca</zone><zone>po</zone><zone>te</zone><zone>sa</zone><zone>n<gap reason="par" unit="part"/></zone><zone>s<gap reason="par" unit="part"/>ai</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><gap reason="lost"/><zone><gap reason="par" unit="part"/>ñ<gap reason="par" unit="part"/></zone><zone>yä</zone><zone>nmā</zone><zone>ṢṢAṃ</zone><zone>•</zone><zone>krui</zone><zone>no</zone><zone>lā</zone><zone><unclear>nt</unclear>so</zone><zone><unclear>m</unclear><gap reason="par" unit="part"/><unclear>a</unclear></zone><gap reason="lost"/></line>
+            <line n="6" xml:id="a6"><gap reason="lost"/><zone>llo¯</zone><zone>¯Kä</zone><zone>mai</zone><zone>yyā</zone><zone>tstsai</zone><zone>klai</zone><zone>n<unclear>o</unclear></zone><zone>ku</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f92.zoom"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f92.highres"/>
+            <graphic url="ASHuard/AS10b.png" height="997px" width="1401px"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone><unclear>n</unclear>a</zone><zone>pa</zone><zone>tā</zone><zone><unclear>cca</unclear></zone><zone>MA</zone><zone>ske</zone><zone>TA</zone><zone>rn<gap reason="par" unit="part"/></zone><zone>:</zone><zone>ś<gap reason="par" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone>¯L</zone><zone>te</zone><zone>sa</zone><zone>nä</zone><zone>ssai</zone><zone>tya</zone><zone>ma</zone><zone>ṣlya</zone><zone>20-<unclear>1</unclear></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><zone>kau</zone><zone>ṣa</zone><zone>lye</zone><zone>•</zone><zone><unclear>se</unclear></zone><zone>śau</zone><zone><unclear>mo</unclear></zone><zone>ntse</zone><zone>te</zone><zone>sa</zone><zone>pi</zone><zone>ś<gap reason="par" unit="part"/><gap reason="par" unit="part"/></zone><zone>y<gap reason="par" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><zone>ṣle</zone><zone>KA</zone><zone>nte</zone><zone>o¯</zone><zone>¯KT</zone><zone>cau</zone><zone>ña</zone><zone>tse</zone><zone>meṃ</zone><zone><unclear>tSA</unclear></zone><zone>l<gap reason="par" unit="part"/>e</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><gap reason="lost"/><zone>t<unclear>e</unclear></zone><zone>kte</zone><zone>sa</zone><zone>ka</zone><zone>pi</zone><zone>lle</zone><zone>cce</zone><zone>pi</zone><zone>•</zone><zone>krui</zone><zone>ā</zone><zone><unclear>ñ</unclear><gap reason="par" unit="part"/>e</zone><gap reason="lost"/></line>
+            <line n="6" xml:id="b6"><gap reason="lost"/><zone><unclear>y</unclear><gap reason="par" unit="part"/><unclear>ṃ</unclear></zone><zone>e</zone><zone>rke</zone><zone>nma</zone><zone>meṃ</zone><zone>tau¯</zone><zone>¯R</zone><zone>pra</zone><zone>lle</zone><zone>te</zone><zone>sa</zone><zone>nä</zone><zone>s<gap reason="par" unit="part"/><unclear>ai</unclear></zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><w>-t</w><w>sū</w><w>ṣalype</w><w>yokalle</w><w>ṣe</w><w>tumeṃ</w><w><gap reason="plain" unit="part"/>r<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><w><supplied>-t</supplied>s<gap reason="plain" unit="part"/></w><w>ekalymi</w><w>mäsketär-ne</w><w>ot</w><w>ka</w><w>te</w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><w>ṣ<supplied>a</supplied>p</w><pc>॥</pc><w>ñake</w><w>no</w><w>tentse</w><w>upacār<surplus>ä</surplus></w><w>w<supplied>eñau</supplied></w><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="lost"/><w><supplied>kete</supplied></w><w><supplied>āñ</supplied>m<supplied>e</supplied></w><w>kartse</w><w>nessi</w><w>śāñcapo</w><w>tesa</w><w>n<supplied>ä</supplied>s<supplied>s</supplied>ai<supplied>t</supplied></w><w><supplied>yamaṣle</supplied></w><gap reason="lost"/>
+<lb corresp="#a5"/><gap reason="lost"/><w><supplied>-ñ</supplied>ñ<supplied>e</supplied></w><w>yänmāṣṣäṃ</w><pc>•</pc><w>krUi</w><w>no</w><w>lāntsom<supplied>p</supplied>a</w><gap reason="lost"/>
+<lb corresp="#a6"/><gap reason="lost"/><w><supplied>krUi</supplied></w><w><supplied>no</supplied></w><w><supplied>a</supplied>llok</w><w>maiyyātstsai</w><w>klaino</w><w>ku<supplied>rpelle</supplied></w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><w><supplied>a</supplied>napatācca</w><w>mäsketär-n<supplied>e</supplied></w><pc>:</pc><w>ś<gap reason="plain" unit="part"/><milestone unit="w" type="break"/></w><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><w>-l</w><w>tesa</w><w>nässait</w><w>yamaṣlya</w><num value="21">20-1</num><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><w>kauṣalye</w><pc>•</pc><w>se</w><w>śaumontse</w><w>tesa</w><w>piś</w><w><supplied>l</supplied>y<supplied>kwarwa</supplied></w><gap reason="lost"/>
+<lb corresp="#b4"/><gap reason="lost"/><w><supplied>yama</supplied>ṣle</w><w>känte</w><w>okt</w><w>cau</w><w>ñatsemeṃ</w><w>tsäl<supplied>p</supplied>e<supplied>lñe</supplied></w><gap reason="lost"/>
+<lb corresp="#b5"/><gap reason="lost"/><w>tek</w><w>tesa</w><w>kapilleccepi</w><pc>•</pc><w>krUi</w><w>āñ<supplied>m</supplied>e</w><gap reason="lost"/>
+<lb corresp="#b6"/><gap reason="lost"/><w>-y<gap reason="plain" unit="part"/>ṃ</w><w>erkenmameṃ</w><w>taur</w><w>pralle</w><w>tesa</w><w>näs<supplied>s</supplied>ai<supplied>t</supplied></w><w><supplied>yamaṣle</supplied></w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">... this oil [is] to be drunk. The one who afterwards ...</seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">... will be subject to him. Then indeed this ...</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">... in addition. But now (I will) tell the practice of this ...</seg></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl">... To whom [is] the desire of being beautiful, Dalbergia sisu [is to be used], with that [one should] (cast) a spell ...</seg></seg></choice><choice corresp="#a5"><seg><seg type="prim_transl">... he obtains the ... But if (he wants to be friend?) with the queen ... </seg></seg></choice><choice corresp="#a6"><seg><seg type="prim_transl">... (But if he should) ca(re) about another mighty woman ...</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">.... she becomes infertile [lit. characterized with childlessness] for him ... </seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">... with that a spell [is] to be cast on her/it [fem.]. 21. ...</seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl">... (with this) [is] to be killed. This [animal] (?) should be (bewitched) five (times) with that by a man ...</seg></seg></choice><choice corresp="#b4"><seg><seg type="prim_transl">... [one should ca]st (a spell) one hundred eight [times]. (One obtains liber)ation from this danger ...</seg></seg></choice><choice corresp="#b5"><seg><seg type="prim_transl">... this precisely with that for the one [who is] feverish. If (one has) the desire ...</seg></seg></choice><choice corresp="#b6"><seg><seg type="prim_transl">... from the cemeteries dust [is] to be brought, with this a spe(ll is to be cast) ...</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">Small fragment from the middle of a leaf. It does not belong with the other P-series fragments edited by <bibl><title corresp="ref:filliozat1948"/></bibl>.</note><note corresp="#b1" type="philcomment"><hi>(a)napatācca</hi> seems to be the fem.sg. of an adjective in -<hi>tstse</hi> based on a loan from Skt. <hi>anapatya</hi>- 'childlessness'.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition and translation</label><bibl><title corresp="ref:filliozat1948"/><citedRange>54-55</citedRange></bibl> corrections by <bibl><title corresp="ref:sieg1955"/><citedRange>70</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_editor_old">Georges-Jean Pinault (in collaboration with Melanie Malzahn, Michaël Peyrot)</item>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;b1.&lt;/b&gt; &lt;i&gt;(a)napatācca&lt;/i&gt; seems to be the fem.sg. of an adjective in -&lt;i&gt;tstse&lt;/i&gt; based on a loan from Skt. &lt;i&gt;anapatya&lt;/i&gt;- 'childlessness'.&lt;/p&gt;</item>
+               <item n="m_passage_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old">6,2</item>
+               <item n="file_modified_old">1557754808</item>
+               <item n="file_created_old">1348759021</item>
+               <item n="m_bib_old">Edition and translation: [[Filliozat 1948]]: 54-55, corrections by [[Sieg 1955]]: 70.</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old"/>
+               <item n="m_image_old">http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f91.zoom|http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f91.highres||$page; recto
+http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f92.zoom|http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f92.highres||$page; verso|transform:rotate(180deg);</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_transliteration_old">a1 /// -_t\ sū ṣalype yokalle ṣe tumeṃ (·)r(·) ///
+a2 /// -(·)s(·) ekalymi _m_aske_t_ar-ne ot ka te ///
+a3 /// [ṣ](·)_p\ || ñake no tentse upacā[_r](\) [w](·) ///
+a4 /// (·)m(·) kartse nessi śāñcapo tesa n(·)s(·)ai ///
+a5 /// -(·)ñ(·) yänmā_ṣ_ṣ_aṃ • kr_ui no lā[nt]so[m](·)[a] ///
+a6 /// llo_kä\ maiyyātstsai klain[o] ku ///
+b1 /// [n]apatā[cca] _m_aske_t_ar-n(·) : ś(·)- ///
+b2 /// -_l\ tesa nässait yamaṣlya 20-[1] ///
+b3 /// kauṣalye • [se] śau[mo]ntse tesa piś(··)y(·) ///
+b4 /// ṣle _k_ante o_k_t\ cau ñatsemeṃ [t_s_a]l(·)e ///
+b5 /// t[e]k tesa kapilleccepi • kr_ui ā[ñ](·)e ///
+b6 /// -[y](·)[ṃ] erkenmameṃ tau_r\ pralle tesa näs(·)[ai] ///</item>
+               <item n="date_publication_old">February 2014</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Qumtura</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_linedistance_old">0,9</item>
+               <item n="access_old">public</item>
+               <item n="m_lines_old">6</item>
+               <item n="m_collection_old">Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</item>
+               <item n="m_completeness_old"/>
+               <item n="file_location_old">pages/manuscript/PK_AS/pkas10.txt</item>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="project_check_old"/>
+               <item n="m_translation_old">a1 ... this oil [is] to be drunk. The one who afterwards ...
+a2 ... will be subject to him. Then indeed this ...
+a3 ... in addition. But now (I will) tell the practice of this ...
+a4 ... To whom [is] the desire of being beautiful, Dalbergia sisu [is to be used], with that [one should] (cast) a spell ...
+a5 ... he obtains the ... But if (he wants to be friend?) with the queen ... 
+a6 ... (But if he should) ca(re) about another mighty woman ...
+b1 .... she becomes infertile [lit. characterized with childlessness] for him ... 
+b2 ... with that a spell [is] to be cast on her/it [fem.]. 21. ...
+b3 ... (with this) [is] to be killed. This [animal] (?) should be (bewitched) five (times) with that by a man ...
+b4 ... [one should ca]st (a spell) one hundred eight [times]. (One obtains liber)ation from this danger ...
+b5 ... this precisely with that for the one [who is] feverish. If (one has) the desire ...
+b6 ... from the cemeteries dust [is] to be brought, with this a spe(ll is to be cast) ...</item>
+               <item n="m_subgenre_old">Medicine/Magic</item>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="user_modified_old">bernhard</item>
+               <item n="user_created_old">theres</item>
+               <item n="m_prev_old"/>
+               <item n="m_title_old"/>
+               <item n="m_transcription_old">a1 /// -t su|sū ṣalype yokalle ṣe tumeṃ |(·)r(·) ///
+a2 /// -(t)s(·) ekalymi mäsketär-ne ot ka te ///
+a3 /// ṣ(a)p || ñake no tentse upacār w(eñau) ///
+a4 /// (kete āñ)m(e) kartse nestsi|nessi śāñcapo tesa n(ä)s(s)ai(t yamaṣṣälle|yamaṣle) ///
+a5 /// -(ñ)ñ(e) yänmāṣṣäṃ • kwri|kr_ui no lāntsom(p)a ///
+a6 /// kwri|(kr_ui no a)llok maiyyātstsai klaiṃ|klaino ku(rpelle) ///
+b1 /// (a)napatācca mäsketär-n(e) : ś(·)- ///
+b2 /// -l tesa nässait yamaṣṣälya|yamaṣlya 21 ///
+b3 /// kauṣalye • se śaumontse tesa piś (l)y(kwarwa) ///
+b4 /// yamaṣṣälle|(yama)ṣle kante|känte okt cau ñyatsemeṃ|ñatsemeṃ tsäl(p)e(lñe) ///
+b5 /// tek tesa kapilleccepi • kwri|kr_ui āñ(m)e ///
+b6 /// -y(·)ṃ erkenmameṃ taur pralle tesa näs(s)ai(t yamaṣṣälle|yamaṣle) ///</item>
+               <item n="m_leaf_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallels_old"/>
+               <item n="project_comment_old">&lt;p&gt;&lt;b&gt;a3&lt;/b&gt; The word at the beginning is probably &lt;i&gt;ṣpä&lt;/i&gt; rather than &lt;i&gt;ṣap&lt;/i&gt;. (BK)&lt;/p&gt;</item>
+               <item n="ms_old">PK AS 10</item>
+               <item n="m_script_old">Classical</item>
+               <item n="m_other_sigla_old">Pelliot Koutchéen Ancienne Série 10; P 4</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old">&lt;p&gt;Small fragment from the middle of a leaf. It does not belong with the other P-series fragments edited by [[Filliozat 1948]].&lt;/p&gt;</item>
+               <item n="m_expedition_old">M 498, 2</item>
+               <item n="m_size_w_old">9,5</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;&lt;ref type="ms" target="__a3"/&gt; The word at the beginning is probably &lt;hi&gt;ṣpä&lt;/hi&gt; rather than &lt;hi&gt;ṣap&lt;/hi&gt;. (BK)&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

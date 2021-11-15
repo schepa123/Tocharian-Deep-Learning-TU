@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-pkas15a">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PK AS 15A</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Georges-Jean Pinault</name>
+            </respStmt>
+            <respStmt>
+               <resp>collaborator</resp>
+               <name>Melanie Malzahn</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <date when="2012-08">August 2012</date>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</repository>
+                  <idno>PK AS 15A</idno>
+                  <altIdentifier>
+                     <idno>Pelliot Koutchéen Ancienne Série 15A</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>PK NS 350</idno>
+                  </altIdentifier>
+                  <msName>PK AS 15</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Departure of the Bodhisattva</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>11,4</height>
+                              <width>26,3</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <dimensions type="line_spacing">
+                              <height>1,7</height>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Duldur-Akhur</region>during <rs type="expedition_code">DA</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Jātaka/Avadāna</term>
+               <term type="prose_verse">prose</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <line n="1" xml:id="a1"><gap reason="plain" quantity="2"/><zone><unclear>k</unclear><gap reason="par" unit="part"/><gap reason="plain" unit="part"/></zone><zone>th<gap reason="par" unit="part"/></zone><zone>k<gap reason="par" unit="part"/></zone><zone><unclear>e</unclear></zone><zone><unclear>ṅ</unclear>k<gap reason="par" unit="part"/></zone><zone><unclear>s</unclear>TA</zone><zone>RA</zone><zone>•</zone><zone><unclear>s</unclear><gap reason="par" unit="part"/></zone><gap reason="par" quantity="1"/><zone><gap reason="par" unit="part"/><unclear>th</unclear><gap reason="par" unit="part"/></zone><zone>k<gap reason="par" unit="part"/></zone><zone><unclear>ś</unclear><gap reason="plain" unit="part"/></zone><zone><gap reason="plain" unit="part"/>ā</zone><zone>ña</zone><zone>k<unclear>ā</unclear></zone><zone>ñ<gap reason="par" unit="part"/></zone><zone>tu</zone><zone><unclear>r</unclear><gap reason="par" unit="part"/></zone><zone>SA</zone><zone>swe</zone><zone>nm<gap reason="par" unit="part"/></zone><zone>tsr<gap reason="par" unit="part"/></zone><zone><unclear>l</unclear>ñ<gap reason="par" unit="part"/></zone><gap reason="par" quantity="1"/><gap reason="plain" quantity="2"/><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><zone>ni</zone><zone>yā</zone><zone>tu</zone><zone>nā</zone><zone>ssa</zone><zone>TSA</zone><zone>rka</zone><zone>llo</zone><zone>na</zone><zone>a</zone><zone><unclear>k</unclear>r<unclear>ū</unclear></zone><zone><unclear>n</unclear>a</zone><zone>swā</zone><zone><unclear>SA</unclear></zone><zone>ske</zone><zone>ma</zone><zone>ne</zone><zone>au</zone><zone>ntsa</zone><zone>te</zone><zone>bo</zone><zone>dhi</zone><zone>sa</zone><zone>tve</zone><zone>ntse</zone><zone>pai</zone><zone>ne</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><zone>sa</zone><zone>tve</zone><zone>ysā</zone><zone>yo</zone><zone>kA</zone><zone>ññai</zone><zone>po</zone><zone>kai</zone><space type="string_hole"/><zone>rso</zone><zone>rmeṃ</zone><zone>so</zone><zone>pi</zone><zone>cce</zone><zone>ṣa¯</zone><zone>¯R</zone><zone>ka</zone><zone>ntha</zone><zone>ke</zone><zone>ntse</zone><zone>ā</zone><zone>ssa</zone><zone>TA</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><zone>LA</zone><gap reason="plain" quantity="1"/><zone><gap reason="plain" unit="part"/><unclear>su</unclear></zone><zone>MA</zone><zone>ske</zone><zone>lle</zone><zone>te¯</zone><zone>¯kṣP</zone><space type="string_hole"/><zone>ta¯</zone><zone>¯ñä</zone><zone>lu</zone><zone>wā</zone><zone>ññe</zone><zone>ca</zone><zone>me¯</zone><zone>¯L∘</zone><zone>•</zone><zone>MA</zone><zone>kte</zone><zone>twe</zone><zone>ñi¯</zone><zone>¯Ś</zone><zone><unclear>tu</unclear></zone><zone>sa</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><zone><unclear>me</unclear></zone><zone>ñ<unclear>i</unclear></zone><zone><unclear>śä</unclear>∘</zone><zone>pa</zone><zone>ñä</zone><zone>kTA</zone><zone>ññe</zone><zone>pe</zone><zone>rne</zone><space type="string_hole"/><zone>o¯</zone><zone>¯T</zone><zone>cī</zone><zone>saṃ</zone><zone>sā</zone><zone>RA</zone><zone>ṣṣe</zone><zone>kA</zone><zone>rtkā</zone><zone>lle</zone><zone>meṃ</zone><zone>sa</zone><zone>l<unclear>k</unclear><gap reason="par" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="6" xml:id="a6"><zone><unclear>n</unclear>au</zone><zone>ṣA</zone><zone>yā</zone><zone>mo</zone><zone>rmeṃ</zone><zone>au</zone><zone>ntsa</zone><zone>te</zone><zone>ka</zone><zone>pi</zone><zone>la</zone><zone>vā</zone><zone>stu</zone><zone>śya</zone><zone>tsi</zone><zone>ṣe</zone><zone>kka</zone><zone>ṣe</zone><zone>kka</zone><zone>e</zone><zone>ne</zone><zone>rSA¯</zone><zone>¯ṅk</zone><zone>l<unclear>k</unclear>a<gap reason="par" unit="part"/></zone><zone><gap reason="par" unit="part"/>ī</zone><gap reason="lost"/></line>
+            <line n="7" xml:id="a7"><zone>sa</zone><zone>y<unclear>l</unclear>ā</zone><zone>r<gap reason="plain" unit="part"/></zone><zone>ka</zone><zone>klau</zone><zone>tkau</zone><zone>yo</zone><zone>ṅko</zone><zone>ma</zone><zone>ne</zone><zone>tro</zone><zone>ppo</zone><zone>ma</zone><zone>ne</zone><zone>bo</zone><zone>dhi</zone><zone><unclear>s</unclear>a</zone><zone>t<unclear>v</unclear>eṃ</zone><zone>kwā</zone><zone>ma</zone><zone>ne</zone><zone>ye¯</zone><zone>¯yä</zone><zone>॥</zone><gap reason="par" quantity="1"/><zone><gap reason="par" unit="part"/>e</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic url="ASHuard/AS15Ab.jpg" height="3480px" width="4640px"/>
+            <line n="1" xml:id="b1"><gap reason="plain" quantity="1"/><zone><unclear>ke</unclear></zone><gap reason="plain" quantity="3"/><zone>ka</zone><zone>mā</zone><zone>nte</zone><zone>॥</zone><gap reason="plain" quantity="3"/><zone><unclear>k</unclear><gap reason="par" unit="part"/></zone><zone>na</zone><zone>nts<unclear>e</unclear></zone><zone>y<gap reason="plain" unit="part"/></zone><zone>nn<gap reason="par" unit="part"/></zone><zone>k<gap reason="par" unit="part"/></zone><zone><unclear>l</unclear><gap reason="par" unit="part"/></zone><zone>ñ<gap reason="par" unit="part"/></zone><zone>t<gap reason="par" unit="part"/></zone><zone>k<gap reason="par" unit="part"/>¯</zone><zone>¯<unclear>tS</unclear></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><zone>la</zone><zone>vā</zone><zone>stu</zone><zone>rī</zone><zone>meṃ</zone><zone>lau</zone><zone>ke</zone><zone>ke</zone><zone>ntsa</zone><zone>cä</zone><zone>rkā</zone><zone>re</zone><zone>ne</zone><zone>•</zone><zone>se</zone><zone>ya</zone><zone><unclear>k</unclear><gap reason="plain" unit="part"/>e</zone><zone><unclear>s</unclear>te</zone><zone>ā</zone><zone>jā</zone><zone>nai</zone><zone>yä</zone><zone>kweṃ¯</zone><zone>¯ts</zone><zone><unclear>•</unclear></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><zone>ka</zone><zone>ntha</zone><zone>ke</zone><zone>ya</zone><zone>kwe</zone><zone>nya</zone><zone>gro</zone><zone>dha</zone><zone>ra¯</zone><zone>¯M</zone><space type="string_hole"/><zone>we</zone><zone>rpi</zone><zone>śke</zone><zone><unclear>ly</unclear><gap reason="plain" unit="part"/></zone><zone>lya</zone><zone>ko</zone><zone>rmeṃ</zone><zone>we</zone><zone>kwe</zone><zone><gap reason="plain" unit="part"/>rā</zone><zone>na</zone><zone>y<unclear>w</unclear>ā</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><zone>yke</zone><zone>po</zone><zone>sTAṃ</zone><zone>yne</zone><zone>ma</zone><zone>ne</zone><zone>ka</zone><zone>pi</zone><space type="string_hole"/><zone>la</zone><zone>vā</zone><zone><unclear>stu</unclear></zone><zone><unclear>rī</unclear></zone><zone>lye</zone><zone>lya</zone><zone>ko</zone><zone>rmeṃ</zone><zone>LA</zone><zone>kle<unclear>¯</unclear></zone><zone><unclear>¯</unclear>ñ<unclear>ä</unclear></zone><zone>wä</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><zone>sa</zone><zone>po</zone><zone>ka</zone><zone>pi</zone><zone>la</zone><zone>vā</zone><zone>stu</zone><space type="string_hole"/><zone>rī</zone><zone>ye</zone><zone>ī</zone><zone>te</zone><zone>t<unclear>ā</unclear></zone><zone>ka</zone><zone>॥</zone><zone>ta</zone><zone>ne</zone><zone>ka</zone><zone>pi</zone><zone>la</zone><zone>vā</zone><zone>s<unclear>tu</unclear></zone><gap reason="lost"/></line>
+            <line n="6" xml:id="b6"><zone>sa</zone><zone>swe</zone><zone>sa</zone><zone>rvā</zone><zone>rtha</zone><zone>si</zone><zone>ddhe</zone><zone>PA¯</zone><zone>¯sT</zone><zone>klau</zone><zone><unclear>tk</unclear><gap reason="par" unit="part"/></zone><gap reason="par" quantity="1"/><zone>tu</zone><zone>meṃ</zone><zone>a</zone><zone>rwā</zone><zone>re</zone><zone>śā</zone><zone>mna</zone><zone>mkā</zone><zone>nte</zone><zone>a</zone><zone>mā</zone><zone>cä</zone><zone>nta</zone><zone>mñcu</zone><zone>ṣka</zone><gap reason="lost"/></line>
+            <line n="7" xml:id="b7"><zone>si</zone><zone><unclear>d</unclear><gap reason="par" unit="part"/></zone><zone><gap reason="par" unit="part"/>e</zone><zone>•</zone><zone><unclear>t</unclear>a</zone><zone>ne</zone><zone>eṃ</zone><zone>ṣ<gap reason="par" unit="part"/>e</zone><zone>to¯</zone><zone>¯T</zone><zone>LA</zone><zone>kle</zone><zone><gap reason="par" unit="part"/>e</zone><gap reason="par" quantity="1"/><gap reason="plain" quantity="2"/><zone>sa</zone><zone>tri</zone><zone><unclear>k</unclear>au</zone><zone>waṃ¯</zone><zone>¯<unclear>tS</unclear></zone><zone>go</zone><zone>pi</zone><zone>kai</zone><zone>ya</zone><zone>śo</zone><zone>dha</zone><zone>rai</zone><zone><unclear>s</unclear>a</zone><gap reason="par" quantity="1"/><zone>r<unclear>ñ</unclear>ai</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="plain" quantity="2"/><w>k<supplied>an</supplied>th<supplied>a</supplied>k<supplied>e</supplied></w><w>eṅk<supplied>a</supplied>stär<surplus>ä</surplus></w><pc>•</pc><w>s<supplied>ū</supplied></w><w><supplied>kan</supplied>th<supplied>a</supplied>k<supplied>e</supplied></w><w>ś<gap reason="plain" unit="part"/></w><w><gap reason="plain" unit="part"/>ā</w><w>ña</w><w>kā</w><w>ñ<gap reason="plain" unit="part"/></w><w>tur<gap reason="plain" unit="part"/></w><w>säswenm<supplied>eṃ</supplied></w><w>tsr<supplied>e</supplied>lñ<supplied>esa</supplied></w><gap reason="plain" quantity="2"/><gap reason="lost"/>
+<lb corresp="#a2"/><w>niyātun</w><w>āssa</w><w>tsärkallona</w><w>akrūna</w><w>swāsäskemane</w><w>auntsate</w><w>bodhisatventse</w><w>paine<supplied>sa</supplied></w><gap reason="lost"/>
+<w><supplied>bodhi</supplied><lb corresp="#a3"/>satve</w><w>ysā-yokäññai</w><w>pokai</w><w>rsormeṃ</w><w>sopicce</w><w>ṣar</w><w>kanthakentse</w><w>āssa</w><w>tä<supplied>ttarmeṃ</supplied></w><gap reason="lost"/>
+<lb corresp="#a4"/><w>lä<supplied>kles</supplied>su</w><w>mäskelle</w><w>tek</w><w>ṣp</w><w>tañ</w><w>luwāññe</w><w>camel</w><pc>•</pc><w>mäkte</w><w>twe</w><w>ñiś</w><w>tusa</w><gap reason="lost"/>
+<w><supplied>kälpor</supplied><lb corresp="#a5"/>me<add>ṃ</add></w><w>ñiś<surplus>ä</surplus></w><w>pañäktäññe</w><w>perne</w><w>ot</w><w>cī</w><w>saṃsāräṣṣe</w><w>kärtkāllemeṃ</w><w>salk<supplied>amar</supplied></w><gap reason="lost"/>
+<lb corresp="#a6"/><w>nauṣ<surplus>ä</surplus></w><w>yāmormeṃ</w><w>auntsate</w><w>kapilavāstuś</w><w>yatsi</w><w>ṣekka</w><w>ṣekka</w><w>enersäṅk</w><w>lka<supplied>ṣṣ</supplied>ī<supplied>tär</supplied></w><gap reason="lost"/>
+<w><supplied>lakle</supplied><lb corresp="#a7"/>sa</w><w>ylār<supplied>e</supplied></w><w>kaklautkau</w><w>yoṅkomane</w><w>troppomane</w><w>bodhisatveṃ</w><w>kwāmane</w><w>yey</w><pc>॥</pc><w><supplied>tum</supplied>e<supplied>ṃ</supplied></w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="plain" quantity="1"/><w>ke</w><gap reason="plain" quantity="3"/><w>kamānte</w><pc>॥</pc><gap reason="plain" quantity="3"/><w>k<gap reason="plain" unit="part"/>nantse</w><w>y<gap reason="plain" unit="part"/>nn<gap reason="plain" unit="part"/>k<gap reason="plain" unit="part"/>l<gap reason="plain" unit="part"/>ñ<gap reason="plain" unit="part"/>t<gap reason="plain" unit="part"/>k<gap reason="plain" unit="part"/>ts</w><gap reason="lost"/>
+<w><supplied>kapi</supplied><lb corresp="#b2"/>lavāstu</w><w>rīmeṃ</w><w>lauke</w><w>kentsa</w><w>cärkāre-ne</w><pc>•</pc><w>se</w><w>yak<supplied>w</supplied>e</w><w>ste</w><w>ājānai</w><w>yäkweṃts</w><pc>•</pc><gap reason="lost"/>
+<lb corresp="#b3"/><w>kanthake</w><w>yakwe</w><w>nyagrodharam</w><w>werpiśke</w><w>ly<supplied>e</supplied>lyakormeṃ</w><w>wekwe</w><w><gap reason="plain" unit="part"/>rāna</w><w>ywā<supplied>rc</supplied></w><gap reason="lost"/>
+<lb corresp="#b4"/><w>yke-postäṃ</w><w>ynemane</w><w>kapilavāstu</w><w>rī</w><w>lyelyakormeṃ</w><w>läkleñ</w><w>wä</w><gap reason="lost"/>
+<w><supplied>katkauñai</supplied><lb corresp="#b5"/>sa</w><w>po</w><w>kapilavāstu</w><w>rīye</w><w>īte</w><w>tāka</w><pc>॥</pc><w>tane</w><w>kapilavāstu<supplied>ne</supplied></w><gap reason="lost"/>
+<lb corresp="#b6"/><w>saswe</w><w>sarvārthasiddhe</w><w>päst</w><w>klautk<supplied>a</supplied></w><pc><supplied>•</supplied></pc><w>tumeṃ</w><w>arwāre</w><w>śāmna</w><w>mkānte</w><w>amācänta</w><w>mñcuṣka<supplied>na</supplied></w><gap reason="lost"/>
+<w><supplied>sarvārtha</supplied><lb corresp="#b7"/>sid<supplied>dh</supplied>e</w><pc>•</pc><w>tane</w><w>eṃṣ<supplied>k</supplied>e</w><w>tot</w><w>läkle<supplied>ṣṣ</supplied>e</w><gap reason="plain" quantity="3"/><w>sa</w><w>trikauwaṃts</w><w>gopikai</w><w>yaśodharaisa</w><w><supplied>wa</supplied>rñai</w><gap reason="plain" quantity="1"/><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">... [The chariot driver Chandaka] seized [the horse] Kanthaka. This Kanthaka ... because of the separation from [his] master ...</seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">... with the head letting rain burning tears, he began to (bow towards) the feet of the Bodhisattva ...</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">... having stretched [his] golden-colored arm [and] having put [his] hand provided with webbing on the head of Kanthaka, the (Bodhi)sattva (says) ...</seg></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl">[you] ought to be full of suffering and this is your animal birth. As you (pay homage?) to me because of that ...</seg></seg></choice><choice corresp="#a5"><seg><seg type="prim_transl">(after) having (obtained) myself the dignity of Buddhahood, I (will) pull you out of the mud of the Saṃsara ...</seg></seg><seg><seg type="prim_transl">… having (attained) the Buddha rank, then I will pull you out of this saṃsāra swamp … (Georges-Jean Pinault, p.c.)</seg><bibl><title corresp="ref:peyrot2013b"/><citedRange>669</citedRange></bibl></seg></choice><choice corresp="#a6"><seg><seg type="prim_transl">having made ... before, [the horse or the chariot driver Chandaka] began to go to [the city] Kapilavastu. Again and again he kept looking (back) desperately ...</seg></seg></choice><choice corresp="#a7"><seg><seg type="prim_transl">having become weak, being disturbed, tripping, he kept going calling the Bodhisattva. Thereupon ...</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">... they brought. ...</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">they emitted (the news [of the return of the horse]) out from the city of (Kapi)lavastu far over the earth: "This is the most noble among horses."</seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl">The horse Kanthaka, having seen the garden Nyagrodhārāma, ... loudly (?) (in the) middle of ...</seg></seg></choice><choice corresp="#b4"><seg><seg type="prim_transl">having seen the city of Kapilavastu, going [slowly] step by step because of suffering ...</seg></seg></choice><choice corresp="#b5"><seg><seg type="prim_transl">the whole city of Kapilavastu was full of (joy). Then (in) the city of Kapilavastu (the news was heard:)</seg></seg></choice><choice corresp="#b6"><seg><seg type="prim_transl">"The lord Sarvārthasiddha has turned back." Thereupon the people readily ran, ministers, princess(es), ...</seg></seg></choice><choice corresp="#b7"><seg><seg type="prim_transl">"Sarvārthasiddha (is not there)." Then [a crowd of women] beginning with Gopikā Yaśodharā being confused by the sorrowful (news) ...</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="parallels">Lalitavistara, p. 231, 13-232,6</note><note type="remarks">Complete left part of a leaf with the string hole, PK NS 350 makes a perfect joint on the right side. In the first line of the verso side material from another fragment seems to have been glued over the writing in some cases, which makes the reading difficult.</note><note type="remarks">Information as to the provenance of the PK AS 15 fragments is entirely lost, but PK NS 350 has the expedition code DA.</note><note corresp="#a2" type="philcomment">The complex <hi>niyātun</hi> does not have the shape of a regular Tocharian word; one may think of a loan, perhaps referring to horse's ornamental harness.</note><note corresp="#b3" type="philcomment">In the complex <hi>wekwe ·rāna</hi> we can isolate <hi>wek</hi> referring to the cry of the horse. One may consider to set up an adverb <hi>wekwe</hi> "loudly". <hi>·rāna</hi> should be the complement of the adverb <hi>ywārc</hi>.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>other</label>For the Sanskrit parallel cf. the translation by <bibl><title corresp="ref:waldschmidt1929"/><citedRange>111-113</citedRange></bibl>. In contrast to the Sanskrit version which has a dialogue between the Bodhisattva and the driver Chandaka this one focusses rather on the fate of the horse. The Tocharian text has been partly translated by <bibl><title corresp="ref:couvreur1953"/><citedRange>283-284</citedRange></bibl> lines a 6 and a 7 also in <bibl><title corresp="ref:couvreur1964"/><citedRange>240-241 fn. 17</citedRange></bibl> with a partial transcription. Cited in <bibl><title corresp="ref:bernhard1958"/><citedRange>14, 49, 97, 184, 206</citedRange></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Both</item>
+               <item n="project_check_old"/>
+               <item n="m_subgenre_old">Jātaka/Avadāna</item>
+               <item n="m_translation_old">a1 ... [The chariot driver Chandaka] seized [the horse] Kanthaka. This Kanthaka ... because of the separation from [his] master ...
+a2 ... with the head letting rain burning tears, he began to (bow towards) the feet of the Bodhisattva ...
+a3 ... having stretched [his] golden-colored arm [and] having put [his] hand provided with webbing on the head of Kanthaka, the (Bodhi)sattva (says) ...
+a4 [you] ought to be full of suffering and this is your animal birth. As you (pay homage?) to me because of that ...
+a5 (after) having (obtained) myself the dignity of Buddhahood, I (will) pull you out of the mud of the Saṃsara ...
+a6 having made ... before, [the horse or the chariot driver Chandaka] began to go to [the city] Kapilavastu. Again and again he kept looking (back) desperately ...
+a7 having become weak, being disturbed, tripping, he kept going calling the Bodhisattva. Thereupon ...
+b1 ... they brought. ...
+b2 they emitted (the news [of the return of the horse]) out from the city of (Kapi)lavastu far over the earth: "This is the most noble among horses."
+b3 The horse Kanthaka, having seen the garden Nyagrodhārāma, ... loudly (?) (in the) middle of ...
+b4 having seen the city of Kapilavastu, going [slowly] step by step because of suffering ...
+b5 the whole city of Kapilavastu was full of (joy). Then (in) the city of Kapilavastu (the news was heard:)
+b6 "The lord Sarvārthasiddha has turned back." Thereupon the people readily ran, ministers, princess(es), ...
+b7 "Sarvārthasiddha (is not there)." Then [a crowd of women] beginning with Gopikā Yaśodharā being confused by the sorrowful (news) ...</item>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="user_created_old">melanie</item>
+               <item n="user_modified_old">martin</item>
+               <item n="m_prev_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_title_old">Departure of the Bodhisattva</item>
+               <item n="m_transcription_old">a1 – – k(an)th(a)k(e) eṅk(a)stär • s(ū) (kan)th(a)k(e) ś· ·ā ña kā ñ(·) tur(·) säswenm(eṃ) tsr(e)lñ(esa) – – ///
+a2 niyātun āssa tsärkallona akrūna swāsäskemane auntsate bodhisātventse|bodhisatventse paine(sa) ///  bodhisātve|(bodhi)|satve
+a3 ysā-yokäññai pokai rsormeṃ sopicce ṣar kanthakentse āssa tättārmeṃ|tä(ttarmeṃ) ///
+a4 lä(kles)su mäskelle tek ṣp tañ luwāññe camel • mäkte twe ñiś tusa /// kälpormeṃ|(kälpor)|me«ṃ»
+a5 ñiś«†ä» pañäktäññe perne ot cī saṃsāräṣṣe kärtkāllemeṃ salk(amar) ///
+a6 nauṣ yāmormeṃ auntsate kapilavāstuś yatsi ṣekka ṣekka enersäṅk lkāṣṣitär|lka(ṣṣ)ī(tär) /// laklesa|(lakle)|sa
+a7 ylār(e) kaklautkau yoṅkomane troppomane  bodhisātveṃ|bodhisatveṃ kwāmane yey || (tum)e(ṃ) ///
+b1 – ke – – – kamānte || – – – k(·)nantse y·nn(·)k(·)l(·)ñ(·)t(·)k(·)ts /// kapilavāstu|(kapi)|lavāstu
+b2 rīmeṃ lauke kentsa cärkāre-ne • se yak(w)e ste ājānai yäkweṃts • ///
+b3 kanthake yakwe nyagrodhārām|nyagrodharam werpiśke ly(e)lyakormeṃ wekwe ·rāna ywā(rc) ///
+b4 ike-postäṃ|yke-postäṃ ynemane kapilavāstu rī lyelyakormeṃ läkleñ wä /// katkauñaisa|(katkauñai)|sa
+b5 po kapilavāstu rīye īte tāka || tane kapilavāstu(ne) ///
+b6 saswe sarvārthasiddhe päst klautk(a) (•) tumeṃ arwāre śāmna mkānte amācänta mñcuṣka(na) /// sarvārthasiddhe|(sarvārtha)|sid(dh)e
+b7 • tane eṃṣ(k)e tot läkle(ṣṣ)e – – – sa trikauwaṃts gopikai yaśodharaisa (wa)rñai – ///</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_parallels_old">Lalitavistara, p. 231, 13-232,6</item>
+               <item n="m_script_old">Classical</item>
+               <item n="project_comment_old">&lt;p&gt;Translations from [[Peyrot, ToSu]]
+&lt;table class="table_lines"&gt;
+&lt;th&gt;Lines&lt;/th&gt;
+&lt;th&gt;Translation&lt;/th&gt;
+&lt;th&gt;Pages&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt;a5&lt;/td&gt;
+&lt;td&gt;… having (attained) the Buddha rank, then I will pull you out of this &lt;i&gt;saṃsāra &lt;/i&gt;swamp … (Georges-Jean Pinault, p.c.)&lt;/td&gt;
+&lt;td&gt;669&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;includes PK NS 350?&lt;/p&gt;</item>
+               <item n="ms_old">PK AS 15A</item>
+               <item n="m_remarks_old">&lt;p&gt;Complete left part of a leaf with the string hole, PK NS 350 makes a perfect joint on the right side. In the first line of the verso side material from another fragment seems to have been glued over the writing in some cases, which makes the reading difficult.&lt;/p&gt;
+&lt;p&gt;Information as to the provenance of the PK AS 15 fragments is entirely lost, but PK NS 350 has the expedition code DA.&lt;/p&gt;</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_other_sigla_old">Pelliot Koutchéen Ancienne Série 15A; PK NS 350</item>
+               <item n="m_size_w_old">26,3</item>
+               <item n="m_expedition_old">DA</item>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;a2.&lt;/b&gt; The complex &lt;i&gt;niyātun&lt;/i&gt; does not have the shape of a regular Tocharian word; one may think of a loan, perhaps referring to horse's ornamental harness.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b3.&lt;/b&gt; In the complex &lt;i&gt;wekwe ·rāna&lt;/i&gt; we can isolate &lt;i&gt;wek&lt;/i&gt; referring to the cry of the horse. One may consider to set up an adverb &lt;i&gt;wekwe&lt;/i&gt; "loudly". &lt;i&gt;·rāna&lt;/i&gt; should be the complement of the adverb &lt;i&gt;ywārc&lt;/i&gt;.&lt;/p&gt;</item>
+               <item n="m_passage_old"/>
+               <item n="m_editor_old">Georges-Jean Pinault (in collaboration with Melanie Malzahn)</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_size_h_old">11,4</item>
+               <item n="m_next_old"/>
+               <item n="file_created_old">1343668047</item>
+               <item n="file_modified_old">1579187517</item>
+               <item n="m_manuscript_old">PK AS 15</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_bib_old">&lt;p&gt;For the Sanskrit parallel cf. the translation by [[Waldschmidt 1929]]: 111-113. In contrast to the Sanskrit version, which has a dialogue between the Bodhisattva and the driver Chandaka, this one focusses rather on the fate of the horse. The Tocharian text has been partly translated by [[Couvreur 1953]]: 283-284, lines a 6 and a 7 also in [[Couvreur 1964]]: 240-241 fn. 17, with a partial transcription. Cited in [[Bernhard 1958]]: 14, 49, 97, 184, 206.&lt;br&gt;
+Translation:
+&lt;b&gt;a5&lt;/b&gt; [[Peyrot, ToSu]]: 669.&lt;/p&gt;.</item>
+               <item n="m_image_old"/>
+               <item n="date_publication_old">August 2012</item>
+               <item n="m_transliteration_old">a1 – – [k](·)·th(·)k(·) [eṅ]k(·)[s]_t_a_r(\) • [s](· – ·)[th](·)k(·) [ś]· ·ā ña k[ā] ñ(·) tu[r](·) _s_aswenm(·) tsr(·)[l]ñ(· –) – – ///
+a2 niyātun āssa _t_s_arkallona a[k]r[ūn]a swā[_s_a]skemane auntsate bodhisatventse paine ///
+a3 satve ysā-yok_aññai pokai ○ rsormeṃ sopicce ṣa_r\ kanthakentse āssa _t_a ///
+a4 _l_a – ·[su] _m_askelle tek ṣ_p\ ○ tañä\ luwāññe came_l\• • _m_akte twe ñi_ś\ [tu]sa ///
+a5 [me] ñ[iśä]• pañäk_t_aññe perne ○ o_t\ cī saṃsā_r_aṣṣe k_artkāllemeṃ sal[k](·) ///
+a6 [n]auṣ(\) yāmormeṃ auntsate kapilavāstuś yatsi ṣekka ṣekka ener_s_aṅk\ l[k]a(··)ī ///
+a7 sa y[l]ār· kaklautkau yoṅkomane troppomane bodhi[s]at[v]eṃ kwāmane yeyä\ || (– ·)e ///
+b1 – [ke] – – – kamānte || – – – [k](·)nants[e] y·nn(·)k(·)[l](·)ñ(·)t(·)k(·)[t_s]\ ///
+b2 lavāstu rīmeṃ lauke kentsa cärkāre-ne • se ya[k]·e [s]te ājānai yäkweṃts\ [•] ///
+b3 kanthake yakwe nyagrodhara_m\ ○ werpiśke [ly](e)lyakormeṃ wekwe ·rāna y[w]ā ///
+b4 yke-pos_t_aṃ ynemane kapi○lavā[stu rī] lyelyakormeṃ _l_akleñ[ä\] wä ///
+b5 sa po kapilavāstu ○ rīye īte t[ā]ka || tane kapilavās[tu] ///
+b6 saswe sarvārthasiddhe _p_as_t\ klau[tk](· –) tumeṃ arwāre śāmna mkānte amācänta mñcuṣka ///
+b7 si[d](··)e • [t]ane eṃṣ(·)e to_t\ _l_akle (·)e (–) – – sa tri[k]auwaṃ[t_s]\ gopikai yaśodharai[s]a (–)r[ñ]ai – ///</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_findspot_old">Duldur-Akhur</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_linedistance_old">1,7</item>
+               <item n="m_lines_old">7</item>
+               <item n="m_collection_old">Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</item>
+               <item n="access_old">public</item>
+               <item n="m_completeness_old"/>
+               <item n="file_location_old">pages/manuscript/PK_AS/pkas15a.txt</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;includes PK NS 350?&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

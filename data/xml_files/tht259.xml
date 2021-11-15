@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht259">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 259</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 259</idno>
+                  <altIdentifier>
+                     <idno>B 259</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Bleistiftnummer 2633</idno>
+                  </altIdentifier>
+                  <msName>THT 252-265</msName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">5</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Qizil Miŋ-Öy</region><placeName>Rothkuppelraum</placeName>during <rs type="expedition_code">T III MQR 89 (on the frame)/ T III MQ 69 (on the fragment)</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-archaic frg:ls-peyrot-A1 frg:ls-C14 frg:ls-tamai-C1 frg:ls-C14"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Kāvya</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328214;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328214;rotate=0;imageType=_M"/>
+            <graphic url="B/B259a.jpg" height="781px" width="1220px"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone>skeṃ</zone><zone>kuse</zone><zone><unclear>o</unclear></zone><zone>ñtn<gap reason="plain" unit="part"/></zone><zone>KA</zone><zone>rtKA</zone><zone>ṢṢAṃ</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone>ñcr<gap reason="plain" unit="part"/></zone><zone><unclear>kly</unclear>au</zone><zone>ṣtsi</zone><zone>swā</zone><zone>re</zone><zone>sā</zone><zone>NAṃ</zone><zone>tsne</zone><zone>mce</zone><zone>PA</zone><zone>lsko</zone><zone><unclear>KA</unclear></zone><zone><unclear>KA</unclear></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone>skwä</zone><zone>ntā</zone><zone>sa</zone><zone>kre</zone><zone><unclear>n</unclear><gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="3"/><zone>MA</zone><zone>ske</zone><zone>TA¯</zone><zone>¯R</zone><zone>ce</zone><zone>tsṣe</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="illegible"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328188;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328188;rotate=0;imageType=_M"/>
+            <graphic url="B/B259b.jpg" height="690px" width="1196px"/>
+            <line n="3" xml:id="b3"><gap reason="lost"/><zone><unclear>lkā</unclear></zone><zone>tsi</zone><zone>kuse</zone><zone>PTA</zone><zone>nm<unclear>a</unclear></zone><gap reason="plain" quantity="2"/><zone><unclear>n</unclear>e</zone><zone>keṃ</zone><zone><unclear>ṣ</unclear>e</zone><zone>kto</zone><zone>no</zone><zone>KAṃ</zone><zone><unclear>KA</unclear></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><zone><unclear>ā</unclear></zone><zone>stri</zone><zone>i</zone><zone>ndri</zone><zone>ntā</zone><zone>sa</zone><zone>20</zone><zone>4</zone><zone>snai</zone><zone>RA</zone><zone>se¯</zone><zone>¯R</zone><zone>snai</zone><zone><gap reason="plain" unit="part"/>o</zone><zone><gap reason="plain" unit="part"/>ai</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><gap reason="lost"/><zone>ñce</zone><zone><unclear>ṣai</unclear></zone><zone><gap reason="plain" unit="part"/>ī</zone><zone><gap reason="plain" unit="part"/>e</zone><zone><unclear>pu</unclear></zone><zone>dñä</zone><zone>kte</zone><zone><gap reason="plain" unit="part"/>e</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/></p>
+            <lg type="poem" met="frg:M13a">
+               <lg n="18" type="strophe">
+                  <l n="b"><supplied unit="syllable" quantity="12"/><gap reason="lost"/><w>skeṃ</w></l>
+                  <l n="c"><w>kUse</w><w>oñtn<supplied>e</supplied></w><w>kärtkäṣṣäṃ</w><gap reason="lost"/><supplied unit="syllable" quantity="7"/></l>
+                  <l n="d"><supplied unit="syllable" quantity="13"/></l>
+               </lg>
+               <lg n="19" type="strophe">
+                  <l n="a">
+<lb corresp="#a2"/><supplied unit="syllable" quantity="6"/><gap reason="lost"/><w>ñcr<gap reason="plain" unit="part"/></w><w>klyauṣtsi</w><w>swāre</w><w>sānäṃts</w></l>
+                  <l n="b"><w>nemce</w><w>pälsko</w><w>käkä</w><gap reason="lost"/><supplied unit="syllable" quantity="7"/></l>
+                  <l n="c"><supplied unit="syllable" quantity="13"/></l>
+                  <l n="d">
+<lb corresp="#a3"/><gap reason="lost"/><w>skwäntāsa</w><w>kren<gap reason="plain" unit="part"/></w><gap reason="plain" quantity="3"/></l>
+               </lg>
+               <lg n="20" type="strophe">
+                  <l n="a"><w>mäsketär</w><w>cets</w><w>ṣe</w><gap reason="lost"/><supplied unit="syllable" quantity="8"/></l>
+               </lg>
+               <lg n="23" type="strophe">
+                  <l n="d">
+<lb corresp="#a4"/><gap reason="illegible"/>
+<lb corresp="#b3"/></l>
+               </lg>
+               <lg n="24" type="strophe">
+                  <l n="a"><supplied unit="syllable" quantity="11"/><gap reason="lost"/><w>lkātsi</w></l>
+                  <l n="b"><w>kUse</w><w>ptänma</w><gap reason="plain" quantity="2"/><w>ne</w><w>keṃ</w><w>ṣek</w><w>tonokäṃ</w><w>kä</w><gap reason="lost"/><supplied unit="syllable" quantity="1"/></l>
+                  <l n="c"><supplied unit="syllable" quantity="13"/></l>
+                  <l n="d">
+<lb corresp="#b4"/><supplied unit="syllable" quantity="7"/><gap reason="lost"/><w>āstri</w><w>indrintāsa</w><num value="24">20-4</num></l>
+               </lg>
+               <lg n="25" type="strophe">
+                  <l n="a"><w>snai</w><w>räser</w><w>snai</w><w><supplied>śc</supplied>o<supplied>n</supplied>ai</w><gap reason="lost"/><supplied unit="syllable" quantity="7"/></l>
+               </lg>
+            </lg>
+            <p>
+<lb corresp="#b5"/><gap reason="lost"/><w>ñce</w><w>ṣai</w><w><gap reason="plain" unit="part"/>ī</w><w><gap reason="plain" unit="part"/>e</w><w>pudñäkte</w><w><gap reason="plain" unit="part"/>e</w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><bibl><title corresp="ref:krause1952"/><citedRange>185</citedRange></bibl></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">Fragment of the leaf directly following <ref type="ms" target="txt:m-tht258"/>. Lines a5 and b1-2 are lost.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 259" type="external">THT 259</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/02/0259.htm" type="external">THT 259</ref></bibl>. </p>
+            <p><label>Edition</label><bibl><title corresp="ref:siegandsiegling1953"/><citedRange>159</citedRange></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="page_name_old">THT 259</item>
+               <item n="version_old">8</item>
+               <item n="file_created_old">1332006605</item>
+               <item n="file_modified_old">1585237707</item>
+               <item n="m_manuscript_old">THT 252-265</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 259" target="idp"&gt;THT 259&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/02/0259.htm" target="titus"&gt;THT 259&lt;/a&gt;.&lt;br&gt;
+Edition: [[TochSprR(B) II]]: 159.&lt;br&gt;
+Translation:
+&lt;b&gt;a1&lt;/b&gt; [[Krause, WTG]]: 185.</item>
+               <item n="file_size_old">2 KB</item>
+               <item n="m_language_stage_old">Archaic</item>
+               <item n="m_transliteration_old">a1 /// skeṃ k_use [o]ñtn(e) _k_art_k_a_ṣ_ṣ_aṃ ///
+a2 /// ñcr· [kly]auṣtsi swāre sā_n_aṃts nemce _p_alsko [_k_a_k_a] ///
+a3 /// skwäntāsa kre[n·] – – – _m_aske_t_a_r\ cets ṣe ///
+a4 &lt;i&gt;illegible&lt;/i&gt;
+b3 /// [lkā]tsi k_use _p_t_anm[a] – – [n]e keṃ [ṣ]ek tono_k_aṃ [_k_a] ///
+b4 /// [ā]stri indrintāsa 20-4 snai _r_ase_r\ snai (śc)o(n)ai ///
+b5 /// ñce [ṣai] ·ī ·e [pu]dñäkte ·e ///</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328214;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328214;rotate=0;imageType=_M||THT 259 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328188;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328188;rotate=0;imageType=_M||THT 259 verso</item>
+               <item n="created_date_old">2012-03-17, 18:50:05 (CET)</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_specific_old">Rothkuppelraum</item>
+               <item n="m_findspot_old">Qizil Miŋ-Öy</item>
+               <item n="m_lines_old">5</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="access_old">public</item>
+               <item n="file_location_old">pages/manuscript/THT_0001_0633/tht259.txt</item>
+               <item n="m_metric_form_old">Verse</item>
+               <item n="file_savedate_old">2018-10-22, 14:33:28 (CEST)</item>
+               <item n="file_name_old">pages/manuscript/THT_0001_0633/tht259.txt</item>
+               <item n="m_subgenre_old">Kāvya</item>
+               <item n="category_old">manuscript</item>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old">hannes</item>
+               <item n="group_old">Public</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_transcription_old">a1 #M13a# %12 /// skeṃ #18b k_use oñtn(e) kärtkäṣṣäṃ /// %7 #18c %13 #18d
+a2 %6 /// ñcr· klyauṣtsi swāre sanaṃts|sānäṃts #19a nemce pälsko käkä /// %7 #19b %13 #19c
+a3 /// skwäntāsa kren· – – – #19d mäsketär cets ṣe /// %8 #20a
+b3 #23d %11 /// lkātsi #24a k_use ptänma – – ne keṃ ṣek tonokäṃ kä /// %1 #24b %13 #24c
+b4 %7 /// āstri indrintāsa 24 #24d snai räser snai (śc)o(n)ai /// %7 #25a
+b5 /// ñce ṣai ·ī ·e pūdñäkte|pudñäkte ·e ///</item>
+               <item n="editgroup_old">Editor</item>
+               <item n="m_script_old">Classical</item>
+               <item n="ms_old">THT 259</item>
+               <item n="project_comment_old">&lt;p&gt;Alternative classifications:
+&lt;table class="table_lines"&gt;
+  &lt;tr&gt;&lt;td title="MP"&gt;Peyrot&lt;/td&gt;&lt;td title="A1"&gt;archaic I&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="MM"&gt;Malzahn&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TT"&gt;Tamai&lt;/td&gt;&lt;td title="C1"&gt;II-1 (600-700)&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TTC14"&gt;Tamai-C14&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;additional classification
+&lt;peyrot&gt;A1&lt;/peyrot&gt;
+&lt;/p&gt;</item>
+               <item n="edited_date_old">2018-10-22, 14:33:28 (CEST)</item>
+               <item n="m_expedition_old">T III MQR 89 (on the frame)/ T III MQ 69 (on the fragment)</item>
+               <item n="m_remarks_old">Fragment of the leaf directly following [[THT 258]]. Lines a5 and b1-2 are lost.</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_other_sigla_old">B 259, Bleistiftnummer 2633</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;Alternative classifications:
+
+&lt;/p&gt;&lt;p&gt;additional classification
+&lt;peyrot&gt;A1&lt;/peyrot&gt;
+&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

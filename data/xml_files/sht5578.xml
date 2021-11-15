@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-sht5578">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>SHT 5578</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>SHT 5578</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>4,4</height>
+                              <width>2,3</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">3+</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="txb"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Gloss</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="verso">
+            <line n="1" xml:id="b_1"><zone>wa</zone><zone>nta</zone></line>
+            <line n="2" xml:id="b_2"><zone>tā</zone><zone>ko<unclear>¯</unclear></zone><zone><unclear>¯</unclear><unclear>yä</unclear></zone></line>
+            <line n="3" xml:id="b_3"><zone><unclear>e</unclear></zone><gap reason="plain" quantity="1"/><zone><unclear>l</unclear><gap reason="par" unit="part"/>i</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#b_1"/><w>wanta<milestone unit="w" type="break"/></w>
+<lb corresp="#b_2"/><w>tākoy</w>
+<lb corresp="#b_3"/><w>e<supplied>ka</supplied>l<supplied>ym</supplied>i</w></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#b_1"><seg><seg type="prim_transl">thing(s)</seg></seg></choice><choice corresp="#b_2"><seg><seg type="prim_transl">would be</seg></seg></choice><choice corresp="#b_3"><seg><seg type="prim_transl">in the power</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note corresp="#b_1" type="lingcomment"><hi>wanta°</hi> could stand either for <hi>wanta〈re〉</hi> (sg.) 'thing' or <hi>wanta〈rwa〉</hi> (pl.) 'things' (although the gloss is found close to he right edge of the fragment, there would still have been space for a third akṣara). In both cases we would have to assume a misspelling for <hi>wäntare</hi>, <hi>wäntarwa</hi>. Perhaps the Tocharian gloss was meant to specify which of the semantic variants of <hi>kārya</hi> was intended.</note><note corresp="#b_1" type="philcomment">glosses probably Skt. <hi>[k]ā(r)y(a)</hi> '[something] to be done'.</note><note corresp="#b_2" type="lingcomment">Although the endings could theoretically be restored differently, the Tocharian form seems to be only disyllabic, since a trace of the <hi>y</hi> and the <hi>ä</hi> can be seen, which are a bit lower and must therefore be in virāma position. The 3sg. is by far the most frequent form to meet this requirement. Further possibilities are theoretically 1sg. <hi>bhaveyam</hi> ~ <hi>tākoym</hi>; 2sg. <hi>bhaveḥ</hi> ~ <hi>tākoyt</hi>; 1pl. <hi>bhavema</hi> ~ <hi>tākoym</hi>. Excluded are 2pl. <hi>bhaveta</hi> ~ <hi>tākoycer</hi> and 3pl. <hi>bhaveyuḥ</hi> ~ <hi>tākoyeṃ</hi> (the variant <hi>tākoṃ</hi> is also excluded).</note><note corresp="#b_2" type="philcomment">glosses Skt. <hi>bhave(t)</hi> (3sg.opt.) 'would be'.</note><note corresp="#b_3" type="philcomment">glosses Skt. <hi>vaśena</hi> (instr.sg.) 'by the power'.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/></bibl>: <bibl><title corresp="ref:peyrot2014"/><citedRange>167</citedRange></bibl>; <bibl><title corresp="ref:wille2012"/><citedRange>352-3</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="user_modified_old">theres</item>
+               <item n="user_created_old">theres</item>
+               <item n="m_prev_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="m_subgenre_old">Gloss</item>
+               <item n="m_translation_old">b_1 thing(s)
+b_2 would be
+b_3 in the power</item>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_other_sigla_old"/>
+               <item n="m_remarks_old"/>
+               <item n="m_language_old">Sanskrit+TB</item>
+               <item n="m_expedition_old"/>
+               <item n="m_size_w_old">2,3</item>
+               <item n="m_parallels_old"/>
+               <item n="project_comment_old"/>
+               <item n="ms_old">SHT 5578</item>
+               <item n="m_script_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_transcription_old">b_1 wanta°
+b_2 tākoy
+b_3 e(ka)l(ym)i</item>
+               <item n="m_title_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_image_old"/>
+               <item n="m_transliteration_old">b_1 wanta
+b_2 tāko[yä\]
+b_3 [e] – [l](·)i</item>
+               <item n="m_language_stage_old"/>
+               <item n="date_publication_old"/>
+               <item n="m_bib_old">[[IDP]]: [[Peyrot 2014]]: 167; [[SHT XI]]: 352-3.</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old">&lt;p&gt;&lt;b&gt;b_1.&lt;/b&gt; &lt;i&gt;wanta°&lt;/i&gt; could stand either for &lt;i&gt;wanta〈re〉&lt;/i&gt; (sg.) 'thing' or &lt;i&gt;wanta〈rwa〉&lt;/i&gt; (pl.) 'things' (although the gloss is found close to he right edge of the fragment, there would still have been space for a third akṣara). In both cases we would have to assume a misspelling for &lt;i&gt;wäntare&lt;/i&gt;, &lt;i&gt;wäntarwa&lt;/i&gt;. Perhaps the Tocharian gloss was meant to specify which of the semantic variants of &lt;i&gt;kārya&lt;/i&gt; was intended.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b_2.&lt;/b&gt; Although the endings could theoretically be restored differently, the Tocharian form seems to be only disyllabic, since a trace of the &lt;i&gt;y&lt;/i&gt; and the &lt;i&gt;ä&lt;/i&gt; can be seen, which are a bit lower and must therefore be in virāma position. The 3sg. is by far the most frequent form to meet this requirement. Further possibilities are theoretically 1sg. &lt;i&gt;bhaveyam&lt;/i&gt; ~ &lt;i&gt;tākoym&lt;/i&gt;; 2sg. &lt;i&gt;bhaveḥ&lt;/i&gt; ~ &lt;i&gt;tākoyt&lt;/i&gt;; 1pl. &lt;i&gt;bhavema&lt;/i&gt; ~ &lt;i&gt;tākoym&lt;/i&gt;. Excluded are 2pl. &lt;i&gt;bhaveta&lt;/i&gt; ~ &lt;i&gt;tākoycer&lt;/i&gt; and 3pl. &lt;i&gt;bhaveyuḥ&lt;/i&gt; ~ &lt;i&gt;tākoyeṃ&lt;/i&gt; (the variant &lt;i&gt;tākoṃ&lt;/i&gt; is also excluded).&lt;/p&gt;</item>
+               <item n="m_size_h_old">4,4</item>
+               <item n="m_next_old"/>
+               <item n="file_modified_old">1582449543</item>
+               <item n="file_created_old">1446454192</item>
+               <item n="m_editor_old"/>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;b_1.&lt;/b&gt; glosses probably Skt. &lt;i&gt;[k]ā(r)y(a)&lt;/i&gt; '[something] to be done'.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b_2.&lt;/b&gt; glosses Skt. &lt;i&gt;bhave(t)&lt;/i&gt; (3sg.opt.) 'would be'.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b_3.&lt;/b&gt; glosses Skt. &lt;i&gt;vaśena&lt;/i&gt; (instr.sg.) 'by the power'.&lt;/p&gt;</item>
+               <item n="m_passage_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="file_location_old">pages/manuscript/sht5578.txt</item>
+               <item n="access_old">restricted</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_lines_old">3+</item>
+               <item n="m_completeness_old"/>
+               <item n="m_linedistance_old"/>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_form_old">Poṭhī</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

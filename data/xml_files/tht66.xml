@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht66">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 66</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Melanie Malzahn</name>
+            </respStmt>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Hannes A. Fellner</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 66</idno>
+                  <altIdentifier>
+                     <idno>B 66</idno>
+                  </altIdentifier>
+                  <msName>Udānālaṅkāra B</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Udānālaṅkāra</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Šorčuq</region>during <rs type="expedition_code">T III Š 64</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Doctrine</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=327816;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=327816;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone><gap reason="plain" unit="part"/><unclear>ṃ</unclear></zone><zone><gap reason="plain" unit="part"/><unclear>ā</unclear></zone><zone>rṣṣe</zone><zone>pe</zone><zone>le</zone><zone>meṃ</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>m<gap reason="plain" unit="part"/>¯</zone><zone>¯R</zone><zone>mā</zone><zone>ya</zone><zone>tkau</zone><zone><unclear>ṣ</unclear>e</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone>te</zone><zone>lkā</zone><zone>ṣl<unclear>o</unclear></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><zone>tweṃ</zone><zone>KA</zone><zone>llo¯</zone><zone>¯yMä</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><gap reason="lost"/><zone>lñe</zone><zone>nta</zone><zone>tā</zone><zone>k<gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="6" xml:id="a6"><gap reason="lost"/><zone>nta</zone><zone>rwa</zone><zone>:</zone><zone>po</zone><zone>ñi</zone><gap reason="lost"/></line>
+            <line n="7" xml:id="a7"><gap reason="lost"/><zone>m<unclear>a</unclear></zone><zone>t<unclear>s</unclear>i</zone><gap reason="plain" quantity="1"/><zone>pi</zone><zone>yoṃ</zone><zone>:</zone><zone>tu</zone><zone><gap reason="plain" unit="part"/><unclear>e</unclear></zone><gap reason="lost"/></line>
+            <line n="8" xml:id="a8"><gap reason="lost"/><zone>rka</zone><zone>kā</zone><zone>pau</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone><unclear>wno</unclear></zone><zone>lme</zone><zone>yā</zone><zone>mTA</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone>po</zone><zone><unclear>ku</unclear></zone><gap reason="plain" quantity="1"/><zone>la</zone><zone>mū</zone><zone>lnta¯</zone><zone>¯tS</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><zone>śa¯</zone><zone>¯K</zone><zone>ṢKA¯</zone><zone>¯S</zone><zone><unclear>tm</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><zone>wai</zone><zone>ptā</zone><zone>rwe</zone><zone>we</zone><zone>ñ<unclear>u</unclear></zone><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><gap reason="lost"/><zone>sā</zone><zone>sta</zone><zone>re</zone><zone>cwi</zone><zone><unclear>m</unclear><gap reason="plain" unit="part"/>e</zone><gap reason="lost"/></line>
+            <line n="6" xml:id="b6"><gap reason="lost"/><zone>rmtsa</zone><zone>w<unclear>ä</unclear></zone><zone>rpna</zone><zone><unclear>l</unclear><gap reason="plain" unit="part"/><unclear>i</unclear></zone><gap reason="lost"/></line>
+            <line n="7" xml:id="b7"><gap reason="lost"/><zone>ṣe¯</zone><zone>¯K</zone><zone>PA¯</zone><zone>¯sT</zone><zone>wi</zone><zone><unclear>k</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="8" xml:id="b8"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>lñ<gap reason="plain" unit="part"/></zone><zone><unclear>n</unclear><gap reason="plain" unit="part"/></zone><zone>mñce</zone><zone>ksa</zone><zone>yā</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p><milestone unit="passage" n="uncertain"/></p>
+            <lg type="poem">
+               <lg n="X" type="strophe">
+                  <l n="x">
+<lb corresp="#a1"/><gap reason="lost"/><w><supplied>sa</supplied>ṃ<supplied>s</supplied>ārṣṣe</w><w>pelemeṃ</w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>m<supplied>a</supplied>r</w><w>mā</w><caesura ana="frg:cs-s"/><w>yat</w><w>kauṣe<supplied>ñca</supplied></w><w><supplied>wes</supplied></w></l>
+                  <l n="x"><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><w><supplied>mā</supplied></w><w>te</w><w>lkāṣl=</w><w>o<supplied>stmeṃ</supplied></w><caesura ana="frg:cs-s"/><w><supplied>lnaskau</supplied></w><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="lost"/><w><supplied>ṣamāññeṣṣeṃ</supplied></w><w><supplied>ye</supplied>tweṃ</w><w>källoym</w><gap reason="lost"/>
+<lb corresp="#a5"/><gap reason="lost"/><w>lñenta</w><w>tāk<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#a6"/><gap reason="lost"/><w><supplied>wä</supplied>ntarwa</w><pc>:</pc><w>po</w><w>ñi</w><gap reason="lost"/>
+<lb corresp="#a7"/><gap reason="lost"/><caesura ana="frg:cs-s"/><w>matsi</w><gap reason="plain" quantity="1"/><w>piyoṃ</w><pc>:</pc></l>
+               </lg>
+            </lg>
+            <p><w>tu</w><w><gap reason="plain" unit="part"/>e</w><gap reason="lost"/>
+<lb corresp="#a8"/><gap reason="lost"/><w>r</w><w>kakāpau</w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><w>wnolme</w><w>yāmtä<supplied>r</supplied></w><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><w>po</w><w>ku<supplied>śa</supplied>lamūlntats</w><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><w>śak</w><w>ṣkäs</w><w>tm<supplied>āne</supplied></w><gap reason="lost"/>
+<lb corresp="#b4"/><gap reason="lost"/><w>waiptār</w><w>weweñu</w><gap reason="lost"/>
+<lb corresp="#b5"/><gap reason="lost"/><w><supplied>tu</supplied>s=</w><w>āstare</w><w>cwi</w><w>m<gap reason="plain" unit="part"/>e</w><gap reason="lost"/>
+<lb corresp="#b6"/><gap reason="lost"/><w><supplied>ṣa</supplied>rmtsa</w><w>wärpnal<supplied>y</supplied>i</w><gap reason="lost"/>
+<lb corresp="#b7"/><gap reason="lost"/><w>ṣek</w><w>päst</w><w>wik<supplied>elle</supplied></w><gap reason="lost"/>
+<lb corresp="#b8"/><gap reason="lost"/><w><gap reason="plain" unit="part"/></w><w>lñ<supplied>e</supplied></w><w>n<supplied>e</supplied>mñceksa</w><w>yā</w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">... from the prison of the (Sa)ṃsāra ...</seg></seg></choice><choice corresp="#a1 #a2 #a3 #a4 #a5 #a6 #a7 #a8 #b1 #b2 #b3 #b4 #b5 #b6 #b7 #b8"><seg><bibl><title corresp="ref:siegandsiegling1949"/><citedRange>II, 79</citedRange></bibl></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">... I will ... , you must not go, killing (us?) ....</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">... (Not) for this must be watched [out], (from the house I go) ....</seg></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl">... the (orna)ments (of monkhood) I wish to acquire ...</seg></seg></choice><choice corresp="#a5"><seg><seg type="prim_transl">...</seg></seg></choice><choice corresp="#a6"><seg><seg type="prim_transl">... things. All ...</seg></seg></choice><choice corresp="#a7"><seg><seg type="prim_transl">... headhair ... This one ...</seg></seg></choice><choice corresp="#a8"><seg><seg type="prim_transl">... desired (?) ....</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">... the being would make ...</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">... of every root of healing ....</seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl">... sixteen myriads ...</seg></seg></choice><choice corresp="#b4"><seg><seg type="prim_transl">... having spoken individually ....</seg></seg></choice><choice corresp="#b5"><seg><seg type="prim_transl">... (therefo)re by him [there is] pure ...</seg></seg></choice><choice corresp="#b6"><seg><seg type="prim_transl">... for this reason must be endured ...</seg></seg></choice><choice corresp="#b7"><seg><seg type="prim_transl">... (must) always pass ...</seg></seg></choice><choice corresp="#b8"><seg><seg type="prim_transl">... (must) certainly (be done?) ...</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="philcomment" subtype="General_remarks">There is a great likelihood that this fragment and <ref type="ms" target="txt:m-tht67"/> belong to one and the same leaf. The 4x11-syllable-metre (rhythm = 6/5) we have already met in <ref type="ms" target="txt:m-tht64"/>. Since only one strophe number (8) is preserved in <ref type="ms" target="txt:m-tht67"/>, and because of the scantiness of the fragments, recto and verso side cannot be determined with any certainty. The translation, too, is frequently in the dark. Between the fragments there appears to be a gap of about 10-12 syllables.</note><note type="remarks">The original manuscript is missing, but was a narrow strip to the right of the schnurloch, composed of two fragments, badly damaged.</note><note corresp="#a1" type="philcomment" subtype="Transcription">Emendation according to <bibl><title corresp="ref:siegandsiegling1983"/><citedRange>93 f</citedRange></bibl>n. 9 based on <bibl><title corresp="ref:tht0000"/></bibl> 67 a2.</note><note corresp="#a2" type="philcomment" subtype="General_remarks"><hi>/// m(a)r</hi> is certainly a 1.sg. middle ending. Whether one can restore <hi>(yām)m(a)r</hi> "I will make" (as per Sieg/Siegling), remains uncertian.</note><note corresp="#a7" type="philcomment" subtype="General_remarks">Since <hi>matsi – piyoṃ</hi> makes a colon of six syllables, <hi>matsi</hi> has to be a complete form, i.e. it is the nom. or obl. noun 'headhair'. This makes it very unlikely that <hi>piyoṃ</hi> is a variant of the 3pl. Imp of <hi>pi<hi rend="superscript">ā</hi>-</hi> ‘± to make a sound like a trumpet’ (see most recently <bibl><title corresp="ref:malzahn2010"/><citedRange>723</citedRange></bibl>). Therefore Malzahn now suggest to separate <hi>p iyoṃ</hi>, <hi>iyoṃ</hi> being the 3.pl. Imp of <hi>iyā-</hi> ‘to cause to go', while the lacuna may be restored to <hi>(ṣa)p</hi>. Since the text is praising the superiority of moonkhood, one may think of a sense like "they caused them to go shave their hair".</note><note corresp="#b8" type="philcomment" subtype="Transliteration">According to <bibl><title corresp="ref:siegandsiegling1983"/><citedRange>94 f</citedRange></bibl>n. 3 <hi>nemñceksa</hi> stands for <hi>nemñcek tsa</hi>.</note><note corresp="#b8" type="philcomment" subtype="General_remarks">Sieg/Siegling propose to restore to <hi>yā(mṣle)</hi> "must be done".</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 66" type="external">THT 66</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/00/0066.htm" type="external">THT 66</ref></bibl>. </p>
+            <p><label>Edition</label><bibl><title corresp="ref:siegandsiegling1949"/><citedRange>I, 78-79</citedRange></bibl>; <bibl><title corresp="ref:siegandsiegling1983"/><citedRange>93-94 notes 227</citedRange></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_script_old">Classical</item>
+               <item n="ms_old">THT 66</item>
+               <item n="project_comment_old"/>
+               <item n="m_parallels_old"/>
+               <item n="m_expedition_old">T III Š 64</item>
+               <item n="m_size_w_old"/>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old">The original manuscript is missing, but was a narrow strip to the right of the schnurloch, composed of two fragments, badly damaged.</item>
+               <item n="m_other_sigla_old">B 66</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_meter_old"/>
+               <item n="m_title_old">Udānālaṅkāra</item>
+               <item n="m_transcription_old">a1 /// (sa)ṃ(s)ārṣṣe pelemeṃ ///
+a2 /// ·m(a)r mā ; yat kauṣe(ñca |wes) #Xx ///
+a3 /// (mā) te lkāṣṣälle|lkāṣl= o(stmeṃ ; |lnaskau) ///
+a4 /// (ṣamāññeṣṣeṃ ye)tweṃ källoym ///
+a5 /// lñenta tāk· ///
+a6 /// (wä)ntarwa : po ñi ///
+a7 /// ; matsi – piyoṃ : #Xx tu ·e ///
+a8 /// r kakāpau ///
+b1 /// onolme|wnolme yāmtä(r) ///
+b2 /// po ku(śa)lamūlntaṃts|ku(śa)lamūlntats ///
+b3 /// śak ṣkäs tm(āne) ///
+b4 /// waiptār weweñu ///
+b5 /// tusa|(tu)s= astare|āstare cwi m·e ///
+b6 /// (ṣa)rmtsa wärpanalyi|wärpnal(y)i ///
+b7 /// ṣek päst wik(elle) ///
+b8 /// · lñ(e) n(e)mñceksa yā ///</item>
+               <item n="m_leaf_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_prev_old"/>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old">bernhard</item>
+               <item n="m_metric_form_old">Verse</item>
+               <item n="m_tune_old"/>
+               <item n="m_translation_old">a1 ... from the prison of the (Sa)ṃsāra ...
+a2 ... I will ... , you must not go, killing (us?) ....
+a3 ... (Not) for this must be watched [out], (from the house I go) ....
+a4 ... the (orna)ments (of monkhood) I wish to acquire ...
+a5 ...
+a6 ... things. All ...
+a7 ... headhair ... This one ...
+a8 ... desired (?) ....
+b1 ... the being would make ...
+b2 ... of every root of healing ....
+b3 ... sixteen myriads ...
+b4 ... having spoken individually ....
+b5 ... (therefo)re by him [there is] pure ...
+b6 ... for this reason must be endured ...
+b7 ... (must) always pass ...
+b8 ... (must) certainly (be done?) ...</item>
+               <item n="m_subgenre_old">Doctrine</item>
+               <item n="m_lines_old">8</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="access_old">public</item>
+               <item n="file_location_old">pages/manuscript/THT_0001_0633/tht66.txt</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_old">Šorčuq</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_linedistance_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old">Udānālaṅkāra B</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 66" target="idp"&gt;THT 66&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/00/0066.htm" target="titus"&gt;THT 66&lt;/a&gt;.&lt;br&gt;
+Edition: [[TochSprR(B) I]]: I, 78-79; [[TochSprR(B)2]]: 93-94, notes 227.&lt;br&gt;
+Complete translation: [[TochSprR(B) I]]: II, 79.</item>
+               <item n="date_publication_old"/>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_transliteration_old">a1 /// [·ṃ·ā]rṣṣe pelemeṃ ///
+a2 /// ·m·_r\ mā yat kau[ṣ]e ///
+a3 /// te lkāṣl= [o] ///
+a4 /// tweṃ _k_alloy_mä\ ///
+a5 /// lñenta tāk· ///
+a6 /// ntarwa : po ñi ///
+a7 /// m[a]t[s]i – piyoṃ : tu [·e] ///
+a8 /// r kakāpau ///
+b1 /// [wno]lme yām_t_a ///
+b2 /// po [ku] – lamūlntat_s\ ///
+b3 /// śa_k\ _ṣ_k_a_s\ [tm·] ///
+b4 /// waiptār weweñ[u] ///
+b5 /// s= āstare cwi [m·]e ///
+b6 /// rmtsa w[ä]rpna[l]·[i] ///
+b7 /// ṣe_k\ _p_as_t\ wi[k·] ///
+b8 /// · lñ· [n]·mñceksa yā ///</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=327816;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=327816;rotate=0;imageType=_M||THT 66 recto</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_passage_old">uncertain</item>
+               <item n="m_philcomment_old">&lt;h3&gt;Transliteration&lt;/h3&gt;
+&lt;p&gt;&lt;b&gt;b8.&lt;/b&gt; According to [[TochSprR(B)2]]: 94 fn. 3 &lt;i&gt;nemñceksa&lt;/i&gt; stands for &lt;i&gt;nemñcek tsa&lt;/i&gt;.&lt;/p&gt;
+&lt;h3&gt;Transcription&lt;/h3&gt;
+&lt;p&gt;&lt;b&gt;a1.&lt;/b&gt; Emendation according to [[TochSprR(B)2]]: 93 fn. 9 based on [[THT]] 67 a2.&lt;/p&gt;
+&lt;h3&gt;General remarks&lt;/h3&gt;
+&lt;p&gt;There is a great likelihood that this fragment and [[THT 67]] belong to one and the same leaf. The 4x11-syllable-metre (rhythm = 6/5) we have already met in [[THT 64]]. Since only one strophe number (8) is preserved in [[THT 67]], and because of the scantiness of the fragments, recto and verso side cannot be determined with any certainty. The translation, too, is frequently in the dark. Between the fragments there appears to be a gap of about 10-12 syllables.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;a2.&lt;/b&gt; &lt;i&gt;/// m(a)r&lt;/i&gt; is certainly a 1.sg. middle ending. Whether one can restore &lt;i&gt;(yām)m(a)r&lt;/i&gt; "I will make" (as per Sieg/Siegling), remains uncertian.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a7.&lt;/b&gt; Since &lt;i&gt;matsi – piyoṃ&lt;/i&gt; makes a colon of six syllables, &lt;i&gt;matsi&lt;/i&gt; has to be a complete form, i.e. it is the nom. or obl. noun 'headhair'. This makes it very unlikely that &lt;i&gt;piyoṃ&lt;/i&gt; is a variant of the 3pl. Imp of &lt;i&gt;pi&lt;sup&gt;ā&lt;/sup&gt;-&lt;/i&gt; ‘± to make a sound like a trumpet’ (see most recently [[Malzahn 2010]]: 723). Therefore Malzahn now suggest to separate &lt;i&gt;p iyoṃ&lt;/i&gt;, &lt;i&gt;iyoṃ&lt;/i&gt; being the 3.pl. Imp of &lt;i&gt;iyā-&lt;/i&gt; ‘to cause to go', while the lacuna may be restored to &lt;i&gt;(ṣa)p&lt;/i&gt;. Since the text is praising the superiority of moonkhood, one may think of a sense like "they caused them to go shave their hair".&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b8.&lt;/b&gt; Sieg/Siegling propose to restore to &lt;i&gt;yā(mṣle)&lt;/i&gt; "must be done".&lt;/p&gt;</item>
+               <item n="m_editor_old">Melanie Malzahn, Hannes A. Fellner</item>
+               <item n="file_created_old">1332006595</item>
+               <item n="file_modified_old">1523662860</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-or15009552">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Or 15009.552</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library (London)</repository>
+                  <idno>Or 15009.552</idno>
+                  <altIdentifier>
+                     <idno>Or.15009/552</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>7,1</height>
+                              <width>17,1</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="txb"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Gloss</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=123737;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=123737;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="b1x"><zone>ṣe¯</zone><zone>¯K∘</zone><zone>so</zone><zone>mo</zone><zone>TKA</zone><zone>ñe</zone><zone>ya</zone><zone>ma</zone><zone>ṢAṃ</zone></line>
+            <line n="2" xml:id="b2x"><zone><unclear>pa</unclear>¯</zone><zone>¯P</zone></line>
+            <line n="3" xml:id="b3x"><zone><gap reason="plain" unit="part"/>e</zone><gap reason="plain" quantity="1"/><zone>mp<gap reason="plain" unit="part"/></zone></line>
+            <line n="3" xml:id="b3y"><zone>ka</zone><zone><unclear>k</unclear>rau</zone><zone>pau</zone></line>
+            <line n="3" xml:id="b3z"><zone>tu</zone><gap reason="plain" quantity="1"/><zone><unclear>śa</unclear></zone><zone>m<unclear>o</unclear></zone></line>
+            <line n="5" xml:id="b5x"><gap reason="plain" quantity="1"/><zone><gap reason="plain" unit="part"/>r<gap reason="plain" unit="part"/></zone><zone><gap reason="plain" unit="part"/><unclear>ko</unclear></zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#b1x"/><w>ṣek</w><w>somotkäñe</w><w>yamaṣäṃ</w>
+<lb corresp="#b2x"/><w>pa</w><w>p</w>
+<lb corresp="#b3x"/><w><gap reason="plain" unit="part"/>e</w><gap reason="plain" quantity="1"/><w>mp<gap reason="plain" unit="part"/></w>
+<lb corresp="#b3y"/><w>kakraupau</w>
+<lb corresp="#b3z"/><w>tu</w><w><supplied>ai</supplied>śamo</w>
+<lb corresp="#b5x"/><gap reason="plain" quantity="1"/><w><gap reason="plain" unit="part"/>r<gap reason="plain" unit="part"/></w><w><gap reason="plain" unit="part"/>ko</w></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#b1x"><seg><seg type="prim_transl">he always acts constantly</seg></seg></choice><choice corresp="#b2x"><seg><seg type="prim_transl">...</seg></seg></choice><choice corresp="#b3x"><seg><seg type="prim_transl">...</seg></seg></choice><choice corresp="#b3y"><seg><seg type="prim_transl">gathered</seg></seg></choice><choice corresp="#b3z"><seg><seg type="prim_transl">knowing this</seg></seg></choice><choice corresp="#b5x"><seg><seg type="prim_transl">without fear</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="philcomment">The last element <ref type="ms" target="#b5x"/> glosses Skt. <hi>[a]bhayāṃ</hi> 'unfearful, not dangerous' (<bibl><title corresp="ref:hartmannju1991"/></bibl>). As the paper is severely abraded, this gloss is essentially illegible; only the <hi>r</hi> can be read with relative certainty. It is even uncertain whether the akṣara with <hi>r</hi> is preceded by one or rather by two other akṣaras.</note><note corresp="#b1x" type="philcomment">glosses Skt. <hi>[ni]tyaṃ satatakāritā[ṃ]</hi> 'always a constant performance' (<bibl><title corresp="ref:hartmannju1991"/></bibl>).</note><note corresp="#b2x" type="lingcomment">The interpretation is unclear; <hi>[pa]</hi> would suggest <hi>[pa]«lsko»</hi> 'mind'.</note><note corresp="#b2x" type="philcomment">glosses Skt. <hi>cittaṃ</hi> 'mind' (<bibl><title corresp="ref:hartmannju1991"/></bibl>). There is a large space between the two akṣaras and, probably, something in between is missing.</note><note corresp="#b3y" type="philcomment"><hi>kakraupau</hi> glosses Skt. <hi>upa[c]ittaṃ</hi> 'gathered' (for <hi>upacitaṃ</hi>; <bibl><title corresp="ref:hartmannju1991"/></bibl>, who notes that the second <hi>t</hi> may have been added later because the ink is fainter). The interpretation of the preceding gloss <ref type="ms" target="#b3x"/> <hi>·e – mp·</hi> as well as that of the damaged Sanskrit akṣaras is uncertain. <ref type="ms" target="#b3z"/> <hi>tu (ai)śamo</hi> (reading suggested by Georges-Jean Pinault - p.c.) glosses Skt. <hi>[t]at [prat]i[saṃ]</hi> 'this ...' (<bibl><title corresp="ref:hartmannju1991"/></bibl>).</note><note corresp="#b3z" type="lingcomment"><hi>tu (ai)śamo</hi>: It is likely that <hi>tu</hi> 'this' translates Skt. <hi>tat</hi> 'this', but the correspondence of the verbal roots is more difficult. The Tocharian word is probably a verbal adjective in <hi>-mo</hi>. The restoration to <hi>(ai)śamo</hi> 'knowing' is based on the assumption that the Sanskrit text has a form of <hi>pratisaṃvedin</hi> 'experiencing'.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>other</label><bibl><title corresp="ref:peyrot2015b"/><citedRange>123-124</citedRange></bibl>.</p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=Or.15009/552" type="external">Or.15009/552</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bl.uk/database/oo_loader.a4d?pm=Or.15009/552"&gt;Or.15009/552&lt;/a&gt;.&lt;br&gt;
+[[Peyrot 2015b]]: 123-124.</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old">&lt;p&gt;&lt;b&gt;b2x&lt;/b&gt; The interpretation is unclear; &lt;i&gt;[pa]&lt;/i&gt; would suggest &lt;i&gt;[pa]«lsko»&lt;/i&gt; 'mind'.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b3z&lt;/b&gt; &lt;i&gt;tu (ai)śamo&lt;/i&gt;: It is likely that &lt;i&gt;tu&lt;/i&gt; 'this' translates Skt. &lt;i&gt;tat&lt;/i&gt; 'this', but the correspondence of the verbal roots is more difficult. The Tocharian word is probably a verbal adjective in &lt;i&gt;-mo&lt;/i&gt;. The restoration to &lt;i&gt;(ai)śamo&lt;/i&gt; 'knowing' is based on the assumption that the Sanskrit text has a form of &lt;i&gt;pratisaṃvedin&lt;/i&gt; 'experiencing'.&lt;/p&gt;</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=123738;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=123738;rotate=0;imageType=_M||$page; recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=123737;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=123737;rotate=0;imageType=_M||$page; verso</item>
+               <item n="m_transliteration_old">b1x ṣe_k\• somo_t_k_añe yama_ṣ_aṃ
+b2x [pa] _p\
+b3x ·e – mp·
+b3y ka[k]raupau
+b3z tu – [śa]m[o]
+b5x – ·r· ·[ko]</item>
+               <item n="m_language_stage_old"/>
+               <item n="date_publication_old"/>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;b1x&lt;/b&gt; glosses Skt. &lt;i&gt;[ni]tyaṃ satatakāritā[ṃ]&lt;/i&gt; 'always a constant performance' ([[Hartmann JU 1991]]).&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b2x&lt;/b&gt; glosses Skt. &lt;i&gt;cittaṃ&lt;/i&gt; 'mind' ([[Hartmann JU 1991]]). There is a large space between the two akṣaras and, probably, something in between is missing.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b3y&lt;/b&gt; &lt;i&gt;kakraupau&lt;/i&gt; glosses Skt. &lt;i&gt;upa[c]ittaṃ&lt;/i&gt; 'gathered' (for &lt;i&gt;upacitaṃ&lt;/i&gt;; [[Hartmann JU 1991]], who notes that the second &lt;i&gt;t&lt;/i&gt; may have been added later because the ink is fainter). The interpretation of the preceding gloss &lt;b&gt;b3x&lt;/b&gt; &lt;i&gt;·e – mp·&lt;/i&gt; as well as that of the damaged Sanskrit akṣaras is uncertain. &lt;b&gt;b3z&lt;/b&gt; &lt;i&gt;tu (ai)śamo&lt;/i&gt; (reading suggested by Georges-Jean Pinault - p.c.) glosses Skt. &lt;i&gt;[t]at [prat]i[saṃ]&lt;/i&gt; 'this ...' ([[Hartmann JU 1991]]).&lt;/p&gt;
+&lt;p&gt;The last element &lt;b&gt;b5x&lt;/b&gt; glosses Skt. &lt;i&gt;[a]bhayāṃ&lt;/i&gt; 'unfearful, not dangerous' ([[Hartmann JU 1991]]). As the paper is severely abraded, this gloss is essentially illegible; only the &lt;i&gt;r&lt;/i&gt; can be read with relative certainty. It is even uncertain whether the akṣara with &lt;i&gt;r&lt;/i&gt; is preceded by one or rather by two other akṣaras.&lt;/p&gt;</item>
+               <item n="m_passage_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_size_h_old">7,1</item>
+               <item n="m_next_old"/>
+               <item n="file_modified_old">1553195876</item>
+               <item n="file_created_old">1460968573</item>
+               <item n="access_old">restricted</item>
+               <item n="m_lines_old"/>
+               <item n="m_collection_old">British Library (London)</item>
+               <item n="m_completeness_old"/>
+               <item n="file_location_old">pages/manuscript/or15009552.txt</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_linedistance_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="user_modified_old">martin</item>
+               <item n="user_created_old">theres</item>
+               <item n="m_prev_old"/>
+               <item n="m_metric_form_old"/>
+               <item n="m_tune_old"/>
+               <item n="project_check_old">line numbers</item>
+               <item n="m_subgenre_old">Gloss</item>
+               <item n="m_translation_old">b1x he always acts constantly
+b2x ...
+b3x ...
+b3y gathered
+b3z knowing this
+b5x without fear</item>
+               <item n="m_parallels_old"/>
+               <item n="project_comment_old">&lt;p&gt;Please check and correct the line of the last gloss and its position within this line! –Martin (Thu, 2019-03-21, 20:17:56 (CET))&lt;/p&gt;</item>
+               <item n="ms_old">Or 15009.552</item>
+               <item n="m_script_old"/>
+               <item n="m_other_sigla_old">Or.15009/552</item>
+               <item n="m_language_old">Sanskrit+TB</item>
+               <item n="m_remarks_old"/>
+               <item n="m_expedition_old"/>
+               <item n="m_size_w_old">17,1</item>
+               <item n="m_leaf_old"/>
+               <item n="m_title_old"/>
+               <item n="m_transcription_old">b1x ṣek somotkäññe|somotkäñe yamaṣṣäṃ|yamaṣäṃ
+b2x pa p
+b3x ·e – mp·
+b3y kakraupau
+b3z tu (ai)śamo
+b5x – ·r· ·ko</item>
+               <item n="m_meter_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;Please check and correct the line of the last gloss and its position within this line! –Martin (Thu, 2019-03-21, 20:17:56 (CET))&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

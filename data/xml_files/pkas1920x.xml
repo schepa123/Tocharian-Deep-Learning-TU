@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-pkas1920x">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PK AS 19.20.X</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Georges-Jean Pinault</name>
+            </respStmt>
+            <respStmt>
+               <resp>collaborator</resp>
+               <name>Hannes A. Fellner</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <date when="2014-07">July 2014</date>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</repository>
+                  <idno>PK AS 19.20.X</idno>
+                  <altIdentifier>
+                     <idno>Pelliot Koutchéen Ancienne Série 19.20 (number in 1982)</idno>
+                  </altIdentifier>
+                  <msName>PK AS 19</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Pratītyasamutpāda</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>6,5</height>
+                              <width>19,8</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <dimensions type="line_spacing">
+                              <height>1,2</height>
+                           </dimensions>
+                           <measure type="lines">5</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>during <rs type="expedition_code">M 504</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Abhidharma</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f158.zoom"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f158.highres"/>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone><unclear>ly</unclear><gap reason="plain" unit="part"/></zone><gap reason="par" quantity="3"/><zone>ss<gap reason="plain" unit="part"/></zone><zone>nma</zone><gap reason="plain" quantity="2"/><zone>tu</zone><zone>ña</zone><zone>nma</zone><zone>pä</zone><zone>ssa</zone><zone>kwä</zone><zone>n<gap reason="plain" unit="part"/>a</zone><zone>t<unclear>l</unclear><gap reason="plain" unit="part"/></zone><gap reason="par" quantity="3"/><zone>ne</zone><zone>ṣ<gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><gap reason="plain" quantity="2"/><zone>lyi</zone><zone>•</zone><zone>tu</zone><zone>meṃ</zone><zone>cai</zone><zone>kle</zone><zone>ṅkeṃ</zone><zone>tsa</zone><gap reason="plain" quantity="1"/><gap reason="par" quantity="9"/><zone>kā</zone><zone>yä</zone><zone>kne</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="plain" quantity="1"/><zone>¯P</zone><zone>klau</zone><zone>tki</zone><zone>skeṃ</zone><zone>te</zone><zone>•</zone><zone>ce</zone><zone>sa</zone><zone>śā</zone><zone>mna</zone><zone>sk<unclear>w</unclear>a</zone><zone>sso</zone><zone>ñc</zone><gap reason="par" quantity="8"/><zone>TA</zone><zone>rne</zone><zone>so</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><gap reason="plain" quantity="1"/><zone><unclear>m</unclear><gap reason="plain" unit="part"/></zone><zone>we</zone><zone>ñwa</zone><zone>s<unclear>k</unclear>e<gap reason="plain" unit="part"/></zone><zone>te</zone><zone>MA</zone><gap reason="plain" quantity="4"/><zone>ne</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f157.zoom"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f157.highres"/>
+            <line n="1" xml:id="b1"><gap reason="plain" quantity="2"/><zone>m<gap reason="plain" unit="part"/></zone><zone>śtwā</zone><zone>ra</zone><zone><unclear>KA</unclear></zone><zone>lym<unclear>i</unclear></zone><zone>sa</zone><zone><unclear>o</unclear></zone><zone>no</zone><zone>lm<unclear>i</unclear></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="plain" quantity="1"/><zone><unclear>m</unclear>ā</zone><zone>r<gap reason="plain" unit="part"/></zone><zone>waṃ</zone><zone>tū</zone><zone>sa</zone><zone>so</zone><zone>yä</zone><zone>ṢṢA</zone><zone>nm<gap reason="plain" unit="part"/></zone><zone>po</zone><zone>skwa</zone><zone>śco</zone><zone>nai</zone><gap reason="par" quantity="8"/><zone>k<gap reason="plain" unit="part"/></zone><zone>st<unclear>yo</unclear></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="plain" quantity="1"/><gap reason="par" quantity="1"/><zone><unclear>k</unclear><gap reason="plain" unit="part"/>e</zone><zone>ṣa</zone><zone>ña¯</zone><zone>¯ñMä</zone><zone>stā¯</zone><zone>¯M</zone><zone>ya</zone><zone>ma</zone><space type="string_hole"/><gap reason="par" quantity="8"/><zone>pe</zone><zone>tā</zone><zone>kaṃ</zone><zone><unclear>n</unclear>e</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><gap reason="plain" quantity="4"/><zone>tu</zone><zone>yä</zone><zone>kne</zone><zone>sa</zone><zone>ṣa</zone><zone>na¯</zone><zone>¯ñMä</zone><zone>stā<unclear>¯</unclear></zone><zone><unclear>¯</unclear><unclear>M</unclear></zone><zone><unclear>wā</unclear></zone><zone>SKA</zone><zone>l<unclear>l</unclear>e</zone><zone><gap reason="plain" unit="part"/>o</zone><gap reason="par" quantity="3"/><zone>ṢṢA</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><zone>r<unclear>sa</unclear></zone><zone>MPA</zone><gap reason="par" quantity="2"/><zone><gap reason="par" unit="part"/>e</zone><zone><unclear>ma</unclear></zone><gap reason="par" quantity="1"/><zone><gap reason="par" unit="part"/>e</zone><gap reason="par" quantity="2"/><gap reason="plain" quantity="5"/><zone>r<gap reason="plain" unit="part"/></zone><zone>ā</zone><gap reason="par" quantity="1"/><zone>sty<gap reason="plain" unit="part"/></zone><zone>kai</zone><zone>sa</zone><gap reason="plain" quantity="2"/><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a2"/><gap reason="lost"/><w>ly<gap reason="plain" unit="part"/></w><gap reason="plain" quantity="2"/><w><supplied>wä</supplied>ss<supplied>a</supplied>nma</w><gap reason="plain" quantity="2"/><w>tuñanma</w><w>pässakwän<supplied>t</supplied>a</w><w>tl<gap reason="plain" unit="part"/></w><gap reason="plain" quantity="3"/><w>ne</w><w>ṣ<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><gap reason="plain" quantity="2"/><w>lyi</w><pc>•</pc><w>tumeṃ</w><w>cai</w><w>kleṅkeṃtsa</w><gap reason="plain" quantity="10"/><w><supplied>ma</supplied>kā</w><w>yäkne</w><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="plain" quantity="1"/><w>p</w><w>klautki</w><w>skeṃte</w><pc>•</pc><w>cesa</w><w>śāmna</w><w>skwassoñc</w><gap reason="plain" quantity="8"/><w>tär-ne</w><w>so<milestone unit="w" type="break"/></w><gap reason="lost"/>
+<lb corresp="#a5"/><gap reason="plain" quantity="1"/><w>m<supplied>ai</supplied>weñ</w><w>wa</w><w>ske<supplied>ṃ</supplied>te</w><w>mä</w><gap reason="plain" quantity="4"/><w>ne</w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="plain" quantity="2"/><w>m<gap reason="plain" unit="part"/></w><w>śtwāra</w><w>kälymisa</w><w>onolmi</w><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="plain" quantity="1"/><w>mā</w><w>r<supplied>u</supplied>waṃ</w><w>tūsa</w><w>soyäṣṣän-m<supplied>e</supplied></w><w>po</w><w>skwa-śconai<supplied>meṃ</supplied></w><gap reason="plain" quantity="7"/><w>k<supplied>e</supplied>st</w><w>yo<supplied>kaisa</supplied></w><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="plain" quantity="2"/><w>k<gap reason="plain" unit="part"/>e</w><w>ṣañ</w><w>añm</w><w>stām</w><w>yama</w><gap reason="plain" quantity="8"/><w>pe</w><w>tākaṃ-ne</w><gap reason="lost"/>
+<lb corresp="#b4"/><gap reason="plain" quantity="4"/><w>tu</w><w>yäknesa</w><w>ṣan</w><w>añm</w><w>stām</w><w>wāskälle</w><w><gap reason="plain" unit="part"/>o</w><gap reason="plain" quantity="3"/><w>ṣṣä</w><gap reason="lost"/>
+<lb corresp="#b5"/><w>-r</w><w>sampä</w><gap reason="plain" quantity="2"/><w><gap reason="plain" unit="part"/>e</w><w>ma</w><gap reason="plain" quantity="1"/><w><gap reason="plain" unit="part"/>e</w><gap reason="plain" quantity="7"/><w>r<gap reason="plain" unit="part"/></w><w>ā</w><w><supplied>ke</supplied>st</w><w>y<supplied>o</supplied>kaisa</w><gap reason="plain" quantity="2"/><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a2"><seg><seg type="prim_transl">... garments, ... perfumes, garlands ... (they carry ?)  </seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">... Thereupon this ones with vehicles ... in manifold ways ... </seg></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl">... the behaviors are ... By this one the happy people ... he (makes ...?) to him </seg></seg></choice><choice corresp="#a5"><seg><seg type="prim_transl">... the young ones are ... </seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">... the beings in the four directions ... </seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">... they will not open. Because of that he will satiate them, from all happiness [and] misfortune ... by hunger [and] thirst ... </seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl">... the tree should make himself ... it will be for him ...</seg></seg></choice><choice corresp="#b4"><seg><seg type="prim_transl">... in that way the tree ought to move itself ...  </seg></seg></choice><choice corresp="#b5"><seg><seg type="prim_transl">... that one ... by hunger [and] thirst ...</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">This is the largest fragment under the number [[PK AS 19.20]] on the left. It is the left part of the leaf including damaged traces of the string hole. There is a remnant of the leaf number, namely 4, but there is no clear sign of the decade which is expected.</note><note corresp="#a1" type="philcomment">There are only illegible traces of akṣaras on this line.</note></p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_size_h_old">6,5</item>
+               <item n="file_created_old">1406298276</item>
+               <item n="file_modified_old">1551883782</item>
+               <item n="page_name_old">PK AS 19.20.X</item>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;a1.&lt;/b&gt; There are only illegible traces of akṣaras on this line.&lt;/p&gt;</item>
+               <item n="version_old">10</item>
+               <item n="m_editor_old">Georges-Jean Pinault (in collaboration with Hannes A. Fellner)</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_image_old">http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f158.zoom|http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f158.highres||$page; recto
+http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f157.zoom|http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f157.highres||$page; verso|transform:rotate(180deg);</item>
+               <item n="date_publication_old">July 2014</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_transliteration_old">a2 /// [ly·] (– – –) ss·nma – – tuñanma pässakwän·a t[l]· (– – –) ne ṣ· /// 
+a3 /// – – lyi • tumeṃ cai kleṅkeṃtsa – (– – – – – – – – –) kā yäkne ///
+a4 – _p\ klautki skeṃte • cesa śāmna sk[w]assoñc (– – – – – – – –) _t_ar-ne so ///
+a5 – [m·]weñ wa s[k]e·te _m_a – – – – ne ///
+b1 – – m· śtwāra [_k_a]lym[i]sa [o]nolm[i] ///
+b2 – [m]ā r·waṃ tūsa soyä_ṣ_ṣ_an-m· po skwa-śconai (– – – – – – – –) k·st [yo] ///
+b3 – (–) [k]·e ṣañ añ_mä\ stā_m\ yama ○ (– – – – – – – –) pe tākaṃ[-n]e ///
+b4 – – – – tu yäknesa ṣan añ_mä\ stā[_m\] [wā]_s_k_al[l]e ·o (– – –) _ṣ_ṣ_a ///
+b5 r [sa]_m_p_a (– – ·)e [ma] (– ·)e (– –) – – – – – r· ā (–) st y·kaisa – – ///</item>
+               <item n="file_size_old">3 KB</item>
+               <item n="m_manuscript_old">PK AS 19</item>
+               <item n="m_linedistance_old">1,2</item>
+               <item n="created_date_old">2014-07-25, 16:24:36 (CEST)</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="file_location_old">pages/manuscript/pkas1920x.txt</item>
+               <item n="m_lines_old">5</item>
+               <item n="m_collection_old">Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</item>
+               <item n="access_old">public</item>
+               <item n="file_savedate_old">2017-01-12, 12:49:14 (CET)</item>
+               <item n="m_subgenre_old">Abhidharma</item>
+               <item n="m_translation_old">a2 ... garments, ... perfumes, garlands ... (they carry ?)  
+a3 ... Thereupon this ones with vehicles ... in manifold ways ... 
+a4 ... the behaviors are ... By this one the happy people ... he (makes ...?) to him 
+a5 ... the young ones are ... 
+b1 ... the beings in the four directions ... 
+b2 ... they will not open. Because of that he will satiate them, from all happiness [and] misfortune ... by hunger [and] thirst ... 
+b3 ... the tree should make himself ... it will be for him ...
+b4 ... in that way the tree ought to move itself ...  
+b5 ... that one ... by hunger [and] thirst ...</item>
+               <item n="file_name_old">pages/manuscript/pkas1920x.txt</item>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="user_created_old">hannes</item>
+               <item n="user_modified_old">theres</item>
+               <item n="category_old">manuscript</item>
+               <item n="editgroup_old">Editor</item>
+               <item n="m_title_old">Pratītyasamutpāda</item>
+               <item n="m_transcription_old">a2 /// ly· – – wästsanma|(wä)ss(a)nma – – tuñanma pässakwän(t)a tl· – – – ne ṣ· /// 
+a3 /// – – lyi • tumeṃ cai kleṅkeṃtsa – – – – – – – – – – (ma)kā yäkne ///
+a4 – p klautki skeṃte • cesa śāmna skwassoñc – – – – – – – – tär-ne so- ///
+a5 – m(ai)weñ wa ske(ṃ)te mä – – – – ne ///
+b1 – – m· śtwāra kälymisa onolmi ///
+b2 – mā r(u)waṃ tūsa soyäṣṣän-m(e) po skwa-śconai(meṃ) – – – – – – – k(e)st yo(kaisa) ///
+b3 – – k·e ṣañ añm stām yama (– – – – – – – –) pe tākaṃ-ne ///
+b4 – – – – tu yaknesa|yäknesa ṣan añm stām wāskälle ·o – – – ṣṣä ///
+b5 -r sampä – – ·e ma – ·e – – – – – – – r· ā (ke)st y(o)kaisa – – ///</item>
+               <item n="group_old">Public</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old">&lt;p&gt;This is the largest fragment under the number [[PK AS 19.20]] on the left. It is the left part of the leaf including damaged traces of the string hole. There is a remnant of the leaf number, namely 4, but there is no clear sign of the decade which is expected. &lt;/p&gt; </item>
+               <item n="m_other_sigla_old">Pelliot Koutchéen Ancienne Série 19.20 (number in 1982)</item>
+               <item n="m_size_w_old">19,8</item>
+               <item n="m_expedition_old">M 504</item>
+               <item n="edited_date_old">2017-01-12, 12:49:14 (CET)</item>
+               <item n="m_script_old">Classical</item>
+               <item n="ms_old">PK AS 19.20.X</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

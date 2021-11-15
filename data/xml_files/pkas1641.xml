@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-pkas1641">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PK AS 16.4.1</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Georges-Jean Pinault</name>
+            </respStmt>
+            <respStmt>
+               <resp>collaborator</resp>
+               <name>Melanie Malzahn</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <date when="2012-08">August 2012</date>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</repository>
+                  <idno>PK AS 16.4.1</idno>
+                  <altIdentifier>
+                     <idno>Pelliot Koutchéen Ancienne Série 16.4.1</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>PK AS 16.4A</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>1281</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>11,2</height>
+                              <width>14,7</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <dimensions type="line_spacing">
+                              <height>2,8</height>
+                           </dimensions>
+                           <measure type="lines">6</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Duldur-Akhur</region>during <rs type="expedition_code">DA cour</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="prose_verse">prose</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone><unclear>k</unclear><gap reason="par" unit="part"/></zone><zone>yā</zone><zone>mtsi¯</zone><zone>¯Ś</zone><zone>mā</zone><zone>ne</zone><zone>SA<unclear>ṃ</unclear></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone>KTAṃ</zone><zone>ña</zone><zone>na</zone><zone>kre<gap reason="par" unit="part"/></zone><zone><unclear>tau</unclear></zone><zone>na</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><space type="string_hole"/><zone>ñä</zone><zone>kte</zone><zone>ntse</zone><zone>kr<unclear>e</unclear></zone><zone>ntau</zone><zone>na<unclear>¯</unclear></zone><zone><unclear>¯</unclear><unclear>tS</unclear></zone><zone><unclear>ā</unclear></zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><zone>l<unclear>y</unclear>e</zone><zone>snai</zone><zone>yä¯</zone><zone>¯rM</zone><zone>ai</zone><zone>śa</zone><zone>mñe</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><gap reason="lost"/><zone><unclear>le</unclear></zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <line n="1" xml:id="b1"><gap reason="ink_lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="ink_lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><space type="string_hole"/><zone><unclear>c</unclear><gap reason="par" unit="part"/></zone><zone>ñ<gap reason="par" unit="part"/></zone><zone>ce</zone><zone>ṣo</zone><zone>trū</zone><zone>na</zone><zone>lye<gap reason="par" unit="part"/></zone><zone><gap reason="par" unit="part"/><unclear>k</unclear></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><space type="string_hole"/><zone>ṅka</zone><zone>ṣṣe</zone><zone>cau</zone><zone><unclear>kr</unclear>au</zone><zone>pe</zone><zone>ma</zone><gap reason="par" quantity="2"/><zone><gap reason="par" unit="part"/><unclear>o</unclear></zone><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><gap reason="lost"/><zone>nau</zone><zone>ntai</zone><zone>no</zone><zone>:</zone><zone>o</zone><zone><unclear>no</unclear></zone><zone><unclear>lm</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="6" xml:id="b6"><gap reason="lost"/><zone><unclear>y</unclear>a</zone><zone>rke</zone><zone>yā</zone><zone>mtsi<unclear>¯</unclear></zone><zone><unclear>¯</unclear>Ś</zone><zone>po</zone><zone><unclear>y</unclear><gap reason="par" unit="part"/><unclear>i</unclear></zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><w><supplied>yar</supplied>k<supplied>e</supplied></w><w>yāmtsiś</w><w>mā</w><w>nesäṃ</w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><w><supplied>pañä</supplied>ktäṃñana</w><w>kre<supplied>n</supplied>tauna</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><w><supplied>pa</supplied>ñäktentse</w><w>krentauna<add>ṃ</add>ts</w><w>ā</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="lost"/><w>lye</w><w>snai</w><w>yärm</w><w>aiśamñe</w><gap reason="lost"/>
+<lb corresp="#a5"/><gap reason="lost"/><w>le</w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="ink_lost"/>
+<lb corresp="#b2"/><gap reason="ink_lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><w><supplied>cäñ</supplied>c<supplied>ar</supplied>ñ<supplied/>ce<supplied>ṃ</supplied></w><w>ṣotrūna</w><w>lye<supplied>ly</supplied>k<supplied>ormeṃ</supplied></w><gap reason="lost"/>
+<lb corresp="#b4"/><gap reason="lost"/><w><supplied>sa</supplied>ṅkaṣṣe</w><w>cau</w><w>kraupe</w><w>ma</w><gap reason="plain" quantity="2"/><w><gap reason="plain" unit="part"/>o</w><gap reason="lost"/>
+<lb corresp="#b5"/><gap reason="lost"/><w>nauntaino</w><pc>:</pc><w>onolm<supplied>e</supplied></w><gap reason="lost"/>
+<lb corresp="#b6"/><gap reason="lost"/><w>yarke</w><w>yāmtsiś</w><w>poy<supplied>ś</supplied>i<supplied>ntse</supplied></w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">... there is no [one] to pay homage ...</seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">... the virtues belonging to the Buddhalord ...</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">... of the virtues of the Buddhalord ...</seg></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl">... wisdom without limit ...</seg></seg></choice><choice corresp="#a5"><seg><seg type="prim_transl">...</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">...</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">...</seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl">... (after having) seen the signs characterized by pleasantness ...</seg></seg></choice><choice corresp="#b4"><seg><seg type="prim_transl">... this gathering of the community ...</seg></seg></choice><choice corresp="#b5"><seg><seg type="prim_transl">... the streets. The being ...</seg></seg></choice><choice corresp="#b6"><seg><seg type="prim_transl">... in order to pay homage to the Omniscient ...</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">Fragment of a large leaf right beside the string hole in lines 3 and 4 with part of the upper margin preserved; recto and verso uncertain. The leaf does not belong to the other ones of the series PK AS 16.</note></p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_title_old"/>
+               <item n="m_transcription_old">a1 /// (yar)k(e) yāmtsiś mā nesäṃ ///
+a2 /// (pañä)ktäṃñana kre(n)tauna – ///
+a3 /// (pa)ñäktentse krentauna«ṃ»ts ā – ///
+a4 /// lye snai yärm aiśamñe ///
+a5 /// le ///
+b1 &lt;i&gt;lost&lt;/i&gt;
+b2 &lt;i&gt;lost&lt;/i&gt;
+b3 /// (cäñ)c(ar)ñ()ce(ṃ) ṣotrūna lye(ly)k(ormeṃ) ///
+b4 /// (sa)ṅkaṣṣe cau kraupe ma (– –) (·)o ///
+b5 /// nauntaiñ|nauntaino : onolm(e) ///
+b6 /// yarke yāmtsiś poy(ś)i(ntse) ///</item>
+               <item n="m_leaf_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_size_w_old">14,7</item>
+               <item n="m_expedition_old">DA cour</item>
+               <item n="m_other_sigla_old">Pelliot Koutchéen Ancienne Série 16.4.1; PK AS 16.4A; 1281</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old">&lt;p&gt;Fragment of a large leaf right beside the string hole in lines 3 and 4 with part of the upper margin preserved; recto and verso uncertain. The leaf does not belong to the other ones of the series PK AS 16.&lt;/p&gt;</item>
+               <item n="project_comment_old"/>
+               <item n="ms_old">PK AS 16.4.1</item>
+               <item n="m_script_old">Classical</item>
+               <item n="m_parallels_old"/>
+               <item n="m_subgenre_old"/>
+               <item n="m_translation_old">a1 ... there is no [one] to pay homage ...
+a2 ... the virtues belonging to the Buddhalord ...
+a3 ... of the virtues of the Buddhalord ...
+a4 ... wisdom without limit ...
+a5 ...
+b1 ...
+b2 ...
+b3 ... (after having) seen the signs characterized by pleasantness ...
+b4 ... this gathering of the community ...
+b5 ... the streets. The being ...
+b6 ... in order to pay homage to the Omniscient ...</item>
+               <item n="project_check_old"/>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Both</item>
+               <item n="m_prev_old"/>
+               <item n="user_modified_old">hannes</item>
+               <item n="user_created_old">melanie</item>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_linedistance_old">2,8</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_old">Duldur-Akhur</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="file_location_old">pages/manuscript/PK_AS/pkas1641.txt</item>
+               <item n="m_completeness_old"/>
+               <item n="access_old">public</item>
+               <item n="m_lines_old">6</item>
+               <item n="m_collection_old">Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</item>
+               <item n="file_modified_old">1575020338</item>
+               <item n="file_created_old">1343572550</item>
+               <item n="m_size_h_old">11,2</item>
+               <item n="m_next_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_editor_old">Georges-Jean Pinault (in collaboration with Melanie Malzahn)</item>
+               <item n="m_philcomment_old"/>
+               <item n="m_passage_old"/>
+               <item n="m_transliteration_old">a1 /// [k](·) yāmtsi_ś\ mā ne_s_a[ṃ] ///
+a2 /// _k_t_aṃñana kre(·)[tau]na – ///
+a3 /// ○ ñäktentse kr[e]ntauna[t_s\] [ā] – ///
+a4 /// l[y]e snai yär_m\ aiśamñe ///
+a5 /// [le] ///
+b1 &lt;i&gt;lost&lt;/i&gt;
+b2 &lt;i&gt;lost&lt;/i&gt;
+b3 /// ○ [c](·)ñ(·)ce ṣotrūna lye(··)[k] ///
+b4 /// ○ ṅkaṣṣe cau [kr]aupe ma (– – ·)[o] ///
+b5 /// nauntaino : o[nolm]· ///
+b6 /// [y]arke yāmtsi_ś[\] po[y](·)[i] ///</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="date_publication_old">August 2012</item>
+               <item n="m_image_old"/>
+               <item n="m_bib_old"/>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-ioltoch365">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>IOL Toch 365</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library (London)</repository>
+                  <idno>IOL Toch 365</idno>
+                  <altIdentifier>
+                     <idno>D 06</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Jātaka/Avadāna</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=8295;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=8295;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL365a.jpg" height="700px" width="736px"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone><gap reason="plain" unit="part"/><unclear>ñ</unclear><gap reason="plain" unit="part"/></zone><zone>we¯</zone><zone>¯Ṣ</zone><zone>myā</zone><zone>ska</zone><zone>t<unclear>e</unclear></zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone><unclear>ñä</unclear></zone><zone>kte</zone><zone>hiṃ</zone><zone>ra¯</zone><zone>¯mT</zone><zone>la</zone><zone>kle</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>tveṃ</zone><zone>ka</zone><zone>lau</zone><zone>॥</zone><zone>tu</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>au</zone><zone><unclear>r</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=12194;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=12194;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL365b.jpg" height="699px" width="690px"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone><unclear>dh</unclear><gap reason="plain" unit="part"/></zone><zone>sa</zone><zone>tveṃ</zone><zone>pri</zone><zone>t<gap reason="plain" unit="part"/></zone><zone>R</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><zone><gap reason="plain" unit="part"/><unclear>ā</unclear>¯</zone><zone>¯ñä</zone><zone>pe</zone><zone>rne</zone><zone>rñe</zone><zone>sa<unclear>ṃ</unclear></zone><zone><unclear>ts</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><zone>le</zone><zone>ne</zone><zone>lmo</zone><zone>rmeṃ</zone><zone>wai</zone><zone>rā</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>ñ<gap reason="plain" unit="part"/></w><w>weṣ</w><w>myāskate</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><w>ñäkte</w><w>hiṃ</w><w>ramt</w><w>lakle</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><w><supplied>bodhisa</supplied>tveṃ</w><w>kalau</w><pc>॥</pc><w>tu</w><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>au</w><w>r<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><w><supplied>bo</supplied>dh<supplied>i</supplied>satveṃ</w><w>prit<supplied>a</supplied>r</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>āñ</w><w>pernerñe</w><w>saṃts<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#b4"/><gap reason="lost"/><w>lene</w><w>lmormeṃ</w><w>wai</w><w>rā</w><gap reason="plain" quantity="1"/><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">... changed his appearance ...</seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">... god (made a sound?) like <hi>hiṃ</hi> ... sorrow ...</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">... I will bring the Bodhisattva. || Thereupon ...</seg></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl">...</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">...</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">... look for the Bodhisattva!</seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl">... worthy ...</seg></seg></choice><choice corresp="#b4"><seg><seg type="prim_transl">... having sat down [in his] cell ...</seg></seg></choice></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 365" type="external">IOL Toch 365</ref></bibl>. </p>
+            <p><label>Edition</label><bibl><title corresp="ref:peyrot2007"/><citedRange>№365</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 365"&gt;IOL Toch 365&lt;/a&gt;.&lt;br&gt;
+Edition: [[Peyrot 2007]]: №365.</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_transliteration_old">a1 /// ·[ñ]· we_ṣ\ myāskat[e] – ///
+a2 /// [ñä]kte hiṃ ram_t\ lakle – ///
+a3 /// – tveṃ kalau || tu ///
+a4 /// ·au [r]· ///
+b1 /// – ///
+b2 /// -[dh]·satveṃ prit·_r – ///
+b3 /// ·[ā]ñä\ pernerñe sa[ṃts]· ///
+b4 /// lene lmormeṃ wai rā – ///</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="date_publication_old"/>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=8295;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=8295;rotate=0;imageType=_M||IOL Toch 365 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=12194;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=12194;rotate=0;imageType=_M||IOL Toch 365 verso</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old"/>
+               <item n="file_modified_old">1564327872</item>
+               <item n="file_created_old">1322765175</item>
+               <item n="m_size_h_old"/>
+               <item n="m_next_old"/>
+               <item n="m_completeness_old"/>
+               <item n="access_old">restricted</item>
+               <item n="m_collection_old">British Library (London)</item>
+               <item n="m_lines_old">4</item>
+               <item n="file_location_old">pages/manuscript/IOL_Toch/ioltoch365.txt</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_linedistance_old"/>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_prev_old"/>
+               <item n="user_modified_old">martin</item>
+               <item n="user_created_old">automatic</item>
+               <item n="project_check_old"/>
+               <item n="m_metric_form_old"/>
+               <item n="m_tune_old"/>
+               <item n="m_subgenre_old">Jātaka/Avadāna</item>
+               <item n="m_translation_old">a1 ... changed his appearance ...
+a2 ... god (made a sound?) like &lt;i&gt;hiṃ&lt;/i&gt; ... sorrow ...
+a3 ... I will bring the Bodhisattva. || Thereupon ...
+a4 ...
+b1 ...
+b2 ... look for the Bodhisattva!
+b3 ... worthy ...
+b4 ... having sat down [in his] cell ...</item>
+               <item n="ms_old">IOL Toch 365</item>
+               <item n="project_comment_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="m_parallels_old"/>
+               <item n="m_size_w_old"/>
+               <item n="m_expedition_old"/>
+               <item n="m_other_sigla_old">D 06</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_leaf_old"/>
+               <item n="m_title_old"/>
+               <item n="m_transcription_old">a1 /// ·ñ· weṣ myāskate – ///
+a2 /// ñäkte hiṃ ramt lakle – ///
+a3 /// (bodhisa)tveṃ kalau || tu ///
+a4 /// ·au r· ///
+b1 /// – ///
+b2 /// bodhisātveṃ|(bo)dh(i)satveṃ prit(a)r – ///
+b3 /// ·āñ pernerñe saṃts· ///
+b4 /// lene lmormeṃ wai rā – ///</item>
+               <item n="m_meter_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

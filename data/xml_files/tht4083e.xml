@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht4083e">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 4083.e</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 4083.e</idno>
+                  <altIdentifier>
+                     <idno>SHT 1098.e</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">5</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Murtuq</region>during <rs type="expedition_code">T III M 153, T III M 169</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="xto"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Gloss</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=336163;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=336163;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="a1"><zone>a</zone><zone>ne</zone><zone>wa</zone><zone>ṣta<unclear>ṃ</unclear></zone><zone>tu</zone><gap reason="editorial"/><zone>sa</zone><zone>kkā¯</zone><zone>¯K</zone></line>
+            <line n="4" xml:id="a4"><zone>e¯</zone><zone>¯ts</zone><gap reason="editorial"/><zone>yi</zone><zone>sli</zone></line>
+            <line n="5" xml:id="a5"><zone>pa</zone><zone>KA</zone><zone>rka¯</zone><zone>¯S</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><w>ane</w><w>waṣtaṃtu</w><gap reason="editorial"/><w>sakkāk</w>
+<lb corresp="#a4"/><w>ets</w><gap reason="editorial"/><w>yisli</w>
+<lb corresp="#a5"/><w>pakärkas</w></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">inside the houses ... balcony</seg></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl">jealousy ... envy</seg></seg></choice><choice corresp="#a5"><seg><seg type="prim_transl">bind!</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note corresp="#a1" type="lingcomment">Admittedly, <hi>ane</hi> 'inside, into' is normally not used as a preposition, but only as a postposition or an adverb, usually following a noun (<bibl><title corresp="ref:carlingetal2009"/><citedRange>10</citedRange></bibl>). Nevertheless, taking it here as 'into' fits the context: the women are filling all possible storage place with (inflammable) substances.</note><note corresp="#a1" type="lingcomment">Even though the form of the word is a little surprising, <hi>sakkāk</hi> clearly stands for TA <hi>skāk*</hi> 'balcony' (<bibl><title corresp="ref:krauseandthomas1964"/><citedRange>156</citedRange></bibl>).</note><note corresp="#a1" type="philcomment"><hi>ane waṣtaṃtu</hi> glosses Skt. <hi>śayanā</hi> 'Lagerstätten' ['storage facilities'] (<bibl><title corresp="ref:waldschmidt1968"/><citedRange>108</citedRange></bibl>); <hi>sakkāk</hi> glosses Skt. <hi>karṇaprāsādāḥ</hi> (nom.pl.) 'Ausbau; Erker (?)' ['extension; gazebo (?)'] (<bibl><title corresp="ref:swft1973"/><citedRange>II, 25b</citedRange></bibl>; <bibl><title corresp="ref:waldschmidt1968"/><citedRange>108</citedRange></bibl>, 'Ausbauten' ['extensions']).</note><note corresp="#a4" type="lingcomment"><hi>ets</hi> clearly stands for <hi>eṃts</hi> (<bibl><title corresp="ref:peyrot2010b"/><citedRange>137</citedRange></bibl>; not with Malzahn should we read <hi><hi rend="underline">pa</hi>ts<hi rend="subscript">\</hi></hi>). <hi>yisli</hi> stands for <hi>yäsli</hi> 'envy' (Peyrot l.c.).</note><note corresp="#a4" type="philcomment"><hi>ets</hi> glosses Skt. <hi>irṣyāko</hi> (for <hi>īrṣyako</hi>) 'jealous' (cf. <bibl><title corresp="ref:waldschmidt1968"/><citedRange>109</citedRange></bibl>, 'eifersüchtig'); <hi>yisli</hi> glosses Skt. <hi>matsarī</hi> 'envious, jealous' (cf. <bibl><title corresp="ref:waldschmidt1968"/><citedRange>109</citedRange></bibl>, 'neidisch').</note><note corresp="#a5" type="lingcomment">The spelling of <hi>pakärkas</hi> is remarkable: it must stand for <hi>pkärkäs*</hi> (Ilya Itkin, p.c.; not <hi>päkärkäs*</hi> as per <bibl><title corresp="ref:peyrot2010b"/><citedRange>137</citedRange></bibl>, <bibl><title corresp="ref:peyrot2013b"/><citedRange>172</citedRange></bibl>).</note><note corresp="#a5" type="philcomment">glosses Skt. <hi>badhnata</hi> (2pl.ipv.; for <hi>badhnīta</hi>, see <bibl><title corresp="ref:waldschmidt1968"/><citedRange>109</citedRange></bibl>) 'bind!'.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 4083" type="external">THT 4083</ref></bibl><bibl><title corresp="ref:peyrot2014"/><citedRange>133, 143-4</citedRange></bibl>; <bibl><title corresp="ref:malzahn2007b"/><citedRange>305</citedRange></bibl>; <bibl><title corresp="ref:peyrot2010b"/><citedRange>137</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_meter_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old">a1 ane waṣtaṃtu ... sakkāk
+a4 ets ... yisli
+a5 pakärkas</item>
+               <item n="m_title_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_script_old"/>
+               <item n="project_comment_old"/>
+               <item n="ms_old">THT 4083.e</item>
+               <item n="m_parallels_old"/>
+               <item n="m_size_w_old"/>
+               <item n="m_expedition_old">T III M 153, T III M 169</item>
+               <item n="m_language_old">Sanskrit+TA</item>
+               <item n="m_remarks_old"/>
+               <item n="m_other_sigla_old">SHT 1098.e</item>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_tune_old"/>
+               <item n="m_subgenre_old">Gloss</item>
+               <item n="m_translation_old">a1 inside the houses ... balcony
+a4 jealousy ... envy
+a5 bind!</item>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_prev_old"/>
+               <item n="user_created_old">michael</item>
+               <item n="user_modified_old">martin</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_old">Murtuq</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_linedistance_old"/>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_lines_old">5</item>
+               <item n="access_old">restricted</item>
+               <item n="file_location_old">pages/manuscript/tht4083e.txt</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;a1.&lt;/b&gt; &lt;i&gt;ane waṣtaṃtu&lt;/i&gt; glosses Skt. &lt;i&gt;śayanā&lt;/i&gt; 'Lagerstätten' ['storage facilities'] ([[Waldschmidt 1968]]: 108); &lt;i&gt;sakkāk&lt;/i&gt; glosses Skt. &lt;i&gt;karṇaprāsādāḥ&lt;/i&gt; (nom.pl.) 'Ausbau; Erker (?)' ['extension; gazebo (?)'] ([[SWTF]]: II, 25b; [[Waldschmidt 1968]]: 108, 'Ausbauten' ['extensions']).&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a4.&lt;/b&gt; &lt;i&gt;ets&lt;/i&gt; glosses Skt. &lt;i&gt;irṣyāko&lt;/i&gt; (for &lt;i&gt;īrṣyako&lt;/i&gt;) 'jealous' (cf. [[Waldschmidt 1968]]: 109, 'eifersüchtig'); &lt;i&gt;yisli&lt;/i&gt; glosses Skt. &lt;i&gt;matsarī&lt;/i&gt; 'envious, jealous' (cf. [[Waldschmidt 1968]]: 109, 'neidisch').&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a5&lt;/b&gt; glosses Skt. &lt;i&gt;badhnata&lt;/i&gt; (2pl.ipv.; for &lt;i&gt;badhnīta&lt;/i&gt;, see [[Waldschmidt 1968]]: 109) 'bind!'.&lt;/p&gt;</item>
+               <item n="m_editor_old"/>
+               <item n="file_created_old">1390571337</item>
+               <item n="file_modified_old">1479955958</item>
+               <item n="m_size_h_old"/>
+               <item n="m_next_old"/>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old">&lt;p&gt;&lt;b&gt;a1.&lt;/b&gt; Admittedly, &lt;i&gt;ane&lt;/i&gt; 'inside, into' is normally not used as a preposition, but only as a postposition or an adverb, usually following a noun ([[Carling, DThTA]]: 10). Nevertheless, taking it here as 'into' fits the context: the women are filling all possible storage place with (inflammable) substances.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a1.&lt;/b&gt; Even though the form of the word is a little surprising, &lt;i&gt;sakkāk&lt;/i&gt; clearly stands for TA &lt;i&gt;skāk*&lt;/i&gt; 'balcony' ([[Krause and Thomas, TEB II]]: 156).&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a4.&lt;/b&gt; &lt;i&gt;ets&lt;/i&gt; clearly stands for &lt;i&gt;eṃts&lt;/i&gt; ([[Peyrot 2010b]]: 137; not with Malzahn should we read &lt;i&gt;&lt;u&gt;pa&lt;/u&gt;ts&lt;sub&gt;\&lt;/sub&gt;&lt;/i&gt;). &lt;i&gt;yisli&lt;/i&gt; stands for &lt;i&gt;yäsli&lt;/i&gt; 'envy' (Peyrot l.c.).&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a5.&lt;/b&gt; The spelling of &lt;i&gt;pakärkas&lt;/i&gt; is remarkable: it must stand for &lt;i&gt;pkärkäs*&lt;/i&gt; (Ilya Itkin, p.c.; not &lt;i&gt;päkärkäs*&lt;/i&gt; as per [[Peyrot 2010b]]: 137, [[Peyrot, ToSu]]: 172).&lt;/p&gt;</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 4083" target="idp"&gt;THT 4083&lt;/a&gt;, [[Peyrot 2014]]: 133, 143-4; [[Malzahn 2007b]]: 305; [[Peyrot 2010b]]: 137.</item>
+               <item n="date_publication_old"/>
+               <item n="m_transliteration_old">a1 ane waṣta[ṃ]tu ... sakkā_k\
+a4 ets\ ... yisli
+a5 pa_k_arka_s\</item>
+               <item n="m_language_stage_old"/>
+               <item n="m_image_old">http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=336163;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=336163;rotate=0;imageType=_M||$page; recto
+http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=336166;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=336166;rotate=0;imageType=_M||$page; verso</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

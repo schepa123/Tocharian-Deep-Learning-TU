@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-pkas5a">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PK AS 5A</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Georges-Jean Pinault</name>
+            </respStmt>
+            <respStmt>
+               <resp>collaborator</resp>
+               <name>Melanie Malzahn</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <date when="2013-08">August 2013</date>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</repository>
+                  <idno>PK AS 5A</idno>
+                  <altIdentifier>
+                     <idno>Pelliot Koutchéen Ancienne Série 5A</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>S 2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Udānastotra</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>8,3</height>
+                              <width>18,3</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <dimensions type="line_spacing">
+                              <height>1,8</height>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>during <rs type="expedition_code">3510, 42</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Doctrine</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f19.zoom"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f19.highres"/>
+            <graphic url="ASHuard/AS5Aa.png"/>
+            <line n="1" xml:id="a1"><gap reason="par" quantity="2"/><zone><gap reason="par" unit="part"/><unclear>u</unclear>s<unclear>e</unclear></zone><zone><unclear>ma</unclear></zone><zone>ṅkā¯</zone><zone>¯L</zone><zone>śā</zone><zone>mñ<unclear>e</unclear></zone><zone>śau¯</zone><zone>¯L</zone><zone>cwī</zone><zone>ste</zone><zone>KA</zone><zone>ntwā</zone><zone>ṣṣī</zone><zone><unclear>nd</unclear>r<unclear>ī</unclear></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><zone><unclear>lai</unclear></zone><zone>kne</zone><zone>tse</zone><zone>kre</zone><zone>ñce</zone><zone>pi</zone><zone>sta</zone><zone>ma</zone><zone>lñe</zone><zone>ṣṣe</zone><zone>a</zone><zone>kā</zone><zone>lksa</zone><zone>wno</zone><zone>lmeṃ¯</zone><zone>¯tS</zone><zone>k<gap reason="par" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><zone><unclear>o</unclear></zone><gap reason="plain" quantity="1"/><zone><unclear>s</unclear><gap reason="plain" unit="part"/></zone><zone>pi</zone><zone>ścme</zone><zone>la</zone><zone>ṣṣeṃ¯</zone><zone>¯tS</zone><zone>wi</zone><space type="string_hole"/><zone>ko</zone><zone>ytRA</zone><zone>a</zone><zone>knā</zone><zone>tsaṃ</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><zone><unclear>L</unclear>A</zone><zone>ś<unclear>t</unclear>wa</zone><zone>rā</zone><zone>yä</zone><zone>kne</zone><zone>we</zone><zone>lyñe</zone><zone>ñi¯</zone><zone>¯Ś</zone><space type="string_hole"/><zone>mā</zone><zone>we</zone><zone>ñi</zone><zone>mnta</zone><zone>:</zone><zone>ā</zone><zone>ñ<gap reason="par" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><zone>snai</zone><zone>pe</zone><zone>le</zone><zone>mā</zone><zone>pā</zone><zone>lo</zone><zone>yma¯</zone><zone>¯r</zone><zone>po</zone><zone>cme</zone><zone>la</zone><zone>ne</zone><zone>:</zone><zone>bu</zone><zone>ddha</zone><zone>va</zone><zone>caṃ</zone><zone>ku<unclear>s</unclear>e</zone><zone>we</zone><zone>lyñe</zone><zone><gap reason="plain" unit="part"/>ū</zone><zone><gap reason="plain" unit="part"/>RA</zone><gap reason="lost"/></line>
+            <line n="6" xml:id="a6"><zone><unclear>ñ</unclear>o¯</zone><zone>¯R</zone><zone>ā</zone><zone>rta</zone><zone>rwa</zone><zone>tno</zone><zone>:</zone><zone>ṣe</zone><zone>ke</zone><zone>klyau</zone><zone>ṣo¯</zone><zone>¯R</zone><zone><unclear>e</unclear></zone><zone><unclear>ñ</unclear><gap reason="par" unit="part"/><unclear>i</unclear></zone><zone><unclear>ma</unclear><unclear>¯</unclear></zone><zone><unclear>¯</unclear><unclear>R</unclear></zone><zone>ā<unclear>¯</unclear></zone><zone><unclear>¯</unclear>rthä</zone><zone>vya</zone><zone>ja</zone><zone>ntsa</zone><zone>ṣa¯</zone><zone>¯ñä</zone><zone>yk<gap reason="par" unit="part"/></zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f20.zoom"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f20.highres"/>
+            <graphic url="ASHuard/AS5Ab.png"/>
+            <line n="1" xml:id="b1"><zone><unclear>t</unclear><gap reason="par" unit="part"/></zone><zone>ś<unclear>i</unclear>¯</zone><zone>¯M</zone><zone>8</zone><zone>kuce</zone><zone>te</zone><zone>ma</zone><zone>kte</zone><zone>pai</zone><zone>ykā</zone><zone>mai</zone><zone>kuce</zone><zone>a</zone><zone>lye</zone><zone><unclear>ṅ</unclear>KAṃ¯</zone><zone>¯tS</zone><zone>a</zone><zone>klyī</zone><zone>tsi¯</zone><zone>¯śä</zone><zone>ṣa</zone><zone>rm<gap reason="par" unit="part"/><gap reason="par" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><zone><unclear>a</unclear></zone><zone>ra</zone><zone>ñcä</zone><zone>nne</zone><zone>pi</zone><zone>ścme</zone><zone>lṣeṃ</zone><zone>ta</zone><zone>rya</zone><zone>śpā</zone><zone>lmeṃ</zone><zone>nau</zone><zone>mye</zone><zone>nta</zone><zone>mā</zone><zone>ñ<unclear>i</unclear></zone><zone>śma</zone><zone>rso¯</zone><zone>¯y<gap reason="par" unit="part"/>ä</zone><gap reason="par" quantity="1"/><zone><gap reason="par" unit="part"/>e</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><zone><unclear>pai</unclear></zone><zone><unclear>yk</unclear>ā</zone><zone><unclear>mai</unclear></zone><zone>cwī</zone><zone>yā</zone><zone>mo</zone><zone>rntse</zone><zone>ko</zone><zone>sa</zone><space type="string_hole"/><zone>se</zone><zone>kā¯</zone><zone>¯LK</zone><zone>kñī</zone><zone>TA¯</zone><zone>¯rñä</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><zone><gap reason="plain" unit="part"/><unclear>e</unclear></zone><zone><gap reason="plain" unit="part"/><unclear>n</unclear><gap reason="plain" unit="part"/></zone><zone>yā</zone><zone>ñMä</zone><zone>ka</zone><zone>rso¯</zone><zone>¯yMä</zone><space type="string_hole"/><zone>pī</zone><zone>śā</zone><zone>ntseṃ</zone><zone>mā</zone><zone>ṣe</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><zone><unclear>sa</unclear></zone><zone><unclear>kā</unclear></zone><zone>ma</zone><zone>vā¯</zone><zone>¯rgä</zone><zone>yśe</zone><zone>lmeṃ</zone><zone>tsnā</zone><zone>ki</zone><zone>ka</zone><zone>rso¯</zone><zone>¯yMä</zone><zone>ṣe¯</zone><zone>¯K</zone><zone>po</zone><zone>cme</zone><zone>la</zone><gap reason="lost"/></line>
+            <line n="6" xml:id="b6"><gap reason="plain" quantity="1"/><zone><unclear>ke</unclear><unclear>¯</unclear></zone><zone><unclear>¯</unclear><unclear>ST</unclear></zone><zone>mā</zone><zone><unclear>ṣ</unclear>pe</zone><zone>ma</zone><zone>ñña</zone><zone>lko</zone><zone>ye</zone><zone>nTA¯</zone><zone>¯rñä</zone><zone>po</zone><zone>saṃ</zone><zone>sā</zone><zone>rne</zone><zone>:</zone><zone>po</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p><milestone unit="passage" n="5d-11c [shorter version] = Introduction + stanzas 10 and 11"/>
+<lb corresp="#a1"/></p>
+            <lg type="poem" met="frg:M18" subtype="hom">
+               <lg n="5" type="strophe">
+                  <l n="c" real="2"><gap reason="plain" quantity="2"/></l>
+                  <l n="d"><w><supplied>se</supplied></w><w><supplied>k</supplied>Use</w><w>maṅkāl</w><caesura ana="frg:cs-w"/><w>śāmñe</w><w>śaul</w><caesura ana="frg:cs-s"/><w>cwī</w><w>ste</w><w>käntwāṣṣ=</w><caesura ana="frg:cs-w"/><w>īndrī<supplied>meṃ</supplied></w><caesura ana="frg:cs-s"/><gap reason="plain" quantity="4"/><pc><supplied>:</supplied></pc><num value="5"><supplied>5</supplied></num></l>
+               </lg>
+               <lg n="6" type="strophe">
+                  <l n="a"><supplied unit="syllable" quantity="18"/></l>
+                  <l n="b">
+<w><supplied>pe</supplied><lb corresp="#a2"/>laiknetse</w><caesura ana="frg:cs-w"/><w>kreñcepi</w><caesura ana="frg:cs-s"/><w>stamalñeṣṣe</w><caesura ana="frg:cs-w"/><w>akālksa</w><caesura ana="frg:cs-s"/><w>wnolmeṃts</w><w>k<supplied>artseśc</supplied></w></l>
+                  <l n="c"><supplied unit="syllable" quantity="18"/></l>
+                  <l n="d"><w><supplied>cwi</supplied></w><w><supplied>yāmorntse</supplied></w><caesura ana="frg:cs-w"/>
+<lb corresp="#a3"/><w>o<supplied>ko</supplied>s<supplied>a</supplied></w><caesura ana="frg:cs-s"/><w>piś</w><w>cmelaṣṣeṃts</w><caesura ana="frg:cs-w"/><w>wikoyträ</w><caesura ana="frg:cs-s"/><w>aknātsaṃ<supplied>ññe</supplied></w><pc><supplied>:</supplied></pc><num value="6"><supplied>6</supplied></num></l>
+               </lg>
+               <lg n="7" type="strophe">
+                  <l n="a"><supplied unit="syllable" quantity="18"/></l>
+                  <l n="b"><gap reason="plain" quantity="4"/><caesura ana="frg:cs-w"/>
+<w><supplied>akuśa</supplied><lb corresp="#a4"/>l<surplus>ä</surplus></w><caesura ana="frg:cs-s"/><w>śtwarā-yäkne</w><caesura ana="frg:cs-w"/><w>welyñe</w><w>ñiś</w><caesura ana="frg:cs-s"/><w>mā</w><w>weñim</w><w>nta</w><pc>:</pc></l>
+                  <l n="d" real="1/7/4"><w>āñ<supplied>m</supplied></w><gap reason="lost"/><supplied unit="syllable" quantity="3"/><caesura ana="frg:cs-w"/><supplied unit="syllable" quantity="3"/><caesura ana="frg:cs-s"/>
+<lb corresp="#a5"/><w>snai</w><w>pele</w><w>mā</w><caesura ana="frg:cs-w"/><w>pāloymar</w><caesura ana="frg:cs-s"/><w>po</w><w>cmelane</w><pc>:</pc></l>
+               </lg>
+               <lg n="8" type="strophe">
+                  <l n="a"><w>buddhavacaṃ</w><caesura ana="frg:cs-w"/><w>kUse</w><w>welyñe</w><caesura ana="frg:cs-s"/><w><supplied>s</supplied>ū<supplied>t</supplied>rä</w><w><supplied>winai</supplied></w><caesura ana="frg:cs-w"/><w><supplied>abhidhārm</supplied></w><caesura ana="frg:cs-s"/><gap reason="plain" quantity="4"/></l>
+                  <l n="b" real="7"><gap reason="lost"/><supplied unit="syllable" quantity="4"/><caesura ana="frg:cs-w"/><supplied unit="syllable" quantity="3"/><caesura ana="frg:cs-s"/><supplied unit="syllable" quantity="4"/><caesura ana="frg:cs-w"/>
+<w><supplied>wewe</supplied><lb corresp="#a6"/>ñor</w><caesura ana="frg:cs-s"/><w>ārtar</w><w>wat</w><w>no</w><pc>:</pc></l>
+                  <l n="c"><w>ṣe</w><w>keklyauṣor</w><caesura ana="frg:cs-w"/><w>eñ<supplied>c</supplied>imar</w><caesura ana="frg:cs-s"/><w>ārth</w><w>vyajantsa</w><caesura ana="frg:cs-w"/><w>ṣañ</w><w>yk<supplied>nesa</supplied></w><caesura ana="frg:cs-s"/><gap reason="plain" quantity="4"/></l>
+                  <l n="d" real="2"><gap reason="lost"/><supplied unit="syllable" quantity="4"/><caesura ana="frg:cs-w"/><supplied unit="syllable" quantity="3"/><caesura ana="frg:cs-s"/><supplied unit="syllable" quantity="4"/><caesura ana="frg:cs-w"/><supplied unit="syllable" quantity="3"/><caesura ana="frg:cs-s"/><supplied unit="syllable" quantity="2"/>
+<lb corresp="#b1"/><w>t<supplied>a</supplied>śim</w><num value="8">8</num></l>
+               </lg>
+               <lg n="9" type="strophe">
+                  <l n="a"><w>kUce</w><w>te</w><w>makte</w><caesura ana="frg:cs-w"/><w>paiykāmai</w><caesura ana="frg:cs-s"/><w>kUce</w><w>alyeṅkäṃts</w><caesura ana="frg:cs-w"/><w>aklyītsiś</w><caesura ana="frg:cs-s"/><w>ṣarm<supplied>tsa</supplied></w><gap reason="plain" quantity="2"/></l>
+                  <l n="b"><gap reason="lost"/><supplied unit="syllable" quantity="18"/>
+<lb corresp="#b2"/></l>
+                  <l n="c"><w>arañcänne</w><caesura ana="frg:cs-w"/><w>piś</w><w>cmelṣeṃ</w><caesura ana="frg:cs-s"/><w>tarya</w><w>śpālmeṃ</w><caesura ana="frg:cs-w"/><w>naumyenta</w><caesura ana="frg:cs-s"/><w>mā</w><w>ñiś</w><w>marsoy<supplied>m</supplied><surplus>ä</surplus></w><pc><supplied>:</supplied></pc></l>
+                  <l n="d" real="1"><w><gap reason="plain" unit="part"/>e</w><gap reason="lost"/><supplied unit="syllable" quantity="17"/></l>
+               </lg>
+               <lg n="10" type="strophe">
+                  <l n="a" real="3/7/4"><supplied unit="syllable" quantity="4"/><caesura ana="frg:cs-w"/>
+<lb corresp="#b3"/><w>paiykāmai</w><caesura ana="frg:cs-s"/><w>cwī</w><w>yāmorntse</w><caesura ana="frg:cs-w"/><w><add>o</add>kosa</w><caesura ana="frg:cs-s"/><w>se</w><w>=kālk</w><w>kñītär-ñ</w><pc><supplied>:</supplied></pc></l>
+                  <l n="b" real="1/7/4"><gap reason="lost"/><supplied unit="syllable" quantity="18"/></l>
+                  <l n="c"><supplied unit="syllable" quantity="4"/><caesura ana="frg:cs-w"/><supplied unit="syllable" quantity="2"/>
+<lb corresp="#b4"/><w><gap reason="plain" unit="part"/>e</w><caesura ana="frg:cs-s"/><w><supplied>s</supplied>n<supplied>ai</supplied>y</w><w>āñm<surplus>ä</surplus></w><w>karsoym</w><caesura ana="frg:cs-w"/><w>pīś</w><w>āntseṃ</w><caesura ana="frg:cs-s"/><w>mā-ṣe<supplied>kaññeṃ</supplied></w></l>
+                  <l n="d"><supplied unit="syllable" quantity="18"/><num value="10"><supplied>10</supplied></num></l>
+               </lg>
+               <lg n="11" type="strophe">
+                  <l n="a">
+<w><supplied>paikalñe</supplied><lb corresp="#b5"/>sa</w><caesura ana="frg:cs-w"/><w>kāmavārg</w><caesura ana="frg:cs-s"/><w>yśelmeṃts</w><w>nāki</w><caesura ana="frg:cs-w"/><w>karsoym</w><w>ṣek</w><caesura ana="frg:cs-s"/><w>po</w><w>cmela<supplied>ne</supplied></w></l>
+                  <l n="b"><supplied unit="syllable" quantity="18"/></l>
+                  <l n="c" real="1"><w><supplied>tṛṣṇāvārgsa</supplied></w><caesura ana="frg:cs-w"/>
+<w><supplied>yo</supplied><lb corresp="#b6"/><supplied>ko</supplied></w><w>kest</w><caesura ana="frg:cs-s"/><w>mā</w><w>ṣp</w><w>emañña</w><caesura ana="frg:cs-w"/><w>lkoyentär-ñ</w><caesura ana="frg:cs-s"/><w>po</w><w>saṃsārne</w><pc>:</pc></l>
+                  <l n="d"><w>po</w><gap reason="lost"/><supplied unit="syllable" quantity="17"/></l>
+               </lg>
+            </lg>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">... This human life, [if] it is a state of bliss, (the cause) of it [is] (from) the sense of language [lit. tongue] ... (5.)</seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">... through the wish concerning the establishment of the good Law (for the) benfit of the beings ...</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">... through the fruit (of this deed) may the ignorance of [the beings] of the five births disappear! 6. ...</seg></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl">May I myself never tell (evi)l speech of four sorts! (May I not) ... my self ... </seg></seg></choice><choice corresp="#a5"><seg><seg type="prim_transl">May I not praise the Lawlessness in all the births! 7. What [is] the speech [called] Buddhavacana, Sū(tra, Vinaya, Abhidharma) ... May I seize ...</seg></seg></choice><choice corresp="#a6"><seg><seg type="prim_transl">what (has been) said or what has been praised at the first lecture [lit. hearing] with meaning and literary form (according) to the proper manner. ...</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">... may I touch ... 8. What I have written for myself [or] what [I have written] in order to teach others, (both?) [are] (with) [good] reason. ... </seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">May (I) myself not forget the three excellent jewels in the hearts of the five births!</seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl">I have written (the Anityavarga): Through the fruit of this deed, may this wish be fulfilled! ... </seg></seg></choice><choice corresp="#b4"><seg><seg type="prim_transl">... without self may I understand the five elements [= skandhas] as unper(manent). ... 10.</seg></seg></choice><choice corresp="#b5"><seg><seg type="prim_transl">Through (the writing) of the Kāmavarga may I understand always the defect of the desires (in) all births! ... (Through the Tṛṣṇāvarga may)</seg></seg></choice><choice corresp="#b6"><seg><seg type="prim_transl">thirst [and] hunger not see me enraged in the whole Saṃsāra! ...</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="philcomment">This leaf belongs to a manuscript with a short introduction of nine stanzas, because with the long introduction the Udānastotra proper beginns with no. 16. Note that the stanzas 11 and 12 each cover two chapters instead of one as usual. This version of the introduction is different from the one in <ref type="ms" target="txt:m-pkas4b"/>.</note><note type="remarks">Left part of a leaf with the string hole preserved.</note><note corresp="#a1" type="philcomment">The striking second <hi>ī</hi> of <hi>indrī</hi> speaks for a form accented on the second syllable, the best candidate seems to be the ablative according to the synchronic accent rule. The first long <hi>ī</hi> is due to sandhi. The ablative in this context expresses the cause.</note><note corresp="#a4" type="philcomment">The four types of evil speech are lying, defamation, harsh speech and senseless talk. They belong to the ten akuśalakarmapatha- "the evil ways of conduct".</note><note corresp="#a5" type="philcomment">Concerning the traditional list of the parts of the Buddhist canon, see for example <ref type="ms" target="txt:m-ioltoch246"/> a 4.</note><note corresp="#b3" type="philcomment"><hi>akālk</hi> has double virāma writing of the akālk-type.</note><note corresp="#b5 #b6" type="philcomment">A restitution <hi>tṛṣṇāvārg paikāmai</hi> would not fit the following context, which requires a preceeding plural subject. Therefore it is safer to restore the perlative of the chapter name according to the pattern found in the next stanza (see <ref type="ms" target="txt:m-ioltoch307"/> a 1). Accordingly, one of the first words of the sentence ought to be <hi>yoko</hi> 'thirst', which is the regular match of Skt. <hi>tṛṣṇā</hi>-.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>other</label><bibl><title corresp="ref:levi1933"/><citedRange>57-58</citedRange></bibl><bibl><title corresp="ref:thomas1966a"/><citedRange>164-166</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="file_savedate_old">2018-08-07, 14:20:18 (CEST)</item>
+               <item n="m_translation_old">a1 ... This human life, [if] it is a state of bliss, (the cause) of it [is] (from) the sense of language [lit. tongue] ... (5.)
+a2 ... through the wish concerning the establishment of the good Law (for the) benfit of the beings ...
+a3 ... through the fruit (of this deed) may the ignorance of [the beings] of the five births disappear! 6. ...
+a4 May I myself never tell (evi)l speech of four sorts! (May I not) ... my self ... 
+a5 May I not praise the Lawlessness in all the births! 7. What [is] the speech [called] Buddhavacana, Sū(tra, Vinaya, Abhidharma) ... May I seize ...
+a6 what (has been) said or what has been praised at the first lecture [lit. hearing] with meaning and literary form (according) to the proper manner. ...
+b1 ... may I touch ... 8. What I have written for myself [or] what [I have written] in order to teach others, (both?) [are] (with) [good] reason. ... 
+b2 May (I) myself not forget the three excellent jewels in the hearts of the five births!
+b3 I have written (the Anityavarga): Through the fruit of this deed, may this wish be fulfilled! ... 
+b4 ... without self may I understand the five elements [= skandhas] as unper(manent). ... 10.
+b5 Through (the writing) of the Kāmavarga may I understand always the defect of the desires (in) all births! ... (Through the Tṛṣṇāvarga may)
+b6 thirst [and] hunger not see me enraged in the whole Saṃsāra! ...</item>
+               <item n="m_subgenre_old">Doctrine</item>
+               <item n="file_name_old">pages/manuscript/PK_AS/pkas5a.txt</item>
+               <item n="m_metric_form_old">Verse</item>
+               <item n="user_created_old">theres</item>
+               <item n="user_modified_old">bernhard</item>
+               <item n="category_old">manuscript</item>
+               <item n="editgroup_old">Editor</item>
+               <item n="m_meter_old">4-3/4-3/4</item>
+               <item n="m_title_old">Udānastotra</item>
+               <item n="m_transcription_old">a1 # (– – #5c se k)_use maṅkāl , śāmñe śaul ; cwi|cwī ste käntwāṣṣe|käntwāṣṣ= , indrimeṃ|īndrī(meṃ ; – – – – : 5) #5d %18 #6a pelaiknentse|(pe)|laiknetse
+a2 , kreñcepi ; stamalñeṣṣe , akālksa ; onolmeṃts|wnolmeṃts k(artseśc) #6b %18 #6c (cwi yāmorntse) ,
+a3 o(ko)s(a) ; piś cmelaṣṣeṃts , wikoytär|wikoyträ ; aknātsaññe|aknātsaṃ(ññe : 6) #6d %18 #7a (– – – –) , akuśal|(akuśa)|l
+a4 ; śtwarā-yäkne , welñe|welyñe ñiś ; mā weñim nta : #7b āñ(m) /// %3 , %3 ;
+a5 snai pele mā , pāloymar ; po cmelane : #7d buddhavacaṃ , k_use welñe|welyñe ; sūtär|(s)ū(t)rä |(winai , |abhidhārm) ; (– – – –) #8a /// %4 , %3 ; %4 , weweñor|(wewe)|ñor
+a6 ; ārttar|ārtar wat no : #8b ṣe keklyauṣor , eñcīmar|eñ(c)imar ; ārth vyañjantsa|vyajantsa , ṣañ yaknesa|yk(nesa) ; (– – – –) #8c /// %4 , %3 ; %4 , %3 ; %2
+b1 t(a)śim 8 #8d k_uce te makte , paikāmai|paiykāmai ; k_uce alyeṅkäṃts , aklyitsiśc|aklyītsiś ; ṣarm(tsa) (– –) #9a /// %18
+b2 #9b arañcänne , piś cmelaṣṣeṃ|cmelṣeṃ ; tarya śpālmeṃ , naumiyenta|naumyenta ; mā ñiś marsoy(m)«†ä» (: #9c ·)e /// %17 #9d %4 ,
+b3 paikāmai|paiykāmai ; cwi|cwī yāmorntse , «o»kosa ; se akālk|=kālk kñītär-ñ (:) #10a /// %18 #10b %4 , %2
+b4 (·)e ; snai|(s)n(ai)y āñm karsoym , piś|pīś āntseṃ ; mā-ṣe(kaññeṃ) #10c %18 (10) #10d paikalñesa|(paikalñe)|sa
+b5 , kāmavārg ; yśelmeṃts nāki , karsoym ṣek ; po cmela(ne) #11a %18 #11b (tṛṣṇāvārgsa) , yoko|(yo)|(ko)
+b6 kest ; mā ṣp emañña , lkoyentär-ñ_(Opt.)|lkoyentär-ñ ; po saṃsārne : #11c po /// %17 #11d</item>
+               <item n="group_old">Public</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_remarks_old">&lt;p&gt;Left part of a leaf with the string hole preserved.&lt;/p&gt;</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_other_sigla_old">Pelliot Koutchéen Ancienne Série 5A; S 2</item>
+               <item n="m_expedition_old">3510, 42</item>
+               <item n="m_size_w_old">18,3</item>
+               <item n="edited_date_old">2018-08-07, 14:20:18 (CEST)</item>
+               <item n="m_script_old">Classical</item>
+               <item n="project_comment_old">&lt;p&gt;Translit completed (MM)&lt;/p&gt;</item>
+               <item n="ms_old">PK AS 5A</item>
+               <item n="m_size_h_old">8,3</item>
+               <item n="file_created_old">1348757132</item>
+               <item n="file_modified_old">1582773159</item>
+               <item n="page_name_old">PK AS 5A</item>
+               <item n="m_philcomment_old">&lt;p&gt;This leaf belongs to a manuscript with a short introduction of nine stanzas, because with the long introduction the Udānastotra proper beginns with no. 16. Note that the stanzas 11 and 12 each cover two chapters instead of one as usual. This version of the introduction is different from the one in [[PK AS 4B]].&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a1.&lt;/b&gt; The striking second &lt;i&gt;ī&lt;/i&gt; of &lt;i&gt;indrī&lt;/i&gt; speaks for a form accented on the second syllable, the best candidate seems to be the ablative according to the synchronic accent rule. The first long &lt;i&gt;ī&lt;/i&gt; is due to sandhi. The ablative in this context expresses the cause.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a4.&lt;/b&gt; The four types of evil speech are lying, defamation, harsh speech and senseless talk. They belong to the ten akuśalakarmapatha- "the evil ways of conduct".&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a5.&lt;/b&gt; Concerning the traditional list of the parts of the Buddhist canon, see for example [[IOL Toch 246]] a 4.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b3.&lt;/b&gt; &lt;i&gt;akālk&lt;/i&gt; has double virāma writing of the akālk-type.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b5-b6.&lt;/b&gt; A restitution &lt;i&gt;tṛṣṇāvārg paikāmai&lt;/i&gt; would not fit the following context, which requires a preceeding plural subject. Therefore it is safer to restore the perlative of the chapter name according to the pattern found in the next stanza (see [[IOL Toch 307]] a 1). Accordingly, one of the first words of the sentence ought to be &lt;i&gt;yoko&lt;/i&gt; 'thirst', which is the regular match of Skt. &lt;i&gt;tṛṣṇā&lt;/i&gt;-.&lt;/p&gt;</item>
+               <item n="m_passage_old">5d-11c [shorter version] = Introduction + stanzas 10 and 11</item>
+               <item n="m_editor_old">Georges-Jean Pinault (in collaboration with Melanie Malzahn)</item>
+               <item n="version_old">34</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_image_old">http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f19.zoom|http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f19.highres||$page; recto
+http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f20.zoom|http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f20.highres||$page; verso|transform:rotate(180deg);</item>
+               <item n="date_publication_old">August 2013</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_transliteration_old">a1 (– – ·)[_u]s[e ma]ṅkā_l\ śāmñ[e] śau_l\ cwī ste _k_antwāṣṣ= ī[nd]r[ī] ///
+a2 [lai]knetse kreñcepi stamalñeṣṣe akālksa wnolmeṃt_s\ k(·) ///
+a3 [o] – [s]· piś cmelaṣṣeṃt_s\ wi○koyt_r_a aknātsaṃ ///
+a4 [_l](\) ś[t]warā-yäkne welyñe ñi_ś\ ○ mā weñim nta : āñ(·) ///
+a5 snai pele mā pāloymar\ po cmelane : buddhavacaṃ k_u[s]e welyñe ·ū ·_r_a ///
+a6 [ñ]o_r\ ārtar wat no : ṣe keklyauṣo_r\ [eñ](·)[ima_r\] ārthä[\] vyajantsa ṣañä\ yk(·) ///
+b1 [t](·) ś[i]_m\ 8 k_uce te makte paiykāmai k_uce alye[ṅ]_k_aṃt_s\ aklyītsiśä\ ṣarm(··) ///
+b2 [a]rañcänne piś cmelṣeṃ tarya śpālmeṃ naumyenta mā ñ[i]ś marsoy(·)ä\ (– ·)e ///
+b3 [paiyk]ā[mai] cwī yāmorntse kosa ○ se= kā_l_k\ kñī_t_ar-ñä\ ///
+b4 ·[e] ·[n]·y āñ_mä(\) karsoy_mä\ ○ pīś āntseṃ mā-ṣe ///
+b5 [sa kā]mavārgä\ yśelmeṃts nāki karsoy_mä\ ṣe_k\ po cmela ///
+b6 – [ke_s_t\] mā [ṣ]p emañña lkoyen_t_ar-ñä\ po saṃsārne : po ///</item>
+               <item n="file_size_old">6 KB</item>
+               <item n="m_bib_old">[[Lévi 1933]]: 57-58, [[Thomas 1966]]: 164-166.</item>
+               <item n="m_linedistance_old">1,8</item>
+               <item n="created_date_old">2012-09-27, 16:45:32 (CEST)</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="file_location_old">pages/manuscript/PK_AS/pkas5a.txt</item>
+               <item n="m_collection_old">Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</item>
+               <item n="m_lines_old">6</item>
+               <item n="access_old">public</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;Translit completed (MM)&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

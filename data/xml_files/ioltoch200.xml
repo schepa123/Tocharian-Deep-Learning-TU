@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-ioltoch200">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>IOL Toch 200</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <date when="2015-10-01">1 October 2015</date>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library (London)</repository>
+                  <idno>IOL Toch 200</idno>
+                  <altIdentifier>
+                     <idno>H add.149.69</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions unit="cm" type="leaf">
+                              <height>5.7</height>
+                              <width>8.9</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Syllabary</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface n="YSCRDGYYJROOPCFXBNLIPNOP" type="recto" lrx="1024" lry="644">
+            <graphic url="IOL/IOL200a.jpg" height="644px" width="1024px"/>
+            <graphic xmlns:trsc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+                     n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=15780;rotate=0;imageType=_L"/>
+            <graphic xmlns:trsc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+                     n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=15780;rotate=0;imageType=_M"/>
+            <line xml:id="a1" points="19,3 1018,5 1014,162 21,157" n="1">
+               <gap reason="lost"/>
+               <gap reason="plain" quantity="1"/>
+               <zone points="129,43 114,123 229,129 226,39">d<gap unit="part" reason="plain"/></zone>
+               <zone points="254,10 246,125 364,126 355,10">dha</zone>
+               <zone points="390,33 404,128 532,129 528,36">n<gap unit="part" reason="plain"/></zone>
+               <zone points="533,23 537,133 618,141 596,27">:</zone>
+               <gap reason="plain" quantity="3"/>
+            </line>
+            <line xml:id="a2" points="13,164 22,316 1014,312 1008,133" n="2">
+               <gap reason="lost"/>
+               <zone points="73,161 204,156 162,256 48,258">MA</zone>
+               <zone points="222,166 349,177 325,251 188,241">ŚA</zone>
+               <zone points="356,180 472,171 486,244 348,246">ṢA</zone>
+               <zone points="504,170 607,162 601,237 498,245">SA</zone>
+               <zone points="605,163 723,160 722,207 699,245 612,245">wa</zone>
+               <zone points="725,161 813,149 813,238 767,278 700,271 720,207">RA</zone>
+               <zone points="815,159 859,162 848,233 810,230">:</zone>
+            </line>
+            <line xml:id="a3" points="17,257 16,467 1011,460 1000,240" n="3">
+               <gap reason="lost"/>
+               <zone points="145,302 258,298 239,465 152,466">1000</zone>
+               <zone points="289,310 389,254 468,257 433,406 371,456 249,461">10000</zone>
+               <zone points="467,270 679,264 741,349 728,432 659,454 435,403">100000</zone>
+               <zone points="767,274 832,265 841,365 825,460 766,437">॥</zone>
+               <zone points="902,277 983,287 974,442 882,443">॥</zone>
+            </line>
+            <line xml:id="a4" points="11,418 14,603 1032,594 1027,430" n="4">
+               <gap reason="lost"/>
+               <gap reason="plain" quantity="1"/>
+               <zone points="192,471 276,461 355,461 363,517 340,521 335,594 181,589">kho</zone>
+               <zone points="356,458 413,422 485,456 492,506 474,524 477,587 338,590 339,527 360,517">khau</zone>
+               <zone points="481,453 586,451 591,552 471,554 473,526 490,506">khaṃ</zone>
+               <zone points="602,461 602,565 734,560 738,545 723,492">kha</zone>
+               <zone points="723,492 780,501 781,564 748,564">ḥ</zone>
+               <gap reason="plain" quantity="1"/>
+            </line>
+         </surface>
+         <surface n="JFUYVYZCNHMQSMUVNRWLFEGA" type="verso" lrx="1024" lry="663">
+            <graphic url="IOL/IOL200b.jpg" height="663px" width="1024px"/>
+            <graphic xmlns:trsc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+                     n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=15779;rotate=0;imageType=_L"/>
+            <graphic xmlns:trsc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+                     n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=15779;rotate=0;imageType=_M"/>
+            <line xml:id="b1"
+                  points="3,8 994,16 997,148 741,132 687,180 639,194 6,178"
+                  n="1">
+               <gap reason="lost"/>
+               <zone points="158,21 210,18 218,106 158,102">ṅ<unclear>a</unclear></zone>
+               <zone points="211,14 315,10 315,117 219,112">ṅā</zone>
+               <zone points="310,11 406,10 415,121 313,111">ṅi</zone>
+               <zone points="401,19 495,22 508,114 413,104">ṅ<unclear>ī</unclear></zone>
+               <zone points="504,43 592,42 596,103 593,131 604,146 596,169 512,132 502,96">ṅu</zone>
+               <zone points="597,38 691,38 682,125 723,166 678,179 631,187 597,166 604,146 591,135">ṅū</zone>
+               <zone points="691,35 787,35 774,94 745,127 683,120">ṅ<gap unit="part" reason="plain"/></zone>
+               <zone points="787,32 863,37 862,97 794,132 770,117">ṅ<gap unit="part" reason="plain"/></zone>
+               <zone points="864,39 967,42 965,109 858,110">ṅ<gap unit="part" reason="plain"/></zone>
+            </line>
+            <line xml:id="b2" points="8,118 12,292 927,337 911,112 224,96" n="2">
+               <gap reason="lost"/>
+               <zone points="154,150 202,152 216,190 215,264 146,264">j<unclear>a</unclear></zone>
+               <zone points="175,110 265,108 327,160 315,269 221,274 218,195">jā</zone>
+               <zone points="322,160 421,156 414,278 318,274">ji</zone>
+               <zone points="426,140 510,143 559,187 548,201 512,200 525,289 414,277">jī</zone>
+               <zone points="549,187 615,196 611,323 524,312 517,200 551,203">ju</zone>
+               <zone points="617,179 722,175 713,325 675,345 606,321">jū</zone>
+               <zone points="720,151 764,134 798,151 816,246 780,281 712,259">je</zone>
+               <zone points="790,139 840,126 903,139 904,257 817,255">jai</zone>
+            </line>
+            <line xml:id="b3" points="17,225 23,440 973,487 959,256" n="3">
+               <gap reason="lost"/>
+               <zone points="61,342 142,342 127,407 30,412">ñ<gap unit="part" reason="plain"/></zone>
+               <zone points="153,305 282,306 279,358 247,375 176,412 133,404 131,379 161,343">ñā</zone>
+               <zone points="270,293 395,293 387,351 354,398 288,419 225,390 261,373 281,354">ñi</zone>
+               <zone points="385,295 463,286 530,308 523,350 503,380 474,398 402,417 359,393 370,376 399,357">ñī</zone>
+               <zone points="526,333 610,347 601,474 586,455 558,455 458,419 472,400 498,380">ñu</zone>
+               <zone points="613,332 728,344 721,386 700,402 718,483 637,494 609,470 605,459">ñū</zone>
+               <zone points="735,317 751,280 840,289 840,369 808,411 774,425 704,418 699,404 736,384">ñe</zone>
+               <zone points="843,288 955,291 929,414 791,415 823,394 833,379">ñai</zone>
+            </line>
+            <line xml:id="b4" points="23,438 14,579 698,580 727,431" n="4">
+               <gap reason="lost"/>
+               <zone points="39,457 157,461 158,526 46,533">ṭha</zone>
+               <zone points="158,478 205,476 202,501 189,504 202,522 201,535 161,537"><unclear>ḥ</unclear></zone>
+               <zone points="208,454 308,454 284,515 281,570 199,565 207,532 189,507 211,495">ḍa</zone>
+               <zone points="305,452 412,456 399,570 280,576 282,516">ḍā</zone>
+               <zone points="400,435 521,434 489,568 412,572">ḍi</zone>
+               <zone points="522,451 591,454 627,487 616,517 573,524 570,557 508,555"><gap unit="part" reason="plain"/>ī</zone>
+               <gap reason="plain" quantity="3"/>
+            </line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+               <lb corresp="#a1"/>
+               <gap reason="lost"/>
+               <gap reason="plain" quantity="1"/>
+               <w>d<supplied>a</supplied></w>
+               <w>dha</w>
+               <w>n<supplied>a</supplied></w>
+               <pc>:</pc>
+               <gap reason="plain" quantity="3"/>
+               <lb corresp="#a2"/>
+               <gap reason="lost"/>
+               <w>mä</w>
+               <w>śä</w>
+               <w>ṣä</w>
+               <w>sä</w>
+               <w>wa</w>
+               <w>rä</w>
+               <pc>:</pc>
+               <lb corresp="#a3"/>
+               <gap reason="lost"/>
+               <num value="1000">1000</num>
+               <num value="10000">10000</num>
+               <num value="100000">100000</num>
+               <pc>॥</pc>
+               <pc>॥</pc>
+               <lb corresp="#a4"/>
+               <gap reason="lost"/>
+               <gap reason="plain" quantity="1"/>
+               <w>kho</w>
+               <w>khau</w>
+               <w>khaṃ</w>
+               <w>khaḥ</w>
+               <gap reason="plain" quantity="1"/>
+               <lb corresp="#b1"/>
+               <gap reason="lost"/>
+               <w>ṅa</w>
+               <w>ṅā</w>
+               <w>ṅi</w>
+               <w>ṅī</w>
+               <w>ṅu</w>
+               <w>ṅū</w>
+               <w>ṅ<supplied>e</supplied></w>
+               <w>ṅ<supplied>ai</supplied></w>
+               <w>ṅ<supplied>o</supplied></w>
+               <lb corresp="#b2"/>
+               <gap reason="lost"/>
+               <w>ja</w>
+               <w>jā</w>
+               <w>ji</w>
+               <w>jī</w>
+               <w>ju</w>
+               <w>jū</w>
+               <w>je</w>
+               <w>jai</w>
+               <lb corresp="#b3"/>
+               <gap reason="lost"/>
+               <w>ñ<supplied>a</supplied></w>
+               <w>ñā</w>
+               <w>ñi</w>
+               <w>ñī</w>
+               <w>ñu</w>
+               <w>ñū</w>
+               <w>ñe</w>
+               <w>ñai</w>
+               <lb corresp="#b4"/>
+               <gap reason="lost"/>
+               <w>ṭhaḥ</w>
+               <w>ḍa</w>
+               <w>ḍā</w>
+               <w>ḍi</w>
+               <w><supplied>ḍ</supplied>ī</w>
+               <gap reason="plain" quantity="3"/>
+            </p>
+         </div>
+         <div type="comments">
+            <p>
+               <note corresp="#a3" type="philcomment">As noted by <bibl><title corresp="ref:chingandogihara2013"/><citedRange>108</citedRange></bibl>–109, the character following "1000" is the rare character for "10,000". They further suggest that the last character is then "100,000" (cf. already Klaus T. Schmidt apud <bibl><title corresp="ref:maue1997"/><citedRange>9</citedRange></bibl>, as pointed out to me by Dieter Maue, p.c.).</note>
+            </p>
+         </div>
+         <div type="bibliography">
+            <p>
+               <label>Online access</label>
+               <bibl><title corresp="ref:idp0000"/><ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 200" type="external">IOL Toch 200</ref></bibl>. </p>
+            <p>
+               <label>Edition</label>
+               <bibl><title corresp="ref:peyrot2007"/><citedRange>№200</citedRange></bibl>; <bibl><title corresp="ref:broomhead1962"/><citedRange>3</citedRange></bibl>; <bibl><title corresp="ref:couvreur1965"/><citedRange>119-120</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_collection_old">British Library (London)</item>
+               <item n="m_lines_old">4</item>
+               <item n="access_old">public</item>
+               <item n="m_completeness_old"/>
+               <item n="file_location_old">pages/manuscript/IOL_Toch/ioltoch200.txt</item>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;a3.&lt;/b&gt; As noted by [[Ching and Ogihara 2013]]: 108–109, the character following "1000" is the rare character for "10,000". They further suggest that the last character is then "100,000" (cf. already Klaus T. Schmidt apud [[Maue 1997]]: 9, as pointed out to me by Dieter Maue, p.c.).&lt;/p&gt;</item>
+               <item n="m_passage_old"/>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old">5.7</item>
+               <item n="file_created_old">1322765175</item>
+               <item n="file_modified_old">1548331918</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 200"&gt;IOL Toch 200&lt;/a&gt;.&lt;br&gt;
+Edition: [[Peyrot 2007]]: №200; [[Broomhead I]]: 3; [[Couvreur 1965]]: 119-120.</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=15780;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=15780;rotate=0;imageType=_M||IOL Toch 200 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=15779;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=15779;rotate=0;imageType=_M||IOL Toch 200 verso</item>
+               <item n="date_publication_old">1 October 2015</item>
+               <item n="m_language_stage_old"/>
+               <item n="m_transliteration_old">a1 /// – d· dha n· : – [– –]
+a2 /// _m_a _ś_a _ṣ_a _s_a wa _r_a :
+a3 /// 1000 10000 100000 || ||
+a4 /// – kho khau khaṃ khaḥ –
+b1 /// ṅ[a] ṅā ṅi ṅ[ī] ṅu ṅū ṅ· ṅ· ṅ·
+b2 /// j[a] jā ji jī ju jū je jai
+b3 /// ñ· ñā ñi ñī ñu ñū ñe ñai
+b4 /// ṭha[ḥ] ḍa ḍā ḍi ·ī – – –</item>
+               <item n="m_meter_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old">a1 /// – d(a) dha n(a) : – – –
+a2 /// mä śä ṣä sä wa rä :
+a3 /// 1000 10000 100000 || ||
+a4 /// – kho khau khaṃ khaḥ –
+b1 /// ṅa ṅā ṅi ṅī ṅu ṅū ṅ(e) ṅ(ai) ṅ(o)
+b2 /// ja jā ji jī ju jū je jai
+b3 /// ñ(a) ñā ñi ñī ñu ñū ñe ñai
+b4 /// ṭhaḥ ḍa ḍā ḍi (ḍ)ī – – –</item>
+               <item n="m_title_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_parallels_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="project_comment_old"/>
+               <item n="ms_old">IOL Toch 200</item>
+               <item n="m_language_old">None</item>
+               <item n="m_remarks_old"/>
+               <item n="m_other_sigla_old">H add.149.69</item>
+               <item n="m_size_w_old">8.9</item>
+               <item n="m_expedition_old"/>
+               <item n="m_metric_form_old"/>
+               <item n="m_tune_old"/>
+               <item n="project_check_old"/>
+               <item n="m_subgenre_old">Syllabary</item>
+               <item n="m_translation_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old">martin</item>
+               <item n="m_prev_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

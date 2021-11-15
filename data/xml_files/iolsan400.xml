@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-iolsan400">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>IOL San 400</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library (London)</repository>
+                  <idno>IOL San 400</idno>
+                  <altIdentifier>
+                     <idno>Ch.00262.9</idno>
+                  </altIdentifier>
+                  <msName>IOL San 400-404</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Karmavācanā</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>4,7</height>
+                              <width>17,8</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Dunhuang</region><placeName>Mogao</placeName></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="txb" ana="frg:ls-cetom-classical frg:ls-cetom-aberrant-None"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Vinaya</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=111347;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=111347;rotate=0;imageType=_M"/>
+            <line xml:id="lf"><zone>123</zone></line>
+            <line n="1" xml:id="a1"><gap reason="illegible"/></line>
+            <line n="2" xml:id="a2"><zone>pra</zone><zone>ti</zone><zone>gṛ</zone><zone>hī</zone><space type="string_hole"/><zone>tā</zone><zone>e</zone><zone>vaṃ</zone><zone>dvi</zone><zone>ra</zone><zone>pi</zone><zone>tṛ</zone><zone>ra</zone><zone>pi</zone><zone>॥</zone><zone>se</zone><zone>ccha¯</zone><zone>¯nT</zone><zone>pā</zone><zone>ri</zone><zone>śu</zone><zone>ddh<unclear>i</unclear></zone><gap reason="plain" quantity="1"/></line>
+            <line n="3" xml:id="a3"><zone>sā</zone><zone>tne</zone><zone>e</zone><zone>ne</zone><zone>ṅka</zone><space type="string_hole"/><zone>we</zone><zone>ṣle</zone><zone>॥</zone><zone>sa</zone><zone>ma</zone><zone>nvā</zone><zone>ha</zone><zone>rā</zone><zone>yu</zone><zone>ṣmāṃ</zone><zone>a</zone><zone>dya</zone><zone>saṃ</zone><zone>ṅgha</zone><zone>sya</zone></line>
+            <line n="4" xml:id="a4"><zone>po</zone><zone>ṣa</zone><zone>tha</zone><zone>pā</zone><zone>ñca</zone><zone>da</zone><zone>śi</zone><zone>ka</zone><zone>ma</zone><zone>mā</zone><zone>pya</zone><zone>•</zone><zone>dya</zone><zone>ra</zone><zone>kta</zone><zone>śā</zone><zone>nte</zone><zone>na</zone><zone>sya</zone><zone>bhi</zone><zone>kṣo</zone><zone>ḥ</zone><zone>po</zone><zone>ṣa</zone><zone>tha</zone></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=111346;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=111346;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="b1"><zone>pā</zone><zone>ñca</zone><zone>da</zone><zone>śi</zone><zone>ka</zone><zone>ḥ</zone><zone>pa</zone><zone>ri</zone><zone>śu</zone><zone>ddha</zone><zone>ma</zone><zone>mā</zone><zone>yu</zone><zone>ṣmaṃ</zone><zone>dhā</zone><zone>ra</zone><zone>ya</zone><zone>a</zone><zone>nta</zone><zone>rā</zone><zone>yi</zone><zone>ke</zone><zone>ṣu</zone><zone>dha</zone><zone>rme</zone><zone><unclear>ṣu</unclear></zone></line>
+            <line n="2" xml:id="b2"><zone>pa</zone><zone>ri</zone><zone>śu</zone><zone>ddha</zone><zone>ma</zone><space type="string_hole"/><zone>haṃ</zone><zone>po</zone><zone>ṣa</zone><zone>tha</zone><zone>ka</zone><zone>ri</zone><zone>ṣyā</zone><zone>mi</zone><zone>śī</zone><zone>la</zone><zone>ska</zone><zone>ndha</zone><zone>sya</zone><zone>pā</zone><zone>ri</zone><zone>pū</zone><zone><unclear>ra</unclear></zone></line>
+            <line n="3" xml:id="b3"><zone>ye</zone><zone>e</zone><zone>vaṃ</zone><zone>dvi</zone><zone>ra</zone><space type="string_hole"/><zone>pi</zone><zone>tri</zone><zone>ra</zone><zone>pi</zone><zone>॥</zone><zone>se</zone><zone>tri</zone><zone>vā</zone><zone>ci¯</zone><zone>¯<unclear>K</unclear></zone><zone>po</zone><zone>sā¯</zone><zone>¯T</zone><zone>॥</zone><zone>sa</zone><zone>ma</zone><zone>nvā</zone><zone>ha</zone><zone><gap reason="plain" unit="part"/>ā</zone></line>
+            <line n="4" xml:id="b4"><gap reason="plain" quantity="1"/><zone><unclear>ṣm</unclear><gap reason="plain" unit="part"/></zone><zone>a</zone><zone><unclear>dy</unclear><gap reason="plain" unit="part"/></zone><zone><unclear>s</unclear><gap reason="plain" unit="part"/>ṃ</zone><gap reason="lost"/><gap reason="lost"/><zone><gap reason="plain" unit="part"/>i</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <fw type="leafNum" corresp="#lf">123</fw>
+            <p><milestone unit="passage" n="Pravāraṇā-vastu"/>
+<lb corresp="#a1"/><gap reason="illegible"/>
+<lb corresp="#a2"/><foreign xml:lang="san"><w>pratigṛhītā</w><w>evaṃ</w><w>dvir</w><w>api</w><w>tṛr</w><w>api</w></foreign><pc>॥</pc><w>se</w><w>cchant</w><w>pāriśuddhi</w><gap reason="plain" quantity="1"/>
+<lb corresp="#a3"/><w>sātne</w><w>eneṅka</w><w>weṣle</w><pc>॥</pc><foreign xml:lang="san"><w>samanvāharāyuṣmāṃ</w><w>adya</w><w>saṃṅghasya</w></foreign>
+<lb corresp="#a4"/><foreign xml:lang="san"><w>poṣatha</w><w>pāñcadaśika</w><w>mamāpya</w><pc>•</pc><w>dya</w><w>raktaśāntenasya</w><w>bhikṣoḥ</w><w>poṣatha</w></foreign>
+<lb corresp="#b1"/><foreign xml:lang="san"><w>pāñcadaśikaḥ</w><w>pariśuddha</w><w>mamāyuṣmaṃ</w><w>dhāraya</w><w>antarāyikeṣu</w><w>dharmeṣu</w></foreign>
+<lb corresp="#b2"/><foreign xml:lang="san"><w>pariśuddham</w><w>ahaṃ</w><w>poṣatha</w><w>kariṣyāmi</w><w>śīlaskandhasya</w><w>pāripūra</w></foreign>
+<lb corresp="#b3"/><foreign xml:lang="san"><w>ye</w><w>evaṃ</w><w>dvir</w><w>api</w><w>trir</w><w>api</w></foreign><pc>॥</pc><w>se</w><w>trivācik</w><w>posāt</w><pc>॥</pc><w>samanvāha<gap reason="plain" unit="part"/>ā</w>
+<lb corresp="#b4"/><gap reason="plain" quantity="1"/><w>ṣm<gap reason="plain" unit="part"/></w><w>ady<gap reason="plain" unit="part"/></w><w>s<gap reason="plain" unit="part"/>ṃ</w><gap reason="lost"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>i</w><gap reason="lost"/></p>
+         </div>
+         <div type="comments">
+            <p><note type="parallels">See <bibl><title corresp="ref:hartel1956"/><citedRange>109</citedRange></bibl>, §69</note><note type="remarks">See <ref type="ms" target="txt:m-iolsan404"/>. After <bibl><title corresp="ref:ogihara2009"/><citedRange>153</citedRange></bibl>, recto and verso have been reversed compared to 
+<ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL%20San%20400" type="external">IDP</ref>.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition</label><bibl><title corresp="ref:lavalleepoussin1913"/><citedRange>846</citedRange></bibl>; <bibl><title corresp="ref:ogihara2009"/><citedRange>153</citedRange></bibl>. </p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL San 400" type="external">IOL San 400</ref></bibl>. </p>
+            <p><label>Identification</label><bibl><title corresp="ref:lavalleepoussin1913"/><citedRange>846</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="access_old">restricted</item>
+               <item n="m_collection_old">British Library (London)</item>
+               <item n="m_lines_old">4</item>
+               <item n="m_completeness_old"/>
+               <item n="file_location_old">pages/manuscript/iolsan400.txt</item>
+               <item n="m_findspot_old">Dunhuang</item>
+               <item n="m_findspot_specific_old">Mogao</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL San 400" target="idp"&gt;IOL San 400&lt;/a&gt;.&lt;br&gt;
+Edition: [[La Vallée Poussin 1913]]: 846; [[Ogihara 2009]]: 153.&lt;br&gt;
+Identification: [[La Vallée Poussin 1913]]: 846.</item>
+               <item n="m_manuscript_old">IOL San 400-404</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=111347;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=111347;rotate=0;imageType=_M||$page; recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=111346;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=111346;rotate=0;imageType=_M||$page; verso</item>
+               <item n="m_transliteration_old">a1 &lt;i&gt;illegible&lt;/i&gt;
+a2 pratigṛhī○tā evaṃ dvir api tṛr api || se cchan_t\ pāriśuddh[i] –
+a3 sātne eneṅka ○ weṣle || samanvāharāyuṣmāṃ adya saṃṅghasya
+a4 poṣatha pāñcadaśika mamāpya • dya raktaśāntenasya bhikṣoḥ poṣatha
+b1 pāñcadaśikaḥ pariśuddha mamāyuṣmaṃ dhāraya antarāyikeṣu dharme[ṣu]
+b2 pariśuddham a○haṃ poṣatha kariṣyāmi śīlaskandhasya pāripū[ra]
+b3 ye evaṃ dvir a○pi trir api || se trivāci[_k]\ posā_t\ || samanvāha·ā
+b4 – [ṣm]· a[dy]· [s]·ṃ /// /// ·i ///</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="date_publication_old"/>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="m_passage_old">Pravāraṇā-vastu</item>
+               <item n="m_philcomment_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_size_h_old">4,7</item>
+               <item n="m_next_old"/>
+               <item n="file_modified_old">1485271080</item>
+               <item n="file_created_old">1326962537</item>
+               <item n="m_parallels_old">See [[Härtel 1956]]: 109, §69</item>
+               <item n="project_comment_old">&lt;p&gt;TEKST OGI nog niet gecheckt&lt;/p&gt;</item>
+               <item n="ms_old">IOL San 400</item>
+               <item n="m_script_old">Classical</item>
+               <item n="m_other_sigla_old">Ch.00262.9</item>
+               <item n="m_remarks_old">&lt;p&gt;See [[IOL San 404]]. After [[Ogihara 2009]]: 153, recto and verso have been reversed compared to 
+&lt;a href="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL%20San%20400"&gt;IDP&lt;/a&gt;.&lt;/p&gt;</item>
+               <item n="m_language_old">Sanskrit+TB</item>
+               <item n="m_expedition_old"/>
+               <item n="m_size_w_old">17,8</item>
+               <item n="m_title_old">Karmavācanā</item>
+               <item n="m_transcription_old">a2 &lt;span lang="Sanskrit"&gt;pratigṛhītā evaṃ dvir api tṛr api&lt;/span&gt; || se cchant pāriśuddhi –
+a3 sātne eneṅka weṣle || &lt;span lang="Sanskrit"&gt;samanvāharāyuṣmāṃ adya saṃṅghasya&lt;/span&gt;
+a4 &lt;span lang="Sanskrit"&gt;poṣatha pāñcadaśika mamāpya • dya raktaśāntenasya bhikṣoḥ poṣatha&lt;/span&gt;
+b1 &lt;span lang="Sanskrit"&gt;pāñcadaśikaḥ pariśuddha mamāyuṣmaṃ dhāraya antarāyikeṣu dharmeṣu&lt;/span&gt;
+b2 &lt;span lang="Sanskrit"&gt;pariśuddham ahaṃ poṣatha kariṣyāmi śīlaskandhasya pāripūra&lt;/span&gt;
+b3 &lt;span lang="Sanskrit"&gt;ye evaṃ dvir api trir api&lt;/span&gt; || se trivācik posāt || samanvāha·ā
+b4 – ṣm· ady· s·ṃ /// /// ·i ///</item>
+               <item n="m_leaf_old">123</item>
+               <item n="m_meter_old">6/7</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old">None</item>
+               <item n="user_modified_old">theres</item>
+               <item n="user_created_old">michael</item>
+               <item n="m_prev_old"/>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_subgenre_old">Vinaya</item>
+               <item n="m_translation_old"/>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;TEKST OGI nog niet gecheckt&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-kizilwood4">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Kizil Wood 4</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Kizil Wood 4</idno>
+                  <msName>Assemblage VI</msName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>wood tablet</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Qizil</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Non-literary</term>
+               <term type="subgenre">Account</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone>pi</zone><zone>ṅce</zone><zone>pä</zone><zone>le</zone><zone>tne</zone><zone>ka</zone><zone>pyā</zone><zone>re</zone><zone>sṣa</zone><zone>ly<unclear>w</unclear>e</zone><zone>wsā</zone><zone>wa</zone><zone><unclear>mu</unclear></zone><zone>tkā</zone><zone>tseṃ</zone><zone>2</zone><zone>yo</zone><zone>tko</zone><zone>lau</zone><zone>yā</zone><zone>tka</zone><zone>klai</zone><zone>na</zone><zone>te</zone><zone>ṅke</zone><zone>śru</zone><zone>we</zone><zone>mau</zone><zone>ta</zone><zone>na</zone><zone>ma</zone><zone>ne</zone><zone>ma</zone><zone>lwe</zone><zone>rka</zone><zone>mā</zone><zone>nte</zone><zone>ku</zone><zone>nti</zone><zone>nta</zone><zone>7</zone><zone>।</zone><zone>pi</zone><zone>ṅ</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><w>piṅce</w><w>päletne</w><w>kapyāres</w><w>ṣalywe</w><w>wsāwa</w><w>mutkātseṃ</w><num value="2">2</num><w>yotkolau</w><w>yātka</w><w>klaina</w><w>teṅkeś</w><w>ruwe</w><w>mau</w><w>ta</w><w>na</w><w>ma</w><w>ne</w><w>malwer</w><w>kamānte</w><w>kuntinta</w><num value="7">7</num><pc>।</pc><w>piṅ</w></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">/// On the 15th day of the 5th (month), I gave oil/ghee to <hi>kapyāres</hi>: 2 <hi>mutkāntse</hi>*. The <hi>Yotkolau</hi> monk ordered (it to me). The women, (making the alcoholic beverages?) to <hi>Teṅke</hi>, have taken milk: 7 pots. | [The fifth month]</seg></seg></choice></p>
+         </div>
+         <div type="bibliography">
+            <p><label>other</label><bibl><title corresp="ref:ching2010"/><citedRange>296</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="file_name_old">pages/manuscript/kizilwood4.txt</item>
+               <item n="m_translation_old">a1 /// On the 15th day of the 5th (month), I gave oil/ghee to &lt;i&gt;kapyāres&lt;/i&gt;: 2 &lt;i&gt;mutkāntse&lt;/i&gt;*. The &lt;i&gt;Yotkolau&lt;/i&gt; monk ordered (it to me). The women, (making the alcoholic beverages?) to &lt;i&gt;Teṅke&lt;/i&gt;, have taken milk: 7 pots. | [The fifth month]</item>
+               <item n="m_subgenre_old">Account</item>
+               <item n="file_savedate_old">2017-01-24, 16:24:31 (CET)</item>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="user_modified_old">theres</item>
+               <item n="user_created_old">martin</item>
+               <item n="category_old">manuscript</item>
+               <item n="editgroup_old">Editor</item>
+               <item n="m_transcription_old">a1 /// piṅce päletne kapyāres ṣalywe wsāwa mutkātseṃ 2 yotkolau yātka klaina teṅkeś ruwe mau ta na ma ne malkwer|malwer kamānte kuntinta 7 | piṅ</item>
+               <item n="m_genre_old">Non-literary</item>
+               <item n="group_old">Editor</item>
+               <item n="m_language_old">TB</item>
+               <item n="edited_date_old">2017-01-24, 16:24:31 (CET)</item>
+               <item n="ms_old">Kizil Wood 4</item>
+               <item n="file_modified_old">1545417643</item>
+               <item n="file_created_old">1415202890</item>
+               <item n="version_old">5</item>
+               <item n="page_name_old">Kizil Wood 4</item>
+               <item n="m_material_old">Ink on wood tablet</item>
+               <item n="m_transliteration_old">a1 /// piṅce päletne kapyāres ṣaly[w]e wsāwa [mu]tkātseṃ 2 yotkolau yātka klaina teṅkeś ruwe mau ta na ma ne malwer kamānte kuntinta 7 | piṅ</item>
+               <item n="file_size_old">1 KB</item>
+               <item n="m_bib_old">[[Ching 2010]]: 296.</item>
+               <item n="m_manuscript_old">Assemblage VI</item>
+               <item n="m_findspot_old">Qizil</item>
+               <item n="created_date_old">2014-11-05, 16:54:50 (CET)</item>
+               <item n="file_location_old">pages/manuscript/kizilwood4.txt</item>
+               <item n="access_old">restricted</item>
+               <item n="m_lines_old">1</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

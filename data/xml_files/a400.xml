@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-a400">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A 400</title>
+            <respStmt>
+               <resp>text</resp>
+               <name>Gerd Carling</name>
+            </respStmt>
+            <respStmt>
+               <resp>translation, commentary</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>A 400</idno>
+                  <altIdentifier>
+                     <idno>THT 1034</idno>
+                  </altIdentifier>
+                  <msName>A 399-404</msName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Siŋgim</region>during <rs type="expedition_code">T II S 19.06</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+         <sourceDesc>
+            <p>Transcription and translation are based on <bibl><title corresp="ref:carlingetal2009"/></bibl>. </p>
+            <p>Transcription and references have been transferred from the "Text and Reference Database of the Tocharian A Language" (Gerd Carling Lund University) (funded by the Bank of Sweden Tercentenary Foundation and SCAS).</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="xto"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Jātaka/Avadāna</term>
+               <term type="prose_verse">prose</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329549;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329549;rotate=0;imageType=_M"/>
+            <graphic url="A/A400a.jpg" height="1096px" width="960px"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone>rcwa</zone><zone>tRA<unclear>ṃ</unclear></zone><gap reason="plain" quantity="1"/><gap reason="par" quantity="4"/><zone>ṅKA¯</zone><zone>¯Ṣ</zone><zone>:</zone><zone>ptā</zone><zone>ñKA</zone><zone>TKA</zone><zone>ṣṣi</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone><unclear>¯</unclear><unclear>K</unclear></zone><zone>wa</zone><zone>ltsu</zone><gap reason="plain" quantity="2"/><zone>kṣ<gap reason="plain" unit="part"/></zone><zone>ña</zone><zone>mci</zone><zone>॥</zone><zone>ta</zone><zone>ru</zone><zone>ṇa</zone><zone>di</zone><zone>vā</zone><zone>k<gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><gap reason="plain" quantity="1"/><space type="string_hole"/><zone><unclear>¯</unclear><unclear>Ṣ</unclear></zone><zone>wä</zone><zone>tkā¯</zone><zone>¯LtS</zone><zone>TA</zone><zone>ṢPA</zone><zone>kra¯</zone><zone>¯S</zone><zone>•</zone><zone>u</zone><zone><unclear>m</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><space type="string_hole"/><zone>lya</zone><zone>lypu</zone><zone>ri</zone><zone>sso</zone><zone>ko</zone><zone>yā</zone><zone>tseṃ</zone><zone>o</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><gap reason="lost"/><space type="string_hole"/><zone>wi</zone><zone>ku</zone><zone>MA</zone><zone>ska</zone><zone>TA¯</zone><zone>¯R</zone><zone>॥</zone><zone>ā</zone><zone>KA</zone><gap reason="lost"/></line>
+            <line n="6" xml:id="a6"><gap reason="lost"/><zone>ṣ<unclear>ā</unclear></zone><zone>mi</zone><zone>kā</zone><zone>ñtā</zone><zone>ke¯</zone><zone>¯ñcä</zone><zone>tka</zone><zone>ni</zone><zone>to¯</zone><zone>¯P</zone><zone>trā¯</zone><zone>¯ṅK</zone><zone>kl<gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="7" xml:id="a7"><gap reason="lost"/><zone>to¯</zone><zone>¯P</zone><zone>trā¯</zone><zone>¯ṅK</zone><zone>tka</zone><zone>ni</zone><zone>nKAṃ</zone><zone>saṃ</zone><zone>tRA</zone><zone>•</zone><zone>lyā</zone><zone>kaṃ</zone><zone>kā</zone><zone>s<unclear>we</unclear></zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329557;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329557;rotate=0;imageType=_M"/>
+            <graphic url="A/A400b.jpg" height="1056px" width="880px"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone><unclear>K</unclear>A</zone><zone>wra</zone><zone>sa</zone><zone>śśi</zone><zone>wä</zone><zone>rpā</zone><zone>laṃ</zone><zone>:</zone><zone>1</zone><zone>॥</zone><zone>ā</zone><zone>KA</zone><zone>LṢA¯</zone><zone>¯L</zone><zone>tRA</zone><zone>ṅ<gap reason="par" unit="part"/><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone>na</zone><zone>slu</zone><zone>ne</zone><zone>yu¯</zone><zone>¯M</zone><zone>na</zone><zone>sa¯</zone><zone>¯M</zone><zone>mā</zone><zone>yā</zone><zone>ta</zone><zone>ṣñi</zone><zone>lyä</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><space type="string_hole"/><zone>ta</zone><zone>kṣiṃ</zone><zone>ma</zone><zone>SA¯</zone><zone>¯K</zone><zone>tRA</zone><zone>ṅktsi</zone><zone>klyi</zone><zone>ntRA</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><space type="string_hole"/><zone>¯T</zone><zone>॥</zone><zone>pa</zone><zone>ṇḍu</zone><zone><unclear>rā</unclear></zone><zone>ṅkaṃ</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><gap reason="lost"/><gap reason="plain" quantity="1"/><space type="string_hole"/><zone>k<gap reason="plain" unit="part"/></zone><zone>cne</zone><zone>lyo</zone><zone>ckwā</zone><zone>tā</zone><gap reason="lost"/></line>
+            <line n="6" xml:id="b6"><gap reason="lost"/><zone>thā</zone><zone>dī</zone><zone>na</zone><zone>va</zone><gap reason="plain" quantity="2"/><zone>sa</zone><zone>ni</zone><zone>rde</zone><zone>śaṃ</zone><zone>pai</zone><gap reason="lost"/></line>
+            <line n="7" xml:id="b7"><gap reason="lost"/><zone>kula</zone><zone>pa</zone><zone>k<gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="3"/><zone><gap reason="plain" unit="part"/>ā</zone><zone>hkh<gap reason="plain" unit="part"/></zone><zone>ś<gap reason="plain" unit="part"/>i</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><w><supplied>spa</supplied>rcwatr-äṃ</w><gap reason="plain" quantity="4"/><w><supplied>trä</supplied>ṅkäṣ</w><pc>:</pc><w>ptāñkät</w><w>käṣṣi</w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><w>k</w><w>waltsu<supplied>rā</supplied></w><w><supplied>ā</supplied>kṣ<supplied>i</supplied>ñam-ci</w><pc>॥</pc><w>taruṇadivāk<supplied>araṃ</supplied></w><pc><supplied>॥</supplied></pc><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>ṣ</w><w>wätkālts</w><w>täṣ</w><w>päkras</w><pc>•</pc><w>um<supplied>par</supplied></w><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="lost"/><w>lyalypuriss</w><w>okoyā</w><w>tseṃ-o<supplied>ppalṣi</supplied></w><gap reason="lost"/>
+<lb corresp="#a5"/><gap reason="lost"/><w><supplied>wa</supplied>wiku</w><w>mäskatär</w><pc>॥</pc><w>ākä<supplied>lṣäl</supplied></w><gap reason="lost"/>
+<lb corresp="#a6"/><gap reason="lost"/><w>ṣāmikāñ</w><w>tākeñc</w><w>tkani</w><w>top</w><w>trāṅk</w><w>kl<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#a7"/><gap reason="lost"/><w>top</w><w>trāṅk</w><w>tkani</w><w>nkäṃsaṃträ</w><pc>•</pc><w>lyāka-ṃ</w><w>kāswe</w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><w><supplied>pu</supplied>k<surplus>ä</surplus></w><w>wrasaśśi</w><w>wärpālaṃ</w><pc>:</pc><num value="1">1</num><pc>॥</pc><w>ākälṣäl</w><w>träṅ<supplied>käṣ</supplied></w><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><w>nasluneyum</w><w>nasam</w><w>mā</w><w>yātaṣ-ñi</w><w>lyä</w><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><w><supplied>jā</supplied>takṣiṃ</w><w>masäk</w><w>träṅktsi</w><w>klyinträ</w><gap reason="lost"/>
+<lb corresp="#b4"/><gap reason="lost"/><w>t</w><pc>॥</pc><w>paṇḍurāṅkaṃ</w><pc><supplied>॥</supplied></pc><gap reason="lost"/>
+<lb corresp="#b5"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>k<supplied>u</supplied>cne</w><w>lyockwā</w><w>tā</w><gap reason="lost"/>
+<lb corresp="#b6"/><gap reason="lost"/><w>thādīnava</w><gap reason="plain" quantity="2"/><w>sanirdeśaṃ</w><w>pai</w><gap reason="lost"/>
+<lb corresp="#b7"/><gap reason="lost"/><w>kUlapak<gap reason="plain" unit="part"/></w><gap reason="plain" quantity="3"/><w><gap reason="plain" unit="part"/>āhkh<gap reason="plain" unit="part"/>ś<gap reason="plain" unit="part"/>i</w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">... turns it ... says: «The Buddha, the teacher ...»</seg></seg></choice><choice corresp="#a2"><seg><bibl><title corresp="ref:carlingetal2009"/><citedRange>29b</citedRange></bibl></seg><seg><seg type="prim_transl">... I will report [this] to you in brief || in <hi>taruṇadivāk(ar)</hi> (||) ...</seg></seg></choice><choice corresp="#a3"><seg><bibl><title corresp="ref:knoll1996"/><citedRange>145, 149</citedRange></bibl></seg><seg><seg type="prim_transl">... know this decisively! Evil ...</seg></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl">... through the fruit of the deed ... (of) a blue lotus ...</seg></seg></choice><choice corresp="#a5"><seg><bibl><title corresp="ref:thomas1957"/><citedRange>255</citedRange></bibl></seg><seg><seg type="prim_transl">... is removed. The pupil ...</seg></seg></choice><choice corresp="#a6"><seg><seg type="prim_transl">... they will be <hi>... ṣāmikāñ</hi>. An earth (?) mine <hi>trāṅk</hi> ...</seg></seg></choice><choice corresp="#a7"><seg><seg type="prim_transl">... the earth mine <hi>trāṅk</hi> ... perish. ... saw him ... handsome ...</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">... are to be received by all beings. 1. The pupil says ...</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">... I am of ... existence. He will not be able to ... me ...</seg></seg></choice><choice corresp="#b3"><seg><bibl><title corresp="ref:thomas1954"/><citedRange>725</citedRange></bibl></seg><seg><seg type="prim_transl">... he will have to tell the link[s] of the <hi>jātaka</hi> [story] ...</seg></seg></choice><choice corresp="#b4"><seg><seg type="prim_transl">... || in <hi>paṇḍurāṅkaṃ</hi> (||) ...</seg></seg></choice><choice corresp="#b5"><seg><bibl><title corresp="ref:thomas1957"/><citedRange>229</citedRange></bibl></seg><seg><seg type="prim_transl">... whom I turned into ...</seg></seg></choice><choice corresp="#b6"><seg><seg type="prim_transl">...</seg></seg></choice><choice corresp="#b7"><seg><seg type="prim_transl">...</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note corresp="#a1" type="philcomment"><hi>(spa)rcwatr-äṃ</hi>: the following character may be the punctuation mark ":". If so, four more akṣaras may be lost in the lacuna; that is, if the restoration <hi>(trä)ṅkäṣ</hi> is correct, still another three.</note><note corresp="#a2" type="philcomment"><hi>(ā)kṣ(i)ñam-ci</hi>: the restoration is certain. More frequent are the variants <hi>ākṣiññam</hi> (excluded here, pace <bibl><title corresp="ref:carlingetal2009"/><citedRange>29b</citedRange></bibl>) and <hi>ākṣñam</hi> (see also <bibl><title corresp="ref:peyrot2013b"/><citedRange>720</citedRange></bibl>).</note><note corresp="#a2" type="philcomment"><hi>taruṇadivāk(araṃ)</hi>: tune name certainly corresponding to TB <hi>taruṇadivākarne</hi>, which has the metre 19 / 19 / 10 / 19 (= 7 ¦ 7 ¦ 5 / 7 ¦ 7 ¦ 5 / 5 ¦ 5 / 7 ¦ 7 ¦ 5). However, this metre is so far not attested in Tocharian A and this fragmentary passage does not allow a detailed metrical analysis.</note><note corresp="#a4" type="philcomment"><hi>tseṃ-o(ppalṣi)</hi>: cf. <ref type="ms" target="txt:m-a378"/> a1 <hi>tseṃ-oppa(lṣiñi)</hi>.</note><note corresp="#a6 #a7" type="philcomment">These lines contain hapax legomena of unknown meaning: <hi>/// ṣāmikāñ</hi> and <hi>trāṅk</hi>. Also <hi>tkani</hi> is unclear, since the plural of <hi>tkaṃ</hi> 'earth' is regularly <hi>tkañi</hi>, while also a derived adjective would be expected to be <hi>tkañi</hi>.</note><note corresp="#b4" type="philcomment"><hi>paṇḍurāṅkaṃ</hi>: the long <hi>ā</hi> is left-bound, apparently as an ornamental feature at the end of the chapter. This tune name with unknown metre is also attested in <ref type="ms" target="txt:m-a274"/> a6; in Tocharian B, the corresponding tune <hi>paṇḍurāṅkäññene</hi> has the metre 4 x 4 ¦ 5.</note><note corresp="#b4 #b5 #b6 #b7" type="philcomment">An ornamental vertical line at the end of the lines marks the end of a chapter. On the evidence of comparable leaves, there was probably another such line following after the blank space to the right of it, and another portion of text to the right of that.</note><note corresp="#b5" type="philcomment"><hi>lyockwā tā</hi>: the long <hi>ā</hi>'s are left-bound (see above).</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition</label><bibl><title corresp="ref:siegandsiegling1921"/><citedRange>223</citedRange></bibl>. <bibl>Siegling's personal copy of <title corresp="ref:siegandsiegling1921"/><ref target="./images/TS_Siegling/TS_Siegling_Page_223.png" type="external">p. 223</ref></bibl>. </p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT%201034" type="external">THT 1034</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/10/1034.htm" type="external">THT 1034</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="project_comment_old"/>
+               <item n="ms_old">A 400</item>
+               <item n="m_script_old">Classical</item>
+               <item n="m_parallels_old"/>
+               <item n="m_expedition_old">T II S 19.06</item>
+               <item n="m_size_w_old"/>
+               <item n="m_other_sigla_old">THT 1034</item>
+               <item n="m_remarks_old"/>
+               <item n="m_language_old">TA</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old">a1 /// (spa)rcwatr-äṃ – – – – (trä)ṅkäṣ : ptāñkät käṣṣi_(TA)|käṣṣi ///
+a2 /// k waltsu(rā) ākṣiññam-ci|(ā)kṣ(i)ñam-ci || taruṇadivāk(araṃ ||) ///
+a3 /// – ṣ wätkālts täṣ päkras • um(par) ///
+a4 /// lyalypuriss okoyā tseṃ-o(ppalṣi) ///
+a5 /// (wa)wiku mäskatär || ākä(lṣäl) ///
+a6 /// ṣāmikāñ tākeñc tkani top trāṅk kl· ///
+a7 /// top trāṅk tkani nkäṃsaṃträ • lyāka-ṃ kāswe ///
+b1 /// (pu)k wrasaśśi wärpālaṃ : 1 || ākälṣäl träṅ(käṣ) ///
+b2 /// nasluneyum nasam mā yātaṣ-ñi lyä ///
+b3 /// (jā)takṣiṃ masäk träṅktsi klyinträ ///
+b4 /// t || paṇḍurāṅkaṃ (||) ///
+b5 /// – k(u)cne lyockwā tā ///
+b6 /// thādīnava – – sanirdeśaṃ pai ///
+b7 /// k_ulapak· – – – ·āhkh·ś·i ///</item>
+               <item n="m_title_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_prev_old"/>
+               <item n="user_modified_old">bernhard</item>
+               <item n="user_created_old">automatic</item>
+               <item n="project_check_old"/>
+               <item n="m_metric_form_old">Both</item>
+               <item n="m_tune_old">taruṇadivākaraṃ</item>
+               <item n="m_translation_old">a1 ... turns it ... says: «The Buddha, the teacher ...»
+a2 ... I will report [this] to you in brief || in &lt;i&gt;taruṇadivāk(ar)&lt;/i&gt; (||) ...
+a3 ... know this decisively! Evil ...
+a4 ... through the fruit of the deed ... (of) a blue lotus ...
+a5 ... is removed. The pupil ...
+a6 ... they will be &lt;i&gt;... ṣāmikāñ&lt;/i&gt;. An earth (?) mine &lt;i&gt;trāṅk&lt;/i&gt; ...
+a7 ... the earth mine &lt;i&gt;trāṅk&lt;/i&gt; ... perish. ... saw him ... handsome ...
+b1 ... are to be received by all beings. 1. The pupil says ...
+b2 ... I am of ... existence. He will not be able to ... me ...
+b3 ... he will have to tell the link[s] of the &lt;i&gt;jātaka&lt;/i&gt; [story] ...
+b4 ... || in &lt;i&gt;paṇḍurāṅkaṃ&lt;/i&gt; (||) ...
+b5 ... whom I turned into ...
+b6 ...
+b7 ...</item>
+               <item n="m_subgenre_old">Jātaka/Avadāna</item>
+               <item n="m_completeness_old"/>
+               <item n="access_old">public</item>
+               <item n="m_lines_old">7</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="file_location_old">pages/manuscript/A/a400.txt</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_old">Siŋgim</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_linedistance_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT%201034"&gt;THT 1034&lt;/a&gt;,
+[[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/10/1034.htm"&gt;THT 1034&lt;/a&gt;.&lt;br&gt;
+Transcription and references have been transferred from the "Text and Reference Database of the Tocharian A Language" (Gerd Carling, Lund University) (funded by the Bank of Sweden Tercentenary Foundation and SCAS).
+Transcription and translation are based on [[Carling, DThTA]].&lt;br&gt;
+Edition: [[TochSprR(A)]]: 223.&lt;br&gt;
+Siegling's personal copy of [[TochSprR(A)]]: &lt;a href="./images/TS_Siegling/TS_Siegling_Page_223.png"&gt;p. 223&lt;/a&gt;.&lt;br&gt;
+Translation:
+&lt;b&gt;a2&lt;/b&gt; [[Carling, DThTA]]: 29b;
+&lt;b&gt;a3&lt;/b&gt; [[Knoll 1996]]: 145, 149;
+&lt;b&gt;a5&lt;/b&gt; [[Thomas 1957]]: 255 (only cited without translation);
+&lt;b&gt;b3&lt;/b&gt; [[Thomas 1954]]: 725;
+&lt;b&gt;b5&lt;/b&gt; [[Thomas 1957]]: 229 (only cited without translation).</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old">A 399-404</item>
+               <item n="m_language_stage_old"/>
+               <item n="m_transliteration_old">a1 /// rcwat_r-_a[ṃ] – (– – – –) ṅ_k_a_ṣ\ : ptāñ_k_a_t _k_aṣṣi ///
+a2 /// [_k\] waltsu – – kṣ·ñam-ci || taruṇadivāk· ///
+a3 /// – ○ [_ṣ\] wätkā_lt_s\ _t_a_ṣ _p_akra_s\ • u[m·] ///
+a4 /// ○ lyalypuriss okoyā tseṃ-o ///
+a5 /// ○ wiku _m_aska_t_a_r\ || ā_k_a ///
+a6 /// ṣ[ā]mikāñ tākeñcä\ tkani to_p\ trāṅ_k\ kl· ///
+a7 /// to_p\ trāṅ_k\ tkani n_k_aṃsaṃt_r_a • lyāka-ṃ kās[we] ///
+b1 /// [_k](\) wrasaśśi wärpālaṃ : 1 || ā_k_a_l_ṣ_a_l\ t_r_aṅ(·)· ///
+b2 /// nasluneyu_m\ nasa_m\ mā yātaṣ-ñi lyä ///
+b3 /// ○ takṣiṃ ma_s_a_k\ t_r_aṅktsi klyint_r_a ///
+b4 /// ○ _t\ || paṇḍu[rā]ṅkaṃ ///
+b5 /// – ○ k·cne lyockwā tā ///
+b6 /// thādīnava – – sanirdeśaṃ pai ///
+b7 /// k_ulapak· – – – ·āhkh·ś·i ///</item>
+               <item n="date_publication_old"/>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329549;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329549;rotate=0;imageType=_M||THT 1034 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329557;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329557;rotate=0;imageType=_M||THT 1034 verso</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_editor_old">Gerd Carling (text), Michaël Peyrot (translation, commentary)</item>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;a1.&lt;/b&gt; &lt;i&gt;(spa)rcwatr-äṃ&lt;/i&gt;: the following character may be the punctuation mark ":". If so, four more akṣaras may be lost in the lacuna; that is, if the restoration &lt;i&gt;(trä)ṅkäṣ&lt;/i&gt; is correct, still another three.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a2.&lt;/b&gt; &lt;i&gt;(ā)kṣ(i)ñam-ci&lt;/i&gt;: the restoration is certain. More frequent are the variants &lt;i&gt;ākṣiññam&lt;/i&gt; (excluded here, pace [[Carling, DThTA]]: 29b) and &lt;i&gt;ākṣñam&lt;/i&gt; (see also [[Peyrot, ToSu]]: 720).&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a2.&lt;/b&gt; &lt;i&gt;taruṇadivāk(araṃ)&lt;/i&gt;: tune name certainly corresponding to TB &lt;i&gt;taruṇadivākarne&lt;/i&gt;, which has the metre 19 / 19 / 10 / 19 (= 7 ¦ 7 ¦ 5 / 7 ¦ 7 ¦ 5 / 5 ¦ 5 / 7 ¦ 7 ¦ 5). However, this metre is so far not attested in Tocharian A and this fragmentary passage does not allow a detailed metrical analysis.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a4.&lt;/b&gt; &lt;i&gt;tseṃ-o(ppalṣi)&lt;/i&gt;: cf. [[A 378]] a1 &lt;i&gt;tseṃ-oppa(lṣiñi)&lt;/i&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a6-7.&lt;/b&gt; These lines contain hapax legomena of unknown meaning: &lt;i&gt;/// ṣāmikāñ&lt;/i&gt; and &lt;i&gt;trāṅk&lt;/i&gt;. Also &lt;i&gt;tkani&lt;/i&gt; is unclear, since the plural of &lt;i&gt;tkaṃ&lt;/i&gt; 'earth' is regularly &lt;i&gt;tkañi&lt;/i&gt;, while also a derived adjective would be expected to be &lt;i&gt;tkañi&lt;/i&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b4-7.&lt;/b&gt; An ornamental vertical line at the end of the lines marks the end of a chapter. On the evidence of comparable leaves, there was probably another such line following after the blank space to the right of it, and another portion of text to the right of that.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b4.&lt;/b&gt; &lt;i&gt;paṇḍurāṅkaṃ&lt;/i&gt;: the long &lt;i&gt;ā&lt;/i&gt; is left-bound, apparently as an ornamental feature at the end of the chapter. This tune name with unknown metre is also attested in [[A 274]] a6; in Tocharian B, the corresponding tune &lt;i&gt;paṇḍurāṅkäññene&lt;/i&gt; has the metre 4 x 4 ¦ 5.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b5.&lt;/b&gt; &lt;i&gt;lyockwā tā&lt;/i&gt;: the long &lt;i&gt;ā&lt;/i&gt;'s are left-bound (see above).&lt;/p&gt;</item>
+               <item n="m_passage_old"/>
+               <item n="file_modified_old">1562068592</item>
+               <item n="file_created_old">1328802217</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

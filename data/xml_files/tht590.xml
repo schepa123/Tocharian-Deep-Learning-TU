@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht590">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 590</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 590</idno>
+                  <altIdentifier>
+                     <idno>B 590</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Bleistiftnummer 2564</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Treatise on the Antarakalpas in dialogue form</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>12,7</height>
+                              <width>24</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Qizil Miŋ-Öy</region>during <rs type="expedition_code">T III MQ 17.13</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical frg:ls-tamai-C1 frg:ls-C14"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Doctrine</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328281;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328281;rotate=0;imageType=_M"/>
+            <graphic url="B/B590a.jpg" height="1160px" width="1604px"/>
+            <line n="1" xml:id="a1"><gap reason="plain" quantity="2"/><zone>ta</zone><zone>rya</zone><zone>t<unclear>o</unclear></zone><zone>ra</zone><zone>no</zone><zone>a</zone><zone>nta</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="plain" quantity="2"/><zone>p<gap reason="plain" unit="part"/></zone><zone>ṅkte</zone><zone>ṅke</zone><zone>lñe</zone><zone>ta</zone><zone><gap reason="plain" unit="part"/>e</zone><zone>MA</zone><zone>sk<gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="plain" quantity="3"/><zone>k<unclear>a</unclear></zone><zone>lpā</zone><zone>nma</zone><zone>sa</zone><zone>snai</zone><gap reason="plain" quantity="4"/><zone>rtta¯</zone><zone>¯M</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="plain" quantity="2"/><zone>p<gap reason="plain" unit="part"/></zone><zone>ja</zone><zone>mbu</zone><zone>dvī</zone><zone>pne</zone><zone>wno</zone><zone>lmy<unclear>ā</unclear></zone><zone>ly<gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="1"/><zone>k<gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="4"/><zone><unclear>k</unclear>au</zone><zone><gap reason="plain" unit="part"/>ṣu¯</zone><zone>¯KT</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><gap reason="plain" quantity="4"/><zone><unclear>ly</unclear>i</zone><zone>pe</zone><zone>nTA¯</zone><zone>¯R</zone><zone>70</zone><zone>3</zone><zone>śa</zone><zone>nMAṃ</zone><zone>t<unclear>e</unclear></zone><zone>ki</zone><zone>ṣṣe</zone><zone>a</zone><zone>ntra</zone><zone>ka</zone><zone>lp<unclear>o</unclear></zone><zone>MA</zone><zone>kte</zone><zone>tne</zone><gap reason="lost"/></line>
+            <line n="6" xml:id="a6"><zone>m<gap reason="plain" unit="part"/></zone><zone>ñ<gap reason="plain" unit="part"/></zone><zone>sru</zone><zone>k<gap reason="plain" unit="part"/></zone><zone>nTA¯</zone><zone>¯R</zone><zone>ce¯</zone><zone>¯u</zone><zone>te</zone><zone>ki</zone><zone>sa</zone><zone>śā</zone><zone>mna</zone><zone><unclear>c</unclear>ai</zone><zone>:</zone><zone>wī</zone><zone>dvi</zone><zone>pa</zone><zone>nma</zone><zone>ṣṣi</zone><zone>wī</zone><zone>tma</zone><gap reason="lost"/></line>
+            <line n="7" xml:id="a7"><zone>kā¯</zone><zone>¯LP</zone><zone>ke</zone><zone>sta</zone><zone><unclear>ṣṣ</unclear>e</zone><zone>ta</zone><zone>rya</zone><zone><unclear>dv</unclear>i</zone><zone>pa</zone><gap reason="plain" quantity="1"/><zone><unclear>o</unclear>¯</zone><zone>¯T</zone><zone>ce¯</zone><zone>¯u</zone><zone>ke</zone><zone>stsa</zone><zone>MA</zone><zone>tstse</zone><zone>nTA¯</zone><zone>¯R</zone><zone><unclear>ṣ</unclear>u¯</zone><zone>¯K<unclear>T</unclear></zone><zone><unclear>k</unclear>auṃ</zone><gap reason="lost"/></line>
+            <line n="8" xml:id="a8"><zone>rya</zone><zone>tma</zone><zone>ne¯</zone><zone>¯Ṣ<unclear>P</unclear></zone><zone>ly<gap reason="plain" unit="part"/></zone><zone>pe</zone><gap reason="plain" quantity="4"/><zone>MA</zone><zone>kte</zone><zone>śa</zone><zone>nMAṃ</zone><zone>o¯</zone><zone>¯T</zone><zone>śa</zone><zone>s<gap reason="plain" unit="part"/></zone><zone>kā</zone><zone>tpa</zone><zone><gap reason="plain" unit="part"/>e</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328295;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328295;rotate=0;imageType=_M"/>
+            <graphic url="B/B590b.jpg" height="1144px" width="1616px"/>
+            <line n="1" xml:id="b1"><zone>yo</zone><zone>PAṃ</zone><zone>su</zone><zone>kau</zone><zone>no</zone><zone>kau</zone><zone><unclear>ṣ</unclear>ṣ<gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="3"/><zone>lyau</zone><zone>ce</zone><zone>:</zone><zone>po</zone><zone>ceṃ¯</zone><zone>¯tS</zone><zone>ce¯</zone><zone>¯u</zone><zone>pre</zone><zone>ke</zone><zone>mā</zone><zone>nta</zone><zone>l<gap reason="plain" unit="part"/><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><zone>lmaṃ¯</zone><zone>¯t<unclear>S</unclear></zone><zone>70</zone><zone>6</zone><zone><unclear>MA</unclear></zone><zone>k<unclear>t</unclear>e</zone><zone>lkā</zone><zone>nTA</zone><zone><unclear>r</unclear>k<gap reason="plain" unit="part"/></zone><zone><unclear>ā</unclear></zone><zone>lyau</zone><zone>ce</zone><zone>sa</zone><zone>wno</zone><zone>lmi</zone><zone>cai</zone><zone>:</zone><zone>e</zone><zone>mpe</zone><zone>le</zone><zone>pa</zone><zone>lsk<unclear>o</unclear></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="plain" quantity="2"/><zone><unclear>l</unclear><gap reason="plain" unit="part"/></zone><zone><unclear>r</unclear>i</zone><zone>yai</zone><zone>:</zone><zone>kā</zone><zone>wä</zone><zone>lñe</zone><zone>ṣṣe</zone><zone>ka¯</zone><zone>¯ṢP</zone><zone>ñyā¯</zone><zone>¯S</zone><zone>tse</zone><zone>ṅke</zone><zone>TA¯</zone><zone>¯R</zone><zone>ā</zone><zone>ly<unclear>au</unclear></zone><zone>ce</zone><zone>70</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><gap reason="plain" quantity="4"/><zone><unclear>s</unclear>pe</zone><zone>lkke</zone><zone>sa</zone><zone>lwā</zone><zone>sa</zone><zone>wa</zone><zone>lke</zone><zone>rī</zone><zone>ta</zone><zone>nTA¯</zone><zone>¯R</zone><zone>ke</zone><zone>śc<unclear>ī</unclear></zone><zone>la</zone><zone>l<gap reason="plain" unit="part"/></zone><zone>lo¯</zone><zone>¯Ṣ</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><gap reason="plain" quantity="2"/><zone><unclear>a</unclear></zone><zone>k<unclear>ā</unclear>¯</zone><zone>¯<unclear>LK</unclear></zone><zone>cwī</zone><zone>tse</zone><zone>ṅke</zone><zone><unclear>TA</unclear>¯</zone><zone>¯<unclear>R</unclear></zone><gap reason="plain" quantity="2"/><zone>tu</zone><zone>yä</zone><zone>kne</zone><zone>s</zone><gap reason="plain" quantity="2"/><zone>ce</zone><zone>w<gap reason="plain" unit="part"/>e</zone><gap reason="lost"/></line>
+            <line n="6" xml:id="b6"><gap reason="plain" quantity="2"/><zone><unclear>p</unclear>r<gap reason="plain" unit="part"/></zone><zone>ntse</zone><zone>:</zone><zone>pa</zone><zone>lsko</zone><zone>mai</zone><zone>yā</zone><gap reason="plain" quantity="3"/><zone>lñe</zone><zone>ṣṣe</zone><zone>tse<gap reason="plain" unit="part"/></zone><zone><unclear>k</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="7" xml:id="b7"><gap reason="plain" quantity="2"/><zone>tsi¯</zone><zone>¯Ś</zone><zone>yau</zone><zone>kka</zone><zone><unclear>t</unclear><gap reason="plain" unit="part"/></zone><zone><unclear>k</unclear>e</zone><gap reason="lost"/></line>
+            <line n="8" xml:id="b8"><gap reason="plain" quantity="2"/><zone><unclear>r</unclear><gap reason="plain" unit="part"/>e</zone><zone>tsa</zone><zone>ne</zone><zone>la<unclear>ṃ</unclear></zone><zone>t<unclear>n</unclear>a</zone><zone>na</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/></p>
+            <lg type="poem" met="frg:M12">
+               <lg n="73" type="strophe">
+                  <l n="d"><gap reason="plain" quantity="2"/><w>tarya</w><w>to</w><w>rano</w><w>anta</w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="plain" quantity="1"/><w><supplied>e</supplied>p<supplied>i</supplied>ṅkte</w><w>ṅkelñe</w><w>ta<supplied>n</supplied>e</w><w>mäsk<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="plain" quantity="3"/><w>kalpānmasa</w><w>snai</w><gap reason="plain" quantity="4"/><w>rttam</w><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="plain" quantity="2"/><w>p<supplied>o</supplied></w><w>jambudvīpne</w><w>wnolmy</w><w>āly<supplied>auce</supplied></w><w>k<gap reason="plain" unit="part"/></w><gap reason="plain" quantity="4"/><w>kau<supplied>ṃ</supplied></w><w>ṣukt</w><gap reason="lost"/>
+<lb corresp="#a5"/><gap reason="plain" quantity="4"/><w>lyipentär</w><num value="73">70-3</num></l>
+               </lg>
+               <lg n="74" type="strophe">
+                  <l n="c"><w>śanmäṃ</w><w>tekiṣṣe</w><caesura ana="frg:cs-s"/><w>antrakalpo</w><w>mäkte</w><w>tne</w><caesura ana="frg:cs-s"/><gap reason="lost"/>
+<lb corresp="#a6"/><w>m<gap reason="plain" unit="part"/></w><w>ñ<gap reason="plain" unit="part"/></w><w>sruk<supplied>e</supplied>ntär</w><w>ceU</w><w>tekisa</w><w>śāmna</w><w>cai</w><pc>:</pc></l>
+               </lg>
+               <lg n="75" type="strophe">
+                  <l n="a"><w>wī</w><w>dvipanmaṣṣi</w><w>wī</w><w>tma</w><gap reason="lost"/>
+<lb corresp="#a7"/><w>kālp</w><w>kestaṣṣe</w></l>
+                  <l n="b"><w>tarya</w><w>dvipa<supplied>nma</supplied></w><caesura ana="frg:cs-s"/><w>ot</w><w>ceU</w><w>kestsa</w><w>mätstsentär</w></l>
+                  <l n="d"><w>ṣukt</w><w>kauṃ</w><gap reason="lost"/>
+<lb corresp="#a8"/><w>rya</w><w>tmane</w><w>ṣp</w><w>ly<supplied>i</supplied>pe<supplied>ntär</supplied></w><num value="75"><supplied>70-5</supplied></num></l>
+               </lg>
+               <lg n="X" type="strophe">
+                  <l n="x"><w>mäkte</w><w>śanmäṃ</w><w>ot</w><caesura ana="frg:cs-s"/><w>śas<supplied>tra</supplied>kātpa<supplied>ṣṣ</supplied>e</w><gap reason="lost"/>
+<lb corresp="#b1"/><w>yopäṃ</w><w>su</w><w>kauno</w><w>kauṣṣ<gap reason="plain" unit="part"/></w><gap reason="plain" quantity="3"/><w>lyauce</w><pc>:</pc></l>
+               </lg>
+               <lg n="76" type="strophe">
+                  <l n="d"><w>po</w><w>ceṃts</w><w>ceU</w><w>preke</w><caesura ana="frg:cs-s"/><w>māntal<gap reason="plain" unit="part"/><gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#b2"/><w>lmaṃts</w><num value="76">70-6</num></l>
+               </lg>
+               <lg n="77" type="strophe">
+                  <l n="a"><w>mäkte</w><w>lkāntär</w><w>k<supplied>a</supplied></w><caesura ana="frg:cs-s"/><w>ālyaucesa</w><w>wnolmi</w><w>cai</w><pc>:</pc></l>
+                  <l n="c"><w>empele</w><w>palsko</w><caesura ana="frg:cs-s"/><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="plain" quantity="2"/><w>l<supplied>a</supplied></w><w>riyai</w><pc>:</pc></l>
+                  <l n="d"><w>kāwälñeṣṣe</w><w>ka</w><w>ṣp</w><caesura ana="frg:cs-s"/><w>ñyās</w><w>tseṅketärālyauce</w><num value="77">70<supplied>-7</supplied></num></l>
+               </lg>
+               <lg n="78" type="strophe">
+                  <l n="d"><gap reason="lost"/>
+<lb corresp="#b4"/><gap reason="plain" quantity="4"/><w>spelkkesa</w><w>lwāsa</w><w>walke</w><w>rītantär</w><w>keścī</w><w>lal<supplied>ā</supplied>loṣ</w><gap reason="lost"/>
+<lb corresp="#b5"/><gap reason="plain" quantity="2"/><w>akālk</w><w>cwī</w><w>tseṅketär</w><num value="78"><supplied>70-8</supplied></num></l>
+               </lg>
+               <lg n="X" type="strophe">
+                  <l n="x"><w>tu</w><w>yäknes</w><gap reason="plain" quantity="2"/><caesura ana="frg:cs-s"/><w>cew</w><w><gap reason="plain" unit="part"/>e</w><gap reason="lost"/>
+<lb corresp="#b6"/><gap reason="plain" quantity="2"/><w>pr<supplied>e</supplied>ntse</w><pc>:</pc></l>
+               </lg>
+            </lg>
+            <p><w>palsko</w><w>maiyā</w><gap reason="plain" quantity="1"/><caesura ana="frg:cs-s"/><gap reason="plain" quantity="2"/><w>lñeṣṣe</w><w>tse<gap reason="plain" unit="part"/>k<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#b7"/><gap reason="plain" quantity="2"/><w>tsiś</w><w>yaukkat<supplied>e</supplied></w><w>ke</w><gap reason="lost"/>
+<lb corresp="#b8"/><gap reason="plain" quantity="2"/><w>r<gap reason="plain" unit="part"/>etsane</w><w>laṃtnana</w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a3"><seg><bibl><title corresp="ref:carling2000"/><citedRange>404</citedRange></bibl></seg></choice><choice corresp="#a4"><seg><bibl><title corresp="ref:carling2000"/><citedRange>122</citedRange></bibl></seg><seg><bibl><title corresp="ref:schmidtkt1974"/><citedRange>321f</citedRange></bibl></seg></choice><choice corresp="#a5"><seg><bibl><title corresp="ref:thomas1970"/><citedRange>261</citedRange></bibl></seg></choice><choice corresp="#a5 #a6"><seg><bibl><title corresp="ref:thomas1968"/><citedRange>224</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1979b"/><citedRange>36</citedRange></bibl></seg><seg><seg type="prim_transl">How will the antarakalpa of illness come here? … then because of that illness [the] people die.</seg><bibl><title corresp="ref:peyrot2013b"/><citedRange>668</citedRange></bibl></seg></choice><choice corresp="#a6 #a7"><seg><bibl><title corresp="ref:thomas1970"/><citedRange>262</citedRange></bibl></seg><seg><seg type="prim_transl">How will the antarakalpa of hunger come here? Then because of that hunger the three continents starve within seven days …</seg><bibl><title corresp="ref:peyrot2013b"/><citedRange>669</citedRange></bibl></seg><seg><seg type="prim_transl">"(Wie kommt dann der Antara)kalpa des Hungers?" [Antwort:] "Die drei Kontinente verhungern dann durch den Hunger (innerhalb von) sieben Tagen."</seg><seg type="sec_transl" resp="TI">"(How, then, does the Antara)kalpa of hunger (arrive)?" [Answer:] "The three continents then will starve through the hunger (within) seven days."</seg><bibl><title corresp="ref:schmidtkt1974"/><citedRange>111</citedRange></bibl></seg></choice><choice corresp="#a8 #b1"><seg><seg type="prim_transl">How will the … of the śastrakalpa come, then? … it will enter … day …</seg><bibl><title corresp="ref:peyrot2013b"/><citedRange>669</citedRange></bibl></seg></choice><choice corresp="#b2"><seg><bibl><title corresp="ref:schmidtkt1974"/><citedRange>255f</citedRange></bibl></seg><seg><seg type="prim_transl">How will these beings be seen by each other? Terrible mind …</seg><bibl><title corresp="ref:peyrot2013b"/><citedRange>669</citedRange></bibl></seg><seg><seg type="prim_transl">Wie werden die Wesen voneinander(?) gesehen? oder: Wie zeigen sich [d.h. verhalten sich(?)] die Wesen zueinander(?) ?</seg><seg type="sec_transl" resp="TI">How are the beings seen by each other(?) ? OR: How do the beings show themselves [i.e. behave(?)] towards each other(?) ?</seg><bibl><title corresp="ref:schmidtkt1974"/><citedRange>255-6</citedRange></bibl></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl">Es entsteht [wtl. erhebt sich] das Verlangen sich gegenseitig zu töten.</seg><seg type="sec_transl" resp="TI">The desire to kill each other arises.</seg><bibl><title corresp="ref:schmidtkt1974"/><citedRange>283</citedRange></bibl></seg></choice><choice corresp="#b7"><seg><seg type="prim_transl">... zum (Töt)en gebrauchte er [sein] (Schwert) ...</seg><seg type="sec_transl" resp="TI">... for (kill)ing he used [his] (sword) ...</seg><bibl><title corresp="ref:schmidtkt1974"/><citedRange>407</citedRange></bibl></seg></choice></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 590" type="external">THT 590</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/05/0590.htm" type="external">THT 590</ref></bibl>. </p>
+            <p><label>Edition</label><bibl><title corresp="ref:siegandsiegling1953"/><citedRange>374-375</citedRange></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="page_name_old">THT 590</item>
+               <item n="version_old">6</item>
+               <item n="file_created_old">1332006620</item>
+               <item n="file_modified_old">1584798199</item>
+               <item n="m_size_h_old">12,7</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 590" target="idp"&gt;THT 590&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/05/0590.htm" target="titus"&gt;THT 590&lt;/a&gt;.&lt;br&gt;
+Edition: [[TochSprR(B) II]]: 374-375.&lt;br&gt;
+Translation:
+&lt;b&gt;a3&lt;/b&gt; [[Carling 2000]]: 404;
+&lt;b&gt;a4&lt;/b&gt; [[Carling 2000]]: 122, [[Schmidt KT 1974]]: 321f;
+&lt;b&gt;a5&lt;/b&gt; [[Thomas 1970]]: 261;
+&lt;b&gt;a5-6&lt;/b&gt; [[Thomas 1968]]: 224, [[Thomas 1979b]]: 36; [[Peyrot, ToSu]]: 668;
+&lt;b&gt;a6-7&lt;/b&gt; [[Schmidt KT 1974]]: 111, [[Thomas 1970]]: 262; [[Peyrot, ToSu]]: 669;
+&lt;b&gt;a8-b1&lt;/b&gt; [[Peyrot, ToSu]]: 669;
+&lt;b&gt;b2&lt;/b&gt; [[Schmidt KT 1974]]: 255f; [[Peyrot, ToSu]]: 669;
+&lt;b&gt;b3&lt;/b&gt; [[Schmidt KT 1974]]: 283;
+&lt;b&gt;b7&lt;/b&gt; [[Schmidt KT 1974]]: 407.</item>
+               <item n="file_size_old">6 KB</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_transliteration_old">a1 – – tarya t[o] rano anta ///
+a2 – (e)p(i)ṅkte ṅkelñe ta(n)e _m_ask· ///
+a3 – – – k[a]lpānmasa snai – – – – rtta_m\ ///
+a4 – – p(o) jambudvīpne wnolmy [ā]ly(auce) k· – – – – [k]au(ṃ) ṣu_k_t\ ///
+a5 – – – – [ly]ipen_t_a_r\ 70-3 śan_m_aṃ t[e]kiṣṣe antrakalp[o] _m_akte tne ///
+a6 m· ñ· sruk(e)n_t_a_r\ ce_u tekisa śāmna [c]ai : wī dvipanmaṣṣi wī tma ///
+a7 kā_l_p\ kesta[ṣṣ]e tarya [dv]ipa(nma) [o]_t\ ce_u kestsa _m_atstsen_t_a_r\ [ṣ]u_k[_t]\ [k]auṃ ///
+a8 rya tmane _ṣ[_p]\ ly(i)pe(n_t_a_r\ 70-5) _m_akte śan_m_aṃ o_t\ śas(tra)kātpa(ṣṣ)e ///
+b1 yo_p_aṃ su kauno kau[ṣ]ṣ· – – – lyauce : po ceṃt_s\ ce_u preke māntal·· ///
+b2 lmaṃt[_s]\ 70-6 [_m_a]k[t]e lkān_t_a[r] k(a) [ā]lyaucesa wnolmi cai : empele palsk[o] ///
+b3 – – [l](a) [r]iyai : kāwälñeṣṣe ka _ṣ_p\ ñyā_s\ tseṅke_t_a_r\āly[au]ce 70-(7) ///
+b4 – – – – [s]pelkkesa lwāsa walke rītan_t_a_r\ keśc[ī] lal(ā)lo_ṣ\ ///
+b5 – – [a]k[ā_l_k]\ cwī tseṅke[_t_a_r]\ (70-8) tu yäknes – – cew ·e ///
+b6 – – [p]r(e)ntse : palsko maiyā – – – lñeṣṣe tse[·k·] ///
+b7 – – tsi_ś\ yaukka[t](e) [k]e ///
+b8 – – [r·]etsane la[ṃ]t[n]ana ///</item>
+               <item n="m_image_old">http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328281;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328281;rotate=0;imageType=_M||THT 590 recto
+http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328295;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328295;rotate=0;imageType=_M||THT 590 verso</item>
+               <item n="created_date_old">2012-03-17, 18:50:20 (CET)</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_old">Qizil Miŋ-Öy</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_lines_old">8</item>
+               <item n="access_old">public</item>
+               <item n="file_location_old">pages/manuscript/THT_0001_0633/tht590.txt</item>
+               <item n="m_metric_form_old">Verse</item>
+               <item n="file_savedate_old">2018-12-21, 03:05:01 (CET)</item>
+               <item n="m_subgenre_old">Doctrine</item>
+               <item n="file_name_old">pages/manuscript/THT_0001_0633/tht590.txt</item>
+               <item n="category_old">manuscript</item>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old">bernhard</item>
+               <item n="group_old">Public</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_title_old">Treatise on the Antarakalpas in dialogue form</item>
+               <item n="m_transcription_old">a1 #M12# – – tarya to rano anta ///
+a2 – (e)p(i)ṅkte ṅkelñe ta(n)e mäsk· ///
+a3 – – – kalpānmasa snai – – – – rttam ///
+a4 – – p(o) jambudvīpne wnolmy āly(auce) k· – – – – kau(ṃ) ṣukt ///
+a5 – – – – lyipentär 73 #73d śanmäṃ tekiṣṣe ; antrakalpo mäkte tne ; ///
+a6 m· ñ· sruk(e)ntär cau|ce_u tekisa śāmna cai : #74c wi|wī dvipanmaṣṣi wi|wī tma ///
+a7 kālp kestaṣṣe #75a tarya dvipa(nma) ; ot cau|ce_u kestsa mätstsentär #75b ṣukt kauṃ ///
+a8 rya tmāne|tmane ṣp ly(i)pe(ntär 75) #75d mäkte śanmäṃ ot ; śas(tra)kātpa(ṣṣ)e ///
+b1 yopäṃ su kauṃ|kauno kauṣṣ· – – – lyauce : #Xx po ceṃts cau|ce_u preke ; māntal·· ///
+b2 lmaṃts 76 #76d mäkte lkāntär k(a) ; ālyaucesa onolmi|wnolmi cai : #77a empele palsko ; ///
+b3 – – l(a) riyai : #77c kāwälñeṣṣe ka ṣp ; ñyās tseṅketärālyauce 70(-7) #77d ///
+b4 – – – – spelkkesa lwāsa walke rītantär keścī lal(ā)loṣ ///
+b5 – – akālk cwi|cwī tseṅketär (78) #78d tu yäknes – – ; cew ·e ///
+b6 – – pr(e)ntse : #Xx palsko maiyā – ; – – lñeṣṣe tse·k· ///
+b7 – – tsiś yaukkat(e) ke ///
+b8 – – r·etsane laṃtnana ///</item>
+               <item n="editgroup_old">Editor</item>
+               <item n="m_script_old">Classical</item>
+               <item n="project_comment_old">&lt;p&gt;Alternative classifications:
+&lt;table class="table_lines"&gt;
+  &lt;tr&gt;&lt;td title="MP"&gt;Peyrot&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="MM"&gt;Malzahn&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TT"&gt;Tamai&lt;/td&gt;&lt;td title="C1"&gt;II-1 (600-700)&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TTC14"&gt;Tamai-C14&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+&lt;p&gt;Translations from [[Peyrot, ToSu]]
+&lt;table class="table_lines"&gt;
+&lt;th&gt;Lines&lt;/th&gt;
+&lt;th&gt;Translation&lt;/th&gt;
+&lt;th&gt;Pages&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt;a5-6&lt;/td&gt;
+&lt;td&gt;How will the &lt;i&gt;antarakalpa &lt;/i&gt;of illness come here? … then because of that illness [the] people die.&lt;/td&gt;
+&lt;td&gt;668&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;a6-7&lt;/td&gt;
+&lt;td&gt;How will the &lt;i&gt;antarakalpa &lt;/i&gt;of hunger come here? Then because of that hunger the three continents starve within seven days …&lt;/td&gt;
+&lt;td&gt;669&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;a8-b1&lt;/td&gt;
+&lt;td&gt;How will the … of the &lt;i&gt;śastrakalpa &lt;/i&gt;come, then? … it will enter … day …&lt;/td&gt;
+&lt;td&gt;669&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;b2&lt;/td&gt;
+&lt;td&gt;How will these beings be seen by each other? Terrible mind …&lt;/td&gt;
+&lt;td&gt;669&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+&lt;p&gt;Translations from [[Schmidt KT 1974]]
+&lt;table class="table_lines"&gt;
+&lt;th&gt;Lines&lt;/th&gt;
+&lt;th&gt;Translation&lt;/th&gt;
+&lt;th&gt;Pages&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt;a6-7&lt;/td&gt;
+&lt;td&gt;&lt;span title=""(How, then, does the Antara)kalpa of hunger (arrive)?" [Answer:] "The three continents then will starve through the hunger (within) seven days.""&gt;"(Wie kommt dann der Antara)kalpa des Hungers?" [Antwort:] "Die drei Kontinente verhungern dann durch den Hunger (innerhalb von) sieben Tagen."&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;111&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;b2&lt;/td&gt;
+&lt;td&gt;&lt;span title="How are the beings seen by each other(?) ? OR: How do the beings show themselves [i.e. behave(?)] towards each other(?) ?"&gt;Wie werden die Wesen voneinander(?) gesehen? oder: Wie zeigen sich [d.h. verhalten sich(?)] die Wesen zueinander(?) ?&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;255-6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;b3&lt;/td&gt;
+&lt;td&gt;&lt;span title="The desire to kill each other arises."&gt;Es entsteht [wtl. erhebt sich] das Verlangen sich gegenseitig zu töten.&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;283&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;b7&lt;/td&gt;
+&lt;td&gt;&lt;span title="... for (kill)ing he used [his] (sword) ..."&gt;... zum (Töt)en gebrauchte er [sein] (Schwert) ...&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;407&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;</item>
+               <item n="ms_old">THT 590</item>
+               <item n="edited_date_old">2018-08-07, 14:35:09 (CEST)</item>
+               <item n="m_size_w_old">24</item>
+               <item n="m_expedition_old">T III MQ 17.13</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_other_sigla_old">B 590, Bleistiftnummer 2564</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;Alternative classifications:
+
+&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

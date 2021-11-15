@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht3597">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 3597</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 3597</idno>
+                  <altIdentifier>
+                     <idno>Mainz 655,1 [Schmidt]</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Mainz 655 [current]</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Qizil Miŋ-Öy</region>during <rs type="expedition_code">T III MQR</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-archaic frg:ls-cetom-aberrant-late frg:ls-peyrot-A1 frg:ls-C14"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Buddhastotra</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=334043;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=334043;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone>sā</zone><zone>:</zone><zone>mā</zone><zone>ñä</zone><zone>śtsā</zone><zone>ṅkau</zone><zone>e</zone><zone>ṅKA</zone><zone>lpa</zone><zone>tte</zone><zone>pū</zone><zone>dñä</zone><zone>KTA</zone><zone>ññe</zone><zone>nu</zone><zone>wa</zone><zone>lñe</zone><zone>TA</zone><zone>ñpra</zone><zone>kreṃ</zone><zone>mā</zone><zone>ka</zone><zone>wi</zone><zone><unclear>n</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone><gap reason="plain" unit="part"/><unclear>t</unclear><gap reason="plain" unit="part"/></zone><zone>TA</zone><zone>ñña</zone><zone>na</zone><zone>la</zone><zone>kṣā</zone><zone>nta</zone><zone>sā</zone><zone>:</zone><zone>ce</zone><zone>yā</zone><zone>mo</zone><zone>rsa</zone><zone>KA</zone><zone>lo</zone><zone>ymñä</zone><zone>śtoṃ</zone><zone>la</zone><zone>kṣa</zone><zone>nta</zone><zone>po</zone><zone>tā</zone><zone>ko¯</zone><zone>¯ī</zone><zone>mṢA</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>kau</zone><zone>na</zone><zone>pe</zone><zone>ñyai</zone><zone>kauṃ</zone><zone>cme</zone><zone>lṣu</zone><zone>po</zone><zone>kau</zone><zone>ñä</zone><zone>kteṃ</zone><zone>ṣe</zone><zone>ṣṣi</zone><zone>rku</zone><zone>LA</zone><zone>kutso</zone><zone>wñai</zone><zone>sa</zone><zone>:</zone><zone>mai</zone><zone>yyā</zone><zone>pre</zone><zone>ñcai</zone><zone>vi</zone><zone>kṣnu</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><zone>lmaṃ</zone><zone>tsyä</zone><zone>mai</zone><zone>sa</zone><zone>we</zone><zone>śe</zone><zone>ññai</zone><zone>sa</zone><zone>TA</zone><zone>rKA</zone><zone><add>rwa</add></zone><zone>po</zone><zone>ṣā</zone><zone>rka</zone><zone>tai</zone><zone>:</zone><zone>po</zone><zone>yśi</zone><zone>ññe</zone><zone>ṣṣe</zone><zone>su</zone><zone>me</zone><zone>rci</zone><zone>TA</zone><zone>rne</zone><zone>sa</zone><zone>ñä</zone><zone>św<gap reason="plain" unit="part"/></zone><gap reason="par" quantity="1"/><gap reason="plain" quantity="1"/></line>
+            <line n="5" xml:id="a5"><gap reason="lost"/><zone>mñe</zone><zone>tai</zone><zone>wā</zone><zone>ṣmo</zone><zone>ne</zone><zone>e</zone><zone>ṅsā</zone><zone><gap reason="plain" unit="part"/><unclear>ai</unclear></zone><gap reason="par" quantity="1"/><zone><gap reason="plain" unit="part"/><unclear>e</unclear></zone><zone>ścme</zone><zone>la</zone><zone>:</zone><zone>pra</zone><zone>kkreṃ</zone><zone>ṢA</zone><zone>ñā¯</zone><zone>¯ñM</zone><zone>klyau</zone><zone>tka</zone><zone>tai</zone><zone>saṃ</zone><zone>sā</zone><zone><unclear>r</unclear><gap reason="plain" unit="part"/><gap reason="plain" unit="part"/></zone><gap reason="par" quantity="2"/><zone>kle</zone><zone>nta</zone><zone>KA</zone></line>
+            <line n="6" xml:id="a6"><gap reason="lost"/><zone>ltsa</zone><zone>MA</zone><zone>stā</zone><zone>rwā</zone><zone>re</zone><zone>:</zone><zone>TA</zone><zone>ṅwä</zone><gap reason="plain" quantity="1"/><gap reason="par" quantity="3"/><zone><unclear>ta</unclear>¯</zone><zone>¯rñ</zone><zone>ra¯</zone><zone>¯mT</zone><zone>TA¯</zone><zone>¯ṅw</zone><zone>SAsu</zone><zone>wa</zone><zone>ne</zone><zone>ṣā</zone><zone>rka</zone><zone>te</zone><zone>cka</zone><gap reason="par" quantity="1"/><gap reason="plain" quantity="1"/><zone>rtstse</zone><zone>:</zone><zone>2</zone><zone>e</zone><zone>mpe</zone></line>
+            <line n="7" xml:id="a7"><gap reason="lost"/><zone><unclear>TA</unclear>¯</zone><zone>¯ṅw</zone><zone>MA</zone><zone>rsā</zone><zone>re</zone><zone>SAsu</zone><zone>we</zone><zone>rṣe</zone><gap reason="par" quantity="5"/><zone>ṣṣā</zone><zone>nte</zone><zone>la</zone><zone>reṃ</zone><zone>ṢA</zone><zone>ñśau¯</zone><zone>¯L</zone><zone>:</zone><zone>o</zone><zone>ṅko</zone><zone>l<gap reason="plain" unit="part"/>a</zone><gap reason="par" quantity="3"/><zone>śne</zone><zone>ṣle</zone><zone>meṃ</zone><zone>ṢA</zone></line>
+            <line n="8" xml:id="a8"><gap reason="lost"/><zone>TA¯</zone><zone>¯ñ</zone><zone>yu</zone><zone>ka</zone><zone>mā</zone><gap reason="par" quantity="7"/><zone>w<unclear>a</unclear></zone><zone>ne</zone><zone>:</zone><zone>3</zone><zone>saṃ</zone><zone>sā</zone><zone>ra</zone><zone>ntse</zone><gap reason="par" quantity="7"/><zone>po</zone><zone>śā</zone><zone>rsa</zone><zone>ly<unclear>K</unclear>A</zone></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=334540;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=334540;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>rta</zone><zone>te¯</zone><zone>¯cä</zone><zone>tn<unclear>e</unclear></zone><zone><unclear>k</unclear>s<unclear>ā</unclear></zone><gap reason="plain" quantity="1"/><gap reason="par" quantity="6"/><zone>lñe</zone><zone>ṣṣe</zone><zone>we</zone><zone>SA¯</zone><zone>¯ñ</zone><gap reason="par" quantity="1"/><zone><gap reason="plain" unit="part"/>ts<gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="1"/><gap reason="par" quantity="2"/><gap reason="plain" quantity="1"/><zone>LA</zone><zone>stā</zone><zone>:</zone><zone>o</zone></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone>p<gap reason="plain" unit="part"/></zone><zone>lsko</zone><zone>sa</zone><zone>:</zone><zone>4</zone><zone>ñä</zone><zone>kcya</zone><gap reason="plain" quantity="1"/><gap reason="par" quantity="4"/><zone><unclear>n</unclear><gap reason="plain" unit="part"/></zone><zone>skwa</zone><zone>ntsi</zone><zone>nta</zone><zone>kca</zone><zone>ca</zone><zone>rkā</zone><zone>cmā</zone><zone>ka</zone><zone>ruṃ</zone><zone>pa</zone><zone><unclear>l</unclear><gap reason="plain" unit="part"/><gap reason="plain" unit="part"/></zone><gap reason="par" quantity="2"/><zone>ṣa</zone><zone>na</zone><zone>we</zone><zone>śe</zone></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><zone>kṣ<gap reason="plain" unit="part"/><gap reason="plain" unit="part"/></zone><zone>śai</zone><zone>ṣṣe</zone><zone>se</zone><zone>ñi</zone><zone>wa</zone><zone>se</zone><zone>ni¯</zone><zone>¯K</zone><gap reason="par" quantity="3"/><zone>ñi¯</zone><zone>¯ś</zone><zone>wa</zone><zone>ste</zone><zone>ṅku</zone><zone>:</zone><zone>rī</zone><zone>nä</zone><zone>ṣṣi</zone><zone>tRA</zone><zone>SA¯</zone><zone>¯kw</zone><zone>ña</zone><gap reason="plain" quantity="1"/><gap reason="par" quantity="1"/><gap reason="plain" quantity="1"/><zone>lwā</zone><zone>ñai</zone><zone>śco</zone><zone>nai</zone></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><zone>ṣe</zone><zone>yyi</zone><zone>śka</zone><zone>ne</zone><zone>mo</zone><zone>kau</zone><zone>śka</zone><zone>se</zone><gap reason="par" quantity="2"/><zone><gap reason="plain" unit="part"/><unclear>l</unclear>y<gap reason="plain" unit="part"/></zone><zone><unclear>y</unclear><gap reason="plain" unit="part"/>¯</zone><zone>¯c</zone><zone>:</zone><zone>sa</zone><zone>yu</zone><zone>sā</zone><zone>ceṃ</zone><zone>cā</zone><zone>la</zone><zone>te</zone><zone>tu</zone><zone>lya</zone><zone>kā</zone><zone>sta</zone><zone>ka</zone><zone><gap reason="plain" unit="part"/>u<gap reason="plain" unit="part"/></zone><zone>ts<gap reason="plain" unit="part"/></zone><zone>nai</zone><zone>tta</zone><zone>cPA</zone><zone>ls<gap reason="plain" unit="part"/>o</zone><zone>:</zone></line>
+            <line n="5" xml:id="b5"><gap reason="lost"/><zone>yne</zone><zone>si¯</zone><zone>¯ñä</zone><zone>mā¯</zone><zone>¯ṢP</zone><zone>mau</zone><zone>kā</zone><zone>sta</zone><zone>:</zone><zone>ka</zone><zone>ruṃ</zone><zone>pa</zone><zone>lsko</zone><zone>te</zone><zone>ykne</zone><zone>sā</zone><zone>lwā</zone><zone>ññe</zone><zone>ru</zone><zone>pne</zone><zone>tu</zone><zone>kau</zone><zone>ṣai¯</zone><zone>¯c</zone><zone>to¯</zone><zone>¯T</zone><zone>la</zone><zone>l<unclear>a</unclear>ṃ</zone><gap reason="lost"/></line>
+            <line n="6" xml:id="b6"><gap reason="lost"/><zone><unclear>ke</unclear></zone><zone>ktse</zone><zone>ñwsā</zone><zone>stā</zone><zone>:</zone><zone>pa</zone><zone>pā</zone><zone>sau</zone><zone>sai</zone><zone>ke</zone><zone>ktse</zone><zone>ntsa</zone><zone>śe</zone><zone>tka</zone><zone>sta</zone><zone>ceṃ</zone><zone>cä</zone><zone>kau</zone><zone>rce</zone><zone>śā</zone><zone>rmai</zone><zone>yta</zone><zone>rtsa</zone><zone>:</zone><zone>ke</zone><zone>ś<unclear>c</unclear>yeṃ</zone><zone><unclear>l</unclear><gap reason="plain" unit="part"/><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="7" xml:id="b7"><gap reason="lost"/><zone>la</zone><zone>tkā</zone><zone>nte¯</zone><zone>¯c</zone><zone>ā</zone><zone>ñmā</zone><zone>la</zone><zone>ṣka</zone><zone>sai¯</zone><zone>¯M</zone><zone>wa</zone><zone>sta</zone><zone>po</zone><zone>ke</zone><zone>la</zone><zone>sta</zone><zone>:</zone><zone>7</zone><zone>ke¯</zone><zone>¯sT</zone><zone>te</zone><zone>ki</zone><zone>sa</zone><zone>LA</zone><zone>kle</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="8" xml:id="b8"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>wsā</zone><zone>sta</zone><zone>mī</zone><zone>sa</zone><zone>la</zone><zone>tka</zone><zone>tsi</zone><zone>snai</zone><zone>ke</zone><zone>ścme</zone><zone>la</zone><zone>:</zone><zone>sti</zone><zone>yai</zone><zone>so</zone><zone>ktne</zone><zone>ka</zone><zone>ru</zone><zone>ntsa</zone><zone>MA</zone><zone>kte</zone><zone>MA</zone><zone>stā</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+               <lb corresp="#a1"/><gap reason="lost"/><w>sā</w><pc>:</pc>
+               <w>mā</w><w>ñäś</w><w>tsāṅkau</w><w>eṅkälpatte</w><w>pūdñäktäññe</w><w>nuwalñe</w><w>täñ</w><w>prakreṃ</w><w>māka</w><w>win<supplied>āskau</supplied></w><gap reason="lost"/>
+                     <lb corresp="#a2"/><gap reason="lost"/>
+                     <w><gap reason="plain" unit="part"/>t<gap reason="plain" unit="part"/></w>
+                     <w>täññana</w>
+                     <w>lakṣāntasā</w><pc>:</pc>
+                     <w>ce</w><w>yāmorsa</w>
+                     <w>käloym</w><w>ñäś</w>
+                     <w>toṃ</w><w>lakṣanta</w>
+                     <w>po</w><w>tākoĪm</w>
+                     <w>ṣä</w><gap reason="lost"/>
+               <lb corresp="#a3"/><gap reason="lost"/><gap reason="plain" quantity="1"/>
+            </p>
+<!--            CONTINUE HERE-->
+            <lg met="frg:M18">
+               <lg type="strophe" n="1">
+                  <l n="a">
+                     <w>kauna-peñyai</w>
+                     <caesura ana="frg:cs-w"/>
+                     <w>kauṃ</w><w>cmelṣu</w>
+                     <caesura ana="frg:cs-s"/>
+                     <w>po</w><w>kauñäkteṃ</w>
+                     <caesura ana="frg:cs-w"/>
+                     <w>ṣeṣṣirku</w>
+                     <caesura ana="frg:cs-s"/>
+                     <w>läkUtsowñaisa</w><pc>:</pc>
+                  </l>
+                  <l n="b">
+                     <w>maiyyā</w><w>preñcai</w>
+                     <caesura ana="frg:cs-w"/>
+                     <w>vikṣnu</w><gap reason="lost"/>
+                     <supplied quantity="12" unit="syllable"/>
+                  </l>
+                  <l n="c">
+                     <lb corresp="#a4"/><gap reason="lost"/>
+                     <supplied unit="syllable" quantity="1"/>
+                     <w><supplied>oṅko</supplied>lmaṃts</w>
+                     <caesura ana="frg:cs-w"/>
+                     <w>yämaisa</w>
+                     <caesura ana="frg:cs-s"/>
+                     <w>weśeññaisa</w>
+                     <caesura ana="frg:cs-w"/>
+                     <w>tärkärwa</w>
+                     <caesura ana="frg:cs-s"/>
+                     <w>po</w><w>ṣārkatai</w><pc>:</pc>
+                  </l>
+                  <l n="d">
+                     <w>poyśiññeṣṣe</w>
+                     <caesura ana="frg:cs-w"/>
+                     <w>sumer</w><w>ci</w>
+                     <caesura ana="frg:cs-s"/>
+                     <w>tärnesa</w><w>ñäś</w>
+                     <caesura ana="frg:cs-w"/>
+                     <w>w<supplied>ināskau</supplied></w>
+                     <caesura ana="frg:cs-w"/>
+                     <lb corresp="#a5"/>
+                     <supplied unit="syllable" quantity="4"/>
+                     <gap reason="lost"/>
+                  </l>
+               </lg>
+               <lg n="2">
+                  <l n="a">
+                     <supplied unit="syllable" quantity="6"></supplied>
+                     <w>mñe</w>
+                     <caesura ana="frg:cs-s"/>
+                     <w>tai</w><w>wāṣmone</w>
+                     <caesura ana="frg:cs-w"/>
+                     <w>eṅsā<supplied>t</supplied>ai</w>
+                     <caesura ana="frg:cs-s"/>
+                     <w><supplied>snai</supplied></w><w><supplied>k</supplied>eś</w><w>cmela</w><pc>:</pc>
+                  </l>
+                  <l n="b">
+                     <w>prakkreṃ</w><w>ṣäñ-āñm</w>
+                     <caesura ana="frg:cs-w"/>
+                     <w>klyautkatai</w>
+                     <caesura ana="frg:cs-s"/>
+                     <w>saṃsār<supplied>ṣṣana</supplied></w>
+                     <caesura ana="frg:cs-w"/>
+                     <w><supplied>lä</supplied>klenta</w>
+                     <caesura ana="frg:cs-s"/>
+                     <w>kä<lb corresp="#a6"/><supplied>ltsi</supplied></w>
+                     <supplied unit="syllable" quantity="2"/>
+                     <gap reason="lost"/>
+                  </l>
+                  <l n="c">
+                     <supplied unit="syllable" quantity="11"/>
+                     <caesura ana="frg:cs-w"/>
+                     <w><supplied>warkṣä</supplied>ltsa</w>
+                     <caesura ana="frg:cs-s"/>
+                     <w>mäst=</w><w>ārwāre</w><pc>:</pc>
+                  </l>
+                  <l n="d">
+                     <w>täṅwä<supplied>ssonta</supplied></w>
+                     <caesura ana="frg:cs-w"/>
+                     <w><supplied>mā</supplied>tarñ</w><w>ramt</w>
+                     <caesura ana="frg:cs-s"/>
+                     <w>täṅw</w><w>sÄsuwane</w>
+                     <caesura ana="frg:cs-w"/>
+                     <w>ṣārkate-c</w>
+                     <caesura ana="frg:cs-s"/>
+                     <w>ka<supplied>ruṃ</supplied></w><w><supplied>au</supplied>rtstse</w><pc>:</pc>
+                     <num value="2">2</num>
+                  </l>
+               </lg>
+               <lg n="3">
+                  <l n="a">
+                     <w>empe<lb corresp="#a7"/><supplied>le</supplied></w><supplied unit="syllable" quantity="15"></supplied><gap reason="lost"/>
+                  </l>
+                  <l n="b">
+                     <w>täṅw</w><w>märsāre</w>
+                     <caesura ana="frg:cs-w"/>
+                     <w>sÄsuwerṣe</w>
+                     <caesura ana="frg:cs-s"/>
+                     <gap reason="plain" quantity="4"/>
+                     <caesura ana="frg:cs-w"/>
+                     <w><supplied>pa</supplied>ṣṣānte</w>
+                     <caesura ana="frg:cs-s"/>
+                     <w>lareṃ</w><w>ṣäñ</w><w>śaul</w><pc>:</pc>
+                  </l>
+                  <l n="c">
+                     <w>oṅkol<supplied>m</supplied>a<supplied>ññai</supplied></w>
+                     <caesura ana="frg:cs-w"/>
+                     <w><supplied>särwe</supplied>śne</w>
+                     <caesura ana="frg:cs-s"/>
+                     <w>ṣlemeṃ</w><w>ṣä<lb corresp="#a8"/><supplied>ñ-āñm</supplied></w>
+                     <caesura ana="frg:cs-w"/>
+                     <supplied unit="syllable" quantity="7"/>
+                  </l>
+                  <l n="d">
+                     <gap reason="lost"/><w>täñ</w>
+                     <caesura ana="frg:cs-s"/>
+                     <w>yukamā<supplied>ne</supplied></w>
+                     <caesura ana="frg:cs-w"/>
+                     <supplied unit="syllable" quantity="3"></supplied>
+                     <gap reason="plain" quantity="6"/>
+                     <caesura ana="frg:cs-s"/>
+                     <supplied unit="supplied" quantity="2"></supplied><w>wane</w><pc>:</pc><num value="3">3</num>
+                  </l>
+               </lg>
+               <lg n="4">
+                  <l n="a">
+                     <w>saṃsārantse</w>
+                     <caesura ana="frg:cs-w"/>
+                     <gap reason="plain" quantity="3"/>
+                     <caesura ana="frg:cs-s"/>
+                     <w><supplied>aiśämñe</supplied></w><w><supplied>ci</supplied></w>
+                     <caesura ana="frg:cs-w"/>
+                     <w>po</w><w>śārsa</w>
+                     <caesura ana="frg:cs-s"/>
+                     <w>lykä<supplied>śke</supplied></w>
+                     <w><supplied>trekte</supplied></w>
+                  </l>
+                  <l n="b">
+                     <lb corresp="#b1"/><gap reason="lost"/>
+                     <w><supplied>ṣā</supplied>rtate-c</w>
+                     <caesura ana="frg:cs-s"/>
+                     <w>tnek</w><w>sā</w>
+                     <supplied unit="syllable" quantity="2"></supplied>
+                  </l>
+                  <l n="c">
+                     <gap reason="plain" quantity="7"/>
+                     <supplied unit="syllable" quantity="5"/>
+                     <w>lñeṣṣe</w>
+                     <caesura ana="frg:cs-s"/>
+                     <w>wesäñ</w><w><supplied>ṣärm</supplied>ts<supplied>a</supplied></w>
+                     <caesura ana="frg:cs-w"/>
+                     <w><supplied>rintsatai</supplied></w>
+                     <caesura ana="frg:cs-s"/>
+                     <w><supplied>tnek</supplied></w><w><supplied>ke</supplied>lästā</w><pc>:</pc>
+                  </l>
+                  <l n="d">
+                     <w>o</w>
+                     <lb corresp="#b2"/><gap reason="lost"/>
+                     <w>p<supplied>a</supplied>lskosa</w><pc>:</pc><num value="4">4</num>
+                  </l>
+               </lg>
+               <lg n="5">
+                  <l n="a">
+                     <w>ñäkcya<supplied>na</supplied></w><w><supplied>ramt</supplied></w>
+                     <caesura ana="frg:cs-w"/>
+                     <w><supplied>skwänma</supplied>n<supplied>e</supplied></w>
+                     <caesura ana="frg:cs-s"/>
+                     <w>skwantsi</w><w>nta</w><w>kca</w>
+                     <caesura ana="frg:cs-w"/>
+                     <w>carkā-c</w><w>mā</w>
+                     <caesura ana="frg:cs-s"/>
+                     <w>karuṃ</w><w>pal<supplied>sko</supplied></w>
+                  </l>
+                  <l n="b">
+                     <gap reason="plain" quantity="2"/>
+                     <supplied unit="syllable" quantity="2"></supplied>
+                     <w>ṣana</w>
+                     <caesura ana="frg:cs-w"/>
+                     <w>weśe<lb corresp="#b3"/><supplied>ññaiṃ</supplied></w>
+                     <caesura ana="frg:cs-s"/>
+                  </l>
+                  <l n="c">
+                     <gap reason="lost"/>
+                     <supplied unit="syllable" quantity="3"/>
+                     <w>kṣ<gap reason="plain" unit="part"/><gap reason="plain" unit="part"/></w>
+                     <supplied unit="syllable" quantity="1"/>
+                     <caesura ana="frg:cs-w"/>
+                     <w>śaiṣṣe</w><w>se</w>
+                     <caesura ana="frg:cs-s"/>
+                     <w>ñi</w><w>wa</w><w>senik</w>
+                     <caesura ana="frg:cs-w"/>
+                     <w><supplied>wärpau</supplied></w>
+                     <w><supplied>ste</supplied></w>
+                     <caesura ana="frg:cs-s"/>
+                     <w>ñiś</w><w>wast=</w><w>eṅku</w><pc>:</pc>
+                  </l>
+                  <l n="d">
+                     <w>rīnäṣṣiträ</w><w>säkw</w><w>ña<supplied>kcye</supplied></w><gap reason="plain" quantity="2"/>
+                     <w>lwāñai</w><w>śconai</w>
+                     <lb corresp="#b4"/><gap reason="lost"/>
+                  </l>
+               </lg>
+               <lg n="6">
+                  <l n="a">
+                     <supplied unit="syllable" quantity="7"/>
+                     <caesura ana="frg:cs-s"/>
+                     <w>ṣeyyiśkane</w>
+                     <caesura ana="frg:cs-w"/>
+                     <w>mokauśka</w>
+                     <caesura ana="frg:cs-s"/>
+                     <w>se<supplied>nik</supplied></w>
+                     <gap reason="plain" quantity="1"/>
+                     <w><gap reason="plain" unit="part"/>ly<gap reason="plain" unit="part"/>y<gap reason="plain" unit="part"/>-c</w><pc>:</pc>
+                  </l>
+                  <l n="b">
+                     <w>sayusā</w><w>ceṃ</w><w>cālate</w>
+                     <w>tu</w><w>lyakāsta</w><w>ka<supplied>r</supplied>u<supplied>ṃ</supplied>ts<supplied>a</supplied></w>
+                     <w>naitta-c</w><w>päls<supplied>k</supplied>o</w><pc>:</pc>
+                  </l>
+                  <l n="c">
+                     <lb corresp="#b5"/><gap reason="lost"/><w><supplied>tai</supplied>ynesiñ</w>
+                     <w>mā</w><w>ṣp</w><w>maukāsta</w><pc>:</pc>
+                  </l>
+                  <l n="d">
+                     <w>karuṃ</w><w>palsko</w><w>te-yknesā</w><w>lwāññe</w><w>rupne</w><w>tukau</w><w>ṣai-c</w><w>tot</w><w>lalaṃ<supplied>ṣka</supplied></w>
+                  </l>
+               </lg>
+               <lg n="7">
+                  <l n="b">
+                     <gap reason="lost"/>
+                     <lb corresp="#b6"/><gap reason="lost"/><w>kektseñ</w><w>wsāstā</w><pc>:</pc>
+                     <w>papāsausai</w><w>kektsentsa</w>
+                     <w>śetkasta</w><w>ceṃ</w>
+                     <w>cäk=</w><w>aurce</w><w>śār</w>
+                     <w>maiytartsa</w><pc>:</pc>
+                  </l>
+                  <l n="c">
+                     <w>keścyeṃ</w><w>l<supplied>wāsa</supplied></w>
+                     <caesura ana="frg:cs-w"/>
+                     <supplied quantity="14" unit="syllable"/>
+                  </l>
+                  <l n="d">
+                     <gap reason="lost"/>
+                     <lb corresp="#b7"/><gap reason="lost"/>
+                     <supplied quantity="4" unit="syllable"/>
+                     <caesura ana="frg:cs-w"/>
+                     <w>latkānte-c</w>
+                     <caesura ana="frg:cs-s"/>
+                     <w>āñmālaṣka</w>
+                     <caesura ana="frg:cs-w"/>
+                     <w>saim-wasta</w>
+                     <caesura ana="frg:cs-s"/>
+                     <w>po</w><w>kelasta</w><pc>:</pc><num value="7">7</num>
+                  </l>
+               </lg>
+               <lg n="8">
+                  <l n="a">
+                     <w>kest</w><w>tekisa</w>
+                     <caesura ana="frg:cs-w"/>
+                     <w>läkle<supplied>nta</supplied></w>
+                     <caesura ana="frg:cs-s"/>
+                     <supplied quantity="11" unit="syllable"/>
+                  </l>
+                  <l n="b">
+                     <gap reason="lost"/>
+                     <lb corresp="#b8"/><gap reason="lost"/>
+                     <gap reason="plain" quantity="1"/>
+                     <supplied unit="syllable" quantity="7"/>
+                     <caesura ana="frg:cs-s"/>
+                     <w>wsāsta</w><w>mīsa</w>
+                     <caesura ana="frg:cs-w"/>
+                     <w>latkatsi</w>
+                     <caesura ana="frg:cs-s"/>
+                     <w>snai</w><w>keś</w><w>cmela</w><pc>:</pc>
+                  </l>
+                  <l n="c">
+                     <w>stiyais=</w><w>oktne</w>
+                     <caesura ana="frg:cs-w"/>
+                     <w>karuntsa</w>
+                     <caesura ana="frg:cs-s"/>
+                     <w>mäkte</w><w>mästā</w>
+                     <caesura ana="frg:cs-w"/>
+                     <supplied unit="syllable" quantity="7"/>
+                     <gap reason="lost"/>
+                  </l>
+               </lg>
+            </lg>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">«I will not arise without having achieved the Buddha [worth]!» [c] [this] firm roaring of yours (I) honour much. [d]</seg></seg><seg><seg type="prim_transl">I will not arise without having achieved the Buddha [worth]! (148, 151)</seg><bibl><title corresp="ref:peyrot2013b"/><citedRange>658</citedRange></bibl></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">... with your ... characteristics; [b] may I through this deed obtain all these characteristics; [c] may I become ... [d]</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">O sun glory, o sun of [re]birth, you have surpassed all suns with your light, [1a] o powerful Viṣṇu, ... [1b]</seg></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl">the ... of the elephants you have surpassed with [your] course, and with [your] voice all clouds: [1c] you, Sumeru of omniscience, I honour with the top of my head ... [1d]</seg></seg></choice><choice corresp="#a5"><seg><seg type="prim_transl">..., to these two friends you have kept in countless [re]births; [2a] you have made yourself firm (in order to bear) ... the sorrows of the <hi>saṃsāra</hi>; [2b]</seg></seg></choice><choice corresp="#a6"><seg><seg type="prim_transl">with (unremitting energy) you set out, (ready on the arhat road); [2c] your deep compassion has surpassed even love like loving mothers to [their] sons. [2d] In the terrible</seg></seg></choice><choice corresp="#a7"><seg><seg type="prim_transl">(wilds they ate the flesh of [their own] son, confused because of hunger): [3a] they forgot [their] love to [their] son [and] ... (saved) their own dear life; [3b] in the (shape) of an elephant (you threw yourself) from a mountain</seg></seg></choice><choice corresp="#a8"><seg><seg type="prim_transl">(as food for [those] hungry) [3c] ... (this test) ... your ... overcoming ... (love) to [their] (sons). [3d] [Your] (wisdom) (about the ...) of the <hi>saṃsāra</hi> made you understand everything, little</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">(and big) [4a] ... your ... has compelled you to ... here; [4b] ... (you have given up for) our (sake) and you have endured [it] (here): [4c]</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">the beings (?) ... with [your] mind. [4d] The thought of compassion never let you feel happy (like) with divine (pleasures); [5a] ... voices ... [5b]</seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl">«for this ... world (is) entrusted to me; me it has taken as [its] refuge» [5c] [but] it gave up divine happiness and ... detestable animal state ... [5d]</seg></seg></choice><choice corresp="#b4"><seg><seg type="prim_transl">(When you were a lion), a she-monkey entrusted her two offspring to you; [6a] a vulture carried them off; you saw that and out of compassion your mind shocked; [6b]</seg></seg></choice><choice corresp="#b5"><seg><seg type="prim_transl">([and] with the blood from your flanks you bought) [back] their (lives) and did not let off – [6c] thus your compassionate mind was hidden in animal appearance, o so tender one! [6d]</seg></seg></choice><choice corresp="#b6"><seg><seg type="prim_transl">(When you were a turtle), you gave [your] body away (to the merchants to be stripped), [7a] [and] with your body skinned you let them cross over the wide river by your love: [7b] (you have seen) hungry (animals)</seg></seg></choice><choice corresp="#b7"><seg><seg type="prim_transl">(and put yourself [a whole] kalpa to damage in order to feed them); [7c] ... they cut off your (flesh) – o, pitying help and stay, you endured all! [7d] You have seen the sorrows through hunger and illness (of the people) ... [8a]</seg></seg></choice><choice corresp="#b8"><seg><seg type="prim_transl">you have given ([your] own body) away ... to let the flesh be stripped in countless rebirths; [8b] as out of compassion you set out with calm in the eight ... [8c] ... (the heart [was] hit). [8d] (A woman) ... [9a]</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="lingcomment">For detailed linguistic comments, see <bibl><title corresp="ref:peyrot2010a"/><citedRange>161-166</citedRange></bibl>.</note><note type="parallels"><ref type="ms" target="txt:m-tht239"/></note><note type="philcomment">For detailed philological comments, see <bibl><title corresp="ref:peyrot2010a"/></bibl> (passim). Below, only corrections to the article are noted.</note><note type="philcomment" subtype="Metrical_analysis"><hi rend="subscript">[a1]</hi><hi>/// sā :</hi><hi>mā ñäś tsāṅkau ¦ eṅkälpatte ¦ pūdñäktäññe</hi><hi>nuwalñe täñ ¦ prakreṃ māka ¦ win· ///</hi><hi rend="subscript">[a2]</hi> 
+one pāda is completely lost in the lacuna 
+<hi>/// ·t· täññana ¦ lakṣāntasā :</hi> 
+<hi>ce yāmorsa ¦ käloym ñäś toṃ ¦ lakṣanta po</hi> 
+<hi>tāko<hi rend="subscript">ī</hi>m ṣä ///</hi> <hi rend="subscript">[a3]</hi> <hi>/// –</hi> 
+<hi>kauna-peñyai kauṃ cmelṣu ¦ po kauñäkteṃ ṣeṣṣirku ¦ läk<hi rend="subscript">u</hi>tsowñaisa :</hi> [1a] 
+<hi>maiyyā-preñcai vikṣnu ///</hi> <hi rend="subscript">[a4]</hi> [1b] 
+<hi>///(oṅko)lmaṃts yämaisa ¦ weśeññaisa tärkärwa ¦ po ṣārkatai :</hi> [1c] 
+<hi>poyśiññeṣṣe sumer ci ¦ tärnesa ñäś w(ināskau) ¦</hi> [1d] 
+<hi rend="subscript">[a5]</hi> <hi>/// mñe ¦ tai wāṣmone eṅsā(t)e ¦ (snai ke)ś cmela :</hi> [2a] 
+<hi>prakkreṃ ṣäñ-āñm klyautkatai ¦ saṃsār(ṣṣana lä)klenta ¦ kä</hi><hi rend="subscript">[a6]</hi><hi>(ltsi) ///</hi> [2b] 
+<hi>(arhānteṣṣai ytārine ¦ ekwalacce warkṣä)ltsa ¦ mäst= ārwāre</hi> : [2c] 
+THT 239 a1 <hi>/// nteṣṣai ytārine ekwal(a)cc(e) w(ar)kṣä(l)ts(a) ///</hi> [8c] 
+<hi>täṅwä(ssoñc ra mā)tarñ ramt ¦ täṅw s<hi rend="subscript">ä</hi>suwane ṣārkate-c ¦ ka(ruṃ au)rtstse :</hi> 2 
+<hi>empe</hi><hi rend="subscript">[a7]</hi><hi>(le – karāśne ¦ seyi mīsa śawāre ¦ trikoṣ kessa :) //</hi>/ [3a] 
+THT 239 a2 <hi>/// karāśne seyi mīsa śawāre trikoṣ kess(a) :</hi> [9a] 
+<hi>täṅw märsāre s<hi rend="subscript">ä</hi>suwerṣe ¦ – – – – (pa)ṣṣānte ¦ lareṃ ṣäñ śaul :</hi> [3b] 
+THT 239 a2 [continued] <hi>taṅw ///</hi> [9b] 
+<hi>oṅkol(m)a – – – śne ¦ ṣlemeṃ ṣä</hi><hi rend="subscript">[a8]</hi><hi>(ñ-āñm ṣalātai ¦ keścyeṃts śwātsi :)</hi> [3c] 
+THT 239 a3 <hi>/// ṣlemeṃ ṣañ āñm ṣalātai keścyeṃts śwāts(i) :</hi> [9c] 
+<hi>/// täñ ¦ yukamā(ne) – – – – – – wane :</hi> 3 
+THT 239 a3 [continued] <hi>ce smā(ṃ) ///</hi> [9d] 
+<hi>saṃsārantse – – – ¦ (aiśämñe ci) po śārsa ¦ lykä</hi><hi rend="subscript">[b1]</hi><hi>(śke trekte :</hi>) [4a] 
+THT 239 a4 <hi>/// aiśamñe ci po śārsa lykaśke trekte</hi> [10a] 
+<hi>/// (ṣā)rtate-c ¦ tnek sā – –</hi> [4b] 
+<hi>– – – – – lñeṣṣe ¦ wesäñ (ṣärm)ts(a rintsatai ¦ tnek ke)lästā :</hi> [4c] 
+THT 239 a5 <hi>/// ṣṣe wesäñ ṣarmtsa rintsatai tnek kelasta</hi> [10c] 
+<hi>o</hi> <hi rend="subscript">[b2]</hi> <hi>/// p(a)lskosa :</hi> 4 
+<hi>ñäkcya(na ramt skwänma)n(e) ¦ skwantsi nta kca carkā-c mā ¦ karuṃ pal(sko)</hi> [5a] 
+THT 239 a6 <hi>/// skwäntsi nta kca cärkā-c mā karuṃ pal(sk)o</hi> [11a] 
+<hi>– – ṣana weśe(ññaiṃ) ¦</hi> [5b] 
+<hi rend="subscript">[b3]</hi> <hi>/// kṣ·· śaiṣṣe se ¦ ñi wa senik (wärpau ste) ¦ ñiś wast= eṅku :</hi> [5c] 
+THT 239 a7 <hi>/// wa senik wärpau ste ñäś wa ///</hi> [11c] 
+<hi>rīnäṣṣiträ säkw ña(kcye) ¦ – – lwāñai ¦ śconai</hi> <hi rend="subscript">[b4]</hi> <hi>///</hi> [5d] 
+<hi>/// ¦ ṣeyyiśkane mokauśka ¦ se(nik) – [ly]·[y]·-c :</hi> [6a] 
+THT 239 b1 <hi>/// (ṣai)yiśkane mokowśka senik ///</hi> 
+<hi>sayusā ceṃ cālate ¦ tu lyakāsta ka(r)u(ṃ)ts(a) ¦ naitta-c päls(k)o :</hi> [6b] 
+<hi rend="subscript">[b5]</hi> <hi>/// (¦ śaul käryātai tai)ynesiñ ¦ mā ṣp maukāsta :</hi> [6c] 
+THT 239 b2 <hi>/// śaul käryātai tainaisäñ mā ṣ mauk(ā)st(a)</hi> [12c] 
+<hi>karuṃ palsko te-yknesā ¦ lwāññe rupne tukau ṣai-c ¦ tot lalaṃ(ṣka</hi> <hi rend="subscript">[b6]</hi> <hi>6)</hi> 
+<hi>/// (ne ¦ käryortantäṃts lātkatsi) ¦ kektseñ wsāstā :</hi> [7a] 
+THT 239 b3 <hi>/// ne käryortantäṃts lātkatsi kektseñ wsā(sta :)</hi> [13a] 
+<hi>papāsausai kektsentsa ¦ śetkasta ceṃ cäk= aurce ¦ śār maiytartsa :</hi> [7b] 
+<hi>keścyeṃ l(wāsa lyakāsta ¦ kālpo ṣañ āñm myāyasta) ///</hi> [7c] 
+THT 239 b4 <hi>/// lyakāsta kālpo ṣañ āñm myāsta ///</hi> [13c] 
+<hi rend="subscript">[b7]</hi> <hi>/// latkānte-c ¦ āñmālaṣka saim-wasta ¦ po kelasta : 7</hi> 
+THT 239 b5 <hi>/// 13</hi> 
+<hi>kest tekisa läkle(nta ¦ śāmñe śaiṣṣe lyakāsta ¦) ///</hi> [8a] 
+THT 239 b5 [continued] <hi>k(e)st tekisa alāṣmoṃ śāmñe (ś)aiṣṣ(e) lya(kāsta) ///</hi> [14a] 
+<hi rend="subscript">[b8]</hi> <hi>/// – ¦ wsāsta mīsa latkatsi ¦ snai keś cmela :</hi> [8b] 
+THT 239 b6 <hi>/// ṣ(a)ñ kektseñmeṃ :</hi> [14b] 
+<hi>stiyais= oktne karuntsa ¦ mäkte mästā ///</hi> [8c] 
+THT 239 b6 [continued] <hi>stiyais= okne karūnt(sa) mäkte ma ///</hi> [14c] 
+THT 239 b7 <hi>/// aunw arañce 14</hi> 
+THT 239 b7 [continued] <hi>kliye ·e ///</hi> [15a]</note><note corresp="#a4" type="philcomment"><hi>tärnesa</hi>: 'with the top of my head', not 'with my skull'.</note><note corresp="#a5" type="philcomment"><hi>eṅsā(t)ai</hi>: this reading, instead of <hi>eṅsā(t)e</hi>, I owe to Ronald I. Kim (Poznań), p.c.</note><note corresp="#a8" type="philcomment">: in <ref type="ms" target="txt:m-tht239"/> a3, <hi>smā(ṃ)</hi> is 'test', not 'repetition', according to <bibl><title corresp="ref:ogihara2011a"/></bibl>.</note><note corresp="#b3" type="philcomment"><hi>lwāñai śconai</hi>: 'detestable animal state', not 'animal hatred' (<bibl><title corresp="ref:ogihara2012a"/><citedRange>172</citedRange></bibl>).</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition</label><bibl><title corresp="ref:schmidtkt1983a"/></bibl>; <bibl><title corresp="ref:tamai2007a"/><citedRange>№3597</citedRange></bibl>; <bibl><title corresp="ref:peyrot2010a"/></bibl>. </p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 3597" type="external">THT 3597</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/35/3597.htm" type="external">THT 3597</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_size_h_old"/>
+               <item n="m_next_old"/>
+               <item n="file_modified_old">1568035629</item>
+               <item n="file_created_old">1323363201</item>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="m_philcomment_old">&lt;p&gt;For detailed philological comments, see [[Peyrot 2010a]] (passim). Below, only corrections to the article are noted.&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;a4&lt;/b&gt; &lt;i&gt;tärnesa&lt;/i&gt;: 'with the top of my head', not 'with my skull'.&lt;br&gt;
+&lt;b&gt;a5&lt;/b&gt; &lt;i&gt;eṅsā(t)ai&lt;/i&gt;: this reading, instead of &lt;i&gt;eṅsā(t)e&lt;/i&gt;, I owe to Ronald I. Kim (Poznań), p.c.&lt;br&gt;
+&lt;b&gt;a8&lt;/b&gt;: in [[THT 239]] a3, &lt;i&gt;smā(ṃ)&lt;/i&gt; is 'test', not 'repetition', according to [[Ogihara 2011a]].&lt;br&gt;
+&lt;b&gt;b3&lt;/b&gt; &lt;i&gt;lwāñai śconai&lt;/i&gt;: 'detestable animal state', not 'animal hatred' ([[Ogihara 2012a]]: 172).&lt;/p&gt;
+&lt;h3&gt;Metrical analysis&lt;/h3&gt;
+&lt;p&gt;&lt;sub&gt;[a1]&lt;/sub&gt; &lt;i&gt;/// sā :&lt;/i&gt;
+&lt;br&gt;&lt;i&gt;mā ñäś tsāṅkau ¦ eṅkälpatte ¦ pūdñäktäññe&lt;/i&gt;
+&lt;br&gt;&lt;i&gt;nuwalñe täñ ¦ prakreṃ māka ¦ win· ///&lt;/i&gt; &lt;sub&gt;[a2]&lt;/sub&gt;
+&lt;br&gt;one pāda is completely lost in the lacuna
+&lt;br&gt;&lt;i&gt;/// ·t· täññana ¦ lakṣāntasā :&lt;/i&gt;
+&lt;br&gt;&lt;i&gt;ce yāmorsa ¦ käloym ñäś toṃ ¦ lakṣanta po&lt;/i&gt;
+&lt;br&gt;&lt;i&gt;tāko&lt;sub&gt;ī&lt;/sub&gt;m ṣä ///&lt;/i&gt; &lt;sub&gt;[a3]&lt;/sub&gt; &lt;i&gt;/// –&lt;/i&gt;
+&lt;br&gt;&lt;i&gt;kauna-peñyai kauṃ cmelṣu ¦ po kauñäkteṃ ṣeṣṣirku ¦ läk&lt;sub&gt;u&lt;/sub&gt;tsowñaisa :&lt;/i&gt; [1a]
+&lt;br&gt;&lt;i&gt;maiyyā-preñcai vikṣnu ///&lt;/i&gt; &lt;sub&gt;[a4]&lt;/sub&gt; [1b]
+&lt;br&gt;&lt;i&gt;///(oṅko)lmaṃts yämaisa ¦ weśeññaisa tärkärwa ¦ po ṣārkatai :&lt;/i&gt; [1c]
+&lt;br&gt;&lt;i&gt;poyśiññeṣṣe sumer ci ¦ tärnesa ñäś w(ināskau) ¦&lt;/i&gt; [1d]
+&lt;br&gt;&lt;sub&gt;[a5]&lt;/sub&gt; &lt;i&gt;/// mñe ¦ tai wāṣmone eṅsā(t)e ¦ (snai ke)ś cmela :&lt;/i&gt; [2a]
+&lt;br&gt;&lt;i&gt;prakkreṃ ṣäñ-āñm klyautkatai ¦ saṃsār(ṣṣana lä)klenta ¦ kä&lt;/i&gt;&lt;sub&gt;[a6]&lt;/sub&gt;&lt;i&gt;(ltsi) ///&lt;/i&gt; [2b]
+&lt;br&gt;&lt;i&gt;(arhānteṣṣai ytārine ¦ ekwalacce warkṣä)ltsa ¦ mäst= ārwāre&lt;/i&gt; : [2c]
+&lt;br&gt;THT 239 a1 &lt;i&gt;/// nteṣṣai ytārine ekwal(a)cc(e) w(ar)kṣä(l)ts(a) ///&lt;/i&gt; [8c]
+&lt;br&gt;&lt;i&gt;täṅwä(ssoñc ra mā)tarñ ramt ¦ täṅw s&lt;sub&gt;ä&lt;/sub&gt;suwane ṣārkate-c ¦ ka(ruṃ au)rtstse :&lt;/i&gt; 2
+&lt;br&gt;&lt;i&gt;empe&lt;/i&gt;&lt;sub&gt;[a7]&lt;/sub&gt;&lt;i&gt;(le – karāśne ¦ seyi mīsa śawāre ¦ trikoṣ kessa :) //&lt;/i&gt;/ [3a]
+&lt;br&gt;THT 239 a2 &lt;i&gt;/// karāśne seyi mīsa śawāre trikoṣ kess(a) :&lt;/i&gt; [9a]
+&lt;br&gt;&lt;i&gt;täṅw märsāre s&lt;sub&gt;ä&lt;/sub&gt;suwerṣe ¦ – – – – (pa)ṣṣānte ¦ lareṃ ṣäñ śaul :&lt;/i&gt; [3b]
+&lt;br&gt;THT 239 a2 [continued] &lt;i&gt;taṅw ///&lt;/i&gt; [9b]
+&lt;br&gt;&lt;i&gt;oṅkol(m)a – – – śne ¦ ṣlemeṃ ṣä&lt;/i&gt;&lt;sub&gt;[a8]&lt;/sub&gt;&lt;i&gt;(ñ-āñm ṣalātai ¦ keścyeṃts śwātsi :)&lt;/i&gt; [3c]
+&lt;br&gt;THT 239 a3 &lt;i&gt;/// ṣlemeṃ ṣañ āñm ṣalātai keścyeṃts śwāts(i) :&lt;/i&gt; [9c]
+&lt;br&gt;&lt;i&gt;/// täñ ¦ yukamā(ne) – – – – – – wane :&lt;/i&gt; 3
+&lt;br&gt;THT 239 a3 [continued] &lt;i&gt;ce smā(ṃ) ///&lt;/i&gt; [9d]
+&lt;br&gt;&lt;i&gt;saṃsārantse – – – ¦ (aiśämñe ci) po śārsa ¦ lykä&lt;/i&gt;&lt;sub&gt;[b1]&lt;/sub&gt;&lt;i&gt;(śke trekte :&lt;/i&gt;) [4a]
+&lt;br&gt;THT 239 a4 &lt;i&gt;/// aiśamñe ci po śārsa lykaśke trekte&lt;/i&gt; [10a]
+&lt;br&gt;&lt;i&gt;/// (ṣā)rtate-c ¦ tnek sā – –&lt;/i&gt; [4b]
+&lt;br&gt;&lt;i&gt;– – – – – lñeṣṣe ¦ wesäñ (ṣärm)ts(a rintsatai ¦ tnek ke)lästā :&lt;/i&gt; [4c]
+&lt;br&gt;THT 239 a5 &lt;i&gt;/// ṣṣe wesäñ ṣarmtsa rintsatai tnek kelasta&lt;/i&gt; [10c]
+&lt;br&gt;&lt;i&gt;o&lt;/i&gt; &lt;sub&gt;[b2]&lt;/sub&gt; &lt;i&gt;/// p(a)lskosa :&lt;/i&gt; 4
+&lt;br&gt;&lt;i&gt;ñäkcya(na ramt skwänma)n(e) ¦ skwantsi nta kca carkā-c mā ¦ karuṃ pal(sko)&lt;/i&gt; [5a]
+&lt;br&gt;THT 239 a6 &lt;i&gt;/// skwäntsi nta kca cärkā-c mā karuṃ pal(sk)o&lt;/i&gt; [11a]
+&lt;br&gt;&lt;i&gt;– – ṣana weśe(ññaiṃ) ¦&lt;/i&gt; [5b]
+&lt;br&gt;&lt;sub&gt;[b3]&lt;/sub&gt; &lt;i&gt;/// kṣ·· śaiṣṣe se ¦ ñi wa senik (wärpau ste) ¦ ñiś wast= eṅku :&lt;/i&gt; [5c]
+&lt;br&gt;THT 239 a7 &lt;i&gt;/// wa senik wärpau ste ñäś wa ///&lt;/i&gt; [11c]
+&lt;br&gt;&lt;i&gt;rīnäṣṣiträ säkw ña(kcye) ¦ – – lwāñai ¦ śconai&lt;/i&gt; &lt;sub&gt;[b4]&lt;/sub&gt; &lt;i&gt;///&lt;/i&gt; [5d]
+&lt;br&gt;&lt;i&gt;/// ¦ ṣeyyiśkane mokauśka ¦ se(nik) – [ly]·[y]·-c :&lt;/i&gt; [6a]
+&lt;br&gt;THT 239 b1 &lt;i&gt;/// (ṣai)yiśkane mokowśka senik ///&lt;/i&gt;
+&lt;br&gt;&lt;i&gt;sayusā ceṃ cālate ¦ tu lyakāsta ka(r)u(ṃ)ts(a) ¦ naitta-c päls(k)o :&lt;/i&gt; [6b]
+&lt;br&gt;&lt;sub&gt;[b5]&lt;/sub&gt; &lt;i&gt;/// (¦ śaul käryātai tai)ynesiñ ¦ mā ṣp maukāsta :&lt;/i&gt; [6c]
+&lt;br&gt;THT 239 b2 &lt;i&gt;/// śaul käryātai tainaisäñ mā ṣ mauk(ā)st(a)&lt;/i&gt; [12c]
+&lt;br&gt;&lt;i&gt;karuṃ palsko te-yknesā ¦ lwāññe rupne tukau ṣai-c ¦ tot lalaṃ(ṣka&lt;/i&gt; &lt;sub&gt;[b6]&lt;/sub&gt; &lt;i&gt;6)&lt;/i&gt;
+&lt;br&gt;&lt;i&gt;/// (ne ¦ käryortantäṃts lātkatsi) ¦ kektseñ wsāstā :&lt;/i&gt; [7a]
+&lt;br&gt;THT 239 b3 &lt;i&gt;/// ne käryortantäṃts lātkatsi kektseñ wsā(sta :)&lt;/i&gt; [13a]
+&lt;br&gt;&lt;i&gt;papāsausai kektsentsa ¦ śetkasta ceṃ cäk= aurce ¦ śār maiytartsa :&lt;/i&gt; [7b]
+&lt;br&gt;&lt;i&gt;keścyeṃ l(wāsa lyakāsta ¦ kālpo ṣañ āñm myāyasta) ///&lt;/i&gt; [7c]
+&lt;br&gt;THT 239 b4 &lt;i&gt;/// lyakāsta kālpo ṣañ āñm myāsta ///&lt;/i&gt; [13c]
+&lt;br&gt;&lt;sub&gt;[b7]&lt;/sub&gt; &lt;i&gt;/// latkānte-c ¦ āñmālaṣka saim-wasta ¦ po kelasta : 7&lt;/i&gt;
+&lt;br&gt;THT 239 b5 &lt;i&gt;/// 13&lt;/i&gt;
+&lt;br&gt;&lt;i&gt;kest tekisa läkle(nta ¦ śāmñe śaiṣṣe lyakāsta ¦) ///&lt;/i&gt; [8a]
+&lt;br&gt;THT 239 b5 [continued] &lt;i&gt;k(e)st tekisa alāṣmoṃ śāmñe (ś)aiṣṣ(e) lya(kāsta) ///&lt;/i&gt; [14a]
+&lt;br&gt;&lt;sub&gt;[b8]&lt;/sub&gt; &lt;i&gt;/// – ¦ wsāsta mīsa latkatsi ¦ snai keś cmela :&lt;/i&gt; [8b]
+&lt;br&gt;THT 239 b6 &lt;i&gt;/// ṣ(a)ñ kektseñmeṃ :&lt;/i&gt; [14b]
+&lt;br&gt;&lt;i&gt;stiyais= oktne karuntsa ¦ mäkte mästā ///&lt;/i&gt; [8c]
+&lt;br&gt;THT 239 b6 [continued] &lt;i&gt;stiyais= okne karūnt(sa) mäkte ma ///&lt;/i&gt; [14c]
+&lt;br&gt;THT 239 b7 &lt;i&gt;/// aunw arañce 14&lt;/i&gt;
+&lt;br&gt;THT 239 b7 [continued] &lt;i&gt;kliye ·e ///&lt;/i&gt; [15a]&lt;/p&gt;</item>
+               <item n="m_passage_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=334043;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=334043;rotate=0;imageType=_M||THT 3597 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=334540;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=334540;rotate=0;imageType=_M||THT 3597 verso</item>
+               <item n="m_transliteration_old">a1 /// sā : mā ñäś tsāṅkau eṅ_k_alpatte pūdñä_k_t_aññe nuwalñe _t_añ prakreṃ māka wi[n]· ///
+a2 /// ·[t]· _t_aññana lakṣāntasā : ce yāmorsa _k_aloym ñäś toṃ lakṣanta po tāko_īm _ṣ_a ///
+a3 /// – kauna-peñyai kauṃ cmelṣu po kauñäkteṃ ṣeṣṣirku _l_ak_utsowñaisa : maiyyā preñcai vikṣnu ///
+a4 /// lmaṃts yämaisa weśeññaisa _t_ar_k_a po ṣārkatai : poyśiññeṣṣe sumer ci _t_arnesa ñäś w· (–) –
+a5 /// mñe tai wāṣmone eṅsā·[ai] (–) ·[e]ś cmela : prakkreṃ _ṣ_añ-āñ_m\ klyautkatai saṃsā[r]·· (– –) klenta _k_a
+a6 /// ltsa _m_ast= ārwāre : _t_aṅwä – (– – –) [ta]rñ\ ram_t\ _t_aṅw\ _s__asuwane ṣārkate-c ka (–) – rtstse : 2 empe
+a7 /// [_t_a]ṅw\ _m_arsāre _s__asuwerṣe (– – – – –) ṣṣānte lareṃ _ṣ_añ śau_l\ : oṅkol·a (– – –) śne ṣlemeṃ _ṣ_a
+a8 /// _t_añ\ yukamā (– – – – – – –) w[a]ne : 3 saṃsārantse (– – – – – – –) po śārsa ly[_k]_a
+b1 /// – rtate-cä\ tn[ek] s[ā] – (– – – – – –) lñeṣṣe we_s_añ\ (–) ·ts· – (– –) – _l_astā : o
+b2 /// p(a)lskosa : 4 ñäkcya – (– – – –) [n]· skwantsi nta kca carkā-c mā karuṃ pa[l]·· (– –) ṣana weśe
+b3 /// kṣ·· śaiṣṣe se ñi wa seni_k\ (– – –) ñiś\ wast= eṅku : rīnäṣṣit_r_a _s_akw\ ña – (–) – lwāñai śconai
+b4 /// ṣeyyiśkane mokauśka se (– –) ·[l]y·[y]·-c\ : sayusā ceṃ cālate tu lyakāsta ka·u[·]ts· naitta-c _p_als·o :
+b5 /// ynesiñä\ mā _ṣ_p\ maukāsta : karuṃ palsko te-yknesā lwāññe rupne tukau ṣai-c\ to_t\ lal[a]ṃ ///
+b6 /// [ke]ktseñ wsāstā : papāsausai kektsentsa śetkasta ceṃ cäk= aurce śār maiytartsa : keś[c]yeṃ [l·]· ///
+b7 /// latkānte-c\ āñmālaṣka sai_m\-wasta po kelasta : 7 kes_t\ tekisa _l_akle – ///
+b8 /// – wsāsta mīsa latkatsi snai keś cmela : stiyais= oktne karuntsa _m_akte _m_astā ///</item>
+               <item n="m_language_stage_old">Archaic</item>
+               <item n="date_publication_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 3597" target="idp"&gt;THT 3597&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/35/3597.htm" target="titus"&gt;THT 3597&lt;/a&gt;.&lt;br&gt;
+Edition: [[Schmidt KT 1983a]]; [[Tamai 2007a]]: №3597; [[Peyrot 2010a]].&lt;br&gt;
+Translation:
+&lt;b&gt;a1&lt;/b&gt; [[Peyrot, ToSu]]: 658.</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old">For detailed linguistic comments, see [[Peyrot 2010a]]: 161-166.</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_findspot_old">Qizil Miŋ-Öy</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="file_location_old">pages/manuscript/tht3597.txt</item>
+               <item n="access_old">public</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_lines_old">8</item>
+               <item n="m_completeness_old"/>
+               <item n="m_subgenre_old">Buddhastotra</item>
+               <item n="m_translation_old">a1 «I will not arise without having achieved the Buddha [worth]!» [c] [this] firm roaring of yours (I) honour much. [d]
+a2 ... with your ... characteristics; [b] may I through this deed obtain all these characteristics; [c] may I become ... [d]
+a3 O sun glory, o sun of [re]birth, you have surpassed all suns with your light, [1a] o powerful Viṣṇu, ... [1b]
+a4 the ... of the elephants you have surpassed with [your] course, and with [your] voice all clouds: [1c] you, Sumeru of omniscience, I honour with the top of my head ... [1d]
+a5 ..., to these two friends you have kept in countless [re]births; [2a] you have made yourself firm (in order to bear) ... the sorrows of the &lt;i&gt;saṃsāra&lt;/i&gt;; [2b]
+a6 with (unremitting energy) you set out, (ready on the arhat road); [2c] your deep compassion has surpassed even love like loving mothers to [their] sons. [2d] In the terrible
+a7 (wilds they ate the flesh of [their own] son, confused because of hunger): [3a] they forgot [their] love to [their] son [and] ... (saved) their own dear life; [3b] in the (shape) of an elephant (you threw yourself) from a mountain
+a8 (as food for [those] hungry) [3c] ... (this test) ... your ... overcoming ... (love) to [their] (sons). [3d] [Your] (wisdom) (about the ...) of the &lt;i&gt;saṃsāra&lt;/i&gt; made you understand everything, little
+b1 (and big) [4a] ... your ... has compelled you to ... here; [4b] ... (you have given up for) our (sake) and you have endured [it] (here): [4c]
+b2 the beings (?) ... with [your] mind. [4d] The thought of compassion never let you feel happy (like) with divine (pleasures); [5a] ... voices ... [5b]
+b3 «for this ... world (is) entrusted to me; me it has taken as [its] refuge» [5c] [but] it gave up divine happiness and ... detestable animal state ... [5d]
+b4 (When you were a lion), a she-monkey entrusted her two offspring to you; [6a] a vulture carried them off; you saw that and out of compassion your mind shocked; [6b]
+b5 ([and] with the blood from your flanks you bought) [back] their (lives) and did not let off – [6c] thus your compassionate mind was hidden in animal appearance, o so tender one! [6d]
+b6 (When you were a turtle), you gave [your] body away (to the merchants to be stripped), [7a] [and] with your body skinned you let them cross over the wide river by your love: [7b] (you have seen) hungry (animals)
+b7 (and put yourself [a whole] kalpa to damage in order to feed them); [7c] ... they cut off your (flesh) – o, pitying help and stay, you endured all! [7d] You have seen the sorrows through hunger and illness (of the people) ... [8a]
+b8 you have given ([your] own body) away ... to let the flesh be stripped in countless rebirths; [8b] as out of compassion you set out with calm in the eight ... [8c] ... (the heart [was] hit). [8d] (A woman) ... [9a]</item>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Verse</item>
+               <item n="project_check_old"/>
+               <item n="user_modified_old">bernhard</item>
+               <item n="user_created_old">michael</item>
+               <item n="m_prev_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old">With late forms</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_title_old"/>
+               <item n="m_transcription_old">a1 /// sā : mā ñäś tsāṅkau eṅkalpatte|eṅkälpatte pūdñäktäññe nuwalñe tañ|täñ prakreṃ māka win(āskau) ///
+a2 /// ·t· täññana lakṣānäntasa|lakṣāntasā : ce yāmorsa källoym|käloym ñäś toṃ lakṣānänta|lakṣanta po tākoym|tāko_īm ṣä ///
+a3 /// – kauna-peñiyai|kauna-peñyai kauṃ cmelaṣṣu|cmelṣu po kauṃ-ñäkteṃ|kauñäkteṃ ṣeṣṣirku läkutsauñaisa|läk_utsowñaisa : maiyya|maiyyā preñcai vikṣṇu|vikṣnu ///
+a4 /// (oṅko)lmaṃts yamaisa|yämaisa weśeññaisa tarkär|tärkä po ṣārkatai : poyśiññeṣṣe sumer ci tarnesa|tärnesa ñäś w(ināskau)
+a5 /// mñe tai waṣamone|wāṣmone eṅksatai|eṅsā(t)ai (snai k)eś cmela : prakreṃ|prakkreṃ ṣañ-añm|ṣäñ-āñm klyautkatai saṃsār(ṣṣana lä)klenta kaltsi|kä|(ltsi)
+a6 /// (warkṣä)ltsa masta|mäst= arwāre|ārwāre : täṅkwassonta|täṅwä(ssonta mātärñ|mā)tarñ ramt taṅkw|täṅw s_äsuwane ṣārkate-c ka(ruṃ aurtse|au)rtstse : 2 empele|empe|(le)
+a7 /// taṅkw|täṅw märsāre säsuwerṣṣe|s_äsuwerṣe – – – – (pa)ṣṣānte lareṃ ṣañ|ṣäñ śaul : oṅkol(m)a(ññai särwecne|särwe)śne ṣlemeṃ ṣañ-añm|ṣä|(ñ-āñm)
+a8 /// tañ|täñ yukamā(ne) – – – – – – wane : 3 saṃsāräntse|saṃsārantse – – – aiśamñe|(aiśämñe ci) po śārsa lykä
+b1 /// (ṣā)rtate-c tnek sā – – – – – – – lñeṣṣe wesäñ ṣarmtsa|(ṣärm)ts(a rintsatai tnek kelasta|ke)lästā : o
+b2 /// p(a)lskosa : 4 ñäkciyana|ñäkcya(na ramt skwanmane|skwänma)n(e) skwantsi nta kca cärkā-c|carkā-c mā karuṃ pal(sko) – – ṣana weśeññaiṃ|weśe|(ññaiṃ)
+b3 /// kṣ·· śaiṣṣe se ñi wa senik (wärpau ste) ñiś waste|wast= eṅku : rīnäṣṣitär|rīnäṣṣiträ sakw|säkw ñäkciye|ña(kcye) – – lwāññai|lwāñai śconai
+b4 /// ṣaiyyiśkane|ṣeyyiśkane mokoṃśka|mokauśka se(nik) – ·ly·y·-c : sayusa|sayusā ceṃ cālate tu lyakāsta ka(r)u(ṃ)ts(a) naitta-c palsko|päls(k)o :
+b5 /// tainaisäñ|(tai)ynesiñ mā ṣp maukāsta : karuṃ palsko te-yäknesa|te-yknesā lwāññe rupne tukau ṣai-c tot lalaṃ(ṣka) ///
+b6 /// kektseñ wsāsta|wsāstā : papāsausai kektseñtsa|kektsentsa śātkasta|śetkasta ceṃ cake|cäk= aurcce|aurce śār maitärtsa|maiytartsa : keściyeṃ_(Pl.)|keścyeṃ l(wāsa) ///
+b7 /// latkānte-c añmālaṣka|āñmālaṣka saim-wästa|saim-wasta po kelasta : 7 kest tekisa läkle(nta) ///
+b8 /// – wsāsta mīsa lātkatsi|latkatsi snai keś cmela : stiyais= oktne karuṃtsa|karuntsa mäkte mästā ///</item>
+               <item n="m_meter_old">4-3/4-3/4</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_other_sigla_old">Mainz 655,1 [Schmidt], Mainz 655 [current]</item>
+               <item n="m_remarks_old"/>
+               <item n="m_language_old">TB</item>
+               <item n="m_expedition_old">T III MQR</item>
+               <item n="m_size_w_old"/>
+               <item n="m_parallels_old">[[THT 239]]</item>
+               <item n="project_comment_old">&lt;p&gt;Alternative classifications:
+&lt;table class="table_lines"&gt;
+  &lt;tr&gt;&lt;td title="MP"&gt;Peyrot&lt;/td&gt;&lt;td title="A1"&gt;archaic I&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="MM"&gt;Malzahn&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TT"&gt;Tamai&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TTC14"&gt;Tamai-C14&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+&lt;p&gt;Translations from [[Peyrot, ToSu]]
+&lt;table class="table_lines"&gt;
+&lt;th&gt;Lines&lt;/th&gt;
+&lt;th&gt;Translation&lt;/th&gt;
+&lt;th&gt;Pages&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt;a1&lt;/td&gt;
+&lt;td&gt;I will not arise without having achieved the Buddha [worth]! ([[Peyrot 2010a]]: 148, 151)&lt;/td&gt;
+&lt;td&gt;658&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;</item>
+               <item n="ms_old">THT 3597</item>
+               <item n="m_script_old">Classical</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;Alternative classifications:
+
+&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

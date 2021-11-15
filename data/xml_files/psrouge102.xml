@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-psrouge102">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PS rouge 10.2</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</repository>
+                  <idno>PS rouge 10.2</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">5+</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="txb"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Gloss</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <line n="5" xml:id="a5"><zone>Kwä</zone><zone>sa</zone><zone>rtse</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a5"/><w>kwäsartse</w></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a5"><seg><seg type="prim_transl">in a string (?)</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="lingcomment">The gloss is identified by <bibl><title corresp="ref:filliozatandkuno1938"/><citedRange>29</citedRange></bibl> as TB, but no interpretation is offered. <hi>kwäsartse</hi> reminds of TB <ref type="ms" target="txt:m-ioltoch263"/>: a4 <hi>k<hi rend="subscript">u</hi>sär</hi> (arch) as well as of <ref type="ms" target="txt:m-a378"/> <hi>kusraṃ</hi> (<bibl><title corresp="ref:hilmarsson1996"/><citedRange>195</citedRange></bibl>). For <hi>k<hi rend="subscript">u</hi>sär</hi>, <bibl><title corresp="ref:adams2013a"/><citedRange>199</citedRange></bibl> cautiously suggests 'braid' on the basis of TA <hi>kusraṃ</hi> and points out that an alternative word division <hi>k<hi rend="subscript">u</hi>särsā</hi> would also be possible, in which case it could be a plural (a perl. sg. would of course be an additional posibility). While <ref type="ms" target="txt:m-ioltoch263"/> is too fragmentary, the context of <ref type="ms" target="txt:m-a378"/> suggests 'hairdress' (<bibl><title corresp="ref:itkin2011"/><citedRange>51</citedRange></bibl>). Carling's 'braid of hair' (<bibl><title corresp="ref:carlingetal2009"/><citedRange>157b-158</citedRange></bibl>a) would seem to fit the context better, but has to cope with the problem that it needs <hi>kusraṃ</hi> to be a nom.du., while it can only be a loc.sg., as pointed out by Itkin (p.c.). The precise meaning of Skt. <hi>sāvadānaṃ</hi> is uncertain, and the semantic connection with TA <hi>kusraṃ</hi>, if related, is not obvious. Possible semantic links to consider are the ones between e.g. 'strand of hair, string' and 'uninterruptedly', or between 'hair braid' and 'in regular order'. In any case, <hi>kwäsartse</hi> must be an adjective derived from the noun <hi>k<hi rend="subscript">u</hi>sar*</hi>, here apparently in adverbial use.</note><note type="philcomment">Glosses Skt. <hi>(sāvadā)naṃ</hi> 'in regular order, uninterruptedly' (corrected reading due to Klaus Wille, p.c.).</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>other</label><bibl><title corresp="ref:peyrot2014"/><citedRange>170-1</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_prev_old"/>
+               <item n="user_created_old">theres</item>
+               <item n="user_modified_old">theres</item>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_tune_old"/>
+               <item n="m_translation_old">a5 in a string (?)</item>
+               <item n="m_subgenre_old">Gloss</item>
+               <item n="m_script_old"/>
+               <item n="ms_old">PS rouge 10.2</item>
+               <item n="project_comment_old"/>
+               <item n="m_parallels_old"/>
+               <item n="m_size_w_old"/>
+               <item n="m_expedition_old"/>
+               <item n="m_language_old">Sanskrit+TB</item>
+               <item n="m_remarks_old"/>
+               <item n="m_other_sigla_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_meter_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_title_old"/>
+               <item n="m_transcription_old">a5 kwäsartse</item>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_lingcomment_old">&lt;p&gt;The gloss is identified by [[Filliozat and Kuno 1938]]: 29 as TB, but no interpretation is offered. &lt;i&gt;kwäsartse&lt;/i&gt; reminds of TB [[IOL Toch 263]]: a4 &lt;i&gt;k&lt;sub&gt;u&lt;/sub&gt;sär&lt;/i&gt; (arch) as well as of [[A 378]]: 2 &lt;i&gt;kusraṃ&lt;/i&gt; ([[Hilmarsson 1996]]: 195). For &lt;i&gt;k&lt;sub&gt;u&lt;/sub&gt;sär&lt;/i&gt;, [[Adams, 2DoT]]: 199 cautiously suggests 'braid' on the basis of TA &lt;i&gt;kusraṃ&lt;/i&gt; and points out that an alternative word division &lt;i&gt;k&lt;sub&gt;u&lt;/sub&gt;särsā&lt;/i&gt; would also be possible, in which case it could be a plural (a perl. sg. would of course be an additional posibility). While [[IOL Toch 263]] is too fragmentary, the context of [[A 378]] suggests 'hairdress' ([[Itkin 2011]]: 51). Carling's 'braid of hair' ([[Carling, DThTA]]: 157b-158a) would seem to fit the context better, but has to cope with the problem that it needs &lt;i&gt;kusraṃ&lt;/i&gt; to be a nom.du., while it can only be a loc.sg., as pointed out by Itkin (p.c.). The precise meaning of Skt. &lt;i&gt;sāvadānaṃ&lt;/i&gt; is uncertain, and the semantic connection with TA &lt;i&gt;kusraṃ&lt;/i&gt;, if related, is not obvious. Possible semantic links to consider are the ones between e.g. 'strand of hair, string' and 'uninterruptedly', or between 'hair braid' and 'in regular order'. In any case, &lt;i&gt;kwäsartse&lt;/i&gt; must be an adjective derived from the noun &lt;i&gt;k&lt;sub&gt;u&lt;/sub&gt;sar*&lt;/i&gt;, here apparently in adverbial use.&lt;/p&gt;</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_bib_old">[[Peyrot 2014]]: 170-1.</item>
+               <item n="date_publication_old"/>
+               <item n="m_language_stage_old"/>
+               <item n="m_transliteration_old">a5 _kwäsartse</item>
+               <item n="m_image_old"/>
+               <item n="m_material_old"/>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old">&lt;p&gt;Glosses Skt. &lt;i&gt;(sāvadā)naṃ&lt;/i&gt; 'in regular order, uninterruptedly' (corrected reading due to Klaus Wille, p.c.).&lt;/p&gt;</item>
+               <item n="m_editor_old"/>
+               <item n="file_created_old">1446462609</item>
+               <item n="file_modified_old">1485168451</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old"/>
+               <item n="m_completeness_old"/>
+               <item n="m_collection_old">Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</item>
+               <item n="m_lines_old">5+</item>
+               <item n="access_old">restricted</item>
+               <item n="file_location_old">pages/manuscript/psrouge102.txt</item>
+               <item n="m_form_old"/>
+               <item n="m_findspot_old"/>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_linedistance_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

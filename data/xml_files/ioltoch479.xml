@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-ioltoch479">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>IOL Toch 479</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library (London)</repository>
+                  <idno>IOL Toch 479</idno>
+                  <altIdentifier>
+                     <idno>D 120</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Udānavarga</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <dimensions type="line_spacing">
+                              <height>1,4</height>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Doctrine</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=12712;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=12712;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL479a.jpg" height="709px" width="650px"/>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>T<gap reason="plain" unit="part"/></zone><zone><gap reason="plain" unit="part"/>t<gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone>kne</zone><zone>sa</zone><zone><unclear>ś</unclear><gap reason="plain" unit="part"/></zone><zone><unclear>y</unclear><gap reason="plain" unit="part"/></zone><zone>ñca</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><zone><gap reason="plain" unit="part"/><unclear>s</unclear>m<gap reason="plain" unit="part"/></zone><zone>tRA</zone><zone>6</zone><zone>a</zone><zone>dhi</zone><zone><unclear>ce</unclear></zone><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone><gap reason="plain" unit="part"/><unclear>ā</unclear></zone><zone><gap reason="plain" unit="part"/>i</zone><gap reason="plain" quantity="1"/><zone><gap reason="plain" unit="part"/>o</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=12713;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=12713;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL479b.jpg" height="709px" width="650px"/>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>r<gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="2"/><zone><unclear>n</unclear><gap reason="plain" unit="part"/></zone><zone>n<gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><zone>p<unclear>i</unclear></zone><zone>lko</zone><zone>mā</zone><zone>cä</zone><zone>ñca</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><zone>8</zone><zone>sa</zone><gap reason="plain" quantity="1"/><zone>g<unclear>d</unclear><gap reason="plain" unit="part"/></zone><zone><unclear>ṣ</unclear><gap reason="plain" unit="part"/>i</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>e</zone><zone><gap reason="plain" unit="part"/>e</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p><milestone unit="passage" n="4.6c-4.9a"/>
+<lb corresp="#a2"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>t<gap reason="plain" unit="part"/></w><w><gap reason="plain" unit="part"/>t<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><w><supplied>pelai</supplied>knesa</w><w>ś<supplied>a</supplied>y<supplied>e</supplied>ñca<supplied>ntse</supplied></w><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="lost"/><w><supplied>t</supplied>sm<supplied>e</supplied>trä</w><num value="6">6</num><w>adhice<supplied>tasi</supplied></w><gap reason="lost"/>
+<lb corresp="#a5"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w><gap reason="plain" unit="part"/>ā</w><w><gap reason="plain" unit="part"/>i</w><gap reason="plain" quantity="1"/><w><gap reason="plain" unit="part"/>o</w><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><w><supplied>p</supplied>r<supplied>amāde</supplied>n<supplied>a</supplied></w><w>n<supplied>a</supplied></w><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><w>pilko</w><w>mā</w><w>cäñca<supplied>n-ne</supplied></w><gap reason="lost"/>
+<lb corresp="#b4"/><gap reason="lost"/><num value="8">8</num><w>sa<supplied>mya</supplied>gd<supplied>ṛ</supplied>ṣ<supplied>ṭ</supplied>i<supplied>r</supplied></w><gap reason="lost"/>
+<lb corresp="#b5"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>e</w><w><gap reason="plain" unit="part"/>e</w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a3"><seg><seg type="prim_transl">[TB] for him who (is self-restrained), lives according to the law</seg></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl">[TB] (and is careful, fame) increases [SKT] (do not be negligent) in your minds!</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">[SKT] (one should) not (dwell) with negligence</seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl">[TB] one should not like a (wrong) view</seg></seg></choice><choice corresp="#b4"><seg><seg type="prim_transl">[SKT] [who has] a (completely) right view</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="parallels"><bibl><title corresp="ref:bernhard1965"/><citedRange>127-128</citedRange></bibl>; <bibl><title corresp="ref:levi1912a"/><citedRange>241-245</citedRange></bibl>; <bibl><title corresp="ref:hahn2007"/><citedRange>23-24</citedRange></bibl></note><note type="remarks">Possibly the leaf directly following <ref type="ms" target="txt:m-ioltoch928"/>.</note><note type="remarks">The lines are numbered on the assumption that the fragment is from the same ms. as <ref type="ms" target="txt:m-ioltoch928"/>: a1 may have contained 4.6a; a2 4.6b; a6 4.7b-c; b1 7d-8a. On <ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL%20Toch%20479" type="external">IDP</ref>, recto and verso are reversed.</note><note corresp="#a3" type="philcomment">Uv.4.6c <hi>saṃyatasya hi dharmajīvinaḥ</hi></note><note corresp="#a4" type="philcomment">Uv.4.6d-7a <hi>hy apramattasya yaśo ’bhivardhate // 6 adhicetasi mā pramadyata</hi></note><note corresp="#b2" type="philcomment">Uv.4.8b <hi>pramādena na saṃvaset</hi>, see Dhp.167 (and <bibl><title corresp="ref:norman2004"/><citedRange>26</citedRange></bibl>)</note><note corresp="#b3" type="philcomment">Uv.4.8c <hi>mithyādṛṣṭiṃ na roceta</hi>, see Dhp.167 (and <bibl><title corresp="ref:norman2004"/><citedRange>26</citedRange></bibl>)</note><note corresp="#b4" type="philcomment">Uv.4.9a <hi>samyagdṛṣṭir adhīmātrā</hi></note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL%20Toch%20479" type="external">IOL Toch 479</ref></bibl>. </p>
+            <p><label>Edition</label><bibl><title corresp="ref:peyrot2007"/><citedRange>№479</citedRange></bibl>; <bibl><title corresp="ref:peyrot2008a"/><citedRange>91</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="file_location_old">pages/manuscript/IOL_Toch/ioltoch479.txt</item>
+               <item n="m_completeness_old"/>
+               <item n="m_lines_old">4</item>
+               <item n="m_collection_old">British Library (London)</item>
+               <item n="access_old">public</item>
+               <item n="m_linedistance_old">1,4</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="date_publication_old"/>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_transliteration_old">a2 /// ·_t· ·t· ///
+a3 /// -knesa [ś]·[y]·ñca- ///
+a4 /// ·[s]m·t_r_a 6 adhi[ce]- ///
+a5 /// – ·[ā] ·i – ·o ///
+b2 /// ·r· – – [n]· n· ///
+b3 /// p[i]lko mā cäñca- ///
+b4 /// 8 sa – g[d]·[ṣ·]i ///
+b5 /// ·e ·e ///</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=12712;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=12712;rotate=0;imageType=_M||IOL Toch 479 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=12713;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=12713;rotate=0;imageType=_M||IOL Toch 479 verso</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;A href="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL%20Toch%20479"&gt;IOL Toch 479&lt;/a&gt;.&lt;br&gt;
+Edition: [[Peyrot 2007]]: №479; [[Peyrot 2008a]]: 91.</item>
+               <item n="file_created_old">1322765175</item>
+               <item n="file_modified_old">1576074687</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;a3.&lt;/b&gt; Uv.4.6c &lt;i&gt;saṃyatasya hi dharmajīvinaḥ&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a4.&lt;/b&gt; Uv.4.6d-7a &lt;i&gt;hy apramattasya yaśo ’bhivardhate // 6 adhicetasi mā pramadyata&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b2.&lt;/b&gt; Uv.4.8b &lt;i&gt;pramādena na saṃvaset&lt;/i&gt;, see Dhp.167 (and [[Norman 2004]]: 26)&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b3.&lt;/b&gt; Uv.4.8c &lt;i&gt;mithyādṛṣṭiṃ na roceta&lt;/i&gt;, see Dhp.167 (and [[Norman 2004]]: 26)&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b4.&lt;/b&gt; Uv.4.9a &lt;i&gt;samyagdṛṣṭir adhīmātrā&lt;/i&gt;&lt;/p&gt;</item>
+               <item n="m_passage_old">4.6c-4.9a</item>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="m_expedition_old"/>
+               <item n="m_size_w_old"/>
+               <item n="m_remarks_old">&lt;p&gt;Possibly the leaf directly following [[IOL Toch 928]].&lt;/p&gt;
+&lt;p&gt;The lines are numbered on the assumption that the fragment is from the same ms. as [[IOL Toch 928]]: a1 may have contained 4.6a; a2 4.6b; a6 4.7b-c; b1 7d-8a. On &lt;a href="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL%20Toch%20479"&gt;IDP&lt;/a&gt;, recto and verso are reversed.&lt;/p&gt;</item>
+               <item n="m_language_old">Sanskrit+TB</item>
+               <item n="m_other_sigla_old">D 120</item>
+               <item n="m_script_old">Classical</item>
+               <item n="ms_old">IOL Toch 479</item>
+               <item n="project_comment_old"/>
+               <item n="m_parallels_old">[[Bernhard 1965]]: 127-128; [[Lévi 1912a]]: 241-245; [[Hahn 2007]]: 23-24</item>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_meter_old"/>
+               <item n="m_title_old">Udānavarga</item>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old">a2 /// ·t· ·t· ///
+a3 /// (pelai)knesa ś(a)y(e)ñca(ntse) ///
+a4 /// (t)sm(e)trä 6 adhice(tasi) ///
+a5 /// – ·ā ·i – ·o ///
+b2 /// (p)r(amāde)n(a) n(a) ///
+b3 /// pilko mā cäñcaṃ-ne|cäñca(n-ne) ///
+b4 /// 8 sa(mya)gd(ṛ)ṣ(ṭ)i(r) ///
+b5 /// ·e ·e ///</item>
+               <item n="m_prev_old"/>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old">martin</item>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_subgenre_old">Doctrine</item>
+               <item n="m_translation_old">a3 [TB] for him who (is self-restrained), lives according to the law
+a4 [TB] (and is careful, fame) increases [SKT] (do not be negligent) in your minds!
+b2 [SKT] (one should) not (dwell) with negligence
+b3 [TB] one should not like a (wrong) view
+b4 [SKT] [who has] a (completely) right view</item>
+               <item n="project_check_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_tune_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

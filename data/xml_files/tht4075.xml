@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht4075">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 4075</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Melanie Malzahn</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <date when="2014-09-10">10.09.2014</date>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 4075</idno>
+                  <altIdentifier>
+                     <idno>SHT 146</idno>
+                  </altIdentifier>
+                  <msName>Pustaka</msName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>7,5</height>
+                              <width>21</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">6</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Qizil Miŋ-Öy</region><placeName>Rothkuppelraum</placeName>during <rs type="expedition_code">T III MQR B 26</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="txb" ana="frg:ls-cetom-late frg:ls-cetom-aberrant-hypercorrect"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Medicine/Magic</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=335522;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=335522;rotate=0;imageType=_M"/>
+            <line n="4" xml:id="b4"><space type="string_hole"/><zone><unclear>wa</unclear></zone><zone>rni</zone><zone>se</zone><zone>tya</zone><zone>MA</zone><zone>ṢA</zone><zone>le</zone><zone>sa</zone><zone>rwa</zone><zone>na</zone><zone>li</zone><zone>kṣa</zone><zone>le</zone><zone>o</zone></line>
+            <line n="5" xml:id="b5"><zone>PA</zone><zone>tsa</zone><zone>MA</zone><zone>ske</zone><zone>dra</zone><zone>॥</zone><zone>na</zone><zone>mo</zone><zone>pra</zone><zone>su</zone><zone>nna</zone><zone>ma</zone><zone>na</zone><zone>sa</zone><zone>•</zone><zone>ma</zone><zone><unclear>n</unclear>da</zone><zone><unclear>v</unclear>i</zone><zone><unclear>r</unclear>o</zone></line>
+            <line n="6" xml:id="b6"><zone>ri</zone><zone>sva</zone><zone>ha</zone><zone>te</zone><zone>sa</zone><zone>ma</zone><zone>ma</zone><zone>nto</zone><zone>PA</zone><zone>l<unclear>sk</unclear>o</zone><zone>ta</zone><zone>KA</zone><zone>rṣe</zone><zone>MA</zone><zone>ske</zone><zone>tra</zone><zone>•</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#b4"/><w>war</w><w>niset</w><w>yamäṣäle</w><w>sarwana</w><w>likṣale</w>
+<w>o<lb corresp="#b5"/>pätsa</w><w>mäskedra</w><pc>॥</pc><foreign xml:lang="san"><w>namo</w><w>prasunnamanasa</w><pc>•</pc><w>mandaviro<milestone unit="w" type="break"/></w></foreign>
+<lb corresp="#b6"/><foreign xml:lang="san"><w>-ri</w><w>svaha</w></foreign><w>tesa</w><w>mamanto-pälsko</w><w>takärṣe</w><w>mäsketra</w><pc>•</pc></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#b4"><seg><seg type="prim_transl">On water a spell is to be cast. The face is to be washed. She </seg></seg></choice><choice corresp="#b5"><seg><seg type="prim_transl">becomes not jealous (?). <hi>Sanskrit</hi> </seg></seg></choice><choice corresp="#b6"><seg><seg type="prim_transl"><hi>Sanskrit</hi> Thereby one who is evil-minded becomes friendly.</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="lingcomment">The short text shows late/colloquial forms as well as wrong orthography:</note><note type="remarks">The Tocharian text has been written on the blank space after a Sanskrit donor text (ed. in <bibl><title corresp="ref:waldschmidt1965"/><citedRange>83</citedRange></bibl> as no. SHT 146) by a different hand with a brush; the script is very clumsy. 
+The leaf comes from the only complete Sanskrit pustaka book unearthed from Qizil, see <bibl><title corresp="ref:sander1994"/><citedRange>98</citedRange></bibl>; <ref type="ms" target="txt:m-tht295"/> and the wooden covers <ref type="ms" target="txt:m-tht3990"/> and <ref type="ms" target="txt:m-tht3990b"/> belong to the same pustaka.</note><note corresp="#b4" type="lingcomment"><hi>sarwana</hi> for <hi>särwāna</hi>;</note><note corresp="#b4" type="philcomment">For the use of the cross-barred square sign to render ‹mä›, see <bibl><title corresp="ref:malzahn2007a"/><citedRange>287</citedRange></bibl>.</note><note corresp="#b4 #b5" type="philcomment">In contrast to <bibl><title corresp="ref:malzahn2007b"/><citedRange>301</citedRange></bibl>, <hi>opätsa</hi> rather seems to be a complete form; <bibl><title corresp="ref:adams2013a"/><citedRange>122</citedRange></bibl> connects it with TA <w lemmaRef="A_päts"/> 'jealousy' and suggests a privative adjective 'not jealous'.</note><note corresp="#b5" type="lingcomment">Skt. <hi>prasunna</hi>- stands for correct Skt.<hi> prasanna</hi>- ‘clear, friendly’, and °<hi>manasa</hi> for genitival °<hi>manasaḥ</hi>, visarga being usually omitted in texts from Eastern Turkestan; note also the use of the genitive instead of the expected dative.</note><note corresp="#b5 #b6" type="lingcomment"><hi>mäsketra</hi> with 3.sg. ending -<hi>ra</hi> but in addition the kind of hypercorrect spelling with <hi>d</hi> in <hi>mäskedra</hi>.</note><note corresp="#b6" type="lingcomment"><hi>mamanto-pälsko</hi> shows late diphthongization; the form seems to be a bahuvrihi compound consisting of the PPt <hi>mamāntau</hi> ‘being evil’ and of <hi>palsko</hi> ‘mind, spirit’. 
+Note further that the <hi>Sanskrit</hi> is also corrupt, which is often the case in this pustaka (cf. <bibl><title corresp="ref:sander1994"/></bibl>), esp. with respect to wrong vowels.</note><note corresp="#b6" type="lingcomment"><hi>svaha</hi> for Skt. <hi>svāhā</hi> ‘hail!’.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 4075" type="external">THT 4075</ref></bibl>. </p>
+            <p><label>Edition</label><bibl><title corresp="ref:waldschmidt1965"/><citedRange>83</citedRange></bibl> with plate 26; <bibl><title corresp="ref:malzahn2007b"/><citedRange>301-301</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_size_h_old">7,5</item>
+               <item n="m_next_old"/>
+               <item n="file_modified_old">1582646242</item>
+               <item n="file_created_old">1340137309</item>
+               <item n="m_editor_old">Melanie Malzahn</item>
+               <item n="m_philcomment_old">&lt;b&gt;b4&lt;/b&gt; For the use of the cross-barred square sign to render ‹mä›, see [[Malzahn 2007a]]: 287.&lt;br&gt;
+&lt;b&gt;b4-5&lt;/b&gt; In contrast to [[Malzahn 2007b]]: 301, &lt;i&gt;opätsa&lt;/i&gt; rather seems to be a complete form; [[Adams, 2DoT]]: 122 connects it with TA [[päts]] 'jealousy' and suggests a privative adjective 'not jealous'.&lt;br&gt;</item>
+               <item n="m_passage_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=335432;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=335432;rotate=0;imageType=_M||THT 4075 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=335522;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=335522;rotate=0;imageType=_M||THT 4075 verso|transform:rotate(180deg);</item>
+               <item n="m_transliteration_old">b4 ○ [wa]r niset ya_m_a_ṣ_ale sarwana likṣale o
+b5 _p_atsa _m_askedra || namo prasunnamanasa • ma[n]da[v]i[r]o
+b6 ri svaha tesa mamanto-_p_al[sk]o ta_k_arṣe _m_asketra •</item>
+               <item n="m_language_stage_old">Late</item>
+               <item n="date_publication_old">10.09.2014</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 4075" target="idp"&gt;THT 4075&lt;/a&gt;.&lt;br&gt;
+Edition: [[SHT I]]: 83 with plate 26; [[Malzahn 2007b]]: 301-301.</item>
+               <item n="m_manuscript_old">Pustaka</item>
+               <item n="m_lingcomment_old">The short text shows late/colloquial forms as well as wrong orthography:&lt;br&gt;
+&lt;b&gt;b4&lt;/b&gt; &lt;i&gt;sarwana&lt;/i&gt; for &lt;i&gt;särwāna&lt;/i&gt;;&lt;br&gt;
+&lt;b&gt;b5, b6&lt;/b&gt; &lt;i&gt;mäsketra&lt;/i&gt; with 3.sg. ending -&lt;i&gt;ra&lt;/i&gt; but in addition the kind of hypercorrect spelling with &lt;i&gt;d&lt;/i&gt; in &lt;i&gt;mäskedra&lt;/i&gt;.&lt;br&gt;
+&lt;b&gt;b6&lt;/b&gt; &lt;i&gt;mamanto-pälsko&lt;/i&gt; shows late diphthongization; the form seems to be a bahuvrihi compound consisting of the PPt &lt;i&gt;mamāntau&lt;/i&gt; ‘being evil’ and of &lt;i&gt;palsko&lt;/i&gt; ‘mind, spirit’.&lt;br&gt;
+Note further that the &lt;i&gt;Sanskrit&lt;/i&gt; is also corrupt, which is often the case in this pustaka (cf. [[Sander 1994]]), esp. with respect to wrong vowels.&lt;br&gt;
+&lt;b&gt;b5&lt;/b&gt; Skt. &lt;i&gt;prasunna&lt;/i&gt;- stands for correct Skt.&lt;i&gt; prasanna&lt;/i&gt;- ‘clear, friendly’, and °&lt;i&gt;manasa&lt;/i&gt; for genitival °&lt;i&gt;manasaḥ&lt;/i&gt;, visarga being usually omitted in texts from Eastern Turkestan; note also the use of the genitive instead of the expected dative.&lt;br&gt; 
+&lt;b&gt;b6&lt;/b&gt; &lt;i&gt;svaha&lt;/i&gt; for Skt. &lt;i&gt;svāhā&lt;/i&gt; ‘hail!’. </item>
+               <item n="m_linedistance_old"/>
+               <item n="m_findspot_specific_old">Rothkuppelraum</item>
+               <item n="m_findspot_old">Qizil Miŋ-Öy</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="file_location_old">pages/manuscript/THT_2400_4170/tht4075.txt</item>
+               <item n="access_old">public</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_lines_old">6</item>
+               <item n="m_completeness_old"/>
+               <item n="m_translation_old">b4 On water a spell is to be cast. The face is to be washed. She 
+b5 becomes not jealous (?). &lt;i&gt;Sanskrit&lt;/i&gt; 
+b6 &lt;i&gt;Sanskrit&lt;/i&gt; Thereby one who is evil-minded becomes friendly.</item>
+               <item n="m_subgenre_old">Medicine/Magic</item>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_tune_old"/>
+               <item n="project_check_old"/>
+               <item n="user_modified_old">martin</item>
+               <item n="user_created_old">automatic</item>
+               <item n="m_prev_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old">With hypercorrect forms</item>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_transcription_old">b4 war nässait|niset yamaṣṣälle|yamäṣäle särwāna|sarwana lyikṣalle|likṣale opätsa|o|pätsa
+b5 mäsketär|mäskedra || &lt;span lang="Sanskrit"&gt;namo prasunnamanasa • mandaviro-&lt;/span&gt;
+b6 &lt;span lang="Sanskrit"&gt;-ri svaha&lt;/span&gt; tesa mamāntau-pälsko|mamanto-pälsko takarṣke|takärṣe mäsketär|mäsketra •</item>
+               <item n="m_leaf_old"/>
+               <item n="m_title_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_other_sigla_old">SHT 146</item>
+               <item n="m_language_old">Sanskrit+TB</item>
+               <item n="m_remarks_old">The Tocharian text has been written on the blank space after a Sanskrit donor text (ed. in [[SHT I]]: 83 as no. SHT 146) by a different hand with a brush; the script is very clumsy.&lt;br&gt;
+The leaf comes from the only complete Sanskrit pustaka book unearthed from Qizil, see [[Sander 1994]]: 98; [[THT 295]] and the wooden covers [[THT 3990.a]] and [[THT 3990.b]] belong to the same pustaka.</item>
+               <item n="m_size_w_old">21</item>
+               <item n="m_expedition_old">T III MQR B 26</item>
+               <item n="m_parallels_old"/>
+               <item n="project_comment_old"/>
+               <item n="ms_old">THT 4075</item>
+               <item n="m_script_old">Classical</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

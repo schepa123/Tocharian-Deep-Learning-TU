@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-ioltoch224">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>IOL Toch 224</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library (London)</repository>
+                  <idno>IOL Toch 224</idno>
+                  <altIdentifier>
+                     <idno>H add.149.95</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>C.95</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Karmavibhaṅga ??</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>7.6</height>
+                              <width>9.5</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Doctrine</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=14955;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=14955;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL224a.jpg" height="312px" width="358px"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone>pta</zone><zone>ntse</zone><zone>kauṃ</zone><zone>ṣme</zone><zone>ma</zone><zone>ne</zone><zone>:</zone><zone>ṣa</zone><zone>mā</zone><zone>n<unclear>i</unclear></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone>ppyai</zone><zone>sa</zone><zone>•</zone><zone>pa</zone><zone>kai</zone><zone>kṣā</zone><zone>ttre</zone><zone>sa</zone><zone>:</zone><zone>pu</zone><zone>ṣ<gap reason="plain" unit="part"/>a</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone><unclear>k</unclear>e</zone><zone>ktse</zone><zone>nne</zone><zone>॥</zone><zone>kuse</zone><zone>śai</zone><zone>ṣṣe</zone><zone>ne</zone><zone>ma</zone><zone>ṅkā</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone><unclear>r</unclear>a</zone><zone><unclear>n</unclear>o</zone><gap reason="par" quantity="1"/><zone>rtt<unclear>o</unclear></zone><zone>nta</zone><zone>we</zone><zone>rpi</zone><zone>śkaṃ</zone><zone>pya</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><gap reason="lost"/><zone>ke</zone><zone><unclear>kt</unclear>se</zone><zone>nne</zone><zone>॥</zone><zone>a</zone><zone>nra</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=14966;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=14966;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL224b.jpg" height="768px" width="867px"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><gap reason="plain" quantity="2"/><zone>o</zone><zone>KTA</zone><zone>nrai</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><gap reason="plain" quantity="3"/><zone>ra</zone><zone>gau</zone><zone>ra</zone><zone>PA</zone><zone>:</zone><zone>ja</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>•</zone><zone>o</zone><zone>ktma</zone><zone>ne</zone><zone>śtwā</zone><zone>rya</zone><zone>ltse</zone><zone>KA</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><zone>lā</zone><zone>ñcä</zone><zone>a</zone><zone>mā</zone><zone>cä</zone><zone>nta</zone><zone>:</zone><zone>wä</zone><zone>nte</zone><zone>re</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>e</zone><zone>:</zone><zone>pa</zone><zone>ñca</zone><zone>va</zone><zone>rṣī</zone><zone>KA</zone><zone>nta</zone><zone>ka</zone><zone>ko</zone><zone>nta</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><w>ptantse</w><w>kauṃ</w><w>ṣmemane</w><pc>:</pc><w>ṣamāni</w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><w><supplied>pyā</supplied>ppyaisa</w><pc>•</pc><w>pakai</w><w>kṣāttresa</w><pc>:</pc><w>puṣ<supplied>p</supplied>a</w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><w>kektsenne</w><pc>॥</pc><w>kUse</w><w>śaiṣṣene</w><w>maṅkā<supplied>l</supplied></w><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>rano</w><w><supplied>wä</supplied>rttonta</w><w>werpiśkaṃ</w><w>pya<supplied>ppyaiṃ</supplied></w><gap reason="lost"/>
+<lb corresp="#a5"/><gap reason="lost"/><w>kektsenne</w><pc>॥</pc><w>anra</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><gap reason="plain" quantity="2"/><w>oktä</w><w>nrai</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><gap reason="plain" quantity="3"/><w>ra</w><w>gaurapä</w><pc>:</pc><w>jā</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><gap reason="plain" quantity="1"/><pc>•</pc><w>oktmane</w><w>śtwār-yaltse</w><w>kä</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b4"/><gap reason="lost"/><w>lāñcä</w><w>amācänta</w><pc>:</pc><w>wäntere</w><gap reason="lost"/>
+<lb corresp="#b5"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>e</w><pc>:</pc><w>pañcavarṣīkänta</w><w>kakonta</w><gap reason="lost"/></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">According to <bibl><title corresp="ref:broomhead1962"/><citedRange>256</citedRange></bibl> "[w]ritten in medium ductus, and fairly clearly preserved, despite abrasion on both sides, slightly worse on the verso. It is part of a manuscript having originally at least five lines." He also identifies this fragment as folios 45-46 (op.cit.).</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition</label><bibl><title corresp="ref:peyrot2007"/><citedRange>№224</citedRange></bibl><bibl><title corresp="ref:broomhead1962"/><citedRange>256</citedRange></bibl>.</p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 224" type="external">IOL Toch 224</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_subgenre_old">Doctrine</item>
+               <item n="file_name_old">pages/manuscript/IOL_Toch/ioltoch224.txt</item>
+               <item n="file_savedate_old">2016-10-21, 09:25:34 (CEST)</item>
+               <item n="category_old">manuscript</item>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old">theres</item>
+               <item n="group_old">Editor</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_title_old">Karmavibhaṅga ??</item>
+               <item n="m_transcription_old">a1 /// ptantse kauṃ ṣmemane : ṣamāni ///
+a2 /// (pyā)ppyaisa • pakai kṣāttresa : puṣ(p)a ///
+a3 /// kektsenne || k_use śaiṣṣene maṅkā(l) ///
+a4 /// – rano (wä)rttonta werpiśkaṃ pya(ppyaiṃ) ///
+a5 /// kektsenne || anra – ///
+b1 /// – – oktä nrai – ///
+b2 /// – – – ra gaurapä : jā – ///
+b3 /// – • oktmane śtwār-yältse|śtwār-yaltse kä – ///
+b4 /// lāñcä amācänta : wäntere ///
+b5 /// ·e : pañcavarṣīkänta kakonta ///</item>
+               <item n="editgroup_old">Editor</item>
+               <item n="m_script_old">Classical</item>
+               <item n="ms_old">IOL Toch 224</item>
+               <item n="edited_date_old">2016-10-21, 09:25:34 (CEST)</item>
+               <item n="m_size_w_old">9.5</item>
+               <item n="m_remarks_old">&lt;p&gt;According to [[Broomhead I]]: 256 "[w]ritten in medium ductus, and fairly clearly preserved, despite abrasion on both sides, slightly worse on the verso. It is part of a manuscript having originally at least five lines." He also identifies this fragment as folios 45-46 (op.cit.).&lt;/p&gt;</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_other_sigla_old">H add.149.95; C.95</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="page_name_old">IOL Toch 224</item>
+               <item n="version_old">7</item>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="file_created_old">1322765175</item>
+               <item n="file_modified_old">1549513789</item>
+               <item n="m_size_h_old">7.6</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 224"&gt;IOL Toch 224&lt;/a&gt;.&lt;br&gt;
+Edition: [[Peyrot 2007]]: №224, [[Broomhead I]]: 256.</item>
+               <item n="file_size_old">2 KB</item>
+               <item n="m_transliteration_old">a1 /// ptantse kauṃ ṣmemane : ṣamān[i] ///
+a2 /// -ppyaisa • pakai kṣāttresa : puṣ·a ///
+a3 /// [k]ektsenne || k_use śaiṣṣene maṅkā- ///
+a4 /// – [r]a[n]o (–)rtt[o]nta werpiśkaṃ pya- ///
+a5 /// ke[kt]senne || anra – ///
+b1 /// – – o_k_t_a nrai – ///
+b2 /// – – – ra gaura_p_a : ja – ///
+b3 /// – • oktmane śtwār-yaltse _k_a – ///
+b4 /// lāñcä amācänta : wäntere ///
+b5 /// ·e : pañcavarṣī_k_anta kakonta ///</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=14955;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=14955;rotate=0;imageType=_M||IOL Toch 224 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=14966;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=14966;rotate=0;imageType=_M||IOL Toch 224 verso</item>
+               <item n="created_date_old">2011-12-01, 19:46:15 (CET)</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="m_collection_old">British Library (London)</item>
+               <item n="m_lines_old">5</item>
+               <item n="access_old">restricted</item>
+               <item n="file_location_old">pages/manuscript/IOL_Toch/ioltoch224.txt</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

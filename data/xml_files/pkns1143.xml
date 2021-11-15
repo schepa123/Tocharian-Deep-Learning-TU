@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-pkns1143">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PK NS 1143</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Georges-Jean Pinault</name>
+            </respStmt>
+            <respStmt>
+               <resp>collaborator</resp>
+               <name>Melanie Malzahn</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <date when="2012-08">August 2012</date>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</repository>
+                  <idno>PK NS 1143</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Araṇemijātaka (?)</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>6</height>
+                              <width>4</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <dimensions type="line_spacing">
+                              <height>1,4</height>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Duldur-Akhur</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Jātaka/Avadāna</term>
+               <term type="prose_verse">prose</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <line n="1" xml:id="a1"><zone><gap reason="par" unit="part"/><unclear>t</unclear>s<gap reason="par" unit="part"/></zone><zone>y<gap reason="par" unit="part"/></zone><zone>n</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><zone>po</zone><zone>ykne</zone><zone>sa</zone><zone><unclear>MA</unclear></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><zone><unclear>ṇ</unclear>ā</zone><zone>va</zone><zone>ti</zone><zone>rī</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><zone><unclear>MA</unclear></zone><zone>ñc<unclear>u</unclear></zone><zone>ṣ<gap reason="par" unit="part"/>e</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <line n="1" xml:id="b1"><zone><gap reason="par" unit="part"/>s<gap reason="par" unit="part"/></zone><zone>:</zone><zone>c<gap reason="par" unit="part"/><gap reason="par" unit="part"/></zone><zone><unclear>PA</unclear></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><zone><unclear>l</unclear>ā</zone><zone>ñcä</zone><zone>ta</zone><zone>k<gap reason="par" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><zone>pe</zone><zone>rne</zone><zone>rñe<gap reason="par" unit="part"/></zone><zone><unclear>ṣai</unclear></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><gap reason="par" quantity="1"/><zone><unclear>s</unclear>a</zone><zone><gap reason="par" unit="part"/>ai</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><w><gap reason="plain" unit="part"/>ts<gap reason="plain" unit="part"/>y<gap reason="plain" unit="part"/>n</w><gap reason="lost"/>
+<lb corresp="#a2"/><w>poyknesa</w><w>mä</w><gap reason="lost"/>
+<w><supplied>aru</supplied><lb corresp="#a3"/>ṇāvati</w><w>rī<supplied>ne</supplied></w><gap reason="lost"/>
+<lb corresp="#a4"/><w>mäñcuṣ<supplied>k</supplied>e</w><gap reason="lost"/>
+<lb corresp="#b1"/><w><gap reason="plain" unit="part"/>s<gap reason="plain" unit="part"/></w><pc>:</pc><w>c<supplied>am</supplied>pä<supplied>ṃ</supplied></w><gap reason="lost"/>
+<lb corresp="#b2"/><w>lāñc<surplus>ä</surplus></w><w>tak<supplied>a</supplied></w><gap reason="lost"/>
+<lb corresp="#b3"/><w>pernerñe<supplied>ṣ</supplied>ṣai</w><gap reason="lost"/>
+<lb corresp="#b4"/><gap reason="plain" quantity="1"/><w>sa<supplied>n</supplied>ai</w><gap reason="plain" quantity="1"/><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">...</seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">... by every means ...</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">... (in) the city of Aruṇāvati ...</seg></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl">... the prince ...</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">... He is able to ...</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">... the kings for sure ...</seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl">... (with) the ... pertaining to splendor ...</seg></seg></choice><choice corresp="#b4"><seg><seg type="prim_transl">... one (fem.) ...</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">Small piece from the left part of a leaf.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>other</label>First edited by <bibl><title corresp="ref:couvreur1964"/><citedRange>248</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_meter_old"/>
+               <item n="m_title_old">Araṇemijātaka (?)</item>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old">a1 (·)ts(·)y(·)n ///
+a2 poyknesa mä /// aruṇāvati|(aru)|ṇāvati
+a3 rī(ne) ///
+a4 mñcuṣke|mäñcuṣ(k)e ///
+b1 (·)s(·) : c(a)(m)pä(ṃ) ///
+b2 lāñc tak(a) ///
+b3 pernerñe(ṣ)ṣai ///
+b4 (–) sa(n)ai – ///</item>
+               <item n="m_size_w_old">4</item>
+               <item n="m_expedition_old"/>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old">&lt;p&gt;Small piece from the left part of a leaf.&lt;/p&gt;</item>
+               <item n="m_other_sigla_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="ms_old">PK NS 1143</item>
+               <item n="project_comment_old"/>
+               <item n="m_parallels_old"/>
+               <item n="m_translation_old">a1 ...
+a2 ... by every means ...
+a3 ... (in) the city of Aruṇāvati ...
+a4 ... the prince ...
+b1 ... He is able to ...
+b2 ... the kings for sure ...
+b3 ... (with) the ... pertaining to splendor ...
+b4 ... one (fem.) ...</item>
+               <item n="m_subgenre_old">Jātaka/Avadāna</item>
+               <item n="m_metric_form_old">Both</item>
+               <item n="m_tune_old"/>
+               <item n="m_prev_old"/>
+               <item n="user_created_old">melanie</item>
+               <item n="user_modified_old">theres</item>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_linedistance_old">1,4</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_old">Duldur-Akhur</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="file_location_old">pages/manuscript/PK_NS/pkns1143.txt</item>
+               <item n="m_completeness_old"/>
+               <item n="m_lines_old">4</item>
+               <item n="m_collection_old">Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</item>
+               <item n="access_old">public</item>
+               <item n="file_created_old">1341668941</item>
+               <item n="file_modified_old">1485166378</item>
+               <item n="m_size_h_old">6</item>
+               <item n="m_next_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_philcomment_old"/>
+               <item n="m_passage_old"/>
+               <item n="m_editor_old">Georges-Jean Pinault (in collaboration with Melanie Malzahn)</item>
+               <item n="date_publication_old">August 2012</item>
+               <item n="m_transliteration_old">a1 (·)[t]s(·)y(·)n ///
+a2 poyknesa [_m_a] ///
+a3 [ṇ]āvati rī ///
+a4 [_m_a]ñc[u]ṣ(·)e ///
+b1 (·)s(·) : c(·)(·)[_p_a] ///
+b2 [l]āñcä(\) tak(·) ///
+b3 pernerñe(·)[ṣai] ///
+b4 (–) [s]a(·)ai – ///</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_image_old"/>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_bib_old">First edited by [[Couvreur 1964]]: 248.</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

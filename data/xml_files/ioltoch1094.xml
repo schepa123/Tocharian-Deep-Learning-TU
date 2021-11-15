@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="en"
+     xml:id="m-ioltoch1094">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>IOL Toch 1094</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library (London)</repository>
+                  <idno>IOL Toch 1094</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Jātaka/Avadāna</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=80528;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=80528;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL1094a.bmp"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone><unclear>m</unclear>k<gap reason="plain" unit="part"/></zone><zone>ṣṣ<gap reason="plain" unit="part"/></zone><zone><unclear>:</unclear></zone><gap reason="plain" quantity="1"/><zone><unclear>k</unclear><gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="2"/><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone><unclear>ṣk</unclear><gap reason="plain" unit="part"/></zone><zone>su</zone><zone>pu</zone><zone>ṣPA</zone><zone>ṣṣe</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>ai</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=80578;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=80578;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL1094b.bmp"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone>s<gap reason="plain" unit="part"/></zone><zone>n<gap reason="plain" unit="part"/></zone><zone>wa</zone><zone>lo</zone><zone>ṣi</zone><zone>t<unclear>ai</unclear>ṃ</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone>la</zone><zone>teṃ</zone><zone>ṣi</zone><zone>taiṃ</zone><zone>॥</zone><zone>o</zone><zone>mno</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><w>mk<gap reason="plain" unit="part"/>ṣṣ<gap reason="plain" unit="part"/></w><pc>:</pc><gap reason="plain" quantity="1"/><w>k<gap reason="plain" unit="part"/></w><gap reason="plain" quantity="2"/><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><w>ṣk<gap reason="plain" unit="part"/></w><w>supuṣpäṣṣe</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>ai</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><w>s<gap reason="plain" unit="part"/>n<gap reason="plain" unit="part"/></w><w>walo</w><w>ṣitaiṃ</w><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><w>lateṃ</w><w>ṣitaiṃ</w><pc>॥</pc><w>om</w><w>no</w><gap reason="plain" quantity="1"/><gap reason="lost"/></p>
+         </div>
+         <div type="comments">
+            <p><note corresp="#b1" type="philcomment">. Certainly a name like <hi>mahendrasene</hi> (<ref type="ms" target="txt:m-ioltoch1"/> b2, <ref type="ms" target="txt:m-ioltoch29"/> a4, <ref type="ms" target="txt:m-ioltoch29"/> a5, <ref type="ms" target="txt:m-ioltoch63"/> a1, <ref type="ms" target="txt:m-ioltoch63"/> a3).</note><note corresp="#b1 #b2" type="philcomment">Certainly a new word <hi>ṣito*</hi>, like <hi>ṣiko</hi>. No verbal root known to me. Cf. <hi>ṣitaiṃ</hi> <ref type="ms" target="txt:m-tht211"/> b2 (<bibl><title corresp="ref:siegandsiegling1953"/><citedRange>126</citedRange></bibl> propose to correct into <hi>pitaiṃ</hi>); possibly <ref type="ms" target="txt:m-pkas7m"/> b5 <hi>ṣītai</hi>, but requires reading <hi>oniweṃ</hi> - on the other hand, the whole passage makes little sense anyhow: reading mistake? Cf. also <hi>ṣī</hi> <ref type="ms" target="txt:m-ioltoch63"/> a1 and <ref type="ms" target="txt:m-ioltoch63"/> b3 <hi>tai</hi> (not <hi>nai</hi>!)</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 1094" type="external">IOL Toch 1094</ref></bibl>. </p>
+            <p><label>Edition</label><bibl><title corresp="ref:tamai2007"/><citedRange>№1094</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="file_location_old">pages/manuscript/IOL_Toch/ioltoch1094.txt</item>
+               <item n="m_lines_old"/>
+               <item n="m_collection_old">British Library (London)</item>
+               <item n="access_old">restricted</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="date_publication_old"/>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_transliteration_old">a1	/// [m]k·ṣṣ· [:] – [k]· – – ///
+a2	/// [ṣk]· supuṣ_p_aṣṣe – ///
+a3	/// ·ai – ///
+b1	/// s·n· walo ṣit[ai]ṃ ///
+b2	/// lateṃ ṣitaiṃ || om no – ///</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=80528;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=80528;rotate=0;imageType=_M||IOL Toch 1094 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=80578;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=80578;rotate=0;imageType=_M||IOL Toch 1094 verso</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 1094"&gt;IOL Toch 1094&lt;/a&gt;.&lt;br&gt;
+Edition: [[Tamai 2007]]: №1094.</item>
+               <item n="file_created_old">1342554971</item>
+               <item n="file_modified_old">1480070524</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;b1-2.&lt;/b&gt; Certainly a new word &lt;i&gt;ṣito*&lt;/i&gt;, like &lt;i&gt;ṣiko&lt;/i&gt;. No verbal root known to me. Cf. &lt;i&gt;ṣitaiṃ&lt;/i&gt; [[THT 211]] b2 ([[TochSprR(B) II]]: 126 propose to correct into &lt;i&gt;pitaiṃ&lt;/i&gt;); possibly [[PK AS 7M]] b5 &lt;i&gt;ṣītai&lt;/i&gt;, but requires reading &lt;i&gt;oniweṃ&lt;/i&gt; - on the other hand, the whole passage makes little sense anyhow: reading mistake? Cf. also &lt;i&gt;ṣī&lt;/i&gt; [[IOL Toch 63]] a1 and [[IOL Toch 63]] b3 &lt;i&gt;tai&lt;/i&gt; (not &lt;i&gt;nai&lt;/i&gt;!)&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b1&lt;/b&gt;. Certainly a name like &lt;i&gt;mahendrasene&lt;/i&gt; ([[IOL Toch 1]] b2, [[IOL Toch 29]] a4, [[IOL Toch 29]] a5, [[IOL Toch 63]] a1, [[IOL Toch 63]] a3).&lt;/p&gt;</item>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="m_expedition_old"/>
+               <item n="m_size_w_old"/>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old"/>
+               <item n="m_other_sigla_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="ms_old">IOL Toch 1094</item>
+               <item n="project_comment_old"/>
+               <item n="m_parallels_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_meter_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old">a1	/// mk·ṣṣ· : – k· – – ///
+a2	/// ṣk· supuṣpäṣṣe – ///
+a3	/// ·ai – ///
+b1	/// s·n· walo ṣitaiṃ ///
+b2	/// lateṃ ṣitaiṃ || om no – ///</item>
+               <item n="m_title_old"/>
+               <item n="m_prev_old"/>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old">theres</item>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_subgenre_old">Jātaka/Avadāna</item>
+               <item n="m_translation_old"/>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

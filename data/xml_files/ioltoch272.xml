@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-ioltoch272">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>IOL Toch 272</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library (London)</repository>
+                  <idno>IOL Toch 272</idno>
+                  <altIdentifier>
+                     <idno>H 150.117</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>D.117</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Buddhastotra</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=18715;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=18715;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL272a.jpg" height="740px" width="1024px"/>
+            <line xml:id="lf"><zone>– [2]</zone></line>
+            <line n="1" xml:id="a1"><zone>śpā</zone><zone>lmeṃ</zone><zone>:</zone><zone>TA</zone><zone>ryā</zone><zone>ka</zone><zone>śtwe</zone><zone>rkṣā</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><zone>yya</zone><zone>wa</zone><zone>rKṢA¯</zone><zone>¯L</zone><zone>po</zone><zone>yśi</zone><zone>ñña</zone><zone>na</zone><zone><gap reason="plain" unit="part"/>r<gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><zone>la</zone><zone>kṣā</zone><zone>nta</zone><zone>ye</zone><zone>twyo</zone><zone>kta</zone><zone>mka</zone><zone>:</zone><zone>ta</zone><space type="string_hole"/><zone>rya</zone><zone>śm<gap reason="plain" unit="part"/></zone><zone>ñ<unclear>ñ</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><zone>ŚA</zone><zone>ktā</zone><zone>lye</zone><zone>nta</zone><zone>KA</zone><zone>tnā</zone><zone>lyi</zone><zone>k<unclear>r</unclear>e</zone><zone><unclear>n</unclear>tau</zone><zone>na</zone><zone>ṣṣi</zone><zone>:</zone><zone>pa</zone><zone>ñä</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><zone>ne</zone><zone>ne</zone><zone>rvā</zone><zone>nṣai</zone><zone>a</zone><zone>rse</zone><zone>ma</zone><zone>ne</zone><zone>snai</zone><zone><gap reason="plain" unit="part"/><unclear>ä</unclear></zone><zone>ste</zone><zone>li</zone><zone>po</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=22427;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=22427;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL272b.jpg" height="736px" width="1024px"/>
+            <line n="1" xml:id="b1"><zone>rne</zone><zone>nta</zone><zone>śa</zone><zone>kKA</zone><zone>lymi</zone><zone>ntsa</zone><zone>saṃ</zone><zone>sā</zone><zone>rne</zone><zone>ta</zone><zone>ka</zone><zone>rṣkñe</zone><zone>sa</zone><zone>:</zone><zone><unclear>k</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><zone>na</zone><zone>śtwā</zone><zone>re</zone><zone>m<unclear>pr</unclear>e<gap reason="plain" unit="part"/></zone><zone>m<gap reason="plain" unit="part"/></zone><zone>ŚA<gap reason="plain" unit="part"/></zone><zone>sā</zone><zone>sta</zone><gap reason="plain" quantity="1"/><zone>w<unclear>i</unclear></zone><zone>nā</zone><zone>skau¯</zone><zone>¯c</zone><zone>:</zone><zone>klyo</zone><zone>m<unclear>ñai</unclear></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><zone>kle</zone><zone>śa</zone><zone>nma</zone><zone>ta</zone><zone>ksā</zone><zone>ckuse</zone><zone>ce¯</zone><zone>¯u</zone><zone>wi</zone><space type="string_hole"/><zone>nā</zone><zone>s<gap reason="plain" unit="part"/>au</zone><zone>:</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><zone><gap reason="plain" unit="part"/><unclear>au</unclear></zone><gap reason="plain" quantity="1"/><zone>nne</zone><zone><unclear>mā</unclear></zone><gap reason="plain" quantity="2"/><zone>kā</zone><zone>sta</zone><zone>ñä</zone><zone><unclear>k</unclear><gap reason="plain" unit="part"/><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><gap reason="plain" quantity="2"/><zone><gap reason="plain" unit="part"/><unclear>au</unclear></zone><zone>ñe</zone><zone>ta</zone><zone>ka</zone><zone>rṣKA</zone><zone>ññe</zone><zone>•</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <fw type="leafNum" corresp="#lf">– [2]</fw>
+            <p>
+<lb corresp="#a1"/><w>śpālmeṃ</w><pc>:</pc><w>täryāka</w><w>śtwer</w><w>kṣā</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#a2"/><w>-yya</w><w>warkṣäl</w><w>poyśiññana</w><w><gap reason="plain" unit="part"/>r<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#a3"/><w>lakṣānta</w><w>yetwy</w><w>oktamka</w><pc>:</pc><w>tarya</w><w>śm<supplied>o</supplied>ññ<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#a4"/><w>śäktālyenta</w><w>kätnālyi</w><w>krentaunaṣṣi</w><pc>:</pc><w>pañä<supplied>kte</supplied></w><gap reason="lost"/>
+<lb corresp="#a5"/><w>-ne</w><w>nervānṣai</w><w>arsemane</w><w>snai</w><w><supplied>w</supplied>äste</w><w>lipo<milestone unit="w" type="break"/></w><gap reason="lost"/>
+<lb corresp="#b1"/><w>-rnenta</w><w>śak</w><w>kälymintsa</w><w>saṃsārne</w><w>takarṣkñesa</w><pc>:</pc><w>k<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#b2"/><w>-na</w><w>śtwār=</w><w>empre<supplied>n</supplied>m<supplied>a</supplied></w><w>śä<supplied>r</supplied>sāsta</w><gap reason="plain" quantity="1"/><w>wināskau-c</w><pc>:</pc><w>klyomñai</w><gap reason="lost"/>
+<lb corresp="#b3"/><w>kleśanma</w><w>taksā-c</w><w>kUse</w><w>ceU</w><w>winās<supplied>k</supplied>au</w><pc>:</pc><gap reason="lost"/>
+<lb corresp="#b4"/><w><gap reason="plain" unit="part"/>au</w><gap reason="plain" quantity="1"/><w>nne</w><w>mā</w><gap reason="plain" quantity="1"/><w><supplied>ta</supplied>kāsta</w><w>ñäk<gap reason="plain" unit="part"/><gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#b5"/><gap reason="plain" quantity="2"/><w><gap reason="plain" unit="part"/>auñe</w><w>takarṣkäññe</w><pc>•</pc><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a2"><seg><bibl><title corresp="ref:hackstein1995"/><citedRange>79</citedRange></bibl></seg></choice><choice corresp="#b3"><seg><bibl><title corresp="ref:hackstein1995"/><citedRange>85</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1957"/><citedRange>220</citedRange></bibl></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">According to <bibl><title corresp="ref:broomhead1962"/><citedRange>269</citedRange></bibl> "[w]ritten in medium to small ductus, it is slightly abraded on both sides, rather worse on the verso. The left edge of a five line manuscript."</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 272" type="external">IOL Toch 272</ref></bibl>. </p>
+            <p><label>Edition</label><bibl><title corresp="ref:peyrot2007"/><citedRange>№272</citedRange></bibl><bibl><title corresp="ref:broomhead1962"/><citedRange>269</citedRange></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="ms_old">IOL Toch 272</item>
+               <item n="project_comment_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="m_parallels_old"/>
+               <item n="m_expedition_old"/>
+               <item n="m_size_w_old"/>
+               <item n="m_other_sigla_old">H 150.117; D.117</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old">&lt;p&gt;According to [[Broomhead I]]: 269 "[w]ritten in medium to small ductus, it is slightly abraded on both sides, rather worse on the verso. The left edge of a five line manuscript."&lt;/p&gt;</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_leaf_old">– [2]</item>
+               <item n="m_title_old"/>
+               <item n="m_transcription_old">a1 śpālmeṃ : täryāka śtwer kṣā –///
+a2 -yya warkṣäl poyśiññana ·r· ///
+a3 lakṣānänta|lakṣānta yetwi|yetwy oktaṅka|oktamka : tarya śm(o)ññ· ///
+a4 śäktālyenta kätnālyi krentaunaṣṣi : pañä(kte) ///
+a5 -ne nervāṇäṣṣai|nervānṣai arsemane snai waste|(w)äste lipo- ///
+b1 -rnenta śak kälymintsa saṃsārne takarṣkñesa : k· ///
+b2 -na śtwāra|śtwār= empre(n)m(a) śä(r)sāsta – wināskau-c : klyomñai ///
+b3 kleśanma taksā-c k_use cau|ce_u winās(k)au : ///
+b4 ·au – nne mā – (ta)kāsta ñäk·· ///
+b5 – – ·auñe takarṣkäññe • ///</item>
+               <item n="m_meter_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_prev_old"/>
+               <item n="user_modified_old">martin</item>
+               <item n="user_created_old">automatic</item>
+               <item n="project_check_old"/>
+               <item n="m_metric_form_old"/>
+               <item n="m_tune_old"/>
+               <item n="m_translation_old"/>
+               <item n="m_subgenre_old">Buddhastotra</item>
+               <item n="m_completeness_old"/>
+               <item n="access_old">restricted</item>
+               <item n="m_lines_old">5</item>
+               <item n="m_collection_old">British Library (London)</item>
+               <item n="file_location_old">pages/manuscript/IOL_Toch/ioltoch272.txt</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 272"&gt;IOL Toch 272&lt;/a&gt;.&lt;br&gt;
+Edition: [[Peyrot 2007]]: №272, [[Broomhead I]]: 269.&lt;br&gt;
+Translation:
+&lt;b&gt;a2&lt;/b&gt; [[Hackstein 1995]]: 79;
+&lt;b&gt;b3&lt;/b&gt; [[Hackstein 1995]]: 85; [[Thomas 1957]]: 220.</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_transliteration_old">a1 śpālmeṃ : _t_aryāka śtwer kṣā – ///
+a2 -yya war_k_ṣ_a_l\ poyśiññana ·r· ///
+a3 lakṣānta yetwy oktamka : ta○rya śm·ñ[ñ]· ///
+a4 _ś_aktālyenta _k_atnālyi k[r]e[n]taunaṣṣi : pañä- ///
+a5 -ne nervānṣai arsemane snai ·[ä]ste lipo- ///
+b1 -rnenta śak _k_alymintsa saṃsārne takarṣkñesa : [k]· ///
+b2 -na śtwār= em[pr]e·m· _ś_a·sāsta – w[i]nāskau-c\ : klyom[ñai] ///
+b3 kleśanma taksā-c k_use ce_u\ wi○nās·au : ///
+b4 ·[au] – nne [mā] – – kāsta ñä[k]·· ///
+b5 [– –] ·[au]ñe takarṣ_k_aññe • ///</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="date_publication_old"/>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=18715;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=18715;rotate=0;imageType=_M||IOL Toch 272 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=22427;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=22427;rotate=0;imageType=_M||IOL Toch 272 verso</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old"/>
+               <item n="file_modified_old">1562797703</item>
+               <item n="file_created_old">1322765175</item>
+               <item n="m_size_h_old"/>
+               <item n="m_next_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

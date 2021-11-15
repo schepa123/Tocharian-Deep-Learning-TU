@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-pkas1412">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PK AS 14.1.2</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Georges-Jean Pinault</name>
+            </respStmt>
+            <respStmt>
+               <resp>collaborator</resp>
+               <name>Melanie Malzahn</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</repository>
+                  <idno>PK AS 14.1.2</idno>
+                  <altIdentifier>
+                     <idno>Pelliot Koutchéen Ancienne Série 14.1.2</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>PK AS 14A.2</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>PK AS 14.A.II</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>14</height>
+                              <width>7,5</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <dimensions type="line_spacing">
+                              <height>2</height>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Jātaka/Avadāna</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone>cw<unclear>ī</unclear></zone><zone>ra</zone><zone>tr</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>2</zone><zone>॥</zone><zone>e</zone><zone>ṣke</zone><zone>ra</zone><zone><unclear>no</unclear></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone>t<unclear>n</unclear>o</zone><zone>cai</zone><zone>mā</zone><zone>cä</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><zone>kuse</zone><zone>ŚA</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><gap reason="lost"/><zone>tRA</zone><zone><unclear>m</unclear>ā</zone><zone>ra</zone><zone>tsa¯</zone><zone>¯K</zone><gap reason="lost"/></line>
+            <line n="6" xml:id="a6"><gap reason="lost"/><zone><unclear>ā</unclear></zone><zone>ko¯</zone><zone>¯yä</zone><zone>ta</zone><zone>rltse</zone><zone>cci</zone><gap reason="lost"/></line>
+            <line n="7" xml:id="a7"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone><unclear>k</unclear><gap reason="par" unit="part"/>a</zone><zone><unclear>ñ</unclear><gap reason="par" unit="part"/><unclear>e</unclear></zone><zone>no</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <line n="1" xml:id="b1"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>ṣṣ<gap reason="par" unit="part"/></zone><zone><unclear>lñ</unclear></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone>i</zone><zone>sta</zone><zone>ktā</zone><zone>ko¯</zone><gap reason="par" quantity="1"/><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><zone>soṃ</zone><zone>śka</zone><zone>ka</zone><zone>tka</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><zone>ly<unclear>e</unclear></zone><zone>y<gap reason="par" unit="part"/><gap reason="par" unit="part"/></zone><zone><unclear>tRA</unclear></zone><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><gap reason="lost"/><zone>l<unclear>o</unclear></zone><zone>yā</zone><zone>mo¯</zone><zone>¯R</zone><gap reason="lost"/></line>
+            <line n="6" xml:id="b6"><gap reason="lost"/><zone>p<unclear>o</unclear></zone><zone>staṃ</zone><zone>nmeṃ</zone><zone>ne</zone><zone><unclear>mc</unclear>e</zone><gap reason="lost"/></line>
+            <line n="7" xml:id="b7"><gap reason="lost"/><zone>na</zone><zone>klai</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><w>cwī</w><w>ratr<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><gap reason="plain" quantity="1"/><num value="2">2</num><pc>॥</pc><w>eṣke</w><w>rano</w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><w>t</w><w>no</w><w>cai</w><w>mā</w><w>cä</w><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="lost"/><w>kUse</w><w>śä</w><gap reason="lost"/>
+<lb corresp="#a5"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>trä</w><w>mā</w><w>ra</w><w>tsak</w><gap reason="lost"/>
+<lb corresp="#a6"/><gap reason="lost"/><w><supplied>t</supplied>ākoy</w><w>tarltsecci</w><gap reason="lost"/>
+<lb corresp="#a7"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>k<gap reason="plain" unit="part"/>añ<gap reason="plain" unit="part"/>e</w><w>no</w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>ṣṣ<gap reason="plain" unit="part"/></w><w>lñ<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><w>istak</w><w>tāko<supplied>y</supplied></w><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><w>soṃśka</w><w>katka</w><gap reason="lost"/>
+<lb corresp="#b4"/><gap reason="lost"/><w>lye</w><w>y<supplied>ām</supplied>trä</w><gap reason="lost"/>
+<lb corresp="#b5"/><gap reason="lost"/><w>lo</w><w>yāmor</w><gap reason="lost"/>
+<lb corresp="#b6"/><gap reason="lost"/><w>postaṃnmeṃ</w><w>nemce<supplied>k</supplied></w><gap reason="lost"/>
+<lb corresp="#b7"/><gap reason="lost"/><w>na</w><w>klai<supplied>na</supplied></w><gap reason="lost"/></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">Narrow strip from the middle of a large leaf. Does not belong to <ref type="ms" target="txt:m-pkas1411"/>.</note></p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_bib_old"/>
+               <item n="m_image_old"/>
+               <item n="date_publication_old"/>
+               <item n="m_transliteration_old">a1 /// cw[ī] ratr ///
+a2 /// – 2 || eṣke ra[no] ///
+a3 /// t [n]o cai mā cä ///
+a4 /// k_use _ś_a ///
+a5 /// t_r_a [m]ā ra tsa_k\ ///
+a6 /// [ā]koyä\ tarltsecci ///
+a7 /// – [k](·)a[ñ](·)[e] no ///
+b1 /// – ṣṣ(·) [lñ] ///
+b2 /// istak tāko(–)\ ///
+b3 /// soṃśka katka ///
+b4 /// ly[e] y(·)(·)[t_r_a] ///
+b5 /// l[o] yāmo_r\ ///
+b6 /// p[o]staṃnmeṃ ne[mc]e ///
+b7 /// na klai ///</item>
+               <item n="m_language_stage_old"/>
+               <item n="m_philcomment_old"/>
+               <item n="m_passage_old"/>
+               <item n="m_editor_old">Georges-Jean Pinault (in collaboration with Melanie Malzahn)</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_size_h_old">14</item>
+               <item n="m_next_old"/>
+               <item n="file_created_old">1348819140</item>
+               <item n="file_modified_old">1568178116</item>
+               <item n="m_lines_old">7</item>
+               <item n="m_collection_old">Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</item>
+               <item n="access_old">restricted</item>
+               <item n="m_completeness_old"/>
+               <item n="file_location_old">pages/manuscript/PK_AS/pkas1412.txt</item>
+               <item n="m_findspot_old"/>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_linedistance_old">2</item>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="user_created_old">theres</item>
+               <item n="user_modified_old">martin</item>
+               <item n="m_prev_old"/>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old"/>
+               <item n="project_check_old"/>
+               <item n="m_translation_old"/>
+               <item n="m_subgenre_old">Jātaka/Avadāna</item>
+               <item n="m_parallels_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="ms_old">PK AS 14.1.2</item>
+               <item n="project_comment_old"/>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old">&lt;p&gt;Narrow strip from the middle of a large leaf. Does not belong to [[PK AS 14.1.1]].&lt;/p&gt;</item>
+               <item n="m_other_sigla_old">Pelliot Koutchéen Ancienne Série 14.1.2; PK AS 14A.2, PK AS 14.A.II</item>
+               <item n="m_size_w_old">7,5</item>
+               <item n="m_expedition_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_title_old"/>
+               <item n="m_transcription_old">a1 /// cwī ratr(·) ///
+a2 /// – 2 || eṣke rano ///
+a3 /// t no cai mā cä ///
+a4 /// k_use śä ///
+a5 /// (·)trä mā ra tsak ///
+a6 /// (t)ākoy tarltsecci ///
+a7 /// – k(·)añ(·)e no ///
+b1 /// – ṣṣ(·) lñ(·) ///
+b2 /// istak tāko(y) ///
+b3 /// soṃśka katka ///
+b4 /// lye y(ām)trä ///
+b5 /// lo yāmor ///
+b6 /// postanmeṃ|postaṃnmeṃ nemce(k) ///
+b7 /// na klai(na) ///</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

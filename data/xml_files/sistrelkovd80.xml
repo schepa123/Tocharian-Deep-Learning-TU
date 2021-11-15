@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="en"
+     xml:id="m-sistrelkovd80">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>SI Strelkov-D 80</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>IOM (St. Petersburg)</repository>
+                  <idno>SI Strelkov-D 80</idno>
+                  <msName>Assemblage IX</msName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>wood tablet</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Non-literary</term>
+               <term type="subgenre">Account</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <line n="1" xml:id="a1"><zone>kau</zone><zone>me<gap reason="plain" unit="part"/></zone><zone>ts<gap reason="plain" unit="part"/></zone><zone>cau</zone><zone>śā</zone><zone>lpta</zone><zone>ṣṣeṃ</zone><zone>cā</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><zone>bhi</zone><zone>lp<gap reason="par" unit="part"/>au</zone><zone><unclear>t</unclear><gap reason="par" unit="part"/>e</zone><gap reason="par" quantity="1"/><zone><gap reason="plain" unit="part"/>i</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <line n="1" xml:id="b1"><gap reason="plain" quantity="1"/><zone>nme</zone><gap reason="plain" quantity="1"/><zone><gap reason="plain" unit="part"/>i</zone><zone>kaṃ</zone><zone><gap reason="plain" unit="part"/>ā</zone><zone>m<gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><w>kaume<supplied>n</supplied>ts<supplied>e</supplied></w><w>cau</w><w>śāl</w><w>ptaṣṣeṃ</w><w>cā<supplied>neṃ</supplied></w><gap reason="lost"/>
+<lb corresp="#a2"/><w>bhil</w><w>paut<supplied>k</supplied>e</w><gap reason="plain" quantity="1"/><w><supplied>bh</supplied>i<supplied>l</supplied></w><gap reason="lost"/>
+<lb corresp="#b1"/><w><supplied>ru</supplied>nme</w><gap reason="plain" quantity="1"/><w><gap reason="plain" unit="part"/>i</w><w>kaṃ</w><w><supplied>ś</supplied>ām<supplied>na</supplied></w><gap reason="plain" quantity="1"/><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">of fresh shoot (?). The [coins] of the <hi>stūpa</hi> of <hi>Śāl</hi>.</seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl"><hi>bhil</hi> (?) ... land rent ... <hi>[bhil]</hi> (?) ///</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">... people ... ///</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">Assignment of recto/verso uncertain.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>other</label><bibl><title corresp="ref:ching2010"/><citedRange>317</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_subgenre_old">Account</item>
+               <item n="m_translation_old">a1 of fresh shoot (?). The [coins] of the &lt;i&gt;stūpa&lt;/i&gt; of &lt;i&gt;Śāl&lt;/i&gt;.
+a2 &lt;i&gt;bhil&lt;/i&gt; (?) ... land rent ... &lt;i&gt;[bhil]&lt;/i&gt; (?) ///
+b1 ... people ... ///</item>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_tune_old"/>
+               <item n="user_created_old">martin</item>
+               <item n="user_modified_old">theres</item>
+               <item n="m_prev_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old">a1 kaume(n)ts(e) cau śāl ptaṣṣeṃ cā(neṃ) ///
+a2 bhil paut(k)e (–) (bh)i(l) ///
+b1 (ru)nme – ·i kaṃ (ś)ām(na) – ///</item>
+               <item n="m_title_old"/>
+               <item n="m_genre_old">Non-literary</item>
+               <item n="m_remarks_old">&lt;p&gt;Assignment of recto/verso uncertain.&lt;/p&gt;</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_other_sigla_old"/>
+               <item n="m_expedition_old"/>
+               <item n="m_size_w_old"/>
+               <item n="m_parallels_old"/>
+               <item n="m_script_old"/>
+               <item n="project_comment_old"/>
+               <item n="ms_old">SI Strelkov-D 80</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old"/>
+               <item n="file_created_old">1414429055</item>
+               <item n="file_modified_old">1485187972</item>
+               <item n="m_philcomment_old"/>
+               <item n="m_passage_old"/>
+               <item n="m_editor_old"/>
+               <item n="m_material_old">Ink on wood tablet</item>
+               <item n="m_image_old"/>
+               <item n="date_publication_old"/>
+               <item n="m_language_stage_old"/>
+               <item n="m_transliteration_old">a1 kaume· ts· cau śāl ptaṣṣeṃ cā ///
+a2 bhil p(·)au[t](·)e (–) ·i – ///
+b1 – nme – ·i kaṃ ·ām· – ///</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old">Assemblage IX</item>
+               <item n="m_bib_old">[[Ching 2010]]: 317.</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old"/>
+               <item n="m_form_old"/>
+               <item n="file_location_old">pages/manuscript/sistrelkovd80.txt</item>
+               <item n="m_collection_old">IOM (St. Petersburg)</item>
+               <item n="m_lines_old">2</item>
+               <item n="access_old">restricted</item>
+               <item n="m_completeness_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

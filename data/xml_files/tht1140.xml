@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht1140">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 1140</title>
+            <respStmt>
+               <resp>transliteration</resp>
+               <name>Georges-Jean Pinault</name>
+            </respStmt>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <date when="2013-04-22">22 April 2013</date>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 1140</idno>
+                  <altIdentifier>
+                     <idno>Prelim. No. 184</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Pencil No. 2142</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Garbhasūtra?</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>6,1</height>
+                              <width>7,7</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <dimensions type="line_spacing">
+                              <height>2,0</height>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Šorčuq</region>during <rs type="expedition_code">T III Š 93.17</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="xto"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329752;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329752;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>u</zone><gap reason="plain" quantity="1"/><zone>RA</zone><zone>ṣpu¯</zone><zone>¯K</zone><zone>kl<unclear>o</unclear></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>KA¯</zone><zone>¯Ṣ</zone><zone>ā</zone><zone>rwa</zone><zone>rna</zone><zone>sa¯</zone><zone>¯M</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone><gap reason="plain" unit="part"/><unclear>mo</unclear></zone><zone>lī</zone><zone>skā</zone><zone>rplu</zone><zone>ne</zone><zone>MA</zone><zone>ska</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329729;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329729;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone><unclear>ko</unclear></zone><zone>sne</zone><zone>nu</zone><zone>to</zone><zone>ṣtri</zone><zone>wr<unclear>a</unclear></zone><zone>MAṃ</zone><zone>ṣya</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone><unclear>l</unclear><gap reason="plain" unit="part"/></zone><zone>tSA</zone><zone>ṢTA¯</zone><zone>¯R</zone><zone>•</zone><zone>ku</zone><zone>pre</zone><zone>ne</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone><gap reason="plain" unit="part"/>ā¯</zone><zone>¯Ṣ</zone><zone>ku<gap reason="plain" unit="part"/>e</zone><zone>ñci</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>u</w><gap reason="plain" quantity="1"/><w>räṣ</w><w>puk</w><w>klo<supplied>päntwäṣ</supplied></w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><w><supplied>träṅ</supplied>käṣ</w><w>ārwar</w><w>nasam</w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><w><supplied>c</supplied>molīs</w><w>kārplune</w><w>mäska<supplied>tär</supplied></w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><w>kosne</w><w>nu</w><w>toṣ</w><w>tri</w><w>wramäṃ</w><w>ṣya<supplied>k</supplied></w><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><w><supplied>cmo</supplied>l<supplied>l</supplied></w><w><supplied>eṃ</supplied>tsäṣtär</w><pc>•</pc><w>kuprene</w><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w><gap reason="plain" unit="part"/>āṣ</w><w>kU<supplied>l</supplied>eñci</w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">... having ... (from) all sorrows ...</seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">... says: «I am ready» ...</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">... (this ?) is descending of birth ...</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">... but how many together with these three things ...</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">... it takes birth (?). If ...</seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl">... female ...</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">At the right side, the margin or the edge of the string hole might be preserved. The lower margin (recto) might also be preserved. Faint traces of black lineage can be discerned.</note><note corresp="#a3" type="philcomment">: cf. <bibl><title corresp="ref:carlingetal2009"/><citedRange>117b</citedRange></bibl>.</note><note corresp="#b2" type="philcomment"><hi>(cmo)l(l eṃ)tsäṣtär</hi>: cf. <ref type="ms" target="txt:m-a299"/> b2 <hi>cmol eṃtsäṣtär</hi>. I owe the restoration of a geminate <hi>ll</hi> to Sergey Malyshev (p.c.).</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 1140" type="external">THT 1140</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/11/1140.htm" type="external">THT 1140</ref></bibl>. </p>
+            <p><label>Edition</label><bibl><title corresp="ref:tamai2007a"/><citedRange>№1140</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_metric_form_old"/>
+               <item n="m_tune_old"/>
+               <item n="project_check_old"/>
+               <item n="m_translation_old">a1 ... having ... (from) all sorrows ...
+a2 ... says: «I am ready» ...
+a3 ... (this ?) is descending of birth ...
+b1 ... but how many together with these three things ...
+b2 ... it takes birth (?). If ...
+b3 ... female ...</item>
+               <item n="m_subgenre_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old">martin</item>
+               <item n="m_prev_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_title_old">Garbhasūtra?</item>
+               <item n="m_transcription_old">a1 /// ·u – räṣ puk klo(päntwäṣ) ///
+a2 /// (träṅ)käṣ ārwar nasam ///
+a3 /// (c)molīs kārplune mäska(tär) ///
+b1 /// kosne nu toṣ tri wramäṃ ṣya(k) ///
+b2 /// (cmo)l(l eṃ)tsäṣtär • kuprene ///
+b3 /// – ·āṣ k_u(l)eñci ///</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_parallels_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="ms_old">THT 1140</item>
+               <item n="project_comment_old"/>
+               <item n="m_language_old">TA</item>
+               <item n="m_remarks_old">At the right side, the margin or the edge of the string hole might be preserved. The lower margin (recto) might also be preserved. Faint traces of black lineage can be discerned.</item>
+               <item n="m_other_sigla_old">Prelim. No. 184, Pencil No. 2142</item>
+               <item n="m_expedition_old">T III Š 93.17</item>
+               <item n="m_size_w_old">7,7</item>
+               <item n="m_philcomment_old">&lt;b&gt;a3&lt;/b&gt;: cf. [[Carling, DThTA]]: 117b.
+&lt;br&gt;&lt;b&gt;b2&lt;/b&gt; &lt;i&gt;(cmo)l(l eṃ)tsäṣtär&lt;/i&gt;: cf. [[A 299]] b2 &lt;i&gt;cmol eṃtsäṣtär&lt;/i&gt;. I owe the restoration of a geminate &lt;i&gt;ll&lt;/i&gt; to Sergey Malyshev (p.c.).</item>
+               <item n="m_passage_old"/>
+               <item n="m_editor_old">Michaël Peyrot (on the basis of a transliteration by Georges-Jean Pinault)</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old">6,1</item>
+               <item n="file_created_old">1340136544</item>
+               <item n="file_modified_old">1561993865</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 1140" target="idp"&gt;THT 1140&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/11/1140.htm" target="titus"&gt;THT 1140&lt;/a&gt;.&lt;br&gt;
+Edition: [[Tamai 2007a]]: №1140.</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329752;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329752;rotate=0;imageType=_M||THT 1140 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329729;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329729;rotate=0;imageType=_M||THT 1140 verso</item>
+               <item n="date_publication_old">22 April 2013</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_transliteration_old">a1 /// ·u – _r_aṣ pu_k\ kl[o] ///
+a2 /// [·]_k_a_ṣ\ ārwar nasa_m\ ///
+a3 /// ·[mo]līs kārplune _m_aska ///
+b1 /// [ko]sne nu toṣ tri wr[a]_m_aṃ ṣya ///
+b2 /// [l ·]t_s_a_ṣ_t_a_r\ • kuprene ///
+b3 /// – ·ā_ṣ\ k_u·eñci ///</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Šorčuq</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_linedistance_old">2,0</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_lines_old">3</item>
+               <item n="access_old">public</item>
+               <item n="m_completeness_old"/>
+               <item n="file_location_old">pages/manuscript/THT_1100_2399/tht1140.txt</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

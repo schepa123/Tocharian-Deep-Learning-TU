@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-sht4438">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>SHT 4438</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>SHT 4438</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>9</height>
+                              <width>22,5</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">6?</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region>during <rs type="expedition_code">T I ?</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="xto"/>
+            <language ident="txb"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Gloss</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <line n="4" xml:id="a_4"><zone>KA</zone><zone>rsn<unclear>ā</unclear>¯</zone><zone>¯L</zone></line>
+            <line n="5" xml:id="a_5"><zone>yso</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <line n="1" xml:id="b_1"><zone>eṃ</zone><gap reason="plain" quantity="1"/><zone><unclear>lu</unclear></zone><zone>ne</zone><zone>yä¯</zone><zone>¯<unclear>Ṣ</unclear></zone><gap reason="editorial"/><zone>yā</zone><zone>mu¯</zone><zone>¯<unclear>nT</unclear></zone></line>
+            <line n="2" xml:id="b_2"><gap reason="plain" quantity="1"/><zone>LA</zone><zone>mā</zone><zone><unclear>y</unclear>a¯</zone><zone>¯Lä</zone><gap reason="editorial"/><zone>KA</zone><zone>rpi</zone><zone>syo</zone><gap reason="editorial"/><zone>śai</zone><zone>ṣṣe</zone></line>
+            <line n="4" xml:id="b_4"><zone>KA</zone><zone>nta</zone><zone>ntu</zone><zone>yo</zone><gap reason="editorial"/><zone>tRA</zone><zone>ṅklu</zone><zone>ne</zone><zone>yo</zone><zone>wlä¯</zone><zone>¯R</zone></line>
+            <line n="5" xml:id="b_5"><zone><unclear>ā</unclear></zone><zone>rs<unclear>k</unclear>o<unclear>ṃ</unclear></zone><gap reason="editorial"/><zone>ā</zone><zone>nā</zone><zone>ptu</zone><zone>ne</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a_4"/><w>kärsnāl</w>
+<lb corresp="#a_5"/><w>yso<supplied>mo</supplied></w><gap reason="lost"/>
+<lb corresp="#b_1"/><w>eṃ<supplied>tsā</supplied>luneyäṣ</w><gap reason="editorial"/><w>yāmunt</w>
+<lb corresp="#b_2"/><w><supplied>ya</supplied>l</w><w>mā</w><w>yal</w><gap reason="editorial"/><w>kärpisyo</w><gap reason="editorial"/><w>śaiṣṣe</w>
+<lb corresp="#b_4"/><w>käntantuyo</w><gap reason="editorial"/><w>träṅkluneyo</w><w>wlär</w>
+<lb corresp="#b_5"/><w>ārskoṃ</w><gap reason="editorial"/><w>ānāptune</w></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a_4"><seg><seg type="prim_transl">to be known</seg></seg></choice><choice corresp="#a_5"><seg><seg type="prim_transl">altogether</seg></seg></choice><choice corresp="#b_1"><seg><seg type="prim_transl">because of taking ... done</seg></seg></choice><choice corresp="#b_2"><seg><seg type="prim_transl">to be done [and] not to be done ... by the mean ... world</seg></seg></choice><choice corresp="#b_4"><seg><seg type="prim_transl">by hundreds ... they died because of clinging</seg></seg></choice><choice corresp="#b_5"><seg><seg type="prim_transl">each day ... ?</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">Expedition code only on tag/label.</note><note type="remarks">Main text in Sanskrit, glosses in Sanskrit, TA and TB, plus a few entirely illegible ones.</note><note corresp="#a_4" type="philcomment">glosses Skt. <hi>jñeyaś</hi> 'to be known' (<bibl><title corresp="ref:schmidtkt1983a"/><citedRange>279</citedRange></bibl>; <bibl><title corresp="ref:wille2012"/><citedRange>34</citedRange></bibl>).</note><note corresp="#a_5" type="philcomment">glosses Skt. <hi>samagrā</hi> /// 'all' (<bibl><title corresp="ref:wille2012"/><citedRange>34</citedRange></bibl>).</note><note corresp="#b_1" type="lingcomment">Although the Sanskrit term is part of a compound <hi>p(a)rigrahakṛt·</hi> (see below), <hi>eṃ(tsā)luneyäṣ</hi> (abl.sg.; rather not <hi>eṃ(tsā)luneyaṣ</hi>, pace Peyrot apud <bibl><title corresp="ref:wille2012"/><citedRange>34</citedRange></bibl>; also the translation 'ergriffen habend' ['having seized, grasped'] given there is not exact) glosses only <hi>p(a)rigraha°</hi>. The precise function of the ablative of <hi>eṃ(tsā)luneyäṣ</hi> remains unclear: in any case, together with the following gloss <hi>yāmunt</hi> it does not form a coherent whole. <hi>yāmunt</hi>, then, glosses <hi>°kṛt·</hi> separately; there appears to be no syntactic relationship with the preceding gloss. <hi>yāmunt</hi> can be obl.sg.masc. or pl.fem.</note><note corresp="#b_1" type="philcomment"><hi>eṃ(tsā)luneyäṣ</hi> glosses Skt. <hi>p(a)rigraha°</hi> 'possession; taking'. <hi>yāmunt</hi> glosses Skt. <hi>°kṛt·</hi> 'having done'.</note><note corresp="#b_2" type="lingcomment">It is remarkable that all Tocharian glosses to this fragment are in TA, except for <hi>śaiṣṣe</hi> (however, there are also some glosses in Sanskrit and a couple that are so fragmentary that not even the language can be established (see <bibl><title corresp="ref:wille2012"/><citedRange>34-5</citedRange></bibl>), which are not discussed here). There seems to be no palaeographical difference between the TA glosses and this gloss in TB. It is unclear why only this word should be glossed in TB: might it be because TB <hi>śaiṣṣe</hi> is only two syllables, twice as short as the TA equivalent <hi>ārkiśoṣi</hi>?</note><note corresp="#b_2" type="philcomment"><hi>(ya)l mā yal</hi> glosses Skt. <hi>k(ār)yākārya°</hi> 'to be done and not to be done'. <bibl><title corresp="ref:schmidtkt1983a"/><citedRange>279</citedRange></bibl> reads only the second half of the gloss: <hi>mā yal</hi>. Nevertheless, a trace of the first <hi>yal</hi> can be seen rather clearly, even though the first akṣara is hardly visible. The second, <hi>kärpisyo</hi>, glosses Skt. <hi>anāryair</hi> (instr. pl.) 'by the mean'. The third item, TB <hi>śaiṣṣe</hi>, glosses Skt. <hi>jagat</hi> 'world'.</note><note corresp="#b_4" type="lingcomment"><hi>käntantuyo</hi> is an instr.pl. As pointed out by Dieter Maue (p.c.; see also <bibl><title corresp="ref:wille2012"/><citedRange>34</citedRange></bibl>), the second gloss <hi>träṅkluneyo wlär</hi> must be an explanation of the Sanskrit text, not a translation.</note><note corresp="#b_4" type="philcomment"><hi>käntantuyo</hi> glosses Skt. <hi>śataśau</hi> (for <hi>śataśo</hi>) 'a hundred times'. <hi>träṅkluneyo wlär</hi> glosses Skt. <hi>trigartā hatāḥ</hi> 'the Trigarta women were killed'.</note><note corresp="#b_5" type="lingcomment"><hi>ārskoṃ</hi> must stand for <hi>ārts koṃ</hi>. <hi>ānāptune</hi> clearly contains the abstract suffix <hi>-une</hi>, but is further unclear. Conceivable is a connection with the adverb <hi>āptā</hi> 'before', i.e. a negated 'what was not before'. Any relationship with <hi>āpti</hi> 'right' does not seem likely; also an alternative reading <hi>āwāptune</hi> is probably not to be preferred.</note><note corresp="#b_5" type="philcomment"><hi>ārskoṃ</hi> glosses Skt. <hi>– – [ra]ha</hi>, which is probably to be restored as <hi>(aha)raha</hi> for <hi>aharahaṃ</hi> or <hi>aharahar</hi> (or <hi>aharahaḥ</hi>) 'day by day' (<bibl><title corresp="ref:wille2012"/><citedRange>34</citedRange></bibl>). <hi>ānāptune</hi> glosses Skt. <hi>navaśamaṃ</hi> '(with) new tranquility (?)'.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/></bibl>; <bibl><title corresp="ref:peyrot2014"/><citedRange>162-4</citedRange></bibl>; <bibl><title corresp="ref:wille2012"/><citedRange>34-5</citedRange></bibl>; <bibl><title corresp="ref:schmidtkt1983a"/><citedRange>279</citedRange></bibl>;.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_image_old"/>
+               <item n="m_transliteration_old">a_4 _k_arsn[ā]_l\
+a_5 yso ///
+b_1 eṃ – [lu]neyä[_ṣ]\ ... yāmu[n_t]\
+b_2 – _l(\) mā [y]a_lä\ ... _k_arpisyo ... śaiṣṣe
+b_4 _k_antantuyo ... t_r_aṅkluneyo wlä_r\
+b_5 [ā]rs[k]o[ṃ] ... ānāptune</item>
+               <item n="m_language_stage_old"/>
+               <item n="date_publication_old"/>
+               <item n="m_bib_old">[[IDP]]; [[Peyrot 2014]]: 162-4; [[SHT XI]]: 34-5; [[Schmidt KT 1983a]]: 279;.</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old">&lt;p&gt;&lt;b&gt;b_1.&lt;/b&gt; Although the Sanskrit term is part of a compound &lt;i&gt;p(a)rigrahakṛt·&lt;/i&gt; (see below), &lt;i&gt;eṃ(tsā)luneyäṣ&lt;/i&gt; (abl.sg.; rather not &lt;i&gt;eṃ(tsā)luneyaṣ&lt;/i&gt;, pace Peyrot apud [[SHT XI]]: 34; also the translation 'ergriffen habend' ['having seized, grasped'] given there is not exact) glosses only &lt;i&gt;p(a)rigraha°&lt;/i&gt;. The precise function of the ablative of &lt;i&gt;eṃ(tsā)luneyäṣ&lt;/i&gt; remains unclear: in any case, together with the following gloss &lt;i&gt;yāmunt&lt;/i&gt; it does not form a coherent whole. &lt;i&gt;yāmunt&lt;/i&gt;, then, glosses &lt;i&gt;°kṛt·&lt;/i&gt; separately; there appears to be no syntactic relationship with the preceding gloss. &lt;i&gt;yāmunt&lt;/i&gt; can be obl.sg.masc. or pl.fem.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b_2.&lt;/b&gt; It is remarkable that all Tocharian glosses to this fragment are in TA, except for &lt;i&gt;śaiṣṣe&lt;/i&gt; (however, there are also some glosses in Sanskrit and a couple that are so fragmentary that not even the language can be established (see [[SHT XI]]: 34-5), which are not discussed here). There seems to be no palaeographical difference between the TA glosses and this gloss in TB. It is unclear why only this word should be glossed in TB: might it be because TB &lt;i&gt;śaiṣṣe&lt;/i&gt; is only two syllables, twice as short as the TA equivalent &lt;i&gt;ārkiśoṣi&lt;/i&gt;?&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b_4.&lt;/b&gt; &lt;i&gt;käntantuyo&lt;/i&gt; is an instr.pl. As pointed out by Dieter Maue (p.c.; see also [[SHT XI]]: 34), the second gloss &lt;i&gt;träṅkluneyo wlär&lt;/i&gt; must be an explanation of the Sanskrit text, not a translation.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b_5.&lt;/b&gt; &lt;i&gt;ārskoṃ&lt;/i&gt; must stand for &lt;i&gt;ārts koṃ&lt;/i&gt;. &lt;i&gt;ānāptune&lt;/i&gt; clearly contains the abstract suffix &lt;i&gt;-une&lt;/i&gt;, but is further unclear. Conceivable is a connection with the adverb &lt;i&gt;āptā&lt;/i&gt; 'before', i.e. a negated 'what was not before'. Any relationship with &lt;i&gt;āpti&lt;/i&gt; 'right' does not seem likely; also an alternative reading &lt;i&gt;āwāptune&lt;/i&gt; is probably not to be preferred.&lt;/p&gt;</item>
+               <item n="m_size_h_old">9</item>
+               <item n="m_next_old"/>
+               <item n="file_modified_old">1582449257</item>
+               <item n="file_created_old">1446221883</item>
+               <item n="m_editor_old"/>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;a_4.&lt;/b&gt; glosses Skt. &lt;i&gt;jñeyaś&lt;/i&gt; 'to be known' ([[Schmidt KT 1983a]]: 279; [[SHT XI]]: 34).&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a_5.&lt;/b&gt; glosses Skt. &lt;i&gt;samagrā&lt;/i&gt; /// 'all' ([[SHT XI]]: 34).&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b_1.&lt;/b&gt; &lt;i&gt;eṃ(tsā)luneyäṣ&lt;/i&gt; glosses Skt. &lt;i&gt;p(a)rigraha°&lt;/i&gt; 'possession; taking'. &lt;i&gt;yāmunt&lt;/i&gt; glosses Skt. &lt;i&gt;°kṛt·&lt;/i&gt; 'having done'.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b_2.&lt;/b&gt; &lt;i&gt;(ya)l mā yal&lt;/i&gt; glosses Skt. &lt;i&gt;k(ār)yākārya°&lt;/i&gt; 'to be done and not to be done'. [[Schmidt KT 1983a]]: 279 reads only the second half of the gloss: &lt;i&gt;mā yal&lt;/i&gt;. Nevertheless, a trace of the first &lt;i&gt;yal&lt;/i&gt; can be seen rather clearly, even though the first akṣara is hardly visible. The second, &lt;i&gt;kärpisyo&lt;/i&gt;, glosses Skt. &lt;i&gt;anāryair&lt;/i&gt; (instr. pl.) 'by the mean'. The third item, TB &lt;i&gt;śaiṣṣe&lt;/i&gt;, glosses Skt. &lt;i&gt;jagat&lt;/i&gt; 'world'.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b_4.&lt;/b&gt; &lt;i&gt;käntantuyo&lt;/i&gt; glosses Skt. &lt;i&gt;śataśau&lt;/i&gt; (for &lt;i&gt;śataśo&lt;/i&gt;) 'a hundred times'. &lt;i&gt;träṅkluneyo wlär&lt;/i&gt; glosses Skt. &lt;i&gt;trigartā hatāḥ&lt;/i&gt; 'the Trigarta women were killed'.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b_5.&lt;/b&gt; &lt;i&gt;ārskoṃ&lt;/i&gt; glosses Skt. &lt;i&gt;– – [ra]ha&lt;/i&gt;, which is probably to be restored as &lt;i&gt;(aha)raha&lt;/i&gt; for &lt;i&gt;aharahaṃ&lt;/i&gt; or &lt;i&gt;aharahar&lt;/i&gt; (or &lt;i&gt;aharahaḥ&lt;/i&gt;) 'day by day' ([[SHT XI]]: 34). &lt;i&gt;ānāptune&lt;/i&gt; glosses Skt. &lt;i&gt;navaśamaṃ&lt;/i&gt; '(with) new tranquility (?)'.&lt;/p&gt;</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="file_location_old">pages/manuscript/sht4438.txt</item>
+               <item n="access_old">restricted</item>
+               <item n="m_lines_old">6?</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_completeness_old"/>
+               <item n="m_linedistance_old"/>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="user_modified_old">theres</item>
+               <item n="user_created_old">theres</item>
+               <item n="m_prev_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="m_subgenre_old">Gloss</item>
+               <item n="m_translation_old">a_4 to be known
+a_5 altogether
+b_1 because of taking ... done
+b_2 to be done [and] not to be done ... by the mean ... world
+b_4 by hundreds ... they died because of clinging
+b_5 each day ... ?</item>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_tune_old"/>
+               <item n="m_other_sigla_old"/>
+               <item n="m_language_old">TA+TB</item>
+               <item n="m_remarks_old">&lt;p&gt; Expedition code only on tag/label.&lt;/p&gt;
+&lt;p&gt;Main text in Sanskrit, glosses in Sanskrit, TA and TB, plus a few entirely illegible ones.&lt;/p&gt;</item>
+               <item n="m_expedition_old">T I ?</item>
+               <item n="m_size_w_old">22,5</item>
+               <item n="m_parallels_old"/>
+               <item n="ms_old">SHT 4438</item>
+               <item n="project_comment_old">&lt;p&gt;Line &lt;b&gt;b_2&lt;/b&gt;: "by the mean&lt;b&gt;s&lt;/b&gt;"? (TI)&lt;/p&gt;</item>
+               <item n="m_script_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_title_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old">a_4 kärsnāl
+a_5 yso(mo) ///
+b_1 eṃ(tsā)luneyäṣ ... yāmunt
+b_2 (ya)l mā yal ... kärpisyo ... śaiṣṣe
+b_4 käntantuyo ... träṅkluneyo wlär
+b_5 ārskoṃ ... ānāptune</item>
+               <item n="m_meter_old"/>
+               <item n="m_genre_old">Literary</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;Line &lt;ref type="ms" target="__b_2"/&gt;: "by the mean&lt;b&gt;s&lt;/b&gt;"? (TI)&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

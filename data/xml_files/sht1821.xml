@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-sht1821">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>SHT 1821</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>SHT 1821</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>9.5</height>
+                              <width>9.5</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">6+</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="xto"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Gloss</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=322983;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=322983;rotate=0;imageType=_M"/>
+            <line n="5" xml:id="b5"><zone>wä</zone><zone>śśi</zone><zone>tsu</zone><zone>ne</zone><zone>yā</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#b5"/><w>wäśśitsuneyā</w></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#b5"><seg><seg type="prim_transl">with ease</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="lingcomment">The form is a perlative singular. Schmidt (<bibl><title corresp="ref:wille2000"/><citedRange>18</citedRange></bibl>) rather reads <hi>wäśśitsune[y]ā(<hi rend="underline">ṣ</hi><hi rend="subscript">\</hi>)</hi>, apparently confusing the perlative in <hi>-a</hi> with the ablative in <hi>-ṣ</hi>. As pointed out by Schmidt in a later publication (<bibl><title corresp="ref:schmidtkt1999b"/><citedRange>284</citedRange></bibl>), <hi>wäśśitsune</hi> is an abstract derived from an adjective <hi>wäśśi</hi> that is actually attested in <ref type="ms" target="txt:m-yqiii8"/>: a7 <hi>mā täm wäśśi ānant märkampalṣināp prucca(mñe)</hi> 'It is not easy, Ānanda, (to describe?) the advantage of the law'. A connection with TA <hi>wäṣt</hi> 'double' as suggested by <bibl><title corresp="ref:jietal1998"/><citedRange>180</citedRange></bibl> is formally attractive, but semantically far from obvious.</note><note type="philcomment">Glosses Skt. <hi>sugamatvān</hi> (abl.sg.; for <hi>sugamatvāt</hi> in sandhi before <hi>n</hi>) 'with easiness'.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>other</label><bibl><title corresp="ref:peyrot2014"/><citedRange>153</citedRange></bibl>; <bibl><title corresp="ref:wille2000"/><citedRange>18</citedRange></bibl>; <bibl><title corresp="ref:malzahn2007b"/><citedRange>311</citedRange></bibl>..</p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=SHT 1821" type="external">SHT 1821</ref></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="user_modified_old">theres</item>
+               <item n="user_created_old">theres</item>
+               <item n="m_prev_old"/>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_translation_old">b5 with ease</item>
+               <item n="m_subgenre_old">Gloss</item>
+               <item n="m_parallels_old"/>
+               <item n="ms_old">SHT 1821</item>
+               <item n="project_comment_old"/>
+               <item n="m_script_old"/>
+               <item n="m_other_sigla_old"/>
+               <item n="m_remarks_old"/>
+               <item n="m_language_old">Sanskrit+TA</item>
+               <item n="m_expedition_old"/>
+               <item n="m_size_w_old">9.5</item>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old">b5 wäśśitsuneyā</item>
+               <item n="m_title_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_bib_old">&lt;p&gt;[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=SHT 1821" target="idp"&gt;SHT 1821&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;[[Peyrot 2014]]: 153; [[SHT VIII]]: 18; [[Malzahn 2007b]]: 311.&lt;/p&gt;.</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old">&lt;p&gt;The form is a perlative singular. Schmidt ([[SHT VIII]]: 18) rather reads &lt;i&gt;wäśśitsune[y]ā(&lt;u&gt;ṣ&lt;/u&gt;&lt;sub&gt;\&lt;/sub&gt;)&lt;/i&gt;, apparently confusing the perlative in &lt;i&gt;-a&lt;/i&gt; with the ablative in &lt;i&gt;-ṣ&lt;/i&gt;. As pointed out by Schmidt in a later publication ([[Schmidt KT 1999b]]: 284), &lt;i&gt;wäśśitsune&lt;/i&gt; is an abstract derived from an adjective &lt;i&gt;wäśśi&lt;/i&gt; that is actually attested in [[YQ III.8]]: a7 &lt;i&gt;mā täm wäśśi ānant märkampalṣināp prucca(mñe)&lt;/i&gt; 'It is not easy, Ānanda, (to describe?) the advantage of the law'. A connection with TA &lt;i&gt;wäṣt&lt;/i&gt; 'double' as suggested by [[Ji et al. 1998]]: 180 is formally attractive, but semantically far from obvious.&lt;/p&gt;</item>
+               <item n="m_image_old">http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=322933;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=322933;rotate=0;imageType=_M||$page; recto
+http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=322983;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=322983;rotate=0;imageType=_M||$page; verso</item>
+               <item n="m_transliteration_old">b5 wäśśitsuneyā</item>
+               <item n="m_language_stage_old"/>
+               <item n="date_publication_old"/>
+               <item n="m_editor_old"/>
+               <item n="m_philcomment_old">&lt;p&gt;Glosses Skt. &lt;i&gt;sugamatvān&lt;/i&gt; (abl.sg.; for &lt;i&gt;sugamatvāt&lt;/i&gt; in sandhi before &lt;i&gt;n&lt;/i&gt;) 'with easiness'.&lt;/p&gt;</item>
+               <item n="m_passage_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_size_h_old">9.5</item>
+               <item n="m_next_old"/>
+               <item n="file_modified_old">1485173162</item>
+               <item n="file_created_old">1445613422</item>
+               <item n="access_old">restricted</item>
+               <item n="m_lines_old">6+</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_completeness_old"/>
+               <item n="file_location_old">pages/manuscript/sht1821.txt</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_linedistance_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

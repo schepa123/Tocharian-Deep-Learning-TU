@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht210">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 210</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 210</idno>
+                  <altIdentifier>
+                     <idno>B 210</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Bleistiftnummer 2648</idno>
+                  </altIdentifier>
+                  <msName>THT 210-214</msName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">5</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Qizil Miŋ-Öy</region>during <rs type="expedition_code">T III MQR 67</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical frg:ls-cetom-aberrant-archaic frg:ls-peyrot-A3 frg:ls-C14 frg:ls-tamai-C3 frg:ls-C14"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Buddhastotra</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328105;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328105;rotate=0;imageType=_M"/>
+            <graphic url="B/B210a.jpg" height="933px" width="1264px"/>
+            <line xml:id="lf"><zone>55</zone></line>
+            <line n="1" xml:id="a1"><zone>si</zone><zone>ddha</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><zone>nme</zone><zone><unclear>po</unclear></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><zone>ñi</zone><zone><unclear>ññe</unclear></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><zone>rsna</zone><zone><unclear>l</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328118;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328118;rotate=0;imageType=_M"/>
+            <graphic url="B/B210b.jpg" height="881px" width="1248px"/>
+            <line n="2" xml:id="b2"><zone>ntsm<gap reason="plain" unit="part"/></zone><zone><unclear>nts</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><zone>rṣā</zone><zone>ki</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><zone>nā</zone><zone>s<gap reason="plain" unit="part"/>eṃ</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><zone>ci</zone><zone>wi</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <fw type="leafNum" corresp="#lf">55</fw>
+            <p>
+<lb corresp="#a1"/><w>siddha</w><gap reason="lost"/>
+<lb corresp="#a2"/><w>nme</w><w>po</w><gap reason="lost"/>
+<lb corresp="#a3"/><w>ñiññe</w><gap reason="lost"/>
+<lb corresp="#a4"/><w>rsnal<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#b2"/><w>nts</w><w>m<supplied>e</supplied>nts<supplied>i</supplied></w><gap reason="lost"/>
+<lb corresp="#b3"/><w>rṣāki</w><gap reason="lost"/>
+<w><supplied>wi</supplied><lb corresp="#b4"/>nās<supplied>k</supplied>eṃ</w><gap reason="lost"/>
+<lb corresp="#b5"/><w>ci</w><w>wi<supplied>nāskau</supplied></w><gap reason="lost"/></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">In one frame with <ref type="ms" target="txt:m-tht211"/>. Lines a5 and b1 are lost.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition</label><bibl><title corresp="ref:siegandsiegling1953"/><citedRange>125</citedRange></bibl>.</p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 210" type="external">THT 210</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/02/0210.htm" type="external">THT 210</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_transcription_old">a1 siddha ///
+a2 nme po ///
+a3 ñiññe ///
+a4 rsnal· ///
+b2 nts m(e)nts(i) ///
+b3 rṣāki /// wināskeṃ|(wi)|nās(k)eṃ
+b4 ///
+b5 ci wi(nāskau) ///</item>
+               <item n="m_title_old"/>
+               <item n="m_leaf_old">55</item>
+               <item n="m_meter_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="project_comment_old">&lt;p&gt;Alternative classifications:
+&lt;table class="table_lines"&gt;
+  &lt;tr&gt;&lt;td title="MP"&gt;Peyrot&lt;/td&gt;&lt;td title="A3"&gt;archaic ~ classical&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="MM"&gt;Malzahn&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TT"&gt;Tamai&lt;/td&gt;&lt;td title="C3"&gt;II-2 (700-800)&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TTC14"&gt;Tamai-C14&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;</item>
+               <item n="ms_old">THT 210</item>
+               <item n="m_script_old">Classical</item>
+               <item n="m_parallels_old"/>
+               <item n="m_expedition_old">T III MQR 67</item>
+               <item n="m_size_w_old"/>
+               <item n="m_other_sigla_old">B 210, Bleistiftnummer 2648</item>
+               <item n="m_remarks_old">In one frame with [[THT 211]]. Lines a5 and b1 are lost.</item>
+               <item n="m_language_old">TB</item>
+               <item n="project_check_old"/>
+               <item n="m_metric_form_old">Verse</item>
+               <item n="m_tune_old"/>
+               <item n="m_subgenre_old">Buddhastotra</item>
+               <item n="m_translation_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old">With archaic forms</item>
+               <item n="category_old">manuscript</item>
+               <item n="m_prev_old"/>
+               <item n="user_modified_old">bernhard</item>
+               <item n="user_created_old">automatic</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_old">Qizil Miŋ-Öy</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_linedistance_old"/>
+               <item n="m_completeness_old"/>
+               <item n="access_old">public</item>
+               <item n="m_lines_old">5</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="file_location_old">pages/manuscript/THT_0001_0633/tht210.txt</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_editor_old"/>
+               <item n="m_philcomment_old"/>
+               <item n="m_passage_old"/>
+               <item n="file_modified_old">1537532511</item>
+               <item n="file_created_old">1332006602</item>
+               <item n="m_size_h_old"/>
+               <item n="m_next_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 210" target="idp"&gt;THT 210&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/02/0210.htm" target="titus"&gt;THT 210&lt;/a&gt;.&lt;br&gt;
+Edition: [[TochSprR(B) II]]: 125.</item>
+               <item n="m_manuscript_old">THT 210-214</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_transliteration_old">a1 siddha ///
+a2 nme [po] ///
+a3 ñi[ññe] ///
+a4 rsna[l·] ///
+b2 nts m·[nts]· ///
+b3 rṣāki ///
+b4 nās(k)eṃ ///
+b5 ci wi ///</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="date_publication_old"/>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328105;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328105;rotate=0;imageType=_M||THT 210 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328118;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328118;rotate=0;imageType=_M||THT 210 verso</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;Alternative classifications:
+
+&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

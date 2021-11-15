@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-ioltoch480">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>IOL Toch 480</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library (London)</repository>
+                  <idno>IOL Toch 480</idno>
+                  <altIdentifier>
+                     <idno>D 121</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=12707;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=12707;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL480a.jpg" height="591px" width="354px"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone><gap reason="plain" unit="part"/><unclear>ā</unclear></zone><zone>ykne</zone><zone><unclear>s</unclear>a</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone>sa</zone><zone><gap reason="plain" unit="part"/>o</zone><zone><gap reason="plain" unit="part"/><unclear>o</unclear></zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=12709;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=12709;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL480b.jpg" height="591px" width="354px"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone><unclear>ly</unclear>m<gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>ṭa</zone><zone>n<unclear>m</unclear>a</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>ā</w><w>yknesa</w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><w>sa</w><w><gap reason="plain" unit="part"/>o</w><w><gap reason="plain" unit="part"/>o</w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><w>lym<gap reason="plain" unit="part"/></w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>ṭa</w><w>nma</w><gap reason="lost"/></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition</label><bibl><title corresp="ref:peyrot2007"/><citedRange>№480</citedRange></bibl>.</p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 480" type="external">IOL Toch 480</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 480"&gt;IOL Toch 480&lt;/a&gt;.&lt;br&gt;
+Edition: [[Peyrot 2007]]: №480.</item>
+               <item n="file_size_old">1 KB</item>
+               <item n="m_transliteration_old">a1 /// ·[ā] ykne[s]a ///
+a2 /// sa ·o ·[o] ///
+b1 /// [ly]m· – ///
+b2 /// – ṭa n[m]a ///</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=12707;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=12707;rotate=0;imageType=_M||IOL Toch 480 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=12709;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=12709;rotate=0;imageType=_M||IOL Toch 480 verso</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="page_name_old">IOL Toch 480</item>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="version_old">1</item>
+               <item n="file_created_old">1322765175</item>
+               <item n="file_modified_old">1551883782</item>
+               <item n="m_lines_old">2</item>
+               <item n="m_collection_old">British Library (London)</item>
+               <item n="access_old">restricted</item>
+               <item n="file_location_old">pages/manuscript/IOL_Toch/ioltoch480.txt</item>
+               <item n="created_date_old">2011-12-01, 19:46:15 (CET)</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="category_old">manuscript</item>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old">theres</item>
+               <item n="file_name_old">pages/manuscript/IOL_Toch/ioltoch480.txt</item>
+               <item n="file_savedate_old">2019-03-06, 15:13:08 (CET)</item>
+               <item n="m_script_old">Classical</item>
+               <item n="project_comment_old">&lt;p&gt;&lt;ul&gt;
+&lt;li&gt;Dieser Datensatz wurde automatisch erstellt aus &amp;quot;Peyrot_2007_Martin_20111129_2.xml&amp;quot; am Sat, 2011-12-03, 15:17:01.&lt;/li&gt;
+&lt;li&gt;Image links and standard properties have been added automatically on Tue, 2012-07-31, 03:59:07.&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</item>
+               <item n="ms_old">IOL Toch 480</item>
+               <item n="edited_date_old">2016-11-03, 12:36:13 (CET)</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_other_sigla_old">D 121</item>
+               <item n="group_old">Editor</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_transcription_old">a1 /// ·ā yaknesa|yknesa ///
+a2 /// sa ·o ·o ///
+b1 /// lym· – ///
+b2 /// – ṭa nma ///</item>
+               <item n="editgroup_old">Editor</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;&lt;ul&gt;&lt;li&gt;Dieser Datensatz wurde automatisch erstellt aus "Peyrot_2007_Martin_20111129_2.xml" am Sat, 2011-12-03, 15:17:01.&lt;/li&gt;&lt;li&gt;Image links and standard properties have been added automatically on Tue, 2012-07-31, 03:59:07.&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

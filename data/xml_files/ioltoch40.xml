@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-ioltoch40">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>IOL Toch 40</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library (London)</repository>
+                  <idno>IOL Toch 40</idno>
+                  <altIdentifier>
+                     <idno>H 149.150</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>A.150</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>9.5</height>
+                              <width>10.8</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Jātaka/Avadāna</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=16663;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=16663;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL40a.jpg" height="744px" width="1024px"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>mn<gap reason="plain" unit="part"/></zone><gap reason="par" quantity="1"/><gap reason="plain" quantity="2"/><zone>ñca</zone><gap reason="par" quantity="1"/><gap reason="plain" quantity="1"/><zone>ra</zone><zone>w<gap reason="plain" unit="part"/></zone><zone>l<gap reason="plain" unit="part"/></zone><zone>yä</zone><zone>kne</zone><zone>po</zone></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone><unclear>ṢṢA</unclear>ṃ</zone><zone>KA</zone><zone>ṣṣ<unclear>i</unclear></zone><zone>po</zone><zone>kse</zone><zone>ñi</zone><zone>pe</zone><zone>lai</zone><zone>kne</zone><zone>•</zone><zone>॥</zone><zone>brā</zone><zone>hma</zone></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone>pe</zone><zone>l<unclear>ai</unclear></zone><zone>kne</zone><zone>ntse</zone><gap reason="plain" quantity="1"/><zone>rmtsa</zone><zone>•</zone><zone>॥</zone><zone>wa</zone><zone>lo</zone><zone>we</zone><zone>ṢṢAṃ</zone></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><zone><gap reason="plain" unit="part"/><unclear>e</unclear></zone><zone>śa</zone><zone>nmaṃ</zone><zone>tso</zone><zone>ā</zone><zone>śpa</zone><zone>pyā</zone><zone>ko¯</zone><zone>¯Ṣ∘</zone><zone>:</zone><zone>mā</zone><zone>ñi</zone></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=67249;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=67249;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL40b.jpg" height="747px" width="1024px"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>y<gap reason="plain" unit="part"/></zone><zone>mai</zone><zone>p<gap reason="plain" unit="part"/></zone><zone>lka</zone><zone>pi</zone><zone>we</zone><zone><unclear>SA</unclear>¯</zone><zone>¯ñä</zone><zone>la</zone><zone>re</zone><zone>pi</zone><zone>SA</zone></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone><unclear>t</unclear>ra</zone><zone><gap reason="plain" unit="part"/>ā</zone><zone>kne</zone><zone>॥</zone><zone>si</zone><zone>knaṃ</zone><zone>ni</zone><zone>pū</zone><zone>rtsa</zone><zone>na</zone><zone><unclear>p</unclear>ai</zone><zone>ne</zone></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><zone>s<gap reason="plain" unit="part"/><unclear>¯</unclear></zone><zone><unclear>¯</unclear>M</zone><zone><unclear>p</unclear>e</zone><zone>kwe</zone><zone>tsai</zone><zone>po</zone><zone>kai</zone><zone>sa</zone><zone>a</zone><zone>ṣkā</zone><zone>rnä</zone><zone>tta</zone><zone>ṅKAṃ</zone></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>ke</zone><gap reason="par" quantity="1"/><gap reason="plain" quantity="1"/><zone>śle</zone><zone><unclear>yä</unclear></zone><zone>rke</zone><zone>KA</zone><zone>ṣṣīṃ</zone><zone>ñe</zone><zone>ya</zone><zone>kne</zone><gap reason="plain" quantity="1"/><zone>brā</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <lg type="poem">
+               <lg n="X" type="strophe">
+                  <l n="x">
+<lb corresp="#a1"/><gap reason="lost"/><w><supplied>o</supplied>m</w><w>n<supplied>o</supplied></w><gap reason="plain" quantity="3"/><w>ñca</w><gap reason="plain" quantity="2"/><w>ra</w><w>w<gap reason="plain" unit="part"/></w><w>l<gap reason="plain" unit="part"/></w><w>yäkne</w><w>po</w>
+<lb corresp="#a2"/><gap reason="lost"/><w>-ṣṣäṃ</w><w>käṣṣi</w><caesura ana="frg:cs-s"/><w>pokse-ñi</w><w>pelaikne</w><pc>•</pc><pc>॥</pc><w>brāhma<milestone unit="w" type="break"/></w>
+<lb corresp="#a3"/><gap reason="lost"/><caesura ana="frg:cs-s"/><w>pelaiknentse</w><w><supplied>ṣa</supplied>rmtsa</w><pc>•</pc><pc>॥</pc></l>
+                  <l n="x"><w>walo</w><w>weṣṣäṃ</w><caesura ana="frg:cs-s"/>
+<lb corresp="#a4"/><gap reason="lost"/><caesura ana="frg:cs-s"/><w><supplied>kl</supplied>eśanmaṃtso</w><caesura ana="frg:cs-s"/><w>āś</w><w>papyākoṣ</w><pc>:</pc></l>
+               </lg>
+            </lg>
+            <p><w>mā</w><w>ñi</w>
+<lb corresp="#b1"/><gap reason="lost"/><w><supplied>kl</supplied>y<supplied>o</supplied>mai</w><w>p<supplied>ā</supplied>lka</w><w>pi</w><w>wesäñ</w><w>larepi</w><w>sä<milestone unit="w" type="break"/></w>
+<lb corresp="#b2"/><gap reason="lost"/><w>-tra<gap reason="plain" unit="part"/>ākne</w><pc>॥</pc><w>siknaṃ</w><w>nipūrtsana</w><w>paine</w><caesura ana="frg:cs-s"/>
+<lb corresp="#b3"/><gap reason="lost"/><w>s<gap reason="plain" unit="part"/>m</w><w>pekwetsai</w><w>pokaisa</w><w>aṣkār</w><w>nättaṅkäṃ</w>
+<lb corresp="#b4"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>ke</w><gap reason="plain" quantity="2"/><w>śle</w><w>yärke</w><w>käṣṣīṃñe</w><w>yakne<supplied>sa</supplied></w><w>brā<milestone unit="w" type="break"/></w></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">... but there ... way ... all ...</seg></seg></choice><choice corresp="#a1 #a2 #a3 #a4 #b1 #b2 #b3 #b4"><seg><bibl><title corresp="ref:broomhead1962"/><citedRange>204</citedRange></bibl></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">... says: «Teacher, teach me the law!» The brahmin ...</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">... because of the law.» || The king says: «...</seg></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl">... they are beaten on the head by <hi>kleśa</hi>s. Not my ...</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">… noble one!, please look at the … (of our dear little son)!</seg></seg></choice><choice corresp="#b1 #b2"><seg><seg type="prim_transl">… noble one!, please look at the … of our dear little son!</seg><bibl><title corresp="ref:peyrot2013b"/><citedRange>361</citedRange></bibl></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">in the <hi>/// -tra·ākne</hi> [tune] || He takes a step [with his] feet adorned with footbells</seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl">... he pushes back with his arm [adorned] with ring[s] ...</seg></seg></choice><choice corresp="#b4"><seg><seg type="prim_transl">... with reverence in the way of a teacher ... brahmin (?)</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">According to <bibl><title corresp="ref:broomhead1962"/><citedRange>204</citedRange></bibl> "[w]ritten in medium ductus, and quite badly abraded it is from the middle of a four line manuscript." He also identifies this fragment as folios 11-12 (op.cit.).</note><note corresp="#a2" type="philcomment">if <hi>brahmaṇavākne</hi>, the first a should probably rather have been long. The strophe would also be very short.</note><note corresp="#b2" type="philcomment"><hi>nipūrtsana</hi>: check Broomhead's (<bibl><title corresp="ref:broomhead1962"/><citedRange>204, 205</citedRange></bibl>) translation.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 40" type="external">IOL Toch 40</ref></bibl>. </p>
+            <p><label>Edition</label><bibl><title corresp="ref:peyrot2007"/><citedRange>№40</citedRange></bibl><bibl><title corresp="ref:broomhead1962"/><citedRange>204-205</citedRange></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_size_w_old">10.8</item>
+               <item n="m_expedition_old"/>
+               <item n="m_remarks_old">&lt;p&gt;According to [[Broomhead I]]: 204 "[w]ritten in medium ductus, and quite badly abraded it is from the middle of a four line manuscript." He also identifies this fragment as folios 11-12 (op.cit.).&lt;/p&gt;</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_other_sigla_old">H 149.150; A.150</item>
+               <item n="m_script_old">Classical</item>
+               <item n="ms_old">IOL Toch 40</item>
+               <item n="project_comment_old">&lt;p&gt;Translations from [[Peyrot, ToSu]]
+&lt;table class="table_lines"&gt;
+&lt;th&gt;Lines&lt;/th&gt;
+&lt;th&gt;Translation&lt;/th&gt;
+&lt;th&gt;Pages&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt;b1-2&lt;/td&gt;
+&lt;td&gt;… noble one!, please look at the … of our dear little son!&lt;/td&gt;
+&lt;td&gt;361&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;[[Broomhead I]] has notes on p. 205 and translates on p. 204:&lt;/p&gt;
+&lt;p&gt;a1 [And] even there ... [in this] way all ... &lt;/p&gt;
+&lt;p&gt;a2 [He] says: 'O master, teach me the dharma!' || In Brāhma(ṇavāk) metre (||) ... &lt;/p&gt;
+&lt;p&gt;a3 On the grounds of the dharma. The king says: &lt;/p&gt;
+&lt;p&gt;a4 [Having been] smitten on the head by the kleśas my [life] [is] not ... &lt;/p&gt;
+&lt;p&gt;b1 Behold, O noble (Voc.m.)! ... of the dear [master?] &lt;/p&gt;
+&lt;p&gt;b2 (||) In ... metre || He strides [forward] with [his] feet adorned with footbells. &lt;/p&gt;
+&lt;p&gt;b3 [He] holds ... back with his arms adorned with a bangle. &lt;/p&gt;
+&lt;p&gt;b4 ... [He speaks to him] with reverence in the manner of a [Buddha] teacher. &lt;/p&gt;</item>
+               <item n="m_parallels_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_meter_old">4/4/4+5-3/4-3/6</item>
+               <item n="m_transcription_old">a1 /// (o)m n(o) – – – ñca – – ra w· l· yakne|yäkne po
+a2 /// -ṣṣäṃ käṣṣi ; pokse-ñ|pokse-ñi pelaikne • || brāhma-
+a3 /// ; pelaiknentse (ṣa)rmtsa • || #Xx walo weṣṣäṃ ;
+a4 /// ; kleśanmaṃts|(kl)eśanmaṃtso ; āś papyākoṣ : #Xx mā ñi
+b1 /// (kl)y(o)mai p(ā)lka pi wesäñ larepi sä-
+b2 /// -tra·ākne || siknaṃ nipūrtsana paine ;
+b3 /// s·m pekwetsai pokaisa aṣkār nättaṅkäṃ
+b4 /// – ke – – śle yärke käṣṣīṃñe yakne(sa) brā-</item>
+               <item n="m_title_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_prev_old"/>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old">bernhard</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_subgenre_old">Jātaka/Avadāna</item>
+               <item n="m_translation_old">a1 ... but there ... way ... all ...
+a2 ... says: «Teacher, teach me the law!» The brahmin ...
+a3 ... because of the law.» || The king says: «...
+a4 ... they are beaten on the head by &lt;i&gt;kleśa&lt;/i&gt;s. Not my ...
+b1 … noble one!, please look at the … (of our dear little son)!
+b2 in the &lt;i&gt;/// -tra·ākne&lt;/i&gt; [tune] || He takes a step [with his] feet adorned with footbells
+b3 ... he pushes back with his arm [adorned] with ring[s] ...
+b4 ... with reverence in the way of a teacher ... brahmin (?)</item>
+               <item n="project_check_old"/>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old"/>
+               <item n="file_location_old">pages/manuscript/IOL_Toch/ioltoch40.txt</item>
+               <item n="m_completeness_old"/>
+               <item n="m_collection_old">British Library (London)</item>
+               <item n="m_lines_old">4</item>
+               <item n="access_old">restricted</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="date_publication_old"/>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_transliteration_old">a1 /// – m n· (–) – – ñca (–) – ra w· l· yäkne po
+a2 /// [_ṣ_ṣ_a]ṃ _k_aṣṣ[i] pokse-ñi pelaikne • || brāhma
+a3 /// pel[ai]knentse – rmtsa • || walo we_ṣ_ṣ_aṃ
+a4 /// [·e]śanmaṃtso āś papyāko_ṣ\• : mā ñi
+b1 /// ·y·mai p·lka pi we[_s_a]ñä\ larepi _s_a
+b2 /// [t]ra·ākne || siknaṃ nipūrtsana [p]aine
+b3 /// s·_m[\] [p]ekwetsai pokaisa aṣkār nättaṅ_k_aṃ
+b4 /// – ke (–) – śle [yä]rke _k_aṣṣīṃñe yakne – brā</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=16663;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=16663;rotate=0;imageType=_M||IOL Toch 40 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=67249;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=67249;rotate=0;imageType=_M||IOL Toch 40 verso</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 40"&gt;IOL Toch 40&lt;/a&gt;.&lt;br&gt;
+Edition: [[Peyrot 2007]]: №40, [[Broomhead I]]: 204-205.&lt;br&gt;
+Translation:
+&lt;b&gt;full:&lt;/b&gt; [[Broomhead I]]: 204;
+&lt;b&gt;b1-2&lt;/b&gt; [[Peyrot, ToSu]]: 361.</item>
+               <item n="file_created_old">1322765174</item>
+               <item n="file_modified_old">1584798077</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old">9.5</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;a2.&lt;/b&gt; if &lt;i&gt;brahmaṇavākne&lt;/i&gt;, the first a should probably rather have been long. The strophe would also be very short.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b2.&lt;/b&gt; &lt;i&gt;nipūrtsana&lt;/i&gt;: check Broomhead's ([[Broomhead I]]: 204, 205) translation.&lt;/p&gt;</item>
+               <item n="m_editor_old">Michaël Peyrot</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;&lt;bibl&gt;&lt;title corresp="ref:broomhead1962"/&gt;&lt;/bibl&gt; has notes on p. 205 and translates on p. 204:&lt;/p&gt;&lt;p&gt;a1 [And] even there ... [in this] way all ... &lt;/p&gt;&lt;p&gt;a2 [He] says: 'O master, teach me the dharma!' || In Brāhma(ṇavāk) metre (||) ... &lt;/p&gt;&lt;p&gt;a3 On the grounds of the dharma. The king says: &lt;/p&gt;&lt;p&gt;a4 [Having been] smitten on the head by the kleśas my [life] [is] not ... &lt;/p&gt;&lt;p&gt;b1 Behold, O noble (Voc.m.)! ... of the dear [master?] &lt;/p&gt;&lt;p&gt;b2 (||) In ... metre || He strides [forward] with [his] feet adorned with footbells. &lt;/p&gt;&lt;p&gt;b3 [He] holds ... back with his arms adorned with a bangle. &lt;/p&gt;&lt;p&gt;b4 ... [He speaks to him] with reverence in the manner of a [Buddha] teacher. &lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

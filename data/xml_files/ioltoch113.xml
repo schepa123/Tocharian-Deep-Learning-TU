@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-ioltoch113">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>IOL Toch 113</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library (London)</repository>
+                  <idno>IOL Toch 113</idno>
+                  <altIdentifier>
+                     <idno>H 149.328</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>A.328</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>6.4</height>
+                              <width>12.1</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Medicine/Magic</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=14612;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=14612;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL113a.jpg" height="591px" width="1024px"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>R<gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="3"/><zone><unclear>e</unclear></zone><zone><gap reason="plain" unit="part"/><unclear>e</unclear></zone><gap reason="plain" quantity="1"/><zone>k<gap reason="plain" unit="part"/></zone><zone>ts<unclear>ai</unclear></zone><zone>yā</zone><gap reason="plain" quantity="1"/><zone>MA</zone><zone>kte</zone><zone>ra</zone><zone>tsa</zone><zone>kū</zone><zone>weṃ</zone><zone>ṣi</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>s<gap reason="plain" unit="part"/><gap reason="plain" unit="part"/></zone><zone><unclear>l</unclear><gap reason="plain" unit="part"/></zone><zone>ñ<gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="2"/><zone>k<unclear>e</unclear></zone><zone>•</zone><zone>śe</zone><zone>śu</zone><zone><unclear>y</unclear><gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="1"/><zone>ś<gap reason="plain" unit="part"/></zone><zone>mo</zone><zone>tā</zone><zone>kaṃ</zone><zone>sū</zone><zone>e</zone><zone>re</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><gap reason="plain" quantity="1"/><gap reason="par" quantity="1"/><gap reason="plain" quantity="4"/><zone>t<unclear>s</unclear>e</zone><gap reason="plain" quantity="1"/><zone>śū</zone><zone>ke</zone><zone>ka</zone><zone>nä</zone><zone><gap reason="plain" unit="part"/><unclear>e</unclear></zone><zone>॥</zone><zone>kā</zone><zone>ya</zone><zone>smṛ</zone><zone>tyu</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>s<gap reason="plain" unit="part"/><unclear>e</unclear></zone><zone><gap reason="plain" unit="part"/>t<gap reason="plain" unit="part"/></zone><zone><unclear>s</unclear><gap reason="plain" unit="part"/></zone><zone>a</zone><zone>ñ<gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="3"/><gap reason="par" quantity="1"/><gap reason="lost"/><gap reason="plain" quantity="2"/><gap reason="lost"/><gap reason="plain" quantity="3"/><zone>nte</zone><zone><unclear>a</unclear></zone><zone>ñma</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=15192;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=15192;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL113b.jpg" height="591px" width="1024px"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone>st<gap reason="plain" unit="part"/></zone><zone><gap reason="plain" unit="part"/>n<gap reason="plain" unit="part"/></zone><zone>ṣa¯</zone><zone>¯ñä</zone><zone>u</zone><zone>dā</zone><zone>pa¯</zone><zone>¯T</zone><zone>s<gap reason="plain" unit="part"/>a</zone><gap reason="lost"/><gap reason="plain" quantity="3"/><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>ke</zone><zone>ṣa¯</zone><zone>¯ñä</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone>ly<gap reason="plain" unit="part"/></zone><zone>ne</zone><zone><unclear>ṣa</unclear>¯</zone><zone>¯ñä</zone><zone>pi</zone><zone>tke</zone><zone><gap reason="plain" unit="part"/>re</zone><zone><gap reason="plain" unit="part"/>ā</zone><zone>we</zone><zone><unclear>st</unclear><gap reason="plain" unit="part"/>¯</zone><zone>¯ñ<unclear>ä</unclear></zone><gap reason="plain" quantity="6"/><zone><unclear>ñ</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><gap reason="plain" quantity="4"/><zone><gap reason="plain" unit="part"/>ṣ<gap reason="plain" unit="part"/></zone><zone>ya</zone><zone>sa¯</zone><zone>¯R</zone><zone>sta</zone><zone><gap reason="plain" unit="part"/>rä</zone><gap reason="plain" quantity="3"/><zone><gap reason="plain" unit="part"/>ā</zone><gap reason="plain" quantity="5"/><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><zone>lt<gap reason="plain" unit="part"/></zone><zone>na</zone><zone>ma</zone><zone><unclear>n</unclear>e¯</zone><zone>¯K</zone><zone>a</zone><zone><unclear>k</unclear>a</zone><zone>ppī</zone><gap reason="plain" quantity="3"/><zone><unclear>ñ</unclear><gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="1"/><zone><gap reason="plain" unit="part"/>n<gap reason="plain" unit="part"/></zone><zone>ñe</zone><zone>śe</zone><zone>śu</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>r<gap reason="plain" unit="part"/></w><gap reason="plain" quantity="3"/><w>e</w><w><gap reason="plain" unit="part"/>e</w><gap reason="plain" quantity="1"/><w>k<gap reason="plain" unit="part"/></w><w>tsai</w><w>yā</w><gap reason="plain" quantity="1"/><w>mäkte</w><w>ra</w><w>tsa</w><w>kū</w><w>weṃṣi<supplied>ye</supplied></w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>s<gap reason="plain" unit="part"/><gap reason="plain" unit="part"/></w><w>l<gap reason="plain" unit="part"/></w><w>ñ<gap reason="plain" unit="part"/></w><gap reason="plain" quantity="2"/><w>ke</w><pc>•</pc><w>śeśu</w><w>y<supplied>āku</supplied></w><w>ś<supplied>au</supplied>mo</w><w>tākaṃ</w><w>sū</w><w>ere</w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><gap reason="plain" quantity="6"/><w>tse</w><gap reason="plain" quantity="1"/><w>śūke</w><w>kanä<gap reason="plain" unit="part"/>e</w><pc>॥</pc><w>kāyasmṛtyu</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>s<gap reason="plain" unit="part"/>e</w><w><gap reason="plain" unit="part"/>t<gap reason="plain" unit="part"/></w><w>s<gap reason="plain" unit="part"/></w><w>añ<gap reason="plain" unit="part"/></w><gap reason="plain" quantity="4"/><gap reason="lost"/><gap reason="plain" quantity="2"/><gap reason="lost"/><gap reason="plain" quantity="3"/><w>nte</w><w>añma</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><w>st<gap reason="plain" unit="part"/></w><w><gap reason="plain" unit="part"/>n<gap reason="plain" unit="part"/></w><w>ṣañ</w><w>udāpat</w><w>s<gap reason="plain" unit="part"/>a</w><gap reason="lost"/><gap reason="plain" quantity="3"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>ke</w><w>ṣañ</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><w>ly<gap reason="plain" unit="part"/>ne</w><w>ṣañ</w><w>pitke</w><w><gap reason="plain" unit="part"/>re</w><w><gap reason="plain" unit="part"/>ā</w><w>we</w><w>st<gap reason="plain" unit="part"/>ñ</w><gap reason="plain" quantity="6"/><w>ñ<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><gap reason="plain" quantity="4"/><w><gap reason="plain" unit="part"/>ṣ<gap reason="plain" unit="part"/></w><w>yasar</w><w>sta</w><w><gap reason="plain" unit="part"/>rä</w><gap reason="plain" quantity="3"/><w><gap reason="plain" unit="part"/>ā</w><gap reason="plain" quantity="5"/><gap reason="lost"/>
+<lb corresp="#b4"/><gap reason="lost"/><w><supplied>tsa</supplied>lt<supplied>a</supplied>namanek</w><w>akappī</w><gap reason="plain" quantity="3"/><w>ñ<gap reason="plain" unit="part"/></w><gap reason="plain" quantity="1"/><w><gap reason="plain" unit="part"/>n<gap reason="plain" unit="part"/></w><w>ñe</w><w>śeśu</w><gap reason="lost"/></p>
+         </div>
+         <div type="comments">
+            <p><note type="philcomment">The recto is badly abraded at the left; the verso is partly badly abraded, too.</note><note type="remarks">Accoding to <bibl><title corresp="ref:broomhead1962"/><citedRange>288</citedRange></bibl> "[w]ritten in medium ductus the manuscript is badly abraded on both sides".</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition</label><bibl><title corresp="ref:peyrot2007"/><citedRange>№113</citedRange></bibl><bibl><title corresp="ref:broomhead1962"/><citedRange>288</citedRange></bibl>.</p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 113" type="external">IOL Toch 113</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="file_location_old">pages/manuscript/IOL_Toch/ioltoch113.txt</item>
+               <item n="m_completeness_old"/>
+               <item n="access_old">restricted</item>
+               <item n="m_collection_old">British Library (London)</item>
+               <item n="m_lines_old">4</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="m_transliteration_old">a1 /// ·_r· [– – – e] ·[e –] k· ts[ai] yā – _m_akte ra tsa kū weṃṣi- ///
+a2 /// – s[·]· [l]· ñ· – – k[e] • śeśu [y]· – ś·mo tākaṃ sū ere ///
+a3 /// – (–) – [– – –] t[s]e – śūke kanä·[e] || kāyasmṛtyu – ///
+a4 /// – s·[e] ·t· [s]· añ· – – – (–) /// [– –] /// – – – nte [a]ñma – ///
+b1 /// st· ·n· ṣañä\ udāpa_t\ s·a /// [– – –] /// – ke ṣañä\ – ///
+b2 /// ly·ne [ṣa]ñä\ pitke ·re ·ā we [st]·ñ[ä]\ [– – – –] – – [ñ·] ///
+b3 /// – [– –] – ·ṣ· yasa_r\ sta ·rä [– – –] ·ā – – – [– –] ///
+b4 /// -lt·nama[n]e_k\ a[k]appī – – – [ñ]· – ·n· ñe śeśu ///</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="date_publication_old"/>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=14612;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=14612;rotate=0;imageType=_M||IOL Toch 113 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=15192;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=15192;rotate=0;imageType=_M||IOL Toch 113 verso</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 113"&gt;IOL Toch 113&lt;/a&gt;.&lt;br&gt;
+Edition: [[Peyrot 2007]]: №113, [[Broomhead I]]: 288.</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="file_modified_old">1533725632</item>
+               <item n="file_created_old">1322765174</item>
+               <item n="m_size_h_old">6.4</item>
+               <item n="m_next_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old">&lt;p&gt;The recto is badly abraded at the left; the verso is partly badly abraded, too.&lt;/p&gt;</item>
+               <item n="m_expedition_old"/>
+               <item n="m_size_w_old">12.1</item>
+               <item n="m_other_sigla_old">H 149.328; A.328</item>
+               <item n="m_remarks_old">&lt;p&gt;Accoding to [[Broomhead I]]: 288 "[w]ritten in medium ductus the manuscript is badly abraded on both sides".&lt;/p&gt;</item>
+               <item n="m_language_old">TB</item>
+               <item n="project_comment_old"/>
+               <item n="ms_old">IOL Toch 113</item>
+               <item n="m_script_old">Classical</item>
+               <item n="m_parallels_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_transcription_old">a1 /// ·r· – – – e ·e – k· tsai yā – mäkte ra tsa kū weṃṣi(ye) ///
+a2 /// – s·· l· ñ· – – ke • śeśu y(āku) ś(au)mo tākaṃ su|sū ere ///
+a3 /// – – – – – – tse – śūke kanä·e || kāyasmṛtyu – ///
+a4 /// – s·e ·t· s· añ· – – – – /// – – /// – – – nte añma – ///
+b1 /// st· ·n· ṣañ udāpat s·a /// – – – /// – ke ṣañ – ///
+b2 /// ly·ne ṣañ pitke ·re ·ā we st·ñ – – – – – – ñ· ///
+b3 /// – – – – ·ṣ· yasar sta ·rä – – – ·ā – – – – – ///
+b4 /// (tsa)lt(a)namanek akappi|akappī – – – ñ· – ·n· ñe śeśu ///</item>
+               <item n="m_title_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_prev_old"/>
+               <item n="user_modified_old">bernhard</item>
+               <item n="user_created_old">automatic</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_translation_old"/>
+               <item n="m_subgenre_old">Medicine/Magic</item>
+               <item n="project_check_old"/>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

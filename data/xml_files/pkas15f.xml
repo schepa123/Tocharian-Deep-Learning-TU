@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-pkas15f">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PK AS 15F</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Georges-Jean Pinault</name>
+            </respStmt>
+            <respStmt>
+               <resp>collaborator</resp>
+               <name>Melanie Malzahn</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</repository>
+                  <idno>PK AS 15F</idno>
+                  <altIdentifier>
+                     <idno>Pelliot Koutchéen Ancienne Série 15F</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>10,8</height>
+                              <width>8,2</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <dimensions type="line_spacing">
+                              <height>1,8</height>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Duldur-Akhur</region><placeName>DA, cour</placeName>during <rs type="expedition_code">DA cour</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Jātaka/Avadāna</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic url="ASHuard/AS15Fa.jpg" height="3480px" width="4640px"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone>mṣa</zone><zone>lle</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone>k<unclear>ṣ</unclear>aṃ</zone><zone>ntse</zone><zone>wrä</zone><zone>mpu</zone><zone>śc<unclear>a</unclear></zone><zone>m<gap reason="par" unit="part"/></zone><zone>n<gap reason="par" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone>pä</zone><zone>ntseṃ</zone><zone>ko</zone><zone>yñī</zone><zone>ra¯</zone><zone>¯mT</zone><zone><unclear>p</unclear>u</zone><zone>wa</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>wa</zone><zone>ntau</zone><zone>sle</zone><zone>me</zone><zone>ntsa</zone><zone>bhṛ</zone><zone>gu</zone><zone>m<gap reason="plain" unit="part"/><gap reason="par" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><gap reason="lost"/><zone>ña</zone><zone>kta</zone><zone>sai</zone><zone>mo</zone><zone>n<gap reason="par" unit="part"/></zone><zone>lme¯</zone><zone>¯ntS</zone><zone>a</zone><zone>ñ<gap reason="par" unit="part"/><gap reason="par" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="6" xml:id="a6"><gap reason="lost"/><zone><gap reason="par" unit="part"/>e</zone><gap reason="par" quantity="2"/><zone>wä</zone><zone>lo</zone><gap reason="plain" quantity="1"/><zone>ntū</zone><zone><unclear>l</unclear><gap reason="par" unit="part"/><unclear>e</unclear></zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic url="ASHuard/AS15Fb.jpg" height="3480px" width="4640px"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone>ts<gap reason="par" unit="part"/></zone><zone>kl<gap reason="par" unit="part"/></zone><gap reason="par" quantity="1"/><zone><unclear>a</unclear></zone><zone>lyi<gap reason="par" unit="part"/></zone><zone>s<gap reason="par" unit="part"/></zone><zone>mai</zone><zone>we</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone>na</zone><zone>ntse</zone><zone>pū</zone><zone>dñä<gap reason="par" unit="part"/></zone><zone><gap reason="par" unit="part"/>e</zone><zone>ntse</zone><zone>ta</zone><zone>mba</zone><zone>rī</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><zone>TA</zone><zone>ṣṣe</zone><zone>se</zone><zone>tau</zone><zone>pe</zone><zone>30-1</zone><zone>MA</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><zone>mka</zone><zone>ywā</zone><zone>rcä</zone><zone>sta</zone><zone>mā</zone><zone>re</zone><zone>ma</zone><zone>ñyai</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><gap reason="lost"/><zone>la</zone><zone>lyyā</zone><zone>re</zone><gap reason="par" quantity="3"/><zone><gap reason="par" unit="part"/>e</zone><gap reason="lost"/></line>
+            <line n="6" xml:id="b6"><gap reason="lost"/><zone>ścä</zone><zone>mā</zone><zone><gap reason="plain" unit="part"/>e</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><w>mṣalle</w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><w>kṣaṃntse</w><w>wrämpu</w><w>ścam<gap reason="plain" unit="part"/>n<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><w>pä</w><w>ntseṃ</w><w>koyñī</w><w>ramt</w><w>puwa</w><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>wantau</w><w>slementsa</w><w>bhṛgu</w><w>m<gap reason="plain" unit="part"/><gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#a5"/><gap reason="lost"/><w>ñakta</w><w>saim</w><w>on<supplied>o</supplied>lments</w><w>añ<supplied>m</supplied></w><gap reason="lost"/>
+<lb corresp="#a6"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>e</w><gap reason="plain" quantity="2"/><w>wä</w><w>lo</w><gap reason="plain" quantity="1"/><w>ntū</w><w>l<gap reason="plain" unit="part"/>e</w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><w>ts<gap reason="plain" unit="part"/></w><w>kl<gap reason="plain" unit="part"/></w><gap reason="plain" quantity="1"/><w>alyi<supplied>nt</supplied>s<supplied>a</supplied></w><w>maiwe</w><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><w>nantse</w><w>pūdñä<supplied>kt</supplied>entse</w><w>tambarī</w><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><w>täṣṣe</w><w>se</w><w>taupe</w><num value="31">30-1</num><w>mä</w><gap reason="lost"/>
+<lb corresp="#b4"/><gap reason="lost"/><w>mka</w><w>ywārcä</w><w>stamāre</w><w>mañyai</w><gap reason="lost"/>
+<lb corresp="#b5"/><gap reason="lost"/><w>laly</w><w>yāre</w><gap reason="plain" quantity="3"/><w><gap reason="plain" unit="part"/>e</w><gap reason="lost"/>
+<lb corresp="#b6"/><gap reason="lost"/><w>ścä</w><w>mā</w><w><gap reason="plain" unit="part"/>e</w><gap reason="lost"/></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks"><ref type="ms" target="txt:m-pkas15e"/> and this fragment do not belong together, and both do not belong to the series PK AS 15A etc. either.</note><note corresp="#a3" type="philcomment">Beginning of this line = sic!</note><note corresp="#a4" type="philcomment">The missing akṣara at the beginning of this line is either <hi>dhu</hi>, <hi>7</hi> or <hi>8</hi>.</note></p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="file_location_old">pages/manuscript/PK_AS/pkas15f.txt</item>
+               <item n="access_old">public</item>
+               <item n="m_collection_old">Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</item>
+               <item n="m_lines_old">6</item>
+               <item n="m_linedistance_old">1,8</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_specific_old">DA, cour</item>
+               <item n="m_findspot_old">Duldur-Akhur</item>
+               <item n="m_language_stage_old"/>
+               <item n="m_transliteration_old">a1 /// mṣalle ///
+a2 /// k[ṣ]aṃntse wrämpu śc[a]m(·)n(·) ///
+a3 /// pä ntseṃ koyñī ram_t\ [p]uwa ///
+a4 /// – wantau slementsa bhṛgu m·(·) ///
+a5 /// ñakta saim on(·)lment_s\ añ(··) ///
+a6 /// (·)e (– –) wä lo – ntū [l](·)[e] ///
+b1 /// ts(·) kl(· –) [a]lyi(·)s(·) maiwe ///
+b2 /// nantse pūdñä(··)entse tambarī ///
+b3 /// _t_aṣṣe se taupe 30-1 _m_a ///
+b4 /// mka ywārcä stamāre mañyai ///
+b5 /// laly yāre (– – – ·)e ///
+b6 /// ścä mā ·e ///</item>
+               <item n="date_publication_old"/>
+               <item n="m_image_old"/>
+               <item n="m_bib_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old"/>
+               <item n="file_modified_old">1481811365</item>
+               <item n="file_created_old">1348820002</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old">10,8</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_editor_old">Georges-Jean Pinault (in collaboration with Melanie Malzahn)</item>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;a3.&lt;/b&gt; Beginning of this line = sic!&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a4.&lt;/b&gt; The missing akṣara at the beginning of this line is either &lt;i&gt;dhu&lt;/i&gt;, &lt;i&gt;7&lt;/i&gt; or &lt;i&gt;8&lt;/i&gt;.&lt;/p&gt;</item>
+               <item n="m_size_w_old">8,2</item>
+               <item n="m_expedition_old">DA cour</item>
+               <item n="m_other_sigla_old">Pelliot Koutchéen Ancienne Série 15F</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old">&lt;p&gt;[[PK AS 15E]] and this fragment do not belong together, and both do not belong to the series PK AS 15A etc. either.&lt;/p&gt;</item>
+               <item n="project_comment_old">&lt;p&gt;Please check beginning of a3: in the word doc it says &lt;i&gt;pä [sic!] ntseṃ&lt;/i&gt; - I took out the “sic”, but are &lt;i&gt;pä&lt;/i&gt; and &lt;i&gt;ntseṃ&lt;/i&gt; separate words?&lt;/p&gt;</item>
+               <item n="ms_old">PK AS 15F</item>
+               <item n="m_script_old"/>
+               <item n="m_parallels_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old">a1 /// mṣalle ///
+a2 /// kṣaṃntse wrämpu ścam(·)n(·) ///
+a3 /// pä ntseṃ koyñī ramt puwa ///
+a4 /// – wantau slementsa bhṛgu m·(·) ///
+a5 /// ñakta saim on(o)lments añ(m) ///
+a6 /// (·)e (– –) wä lo – ntū l(·)e ///
+b1 /// ts(·) kl(·) (–) alyi(nt)s(a) maiwe ///
+b2 /// nantse pūdñä(kt)entse tambarī ///
+b3 /// täṣṣe se taupe 31 mä ///
+b4 /// mka ywārcä stamāre mañyai ///
+b5 /// laly yāre (– – –) (·)e ///
+b6 /// ścä mā ·e ///</item>
+               <item n="m_title_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_prev_old"/>
+               <item n="user_modified_old">theres</item>
+               <item n="user_created_old">theres</item>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_subgenre_old">Jātaka/Avadāna</item>
+               <item n="m_translation_old"/>
+               <item n="m_metric_form_old"/>
+               <item n="m_tune_old"/>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;Please check beginning of a3: in the word doc it says &lt;hi&gt;pä [sic!] ntseṃ&lt;/hi&gt; - I took out the “sic”, but are &lt;hi&gt;pä&lt;/hi&gt; and &lt;hi&gt;ntseṃ&lt;/hi&gt; separate words?&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

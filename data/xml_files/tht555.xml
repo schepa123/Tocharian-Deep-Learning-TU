@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht555">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 555</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 555</idno>
+                  <altIdentifier>
+                     <idno>B 555</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Bleistiftnummer 2508</idno>
+                  </altIdentifier>
+                  <msName>THT 552-557</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Praise of the Law, reflection on mortality</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">6</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Qizil Miŋ-Öy</region>during <rs type="expedition_code">T III MQ 46, T III MQ 73.7</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-archaic frg:ls-peyrot-A2 frg:ls-C14 frg:ls-tamai-A3 frg:ls-C14"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Doctrine</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328223;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328223;rotate=0;imageType=_M"/>
+            <graphic url="B/B555b.jpg" height="709px" width="1292px"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone>SAṃ</zone><zone>pe</zone><zone>lai</zone><zone>ykne</zone><zone>tse</zone><zone>ṣa</zone><zone>rmtsa</zone><zone>kwri</zone><zone>ksa</zone><zone>ma</zone></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone><unclear>mc</unclear><gap reason="plain" unit="part"/></zone><zone>ktu</zone><zone>po</zone><zone>sTAṃ</zone><zone>ceṃ</zone><zone>sru</zone><zone>ka</zone><zone>lyñe</zone><zone>KA</zone><zone>ska</zone><zone>nme</zone><zone>:</zone></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><zone>l<unclear>ai</unclear></zone><zone>kne</zone><zone>sa</zone><zone>kṣṭRA</zone><zone>se</zone><zone>śau¯</zone><zone>¯L</zone><zone>ṢPA</zone><zone>mu</zone><zone>ske</zone><zone>TA¯</zone><zone>¯R</zone><zone>:</zone></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><zone><gap reason="plain" unit="part"/><unclear>t</unclear><gap reason="plain" unit="part"/></zone><zone>rye</zone><zone>ṣe</zone><zone>me</zone><zone>ske</zone><zone>pi</zone><zone>ya</zone><zone>lya</zone><zone>pro</zone><zone>skai</zone><zone>tsa</zone></line>
+            <line n="5" xml:id="b5"><gap reason="lost"/><zone>l<unclear>o</unclear></zone><zone><unclear>p</unclear>e</zone><zone><unclear>waṃ</unclear><unclear>¯</unclear></zone><zone><unclear>¯</unclear><unclear>T</unclear></zone><zone>ya</zone><zone>mo¯</zone><zone>¯R</zone><zone>kRA</zone><zone>ta</zone><zone>tñe</zone><zone>su</zone></line>
+            <line n="6" xml:id="b6"><gap reason="lost"/><zone><unclear>śa</unclear></zone><zone>mna</zone><zone>po</zone><zone>PA</zone><zone>sTä</zone><zone>ri</zone><zone>na</zone><zone>ṢA</zone><zone>lyi</zone><zone>pe</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#b1"/><gap reason="lost"/></p>
+            <lg type="poem" met="frg:M17">
+               <lg n="X" type="strophe">
+                  <l n="x"><w>säṃ</w><w>pelaiyknetse</w><w>ṣarmtsa</w><w>kwri</w><w>ksa</w><w>ma</w>
+<lb corresp="#b2"/><gap reason="lost"/><w>mc<gap reason="plain" unit="part"/>k</w><w>tu</w><w>postäṃ</w><w>ceṃ</w><w>srukalyñe</w><w>käskanme</w><pc>:</pc></l>
+                  <l n="x">
+<lb corresp="#b3"/><gap reason="lost"/><w>laikne</w><w>sakṣṭrä</w><w>se</w><caesura ana="frg:cs-s"/><w>śaul</w><w>ṣpä</w><w>musketär</w><pc>:</pc></l>
+               </lg>
+            </lg>
+            <p>
+<lb corresp="#b4"/><gap reason="lost"/><w><supplied>y</supplied></w><w>t<supplied>ā</supplied>rye</w><w>ṣemeskepi</w><w>yalya</w><w>proskaitsa</w>
+<lb corresp="#b5"/><gap reason="lost"/><w>lope</w><w>waṃt</w><w>yamor</w><w>krätatñe</w><w>su</w>
+<lb corresp="#b6"/><gap reason="lost"/><w>śamna</w><w>po</w><w>pästä</w><w>rinaṣälyi</w><w>pe</w></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#b2"><seg><bibl><title corresp="ref:hackstein1995"/><citedRange>200</citedRange></bibl></seg><seg><seg type="prim_transl">Certainly death will disperse them after that.</seg><bibl><title corresp="ref:peyrot2013b"/><citedRange>306</citedRange></bibl></seg></choice><choice corresp="#b3"><seg><bibl><title corresp="ref:hackstein1995"/><citedRange>190</citedRange></bibl></seg><seg><seg type="prim_transl">... das Gesetz bleibt, dies Leben aber schwindet.</seg><seg type="sec_transl" resp="TI">The Law remains, but this life fades.</seg><bibl><title corresp="ref:schmidtkt1974"/><citedRange>111, 138</citedRange></bibl></seg></choice><choice corresp="#b4"><seg><bibl><title corresp="ref:thomas1952"/><citedRange>18</citedRange></bibl></seg></choice><choice corresp="#b6"><seg><bibl><title corresp="ref:thomas1952"/><citedRange>17</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1997"/><citedRange>116</citedRange></bibl></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">In one frame with <ref type="ms" target="txt:m-tht553"/>; Tocharian recto layer not preserved.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 555" type="external">THT 555</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/05/0555.htm" type="external">THT 555</ref></bibl>. </p>
+            <p><label>Edition</label><bibl><title corresp="ref:siegandsiegling1953"/><citedRange>349-350</citedRange></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_prev_old"/>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old">bernhard</item>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_translation_old"/>
+               <item n="m_subgenre_old">Doctrine</item>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Verse</item>
+               <item n="m_expedition_old">T III MQ 46, T III MQ 73.7</item>
+               <item n="m_size_w_old"/>
+               <item n="m_remarks_old">In one frame with [[THT 553]]; Tocharian recto layer not preserved.</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_other_sigla_old">B 555, Bleistiftnummer 2508</item>
+               <item n="m_script_old">Classical</item>
+               <item n="project_comment_old">&lt;p&gt;Alternative classifications:
+&lt;table class="table_lines"&gt;
+  &lt;tr&gt;&lt;td title="MP"&gt;Peyrot&lt;/td&gt;&lt;td title="A2"&gt;archaic II&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="MM"&gt;Malzahn&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TT"&gt;Tamai&lt;/td&gt;&lt;td title="A3"&gt;I-3 (500-600)&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TTC14"&gt;Tamai-C14&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+&lt;p&gt;Translations from [[Peyrot, ToSu]]
+&lt;table class="table_lines"&gt;
+&lt;th&gt;Lines&lt;/th&gt;
+&lt;th&gt;Translation&lt;/th&gt;
+&lt;th&gt;Pages&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt;b2&lt;/td&gt;
+&lt;td&gt;Certainly death will disperse them after that.&lt;/td&gt;
+&lt;td&gt;306&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+&lt;p&gt;Translations from [[Schmidt KT 1974]]
+&lt;table class="table_lines"&gt;
+&lt;th&gt;Lines&lt;/th&gt;
+&lt;th&gt;Translation&lt;/th&gt;
+&lt;th&gt;Pages&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt;b3&lt;/td&gt;
+&lt;td&gt;&lt;span title="The Law remains, but this life fades."&gt;... das Gesetz bleibt, dies Leben aber schwindet.&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;111, 138&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;</item>
+               <item n="ms_old">THT 555</item>
+               <item n="m_parallels_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_meter_old"/>
+               <item n="m_title_old">Praise of the Law, reflection on mortality</item>
+               <item n="m_transcription_old">b1 /// #M17# säṃ pelaiyknetse ṣarmtsa kwri ksa ma
+b2 /// mc·k tu postäṃ ceṃ srukalyñe käskanme : #Xx
+b3 /// laikne sakṣṭrä se ; śaul ṣpä musketär : #Xx
+b4 /// (y) t(ā)rye ṣemeskepi yalya proskaitsa
+b5 /// lope waṃt yamor krätatñe su
+b6 /// śamna po pästä rinaṣälyi pe</item>
+               <item n="m_leaf_old"/>
+               <item n="date_publication_old"/>
+               <item n="m_language_stage_old">Archaic</item>
+               <item n="m_transliteration_old">b1 /// _s_aṃ pelaiyknetse ṣarmtsa kwri ksa ma
+b2 /// [mc·]k tu pos_t_aṃ ceṃ srukalyñe _k_askanme :
+b3 /// l[ai]kne sakṣṭ_r_a se śau_l\ _ṣ_p_a muske_t_a_r\ :
+b4 /// (y) [t](ā)rye ṣemeskepi yalya proskaitsa
+b5 /// l[op]e [waṃ_t\] yamo_r\ k_r_atatñe su
+b6 /// [śa]mna po _p_as_tä rina_ṣ_alyi pe</item>
+               <item n="m_image_old">http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328215;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328215;rotate=0;imageType=_M||THT 555 and 553 recto
+http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328223;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328223;rotate=0;imageType=_M||THT 553 and 555 verso</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old">THT 552-557</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 555" target="idp"&gt;THT 555&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/05/0555.htm" target="titus"&gt;THT 555&lt;/a&gt;.&lt;br&gt;
+Edition: [[TochSprR(B) II]]: 349-350.&lt;br&gt;
+Translation:
+&lt;b&gt;b2&lt;/b&gt; [[Hackstein 1995]]: 200; [[Peyrot, ToSu]]: 306;
+&lt;b&gt;b3&lt;/b&gt; [[Schmidt KT 1974]]: 111, 138; [[Hackstein 1995]]: 190;
+&lt;b&gt;b4&lt;/b&gt; [[Thomas 1952]]: 18;
+&lt;b&gt;b6&lt;/b&gt; [[Thomas 1952]]: 17, [[Thomas 1997]]: 116.</item>
+               <item n="file_created_old">1332006619</item>
+               <item n="file_modified_old">1584798188</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old"/>
+               <item n="m_editor_old"/>
+               <item n="file_location_old">pages/manuscript/THT_0001_0633/tht555.txt</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_lines_old">6</item>
+               <item n="access_old">public</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_old">Qizil Miŋ-Öy</item>
+               <item n="m_findspot_specific_old"/>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;Alternative classifications:
+
+&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

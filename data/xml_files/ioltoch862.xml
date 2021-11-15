@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-ioltoch862">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>IOL Toch 862</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library (London)</repository>
+                  <idno>IOL Toch 862</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Udānavarga</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>4,5</height>
+                              <width>3,9</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="txb" ana="frg:ls-cetom-classical frg:ls-cetom-aberrant-None"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Doctrine</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=79963;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=79963;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL862a.jpg" height="1007px" width="816px"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone>tu</zone><zone>sā</zone><zone>ks<gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone><gap reason="plain" unit="part"/><unclear>s</unclear><gap reason="plain" unit="part"/></zone><zone><unclear>ā</unclear></zone><zone>ke</zone><zone>lkā</zone><zone>ṣṣe</zone><zone>ñc<unclear>a</unclear></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone>pā</zone><zone>ra</zone><zone>gā</zone><zone>ḥ</zone><zone>tā</zone><zone>ko</zone><zone><unclear>y</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><zone><unclear>t</unclear>e</zone><zone>m<unclear>ū</unclear></zone><zone>l<gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=80060;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=80060;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL862b.jpg" height="1007px" width="823px"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone><unclear>p</unclear>lā</zone><zone>sk<gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone><unclear>y</unclear><gap reason="plain" unit="part"/></zone><zone>te</zone><zone>bha</zone><zone>ya¯</zone><zone>¯m</zone><zone>•</zone><zone>y<gap reason="plain" unit="part"/>e</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>e<gap reason="plain" unit="part"/></zone><zone><gap reason="plain" unit="part"/>ṃ</zone><zone>meṃ</zone><zone>tsi</zone><zone>kuta</zone><zone>me<gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>ti</zone><zone>bhyo</zone><zone><gap reason="plain" unit="part"/>i</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p><milestone unit="passage" n="1.42a-2.3c"/>
+<lb corresp="#a1"/><gap reason="lost"/><w>tusāks<supplied>a</supplied></w><w><supplied>ṣek</supplied></w><w><supplied>ompalskoññene</supplied></w><w><supplied>wīna</supplied></w><w><supplied>yāmoṣ</supplied></w><w><supplied>kakraupaṣäṃ</supplied></w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><w><supplied>etsarkällecci</supplied></w><w><supplied>cmelle</supplied></w><w><supplied>ktsaitsäññent</supplied>s<supplied>e</supplied></w><w>āke</w><w>lkāṣṣeñca<supplied>ñ</supplied></w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><w><supplied>bhaveta</supplied></w><w><supplied>jātīmaraṇasya</supplied></w><w>pāragāḥ</w><pc><add>•</add></pc><w>tākoy<supplied>cer</supplied></w><w><supplied>cmelle</supplied></w><w><supplied>srūkallentse</supplied></w><w><supplied>totte</supplied></w><w><supplied>ynūcañ</supplied></w><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="lost"/><w><supplied>kāma</supplied></w><w><supplied>jānāmi</supplied></w><w>te</w><w>mūl<supplied>am</supplied></w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><w>plāsk<supplied>au</supplied></w><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><w><supplied>kāmebhyo</supplied></w><w><supplied>jā</supplied>y<supplied>a</supplied>te</w><w>bhayam</w><pc>•</pc><w>y<supplied>ś</supplied>e<supplied>lmenmeṃ</supplied></w><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><w><supplied>mā</supplied></w><w><supplied>n</supplied>e<supplied>sä</supplied>ṃ</w><w>meṃtsi</w><w>kUtame<supplied>ṃ</supplied></w><w><supplied>prosko</supplied></w><gap reason="lost"/>
+<lb corresp="#b4"/><gap reason="lost"/><w><supplied>ra</supplied>tibhyo</w><w><supplied>v</supplied>i<supplied>pramuktānām</supplied></w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">[TB] therefore, ([you who] always honour meditation, and are concentrated)</seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">[TB] and zealous, and see the end of birth and old age</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">[SKT] (may you) reach the other shore (of birth and death) [TB] may you (reach the other shore of birth and death)</seg></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl">[SKT] (desire, I know) your root</seg></seg></choice><choice corresp="#b1"><seg><bibl><title corresp="ref:peyrot2013b"/><citedRange>289</citedRange></bibl></seg><seg><seg type="prim_transl">[TB] I will (not) imagine (you)</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">[SKT] (from desires) arises fear [TB] from desires (arises fear)</seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl">[TB] there is (no) grief, let alone (fear)</seg></seg></choice><choice corresp="#b4"><seg><seg type="prim_transl">[SKT] for those who are freed from pleasures</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="parallels">See in particular <ref type="ms" target="txt:m-pkas1a"/>, for b3 also <ref type="ms" target="txt:m-ioltoch716"/>. <bibl><title corresp="ref:chakravarti1930"/><citedRange>17-20</citedRange></bibl>; <bibl><title corresp="ref:bernhard1965"/><citedRange>111-112</citedRange></bibl>; <bibl><title corresp="ref:hahn2007"/><citedRange>17</citedRange></bibl></note><note corresp="#a1" type="philcomment">Uv.1.42a <hi>tasmāt sadā dhyānaratāḥ samāhitā</hi></note><note corresp="#a2" type="philcomment">Uv.1.42b <hi>hy ātāpino jātijarāntadarśinaḥ</hi></note><note corresp="#a3" type="philcomment">Uv.1.42d <hi>bhaveta jātīmaraṇasya pāragāḥ</hi></note><note corresp="#a4" type="philcomment">Uv.2.1a <hi>kāma jānāmi te mūlam</hi></note><note corresp="#b1" type="philcomment">Uv.2.1c <hi>na tvāṃ saṃkalpayiṣyāmi</hi></note><note corresp="#b2" type="philcomment">Uv.2.2b <hi>kāmebhyo jāyate bhayam</hi></note><note corresp="#b3" type="philcomment">Uv.2.2d <hi>nāsti śokaḥ kuto bhayam</hi></note><note corresp="#b4" type="philcomment">Uv.2.03c <hi>ratibhyo vipramuktānām</hi></note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL%20Toch%20862" type="external">IOL Toch 862</ref></bibl>. </p>
+            <p><label>Edition</label><bibl><title corresp="ref:tamai2007"/><citedRange>№862</citedRange></bibl>; <bibl><title corresp="ref:peyrot2008a"/><citedRange>85</citedRange></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old">None</item>
+               <item n="user_modified_old">theres</item>
+               <item n="user_created_old">michael</item>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="file_name_old">pages/manuscript/IOL_Toch/ioltoch862.txt</item>
+               <item n="m_translation_old">a1 [TB] therefore, ([you who] always honour meditation, and are concentrated)
+a2 [TB] and zealous, and see the end of birth and old age
+a3 [SKT] (may you) reach the other shore (of birth and death) [TB] may you (reach the other shore of birth and death)
+a4 [SKT] (desire, I know) your root
+b1 [TB] I will (not) imagine (you)
+b2 [SKT] (from desires) arises fear [TB] from desires (arises fear)
+b3 [TB] there is (no) grief, let alone (fear)
+b4 [SKT] for those who are freed from pleasures</item>
+               <item n="m_subgenre_old">Doctrine</item>
+               <item n="file_savedate_old">2016-11-15, 15:39:09 (CET)</item>
+               <item n="edited_date_old">2016-11-15, 15:39:09 (CET)</item>
+               <item n="m_parallels_old">See in particular [[PK AS 1A]], for b3 also [[IOL Toch 716]]. [[Chakravarti 1930]]: 17-20; [[Bernhard 1965]]: 111-112; [[Hahn 2007]]: 17</item>
+               <item n="ms_old">IOL Toch 862</item>
+               <item n="m_script_old">Classical</item>
+               <item n="m_language_old">Sanskrit+TB</item>
+               <item n="m_size_w_old">3,9</item>
+               <item n="m_transcription_old">a1 /// tusāks(a |ṣek |ompalskoññene |wīna |yāmoṣ |kakraupaṣäṃ) ///
+a2 /// |(etsarkällecci |cmelle ktsaitsäññent)s(e) āke lkāṣṣeñca(ñ) ///
+a3 /// |(bhaveta |jātīmaraṇasya) pāragāḥ «•» tākoy(cer |cmelle |srūkallentse |totte |ynūcañ) ///
+a4 /// |(kāma |jānāmi) te mūl(am) ///
+b1 /// plāsk(au) ///
+b2 /// |(kāmebhyo jā)y(a)te bhayam • y(ś)e(lmenmeṃ) ///
+b3 /// |(mā n)e(sä)ṃ mentsi|meṃtsi k_utame(ṃ |prosko) ///
+b4 /// (ra)tibhyo (v)i(pramuktānām) ///</item>
+               <item n="m_title_old">Udānavarga</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="group_old">Public</item>
+               <item n="editgroup_old">Editor</item>
+               <item n="file_size_old">3 KB</item>
+               <item n="m_bib_old">[[IDP]]: &lt;A href="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL%20Toch%20862"&gt;IOL Toch 862&lt;/a&gt;.&lt;br&gt;
+Edition: [[Tamai 2007]]: №862; [[Peyrot 2008a]]: 85.&lt;br&gt;
+Translation:
+&lt;b&gt;b1&lt;/b&gt; [[Peyrot, ToSu]]: 289.</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=79963;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=79963;rotate=0;imageType=_M||IOL Toch 862 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=80060;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=80060;rotate=0;imageType=_M||IOL Toch 862 verso</item>
+               <item n="m_transliteration_old">a1 /// tusāks· ///
+a2 /// ·[s]· [ā]ke lkāṣṣeñc[a] ///
+a3 /// pāragāḥ tāko[y]· ///
+a4 /// [t]e m[ū]l· ///
+b1 /// [p]lāsk· – ///
+b2 /// [y]·te bhayam\ • y·e ///
+b3 /// ·e··ṃ meṃtsi k_utame[·] ///
+b4 /// – tibhyo ·i ///</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="version_old">30</item>
+               <item n="m_passage_old">1.42a-2.3c</item>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;a1.&lt;/b&gt; Uv.1.42a &lt;i&gt;tasmāt sadā dhyānaratāḥ samāhitā&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a2.&lt;/b&gt; Uv.1.42b &lt;i&gt;hy ātāpino jātijarāntadarśinaḥ&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a3.&lt;/b&gt; Uv.1.42d &lt;i&gt;bhaveta jātīmaraṇasya pāragāḥ&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a4.&lt;/b&gt; Uv.2.1a &lt;i&gt;kāma jānāmi te mūlam&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b1.&lt;/b&gt; Uv.2.1c &lt;i&gt;na tvāṃ saṃkalpayiṣyāmi&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b2.&lt;/b&gt; Uv.2.2b &lt;i&gt;kāmebhyo jāyate bhayam&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b3.&lt;/b&gt; Uv.2.2d &lt;i&gt;nāsti śokaḥ kuto bhayam&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b4.&lt;/b&gt; Uv.2.03c &lt;i&gt;ratibhyo vipramuktānām&lt;/i&gt;&lt;/p&gt;</item>
+               <item n="page_name_old">IOL Toch 862</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_size_h_old">4,5</item>
+               <item n="file_modified_old">1545901251</item>
+               <item n="file_created_old">1321264665</item>
+               <item n="access_old">public</item>
+               <item n="m_collection_old">British Library (London)</item>
+               <item n="file_location_old">pages/manuscript/IOL_Toch/ioltoch862.txt</item>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="created_date_old">2011-11-14, 10:57:45 (CET)</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

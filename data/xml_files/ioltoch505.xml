@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-ioltoch505">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>IOL Toch 505</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library (London)</repository>
+                  <idno>IOL Toch 505</idno>
+                  <altIdentifier>
+                     <idno>D 146</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Udānavarga</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>4,8</height>
+                              <width>3,2</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Doctrine</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=15682;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=15682;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL505a.jpg" height="827px" width="591px"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone>v<gap reason="plain" unit="part"/></zone><zone>t<gap reason="plain" unit="part"/></zone><zone><unclear>p</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>we</zone><zone>stRA</zone><zone>10-1</zone><zone><unclear>y</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone>rmeṃ</zone><zone>yaṃ</zone><zone>•</zone><zone><unclear>s</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=15661;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=15661;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL505b.jpg" height="827px" width="591px"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone>ma</zone><zone>ṇa</zone><zone>ḥ</zone><zone><unclear>ś</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone>ha</zone><zone>•</zone><zone>we</zone><zone>we</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><gap reason="plain" quantity="3"/><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p><milestone unit="passage" n="11.11b-11.15d"/>
+<lb corresp="#a1"/><gap reason="lost"/><w><supplied>yā</supplied>v<supplied>a</supplied>t<supplied>ā</supplied></w><w>p<supplied>alitaṃ</supplied></w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>westrä</w><num value="11">10-1</num><w>y<supplied>as</supplied></w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><w><supplied>papātka</supplied>rmeṃ</w><w>yaṃ</w><pc>•</pc><w>s<supplied>a</supplied></w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><w><supplied>śra</supplied>maṇaḥ</w><w>ś<supplied>amitāśubhaḥ</supplied></w><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><w><supplied>i</supplied>ha</w><pc>•</pc><w>wewe<supplied>ñu</supplied></w><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><gap reason="plain" quantity="3"/><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">[SKT] (his head) is grey</seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">[TB] he is called “pseudo-old” [SKT] (but) who [has given up] (merit and evil)</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">[TB] who goes in dissociation [SKT] he (is truly called an “elder”)</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">[SKT] a monk is [he who] has removed the impure</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">[SKT] therefore (he is called a “wandering monk”) [TB] (therefore he) is called (a “wandering monk”)</seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl">...</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="parallels"><bibl><title corresp="ref:bernhard1965"/><citedRange>189-190</citedRange></bibl>; <bibl><title corresp="ref:chakravarti1930"/><citedRange>132-136</citedRange></bibl>; <bibl><title corresp="ref:hahn2007"/><citedRange>45-46</citedRange></bibl>. See also <ref type="ms" target="txt:m-ioltoch807"/>.</note><note type="remarks">On <ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL%20Toch%20505" type="external">IDP</ref>, recto and verso are reversed.</note><note corresp="#a1" type="philcomment">Uv.11.11b <hi>yāvatā palitaṃ śiraḥ</hi></note><note corresp="#a2" type="philcomment">Uv.11.11d-12a <hi>mohajīrṇaḥ sa ucyate // 11 yas tu puṇyaṃ ca pāpaṃ ca</hi></note><note corresp="#a2" type="philcomment"><hi>west<hi rend="underline">ra</hi></hi>: the akṣara <hi>st<hi rend="underline">ra</hi></hi> is added below the line.</note><note corresp="#a3" type="philcomment">Uv.11.12c-d <hi>viśreṇayitvā carati sa vai sthavira ucyate</hi></note><note corresp="#b1" type="philcomment">Uv.11.15b <hi>śramaṇaḥ śamitāśubhaḥ</hi></note><note corresp="#b2" type="philcomment">Uv.11.15d <hi>uktaḥ pravrajitas tv iha</hi></note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition</label><bibl><title corresp="ref:peyrot2007"/><citedRange>№505</citedRange></bibl>; <bibl><title corresp="ref:peyrot2008a"/><citedRange>99</citedRange></bibl>.</p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL%20Toch%20505" type="external">IOL Toch 505</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="access_old">public</item>
+               <item n="m_collection_old">British Library (London)</item>
+               <item n="m_lines_old">3</item>
+               <item n="file_location_old">pages/manuscript/IOL_Toch/ioltoch505.txt</item>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;A href="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL%20Toch%20505"&gt;IOL Toch 505&lt;/a&gt;.&lt;br&gt;
+Edition: [[Peyrot 2007]]: №505; [[Peyrot 2008a]]: 99.</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=15682;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=15682;rotate=0;imageType=_M||IOL Toch 505 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=15661;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=15661;rotate=0;imageType=_M||IOL Toch 505 verso</item>
+               <item n="m_transliteration_old">a1 /// v· t· [p]· ///
+a2 /// – west_r_a 10-1 [y]· ///
+a3 /// -rmeṃ yaṃ • [s]· ///
+b1 /// -maṇaḥ [ś]·- ///
+b2 /// -ha • wewe- ///
+b3 /// – – – ///</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="date_publication_old"/>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;a1.&lt;/b&gt; Uv.11.11b &lt;i&gt;yāvatā palitaṃ śiraḥ&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a2.&lt;/b&gt; Uv.11.11d-12a &lt;i&gt;mohajīrṇaḥ sa ucyate // 11 yas tu puṇyaṃ ca pāpaṃ ca&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a2.&lt;/b&gt; &lt;i&gt;west&lt;u&gt;ra&lt;/u&gt;&lt;/i&gt;: the akṣara &lt;i&gt;st&lt;u&gt;ra&lt;/u&gt;&lt;/i&gt; is added below the line.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a3.&lt;/b&gt; Uv.11.12c-d &lt;i&gt;viśreṇayitvā carati sa vai sthavira ucyate&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b1.&lt;/b&gt; Uv.11.15b &lt;i&gt;śramaṇaḥ śamitāśubhaḥ&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b2.&lt;/b&gt; Uv.11.15d &lt;i&gt;uktaḥ pravrajitas tv iha&lt;/i&gt;&lt;/p&gt;</item>
+               <item n="m_passage_old">11.11b-11.15d</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_size_h_old">4,8</item>
+               <item n="m_next_old"/>
+               <item n="file_modified_old">1478178227</item>
+               <item n="file_created_old">1322765175</item>
+               <item n="m_parallels_old">[[Bernhard 1965]]: 189-190; [[Chakravarti 1930]]: 132-136; [[Hahn 2007]]: 45-46. See also [[IOL Toch 807]].</item>
+               <item n="project_comment_old">&lt;p&gt;&lt;ul&gt;
+&lt;li&gt;Image links and standard properties have been added automatically on Tue, 2012-07-31, 03:59:07.&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</item>
+               <item n="ms_old">IOL Toch 505</item>
+               <item n="m_script_old">Classical</item>
+               <item n="m_other_sigla_old">D 146</item>
+               <item n="m_language_old">Sanskrit+TB</item>
+               <item n="m_remarks_old">&lt;p&gt;On &lt;a href="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL%20Toch%20505"&gt;IDP&lt;/a&gt;, recto and verso are reversed.&lt;/p&gt;</item>
+               <item n="m_size_w_old">3,2</item>
+               <item n="m_expedition_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old">a1 /// (yā)v(a)t(ā) p(alitaṃ) ///
+a2 /// – westär|westrä 11 y(as) ///
+a3 /// (papātka)rmeṃ yaṃ • s(a) ///
+b1 /// (śra)maṇaḥ ś(amitāśubhaḥ) ///
+b2 /// (i)ha • wewe(ñu) ///
+b3 /// – – – ///</item>
+               <item n="m_title_old">Udānavarga</item>
+               <item n="m_meter_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_parallelcomment_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old"/>
+               <item n="user_modified_old">theres</item>
+               <item n="user_created_old">automatic</item>
+               <item n="m_prev_old"/>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_subgenre_old">Doctrine</item>
+               <item n="m_translation_old">a1 [SKT] (his head) is grey
+a2 [TB] he is called “pseudo-old” [SKT] (but) who [has given up] (merit and evil)
+a3 [TB] who goes in dissociation [SKT] he (is truly called an “elder”)
+b1 [SKT] a monk is [he who] has removed the impure
+b2 [SKT] therefore (he is called a “wandering monk”) [TB] (therefore he) is called (a “wandering monk”)
+b3 ...</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;&lt;ul&gt;&lt;li&gt;Image links and standard properties have been added automatically on Tue, 2012-07-31, 03:59:07.&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

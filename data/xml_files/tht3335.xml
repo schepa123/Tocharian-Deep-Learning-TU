@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht3335">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 3335</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 3335</idno>
+                  <altIdentifier>
+                     <idno>Prelim. No. 4125</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Bhikṣuṇī-Prātimokṣasūtra</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="xto"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Vinaya</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=330451;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=330451;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone>a</zone><zone>śi</zone><zone><unclear>ā</unclear></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>wa¯</zone><zone>¯<unclear>Ṣ</unclear>T</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=334266;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=334266;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone><gap reason="plain" unit="part"/>LA</zone><zone>ṣl<gap reason="plain" unit="part"/>ā</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone>rp<gap reason="plain" unit="part"/></zone><zone>3</zone><zone>ku</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p><milestone unit="passage" n="Pāt.113-114"/>
+<lb corresp="#a1"/><gap reason="lost"/><w>a</w><w>śi</w><w>ā</w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>waṣt</w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w><gap reason="plain" unit="part"/>lä</w><w>ṣl<gap reason="plain" unit="part"/>ā</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><w>rp<gap reason="plain" unit="part"/></w><num value="3">3</num><w>ku</w><gap reason="lost"/></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks"><bibl><title corresp="ref:ogihara2009"/><citedRange>278</citedRange></bibl> suggests that this fragment may belong to the same leaf as <ref type="ms" target="txt:m-a408n"/> and <ref type="ms" target="txt:m-tht3349"/>, to which further possibly belong <ref type="ms" target="txt:m-a408q"/> and <ref type="ms" target="txt:m-a408r"/>.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>other</label> Edition: <bibl><title corresp="ref:tamai2007a"/><citedRange>№3335</citedRange></bibl>; <bibl><title corresp="ref:ogihara2009"/><citedRange>75, 279-280</citedRange></bibl> Identification: <bibl><title corresp="ref:ogihara2009"/><citedRange>279</citedRange></bibl></p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=THT 3335" type="external">THT 3335</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/33/3335.htm" type="external">THT 3335</ref></bibl></p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_subgenre_old">Vinaya</item>
+               <item n="m_translation_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old"/>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old">michael</item>
+               <item n="m_transcription_old">a1 /// a śi ā ///
+a2 /// – waṣt ///
+b1 /// – ·lä ṣl·ā – ///
+b2 /// rp· 3 ku ///</item>
+               <item n="m_leaf_old"/>
+               <item n="m_title_old">Bhikṣuṇī-Prātimokṣasūtra</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_parallels_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="ms_old">THT 3335</item>
+               <item n="m_language_old">TA</item>
+               <item n="m_remarks_old">[[Ogihara 2009]]: 278 suggests that this fragment may belong to the same leaf as [[A 408.n]] and [[THT 3349]], to which further possibly belong [[A 408.q]] and [[A 408.r]].</item>
+               <item n="m_other_sigla_old">Prelim. No. 4125</item>
+               <item n="m_expedition_old"/>
+               <item n="m_size_w_old"/>
+               <item n="m_philcomment_old"/>
+               <item n="m_passage_old">Pāt.113-114</item>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_size_h_old"/>
+               <item n="file_created_old">1340137303</item>
+               <item n="file_modified_old">1470351269</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bl.uk/database/oo_loader.a4d?pm=THT 3335" target="idp"&gt;THT 3335&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/33/3335.htm" target="titus"&gt;THT 3335&lt;/a&gt;
+&lt;br&gt;Edition: [[Tamai 2007a]]: №3335; [[Ogihara 2009]]: 75, 279-280
+&lt;br&gt;Identification: [[Ogihara 2009]]: 279</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=330451;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=330451;rotate=0;imageType=_M||THT 3335 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=334266;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=334266;rotate=0;imageType=_M||THT 3335 verso</item>
+               <item n="m_language_stage_old"/>
+               <item n="m_transliteration_old">a1 /// a śi [ā] ///
+a2 /// – wa[_ṣ]_t\ ///
+b1 /// – ·_l_a ṣl·ā – ///
+b2 /// rp· 3 ku ///</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_lines_old">2</item>
+               <item n="access_old">restricted</item>
+               <item n="file_location_old">pages/manuscript/THT_2400_4170/tht3335.txt</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

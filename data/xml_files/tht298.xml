@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht298">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 298</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>CEToM</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Asian Art Museum (Berlin)</repository>
+                  <idno>THT 298</idno>
+                  <altIdentifier>
+                     <idno>B 298</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Photo 104</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>wall</material>
+                           <objectType>Graffito</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Qizil Miŋ-Öy</region><placeName>Cave no. 203</placeName></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="txb" ana="frg:ls-cetom-late frg:ls-peyrot-L frg:ls-C14"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Kāvya</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <line n="1" xml:id="a1"><zone>॥</zone><zone>ka</zone><zone>ntsa</zone><zone>ka</zone><zone>rṣa</zone><zone>nne</zone><zone>॥</zone><zone>a</zone><zone>rai</zone><zone>sru</zone><zone>ka</zone><zone>lyñe</zone><zone>ci</zone><zone>sa</zone><zone>nta</zone><zone>kca</zone><zone>mā</zone><zone>prā</zone><zone>skau</zone><zone><unclear>p</unclear>o</zone><zone>nta¯</zone><zone>¯S</zone><zone>sru</zone><zone>ke</zone><zone>lle</zone><zone>kā</zone><zone>ñi</zone><zone>ś<unclear>ṣ</unclear>e</zone><zone>ske</zone><zone>ta</zone><zone>ñprā</zone><zone>skau</zone><zone>sā</zone><zone>rai</zone><zone>ñi</zone><zone>pa</zone><zone>lsk<unclear>o</unclear></zone><zone>ci</zone><zone>sa</zone><zone>prā</zone><zone>skau</zone><zone>po</zone><zone>npre</zone><zone>ke</zone><zone>nne</zone><zone>twe</zone><zone>ṅke</zone><zone>ka</zone><zone>la</zone><zone>ta¯</zone><zone>¯rñä</zone><zone>a</zone><zone>pi</zone><zone>śwä</zone><zone>rñai</zone><zone>nre</zone><zone>ye</zone><zone>nta</zone><zone>ne</zone><zone>:</zone></line>
+            <line n="2" xml:id="a2"><zone>li</zone><zone>kkhi</zone><zone>ke</zone><zone>na</zone><zone>dha</zone><zone>rma</zone><zone>ca</zone><zone>ndra</zone><zone>sya</zone><zone>bhi</zone><zone>kṣo</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><pc>॥</pc><w>kantsakarṣanne</w><pc>॥</pc></p>
+            <lg type="poem">
+               <lg n="1" type="strophe">
+                  <l n="a"><w>arai</w><w>srukalyñe</w><caesura ana="frg:cs-s"/><w>cisa</w><w>nta</w><w>kca</w><caesura ana="frg:cs-w"/><w>mā</w><w>prāskau</w></l>
+                  <l n="b"><w>pontas</w><w>srukelle</w><caesura ana="frg:cs-s"/><w>kā</w><w>ñiś</w><w>ṣeske</w><caesura ana="frg:cs-w"/><w>tañ</w><w>prāskau</w></l>
+                  <l n="c"><w>s=</w><w>ārai</w><w>ñi</w><w>palsko</w><caesura ana="frg:cs-s"/><w>cisa</w><w>prāskau</w><caesura ana="frg:cs-w"/><w>pon</w><w>prekenne</w></l>
+                  <l n="d"><w>twe</w><w>ṅke</w><w>kalatarñ</w><caesura ana="frg:cs-s"/><w>apiś</w><w>wärñai</w><caesura ana="frg:cs-w"/><w>nreyentane</w><pc>:</pc></l>
+               </lg>
+            </lg>
+            <p>
+<lb corresp="#a2"/><w>likkhikena</w><w>dharmacandrasya</w><w>bhikṣo</w></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><bibl><title corresp="ref:carling2000"/><citedRange>16</citedRange></bibl></seg><seg><bibl><title corresp="ref:krauseandthomas1964"/><citedRange>63</citedRange></bibl></seg><seg><bibl><title corresp="ref:krause1952"/><citedRange>54</citedRange></bibl></seg><seg><bibl><title corresp="ref:schmidtkt1974"/><citedRange>75, 392</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1952"/><citedRange>18</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1983"/><citedRange>32</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1997"/><citedRange>78</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1997"/><citedRange>90</citedRange></bibl></seg><seg><bibl><title corresp="ref:hackstein1995"/><citedRange>192</citedRange></bibl></seg><seg><bibl><title corresp="ref:pinault2008"/><citedRange>18</citedRange></bibl></seg><seg><bibl><title corresp="ref:peyrot2013b"/><citedRange>371</citedRange></bibl></seg><seg><seg type="prim_transl">O death, I do not fear anything but you: all have to die, why would I alone fear you? Oh, this is my idea: I am fearing because of you at all times, for you will bring me to the hells, including the Avīci!</seg></seg><seg><seg type="prim_transl">O Tod, ... [wenn] ich mich vor dir fürchte allezeit, wirst du aber mich in die Höllen, bis hin zur Avīci, bringen.</seg><seg type="sec_transl" resp="TI">Oh death, ... [if] I fear you at all times, you, however, will bring me into the hells, all the way to the Avīci.</seg><bibl><title corresp="ref:schmidtkt1974"/><citedRange>392</citedRange></bibl></seg><seg><seg type="prim_transl">O Tod, ..., du aber wirst mich in die Höllen, bis hin zur Avīci, bringen.</seg><seg type="sec_transl" resp="TI">Oh death, ... you, however, will bring me to the Hells, [all the way] down to the Avīci.</seg><bibl><title corresp="ref:schmidtkt1974"/><citedRange>75</citedRange></bibl></seg></choice><choice corresp="#a1 #a2"><seg><seg type="prim_transl">O death, I do not fear anything but you: all have to die, why would I alone fear you? Oh, this is my idea: «I am fearing because of you at all times, for you will bring me to the hells, including the Avīci!» (18)</seg><bibl><title corresp="ref:peyrot2013b"/><citedRange>371</citedRange></bibl></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">By the writing of the monk Dharmacandra</seg></seg></choice></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 298" type="external">THT 298</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/02/0298.htm" type="external">THT 298</ref></bibl>. </p>
+            <p><label>Edition</label><bibl><title corresp="ref:siegandsiegling1953"/><citedRange>189</citedRange></bibl>; <bibl><title corresp="ref:pinault2008"/><citedRange>15-18</citedRange></bibl>. </p>
+            <p><label>Localization</label><bibl><title corresp="ref:rong2015"/><citedRange>218</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_language_old">Sanskrit+TB</item>
+               <item n="m_other_sigla_old">B 298; Photo 104</item>
+               <item n="edited_date_old">2019-04-10, 17:04:10 (CEST)</item>
+               <item n="m_script_old">Classical</item>
+               <item n="ms_old">THT 298</item>
+               <item n="project_comment_old">&lt;p&gt;Alternative classifications:
+&lt;table class="table_lines"&gt;
+  &lt;tr&gt;&lt;td title="MP"&gt;Peyrot&lt;/td&gt;&lt;td title="L"&gt;late&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="MM"&gt;Malzahn&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TT"&gt;Tamai&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TTC14"&gt;Tamai-C14&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+&lt;p&gt;Translations from [[Peyrot, ToSu]]
+&lt;table class="table_lines"&gt;
+&lt;th&gt;Lines&lt;/th&gt;
+&lt;th&gt;Translation&lt;/th&gt;
+&lt;th&gt;Pages&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt;a1-a2&lt;/td&gt;
+&lt;td&gt;O death, I do not fear anything but you: all have to die, why would I alone fear you? Oh, this is my idea: «I am fearing because of you at all times, for you will bring me to the hells, including the Avīci!» ([[Pinault 2008]]: 18)&lt;/td&gt;
+&lt;td&gt;371&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+&lt;p&gt;Translations from [[Schmidt KT 1974]]
+&lt;table class="table_lines"&gt;
+&lt;th&gt;Lines&lt;/th&gt;
+&lt;th&gt;Translation&lt;/th&gt;
+&lt;th&gt;Pages&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt;a1&lt;/td&gt;
+&lt;td&gt;&lt;span title="Oh death, ... [if] I fear you at all times, you, however, will bring me into the hells, all the way to the Avīci."&gt;O Tod, ... [wenn] ich mich vor dir fürchte allezeit, wirst du aber mich in die Höllen, bis hin zur Avīci, bringen.&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;392&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;a1&lt;/td&gt;
+&lt;td&gt;&lt;span title="Oh death, ... you, however, will bring me to the Hells, [all the way] down to the Avīci."&gt;O Tod, ..., du aber wirst mich in die Höllen, bis hin zur Avīci, bringen.&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;75&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;</item>
+               <item n="editgroup_old">Admin</item>
+               <item n="m_meter_old">5/4-4+5/4-3</item>
+               <item n="m_transcription_old">a1 || kantsakarṣaṃne|kantsakarṣanne || # arai srukalyñe ; cisa nta kca , mā prāskau #1a pontas srukelle ; kā ñiś ṣeske , tañ prāskau #1b se|s= ārai ñi palsko ; cisa prāskau , pon prekene|prekenne #1c twe ṅke kalatarñ ; apiś wärñai , nraintane|nreyentane : #1d
+a2 |likkhikena |dharmacandrasya |bhikṣo</item>
+               <item n="group_old">Public</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old">bernhard</item>
+               <item n="category_old">manuscript</item>
+               <item n="file_savedate_old">2019-04-10, 17:04:10 (CEST)</item>
+               <item n="m_subgenre_old">Kāvya</item>
+               <item n="m_translation_old">a1 O death, I do not fear anything but you: all have to die, why would I alone fear you? Oh, this is my idea: I am fearing because of you at all times, for you will bring me to the hells, including the Avīci!
+a2 By the writing of the monk Dharmacandra</item>
+               <item n="file_name_old">pages/manuscript/THT_0001_0633/tht298.txt</item>
+               <item n="m_metric_form_old">Verse</item>
+               <item n="m_tune_old">kantsakarṣanne</item>
+               <item n="file_location_old">pages/manuscript/THT_0001_0633/tht298.txt</item>
+               <item n="m_lines_old">2</item>
+               <item n="m_collection_old">Asian Art Museum (Berlin)</item>
+               <item n="access_old">public</item>
+               <item n="m_findspot_specific_old">Cave no. 203</item>
+               <item n="m_findspot_old">Qizil Miŋ-Öy</item>
+               <item n="created_date_old">2012-03-17, 18:50:07 (CET)</item>
+               <item n="m_form_old">Graffito</item>
+               <item n="m_language_stage_old">Late</item>
+               <item n="m_transliteration_old">a1 || kantsakarṣanne || arai srukalyñe cisa nta kca mā prāskau [p]onta_s\ srukelle kā ñiś [ṣ]eske tañ prāskau s= ārai ñi palsk[o] cisa prāskau pon prekenne twe ṅke kalatarñä\ apiś wärñai nreyentane :
+a2 likkhikena dharmacandrasya bhikṣo</item>
+               <item n="file_size_old">3 KB</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 298" target="idp"&gt;THT 298&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/02/0298.htm" target="titus"&gt;THT 298&lt;/a&gt;.&lt;br&gt;
+Edition: [[TochSprR(B) II]]: 189; [[Pinault 2008]]: 15-18.&lt;br&gt;
+Translation:
+&lt;b&gt;1&lt;/b&gt; [[Carling 2000]]: 16, [[Krause and Thomas, TEB II]]: 63, [[Krause, WTG]]: 54, [[Schmidt KT 1974]]: 75, 392, [[Thomas 1952]]: 18, [[Thomas 1983]]: 32, [[Thomas 1997]]: 78, [[Thomas 1997]]: 90; [[Hackstein 1995]]: 192; [[Pinault 2008]]: 18; [[Peyrot, ToSu]]: 371.&lt;br&gt;
+Localization: [[Rong 2015]]: 218.</item>
+               <item n="file_created_old">1332006607</item>
+               <item n="file_modified_old">1582625664</item>
+               <item n="page_name_old">THT 298</item>
+               <item n="version_old">9</item>
+               <item n="m_editor_old">CEToM</item>
+               <item n="m_material_old">Ink on wall</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;Alternative classifications:
+
+&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

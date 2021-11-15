@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht3015">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 3015</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 3015</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Siŋgim</region>during <rs type="expedition_code">T II S 47</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=332882;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=332882;rotate=0;imageType=_M"/>
+            <line xml:id="lf"><zone>200</zone></line>
+            <line n="1" xml:id="a1"><zone>:</zone><zone>a</zone><zone>ma</zone><zone>skai</zone><zone>ce</zone><zone>śā</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone>¯s</zone><zone><gap reason="plain" unit="part"/>ā</zone><zone>rṣ<gap reason="plain" unit="part"/>eṃ</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=333147;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=333147;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="b1"><zone>raṃ</zone><zone>ta</zone><zone>k<gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><zone>pwā</zone><zone>ra</zone><zone>ne</zone><zone>:</zone><zone>pre</zone><zone>t<gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <fw type="leafNum" corresp="#lf">200</fw>
+            <p>
+<lb corresp="#a1"/><pc>:</pc><w>amaskai</w><w>ce</w><w>śā</w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><w>s</w><w><gap reason="plain" unit="part"/>ā</w><w>rṣ<gap reason="plain" unit="part"/>eṃ</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b1"/><w>raṃ</w><w>ta</w><w>k<gap reason="plain" unit="part"/></w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b2"/><w>pwārane</w><pc>:</pc><w>pre</w><w>t<gap reason="plain" unit="part"/></w><gap reason="lost"/></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 3015" type="external">THT 3015</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/30/3015.htm" type="external">THT 3015</ref></bibl>. </p>
+            <p><label>Edition</label><bibl><title corresp="ref:tamai2007a"/><citedRange>№3015</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_image_old">http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=332882;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=332882;rotate=0;imageType=_M||THT 3015 recto
+http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=333147;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=333147;rotate=0;imageType=_M||THT 3015 verso</item>
+               <item n="m_transliteration_old">a1 : amaskai ce śā ///
+a2 /// s\ ·ā rṣ·eṃ – ///
+a3 – ///
+b1 raṃ ta k· – ///
+b2 pwārane : pre t· ///</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="file_size_old">1 KB</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 3015" target="idp"&gt;THT 3015&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/30/3015.htm" target="titus"&gt;THT 3015&lt;/a&gt;.&lt;br&gt;
+Edition: [[Tamai 2007a]]: №3015.</item>
+               <item n="file_modified_old">1558163830</item>
+               <item n="file_created_old">1340137300</item>
+               <item n="version_old">1</item>
+               <item n="page_name_old">THT 3015</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="file_location_old">pages/manuscript/THT_2400_4170/tht3015.txt</item>
+               <item n="access_old">restricted</item>
+               <item n="m_lines_old">3</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_findspot_old">Siŋgim</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="created_date_old">2012-06-19, 22:21:40 (CEST)</item>
+               <item n="user_modified_old">martin</item>
+               <item n="user_created_old">automatic</item>
+               <item n="category_old">manuscript</item>
+               <item n="file_name_old">pages/manuscript/THT_2400_4170/tht3015.txt</item>
+               <item n="file_savedate_old">2018-09-12, 20:22:23 (CEST)</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_expedition_old">T II S 47</item>
+               <item n="edited_date_old">2018-09-12, 20:22:23 (CEST)</item>
+               <item n="ms_old">THT 3015</item>
+               <item n="m_script_old">Classical</item>
+               <item n="editgroup_old">Admin</item>
+               <item n="m_transcription_old">a1 : amāskai|amaskai ce śā ///
+a2 /// s ·ā rṣ·eṃ – ///
+a3 – ///
+b1 raṃ ta k· – ///
+b2 pwārane : pre t· ///</item>
+               <item n="m_leaf_old">200</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="group_old">Editor</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

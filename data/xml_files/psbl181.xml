@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-psbl181">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PS Bl 18.1</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</repository>
+                  <idno>PS Bl 18.1</idno>
+                  <altIdentifier>
+                     <idno>Pelliot Sanskrit numéro bleu 18.1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">7</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="txb"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Gloss</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000198r/f34.zoom"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000198r/f34.highres"/>
+            <line n="2" xml:id="a2x"><gap reason="par" quantity="1"/><zone>l<unclear>l</unclear>ā</zone><zone>lle</zone></line>
+            <line n="3" xml:id="a3x"><zone><gap reason="plain" unit="part"/>ai</zone><zone>tku</zone></line>
+            <line n="4" xml:id="a4x"><zone>m<unclear>t</unclear>s<gap reason="plain" unit="part"/></zone><zone>ts<unclear>e</unclear></zone><zone><unclear>k</unclear>ā</zone><zone>y<unclear>e</unclear></zone></line>
+            <line n="4" xml:id="a4y"><zone>ye</zone><zone><unclear>nt</unclear><gap reason="plain" unit="part"/></zone><zone><gap reason="plain" unit="part"/>u</zone><zone>kā</zone><zone>RA</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000198r/f33.zoom"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000198r/f33.highres"/>
+            <line n="1" xml:id="b1x"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>ñ<gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="1"/><zone>¯tS</zone></line>
+            <line n="1" xml:id="b1y"><gap reason="plain" quantity="1"/><gap reason="par" quantity="1"/><zone><unclear>s</unclear>tsi¯</zone><zone>¯Ś</zone></line>
+            <line n="3" xml:id="b3x"><zone><unclear>p</unclear>e</zone><zone>l<unclear>k</unclear>i<unclear>¯</unclear></zone><zone><unclear>¯</unclear>ñ</zone></line>
+            <line n="3" xml:id="b3y"><zone>snai</zone><zone><unclear>trai</unclear></zone><zone><unclear>ko</unclear></zone><zone><unclear>ñ</unclear>e</zone><zone>ttse</zone></line>
+            <line n="3" xml:id="b3z"><zone><unclear>a</unclear></zone><zone><unclear>yā</unclear></zone><zone><unclear>t</unclear>o</zone><zone>ññe¯</zone><zone>¯ś</zone><zone>ṢPA</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a2x"/><w><supplied>pä</supplied>llālle</w>
+<lb corresp="#a3x"/><w><supplied>y</supplied>aitku</w>
+<lb corresp="#a4x"/><w>mts<gap reason="plain" unit="part"/>tse</w><w>kāye</w>
+<lb corresp="#a4y"/><w>yent<supplied>e</supplied></w><w><gap reason="plain" unit="part"/>ukārä</w><gap reason="lost"/>
+<lb corresp="#b1x"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>ñ<gap reason="plain" unit="part"/></w><gap reason="plain" quantity="1"/><w>ts</w>
+<lb corresp="#b1y"/><w><supplied>wikä</supplied>stsiś</w>
+<lb corresp="#b3x"/><w>pelkiñ</w>
+<lb corresp="#b3y"/><w>snai</w><w>tr<choice><orig>ai</orig><corr>i</corr></choice>ko<add>r</add>ñettse</w>
+<lb corresp="#b3z"/><w>ayātoññeś</w><w>ṣpä</w></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a2x"><seg><seg type="prim_transl">to be praised</seg></seg></choice><choice corresp="#a3x"><seg><seg type="prim_transl">ordered</seg></seg></choice><choice corresp="#a4x"><seg><seg type="prim_transl">...</seg></seg></choice><choice corresp="#a4y"><seg><seg type="prim_transl">wind ...</seg></seg></choice><choice corresp="#b1x"><seg><seg type="prim_transl">...</seg></seg></choice><choice corresp="#b1y"><seg><seg type="prim_transl">in order to drive off (?)</seg></seg></choice><choice corresp="#b3x"><seg><seg type="prim_transl">because of</seg></seg></choice><choice corresp="#b3y"><seg><seg type="prim_transl">without confusion (?)</seg></seg></choice><choice corresp="#b3z"><seg><seg type="prim_transl">and for the benefit</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note corresp="#a2x" type="lingcomment">The number of verbs that form a gerund in <hi>°llālle</hi> is very restricted, and this is the only verb with a suitable meaning.</note><note corresp="#a2x" type="philcomment">Glosses Skt. <hi>(a)[nu]m[o]d·[n]· –</hi>, a form of <hi>anumodana</hi> 'gratification' (<bibl><title corresp="ref:edgerton1953"/><citedRange>II, 32b</citedRange></bibl>; <bibl><title corresp="ref:hartmannju1991"/></bibl>). The reading is relatively safe; the first akṣara is probably lost in a little hole to the left.</note><note corresp="#a3x" type="philcomment">Glosses Skt. <hi>anujñāta[ṃ]</hi> 'erlaubt, genehmigt (granted, allowed)' (<bibl><title corresp="ref:swft1973"/><citedRange>I, 60a</citedRange></bibl>; <bibl><title corresp="ref:hartmannju1991"/></bibl>). The problem with this gloss is that the two akṣaras are placed very far apart. One could be tempted to read the first as <hi>[ss]i</hi> for <hi>(wa)ssi</hi> 'garment' as a gloss of the preceding Skt. term <hi>cīvaram</hi> 'garment'. However, <hi>(wa)ssi</hi> would then lack its first syllable; it would be placed remarkably far to the right; and <hi>ktu</hi> would also lack any preceding syllable, in spite of the fact that in this place, the paper is not particularly abraded. The simplest seems to be, therefore, to read <hi>(y)aitku</hi> or perhaps <hi>[y]aitku</hi>, with the two akṣaras placed very far apart because of the large Skt. <hi>jñā</hi> in the middle.</note><note corresp="#a4x-y" type="lingcomment">This gloss is very interesting because it contains apparently three Tocharian lexical items that were so far unknown. Ironically, however, precisely these three words can hardly be read with any certainty. Even the word division is not clear. The only clear item is <hi>yent(e)</hi> 'wind', which glosses <hi>°vāta°</hi> 'id.'. It is likely that the translation of <hi>daṃśa°</hi> 'gadfly' begins with <hi>m[t]s· ts[e]</hi>; this may even be the whole word. The reading of the lower consonantal elements is far from certain. The following akṣara <hi>[k]ā</hi> is probably the beginning of the next word, the translation of <hi>maśaka</hi> 'mosquito', because no word may end in <hi>-ā</hi>. Since the paper is abraded, it is not clear whether any akṣaras are completely lost until <hi>yent(e)</hi>: there may also simply be a space between these two words. As the last word of the gloss, we expect the translation of <hi>°ā[t](a)[p](a)°</hi> 'heat', but no known lexeme can be recognized. The normal word for 'heat' is <hi>emalya</hi> or <hi>emalle</hi> (<bibl><title corresp="ref:adams2013a"/><citedRange>839</citedRange></bibl>).</note><note corresp="#a4y" type="philcomment">Glosses Skt. <hi>daṃśamaśakavātā[t](a)[p](a)°</hi> 'Bremse, Mücke, Wind, Hitze (gadfly, gnat, wind, heat)' (<bibl><title corresp="ref:swft1973"/><citedRange>II, 414b</citedRange></bibl>; <bibl><title corresp="ref:hartmannju1991"/></bibl>); probably followed by <hi>°sarīsṛpa°</hi> 'Kriechtier (critter, creeping creature)'. The final akṣara in <hi>ukārä</hi> seems to be a little lower, so that it may be in virāma.</note><note corresp="#b1x" type="lingcomment">For the first element, in view of the <hi>·ñ·</hi> that is preserved, a restoration to an abstract in <hi>-ññe</hi>, i.e. gen.pl. (cf. the Skt. reference above) <hi>°(ñ)ñ(enta)ts</hi>, is a possibility.</note><note corresp="#b1x" type="philcomment">The first element glosses Skt. <hi>/// vāṇāṃ</hi>, a gen.pl. (<bibl><title corresp="ref:hartmannju1991"/></bibl>).</note><note corresp="#b1y" type="lingcomment">As for the root of the second element, a trace of one akṣara can be discerned, but we would expect at any rate two akṣaras. The preserved trace may belong to the lower part of <hi><hi rend="underline">ka</hi></hi> = <hi>kä</hi>, or of <hi>wi</hi>. However, the root may also have to be restored differently; only the reading of the causative infinitive in the allative case is assured.</note><note corresp="#b1y" type="philcomment">The second element glosses Skt. <hi>pratigh(ā)t(āya)</hi> 'for warding off' (<bibl><title corresp="ref:hartmannju1991"/></bibl>). The root is essentially illegible.</note><note corresp="#b3x" type="philcomment"><hi>pelkiñ</hi> glosses Skt. <hi>/// danārtham</hi> 'because of ...' (<bibl><title corresp="ref:hartmannju1991"/></bibl>), but obviously only the last part <hi>°artham</hi>; perhaps the preceding was originally also glossed. The <hi>k</hi> is written through the long <hi>ā</hi> vowel diacritic of the line below. The virāma cannot be seen, but the <hi>ñ</hi> is significantly lowered compared to the preceding <hi>l[k]i</hi>. The first akṣara is the most uncertain, as it seems to be closed. Nevertheless, it can hardly have to be read differently.</note><note corresp="#b3y" type="lingcomment"><hi>snai-tr{i}ko(r)ñettse</hi>: The reading of the gloss is very uncertain. The beginning <hi>snai</hi> and the end <hi>ñettse</hi> can be read with relative certainty, so that it must be a negated abstract in any case. However, precisely the part where the root must be is hardly legible. The second akṣara, transliterated as <hi>[trai]</hi>, seems not to have been formed correctly; therefore, a reading <hi>[tri]</hi> remains a possibility. The word <hi>trikor*</hi> is not attested so far, but would have been formed from <hi>trəyka-</hi> 'be confused' in the same way as <hi>snai-ykorñe</hi> 'diligence' from <hi>yəka-</hi> 'neglect'.</note><note corresp="#b3y" type="philcomment"><hi>snai tr{i}ko(r)ñettse</hi> glosses Skt. <hi>avyā[b]ādha°</hi> 'frei von Beschwerden' ('without complaints', <bibl><title corresp="ref:swft1973"/><citedRange>I, 178b</citedRange></bibl>; <bibl><title corresp="ref:hartmannju1991"/></bibl>).</note><note corresp="#b3z" type="lingcomment"><hi>ayātoññeś ṣpä</hi>: The end of the gloss is clear: <hi>ṣpä</hi> 'and' renders Skt. <hi>ca</hi>; the all. <hi>-ś</hi> corresponds to the dat. <hi>°āyai</hi>; and even the suffix <hi>-ññe</hi> matches the Skt. abstr. in <hi>-tā-</hi>. The interpretation of the preceding akṣaras is more difficult. One problem is that there would seem to be an akṣara between the <hi>[a]</hi> and the <hi>[yā]</hi>. This would be illegible in any case, and I assume that there was simply a space betwen the two akṣaras because of the anusvāra of the Sanskrit line below. A possible reading then seems to be <hi>ayāto</hi>, which already means 'benefit' by itself (next to 'suitable'), but the suffix <hi>-ññe</hi> was very productive and may have been added to this word nevertheless. Although the semantic match is not perfect, this seems at least an acceptable translation of <hi>paramatā</hi> 'highest position; highest end'. For the first part of the compound, <hi>avyā[b]ādha°</hi>, see the preceding gloss.</note><note corresp="#b3z" type="philcomment"><hi>ayātoññeś ṣpä</hi> glosses Skt. <hi>avyā[b]ādhaparamatāyai ca</hi> 'and only for the sake of non-suffering' (<bibl><title corresp="ref:hartmannju1991"/></bibl>; <bibl><title corresp="ref:trenckneretal1924"/><citedRange>I, 485b</citedRange></bibl> under <hi>a-vyāpajjha-paramatā</hi>).</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>other</label><bibl><title corresp="ref:peyrot2015b"/><citedRange>113-116</citedRange></bibl>. </p>
+            <p><label>Catalogue</label><bibl><title corresp="ref:hartmannandwille1997"/><citedRange>137</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_completeness_old"/>
+               <item n="access_old">restricted</item>
+               <item n="m_lines_old">7</item>
+               <item n="m_collection_old">Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</item>
+               <item n="file_location_old">pages/manuscript/psbl181.txt</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_old"/>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_linedistance_old"/>
+               <item n="m_bib_old">[[Peyrot 2015b]]: 113-116.&lt;br&gt;
+Catalogue: [[Hartmann and Wille 1997]]: 137.</item>
+               <item n="m_lingcomment_old">&lt;p&gt;&lt;b&gt;a2x&lt;/b&gt; The number of verbs that form a gerund in &lt;i&gt;°llālle&lt;/i&gt; is very restricted, and this is the only verb with a suitable meaning.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a4x-y&lt;/b&gt; This gloss is very interesting because it contains apparently three Tocharian lexical items that were so far unknown. Ironically, however, precisely these three words can hardly be read with any certainty. Even the word division is not clear. The only clear item is &lt;i&gt;yent(e)&lt;/i&gt; 'wind', which glosses &lt;i&gt;°vāta°&lt;/i&gt; 'id.'. It is likely that the translation of &lt;i&gt;daṃśa°&lt;/i&gt; 'gadfly' begins with &lt;i&gt;m[t]s· ts[e]&lt;/i&gt;; this may even be the whole word. The reading of the lower consonantal elements is far from certain. The following akṣara &lt;i&gt;[k]ā&lt;/i&gt; is probably the beginning of the next word, the translation of &lt;i&gt;maśaka&lt;/i&gt; 'mosquito', because no word may end in &lt;i&gt;-ā&lt;/i&gt;. Since the paper is abraded, it is not clear whether any akṣaras are completely lost until &lt;i&gt;yent(e)&lt;/i&gt;: there may also simply be a space between these two words. As the last word of the gloss, we expect the translation of &lt;i&gt;°ā[t](a)[p](a)°&lt;/i&gt; 'heat', but no known lexeme can be recognized. The normal word for 'heat' is &lt;i&gt;emalya&lt;/i&gt; or &lt;i&gt;emalle&lt;/i&gt; ([[Adams, 2DoT]]: 839).&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b1x&lt;/b&gt; For the first element, in view of the &lt;i&gt;·ñ·&lt;/i&gt; that is preserved, a restoration to an abstract in &lt;i&gt;-ññe&lt;/i&gt;, i.e. gen.pl. (cf. the Skt. reference above) &lt;i&gt;°(ñ)ñ(enta)ts&lt;/i&gt;, is a possibility.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b1y&lt;/b&gt; As for the root of the second element, a trace of one akṣara can be discerned, but we would expect at any rate two akṣaras. The preserved trace may belong to the lower part of &lt;i&gt;&lt;u&gt;ka&lt;/u&gt;&lt;/i&gt; = &lt;i&gt;kä&lt;/i&gt;, or of &lt;i&gt;wi&lt;/i&gt;. However, the root may also have to be restored differently; only the reading of the causative infinitive in the allative case is assured.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b3y&lt;/b&gt; &lt;i&gt;snai-tr{i}ko(r)ñettse&lt;/i&gt;: The reading of the gloss is very uncertain. The beginning &lt;i&gt;snai&lt;/i&gt; and the end &lt;i&gt;ñettse&lt;/i&gt; can be read with relative certainty, so that it must be a negated abstract in any case. However, precisely the part where the root must be is hardly legible. The second akṣara, transliterated as &lt;i&gt;[trai]&lt;/i&gt;, seems not to have been formed correctly; therefore, a reading &lt;i&gt;[tri]&lt;/i&gt; remains a possibility. The word &lt;i&gt;trikor*&lt;/i&gt; is not attested so far, but would have been formed from &lt;i&gt;trəyka-&lt;/i&gt; 'be confused' in the same way as &lt;i&gt;snai-ykorñe&lt;/i&gt; 'diligence' from &lt;i&gt;yəka-&lt;/i&gt; 'neglect'.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b3z&lt;/b&gt; &lt;i&gt;ayātoññeś ṣpä&lt;/i&gt;: The end of the gloss is clear: &lt;i&gt;ṣpä&lt;/i&gt; 'and' renders Skt. &lt;i&gt;ca&lt;/i&gt;; the all. &lt;i&gt;-ś&lt;/i&gt; corresponds to the dat. &lt;i&gt;°āyai&lt;/i&gt;; and even the suffix &lt;i&gt;-ññe&lt;/i&gt; matches the Skt. abstr. in &lt;i&gt;-tā-&lt;/i&gt;. The interpretation of the preceding akṣaras is more difficult. One problem is that there would seem to be an akṣara between the &lt;i&gt;[a]&lt;/i&gt; and the &lt;i&gt;[yā]&lt;/i&gt;. This would be illegible in any case, and I assume that there was simply a space betwen the two akṣaras because of the anusvāra of the Sanskrit line below. A possible reading then seems to be &lt;i&gt;ayāto&lt;/i&gt;, which already means 'benefit' by itself (next to 'suitable'), but the suffix &lt;i&gt;-ññe&lt;/i&gt; was very productive and may have been added to this word nevertheless. Although the semantic match is not perfect, this seems at least an acceptable translation of &lt;i&gt;paramatā&lt;/i&gt; 'highest position; highest end'. For the first part of the compound, &lt;i&gt;avyā[b]ādha°&lt;/i&gt;, see the preceding gloss.&lt;/p&gt;</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_language_stage_old"/>
+               <item n="m_transliteration_old">a2x (–) l[l]ālle
+a3x ·aitku
+a4x m[t]s·ts[e] [k]āy[e]
+a4y ye[nt]· ·ukā_r_a ///
+b1x /// ·ñ· – t_s\
+b1y – (–) [s]tsi_ś\
+b3x [p]el[k]iñ[\]
+b3y snai [traikoñ]ettse
+b3z [ayāt]oññeś\ _ṣ_p_a</item>
+               <item n="date_publication_old"/>
+               <item n="m_image_old">http://gallica.bnf.fr/ark:/12148/btv1b6000198r/f34.zoom|http://gallica.bnf.fr/ark:/12148/btv1b6000198r/f34.highres||$page; recto
+http://gallica.bnf.fr/ark:/12148/btv1b6000198r/f33.zoom|http://gallica.bnf.fr/ark:/12148/btv1b6000198r/f33.highres||$page; verso|transform:rotate(180deg);</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;a2x&lt;/b&gt; Glosses Skt. &lt;i&gt;(a)[nu]m[o]d·[n]· –&lt;/i&gt;, a form of &lt;i&gt;anumodana&lt;/i&gt; 'gratification' ([[Edgerton BHSD]]: II, 32b; [[Hartmann JU 1991]]). The reading is relatively safe; the first akṣara is probably lost in a little hole to the left.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a3x&lt;/b&gt; Glosses Skt. &lt;i&gt;anujñāta[ṃ]&lt;/i&gt; 'erlaubt, genehmigt (granted, allowed)' ([[SWTF]]: I, 60a; [[Hartmann JU 1991]]). The problem with this gloss is that the two akṣaras are placed very far apart. One could be tempted to read the first as &lt;i&gt;[ss]i&lt;/i&gt; for &lt;i&gt;(wa)ssi&lt;/i&gt; 'garment' as a gloss of the preceding Skt. term &lt;i&gt;cīvaram&lt;/i&gt; 'garment'. However, &lt;i&gt;(wa)ssi&lt;/i&gt; would then lack its first syllable; it would be placed remarkably far to the right; and &lt;i&gt;ktu&lt;/i&gt; would also lack any preceding syllable, in spite of the fact that in this place, the paper is not particularly abraded. The simplest seems to be, therefore, to read &lt;i&gt;(y)aitku&lt;/i&gt; or perhaps &lt;i&gt;[y]aitku&lt;/i&gt;, with the two akṣaras placed very far apart because of the large Skt. &lt;i&gt;jñā&lt;/i&gt; in the middle.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a4y&lt;/b&gt; Glosses Skt. &lt;i&gt;daṃśamaśakavātā[t](a)[p](a)°&lt;/i&gt; 'Bremse, Mücke, Wind, Hitze (gadfly, gnat, wind, heat)' ([[SWTF]]: II, 414b; [[Hartmann JU 1991]]); probably followed by &lt;i&gt;°sarīsṛpa°&lt;/i&gt; 'Kriechtier (critter, creeping creature)'. The final akṣara in &lt;i&gt;ukārä&lt;/i&gt; seems to be a little lower, so that it may be in virāma.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b1x&lt;/b&gt; The first element glosses Skt. &lt;i&gt;/// vāṇāṃ&lt;/i&gt;, a gen.pl. ([[Hartmann JU 1991]]).&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b1y&lt;/b&gt; The second element glosses Skt. &lt;i&gt;pratigh(ā)t(āya)&lt;/i&gt; 'for warding off' ([[Hartmann JU 1991]]). The root is essentially illegible.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b3x&lt;/b&gt; &lt;i&gt;pelkiñ&lt;/i&gt; glosses Skt. &lt;i&gt;/// danārtham&lt;/i&gt; 'because of ...' ([[Hartmann JU 1991]]), but obviously only the last part &lt;i&gt;°artham&lt;/i&gt;; perhaps the preceding was originally also glossed. The &lt;i&gt;k&lt;/i&gt; is written through the long &lt;i&gt;ā&lt;/i&gt; vowel diacritic of the line below. The virāma cannot be seen, but the &lt;i&gt;ñ&lt;/i&gt; is significantly lowered compared to the preceding &lt;i&gt;l[k]i&lt;/i&gt;. The first akṣara is the most uncertain, as it seems to be closed. Nevertheless, it can hardly have to be read differently.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b3y&lt;/b&gt; &lt;i&gt;snai tr{i}ko(r)ñettse&lt;/i&gt; glosses Skt. &lt;i&gt;avyā[b]ādha°&lt;/i&gt; 'frei von Beschwerden' ('without complaints', [[SWTF]]: I, 178b; [[Hartmann JU 1991]]).&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b3z&lt;/b&gt; &lt;i&gt;ayātoññeś ṣpä&lt;/i&gt; glosses Skt. &lt;i&gt;avyā[b]ādhaparamatāyai ca&lt;/i&gt; 'and only for the sake of non-suffering' ([[Hartmann JU 1991]]; [[CPD]]: I, 485b under &lt;i&gt;a-vyāpajjha-paramatā&lt;/i&gt;).&lt;/p&gt;</item>
+               <item n="m_passage_old"/>
+               <item n="file_modified_old">1558145831</item>
+               <item n="file_created_old">1394795603</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old"/>
+               <item n="project_comment_old"/>
+               <item n="ms_old">PS Bl 18.1</item>
+               <item n="m_script_old"/>
+               <item n="m_parallels_old"/>
+               <item n="m_size_w_old"/>
+               <item n="m_expedition_old"/>
+               <item n="m_other_sigla_old">Pelliot Sanskrit numéro bleu 18.1</item>
+               <item n="m_language_old">Sanskrit+TB</item>
+               <item n="m_remarks_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old">a2x (pä)llālle
+a3x (y)aitku
+a4x mts·tse kāye
+a4y yent(e) ·ukārä ///
+b1x /// ·ñ· – ts
+b1y (wikä)stsiś
+b3x pelkiñ
+b3y snai tr{i}ko«r»ñettse
+b3z ayātoññeś ṣpä</item>
+               <item n="m_title_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_prev_old"/>
+               <item n="user_modified_old">martin</item>
+               <item n="user_created_old">michael</item>
+               <item n="project_check_old"/>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old"/>
+               <item n="m_translation_old">a2x to be praised
+a3x ordered
+a4x ...
+a4y wind ...
+b1x ...
+b1y in order to drive off (?)
+b3x because of
+b3y without confusion (?)
+b3z and for the benefit</item>
+               <item n="m_subgenre_old">Gloss</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

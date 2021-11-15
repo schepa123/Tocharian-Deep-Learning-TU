@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht1554">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 1554</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>CEToM</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 1554</idno>
+                  <altIdentifier>
+                     <idno>Prelim. No. 463</idno>
+                  </altIdentifier>
+                  <msName>Avadāna</msName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=330225;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=330225;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>ma¯</zone><zone>¯R∘</zone><zone>tu</zone><zone>meṃ</zone><zone>bo</zone><zone>dhi</zone><zone>sa</zone><zone>tve</zone><zone>ka</zone><zone>ccā¯</zone><zone>¯P</zone><zone>n<gap reason="plain" unit="part"/></zone><zone>te</zone><zone>wa</zone><zone>rKṣa¯</zone><zone>¯L</zone><zone>tse</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone>ltu</zone><zone>we</zone><zone>ṢAṃ</zone><zone>ma</zone><zone>na</zone><zone>rkai</zone><zone>sa</zone><zone>ka</zone><zone>meṃ</zone><zone>bo</zone><zone>dhi</zone><zone>sa</zone><zone>tve</zone><zone>la</zone><zone>lā</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone>ske</zone><zone>mTA¯</zone><zone>¯R</zone><zone>tu</zone><zone><gap reason="plain" unit="part"/>ā</zone><zone>ksa</zone><zone>ye¯</zone><zone>¯S</zone><zone>pā</zone><zone>ṣṣ<gap reason="plain" unit="part"/></zone><zone>TA¯</zone><zone>¯ñ</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><zone><unclear>ksa</unclear></zone><zone>o</zone><gap reason="par" quantity="3"/><zone>c<gap reason="plain" unit="part"/>a</zone><zone>yo</zone><zone>lo</zone><zone>KA</zone><gap reason="plain" quantity="1"/><zone>t<unclear>e</unclear></zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=330233;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=330233;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>s<gap reason="plain" unit="part"/></zone><zone>•</zone><zone>cwi</zone><zone><gap reason="plain" unit="part"/>t<gap reason="plain" unit="part"/></zone><gap reason="par" quantity="2"/><gap reason="plain" quantity="1"/><zone>na</zone><gap reason="plain" quantity="1"/><zone>ca</zone><zone>śi</zone><zone>rṣṣe</zone><gap reason="plain" quantity="2"/><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone><unclear>sa</unclear></zone><zone>twe</zone><zone>we</zone><zone>ṢṢAṃ</zone><zone>kuce</zone><gap reason="plain" quantity="1"/><zone>knā</zone><zone>ṣṣī</zone><zone>TA¯</zone><zone>¯R∘</zone><zone><unclear>y</unclear>ā</zone><zone>mtsi</zone><zone>cai</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><zone>mā¯</zone><zone>¯Ṣ</zone><zone>la</zone><zone>la</zone><zone>śce¯</zone><zone>¯R</zone><zone>mā</zone><zone>ye¯</zone><zone>¯S</zone><zone>ci</zone><zone>mpa</zone><zone>lyi</zone><zone>ne</zone><zone>śce¯</zone><zone>¯R∘</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>t<gap reason="plain" unit="part"/>¯</zone><zone>¯T∘</zone><zone>e</zone><zone>nte</zone><zone>ñi¯</zone><zone>¯Ś∘</zone><zone>pa</zone><zone>ñä</zone><zone>KTAṃ</zone><zone>ñe</zone><zone>pe</zone><zone>rne</zone><zone>ka</zone><zone>llau</zone><zone>o¯</zone><zone>¯T∘</zone><zone>ye</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>mar</w><w>tumeṃ</w><w>bodhisatve</w><w>kaccāp</w><w>n<gap reason="plain" unit="part"/></w><w>te</w><w>warkṣal</w><w>tse</w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><w>ltu</w><w>weṣäṃ</w><w>manarkaisa</w><w>kameṃ</w><w>bodhisatve</w><w>lalā</w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><w>skemtär</w><w>tu</w><w><gap reason="plain" unit="part"/>ā</w><w>ksa</w><w>yes</w><w>pāṣṣ<gap reason="plain" unit="part"/></w><w>täñ</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="lost"/><w>ksa</w><w>o</w><gap reason="plain" quantity="3"/><w>c<gap reason="plain" unit="part"/>a</w><w>yolo</w><w>kä</w><gap reason="plain" quantity="1"/><w>te</w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>s<gap reason="plain" unit="part"/></w><pc>•</pc><w>cwi</w><w><gap reason="plain" unit="part"/>t<gap reason="plain" unit="part"/></w><gap reason="plain" quantity="3"/><w>na</w><gap reason="plain" quantity="1"/><w>ca</w><w>śi</w><w>rṣṣe</w><gap reason="plain" quantity="2"/><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><w>satwe</w><w>weṣṣäṃ</w><w>kUce</w><gap reason="plain" quantity="1"/><w>knāṣṣītär</w><w>yāmtsi</w><w>cai</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><w>māṣ</w><w>lalaścer</w><w>mā</w><w>yes</w><w>cimpalyi</w><w>neścer</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b4"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>t<gap reason="plain" unit="part"/>t</w><w>ente</w><w>ñiś</w><w>pañäktäṃñe</w><w>perne</w><w>kallau</w><w>ot</w><w>ye</w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#b3"><seg><seg type="prim_transl">And you do not make effort, [and] you will not be able.</seg><bibl><title corresp="ref:peyrot2013b"/><citedRange>342</citedRange></bibl></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">Same leaf as <ref type="ms" target="txt:m-tht3112"/>.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 1554" type="external">THT 1554</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/15/1554.htm" type="external">THT 1554</ref></bibl>. </p>
+            <p><label>other</label><bibl><title corresp="ref:ogihara2012"/></bibl>. </p>
+            <p><label>Edition</label><bibl><title corresp="ref:tamai2007a"/><citedRange>№1554</citedRange></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_lines_old">4</item>
+               <item n="access_old">restricted</item>
+               <item n="file_location_old">pages/manuscript/THT_1100_2399/tht1554.txt</item>
+               <item n="m_findspot_old"/>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_manuscript_old">Avadāna</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 1554" target="idp"&gt;THT 1554&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/15/1554.htm" target="titus"&gt;THT 1554&lt;/a&gt;.&lt;br&gt;
+[[Ogihara 2012]].&lt;br&gt;
+Edition: [[Tamai 2007a]]: №1554.&lt;br&gt;
+Translation:
+&lt;b&gt;b3&lt;/b&gt; [[Peyrot, ToSu]]: 342.</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=330225;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=330225;rotate=0;imageType=_M||THT 1554 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=330233;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=330233;rotate=0;imageType=_M||THT 1554 verso</item>
+               <item n="date_publication_old"/>
+               <item n="m_transliteration_old">a1 /// – ma_r\• tumeṃ bodhisatve kaccā_p\ n· te war_kṣa_l\ tse ///
+a2 /// ltu we_ṣ_aṃ manarkaisa kameṃ bodhisatve lalā ///
+a3 /// skem_t_a_r\ tu ·ā ksa ye_s\ pāṣṣ· _t_añ\ – ///
+a4 /// [ksa] o (– – –) c·a yolo _k_a – t[e] ///
+b1 /// ·s· • cwi ·t· (– –) – na – ca śi rṣṣe – – ///
+b2 /// [sa]twe we_ṣ_ṣ_aṃ k_uce – knāṣṣī_t_a_r\• [y]āmtsi cai – ///
+b3 /// mā_ṣ\ lalaśce_r\ mā ye_s\ cimpalyi neśce_r\• – ///
+b4 /// ·t·_t\• ente ñi_ś\• pañä_k_t_aṃñe perne kallau o_t\• ye ///</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_philcomment_old"/>
+               <item n="m_passage_old"/>
+               <item n="m_editor_old">CEToM</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_size_h_old"/>
+               <item n="m_next_old"/>
+               <item n="file_created_old">1340136552</item>
+               <item n="file_modified_old">1534353299</item>
+               <item n="m_parallels_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="project_comment_old">&lt;p&gt;Translations from [[Peyrot, ToSu]]
+&lt;table class="table_lines"&gt;
+&lt;th&gt;Lines&lt;/th&gt;
+&lt;th&gt;Translation&lt;/th&gt;
+&lt;th&gt;Pages&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt;b3&lt;/td&gt;
+&lt;td&gt;And you do not make effort, [and] you will not be able.&lt;/td&gt;
+&lt;td&gt;342&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;</item>
+               <item n="ms_old">THT 1554</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old">Same leaf as [[THT 3112]].</item>
+               <item n="m_other_sigla_old">Prelim. No. 463</item>
+               <item n="m_size_w_old"/>
+               <item n="m_expedition_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_transcription_old">a1 /// – mar tumeṃ bodhisatve kaccāp n· te warkṣal tse ///
+a2 /// ltu weṣäṃ manarkaisa kameṃ bodhisatve lalā ///
+a3 /// skemtär tu ·ā ksa yes pāṣṣ· täñ – ///
+a4 /// ksa o – – – c·a yolo kä – te ///
+b1 /// ·s· • cwi ·t· – – – na – ca śi rṣṣe – – ///
+b2 /// satwe weṣṣäṃ k_uce – knāṣṣītär yāmtsi cai – ///
+b3 /// māṣ lalaścer mā yes cimpalyi neścer – ///
+b4 /// ·t·t ente ñiś pañäktäṃñe perne kallau ot ye ///</item>
+               <item n="m_title_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_parallelcomment_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old"/>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old">hannes</item>
+               <item n="m_prev_old"/>
+               <item n="m_metric_form_old"/>
+               <item n="m_subgenre_old"/>
+               <item n="m_translation_old"/>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment/&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

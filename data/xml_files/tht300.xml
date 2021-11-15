@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht300">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 300</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 300</idno>
+                  <altIdentifier>
+                     <idno>B 300</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Bleistiftnummer 2472</idno>
+                  </altIdentifier>
+                  <msName>THT 299-303</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Udānavarga</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Murtuq</region>during <rs type="expedition_code">T III M 146.12</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical frg:ls-tamai-C1 frg:ls-C14"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Doctrine</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic url="B/B300a.jpg" height="667px" width="1320px"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>k<gap reason="plain" unit="part"/></zone><zone><unclear>m</unclear><gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="1"/><zone><gap reason="plain" unit="part"/><unclear>t</unclear>s<gap reason="plain" unit="part"/></zone><zone>6</zone><zone>MA</zone><zone>kte</zone><zone>ra</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone>pya</zone><zone>pyai</zone><zone>meṃ</zone><zone>e</zone><zone>re</zone><zone>we</zone><zone>re</zone><zone>mā</zone><zone>mī</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone><unclear>n</unclear>o</zone><zone>sā¯</zone><zone>¯M</zone><zone>pa</zone><zone>l<unclear>sk</unclear>o</zone><zone>ytRA</zone><zone>•</zone><zone>sā¯</zone><zone>¯M</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic url="B/B300b.jpg" height="662px" width="1320px"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone><unclear>n</unclear><gap reason="plain" unit="part"/></zone><zone>no</zone><zone>MA</zone><zone>kte</zone><zone>pyā</zone><zone>pyo</zone><zone>no</zone><zone><unclear>po</unclear></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone>n<unclear>o</unclear></zone><zone>cmī</zone><zone>TA¯</zone><zone>¯R</zone><zone>a</zone><zone>stre</zone><zone>we</zone><zone>re</zone><zone>PA</zone><zone>ls<gap reason="plain" unit="part"/>o</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><zone>l<unclear>y</unclear>i</zone><zone><gap reason="plain" unit="part"/>e</zone><gap reason="plain" quantity="1"/><zone>10</zone><zone>3</zone><zone>pya</zone><zone>pyaiṃ</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p><milestone unit="passage" n="18.7-14"/>
+<lb corresp="#a1"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>k<gap reason="plain" unit="part"/></w><w>m<gap reason="plain" unit="part"/></w><gap reason="plain" quantity="1"/><w><supplied>n</supplied></w><w>ts<gap reason="plain" unit="part"/></w><num value="6">6</num><w>mäkte</w><w>ra</w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><w>pyapyaimeṃ</w><w>ere</w><w>were</w><w>mā</w><w>mī</w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><w>no</w><w>sām</w><w>palskoyträ</w><pc>•</pc><w>sām</w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><w>n<supplied>a</supplied>no</w><w>mäkte</w><w>pyāpyo</w><w>no</w><w>po</w><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><w>no</w><w>cmītär</w><w>astre</w><w>were</w><w>päls<supplied>k</supplied>o</w><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><w>lyi</w><w><gap reason="plain" unit="part"/>e</w><gap reason="plain" quantity="1"/><num value="13">10-3</num><w>pyapyaiṃ</w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a3"><seg><seg type="prim_transl">Nicht die verkehrten [Taten] anderer, nicht Getanes und Nichtgetanes anderer, sondern deine eigenen guten und schlechten [Taten] sollst du bedenken.</seg><seg type="sec_transl" resp="TI">Not the wrong [deeds] of others, not what others have done and have not done, but your own good and bad [deeds] you shall consider.</seg><bibl><title corresp="ref:schmidtkt1974"/><citedRange>183</citedRange></bibl></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">In one frame with <ref type="ms" target="txt:m-tht302"/>.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 300" type="external">THT 300</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/03/0300.htm" type="external">THT 300</ref></bibl>. </p>
+            <p><label>Edition</label><bibl><title corresp="ref:siegandsiegling1953"/><citedRange>190-191</citedRange></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_translation_old"/>
+               <item n="m_subgenre_old">Doctrine</item>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Verse</item>
+               <item n="m_prev_old"/>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old">bernhard</item>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_meter_old"/>
+               <item n="m_transcription_old">a1 /// ·k· m· – (n) ts· 6 mäkte ra ///
+a2 /// pyapyaimeṃ ere were mā mī ///
+a3 /// no sām palskoyträ • sām ///
+b1 /// n(a)no mäkte pyāpyo no po ///
+b2 /// no cmītär astre were päls(k)o ///
+b3 /// lyi ·e – 13 pyapyaiṃ ///</item>
+               <item n="m_leaf_old"/>
+               <item n="m_title_old">Udānavarga</item>
+               <item n="m_size_w_old"/>
+               <item n="m_expedition_old">T III M 146.12</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old">In one frame with [[THT 302]].</item>
+               <item n="m_other_sigla_old">B 300, Bleistiftnummer 2472</item>
+               <item n="m_script_old">Classical</item>
+               <item n="ms_old">THT 300</item>
+               <item n="project_comment_old">&lt;p&gt;Alternative classifications:
+&lt;table class="table_lines"&gt;
+  &lt;tr&gt;&lt;td title="MP"&gt;Peyrot&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="MM"&gt;Malzahn&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TT"&gt;Tamai&lt;/td&gt;&lt;td title="C1"&gt;II-1 (600-700)&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TTC14"&gt;Tamai-C14&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+&lt;p&gt;Translations from [[Schmidt KT 1974]]
+&lt;table class="table_lines"&gt;
+&lt;th&gt;Lines&lt;/th&gt;
+&lt;th&gt;Translation&lt;/th&gt;
+&lt;th&gt;Pages&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt;a3&lt;/td&gt;
+&lt;td&gt;&lt;span title="Not the wrong [deeds] of others, not what others have done and have not done, but your own good and bad [deeds] you shall consider."&gt;Nicht die verkehrten [Taten] anderer, nicht Getanes und Nichtgetanes anderer, sondern deine eigenen guten und schlechten [Taten] sollst du bedenken.&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;183&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;</item>
+               <item n="m_parallels_old"/>
+               <item n="file_created_old">1332006607</item>
+               <item n="file_modified_old">1532957799</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_passage_old">18.7-14</item>
+               <item n="m_philcomment_old"/>
+               <item n="m_editor_old"/>
+               <item n="date_publication_old"/>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_transliteration_old">a1 /// ·k· [m·] – (n) [t]s· 6 _m_akte ra ///
+a2 /// pyapyaimeṃ ere were mā mī ///
+a3 /// [n]o sā_m\ pal[sk]oyt_r_a • sā_m\ ///
+b1 /// [n](a)no _m_akte pyāpyo no [po] ///
+b2 /// n[o] cmī_t_a_r\ astre were _p_als(k)o ///
+b3 /// l[y]i ·e – 10-3 pyapyaiṃ ///</item>
+               <item n="m_image_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old">THT 299-303</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 300" target="idp"&gt;THT 300&lt;/a&gt;,[[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/03/0300.htm" target="titus"&gt;THT 300&lt;/a&gt;.&lt;br&gt;
+Edition: [[TochSprR(B) II]]: 190-191.&lt;br&gt;
+Translation:
+&lt;b&gt;a3&lt;/b&gt; [[Schmidt KT 1974]]: 183.</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Murtuq</item>
+               <item n="file_location_old">pages/manuscript/THT_0001_0633/tht300.txt</item>
+               <item n="m_lines_old">3</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="access_old">public</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;Alternative classifications:
+
+&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

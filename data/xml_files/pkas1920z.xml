@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-pkas1920z">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PK AS 19.20.Z</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Georges-Jean Pinault</name>
+            </respStmt>
+            <respStmt>
+               <resp>collaborator</resp>
+               <name>Hannes A. Fellner</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <date when="2014-07">July 2014</date>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>PK AS 19.20.Z</idno>
+                  <altIdentifier>
+                     <idno>Pelliot Koutchéen Ancienne Série 19.20 (number in 1982)</idno>
+                  </altIdentifier>
+                  <msName>PK AS 19</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Pratītyasamutpāda</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>5,1</height>
+                              <width>5,2</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <dimensions type="line_spacing">
+                              <height>1,2</height>
+                           </dimensions>
+                           <measure type="lines">5</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>during <rs type="expedition_code">M 504</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Abhidharma</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f157.zoom"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f157.highres"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone>ke</zone><gap reason="plain" quantity="2"/><gap reason="par" quantity="1"/><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone><unclear>n</unclear>o</zone><zone><unclear>l</unclear>mā</zone><gap reason="plain" quantity="2"/><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><zone>so</zone><zone>yä</zone><zone>ṢṢA<gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><zone><unclear>mñ</unclear><gap reason="plain" unit="part"/></zone><zone>•</zone><zone>po</zone><zone><unclear>yśi</unclear></zone><zone>lna</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><gap reason="lost"/><gap reason="par" quantity="2"/><zone>r<gap reason="plain" unit="part"/>ā</zone><zone>l<gap reason="plain" unit="part"/>e</zone><gap reason="par" quantity="1"/><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#b1"/><gap reason="lost"/><w>ke</w><gap reason="plain" quantity="3"/><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><w>no</w><w>lmā</w><gap reason="plain" quantity="2"/>
+<lb corresp="#b3"/><gap reason="lost"/><w>soyäṣṣä<supplied>ṃ</supplied></w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b4"/><gap reason="lost"/><w>-mñ<gap reason="plain" unit="part"/></w><pc>•</pc><w>poyśi</w><w>lna</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b5"/><gap reason="lost"/><gap reason="plain" quantity="2"/><w>r<gap reason="plain" unit="part"/>āl<gap reason="plain" unit="part"/>e</w><gap reason="plain" quantity="2"/><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#b3"><seg><seg type="prim_transl">... he satiates ...</seg></seg></choice><choice corresp="#b4"><seg><seg type="prim_transl">... the omniscient ... </seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">This is the smallest of the fragments classified under [[PK AS 19.20]] on the far right side. The script on one side is totally attrited.</note><note corresp="#b5" type="philcomment">One can consider to restore a gerund or gerund abstract for 〈– r·āl·e〉 of a verb, for instance <hi>pärkālle</hi>/<hi>pärkālñe</hi>, <hi>spärkālle</hi>/<hi>spärkālñe</hi>, or <hi>kärnālle</hi>/<hi>kärnālñe</hi>. The remaining traces do not allow to decide the issue.</note></p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="project_comment_old"/>
+               <item n="ms_old">PK AS 19.20.Z</item>
+               <item n="m_script_old">Classical</item>
+               <item n="m_parallels_old"/>
+               <item n="m_expedition_old">M 504</item>
+               <item n="m_size_w_old">5,2</item>
+               <item n="m_other_sigla_old">Pelliot Koutchéen Ancienne Série 19.20 (number in 1982)</item>
+               <item n="m_remarks_old">&lt;p&gt;This is the smallest of the fragments classified under [[PK AS 19.20]] on the far right side. The script on one side is totally attrited.&lt;/p&gt; </item>
+               <item n="m_language_old">TB</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_title_old">Pratītyasamutpāda</item>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old">b1 /// ke – – – ///
+b2 /// no lmā – – 
+b3 /// soyäṣṣä(ṃ) – ///
+b4 /// -mñ· • poyśi lna – /// 
+b5 /// – – r·āl·e – – /// </item>
+               <item n="m_meter_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_prev_old"/>
+               <item n="user_modified_old">theres</item>
+               <item n="user_created_old">hannes</item>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_tune_old"/>
+               <item n="m_translation_old">b3 ... he satiates ...
+b4 ... the omniscient ... </item>
+               <item n="m_subgenre_old">Abhidharma</item>
+               <item n="m_completeness_old"/>
+               <item n="access_old">public</item>
+               <item n="m_collection_old"/>
+               <item n="m_lines_old">5</item>
+               <item n="file_location_old">pages/manuscript/pkas1920z.txt</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_old"/>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_linedistance_old">1,2</item>
+               <item n="m_bib_old"/>
+               <item n="m_manuscript_old">PK AS 19</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_transliteration_old">b1 /// ke – – (–) ///
+b2 /// [n]o [l]mā – – ///
+b3 /// soyä_ṣ_ṣ_a· – /// 
+b4 /// [mñ·] • po[yśi] lna – ///
+b5 /// (– –) r·āl·e (–) – ///</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="date_publication_old">July 2014</item>
+               <item n="m_image_old">http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f158.zoom|http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f158.highres||$page; recto
+http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f157.zoom|http://gallica.bnf.fr/ark:/12148/btv1b6000197b/f157.highres||$page; verso|transform:rotate(180deg);</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_editor_old">Georges-Jean Pinault (in collaboration with Hannes A. Fellner)</item>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;b5.&lt;/b&gt; One can consider to restore a gerund or gerund abstract for 〈– r·āl·e〉 of a verb, for instance &lt;i&gt;pärkālle&lt;/i&gt;/&lt;i&gt;pärkālñe&lt;/i&gt;, &lt;i&gt;spärkālle&lt;/i&gt;/&lt;i&gt;spärkālñe&lt;/i&gt;, or &lt;i&gt;kärnālle&lt;/i&gt;/&lt;i&gt;kärnālñe&lt;/i&gt;. The remaining traces do not allow to decide the issue.&lt;/p&gt; </item>
+               <item n="file_modified_old">1484222095</item>
+               <item n="file_created_old">1406303383</item>
+               <item n="m_size_h_old">5,1</item>
+               <item n="m_next_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht2773">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 2773 et al.</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 2773 et al.</idno>
+                  <altIdentifier>
+                     <idno>THT 2773</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Prelim. No. 5717</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>THT 2920</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Prelim. No. 5713</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>THT 2927</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Prelim. No. 5764</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>cursive</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Non-literary</term>
+               <term type="subgenre">Account</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=332622;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=332622;rotate=0;imageType=_M"/>
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=332809;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=332809;rotate=0;imageType=_M"/>
+            <graphic n="3"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=332816;rotate=0;imageType=_L"/>
+            <graphic n="3"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=332816;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>wa</zone><zone>ltsau</zone><zone>c<unclear>c</unclear>ai</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone>¤</zone><zone>yi</zone><zone>rpṣu</zone><zone>ki</zone><zone>pu</zone><zone>tte</zone><zone>yā</zone><zone>ne</zone><zone><gap reason="plain" unit="part"/>e</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>e</zone><zone>ya</zone><zone>rkne</zone><zone>yi</zone><gap reason="lost"/><gap reason="lost"/><zone>lo</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>waltsauccai</w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><seg type="monogram">¤</seg><w>yirpṣuki</w><w>putteyāne<supplied>nts</supplied>e</w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>e</w><w>yarkne</w><w>yi</w><gap reason="lost"/><gap reason="lost"/><w>lo</w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">/// ... the Miller(?) ///</seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">/// ¤ <hi>Putteyāne</hi> the <hi>Yirpṣuki</hi>('s finger-measure) ///</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">/// ... ///</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">only recto</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 2773" type="external">THT 2773</ref><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 2920" type="external">THT 2920</ref><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 2927" type="external">THT 2927</ref></bibl>;<bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/27/2773.htm" type="external">THT 2773</ref><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/29/2920.htm" type="external">THT 2920</ref><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/29/2927.htm" type="external">THT 2927</ref></bibl>. </p>
+            <p><label>Edition</label><bibl><title corresp="ref:tamai2007a"/><citedRange>№2773</citedRange></bibl> №2920 №2927; <bibl><title corresp="ref:ching2010"/><citedRange>287-288</citedRange></bibl>; <bibl><title corresp="ref:chingandogihara2010"/><citedRange>92-93</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_genre_old">Non-literary</item>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old">a1 /// – waltsauccai ///
+a2 /// ¤ yirpṣuki putteyāne(nts)e ///
+a3 /// ·e yarkne yi /// /// lo ///</item>
+               <item n="m_title_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="project_comment_old">&lt;ul&gt;
+&lt;li&gt;Fitting of THT 2773, 2920, and 2927 according to [[Ching 2010]]: 287. –Martin (Thu, 2014-09-25, 20:41:14)&lt;/li&gt;
+&lt;/ul&gt;</item>
+               <item n="ms_old">THT 2773 et al.</item>
+               <item n="m_script_old">Cursive</item>
+               <item n="m_parallels_old"/>
+               <item n="m_size_w_old"/>
+               <item n="m_expedition_old"/>
+               <item n="m_other_sigla_old">THT 2773, Prelim. No. 5717; THT 2920, Prelim. No. 5713; THT 2927, Prelim. No. 5764</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old">only recto</item>
+               <item n="project_check_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_tune_old"/>
+               <item n="m_translation_old">a1 /// ... the Miller(?) ///
+a2 /// ¤ &lt;i&gt;Putteyāne&lt;/i&gt; the &lt;i&gt;Yirpṣuki&lt;/i&gt;('s finger-measure) ///
+a3 /// ... ///</item>
+               <item n="m_subgenre_old">Account</item>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_prev_old"/>
+               <item n="user_modified_old">martin</item>
+               <item n="user_created_old">automatic</item>
+               <item n="m_form_old"/>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old"/>
+               <item n="m_linedistance_old"/>
+               <item n="m_completeness_old"/>
+               <item n="access_old">restricted</item>
+               <item n="m_lines_old">3</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="file_location_old">pages/manuscript/THT_2400_4170/tht2773.txt</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_editor_old"/>
+               <item n="m_philcomment_old"/>
+               <item n="m_passage_old"/>
+               <item n="file_modified_old">1549074884</item>
+               <item n="file_created_old">1340137298</item>
+               <item n="m_size_h_old"/>
+               <item n="m_next_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 2773" target="idp"&gt;THT 2773&lt;/a&gt;, &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 2920" target="idp"&gt;THT 2920&lt;/a&gt;, &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 2927" target="idp"&gt;THT 2927&lt;/a&gt;;
+[[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/27/2773.htm" target="titus"&gt;THT 2773&lt;/a&gt;, &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/29/2920.htm" target="titus"&gt;THT 2920&lt;/a&gt;, &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/29/2927.htm" target="titus"&gt;THT 2927&lt;/a&gt;.&lt;br&gt;
+Edition: [[Tamai 2007a]]: №2773, №2920, №2927; [[Ching 2010]]: 287-288; [[Ching and Ogihara 2010]]: 92-93.</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_transliteration_old">a1 /// – waltsauc[c]ai ///
+a2 /// ¤ yirpṣuki putteyāne ·e ///
+a3 /// ·e yarkne yi /// /// lo ///</item>
+               <item n="m_language_stage_old"/>
+               <item n="date_publication_old"/>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=332622;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=332622;rotate=0;imageType=_M||THT 2773 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=332809;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=332809;rotate=0;imageType=_M||THT 2920 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=332816;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=332816;rotate=0;imageType=_M||THT 2927 recto</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;ul&gt;&lt;li&gt;Fitting of THT 2773, 2920, and 2927 according to &lt;bibl&gt;&lt;title corresp="ref:ching2010"/&gt;&lt;citedRange&gt;287&lt;/citedRange&gt;&lt;/bibl&gt;. –Martin (Thu, 2014-09-25, 20:41:14)&lt;/li&gt;&lt;/ul&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

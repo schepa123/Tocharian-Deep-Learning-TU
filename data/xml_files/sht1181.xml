@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-sht1181">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>SHT 1181</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>SHT 1181</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>3.4</height>
+                              <width>4.7</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">3+</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Siŋgim</region><placeName>[purchased]</placeName>during <rs type="expedition_code">T II S 50</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="xto"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Gloss</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=294503;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=294503;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="b1"><gap reason="plain" quantity="1"/><zone>nā</zone><zone><unclear>KA</unclear>¯</zone><zone>¯M</zone><gap reason="editorial"/><zone>knā</zone><zone>nmā</zone><zone>na¯</zone><zone>¯Ṣ</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#b1"/><gap reason="plain" quantity="1"/><w>nākäm</w><gap reason="editorial"/><w>knānmānaṣ</w></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#b1"><seg><seg type="prim_transl">reproach ... wise</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="lingcomment"><bibl><title corresp="ref:maue2010"/><citedRange>346</citedRange></bibl> reads <hi>tā<hi rend="underline">kam</hi><hi rend="subscript">\</hi></hi>, in which he sees a 1sg.opt. <hi>tākim</hi> 'Iwould be'. Accordingly, he reads the Skt. text as <hi>sy[ā](ṃ)[:]</hi>. Although <bibl><title corresp="ref:peyrot2014"/><citedRange>151</citedRange></bibl> can offer no solution for the gloss, he thinks that the reading of <bibl><title corresp="ref:sanderandwaldschmidt1985"/><citedRange>175</citedRange></bibl> is correct (see above, phil.comm.): the <hi>p</hi> of <hi>p(a)ṇḍi[t]·</hi> is lowered and must be part of a compound akṣara; instead of <hi>syāṃ</hi>, we should have had <hi>syām<hi rend="subscript">\</hi></hi>; and <hi>tākäm</hi> for <hi>tākim</hi> would be highly unusual. If <hi>nākäm</hi> is read correctly, it might be expected to have glossed a form of Skt. <hi>nind-</hi> or <hi>nindā</hi>. The following gloss is clear (cf. <bibl><title corresp="ref:maue2010"/><citedRange>346</citedRange></bibl>): <hi>knānmānaṣ</hi> is for <hi>knānmānäṣ</hi> (nom.pl.) 'wise'.</note><note type="philcomment">The first item glosses Skt. /// <hi>·y· sy(ā)[t]</hi> - <bibl><title corresp="ref:sanderandwaldschmidt1985"/><citedRange>175</citedRange></bibl> reads the line as /// + <hi>.. sy(ā)[t]=paṇḍi[t].</hi> ///.</note><note type="philcomment">The second item clearly glosses Skt. <hi>p(a)ṇḍi[t]·</hi> 'wise'.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>other</label><bibl><title corresp="ref:peyrot2014"/><citedRange>133, 151</citedRange></bibl>; <bibl><title corresp="ref:maue2010"/><citedRange>346</citedRange></bibl>.</p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=SHT 1181" type="external">SHT 1181</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old">&lt;p&gt;[[Maue 2010]]: 346 reads &lt;i&gt;tā&lt;u&gt;kam&lt;/u&gt;&lt;sub&gt;\&lt;/sub&gt;&lt;/i&gt;, in which he sees a 1sg.opt. &lt;i&gt;tākim&lt;/i&gt; 'Iwould be'. Accordingly, he reads the Skt. text as &lt;i&gt;sy[ā](ṃ)[:]&lt;/i&gt;. Although [[Peyrot 2014]]: 151 can offer no solution for the gloss, he thinks that the reading of [[SHT V]]: 175 is correct (see above, phil.comm.): the &lt;i&gt;p&lt;/i&gt; of &lt;i&gt;p(a)ṇḍi[t]·&lt;/i&gt; is lowered and must be part of a compound akṣara; instead of &lt;i&gt;syāṃ&lt;/i&gt;, we should have had &lt;i&gt;syām&lt;sub&gt;\&lt;/sub&gt;&lt;/i&gt;; and &lt;i&gt;tākäm&lt;/i&gt; for &lt;i&gt;tākim&lt;/i&gt; would be highly unusual. If &lt;i&gt;nākäm&lt;/i&gt; is read correctly, it might be expected to have glossed a form of Skt. &lt;i&gt;nind-&lt;/i&gt; or &lt;i&gt;nindā&lt;/i&gt;. The following gloss is clear (cf. [[Maue 2010]]: 346): &lt;i&gt;knānmānaṣ&lt;/i&gt; is for &lt;i&gt;knānmānäṣ&lt;/i&gt; (nom.pl.) 'wise'.&lt;/p&gt;</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=SHT 1181" target="idp"&gt;SHT 1181&lt;/a&gt;.&lt;br&gt;
+[[Peyrot 2014]]: 133, 151; [[Maue 2010]]: 346.</item>
+               <item n="date_publication_old"/>
+               <item n="m_transliteration_old">b1 – nā[_k_a]_m\ ... knānmāna_ṣ\</item>
+               <item n="m_language_stage_old"/>
+               <item n="m_image_old">http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=294454;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=294454;rotate=0;imageType=_M||$page; recto
+http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=294503;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=294503;rotate=0;imageType=_M||$page; verso</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_philcomment_old">&lt;p&gt;The first item glosses Skt. /// &lt;i&gt;·y· sy(ā)[t]&lt;/i&gt; - [[SHT V]]: 175 reads the line as /// + &lt;i&gt;.. sy(ā)[t]=paṇḍi[t].&lt;/i&gt; ///.&lt;/p&gt;
+&lt;p&gt;The second item clearly glosses Skt. &lt;i&gt;p(a)ṇḍi[t]·&lt;/i&gt; 'wise'.&lt;/p&gt;</item>
+               <item n="m_passage_old"/>
+               <item n="m_editor_old"/>
+               <item n="file_created_old">1445601699</item>
+               <item n="file_modified_old">1485172778</item>
+               <item n="m_size_h_old">3.4</item>
+               <item n="m_next_old"/>
+               <item n="m_completeness_old"/>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_lines_old">3+</item>
+               <item n="access_old">restricted</item>
+               <item n="file_location_old">pages/manuscript/sht1181.txt</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_specific_old">[purchased]</item>
+               <item n="m_findspot_old">Siŋgim</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_prev_old"/>
+               <item n="user_created_old">theres</item>
+               <item n="user_modified_old">theres</item>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_translation_old">b1 reproach ... wise</item>
+               <item n="m_subgenre_old">Gloss</item>
+               <item n="m_script_old"/>
+               <item n="ms_old">SHT 1181</item>
+               <item n="project_comment_old"/>
+               <item n="m_parallels_old"/>
+               <item n="m_expedition_old">T II S 50</item>
+               <item n="m_size_w_old">4.7</item>
+               <item n="m_language_old">Sanskrit+TA</item>
+               <item n="m_remarks_old"/>
+               <item n="m_other_sigla_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_meter_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_title_old"/>
+               <item n="m_transcription_old">b1 – nākäm ... knānmānaṣ</item>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

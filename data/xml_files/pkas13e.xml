@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-pkas13e">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PK AS 13E</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Georges-Jean Pinault</name>
+            </respStmt>
+            <respStmt>
+               <resp>collaborator</resp>
+               <name>Melanie Malzahn</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <date when="2013-08">August 2013</date>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</repository>
+                  <idno>PK AS 13E</idno>
+                  <altIdentifier>
+                     <idno>Pelliot Koutchéen Ancienne Série 13E</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Ikṣvāku-jātaka, genealogy of the Śākya family</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>22</height>
+                              <width>42</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <dimensions type="line_spacing">
+                              <height>2,4</height>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Jātaka/Avadāna</term>
+               <term type="prose_verse">prose</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <line n="1" xml:id="a1"><gap reason="lost"/><gap reason="plain" quantity="1"/><gap reason="par" quantity="2"/><zone><unclear>k</unclear><gap reason="par" unit="part"/></zone><zone><unclear>y</unclear>k<gap reason="par" unit="part"/>¯</zone><zone>¯K</zone><zone>pā</zone><zone>tri</zone><zone>yṣū</zone><zone>wa</zone><zone>rka</zone><zone>ñe</zone><zone>ne</zone><zone>a</zone><zone>lye¯</zone><zone>¯K</zone><zone>śai</zone><zone>ṣṣe</zone><zone>ne</zone><zone>ma</zone><zone>sa</zone><zone>॥</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><zone>ā</zone><zone>ñMä</zone><zone>mpa</zone><zone>:</zone><zone>kuce</zone><zone>ñi¯</zone><zone>¯Ś</zone><zone>śtwe¯</zone><zone>¯R</zone><zone>SAsū</zone><zone>wa</zone><zone>ypo</zone><zone>ymeṃ</zone><zone>lyau</zone><zone>twa</zone><zone>snai</zone><zone>TRA</zone><zone>ṅko</zone><zone>:</zone><zone>ña</zone><zone>ke</zone><zone>tā</zone><zone><unclear>k</unclear></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><zone><unclear>ce</unclear></zone><zone>w<unclear>ä</unclear></zone><zone>nta</zone><zone>re</zone><zone>ypa</zone><zone>rwe</zone><zone>a</zone><zone>mā</zone><zone><unclear>cä</unclear></zone><zone>nta</zone><zone>mpa</zone><zone>sa</zone><zone>ma</zone><zone>pā</zone><zone>tne</zone><zone>lmo</zone><zone>rmeṃ</zone><zone>śtwe¯</zone><zone>¯R</zone><zone>mo</zone><zone>ko</zone><zone>NAṃ</zone><zone>SAsū</zone><zone>wa¯</zone><zone>¯Ś</zone><zone>ka</zone><zone><unclear>pi</unclear></zone><zone>la</zone><zone>v<unclear>ā</unclear></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><zone>kne</zone><zone>॥</zone><gap reason="par" quantity="1"/><zone><unclear>p</unclear>ā</zone><zone><unclear>va</unclear></zone><zone><unclear>ti</unclear></zone><zone>tā¯</zone><zone>¯u</zone><zone>rī</zone><zone>meṃ</zone><zone>pe</zone><zone>rnau</zone><space type="string_hole"/><zone>ntsai</zone><zone>i</zone><zone>kṣvā</zone><zone>kuṃ</zone><zone>ñe</zone><zone><unclear>wa</unclear></zone><zone>lo</zone><zone>wro</zone><zone>tse</zone><zone>vi</zone><zone>rū</zone><zone>ḍha</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><zone>kh<unclear>eṃ</unclear></zone><zone>wa</zone><zone>rñai</zone><zone>SAsu</zone><zone>wa¯</zone><zone>¯Ś</zone><zone>te</zone><zone>sta</zone><zone>MA</zone><zone>ṢṢAṃ</zone><space type="string_hole"/><zone>śle</zone><zone>yä</zone><zone>rke</zone><zone>:</zone><zone>rṣā</zone><zone>ki</zone><zone>nau</zone><zone>ṣaṃ</zone><zone>ñi</zone><zone>e</zone><zone>ro¯</zone><zone>¯Ṣ</zone><zone>dhya</zone><zone>na</zone><zone><unclear>n</unclear></zone><gap reason="lost"/></line>
+            <line n="6" xml:id="a6"><zone>ñi</zone><zone>śn<unclear>e</unclear></zone><zone>kle</zone><zone>śa<gap reason="par" unit="part"/></zone><zone><unclear>m</unclear><gap reason="par" unit="part"/><unclear>ṃ</unclear></zone><zone>tSA</zone><zone>le</zone><zone>s<gap reason="par" unit="part"/><gap reason="par" unit="part"/></zone><zone><unclear>ta</unclear></zone><zone>t<gap reason="plain" unit="part"/></zone><space type="string_hole"/><zone>kau</zone><zone>snai</zone><zone>tRA</zone><zone>ṅko</zone><zone>ceṃ</zone><zone>lyau</zone><zone>twa</zone><zone>ypo</zone><zone>ymeṃ</zone><zone>klyau</zone><zone>seṃ</zone><zone>ne</zone><gap reason="lost"/></line>
+            <line n="7" xml:id="a7"><gap reason="lost"/><zone>sa</zone><zone>ksa</zone><zone>mā</zone><zone>t<gap reason="par" unit="part"/></zone><zone><gap reason="plain" unit="part"/>p<gap reason="plain" unit="part"/></zone><zone>ne</zone><zone>mā</zone><zone>s<unclear>ā</unclear>¯</zone><zone>¯u</zone><zone>ts<gap reason="plain" unit="part"/></zone><zone>k<gap reason="par" unit="part"/>aṃ</zone><zone>snai</zone><zone>tRA</zone><zone>ṅko</zone><zone>:</zone><zone>kre</zone><zone>ntaṃ¯</zone><zone>¯tS</zone><zone>wRA</zone><zone>ntsai</zone><zone>tse</zone><zone>ka</zone><zone>rtse</zone><zone>kuse</zone><zone>yā</zone><zone>MSAṃ</zone><zone>mā</zone><zone>two</zone><zone>lo</zone><zone>lle</zone><gap reason="lost"/></line>
+            <line n="8" xml:id="a8"><zone>KA</zone><zone>rtsau</zone><zone>ñe</zone><gap reason="par" quantity="2"/><zone><gap reason="plain" unit="part"/>e</zone><gap reason="plain" quantity="1"/><zone><unclear>n</unclear>e</zone><zone>ka</zone><zone><unclear>l</unclear><gap reason="par" unit="part"/></zone><gap reason="par" quantity="2"/><gap reason="plain" quantity="1"/><zone>ywā¯</zone><zone>¯rcä</zone><zone>e</zone><zone>ṅKA</zone><zone>lñe</zone><zone>mā</zone><zone>tri</zone><zone>KṢAṃ</zone><zone>:</zone><zone>su</zone><zone>tu</zone><zone>ai</zone><zone>śa</zone><zone>mñe</zone><zone>kre</zone><zone>ntaṃ¯</zone><zone>¯tS</zone><zone>pa</zone><zone>pā</zone><gap reason="lost"/></line>
+            <line n="9" xml:id="a9"><gap reason="lost"/><zone>ñ<gap reason="par" unit="part"/></zone><gap reason="par" quantity="1"/><zone><unclear>KA</unclear></zone><zone>rso¯</zone><zone>¯R</zone><zone>ste</zone><zone>tā¯</zone><zone>¯u</zone><zone>di</zone><zone>pā</zone><zone>va</zone><zone>ti</zone><zone>rī</zone><zone>ne</zone><zone>ṣe</zone><zone>se</zone><zone>rke</zone><zone>sa</zone><zone>i</zone><zone>kṣ<gap reason="par" unit="part"/>ā</zone><zone>kuṃ</zone><zone>ñi</zone><zone>KA</zone><zone>nte</zone><zone><unclear>ṣ</unclear>ṣe</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone><unclear>sai</unclear></zone><gap reason="par" quantity="3"/><zone>po</zone><gap reason="par" quantity="3"/><zone>śai</zone><zone>ṣ<unclear>ṣ</unclear>eṃ</zone><gap reason="plain" quantity="2"/><zone><unclear>ri</unclear></zone><zone><unclear>p</unclear><gap reason="plain" unit="part"/></zone><zone>rn<unclear>e</unclear></zone><zone>rñ<unclear>e</unclear></zone><zone>sa</zone><zone>oṃ</zone><zone>ṣa</zone><zone><unclear>P</unclear>A</zone><zone><unclear>ta</unclear></zone><zone>tā</zone><zone>k<unclear>au</unclear></zone><zone>s<unclear>ai</unclear></zone><zone>keṃ</zone><zone>ñä</zone><zone>kte</zone><zone>ntse</zone><zone>ma</zone><zone><unclear>h</unclear>ū</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><zone>ñai</zone><zone>ka</zone><zone>pi</zone><zone>la</zone><zone>vā</zone><zone>stu</zone><zone>rī</zone><zone>ne</zone><zone>KA</zone><gap reason="par" quantity="2"/><zone><unclear>l</unclear>y<gap reason="par" unit="part"/></zone><zone>•</zone><zone>tu</zone><zone>meṃ</zone><zone>kau<unclear>¯</unclear></zone><zone><unclear>¯</unclear><unclear>cä</unclear></zone><zone>yne</zone><zone>ma</zone><zone>ne</zone><zone>śa</zone><zone>kkeṃ</zone><zone>ña</zone><zone>na</zone><zone>ypau</zone><zone>naṃ<unclear>¯</unclear></zone><zone><unclear>¯</unclear><unclear>tS</unclear></zone><zone><unclear>me</unclear></zone><zone>cu</zone><zone>ru</zone><zone>ka</zone><zone>n<unclear>i</unclear></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><zone>vā</zone><zone>stu</zone><zone>r<gap reason="par" unit="part"/><gap reason="par" unit="part"/></zone><zone><gap reason="par" unit="part"/><unclear>s</unclear><gap reason="par" unit="part"/></zone><zone>KA</zone><zone>ly<unclear>m</unclear>iṃ</zone><zone>ña</zone><gap reason="par" quantity="1"/><gap reason="plain" quantity="1"/><zone><unclear>y</unclear>p<unclear>au</unclear></zone><zone>na</zone><zone>ne</zone><zone>ñä</zone><zone>kcī</zone><zone>ya</zone><zone>na</zone><zone>riṃ</zone><zone>mpa</zone><zone>ta</zone><zone>se</zone><zone>ma</zone><zone>ne</zone><zone>TA</zone><zone>ryā</zone><zone>ka</zone><zone>wī</zone><zone>o</zone><zone><unclear>ro</unclear><gap reason="plain" unit="part"/></zone><zone><unclear>s</unclear>tsna</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><zone>ne</zone><zone>ka<gap reason="par" unit="part"/></zone><zone><gap reason="par" unit="part"/><unclear>e</unclear></zone><zone>nma</zone><zone><unclear>ne</unclear></zone><zone><unclear>we</unclear></zone><zone>tā¯</zone><zone>¯u</zone><zone>r<unclear>e</unclear></zone><zone>tk<gap reason="par" unit="part"/></zone><zone>so</zone><zone>lme</zone><zone>k<gap reason="par" unit="part"/></zone><zone><gap reason="par" unit="part"/><unclear>i</unclear></zone><zone>o¯</zone><zone>¯M</zone><zone>sta</zone><zone>MA</zone><zone>ṣyeṃ</zone><zone>lā¯</zone><zone>¯nT</zone><zone><unclear>KA</unclear></zone><zone>lymi¯</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><zone>śśeṃ</zone><zone>kṣa</zone><zone>trye<unclear>ṃ</unclear></zone><zone>o</zone><zone>mte</zone><zone>mo</zone><zone>koṃ</zone><zone>sta</zone><zone>mṣyeṃ</zone><zone>•</zone><zone>॥</zone><space type="string_hole"/><zone>tu</zone><zone>meṃ</zone><zone>cai</zone><zone>ra</zone><zone>no</zone><zone>ṢPA</zone><zone>KA</zone><zone>lymi</zone><zone>ññi</zone><zone>lā¯</zone><zone>¯ñcä</zone><zone>wä</zone><zone><unclear>nta</unclear></zone><gap reason="lost"/></line>
+            <line n="6" xml:id="b6"><zone>pi</zone><gap reason="plain" quantity="1"/><zone><gap reason="plain" unit="part"/><gap reason="par" unit="part"/>ra</zone><zone><unclear>n</unclear>o</zone><zone>ṢPA</zone><zone>KA</zone><zone>nte</zone><zone>o¯</zone><zone>¯KT</zone><zone>a</zone><space type="string_hole"/><zone>llo</zone><zone>ṅna</zone><zone>KA</zone><zone>lymiṃ</zone><zone>ña</zone><zone>na</zone><zone>ri<unclear>ṃ</unclear></zone><zone>tsai</zone><zone>k<unclear>ā</unclear></zone><zone><unclear>nt</unclear><gap reason="par" unit="part"/></zone><zone>i</zone><zone>s<unclear>p</unclear>e</zone><gap reason="lost"/></line>
+            <line n="7" xml:id="b7"><gap reason="plain" quantity="1"/><zone>rm<unclear>e</unclear>ṃ</zone><zone>riṃ</zone><zone>ne</zone><zone>ytā</zone><zone>te</zone><zone>:</zone><zone>cä</zone><zone>ñca</zone><zone>rñe</zone><zone>sa</zone><zone>snai</zone><zone>me</zone><zone>nā¯</zone><zone>¯K</zone><zone>su</zone><zone>da</zone><zone>rśaṃ</zone><zone>mpa</zone><zone>e</zone><zone>ne</zone><zone>śle</zone><zone>mai</zone><zone>yya</zone><zone>ksa</zone><zone>ṣyeṃ</zone><zone>:</zone><zone>vi</zone><zone>rū</zone><zone>ḍha</zone><zone>ki</zone><gap reason="lost"/></line>
+            <line n="8" xml:id="b8"><zone>ma</zone><zone>rṣsa</zone><zone>jaṃ</zone><zone>bu</zone><zone>dvi</zone><zone>pṣeṃ</zone><zone>la</zone><zone>ntaṃ¯</zone><zone>¯TS</zone><zone>po</zone><zone>kre</zone><zone>mpa¯</zone><zone>¯R</zone><zone>wa</zone><zone>rKṢA¯</zone><zone>¯L∘</zone><zone>:</zone><zone>1</zone><zone>॥</zone><zone>tu</zone><zone>meṃ</zone><zone>ka</zone><zone>pi</zone><zone>la</zone><zone>vā</zone><gap reason="lost"/></line>
+            <line n="9" xml:id="b9"><zone>ā</zone><zone><gap reason="par" unit="part"/>i</zone><gap reason="par" quantity="1"/><zone>n<unclear>d</unclear>iṃ</zone><zone>MA</zone><zone>ñc<unclear>u</unclear></zone><zone>ṣke</zone><zone>ntse</zone><zone>ṣa</zone><zone>rmtsa</zone><zone>ceṃ</zone><zone>śtwe¯</zone><zone>¯R</zone><zone>MA</zone><zone>ñc<gap reason="par" unit="part"/></zone><zone>ṣka</zone><zone>nta</zone><zone>ṣa¯</zone><zone>¯ñä</zone><zone>pa</zone><zone>ta</zone><zone>rye</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="plain" quantity="4"/><w>k<gap reason="plain" unit="part"/></w><w>yk<supplied>ā</supplied>k</w><w>pātri</w><w>yṣūwarkañene</w><w>alyek</w><w>śaiṣṣene</w><w>masa</w><pc>॥</pc><gap reason="plain" quantity="1"/><gap reason="lost"/></p>
+            <lg type="poem">
+               <lg n="X" type="strophe">
+                  <l n="x"><supplied unit="syllable" quantity="9"/>
+<lb corresp="#a2"/><w>āñmämpa</w><pc>:</pc></l>
+                  <l n="x"><w>kUce</w><w>ñiś</w><w>śtwer</w><w>sÄsūwa</w><w>ypoymeṃ</w><caesura ana="frg:cs-s"/><w>lyautwa</w><w>snai</w><w>träṅko</w><pc>:</pc></l>
+               </lg>
+            </lg>
+            <p><w>ñake</w><w>tāk<supplied>au</supplied></w><gap reason="lost"/>
+<lb corresp="#a3"/><w>ce</w><w>wäntare</w><w>yparwe</w><w>amācäntampa</w><w>samapātne</w><w>lmormeṃ</w><w>śtwer</w><w>mokonäṃ</w><w>sÄsūwaś</w><w>kapilavā<supplied>stune</supplied></w><gap reason="lost"/>
+<w><supplied>bahudantā</supplied><lb corresp="#a4"/>kne</w><pc>॥</pc></p>
+            <lg type="poem" met="frg:M25" subtype="hom">
+               <lg n="1" type="strophe">
+                  <l n="a"><w><supplied>di</supplied>pāvati</w><w>tāU</w><caesura ana="frg:cs-s"/><w>rīmeṃ</w><w>pernauntsai</w><caesura ana="frg:cs-s"/><w>ikṣvākuṃñe</w><w>walo</w><w>wrotse</w><caesura ana="frg:cs-s"/><w>virūḍha<supplied>ke</supplied></w><gap reason="plain" quantity="3"/></l>
+                  <l n="b"><gap reason="lost"/><supplied unit="syllable" quantity="5"/><caesura ana="frg:cs-s"/><supplied unit="syllable" quantity="5"/><caesura ana="frg:cs-s"/>
+<w><supplied>ulkāmu</supplied><lb corresp="#a5"/>kheṃ</w><w>warñai</w><w>sÄsuwaś</w><caesura ana="frg:cs-s"/><w>te</w><w>stamäṣṣäṃ</w><w>śle-yärke</w><pc>:</pc></l>
+                  <l n="c"><w>rṣāki</w><w>nauṣaṃñi</w><caesura ana="frg:cs-s"/><w>eroṣ</w><w>dhyanan<supplied>ma</supplied></w><caesura ana="frg:cs-s"/><gap reason="lost"/><supplied unit="syllable" quantity="8"/><caesura ana="frg:cs-s"/><supplied unit="syllable" quantity="7"/>
+<lb corresp="#a6"/></l>
+                  <l n="d"><w>ñiśne</w><w>kleśa<supplied>n</supplied>m<supplied>a</supplied>ṃts<surplus>ä</surplus></w><caesura ana="frg:cs-s"/><w>les<supplied>to</supplied></w><w>tat<supplied>ā</supplied>kau</w><caesura ana="frg:cs-s"/><w>snai</w><w>träṅko</w><w>ceṃ</w><w>lyautwa</w><w>ypoymeṃ</w><caesura ana="frg:cs-s"/><w>klyauseṃ-ne</w><gap reason="lost"/><supplied unit="syllable" quantity="4"/></l>
+               </lg>
+               <lg n="2" type="strophe">
+                  <l n="a"><supplied unit="syllable" quantity="5"/><caesura ana="frg:cs-s"/><supplied unit="syllable" quantity="5"/><caesura ana="frg:cs-s"/>
+<lb corresp="#a7"/><gap reason="plain" quantity="2"/><w>sa</w><w>ksa</w><w>mā</w><w>t<supplied>ap</supplied>p<supplied>aṃ<milestone unit="w" type="break"/></supplied>ne</w><caesura ana="frg:cs-s"/><w>mā</w><w>sāU</w><w>ts<supplied>ā</supplied>k<supplied>n</supplied>aṃ</w><w>snai</w><w>träṅko</w><pc>:</pc></l>
+                  <l n="b"><w>krentaṃts</w><w>wräntsaitse</w><caesura ana="frg:cs-s"/><w>kartse</w><w>kUse</w><w>yāmsäṃ</w><caesura ana="frg:cs-s"/><w>mā</w><w>tw=</w><w>ololle</w><gap reason="lost"/><supplied unit="syllable" quantity="4"/><caesura ana="frg:cs-s"/><supplied unit="syllable" quantity="7"/></l>
+                  <l n="c" real="5/5/7/7"><supplied unit="syllable" quantity="5"/><caesura ana="frg:cs-s"/>
+<lb corresp="#a8"/><w>kärtsauñe</w><gap reason="plain" quantity="2"/><caesura ana="frg:cs-s"/><w><gap reason="plain" unit="part"/>e</w><gap reason="plain" quantity="1"/><w>ne</w><w>kal<gap reason="plain" unit="part"/></w><gap reason="plain" quantity="3"/><caesura ana="frg:cs-s"/><w>ywārc</w><w>eṅkälñe</w><w>mā</w><w>trikṣäṃ</w><pc>:</pc></l>
+                  <l n="d"><w>su</w><w>tu</w><w>aiśamñe</w><caesura ana="frg:cs-s"/><w>krentaṃts</w><w>papā<supplied>ṣṣu</supplied></w><caesura ana="frg:cs-s"/><gap reason="lost"/><supplied unit="syllable" quantity="8"/><caesura ana="frg:cs-s"/><supplied unit="syllable" quantity="7"/></l>
+               </lg>
+            </lg>
+            <p>
+<lb corresp="#a9"/><gap reason="plain" quantity="6"/><w>ñ<supplied>e</supplied></w><gap reason="plain" quantity="1"/><w>kärsor</w><w>ste</w><w>tāU</w><w>dipāvati</w><w>rīne</w><w>ṣe</w><w>serkesa</w><w>ikṣ<supplied>v</supplied>ākuṃñi</w><w>känteṣṣe</w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="plain" quantity="2"/><w>sai</w><gap reason="plain" quantity="3"/><w>po</w><gap reason="plain" quantity="3"/><w>śaiṣṣeṃ<supplied>nts</supplied></w><w><supplied>po</supplied></w><w>ri</w><w>p<supplied>e</supplied>rnerñesa</w><w>oṃṣap<surplus>ä</surplus></w><w>tatākausai</w><w>keṃ-ñäktentse</w><w>mahū<supplied>r</supplied></w><gap reason="lost"/>
+<lb corresp="#b2"/><w>-ñai</w><w>kapilavāstu</w><w>rīne</w><w>kä<supplied>rsana</supplied>ly<supplied>a</supplied></w><pc>•</pc><w>tumeṃ</w><w>kauc</w><w>ynemane</w><w>śakkeṃñana</w><w>ypaunaṃts</w><w>mecurukani</w><gap reason="lost"/>
+<w><supplied>kapila</supplied><lb corresp="#b3"/>vāstu</w><w>r<supplied>int</supplied>s<supplied>e</supplied></w><w>kälymiṃña<supplied>na</supplied></w><w><supplied>mā</supplied></w><w>ypaunane</w><w>ñäkcīyana</w><w>riṃmpa</w><w>tasemane</w><w>täryāka</w><w>wī</w><w>oro<supplied>t</supplied>stsna</w><w><supplied>ri<milestone unit="w" type="break"/></supplied></w><gap reason="lost"/>
+<lb corresp="#b4"/><w>-ne</w><w>ka<supplied>nt</supplied>enmane</w><w>wetāU</w><w>retk<supplied>e</supplied></w><w>solme</w><w>k<supplied>eṣ</supplied>i</w><w>om</w><w>stamäṣyeṃ</w><w>lānt</w><w>kälymi<supplied>ñ</supplied></w><gap reason="lost"/>
+<lb corresp="#b5"/><w>-śśeṃ</w><w>kṣatryeṃ</w><w>omte</w><w>mokoṃ</w><w>stamṣyeṃ</w><pc>•</pc><pc>॥</pc><w>tumeṃ</w><w>cai</w><w>rano</w><w>ṣpä</w><w>kälymiññi</w><w>lāñc</w><w>wänta<supplied>re</supplied></w><gap reason="lost"/>
+<lb corresp="#b6"/><w>-pi</w><gap reason="plain" quantity="1"/><w><gap reason="plain" unit="part"/><gap reason="plain" unit="part"/></w><w>rano</w><w>ṣpä</w><w>känte</w><w>okt</w><w>alloṅna</w><w>kälymiṃñana</w><w>riṃ</w><w>tsaikānt<supplied>e</supplied></w><w>ispe<supplied>k</supplied></w><gap reason="lost"/></p>
+            <lg type="poem" met="frg:M18" subtype="hom">
+               <lg n="1" type="strophe">
+                  <l n="a" real="7/6/4"><supplied unit="syllable" quantity="7"/><caesura ana="frg:cs-s"/><supplied unit="syllable" quantity="5"/>
+<lb corresp="#b7"/><gap reason="plain" quantity="1"/><w>rmeṃ</w><caesura ana="frg:cs-s"/><w>riṃne</w><w>ytāte</w><pc>:</pc></l>
+                  <l n="b"><w>cäñcarñesa</w><w>snai</w><w>menāk</w><caesura ana="frg:cs-s"/><w>sudarśaṃmpa</w><w>eneśle</w><caesura ana="frg:cs-s"/><w>maiyy=</w><w>aksaṣyeṃ</w><pc>:</pc></l>
+                  <l n="c"><w>virūḍhaki</w><w><supplied>lānte</supplied></w><gap reason="plain" quantity="1"/><caesura ana="frg:cs-s"/><supplied unit="syllable" quantity="7"/><caesura ana="frg:cs-s"/><supplied unit="syllable" quantity="4"/></l>
+                  <l n="d"><gap reason="plain" quantity="4"/>
+<w><supplied>a</supplied><lb corresp="#b8"/>marṣsa</w><caesura ana="frg:cs-s"/><w>jaṃbudvipṣeṃ</w><w>lantaṃts</w><w>po</w><caesura ana="frg:cs-s"/><w>krempar</w><w>warkṣäl</w><pc>:</pc><num value="1">1</num><pc>॥</pc></l>
+               </lg>
+            </lg>
+            <p><w>tumeṃ</w><w>kapilavā<supplied>stu</supplied></w><gap reason="lost"/>
+<w><supplied>rājy</supplied><lb corresp="#b9"/>ā<supplied>bh</supplied>i<supplied>na</supplied>ndiṃ</w><w>mäñcuṣkentse</w><w>ṣarmtsa</w><w>ceṃ</w><w>śtwer</w><w>mäñc<supplied>u</supplied>ṣkanta</w><w>ṣañ</w><w>patarye</w><w><supplied>śakkeṃ</supplied></w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">... still during [his] father's prosperity, he went into another world. ...</seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">... (thought to) himself: "That I have driven [my] four guiltless sons from the country, now (I will) be ...</seg></seg><seg><seg type="prim_transl">Dass ich [meine] vier Söhne schuldlos aus dem Lande vertrieben habe.</seg><seg type="sec_transl" resp="TI">That I have banned [my] four sons, guiltlessly, from the country.</seg><bibl><title corresp="ref:schmidtkt1974"/><citedRange>298</citedRange></bibl></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">... after having sat in the assembly with his ministers about this matter [as motivation], (the king wants to go) to [his] four elder sons (in the city) Kapilavastu. ...</seg></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl">... In [the tune] (bahudantāk?) || From this glorious city of Dipāvati the great king Ikṣvāku Virūḍhaka (departed) ...</seg></seg></choice><choice corresp="#a5"><seg><seg type="prim_transl">... he places it with deference in front of [his] sons beginning with (Ulkāmu)kha. The former Ṛṣis, having evoked the medita(tion)s ...</seg></seg></choice><choice corresp="#a6"><seg><seg type="prim_transl">... inside me a lair of sufferings has arisen [since] I have driven them guiltlessly out of the country. They shall hear that ... </seg></seg></choice><choice corresp="#a7"><seg><seg type="prim_transl">... if no one eats [her] ..., she will not bite without guilt. This one who is doing good as compensation to the good ones, is not to be restrained ...</seg></seg></choice><choice corresp="#a8"><seg><seg type="prim_transl">... the good deed ... (s)he does not fail amidst the clinging [to existence]. This is the knowledge obse(rved) by the good ones. </seg></seg></choice><choice corresp="#a9"><seg><seg type="prim_transl">... this is definitely known. In this city of Dipāvati through a single [blood] line the Ikṣvākuids (by) a hundred-fold (generation?) ...</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">... the diadem of the earth god [= Kapilavastu], being superior in splendor to every city of the worlds.</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">... (this speech) should be (under)stood (as taking place) in the (glor)ious city of Kapilavastu. Then going upwards the ... of the countries belonging to Śākyas ...</seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl">... being under the domain of the city of Kapilavastu 32 cities (not) comparable with the divine cities in the countries ... </seg></seg></choice><choice corresp="#b4"><seg><seg type="prim_transl">... a fighting army in hundreds completely destroyed ... in ...; there (every) region(al) city installed a king ... </seg></seg></choice><choice corresp="#b5"><seg><seg type="prim_transl">... they installed the ... Kṣatriyas as elders there. Thereupon also these vassal kings ... the matter ...</seg></seg></choice><choice corresp="#b6"><seg><seg type="prim_transl">... they also built another 108 vassal cities. Besides (also): ...</seg></seg></choice><choice corresp="#b7"><seg><seg type="prim_transl">... after having ... was decorated in the cities. They proclaimed a might without equal in delight like the one of [the city] Sudarśanā. Of king Virūḍhaka ... </seg></seg></choice><choice corresp="#b8"><seg><seg type="prim_transl">.... out of impatience they impeded the power of all Jaṃbudvīpa kings. 1. Thereupon ... (the city) Kapilavastu ... </seg></seg></choice><choice corresp="#b9"><seg><seg type="prim_transl">... because of the prince Rājyābhinandi these four princes (by) their own paternal Śākya (king) ...</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="philcomment">To the same Jātaka belong <ref type="ms" target="txt:m-pkas13d"/> and <ref type="ms" target="txt:m-tht589"/>; for the Tibetan parallel, see <bibl><title corresp="ref:roerich1988"/><citedRange>9-10</citedRange></bibl>. King Ikṣvāku Virūḍhaka, after having expelled his four elder sons in order to have his youngest becoming crown pince, feels remorse and wants to visit them in the city Kapilavstu founded in the meantime by the four princes.</note><note corresp="#a2" type="philcomment">One may restore a form of <hi>pälsk<hi rend="superscript">ā</hi></hi>- 'to think' in the usual phrase with the comitative of 'self'.</note><note corresp="#a2" type="philcomment">The metre seems to have 12-syllable pādas (7/5). At the end of the line, <hi>tāk(·)</hi> most likely belongs to a Subj./Opt. of <hi>tāk<hi rend="superscript">ā</hi></hi>- 'to be'.</note><note corresp="#a2" type="philcomment">-<hi>kne</hi> no doubt belongs to a tune name. Since it seems to have 4x25 syllables (5/5/8/7), it may be <hi>bahudantāk</hi>.</note><note corresp="#a7" type="philcomment">We seem to have a metaphor for remorse with feminine reference (perhaps a serpent), but the details are unclear. -<hi>sa</hi> maybe belongs to a perlative form such as <hi>(entse)sa</hi> 'out of greed'.</note><note corresp="#b2" type="philcomment">The word separation <hi>mecurukani</hi> is not certain; however, there is a toponym <hi>mecurudi</hi>- attested in Buddhist literature, according to <bibl><title corresp="ref:monierwilliams1899"/></bibl>: s.v.</note><note corresp="#b3" type="philcomment">Since <hi>orotstsna</hi> is preceeded by the numeral <hi>täryāka wī</hi> '32', it has to be a mistake for the feminine plural <hi>orotstsana</hi> (maybe for <hi>orotstsnana</hi>). The following substantive ought to be a plural form of <hi>riye</hi> 'city'.</note><note corresp="#b4" type="philcomment">-<hi>ne</hi> ought to be a locative form.</note><note corresp="#b5" type="philcomment">-<hi>śśeṃ</hi> belongs to an oblique plural masculine being an attribute to <hi>kṣatryeṃ</hi>. Instead of <hi>mokoṃ</hi>, <bibl><title corresp="ref:bernhard1958"/><citedRange>257, fn. 11</citedRange></bibl> quotes a form <hi>ykoṃ-koṃ</hi>, which is certainly based on a wrong reading by Couvreur.</note><note corresp="#b6" type="philcomment"><hi>pi – [c](ai)</hi>: perhaps <hi>pinta</hi>. <hi>ca</hi> is not certain, because the lower part is somewhat more pointy; rather <hi>[kä]</hi>?</note><note corresp="#b6" type="philcomment"><hi>ispek</hi> can be followed by <hi>ṣpä</hi> or <hi>cai</hi> and introduces a tune's name and stanza. The following metrical passage has a metre of 4x18 [7/7/4].</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Translations</label><seg corresp="#a2 b8"><bibl><title corresp="ref:couvreur1954"/><citedRange>89, 87-8</citedRange></bibl>; <bibl><title corresp="ref:couvreur1955"/><citedRange>113</citedRange></bibl></seg></p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="user_modified_old">martin</item>
+               <item n="user_created_old">theres</item>
+               <item n="m_prev_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="m_subgenre_old">Jātaka/Avadāna</item>
+               <item n="m_translation_old">a1 ... still during [his] father's prosperity, he went into another world. ...
+a2 ... (thought to) himself: "That I have driven [my] four guiltless sons from the country, now (I will) be ...
+a3 ... after having sat in the assembly with his ministers about this matter [as motivation], (the king wants to go) to [his] four elder sons (in the city) Kapilavastu. ...
+a4 ... In [the tune] (bahudantāk?) || From this glorious city of Dipāvati the great king Ikṣvāku Virūḍhaka (departed) ...
+a5 ... he places it with deference in front of [his] sons beginning with (Ulkāmu)kha. The former Ṛṣis, having evoked the medita(tion)s ...
+a6 ... inside me a lair of sufferings has arisen [since] I have driven them guiltlessly out of the country. They shall hear that ... 
+a7 ... if no one eats [her] ..., she will not bite without guilt. This one who is doing good as compensation to the good ones, is not to be restrained ...
+a8 ... the good deed ... (s)he does not fail amidst the clinging [to existence]. This is the knowledge obse(rved) by the good ones. 
+a9 ... this is definitely known. In this city of Dipāvati through a single [blood] line the Ikṣvākuids (by) a hundred-fold (generation?) ...
+b1 ... the diadem of the earth god [= Kapilavastu], being superior in splendor to every city of the worlds.
+b2 ... (this speech) should be (under)stood (as taking place) in the (glor)ious city of Kapilavastu. Then going upwards the ... of the countries belonging to Śākyas ...
+b3 ... being under the domain of the city of Kapilavastu 32 cities (not) comparable with the divine cities in the countries ... 
+b4 ... a fighting army in hundreds completely destroyed ... in ...; there (every) region(al) city installed a king ... 
+b5 ... they installed the ... Kṣatriyas as elders there. Thereupon also these vassal kings ... the matter ...
+b6 ... they also built another 108 vassal cities. Besides (also): ...
+b7 ... after having ... was decorated in the cities. They proclaimed a might without equal in delight like the one of [the city] Sudarśanā. Of king Virūḍhaka ... 
+b8 .... out of impatience they impeded the power of all Jaṃbudvīpa kings. 1. Thereupon ... (the city) Kapilavastu ... 
+b9 ... because of the prince Rājyābhinandi these four princes (by) their own paternal Śākya (king) ...</item>
+               <item n="m_tune_old">bahudantākne</item>
+               <item n="m_metric_form_old">Both</item>
+               <item n="project_check_old"/>
+               <item n="m_other_sigla_old">Pelliot Koutchéen Ancienne Série 13E</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old"/>
+               <item n="m_expedition_old"/>
+               <item n="m_size_w_old">42</item>
+               <item n="m_parallels_old"/>
+               <item n="ms_old">PK AS 13E</item>
+               <item n="project_comment_old">&lt;p&gt;Translations from [[Schmidt KT 1974]]
+&lt;table class="table_lines"&gt;
+&lt;th&gt;Lines&lt;/th&gt;
+&lt;th&gt;Translation&lt;/th&gt;
+&lt;th&gt;Pages&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt;a2&lt;/td&gt;
+&lt;td&gt;&lt;span title="That I have banned [my] four sons, guiltlessly, from the country."&gt;Dass ich [meine] vier Söhne schuldlos aus dem Lande vertrieben habe.&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;298&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+&lt;p&gt;I changed transliteration &lt;b&gt;b2&lt;/b&gt; &lt;i&gt;[me]curukan[i/o]&lt;/i&gt; to &lt;i&gt;[me]curukan[i]&lt;/i&gt; according to transcription &lt;i&gt;mecurukani&lt;/i&gt;. There are no oblique slashes allowed! –Martin (Mon, 2019-09-09, 23:37:24 (CEST))&lt;/p&gt;</item>
+               <item n="m_script_old">Classical</item>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_transcription_old">a1 (–) – (– –) k(·) yk(ā)k pātri yṣūwarkaññene|yṣūwarkañene alyek śaiṣṣene masa || – /// # %9
+a2 āñmämpa : #Xx k_uce ñiś śtwer säsuwa|s_äsūwa ypoymeṃ ; lyautwa snai traṅko|träṅko : #Xx ñake tāk(au) ///
+a3 ce wäntare yparwe amācäntampa samapātne lmormeṃ śtwer mokonäṃ säsuwaśc|s_äsūwaś kapilavā(stune) /// bahudantākne|(bahudantā)|kne
+a4 || # (di)pāvati tā_u ; rīmeṃ pernauntsai ; ikṣvākuññe|ikṣvākuṃñe walo orotstse|wrotse ; virūḍha(ke – – –) #1a /// %5 ; %5 ; ulkāmukheṃ|(ulkāmu)|kheṃ
+a5 warñai säsuwaśc|s_äsuwaś ; te stamäṣṣäṃ_(Prs.)|stamäṣṣäṃ śle-yärke : #1b rṣāki nauṣaññi|nauṣaṃñi ; eroṣ_(Pl.)|eroṣ dhyanan(ma) ; /// %8 ; %7
+a6 #1c ñiśne kleśa(n)m(a)ṃts ; les(to) tat(ā)kau ; snai traṅko|träṅko ceṃ lyautwa ypoymeṃ ; klyauseṃ-ne_(Sub.)|klyauseṃ-ne /// %4 #1d %5 ; %5 ;
+a7 (– –)sa ksa mā tāppaṃ-ne_(Sg.)|t(ap)p(aṃ-)ne ; mā sāu|sā_u tsāknaṃ_(Sg.)|ts(ā)k(n)aṃ snai traṅko|träṅko : #2a krentaṃts wräntsaitse ; kartse k_use yamaṣṣäṃ|yāmsäṃ ; mā tu|tw= ololle /// %4 ; %7 #2b %5 ;
+a8 kärtsauñe (– –) ; ·e – ne kal(·) (– –) – ; ywārc eṅkalñe|eṅkälñe mā trikṣäṃ : #2c su tu aiśamñe ; krentaṃts papā(ṣṣu) ; /// %8 ; %7 #2d
+a9 (– – – – – –) ñ(e) (–) kärsor ste tāu|tā_u dipāvati rīne ṣe serkesa ikṣ(v)ākuṃñi känteṣṣe ///
+b1 (– –) sai (– – –) po (– – –) śaiṣṣeṃts|śaiṣṣeṃ(nts po) ri p(e)rnerñesa oṃṣap tatākausai keṃ-ñäktentse mahū(r) ///
+b2 °ñai kapilavāstu rīne kä(rsana)ly(a) • tumeṃ kauc ynemane śakkeṃñana ypaunaṃts mecurukani /// kapilavāstu|(kapila)|vāstu
+b3 rīntse|r(int)s(e) kälymiññana|kälymiṃña(na) (mā) ypaunane ñäkciyana|ñäkcīyana riṃmpa tasemane täryāka wi|wī orotstsana|oro(t)stsna (ri°) ///
+b4 °ne ka(nt)enmane wetā_u retk(e) solme k(eṣ)i omp|om stamäṣyeṃ lānt kälymi(ñ) ///
+b5 °śśeṃ kṣatryeṃ omte mokoṃ stamṣyeṃ • || tumeṃ cai rano ṣpä kälymiññi lāñc wänta(re) ///
+b6 °pi – ·(·) rano ṣpä kante|känte okt alloṅkna|alloṅna kälymiññana|kälymiṃñana riṃ tsaikānt(e) ispe(k) /// # %7 ; %5
+b7 – rmeṃ ; riṃne ytāte : #1a cäñcarñesa snai menāk ; sudarśaṃmpa eneśle ; maiyya|maiyy= aksaṣyeṃ : #1b virūḍhaki (lānte) – ; %7 ; %4 #1c – – – – amarṣsa|(a)|marṣsa
+b8 ; jaṃbudvipṣeṃ lāntäṃts|lantaṃts po ; krempar warkṣäl : 1 || #1d tumeṃ kapilavā(stu) /// rājyābhinandiṃ|(rājy)|ā(bh)i(na)ndiṃ
+b9 mñcuṣkentse|mäñcuṣkentse ṣarmtsa ceṃ śtwer mñcuṣkanta|mäñc(u)ṣkanta ṣañ patarye śākkeṃ|(śakkeṃ) ///</item>
+               <item n="m_leaf_old"/>
+               <item n="m_title_old">Ikṣvāku-jātaka, genealogy of the Śākya family</item>
+               <item n="m_meter_old">4-3/4-3/4+5/5/4-4/4-3</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_image_old"/>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_transliteration_old">a1 /// – (– –) [k](·) [y]k(·)_k\ pātri yṣūwarkañene alye_k\ śaiṣṣene masa || – /// 
+a2 āñ_mämpa : k_uce ñi_ś\ śtwe_r\ _s__asūwa ypoymeṃ lyautwa snai _t_r_aṅko : ñake tā[k] ///
+a3 [ce] w[ä]ntare yparwe amā[cä]ntampa samapātne lmormeṃ śtwe_r\ moko_n_aṃ _s__asūwa_ś\ ka[pi]lav[ā] /// 
+a4 kne || (–)[p]ā[vati] tā_u rīmeṃ pernau○ntsai ikṣvākuṃñe [wa]lo wrotse virūḍha ///
+a5 kh[eṃ] warñai _s__asuwa_ś\ te sta_m_a_ṣ_ṣ_aṃ ○ śle-yärke : rṣāki nauṣaṃñi ero_ṣ\ dhyana[n] ///
+a6 ñiśn[e] kleśa(·)[m](·)[ṃ]t_s(\) les(··) [ta]t·○kau snai t_r_aṅko ceṃ lyautwa ypoymeṃ klyauseṃ-ne ///
+a7 /// sa ksa mā t(·) ·p·ne mā s[ā]_u ts·k(·)aṃ snai t_r_aṅko : krentaṃt_s\ w_r_antsaitse kartse k_use yā_m_s_aṃ mā tw= ololle ///
+a8 _k_artsauñe (– –) ·e – [n]e ka[l](· – –) – ywārcä\ eṅ_k_alñe mā tri_k_ṣ_aṃ : su tu aiśamñe krentaṃt_s\ papā ///
+a9 /// ñ(· –) [_k_a]rso_r\ ste tā_u dipāvati rīne ṣe serkesa ikṣ(·)ākuṃñi _k_ante[ṣ]ṣe ///
+b1 /// [sai] (– – –) po (– – –) śaiṣ[ṣ]eṃ – – [ri] [p]·rn[e]rñ[e]sa oṃṣa[_p](\) [ta]tāk[au]s[ai] keṃ-ñäktentse ma[h]ū ///
+b2 °ñai kapilavāstu rīne _k_a(– –)[l]y(·) • tumeṃ kau[cä\] ynemane śakkeṃñana ypaunaṃ[t_s\] [me]curukan[i] ///
+b3 vāstu r(···)[s](·) _k_aly[m]iṃña(–) – [y]p[au]nane ñäkcīyana riṃmpa tasemane _t_aryāka wī o[ro](t)[s]tsna – ///
+b4 °ne ka(··)[e]nma[ne] [we]tā_u r[e]tk(·) solme k(·)(·)[i] o_m\ sta_m_aṣyeṃ lān_t\ [_k_a]lymi(ñ)\ ///
+b5 °śśeṃ kṣatrye[ṃ] omte mokoṃ stamṣyeṃ • || ○ tumeṃ cai rano _ṣ_p_a _k_alymiññi lāñcä\ wä[nta] ///
+b6 °pi – ·(·) ra[n]o _ṣ_p_a _k_ante o_k_t\ a○lloṅna _k_alymiṃñana ri[ṃ] tsaik[ānt](·) is[p]e ///
+b7 – rm[e]ṃ riṃne ytāte : cäñcarñesa snai menā_k\ sudarśaṃmpa eneśle maiyy= aksaṣyeṃ : virūḍhaki ///
+b8 marṣsa jaṃbudvipṣeṃ lantaṃ_t_s\ po krempa_r\ war_k_ṣ_a_l\• : 1 || tumeṃ kapilavā ///
+b9 ā(·)i(–)n[d]iṃ _m_añc[u]ṣkentse ṣarmtsa ceṃ śtwe_r\ _m_añc(·)ṣkanta ṣañä\ patarye ///</item>
+               <item n="date_publication_old">August 2013</item>
+               <item n="m_bib_old">Translations:
+&lt;b&gt;a2, b8&lt;/b&gt; [[Couvreur 1954]]: 89, 87-8; [[Couvreur 1955]]: 113.</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old"/>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old">22</item>
+               <item n="file_modified_old">1574428413</item>
+               <item n="file_created_old">1348760186</item>
+               <item n="m_editor_old">Georges-Jean Pinault (in collaboration with Melanie Malzahn)</item>
+               <item n="m_philcomment_old">&lt;p&gt;To the same Jātaka belong [[PK AS 13D]] and [[THT 589]]; for the Tibetan parallel, see [[Roerich 1988]]: 9-10. King Ikṣvāku Virūḍhaka, after having expelled his four elder sons in order to have his youngest becoming crown pince, feels remorse and wants to visit them in the city Kapilavstu founded in the meantime by the four princes.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a2.&lt;/b&gt; One may restore a form of &lt;i&gt;pälsk&lt;sup&gt;ā&lt;/sup&gt;&lt;/i&gt;- 'to think' in the usual phrase with the comitative of 'self'.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a2.&lt;/b&gt; The metre seems to have 12-syllable pādas (7/5). At the end of the line, &lt;i&gt;tāk(·)&lt;/i&gt; most likely belongs to a Subj./Opt. of &lt;i&gt;tāk&lt;sup&gt;ā&lt;/sup&gt;&lt;/i&gt;- 'to be'.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a2.&lt;/b&gt; -&lt;i&gt;kne&lt;/i&gt; no doubt belongs to a tune name. Since it seems to have 4x25 syllables (5/5/8/7), it may be &lt;i&gt;bahudantāk&lt;/i&gt;.&lt;/p&gt; 
+&lt;p&gt;&lt;b&gt;a7.&lt;/b&gt; We seem to have a metaphor for remorse with feminine reference (perhaps a serpent), but the details are unclear. -&lt;i&gt;sa&lt;/i&gt; maybe belongs to a perlative form such as &lt;i&gt;(entse)sa&lt;/i&gt; 'out of greed'.&lt;/p&gt; 
+&lt;p&gt;&lt;b&gt;b2.&lt;/b&gt; The word separation &lt;i&gt;mecurukani&lt;/i&gt; is not certain; however, there is a toponym &lt;i&gt;mecurudi&lt;/i&gt;- attested in Buddhist literature, according to [[M-W]]: s.v.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b3.&lt;/b&gt; Since &lt;i&gt;orotstsna&lt;/i&gt; is preceeded by the numeral &lt;i&gt;täryāka wī&lt;/i&gt; '32', it has to be a mistake for the feminine plural &lt;i&gt;orotstsana&lt;/i&gt; (maybe for &lt;i&gt;orotstsnana&lt;/i&gt;). The following substantive ought to be a plural form of &lt;i&gt;riye&lt;/i&gt; 'city'.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b4.&lt;/b&gt; -&lt;i&gt;ne&lt;/i&gt; ought to be a locative form.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b5.&lt;/b&gt; -&lt;i&gt;śśeṃ&lt;/i&gt; belongs to an oblique plural masculine being an attribute to &lt;i&gt;kṣatryeṃ&lt;/i&gt;. Instead of &lt;i&gt;mokoṃ&lt;/i&gt;, [[Bernhard 1958]]: 257, fn. 11 quotes a form &lt;i&gt;ykoṃ-koṃ&lt;/i&gt;, which is certainly based on a wrong reading by Couvreur.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b6.&lt;/b&gt; &lt;i&gt;pi – [c](ai)&lt;/i&gt;: perhaps &lt;i&gt;pinta&lt;/i&gt;. &lt;i&gt;ca&lt;/i&gt; is not certain, because the lower part is somewhat more pointy; rather &lt;i&gt;[kä]&lt;/i&gt;?&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b6.&lt;/b&gt; &lt;i&gt;ispek&lt;/i&gt; can be followed by &lt;i&gt;ṣpä&lt;/i&gt; or &lt;i&gt;cai&lt;/i&gt; and introduces a tune's name and stanza. The following metrical passage has a metre of 4x18 [7/7/4].&lt;/p&gt;</item>
+               <item n="m_passage_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="file_location_old">pages/manuscript/PK_AS/pkas13e.txt</item>
+               <item n="access_old">public</item>
+               <item n="m_collection_old">Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</item>
+               <item n="m_lines_old">9</item>
+               <item n="m_completeness_old"/>
+               <item n="m_linedistance_old">2,4</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="m_form_old">Poṭhī</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;I changed transliteration &lt;ref type="ms" target="__b2"/&gt; &lt;hi&gt;[me]curukan[i/o]&lt;/hi&gt; to &lt;hi&gt;[me]curukan[i]&lt;/hi&gt; according to transcription &lt;hi&gt;mecurukani&lt;/hi&gt;. There are no oblique slashes allowed! –Martin (Mon, 2019-09-09, 23:37:24 (CEST))&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

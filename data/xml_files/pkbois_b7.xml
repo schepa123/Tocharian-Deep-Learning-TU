@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-pkbois_b7">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PK Bois B7</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</repository>
+                  <idno>PK Bois B7</idno>
+                  <altIdentifier>
+                     <idno>Pelliot Koutchéen Bois B7</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>LP 9</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>wood tablet</material>
+                           <objectType>Woodslip</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>3,4–3,35</height>
+                              <width>9,53–9,5</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Šaldiraŋ</region><placeName>Watchtower</placeName></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Non-literary</term>
+               <term type="subgenre">Laissez-passer</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <line n="1" xml:id="a1"><zone>ptā</zone><zone>rka</zone><zone>o<gap reason="plain" unit="part"/></zone><zone>ṣa¯</zone><zone>¯P</zone><zone>mā</zone><zone>TA</zone><zone>rka</zone><zone>na¯</zone><zone>¯T</zone><zone>i</zone><zone>KAṃ</zone><zone>kṣ<unclear>u</unclear>ṃ</zone><zone>ntsa</zone><zone><unclear>p</unclear>i</zone><zone><unclear>ṅ</unclear><gap reason="plain" unit="part"/>e</zone></line>
+            <line n="2" xml:id="a2"><zone>meṃ</zone><zone>ne</zone><zone>i</zone><zone>KAṃ</zone><zone>wi</zone><zone>ne</zone><zone>o</zone><zone>ro</zone><zone>cce</zone><zone>pi</zone><zone>lā</zone><zone>nte</zone><zone>s<unclear>w</unclear>a</zone><zone>r<gap reason="plain" unit="part"/>a</zone><zone>t<unclear>e</unclear></zone></line>
+            <line n="3" xml:id="a3"><zone>pi</zone><zone>kṣuṃ</zone><zone>ne</zone><zone>o</zone><zone>rśa</zone><zone>cā</zone><zone>ka</zone><zone>re</zone><zone>ā</zone><zone>kṣa</zone></line>
+         </surface>
+         <surface type="verso">
+            <line n="1" xml:id="b1"><zone>skna</zone><zone>ta</zone><zone>tti</zone><zone>klā</zone><zone>ṣle</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><w>ptārka</w><w>o<supplied>ṃ</supplied>ṣap</w><w>mā</w><w>tärkanat</w><w>ikäṃ</w><w>kṣuṃntsa</w><w>piṅ<supplied>kc</supplied>e</w>
+<lb corresp="#a2"/><w>meṃne</w><w>ikäṃ</w><w>wine</w><w>oroccepi</w><w>lānte</w>
+<w>swar<supplied>n</supplied>ate<lb corresp="#a3"/>pi</w><w>kṣuṃne</w><w>orśa</w><w>cākare</w><w>ākṣa</w>
+<lb corresp="#b1"/><w>sknatatti</w><w>klāṣle</w></p>
+         </div>
+         <div type="comments">
+            <p><note type="philcomment">For the reading <hi>orśa cākare</hi> instead of a compound <hi>or-śacakare</hi>, see <bibl><title corresp="ref:ogiharaandpinault2010"/><citedRange>186f</citedRange></bibl>.</note><note type="remarks">thickness 0,45–0,39 cm</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition</label><bibl><title corresp="ref:pinault1987"/><citedRange>88</citedRange></bibl> Pl. XLVIII-3 XLIX-2.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="created_date_old">2014-03-28, 00:00:00 (CET)</item>
+               <item n="m_form_old">Woodslip</item>
+               <item n="m_findspot_old">Šaldiraŋ</item>
+               <item n="m_findspot_specific_old">Watchtower</item>
+               <item n="m_collection_old">Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</item>
+               <item n="m_lines_old">3</item>
+               <item n="access_old">restricted</item>
+               <item n="file_location_old">pages/manuscript/PK_Bois/pkbois_b7.txt</item>
+               <item n="m_material_old">Ink on wood tablet</item>
+               <item n="page_name_old">PK Bois B7</item>
+               <item n="m_philcomment_old">&lt;p&gt;For the reading &lt;i&gt;orśa cākare&lt;/i&gt; instead of a compound &lt;i&gt;or-śacakare&lt;/i&gt;, see [[Ogihara and Pinault 2010]]: 186f.&lt;/p&gt;</item>
+               <item n="version_old">4</item>
+               <item n="file_created_old">1395961200</item>
+               <item n="file_modified_old">1545898298</item>
+               <item n="m_size_h_old">3,4–3,35</item>
+               <item n="m_bib_old">Edition: [[Pinault 1987]]: 88, Pl. XLVIII-3, XLIX-2.</item>
+               <item n="file_size_old">1 KB</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_transliteration_old">a1 ptārka o(ṃ)ṣa_p\ mā _t_arkana_t\ i_k_aṃ kṣ[u]ṃntsa [p]i[ṅ](kc)e
+a2 meṃne i_k_aṃ wine oroccepi lānte s[w]ar(n)at[e]
+a3 pi kṣuṃne orśa cākare ākṣa
+b1 sknatatti klāṣle</item>
+               <item n="group_old">Editor</item>
+               <item n="m_genre_old">Non-literary</item>
+               <item n="m_transcription_old">a1 ptārka o(ṃ)ṣap mā tärkanat ikäṃ kṣuṃntsa piṅ(kc)e
+a2 meñne|meṃne ikäṃ wine oroccepi lānte swarnatepi|swar(n)ate|pi
+a3 kṣuṃne orśa ccākare|cākare ākṣa
+b1 sknatatti klāṣle</item>
+               <item n="editgroup_old">Editor</item>
+               <item n="m_script_old">Classical</item>
+               <item n="ms_old">PK Bois B7</item>
+               <item n="edited_date_old">2017-01-12, 15:30:02 (CET)</item>
+               <item n="m_size_w_old">9,53–9,5</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old">&lt;p&gt;thickness 0,45–0,39 cm&lt;/p&gt;</item>
+               <item n="m_other_sigla_old">Pelliot Koutchéen Bois B7; LP 9</item>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="file_savedate_old">2017-01-12, 15:30:02 (CET)</item>
+               <item n="m_subgenre_old">Laissez-passer</item>
+               <item n="file_name_old">pages/manuscript/PK_Bois/pkbois_b7.txt</item>
+               <item n="category_old">manuscript</item>
+               <item n="user_created_old">martin</item>
+               <item n="user_modified_old">theres</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

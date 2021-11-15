@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-pdboisb92">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PD Bois B92</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</repository>
+                  <idno>PD Bois B92</idno>
+                  <altIdentifier>
+                     <idno>Pelliot Divers Bois B92</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>wood tablet</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Non-literary</term>
+               <term type="subgenre">Account</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <line n="1" xml:id="a1"><zone>ce</zone><zone>y<unclear>ku</unclear></zone><zone>lse</zone><zone>ro</zone><zone><unclear>śai</unclear></zone><zone>ñä</zone><zone>ā</zone><zone>yo</zone><zone>ṣla</zone><zone>pa</zone><zone>ṣṣi</zone></line>
+            <line n="2" xml:id="a2"><zone>pu</zone><zone>ña</zone><zone>vra</zone><zone>tt<unclear>e</unclear><gap reason="plain" unit="part"/></zone><zone>tse</zone><zone>ā</zone><zone>yo</zone><zone>ṣ</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><w>cey</w><w>kulserośaiñ</w><w>āyoṣ</w><w>lapaṣṣi</w>
+<lb corresp="#a2"/><w>puñavratte<supplied>ṃ</supplied>tse</w><w>āyoṣ</w></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">These <hi>kulserośo</hi>*(?) are donated ... pertaining to *<hi>lāp</hi>.</seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">(They are) donated by <hi>Puñavratte</hi>*.</seg></seg></choice></p>
+         </div>
+         <div type="bibliography">
+            <p><label>other</label><bibl><title corresp="ref:ching2010"/><citedRange>320-321</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="file_location_old">pages/manuscript/PD_Bois/pdboisb92.txt</item>
+               <item n="m_lines_old">2</item>
+               <item n="m_collection_old">Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</item>
+               <item n="access_old">restricted</item>
+               <item n="created_date_old">2014-10-18, 23:17:12 (CEST)</item>
+               <item n="m_transliteration_old">a1 cey [ku]lsero[śai]ñ^ä āyoṣ lapaṣṣi
+a2 puñavratt[e](ṃ)tse āyoṣ</item>
+               <item n="m_bib_old">[[Ching 2010]]: 320-321.</item>
+               <item n="file_size_old">1 KB</item>
+               <item n="file_created_old">1413667032</item>
+               <item n="file_modified_old">1558220471</item>
+               <item n="m_material_old">Ink on wood tablet</item>
+               <item n="page_name_old">PD Bois B92</item>
+               <item n="version_old">3</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_other_sigla_old">Pelliot Divers Bois B92</item>
+               <item n="ms_old">PD Bois B92</item>
+               <item n="edited_date_old">2017-01-27, 09:55:07 (CET)</item>
+               <item n="editgroup_old">Admin</item>
+               <item n="group_old">Editor</item>
+               <item n="m_genre_old">Non-literary</item>
+               <item n="m_transcription_old">a1 cai|cey kulserośaiñ āyoṣ lapaṣṣi
+a2 puñavratte(ṃ)tse āyoṣ</item>
+               <item n="user_created_old">martin</item>
+               <item n="user_modified_old">theres</item>
+               <item n="category_old">manuscript</item>
+               <item n="file_savedate_old">2017-01-27, 09:55:07 (CET)</item>
+               <item n="m_translation_old">a1 These &lt;i&gt;kulserośo&lt;/i&gt;*(?) are donated ... pertaining to *&lt;i&gt;lāp&lt;/i&gt;.
+a2 (They are) donated by &lt;i&gt;Puñavratte&lt;/i&gt;*.</item>
+               <item n="m_subgenre_old">Account</item>
+               <item n="file_name_old">pages/manuscript/PD_Bois/pdboisb92.txt</item>
+               <item n="m_metric_form_old">Prose</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

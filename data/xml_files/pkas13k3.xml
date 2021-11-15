@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-pkas13k3">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PK AS 13K.3</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Georges-Jean Pinault</name>
+            </respStmt>
+            <respStmt>
+               <resp>collaborator</resp>
+               <name>Melanie Malzahn</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</repository>
+                  <idno>PK AS 13K.3</idno>
+                  <altIdentifier>
+                     <idno>Pelliot Koutchéen Ancienne Série 13K.3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>7</height>
+                              <width>9,2</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <dimensions type="line_spacing">
+                              <height>2,2</height>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Duldur-Akhur</region><placeName>DA, cour</placeName>during <rs type="expedition_code">DA cour</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Jātaka/Avadāna</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone>nts<gap reason="par" unit="part"/></zone><zone>yā</zone><zone><unclear>MA</unclear>ṃ</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone>ko</zone><zone>yä</zone><zone>nma</zone><zone>ṢṢAṃ</zone><zone>2</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone>lo</zone><zone>ne</zone><zone>sau</zone><zone>MA</zone><zone>kcau</zone><space type="string_hole"/><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone>mā</zone><zone>ka</zone><zone>TA</zone><zone>ṅwaṃ</zone><space type="string_hole"/><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone>kki</zone><zone>ka</zone><zone>pi</zone><zone>la</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><zone>w<unclear>r</unclear>ī</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><w>nts<gap reason="plain" unit="part"/></w><w>yāmäṃ</w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><w>-ko</w><w>yänmaṣṣäṃ</w><num value="2">2</num><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><w>-lo</w><w>nesau</w><w>mäkcau</w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><w>māka</w><w>täṅwaṃ</w><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><w>-kki</w><w>kapila</w><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><w><milestone unit="w" type="m-bound"/>wrī<milestone unit="w" type="break"/></w><gap reason="lost"/></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">Four fragments, <ref type="ms" target="txt:m-pkas13k1"/>, <ref type="ms" target="txt:m-pkas13k2"/>, PK AS 13K.3 and <ref type="ms" target="txt:m-pkas13k4"/>.</note></p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_transcription_old">a1 /// nts(·) yāmäṃ ///
+a2 /// -ko yänmaṣṣäṃ 2 ///
+a3 /// -lo nesau mäkcau ///
+b1 /// māka täṅwaṃ ///
+b2 /// -kki kapila ///
+b3 /// -wrī- ///</item>
+               <item n="m_title_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_remarks_old">&lt;p&gt;Four fragments, [[PK AS 13K.1]], [[PK AS 13K.2]], PK AS 13K.3 and [[PK AS 13K.4]].&lt;/p&gt;</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_other_sigla_old">Pelliot Koutchéen Ancienne Série 13K.3</item>
+               <item n="m_size_w_old">9,2</item>
+               <item n="m_expedition_old">DA cour</item>
+               <item n="m_parallels_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="ms_old">PK AS 13K.3</item>
+               <item n="project_comment_old"/>
+               <item n="m_subgenre_old">Jātaka/Avadāna</item>
+               <item n="m_translation_old"/>
+               <item n="m_metric_form_old"/>
+               <item n="m_tune_old"/>
+               <item n="user_created_old">theres</item>
+               <item n="user_modified_old">theres</item>
+               <item n="m_prev_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old"/>
+               <item n="m_linedistance_old">2,2</item>
+               <item n="m_findspot_old">Duldur-Akhur</item>
+               <item n="m_findspot_specific_old">DA, cour</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="file_location_old">pages/manuscript/PK_AS/pkas13k3.txt</item>
+               <item n="m_lines_old"/>
+               <item n="m_collection_old">Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</item>
+               <item n="access_old">restricted</item>
+               <item n="m_size_h_old">7</item>
+               <item n="m_next_old"/>
+               <item n="file_created_old">1348760603</item>
+               <item n="file_modified_old">1481807306</item>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old"/>
+               <item n="m_editor_old">Georges-Jean Pinault (in collaboration with Melanie Malzahn)</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_image_old"/>
+               <item n="date_publication_old"/>
+               <item n="m_transliteration_old">a1 /// nts(·) yā[_m_a]ṃ ///
+a2 /// ko yänma_ṣ_ṣ_aṃ 2 ///
+a3 /// lo nesau _m_akcau ○ ///
+b1 /// māka _t_aṅwaṃ ○ ///
+b2 /// kki kapila ///
+b3 /// w[r]ī ///</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_bib_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

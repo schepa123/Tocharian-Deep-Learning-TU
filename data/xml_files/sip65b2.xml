@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="en"
+     xml:id="m-sip65b2"
+     prev="txt:m-sip65b1">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>SI P 65.b.2</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>IOM (St. Petersburg)</repository>
+                  <idno>SI P 65.b.2</idno>
+                  <altIdentifier>
+                     <idno>SI P/65b2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>3,2</height>
+                              <width>7,2</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Kuča</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="txb" ana="frg:ls-peyrot-A1 frg:ls-C14"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Grammar</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <line n="1" xml:id="a1"><gap reason="lost"/><gap reason="plain" quantity="2"/><zone>:</zone><zone>a</zone><zone><unclear>p</unclear>ū</zone><zone><unclear>r</unclear>ba</zone><zone>:</zone><zone>Kwa</zone><zone>rKwa</zone><zone>ñña</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><zone>sthā</zone><zone>li</zone><zone>pa</zone><zone>kta</zone><zone>m</zone><zone>:</zone><zone>ai</zone><zone>se</zone><zone>ṣṣe</zone></line>
+            <line n="3" xml:id="a3"><gap reason="plain" quantity="1"/><zone>ra</zone><zone>m</zone><zone>:</zone><zone>MA</zone><zone>lkwe</zone><gap reason="plain" quantity="1"/></line>
+         </surface>
+         <surface type="verso">
+            <line n="1" xml:id="b1"><zone>ko</zone><zone>hi</zone><zone>:</zone><zone>kuse</zone><zone>no</zone><zone>:</zone><zone>kha</zone><zone>mu</zone><zone>pa</zone><zone>da</zone><zone>ndha</zone><zone>n<unclear>e</unclear></zone><zone>:</zone><zone>tru</zone><zone>sKA</zone><zone>ñña</zone><zone>ño<gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><zone>a</zone><zone>ra</zone><zone>vi</zone><zone>va</zone><zone>:</zone><zone>sa</zone><gap reason="plain" quantity="1"/><zone>ne</zone><gap reason="plain" quantity="2"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><gap reason="plain" quantity="2"/><pc>:</pc><w>apūrba</w><pc>:</pc><w>kwarkwañña</w><gap reason="lost"/>
+<lb corresp="#a2"/><w>sthālipaktam</w><pc>:</pc><w>aiseṣṣe</w>
+<lb corresp="#a3"/><w><supplied>kṣī</supplied>ram</w><pc>:</pc><w>mälkwe<supplied>r</supplied></w>
+<lb corresp="#b1"/><w>ko</w><w>hi</w><pc>:</pc><w>kUse</w><w>no</w><pc>:</pc><w>khamu</w><w>padandhane</w><pc>:</pc><w>truskäñña</w><w>ño<supplied>r</supplied></w><gap reason="lost"/>
+<lb corresp="#b2"/><w>arav</w><w>iva</w><pc>:</pc><w>sa<supplied>naṃ</supplied>ne</w><w><supplied>ramt</supplied></w></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">extraordinaire (f.)</seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">fait dans un chaudron</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">lait</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">mais qui? sous l'attellement</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">comme en présence d'un ennemi</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note corresp="#a3" type="lingcomment"><w lemmaRef="B_malkwer">mälkwer</w>: "forme MQ pour tokh. B standard <hi>malkwer</hi>" (<bibl><title corresp="ref:pinault2002"/></bibl>, 314).</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Discussion</label><bibl><title corresp="ref:pinault2002"/></bibl>.</p>
+            <p><label>Images</label><bibl><title corresp="ref:vorobyovdesyatovsky1958"/></bibl>;</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="date_publication_old"/>
+               <item n="m_transliteration_old">a1 /// – – : a[p]ū[r]ba : _kwar_kwañña ///
+a2 sthālipaktam : aiseṣṣe
+a3 (kṣī)ram : _m_alkwe(_r\)
+b1 ko hi : k_use no : khamu padandhan[e] : trus_k_añña ño(r) ///
+b2 arav iva : sa(naṃ)ne (ram_t\)</item>
+               <item n="m_language_stage_old"/>
+               <item n="m_image_old"/>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old">&lt;p&gt;&lt;b&gt;a3.&lt;/b&gt; [[malkwer|mälkwer]]: "forme MQ pour tokh. B standard &lt;i&gt;malkwer&lt;/i&gt;" ([[Pinault 2002]], 314).&lt;/p&gt;</item>
+               <item n="m_bib_old">Images: [[Vorobyov-Desyatovsky 1958]];
+Discussion: [[Pinault 2002]].</item>
+               <item n="file_created_old">1441738022</item>
+               <item n="file_modified_old">1582272538</item>
+               <item n="m_size_h_old">3,2</item>
+               <item n="m_next_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_philcomment_old"/>
+               <item n="m_passage_old"/>
+               <item n="m_editor_old"/>
+               <item n="file_location_old">pages/manuscript/sip65b2.txt</item>
+               <item n="m_completeness_old"/>
+               <item n="m_lines_old">3</item>
+               <item n="m_collection_old">IOM (St. Petersburg)</item>
+               <item n="access_old">restricted</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_old">Kuča</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_prev_old">SI P 65.b.1</item>
+               <item n="user_created_old">melanie</item>
+               <item n="user_modified_old">bernhard</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_subgenre_old">Grammar</item>
+               <item n="m_translation_old">a1 extraordinaire (f.)
+a2 fait dans un chaudron
+a3 lait
+b1 mais qui? sous l'attellement
+b2 comme en présence d'un ennemi</item>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_expedition_old"/>
+               <item n="m_size_w_old">7,2</item>
+               <item n="m_language_old">Sanskrit+TB</item>
+               <item n="m_remarks_old"/>
+               <item n="m_other_sigla_old">SI P/65b2</item>
+               <item n="m_script_old"/>
+               <item n="ms_old">SI P 65.b.2</item>
+               <item n="project_comment_old">&lt;p&gt;Alternative classifications:
+&lt;table class="table_lines"&gt;
+  &lt;tr&gt;&lt;td title="MP"&gt;Peyrot&lt;/td&gt;&lt;td title="A1"&gt;archaic I&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="MM"&gt;Malzahn&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TT"&gt;Tamai&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TTC14"&gt;Tamai-C14&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href="images/SI/SI 65.b.2 recto (VD).jpg" target="_blank"&gt;&lt;img src="images/SI/SI 65.b.2 recto (VD).jpg" width="300" title="$page; Recto"/&gt;&lt;/a&gt;
+&lt;a href="images/SI/SI 65.b.2 verso (VD).jpg" target="_blank"&gt;&lt;img src="images/SI/SI 65.b.2 verso (VD).jpg" width="300" title="$page; Verso"/&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;ul&gt;
+&lt;li&gt;Ich habe einige Transkriptionen und frz. Übersetzungen nach [[Pinault 2002]] hinzugefügt, da bisher nichts dergleichen vorhanden war. Das muss natürlich noch ergänzt und geordnet werden.&lt;br&gt;Sprache ändern auf "Gāndhārī+TB"? Textsorte ändern auf "Gloss"? –Martin (Tue, 2016-07-12, 23:03:53 (CEST))&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</item>
+               <item n="m_parallels_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_meter_old"/>
+               <item n="m_title_old"/>
+               <item n="m_transcription_old">a1 /// – – : apūrba : kwarkwañña ///
+a2 sthālipaktam : aiseṣṣe
+a3 (kṣī)ram : mälkwe(r)
+b1 ko hi : k_use no : khamu padandhane : truskäñña ño(r) ///
+b2 arav iva : sa(naṃ)ne (ramt)</item>
+               <item n="m_leaf_old"/>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;Alternative classifications:
+
+&lt;/p&gt;&lt;p&gt;&lt;ref target="images/SI/SI 65.b.2 recto (VD).jpg"&gt;&lt;img src="images/SI/SI 65.b.2 recto (VD).jpg" width="300" title="$page; Recto"/&gt;&lt;/ref&gt;&lt;ref target="images/SI/SI 65.b.2 verso (VD).jpg"&gt;&lt;img src="images/SI/SI 65.b.2 verso (VD).jpg" width="300" title="$page; Verso"/&gt;&lt;/ref&gt;&lt;/p&gt;&lt;p&gt;&lt;ul&gt;&lt;li&gt;Ich habe einige Transkriptionen und frz. Übersetzungen nach &lt;bibl&gt;&lt;title corresp="ref:pinault2002"/&gt;&lt;/bibl&gt; hinzugefügt, da bisher nichts dergleichen vorhanden war. Das muss natürlich noch ergänzt und geordnet werden. Sprache ändern auf "Gāndhārī+TB"? Textsorte ändern auf "Gloss"? –Martin (Tue, 2016-07-12, 23:03:53 (CEST))&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

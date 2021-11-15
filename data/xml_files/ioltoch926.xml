@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-ioltoch926">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>IOL Toch 926</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library (London)</repository>
+                  <idno>IOL Toch 926</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Udānavarga</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>5,5</height>
+                              <width>7,3</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Doctrine</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=80027;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=80027;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL926a.bmp"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>t<gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="3"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone>pta</zone><zone>ḥ</zone><zone>kuse</zone><zone>ṢPA</zone><zone>śco</zone></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone>•</zone><zone>ma</zone><zone>rdi</zone><zone>tā</zone></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><zone>kṣ<gap reason="plain" unit="part"/></zone><zone>rni</zone><zone>ru</zone></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=80160;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=80160;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL926b.bmp"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone><unclear>k</unclear><gap reason="plain" unit="part"/></zone><zone>lyñ<unclear>e</unclear></zone><zone>nta</zone></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone>te</zone><zone>sa</zone><zone>bhi</zone><zone>kṣu</zone><zone>ḥ</zone></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>ṢPA</zone><zone>o</zone><zone>lya</zone><zone>po</zone></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><zone><unclear>r</unclear>i</zone><zone>daṃ</zone><zone>ja</zone><zone>hā</zone><zone>t<unclear>ya</unclear></zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p><milestone unit="passage" n="32.49c-32.55c"/>
+<lb corresp="#a1"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>t<gap reason="plain" unit="part"/></w><gap reason="plain" quantity="3"/>
+<lb corresp="#a2"/><gap reason="lost"/><w><supplied>prā</supplied>ptaḥ</w><w>kUse</w><w>ṣpä</w>
+<w>śco<lb corresp="#a3"/><supplied>nai</supplied></w><gap reason="lost"/><pc>•</pc><w>marditā</w>
+<lb corresp="#a4"/><gap reason="lost"/><w><supplied>bhi</supplied>kṣ<supplied>u</supplied>r</w>
+<w>niru<lb corresp="#b1"/><supplied>cyate</supplied></w><gap reason="lost"/><w><supplied>na</supplied>k<supplied>a</supplied>lyñenta</w>
+<lb corresp="#b2"/><gap reason="lost"/><w><supplied>vetha</supplied>te</w><w>sa</w><w>bhikṣuḥ</w>
+<lb corresp="#b3"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>ṣpä</w><w>olyapo</w>
+<lb corresp="#b4"/><gap reason="lost"/><w><supplied>bhikṣu</supplied>r</w><w>idaṃ</w><w>jahāty</w>
+<w>a<lb/><supplied>pāram</supplied></w></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">...</seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">[SKT]: (and who) has attained (the diminution of hatred) [TB]: and who has (attained the diminution) of hatred</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">[SKT]: [and] crushed (the thorns of village [life])</seg></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl">[SKT]: (he) is (verily) called a monk</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">[TB]: scoldings, (killings and binding)</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">[SKT]: who (does not) stagger (because of happiness and sorrow), he is a monk</seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl">[TB]: (he who has not gone too far), nor (clung) too much</seg></seg></choice><choice corresp="#b4"><seg><seg type="prim_transl">[SKT]: (that) monk gives up this world</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="parallels"><ref type="ms" target="txt:m-tht1327"/>; <bibl><title corresp="ref:bernhard1965"/><citedRange>446-447</citedRange></bibl>; <bibl><title corresp="ref:hahn2007"/><citedRange>140-141</citedRange></bibl></note><note corresp="#a1 #a2 #b3 #b4" type="philcomment">A little piece is probably wrongly attached to the left; it is not considered in the transliteration.</note><note corresp="#a2" type="philcomment">Uv.32.49c <hi>yaś ca dveṣakṣayaṃ prāptaḥ</hi></note><note corresp="#a3" type="philcomment">Uv.32.50b <hi>marditā grāmakaṇṭakāḥ</hi></note><note corresp="#a4" type="philcomment">Uv.32.50d <hi>sa vai bhikṣur nirucyate</hi></note><note corresp="#b1" type="philcomment">Uv.32.54b <hi>hy ākrośāś ca vadhāś ca bandhanaṃ ca</hi></note><note corresp="#b1" type="philcomment">of the <hi>k</hi> only minimal rests can be seen. If <hi>nākälñe</hi> /nákəlńe/ ‘reproach’ has a pl. <hi>nakalñenta</hi> /nakə́lńenta/, we could nevertheless equate <hi>ākrośāś ca</hi> and identify it as Uv. 32.54b.</note><note corresp="#b2" type="philcomment">Uv.32.54d <hi>sukhaduḥkhena na vethate sa bhikṣuḥ</hi></note><note corresp="#b3" type="philcomment">Uv.32.55a <hi>yo nātyasaraṃ na cātyalīyaṃ</hi></note><note corresp="#b4" type="philcomment">Uv.32.55c <hi>sa tu bhikṣur idaṃ jahāty apāraṃ</hi></note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition</label><bibl><title corresp="ref:tamai2007"/><citedRange>№926</citedRange></bibl>; <bibl><title corresp="ref:peyrot2008a"/><citedRange>117-118</citedRange></bibl>.</p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 926" type="external">IOL Toch 926</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 926"&gt;IOL Toch 926&lt;/a&gt;.&lt;br&gt;
+Edition: [[Tamai 2007]]: №926; [[Peyrot 2008a]]: 117-118.</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old"/>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=80027;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=80027;rotate=0;imageType=_M||IOL Toch 926 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=80160;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=80160;rotate=0;imageType=_M||IOL Toch 926 verso</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_transliteration_old">a1 /// ·t· – – –
+a2 /// ptaḥ k_use _ṣ_p_a śco
+a3 /// • marditā
+a4 /// kṣ·r niru
+b1 /// [k]·lyñ[e]nta
+b2 /// te sa bhikṣuḥ
+b3 /// – _ṣ_p_a olyapo
+b4 /// [r] idaṃ jahāt[y] [a]</item>
+               <item n="date_publication_old"/>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;a1-2, b3-4.&lt;/b&gt; A little piece is probably wrongly attached to the left; it is not considered in the transliteration.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a2.&lt;/b&gt; Uv.32.49c &lt;i&gt;yaś ca dveṣakṣayaṃ prāptaḥ&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a3.&lt;/b&gt; Uv.32.50b &lt;i&gt;marditā grāmakaṇṭakāḥ&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a4.&lt;/b&gt; Uv.32.50d &lt;i&gt;sa vai bhikṣur nirucyate&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b1.&lt;/b&gt; Uv.32.54b &lt;i&gt;hy ākrośāś ca vadhāś ca bandhanaṃ ca&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b1.&lt;/b&gt; of the &lt;i&gt;k&lt;/i&gt; only minimal rests can be seen. If &lt;i&gt;nākälñe&lt;/i&gt; /nákəlńe/ ‘reproach’ has a pl. &lt;i&gt;nakalñenta&lt;/i&gt; /nakə́lńenta/, we could nevertheless equate &lt;i&gt;ākrośāś ca&lt;/i&gt; and identify it as Uv. 32.54b.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b2.&lt;/b&gt; Uv.32.54d &lt;i&gt;sukhaduḥkhena na vethate sa bhikṣuḥ&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b3.&lt;/b&gt; Uv.32.55a &lt;i&gt;yo nātyasaraṃ na cātyalīyaṃ&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b4.&lt;/b&gt; Uv.32.55c &lt;i&gt;sa tu bhikṣur idaṃ jahāty apāraṃ&lt;/i&gt;&lt;/p&gt;</item>
+               <item n="m_passage_old">32.49c-32.55c</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old">5,5</item>
+               <item n="file_modified_old">1566135477</item>
+               <item n="file_created_old">1331196854</item>
+               <item n="access_old">public</item>
+               <item n="m_lines_old">4</item>
+               <item n="m_collection_old">British Library (London)</item>
+               <item n="m_completeness_old"/>
+               <item n="file_location_old">pages/manuscript/IOL_Toch/ioltoch926.txt</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_linedistance_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="user_modified_old">martin</item>
+               <item n="user_created_old">michael</item>
+               <item n="m_prev_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_tune_old"/>
+               <item n="project_check_old"/>
+               <item n="m_subgenre_old">Doctrine</item>
+               <item n="m_translation_old">a1 ...
+a2 [SKT]: (and who) has attained (the diminution of hatred) [TB]: and who has (attained the diminution) of hatred
+a3 [SKT]: [and] crushed (the thorns of village [life])
+a4 [SKT]: (he) is (verily) called a monk
+b1 [TB]: scoldings, (killings and binding)
+b2 [SKT]: who (does not) stagger (because of happiness and sorrow), he is a monk
+b3 [TB]: (he who has not gone too far), nor (clung) too much
+b4 [SKT]: (that) monk gives up this world</item>
+               <item n="m_parallels_old">[[THT 1327]]; [[Bernhard 1965]]: 446-447; [[Hahn 2007]]: 140-141</item>
+               <item n="project_comment_old"/>
+               <item n="ms_old">IOL Toch 926</item>
+               <item n="m_script_old">Classical</item>
+               <item n="m_other_sigla_old"/>
+               <item n="m_language_old">Sanskrit+TB</item>
+               <item n="m_remarks_old"/>
+               <item n="m_size_w_old">7,3</item>
+               <item n="m_expedition_old"/>
+               <item n="m_title_old">Udānavarga</item>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old">a1 /// ·t· – – –
+a2 /// (prā)ptaḥ k_use ṣpä śconai|śco|(nai)
+a3 /// • marditā
+a4 /// (bhi)kṣ(u)r nirucyate|niru|(cyate)
+b1 /// (na)k(a)lyñenta
+b2 /// (vetha)te sa bhikṣuḥ
+b3 /// – ṣpä olyapo
+b4 /// (bhikṣu)r idaṃ jahāty apāram|a|(pāram)</item>
+               <item n="m_meter_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht360">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 360</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 360</idno>
+                  <altIdentifier>
+                     <idno>B 360</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>THT 1546.a</idno>
+                  </altIdentifier>
+                  <msName>THT 359-360</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Unidentified Jātaka</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">5</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Qumtura</region><placeName>2. Höhle</placeName>during <rs type="expedition_code">T III Qu 2</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Jātaka/Avadāna</term>
+               <term type="prose_verse">prose</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=324080;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=324080;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone><unclear>KA</unclear><gap reason="plain" unit="part"/></zone><zone>y<gap reason="plain" unit="part"/></zone><zone>rtta¯</zone><zone>¯ñcä</zone><zone>MA</zone><zone>skī</zone><zone>ye</zone><gap reason="plain" quantity="1"/><zone><unclear>¯</unclear><unclear>R</unclear></zone><zone><unclear>ñ</unclear>u</zone><zone>we</zone><zone>ñu</zone><zone>we</zone><zone>tSAṃ</zone><zone>ñe</zone></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone><unclear>ś</unclear>i</zone><zone><unclear>n</unclear>o</zone><zone>na</zone><zone>klā</zone><zone>nte</zone><zone><unclear>c</unclear>ai</zone><zone>no</zone><zone>to</zone><zone>yna</zone><zone>mpa</zone><zone>au</zone></line>
+            <line n="3" xml:id="a3"><gap reason="illegible"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=324081;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=324081;rotate=0;imageType=_M"/>
+            <line n="3" xml:id="b3"><gap reason="illegible"/></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><zone>m<gap reason="plain" unit="part"/></zone><zone>o</zone><zone>mpa</zone><zone>lsko</zone><zone>sū</zone><zone>rṣā</zone><zone>ke</zone><zone>:</zone><zone>caṃ</zone><zone>kra</zone><zone>mi¯</zone><zone>¯T</zone></line>
+            <line n="5" xml:id="b5"><gap reason="lost"/><zone><unclear>po</unclear></zone><zone>KA</zone><zone>rtsau</zone><zone>ñe</zone><zone>nta¯</zone><zone>¯Ś</zone><gap reason="plain" quantity="1"/><zone>r<gap reason="par" unit="part"/>e</zone><zone>ṣe¯</zone><zone>¯yä</zone><zone>sū</zone><zone>ta</zone><zone>tā</zone><zone>kau</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><w>kä<supplied>r</supplied>y<supplied>o</supplied>rttañc</w><w>mäskīye<supplied>ntä</supplied></w><w>r</w><w>ñuwe</w><w>ñuwetsäṃñe</w>
+<lb corresp="#a2"/><gap reason="lost"/><w>śinona</w><w>klānte</w><w>cai</w><w>no</w><w>toynampa</w><w>au</w>
+<lb corresp="#a3"/><gap reason="illegible"/>
+<lb corresp="#b3"/><gap reason="illegible"/>
+<lb corresp="#b4"/><gap reason="lost"/><w>m<gap reason="plain" unit="part"/></w><w>ompalsko</w><w>sū</w><w>rṣāke</w><pc>:</pc><w>caṃkramit</w>
+<lb corresp="#b5"/><gap reason="lost"/><w>po</w><w>kärtsauñentaś</w><gap reason="plain" quantity="1"/><w>r<gap reason="plain" unit="part"/>e</w><w>ṣey</w><w>sū</w><w>tatākau</w></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><bibl><title corresp="ref:thomas1957"/><citedRange>32</citedRange></bibl></seg></choice><choice corresp="#b5"><seg><bibl><title corresp="ref:thomas1957"/><citedRange>306</citedRange></bibl></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">The fragment has now the pressmark THT 1546.a.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition</label><bibl><title corresp="ref:siegandsiegling1953"/></bibl>:. </p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 360" type="external">THT 360</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/03/0360.htm" type="external">THT 360</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_other_sigla_old">B 360, THT 1546.a</item>
+               <item n="m_remarks_old">The fragment has now the pressmark THT 1546.a.</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_size_w_old"/>
+               <item n="m_expedition_old">T III Qu 2</item>
+               <item n="m_parallels_old"/>
+               <item n="project_comment_old"/>
+               <item n="ms_old">THT 360</item>
+               <item n="m_script_old">Classical</item>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_title_old">Unidentified Jātaka</item>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old">a1 /// kä(r)y(o)rttañc mäskīye(ntä) r ñuwe ñuwetsäṃñe
+a2 /// śinona klānte cai no toynampa au
+b4 /// m· ompalsko sū rṣāke : caṃkramit
+b5 /// po kärtsauñentaś – r(·)e ṣey sū tatākau</item>
+               <item n="m_meter_old">4-4/4-3</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="user_modified_old">bernhard</item>
+               <item n="user_created_old">automatic</item>
+               <item n="m_prev_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old"/>
+               <item n="m_translation_old"/>
+               <item n="m_subgenre_old">Jātaka/Avadāna</item>
+               <item n="m_metric_form_old">Both</item>
+               <item n="m_tune_old"/>
+               <item n="file_location_old">pages/manuscript/THT_0001_0633/tht360.txt</item>
+               <item n="access_old">public</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_lines_old">5</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_findspot_old">Qumtura</item>
+               <item n="m_findspot_specific_old">2. Höhle</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=324080;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=324080;rotate=0;imageType=_M||THT 360 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=324081;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=324081;rotate=0;imageType=_M||THT 360 verso</item>
+               <item n="m_transliteration_old">a1 /// [_k_a](r)y(o)rttañcä\ _m_askīye(n_t_a) [_r\ ñ]uwe ñuwet_s_aṃñe
+a2 /// [ś]i[n]ona klānte [c]ai no toynampa au
+a3 &lt;i&gt;illegible&lt;/i&gt;
+b3 &lt;i&gt;illegible&lt;/i&gt;
+b4 /// m· ompalsko sū rṣāke : caṃkrami_t\
+b5 /// [po] _k_artsauñenta_ś\ – r(·)e ṣeyä\ sū tatākau</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="date_publication_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 360" target="idp"&gt;THT 360&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/03/0360.htm" target="titus"&gt;THT 360&lt;/a&gt;.&lt;br&gt;
+Edition: [[TochSprR(B) II]]:.&lt;br&gt;
+Translation:
+&lt;b&gt;a1&lt;/b&gt; [[Thomas 1957]]: 32;
+&lt;b&gt;b5&lt;/b&gt; [[Thomas 1957]]: 306.</item>
+               <item n="m_manuscript_old">THT 359-360</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_size_h_old"/>
+               <item n="m_next_old"/>
+               <item n="file_modified_old">1477635793</item>
+               <item n="file_created_old">1332006611</item>
+               <item n="m_editor_old"/>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old"/>
+               <item n="m_material_old">Ink on paper</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

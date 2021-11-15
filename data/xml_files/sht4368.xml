@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-sht4368">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>SHT 436.8</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <date when="2015-12-10">2015-12-10</date>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>SHT 436.8</idno>
+                  <altIdentifier>
+                     <idno>SHT 436/8 Bl. 81</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Šorčuq</region>during <rs type="expedition_code">T III So 93</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Colophon</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=291671;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=291671;rotate=0;imageType=_M"/>
+            <line xml:id="lf"><zone>81</zone></line>
+            <line n="5" xml:id="a5"><zone>r<unclear>m</unclear>e</zone><zone>pai</zone><zone>y<unclear>k</unclear>ā</zone><zone>te</zone><zone>pa</zone><zone>ñä</zone><zone>kti</zone><zone>ñe</zone><zone>pe</zone><zone>rne</zone><zone>ṣṣe</zone><zone>a</zone><zone>kā</zone><zone>l<unclear>k</unclear><gap reason="par" unit="part"/><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <fw type="leafNum" corresp="#lf">81</fw>
+            <p><w><supplied>ce</supplied></w><w><supplied>postak</supplied></w><w><supplied>ṣamāne</supplied></w>
+<w><supplied>mitrawa</supplied><lb corresp="#a5"/>rme</w><w>paiykāte</w><w>pañäktiñe</w><w>perneṣṣe</w><w>akālk<supplied>sa</supplied></w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a5"><seg><seg type="prim_transl">(This book) wrote (monk Mitrava)rman (in) the wish for the Buddha worth</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="lingcomment">Further names in <hi>-warme</hi> are: <hi>āryawarme</hi>, <hi>kṣemawarme</hi>, <hi>yaśovarme</hi>, <hi>ślawarme</hi> (= <hi>Śīlavarman</hi>). A name in <hi>-śarme</hi> (= Skt. <hi>-śarman</hi>) would theoretically also be possible.</note><note type="philcomment">This colophon is found at the end of Mātṛceṭa's <hi>Prasādapratibhodbhava</hi> and is followed by the beginning of the <hi>Varṇārhavarṇastotra</hi>.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>other</label><bibl><title corresp="ref:peyrot2014"/><citedRange>133, 134-5</citedRange></bibl>.</p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=SHT 436/8" type="external">SHT 436/8</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_linedistance_old"/>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Šorčuq</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="file_location_old">pages/manuscript/sht4368.txt</item>
+               <item n="access_old">public</item>
+               <item n="m_lines_old"/>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_completeness_old"/>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old"/>
+               <item n="file_modified_old">1558149031</item>
+               <item n="file_created_old">1445000023</item>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="m_philcomment_old">&lt;p&gt;This colophon is found at the end of Mātṛceṭa's &lt;i&gt;Prasādapratibhodbhava&lt;/i&gt; and is followed by the beginning of the &lt;i&gt;Varṇārhavarṇastotra&lt;/i&gt;.&lt;/p&gt;</item>
+               <item n="m_passage_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_image_old">http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=291671;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=291671;rotate=0;imageType=_M||$page; recto
+http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=291679;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=291679;rotate=0;imageType=_M||$page; verso</item>
+               <item n="m_language_stage_old"/>
+               <item n="m_transliteration_old">a5 r[m]e paiy[k]āte pañäktiñe perneṣṣe akāl[k](·)· ///</item>
+               <item n="date_publication_old">2015-12-10</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=SHT 436/8" target="idp"&gt;SHT 436/8&lt;/a&gt;.&lt;br&gt;
+[[Peyrot 2014]]: 133, 134-5.</item>
+               <item n="m_lingcomment_old">&lt;p&gt;Further names in &lt;i&gt;-warme&lt;/i&gt; are: &lt;i&gt;āryawarme&lt;/i&gt;, &lt;i&gt;kṣemawarme&lt;/i&gt;, &lt;i&gt;yaśovarme&lt;/i&gt;, &lt;i&gt;ślawarme&lt;/i&gt; (= &lt;i&gt;Śīlavarman&lt;/i&gt;). A name in &lt;i&gt;-śarme&lt;/i&gt; (= Skt. &lt;i&gt;-śarman&lt;/i&gt;) would theoretically also be possible.&lt;/p&gt;</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_transcription_old"> (ce postak ṣamāne) mitrawarme|(mitrawa)|rme
+a5 paikāte|paiykāte pañäktäññe|pañäktiñe perneṣṣe akālk(sa) ///</item>
+               <item n="m_title_old"/>
+               <item n="m_leaf_old">81</item>
+               <item n="m_meter_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_other_sigla_old">SHT 436/8 Bl. 81</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old"/>
+               <item n="m_expedition_old">T III So 93</item>
+               <item n="m_size_w_old"/>
+               <item n="m_parallels_old"/>
+               <item n="project_comment_old">&lt;p&gt;I changed &lt;b&gt;a5&lt;/b&gt; &lt;i&gt;paiykate&lt;/i&gt; to &lt;i&gt;paiykāte&lt;/i&gt; in both, the transliteration and transcription. –Martin (Sat, 2019-05-18, 05:10:31 (CEST))&lt;/p&gt;</item>
+               <item n="ms_old">SHT 436.8</item>
+               <item n="m_script_old"/>
+               <item n="m_translation_old">a5 (This book) wrote (monk Mitrava)rman (in) the wish for the Buddha worth</item>
+               <item n="m_subgenre_old">Colophon</item>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="project_check_old"/>
+               <item n="user_modified_old">martin</item>
+               <item n="user_created_old">theres</item>
+               <item n="m_prev_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;I changed &lt;ref type="ms" target="__a5"/&gt; &lt;hi&gt;paiykate&lt;/hi&gt; to &lt;hi&gt;paiykāte&lt;/hi&gt; in both, the transliteration and transcription. –Martin (Sat, 2019-05-18, 05:10:31 (CEST))&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

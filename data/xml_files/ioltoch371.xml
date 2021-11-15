@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-ioltoch371">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>IOL Toch 371</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library (London)</repository>
+                  <idno>IOL Toch 371</idno>
+                  <altIdentifier>
+                     <idno>D 12</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Udānavarga</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Doctrine</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=11643;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=11643;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL371a.jpg" height="321px" width="657px"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>s<unclear>t</unclear>a</zone><zone><unclear>e</unclear></zone><zone>ka</zone><zone>lymi</zone><zone>•</zone><zone>10</zone><zone>4</zone><zone>gṛ</zone></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>te</zone><zone>ra</zone><zone>tā</zone><zone>•</zone><zone>s<gap reason="plain" unit="part"/>ai</zone></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=21165;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=21165;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL371b.jpg" height="321px" width="645px"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone>vy<gap reason="plain" unit="part"/></zone><zone>ṣu</zone><gap reason="plain" quantity="1"/><zone>me</zone><zone>pu</zone><zone>•</zone></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>yä</zone><zone>nmā</zone><zone>ṢṢAṃ</zone><zone>•</zone><zone>tṛ</zone><zone>ṣṇā</zone><zone>kṣa</zone><zone>ya</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p><milestone unit="passage" n="2.14d-2.18c"/>
+<lb corresp="#a1"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>sta</w><w>ekalymi</w><pc>•</pc><num value="14">10-4</num>
+<w>gṛ<lb corresp="#a2"/><supplied>ddhā</supplied></w><gap reason="lost"/><gap reason="plain" quantity="1"/><w>te</w><w>ratā</w><pc>•</pc><w>s<supplied>n</supplied>ai</w>
+<lb corresp="#b1"/><gap reason="lost"/><w><supplied>di</supplied>vy<supplied>e</supplied>ṣu</w><w><supplied>kā</supplied>me<choice><orig>p</orig><corr>ṣ</corr></choice>u</w><pc>•</pc>
+<lb corresp="#b2"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>yänmāṣṣäṃ</w><pc>•</pc>
+<w>tṛṣṇākṣaya<lb/><supplied>rataḥ</supplied></w></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">[TB] (desire does not) control (him). [SKT] (men who are) eager (for desires and negligent)</seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">[SKT] they are pleased (with the unlawful indeed) [TB] (they are pleased with the) un(lawful indeed)</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">[SKT] (even) for divine desires</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">[TB] (he) obtains (no delight) [SKT] he delights in the destruction of craving</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="parallels"><bibl><title corresp="ref:bernhard1965"/><citedRange>116-117</citedRange></bibl>; <bibl><title corresp="ref:chakravarti1930"/><citedRange>26-29</citedRange></bibl>; <bibl><title corresp="ref:hahn2007"/><citedRange>19</citedRange></bibl>; <bibl><title corresp="ref:norman2004"/><citedRange>29</citedRange></bibl></note><note type="remarks">Probably the upper margin of the recto (lower of the verso) and the right margin are preserved.</note><note corresp="#a1" type="philcomment">Uv.2.14d-15a <hi>tṛṣṇā na kurute vaśam // 14 gṛddhā hi kāmeṣu narāḥ pramattā</hi></note><note corresp="#a2" type="philcomment">Uv.2.15b <hi>hy adharme bata te ratāḥ</hi></note><note corresp="#b1" type="philcomment">Uv.2.18a <hi>api divyeṣu kāmeṣu</hi>, see Dhp. 187</note><note corresp="#b2" type="philcomment">Uv.2.18b-c <hi>sa ratiṃ nādhigacchati | tṛṣṇākṣayarato bhavati</hi>, see Dhp. 187</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition</label><bibl><title corresp="ref:peyrot2007"/><citedRange>№371</citedRange></bibl>; <bibl><title corresp="ref:peyrot2008a"/><citedRange>88-89</citedRange></bibl>.</p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL%20Toch%20371" type="external">IOL Toch 371</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;a1.&lt;/b&gt; Uv.2.14d-15a &lt;i&gt;tṛṣṇā na kurute vaśam // 14 gṛddhā hi kāmeṣu narāḥ pramattā&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a2.&lt;/b&gt; Uv.2.15b &lt;i&gt;hy adharme bata te ratāḥ&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b1.&lt;/b&gt; Uv.2.18a &lt;i&gt;api divyeṣu kāmeṣu&lt;/i&gt;, see Dhp. 187&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b2.&lt;/b&gt; Uv.2.18b-c &lt;i&gt;sa ratiṃ nādhigacchati | tṛṣṇākṣayarato bhavati&lt;/i&gt;, see Dhp. 187&lt;/p&gt;</item>
+               <item n="m_passage_old">2.14d-2.18c</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old"/>
+               <item n="file_modified_old">1564428644</item>
+               <item n="file_created_old">1322765175</item>
+               <item n="m_bib_old">[[IDP]]: &lt;A href="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL%20Toch%20371"&gt;IOL Toch 371&lt;/a&gt;.&lt;br&gt;
+Edition: [[Peyrot 2007]]: №371; [[Peyrot 2008a]]: 88-89.</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old"/>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=11643;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=11643;rotate=0;imageType=_M||IOL Toch 371 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=21165;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=21165;rotate=0;imageType=_M||IOL Toch 371 verso</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_transliteration_old">a1 /// – s[t]a [e]kalymi • 10-4 gṛ-
+a2 /// – te ratā • s[·]ai
+b1 /// -vy·ṣu – mepu •
+b2 /// – yänmā_ṣ_ṣ_aṃ • tṛṣṇākṣaya-</item>
+               <item n="date_publication_old"/>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_linedistance_old"/>
+               <item n="access_old">public</item>
+               <item n="m_collection_old">British Library (London)</item>
+               <item n="m_lines_old">2</item>
+               <item n="m_completeness_old"/>
+               <item n="file_location_old">pages/manuscript/IOL_Toch/ioltoch371.txt</item>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="project_check_old"/>
+               <item n="m_translation_old">a1 [TB] (desire does not) control (him). [SKT] (men who are) eager (for desires and negligent)
+a2 [SKT] they are pleased (with the unlawful indeed) [TB] (they are pleased with the) un(lawful indeed)
+b1 [SKT] (even) for divine desires
+b2 [TB] (he) obtains (no delight) [SKT] he delights in the destruction of craving</item>
+               <item n="m_subgenre_old">Doctrine</item>
+               <item n="category_old">manuscript</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="user_modified_old">martin</item>
+               <item n="user_created_old">automatic</item>
+               <item n="m_prev_old"/>
+               <item n="m_transcription_old">a1 /// – sta ekalymi • 14 gṛddhā|gṛ|(ddhā)
+a2 /// – te ratā • s(n)ai
+b1 /// (di)vy(e)ṣu (kā)me{ṣ}u •
+b2 /// – yänmāṣṣäṃ • tṛṣṇākṣayarataḥ|tṛṣṇākṣaya|(rataḥ)
+ </item>
+               <item n="m_title_old">Udānavarga</item>
+               <item n="m_leaf_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallels_old">[[Bernhard 1965]]: 116-117; [[Chakravarti 1930]]: 26-29; [[Hahn 2007]]: 19; [[Norman 2004]]: 29</item>
+               <item n="project_comment_old"/>
+               <item n="ms_old">IOL Toch 371</item>
+               <item n="m_script_old">Classical</item>
+               <item n="m_other_sigla_old">D 12</item>
+               <item n="m_language_old">Sanskrit+TB</item>
+               <item n="m_remarks_old">&lt;p&gt;Probably the upper margin of the recto (lower of the verso) and the right margin are preserved.&lt;/p&gt;</item>
+               <item n="m_expedition_old"/>
+               <item n="m_size_w_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

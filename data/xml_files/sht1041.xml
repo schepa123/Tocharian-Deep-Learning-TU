@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-sht1041">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>SHT 1041</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>SHT 1041</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>9.2</height>
+                              <width>7</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Murtuq</region>during <rs type="expedition_code">T III M 145</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="xto"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Gloss</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=293789;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=293789;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>rko</zone><zone>mā</zone></line>
+            <line n="2" xml:id="a2"><zone>twā</zone><zone>ṣlu</zone><zone>ne</zone><zone>śi</zone><zone>pra</zone><zone>ṣtā</zone></line>
+            <line n="3" xml:id="a3"><zone>wṣe</zone><zone>yi</zone><zone>smo</zone><zone>sk<unclear>oṃ</unclear></zone><zone>pā</zone><zone>yti</zone><zone>wṣe</zone><zone>yi¯</zone><zone>¯S</zone><zone>MA</zone><zone>lto</zone><zone><unclear>w</unclear>i</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=293799;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=293799;rotate=0;imageType=_M"/>
+            <line n="5" xml:id="b5"><gap reason="plain" quantity="1"/><zone>ṣi¯</zone><zone>¯Ṣ</zone><zone>pa¯</zone><gap reason="plain" quantity="1"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><w><supplied>pä</supplied>rko</w><w>mā</w>
+<lb corresp="#a2"/><w>twāṣluneśi</w><w>praṣtā</w>
+<lb corresp="#a3"/><w>wṣeyis</w><w>moskoṃ</w><w>pāyti</w><w>wṣeyis</w><w>mältowi<supplied>nuntaṃ</supplied></w><gap reason="lost"/>
+<lb corresp="#b5"/><w><supplied>tskā</supplied>ṣiṣ</w><w>pa<supplied>t</supplied></w></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">arisen ... not ...</seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">at the time of lighting</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">in the mosäk of the night - pātayantika. In the first [part] of the night, ...</seg></seg></choice><choice corresp="#a5"><seg><seg type="prim_transl">or if he burnt [it]</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">recto/verso uncertain</note><note corresp="#a1" type="philcomment">glosses Skt. /// <hi>[c]ch· t[ā]</hi> /// (<bibl><title corresp="ref:sanderandwaldschmidt1985"/><citedRange>23</citedRange></bibl> reads /// <hi>+ + + + + [h]ṇ. .. + +</hi> ///). This unclear gloss is followed by illegible traces of two more akṣaras that may belong to a next gloss.</note><note corresp="#a2" type="lingcomment">This is certainly the indication of a certain point in time. <bibl><title corresp="ref:sanderandwaldschmidt1985"/><citedRange>23</citedRange></bibl> reads /// <hi>+ + + + + takāla[s]·</hi> /// and considers to restore to <hi>hemaṃtakālasamaye</hi> 'in the winter time'. However, as pointed out by Klaus Wille (p.c.), the akṣara preceding <hi>ta</hi> is certainly not <hi>maṃ</hi> (nor <hi>ma</hi>). Also, the akṣara <hi>ta</hi> itself may actually rather be <hi>na</hi>. Although <hi>twāṣluneśi praṣtā</hi> 'at the time of lighting' seems to make sense in itself, the spelling is problematic: we would rather expect <hi>twāsluneṣi praṣtā</hi>. The large blank space before <hi>twā</hi> seems to exclude the restoration of a preceding syllable (e.g. <hi>(ri)twāṣluneśi praṣtā</hi> for <hi>(ri)twāṣsluneṣi praṣtā</hi> 'at the time of arrangement').</note><note corresp="#a2" type="philcomment">glosses Skt. <hi>– takāla[s]·</hi></note><note corresp="#a3" type="lingcomment">For the glossed word, <bibl><title corresp="ref:sanderandwaldschmidt1985"/><citedRange>23</citedRange></bibl> reads /// <hi>+ + .r. .. .c(a) rātryā pratha[me]</hi> ///. In view of TA <hi>wṣeyis</hi> 'of the night' in the gloss, the first Sanskrit akṣara <hi>[t]r·</hi> is almost certainly to be restored as a form of <hi>rātri</hi>. Since the following <hi>rātryā prathame</hi> refers to a certain time of the night, this will be an indication of time as well, for instance <hi>(madhyarā)tr(au)</hi> 'in the middle of the night', a possible restoration according to the remaining akṣara traces. Unfortunately, TA <hi>moskoṃ</hi> is unclear. Assumedly, it is a locative, that is, for expected <hi>moskaṃ*</hi> 'get lost', a meaning like 'end (of the night)' could be envisaged (cf. <hi>ururātri</hi> 'the latter portion of the night', <hi>pāścāttyarātrau</hi> 'towards the end of the night'). The second correspondence is straightforward, but the spelling <hi>mältowinu</hi> (or its locative) 'first' for <hi>maltowinu</hi> is remarkable.</note><note corresp="#a3" type="philcomment">glosses Skt. /// <hi>[t]r· (–) ·dh· rātryā pratha[me]</hi> ///.</note><note corresp="#b5" type="lingcomment">For the glossed word, <bibl><title corresp="ref:sanderandwaldschmidt1985"/><citedRange>24</citedRange></bibl> reads /// <hi>+ + + + + vadāha[yi]</hi> ///, but in Peyrot's view (<bibl><title corresp="ref:peyrot2014"/><citedRange>140</citedRange></bibl>), <hi>[ye]</hi> instead of <hi>[yi]</hi> must be read. The word is probably <hi>dāhaye(t)</hi> 'if he burns [it]' or <hi>(a)vadāhaye(t)</hi> 'if he burns [it] down'. The final <hi>-ṣiṣ</hi> points to a 3sg.opt.caus., compare for instance <hi>lyutkāṣiṣ</hi> 'he would turn into', but the root has unfortunately been lost completely. On the basis of the Sanskrit text, a verb for 'burn' would be expected. A number of verbs qualify: <hi>t<hi rend="superscript">s</hi>äk-</hi> 'burn', <hi>pälk-</hi> (caus.) 'burn, torment', and perhaps <hi>twāsā-</hi> 'burn' (no causative attested so far) and <hi>sälp-</hi> (caus.) 'make glow'. Of these, <hi>t<hi rend="superscript">s</hi>äk-</hi> seems to be the most neutral verb for 'burn', and the traces of the akṣara preceding <hi>ṣi</hi> appear to fit a reading <hi>(tskā)ṣi<hi rend="underline">ṣ</hi><hi rend="subscript">\</hi></hi> best. It should, however, be noted that if this restoration is correct, the causative of  <hi>t<hi rend="superscript">s</hi>äk-</hi> does not follow the pattern of <hi>näk-<hi rend="superscript">s-</hi></hi> (tr.), as suggested in <bibl><title corresp="ref:peyrot2013b"/><citedRange>842</citedRange></bibl>, but rather that of the much more frequent causatives with a subjunctive stem in <hi>-ā<hi rend="superscript">ṣä</hi>/<hi rend="subscript">sa</hi>-</hi>. On the basis of the following <hi>pa(t)</hi> of the gloss, Skt. <hi>vā</hi> 'or' may be assumed to have been lost after the verb.</note><note corresp="#b5" type="philcomment">glosses Skt. /// <hi>vadāha[ye]</hi> ///.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=SHT 1041" type="external">SHT 1041</ref></bibl>. </p>
+            <p><label>other</label><bibl><title corresp="ref:peyrot2014"/><citedRange>133, 139-40</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="user_created_old">theres</item>
+               <item n="user_modified_old">theres</item>
+               <item n="m_prev_old"/>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_subgenre_old">Gloss</item>
+               <item n="m_translation_old">a1 arisen ... not ...
+a2 at the time of lighting
+a3 in the mosäk of the night - pātayantika. In the first [part] of the night, ...
+a5 or if he burnt [it]</item>
+               <item n="m_parallels_old"/>
+               <item n="m_script_old"/>
+               <item n="ms_old">SHT 1041</item>
+               <item n="project_comment_old"/>
+               <item n="m_language_old">TA</item>
+               <item n="m_remarks_old">&lt;p&gt;recto/verso uncertain&lt;/p&gt;</item>
+               <item n="m_other_sigla_old"/>
+               <item n="m_size_w_old">7</item>
+               <item n="m_expedition_old">T III M 145</item>
+               <item n="m_meter_old"/>
+               <item n="m_transcription_old">a1 /// (pä)rko mā
+a2 twāṣluneśi praṣtā
+a3 wṣeyis moskoṃ pāyti wṣeyis mältowi(nuntaṃ) ///
+b5 (tskā)ṣiṣ pa(t)</item>
+               <item n="m_title_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old">&lt;p&gt;&lt;b&gt;a2.&lt;/b&gt; This is certainly the indication of a certain point in time. [[SHT V]]: 23 reads /// &lt;i&gt;+ + + + + takāla[s]·&lt;/i&gt; /// and considers to restore to &lt;i&gt;hemaṃtakālasamaye&lt;/i&gt; 'in the winter time'. However, as pointed out by Klaus Wille (p.c.), the akṣara preceding &lt;i&gt;ta&lt;/i&gt; is certainly not &lt;i&gt;maṃ&lt;/i&gt; (nor &lt;i&gt;ma&lt;/i&gt;). Also, the akṣara &lt;i&gt;ta&lt;/i&gt; itself may actually rather be &lt;i&gt;na&lt;/i&gt;. Although &lt;i&gt;twāṣluneśi praṣtā&lt;/i&gt; 'at the time of lighting' seems to make sense in itself, the spelling is problematic: we would rather expect &lt;i&gt;twāsluneṣi praṣtā&lt;/i&gt;. The large blank space before &lt;i&gt;twā&lt;/i&gt; seems to exclude the restoration of a preceding syllable (e.g. &lt;i&gt;(ri)twāṣluneśi praṣtā&lt;/i&gt; for &lt;i&gt;(ri)twāṣsluneṣi praṣtā&lt;/i&gt; 'at the time of arrangement').&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a3.&lt;/b&gt; For the glossed word, [[SHT V]]: 23 reads /// &lt;i&gt;+ + .r. .. .c(a) rātryā pratha[me]&lt;/i&gt; ///. In view of TA &lt;i&gt;wṣeyis&lt;/i&gt; 'of the night' in the gloss, the first Sanskrit akṣara &lt;i&gt;[t]r·&lt;/i&gt; is almost certainly to be restored as a form of &lt;i&gt;rātri&lt;/i&gt;. Since the following &lt;i&gt;rātryā prathame&lt;/i&gt; refers to a certain time of the night, this will be an indication of time as well, for instance &lt;i&gt;(madhyarā)tr(au)&lt;/i&gt; 'in the middle of the night', a possible restoration according to the remaining akṣara traces. Unfortunately, TA &lt;i&gt;moskoṃ&lt;/i&gt; is unclear. Assumedly, it is a locative, that is, for expected &lt;i&gt;moskaṃ*&lt;/i&gt; 'get lost', a meaning like 'end (of the night)' could be envisaged (cf. &lt;i&gt;ururātri&lt;/i&gt; 'the latter portion of the night', &lt;i&gt;pāścāttyarātrau&lt;/i&gt; 'towards the end of the night'). The second correspondence is straightforward, but the spelling &lt;i&gt;mältowinu&lt;/i&gt; (or its locative) 'first' for &lt;i&gt;maltowinu&lt;/i&gt; is remarkable.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b5.&lt;/b&gt; For the glossed word, [[SHT V]]: 24 reads /// &lt;i&gt;+ + + + + vadāha[yi]&lt;/i&gt; ///, but in Peyrot's view ([[Peyrot 2014]]: 140), &lt;i&gt;[ye]&lt;/i&gt; instead of &lt;i&gt;[yi]&lt;/i&gt; must be read. The word is probably &lt;i&gt;dāhaye(t)&lt;/i&gt; 'if he burns [it]' or &lt;i&gt;(a)vadāhaye(t)&lt;/i&gt; 'if he burns [it] down'. The final &lt;i&gt;-ṣiṣ&lt;/i&gt; points to a 3sg.opt.caus., compare for instance &lt;i&gt;lyutkāṣiṣ&lt;/i&gt; 'he would turn into', but the root has unfortunately been lost completely. On the basis of the Sanskrit text, a verb for 'burn' would be expected. A number of verbs qualify: &lt;i&gt;t&lt;sup&gt;s&lt;/sup&gt;äk-&lt;/i&gt; 'burn', &lt;i&gt;pälk-&lt;/i&gt; (caus.) 'burn, torment', and perhaps &lt;i&gt;twāsā-&lt;/i&gt; 'burn' (no causative attested so far) and &lt;i&gt;sälp-&lt;/i&gt; (caus.) 'make glow'. Of these, &lt;i&gt;t&lt;sup&gt;s&lt;/sup&gt;äk-&lt;/i&gt; seems to be the most neutral verb for 'burn', and the traces of the akṣara preceding &lt;i&gt;ṣi&lt;/i&gt; appear to fit a reading &lt;i&gt;(tskā)ṣi&lt;u&gt;ṣ&lt;/u&gt;&lt;sub&gt;\&lt;/sub&gt;&lt;/i&gt; best. It should, however, be noted that if this restoration is correct, the causative of  &lt;i&gt;t&lt;sup&gt;s&lt;/sup&gt;äk-&lt;/i&gt; does not follow the pattern of &lt;i&gt;näk-&lt;sup&gt;s-&lt;/sup&gt;&lt;/i&gt; (tr.), as suggested in [[Peyrot, ToSu]]: 842, but rather that of the much more frequent causatives with a subjunctive stem in &lt;i&gt;-ā&lt;sup&gt;ṣä&lt;/sup&gt;/&lt;sub&gt;sa&lt;/sub&gt;-&lt;/i&gt;. On the basis of the following &lt;i&gt;pa(t)&lt;/i&gt; of the gloss, Skt. &lt;i&gt;vā&lt;/i&gt; 'or' may be assumed to have been lost after the verb.&lt;/p&gt;</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=SHT 1041" target="idp"&gt;SHT 1041&lt;/a&gt;.&lt;br&gt;
+[[Peyrot 2014]]: 133, 139-40.</item>
+               <item n="m_image_old">http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=293789;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=293789;rotate=0;imageType=_M||$page; recto
+http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=293799;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=293799;rotate=0;imageType=_M||$page; verso</item>
+               <item n="date_publication_old"/>
+               <item n="m_transliteration_old">a1 /// – rko mā
+a2 twāṣluneśi praṣtā
+a3 wṣeyis mosk[oṃ] pāyti wṣeyi_s\ _m_alto[w]i ///
+b5 – ṣi_ṣ\ pa –\</item>
+               <item n="m_language_stage_old"/>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;a1.&lt;/b&gt; glosses Skt. /// &lt;i&gt;[c]ch· t[ā]&lt;/i&gt; /// ([[SHT V]]: 23 reads /// &lt;i&gt;+ + + + + [h]ṇ. .. + +&lt;/i&gt; ///). This unclear gloss is followed by illegible traces of two more akṣaras that may belong to a next gloss.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a2.&lt;/b&gt; glosses Skt. &lt;i&gt;– takāla[s]·&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a3.&lt;/b&gt; glosses Skt. /// &lt;i&gt;[t]r· (–) ·dh· rātryā pratha[me]&lt;/i&gt; ///.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b5.&lt;/b&gt; glosses Skt. /// &lt;i&gt;vadāha[ye]&lt;/i&gt; ///.&lt;/p&gt;</item>
+               <item n="m_passage_old"/>
+               <item n="m_editor_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_size_h_old">9.2</item>
+               <item n="m_next_old"/>
+               <item n="file_created_old">1445261452</item>
+               <item n="file_modified_old">1485171932</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_lines_old"/>
+               <item n="access_old">restricted</item>
+               <item n="m_completeness_old"/>
+               <item n="file_location_old">pages/manuscript/sht1041.txt</item>
+               <item n="m_findspot_old">Murtuq</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_linedistance_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

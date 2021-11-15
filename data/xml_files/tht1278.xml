@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht1278">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 1278</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 1278</idno>
+                  <altIdentifier>
+                     <idno>Prelim. No. 97</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329946;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329946;rotate=0;imageType=_M"/>
+            <line xml:id="lf"><zone>5</zone></line>
+            <line n="1" xml:id="a1"><zone>śce¯</zone><zone>¯u</zone><zone>w<gap reason="plain" unit="part"/></zone><zone><gap reason="plain" unit="part"/>tr<gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><zone>ñī</zone><zone>tsi</zone><zone>no</zone><zone>na</zone><zone>kña¯</zone><zone>¯ś</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><zone>TA</zone><zone>nMä</zone><zone>stRA</zone><zone>ṣe</zone><zone>kṣe</zone><zone>ksu</zone><zone>yña</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329970;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329970;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="b1"><zone>ñña</zone><zone>na</zone><zone>kre</zone><zone>ntau</zone><zone>naṃ¯</zone><zone>¯tS</zone><zone>snai</zone><zone><unclear>a</unclear></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><zone>ra</zone><zone>so</zone><zone>lme</zone><zone>we</zone><zone><unclear>ñ</unclear>ī</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><zone>ña</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <fw type="leafNum" corresp="#lf">5</fw>
+            <p>
+<lb corresp="#a1"/><w>ś</w><w>ceU</w><w>w<gap reason="plain" unit="part"/></w><w><gap reason="plain" unit="part"/>tr<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#a2"/><w>ñī</w><w>tsi</w><w>nonak</w><w>ñaś</w><gap reason="lost"/>
+<lb corresp="#a3"/><w>tänmästrä</w><w>ṣek-ṣek</w><w>su</w><w>yña</w><gap reason="lost"/>
+<lb corresp="#b1"/><w>ññana</w><w>krentaunaṃts</w><w>snai</w><w>a</w><gap reason="lost"/>
+<lb corresp="#b2"/><w>ra</w><w>solme</w><w>weñī</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b3"/><w>ña</w><gap reason="plain" quantity="1"/><gap reason="lost"/></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition</label><bibl><title corresp="ref:tamai2007a"/><citedRange>№1278</citedRange></bibl>.</p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 1278" type="external">THT 1278</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/12/1278.htm" type="external">THT 1278</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="user_modified_old">theres</item>
+               <item n="user_created_old">automatic</item>
+               <item n="category_old">manuscript</item>
+               <item n="file_name_old">pages/manuscript/THT_1100_2399/tht1278.txt</item>
+               <item n="file_savedate_old">2018-08-15, 19:14:59 (CEST)</item>
+               <item n="m_other_sigla_old">Prelim. No. 97</item>
+               <item n="m_language_old">TB</item>
+               <item n="edited_date_old">2015-12-15, 09:29:37 (CET)</item>
+               <item n="ms_old">THT 1278</item>
+               <item n="m_script_old">Classical</item>
+               <item n="editgroup_old">Admin</item>
+               <item n="m_transcription_old">a1 ś cau|ce_u w· ·tr· ///
+a2 ñī tsi nonak ñaś ///
+a3 tänmästrä ṣek-ṣek su yña ///
+b1 ññana krentaunaṃts snai a ///
+b2 ra solme weñī – ///
+b3 ña – ///</item>
+               <item n="m_leaf_old">5</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="group_old">Editor</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329946;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329946;rotate=0;imageType=_M||THT 1278 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329970;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=329970;rotate=0;imageType=_M||THT 1278 verso</item>
+               <item n="m_transliteration_old">a1 ś ce_u w· ·tr· ///
+a2 ñī tsi nonak ñaś\ ///
+a3 _t_an_mäst_r_a ṣek ṣek su yña ///
+b1 ññana krentaunaṃt_s\ snai [a] ///
+b2 ra solme we[ñ]ī – ///
+b3 ña – ///</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="file_size_old">1 KB</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 1278" target="idp"&gt;THT 1278&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/12/1278.htm" target="titus"&gt;THT 1278&lt;/a&gt;.&lt;br&gt;
+Edition: [[Tamai 2007a]]: №1278.</item>
+               <item n="file_modified_old">1558222916</item>
+               <item n="file_created_old">1340136545</item>
+               <item n="version_old">1</item>
+               <item n="page_name_old">THT 1278</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="file_location_old">pages/manuscript/THT_1100_2399/tht1278.txt</item>
+               <item n="access_old">restricted</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_lines_old">3</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="created_date_old">2012-06-19, 22:09:05 (CEST)</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

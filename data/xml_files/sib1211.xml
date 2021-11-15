@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-sib1211">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>SI B 121(1)</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Georges-Jean Pinault</name>
+            </respStmt>
+            <respStmt>
+               <resp>collaborator</resp>
+               <name>Melanie Malzahn</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>IOM (St. Petersburg)</repository>
+                  <idno>SI B 121(1)</idno>
+                  <altIdentifier>
+                     <idno>U 20</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Udānavarga</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>7,8</height>
+                              <width>7</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <dimensions type="line_spacing">
+                              <height>1,3</height>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>archaic</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="txb" ana="frg:ls-cetom-archaic frg:ls-cetom-aberrant-None"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Doctrine</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <line xml:id="lf"><zone>109</zone></line>
+            <line n="1" xml:id="a1"><zone>dha</zone><zone>rm<unclear>o</unclear></zone><zone>hi</zone><zone>śa</zone><zone>kya</zone><zone>ā</zone><zone>jñā</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><zone>yai</zone><zone><add>t</add>ko</zone><zone>rmeṃ</zone><zone>kuse</zone><zone>no</zone><zone>ai</zone><zone>rṣai</zone><zone>tSA</zone><zone><unclear>ññ</unclear></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><zone>yā</zone><zone>tsu</zone><zone>bhā</zone><zone>ṣi</zone><zone>ta¯</zone><zone>¯m∘</zone><zone>sū</zone><zone>KA</zone><zone><unclear>rs</unclear>o</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><zone>rsa</zone><zone>lle</zone><zone>KA</zone><zone>rtse</zone><zone>we</zone><zone><gap reason="plain" unit="part"/><unclear>e</unclear></zone><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><zone>a</zone><zone>na</zone><zone>va</zone><zone><unclear>s</unclear><gap reason="plain" unit="part"/>i</zone><gap reason="lost"/></line>
+            <line n="6" xml:id="a6"><zone>ññe</zone><zone>cce</zone><zone><unclear>p</unclear>i</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <line n="1" xml:id="b1"><zone>ni</zone><zone>hi</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><zone>no</zone><zone>ṢA</zone><zone>ntsa</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><zone>e</zone><zone>KA</zone><zone>lymi</zone><zone><unclear>o</unclear></zone><zone>m<unclear>p</unclear></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><zone>ṇḍa</zone><zone>ja</zone><zone>ḥ</zone><zone>stā</zone><zone>mra¯</zone><zone>¯mT</zone><zone>KA</zone><zone><unclear>sko</unclear></zone><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><zone>tse</zone><zone>•</zone><zone>mā</zone><zone>te</zone><zone>kā</zone><zone>ma</zone><zone>gu</zone><zone>ṇo</zone><gap reason="lost"/></line>
+            <line n="6" xml:id="b6"><zone>yTA</zone><zone>yko</zone><zone>rñe</zone><zone>cc<gap reason="plain" unit="part"/></zone><zone>•</zone><zone>kra</zone><zone>nda</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <fw type="leafNum" corresp="#lf">109</fw>
+            <p><milestone unit="passage" n="31.25b-31d"/>
+<lb corresp="#a1"/><w>dharmo</w><w>hi</w><w>śakya</w><w>ājñā</w><gap reason="lost"/>
+<lb corresp="#a2"/><w>yaitkormeṃ</w><w>kUse</w><w>no</w><w>airṣaitsäññ<supplied>e</supplied></w><gap reason="lost"/>
+<w><supplied>prajānī</supplied><lb corresp="#a3"/>yāt</w><w>subhāṣitam</w><w>sū</w><w>kärso<supplied>ytär</supplied></w><gap reason="lost"/>
+<w><supplied>kä</supplied><lb corresp="#a4"/>rsalle</w><w>kärtse</w><w>we<supplied>w</supplied>e<supplied>ñu</supplied></w><gap reason="lost"/>
+<lb corresp="#a5"/><w>anavas<supplied>th</supplied>i<supplied>tacittasya</supplied></w><gap reason="lost"/>
+<lb corresp="#a6"/><w>ññeccepi</w><gap reason="lost"/><gap reason="lost"/>
+<lb corresp="#b1"/><w>ni</w><w>hi</w><gap reason="lost"/>
+<lb corresp="#b2"/><w>noṣäntsa</w><gap reason="lost"/>
+<lb corresp="#b3"/><w>ekälymi</w><w>omp<supplied>ostäṃ</supplied></w><gap reason="lost"/>
+<lb corresp="#b4"/><w>ṇḍajaḥ</w><w>stām</w><w>ramt</w><w>käsko</w><gap reason="lost"/><w><supplied>snai</supplied></w>
+<w><supplied>ykorñe</supplied><lb corresp="#b5"/>tse</w><pc>•</pc><w>mā</w><w>te</w><w>kāmaguṇo</w><gap reason="lost"/>
+<w><supplied>nuko</supplied><lb corresp="#b6"/>yt</w><w>ykorñecc<supplied>u</supplied></w><pc>•</pc><w>kranda</w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl"><hi>Sanskrit</hi></seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">But the one who, having controlled his impetuosity, [26a] </seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl"><hi>Sanskrit</hi> This one should understand (what has been well-told). [26d]</seg></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl">(One cannot under)stand what has been well-told, [27b]</seg></seg></choice><choice corresp="#a5"><seg><seg type="prim_transl"><hi>Sanskrit</hi></seg></seg></choice><choice corresp="#a6"><seg><seg type="prim_transl">of the one having (vacillating belief), [28c]</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl"><hi>Sanskrit</hi></seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">by the ones re(lying on greed). [29d]</seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl">under the power of the (mind and following ...), [30b]</seg></seg></choice><choice corresp="#b4"><seg><seg type="prim_transl"><hi>Sanskrit</hi> like (the bird abandons) a tree with scattered (leaves/fruits). [30d]</seg></seg></choice><choice corresp="#b5"><seg><seg type="prim_transl">(Be without negligen)ce! <hi>Sanskrit</hi></seg></seg></choice><choice corresp="#b6"><seg><seg type="prim_transl">(so that you) should not (devour iron bowls in hell), O negligent one! <hi>Sanskrit</hi></seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="lingcomment">Because of <hi>ekälymi</hi> in b3 it seems that we have a manuscript in archaic TB, although since it is quite small one cannot be entirely certain (other unexpected spellings with <hi>ä</hi> can be explained by assuming compounds). It is confirmed by the spelling of initial ‹o› in line b3 which does not yet have the long bow of the classical sign.</note><note type="parallels">Sanskrit (<bibl><title corresp="ref:bernhard1965"/><citedRange>416-418</citedRange></bibl>)</note><note corresp="#a1" type="philcomment">For the pāda 25c the authoritative text has <hi>dharmo hi śakyam ājñātuṃ</hi>. From the grammatical point of view, our text is more correct since <hi>śakyaḥ</hi> is the predicate of the sentence where <hi>dharmaḥ</hi> is the subject.</note><note corresp="#a2" type="philcomment">In the second ligatura of the first word the ‹t› has been added to ‹ko› afterwards.</note><note corresp="#a3" type="philcomment">The first word of the line ought to be completed as Skt. <hi>prajānīyāt</hi> (26d). This verb is either translated by a TB middle form <hi>kärsoytär</hi> or by the active <hi>kärsoy</hi> if this fragment is indeed an archaic one.</note><note corresp="#a4" type="lingcomment">The first word can be safely restored as <hi>kärsalle</hi>, gerund of <hi>kärs<hi rend="superscript">ā</hi>-</hi> ‘to understand’, which translates Skt. <hi>vijñeya-</hi> of the word <hi>suvijñeyaṃ</hi> (27b). TB <hi>kärtse-weweñu</hi> may be a compound translating the Skt. compound <hi>subhāṣitaṃ</hi> (or simply reflect the archaic TB variant <hi>kärtse</hi>).</note><note corresp="#a5" type="philcomment">This word makes the pāda 28a.</note><note corresp="#a6" type="philcomment">Probably we have here the end of the word translating Skt. <hi>pāriplavaprasādasya</hi> lit. ‘having vacillating belief’. Since TB <hi>takarṣkäññe</hi> is already registered as the match of Skt. <hi>prasāda-</hi>, we may restore <hi>takarṣkäññeccepi</hi>.</note><note corresp="#b1" type="philcomment">The first akṣara of the line is the end of Skt. <hi>manaḥprasravaṇāni</hi>.</note><note corresp="#b2" type="lingcomment">This form ought to be the perlative plural of a PPt that would translate Skt. <hi>niḥśritaiḥ</hi> of the compound <hi>gredhaniḥśrita-</hi> ‘depending on greed’. Therefore, one may restore TB <hi>sasainoṣäntsa</hi> based on the PPt <hi>sasainu</hi> of the verb <hi>sai-n-</hi> ‘to rely on’.</note><note corresp="#b3" type="lingcomment">TB <hi>ekälymi</hi> can be taken as a postposition governing a genitive singular such as <hi>pälskontse</hi> as translation of the Sanskrit abstract <hi>cittavaśa-</hi> ‘domination of the mind’. This part means ‘under the poser domination/will of the mind’. The next word is most probably TB <hi>ompostäṃ</hi> translating the preverb Skt. <hi>anu</hi>, as elsewhere. The adjective Skt. <hi>anuvartaka-</hi> ‘acting according to’ could be translated by TB <hi>ompostäṃ sporttomane</hi>.</note><note corresp="#b4" type="lingcomment">The Tocharian text contains a translation of Skt. <hi>drumam iva śīrṇaphalam</hi> (30d). One may propose that <hi>śīrṇaphala-</hi> was translated by TB <hi>käskau=kocce</hi> (rather than <hi>käsk=okocce</hi>), oblique singular masc. of a possessive compound having as second member <hi>oko</hi> ‘fruit’ and as first member <hi>käskau</hi>, the PPt of the verb <hi>käsk-</hi> ‘to scatter apart’. If the text is an archaic one, <hi>käskau</hi> would be expected as the independent PPt in the first place.</note><note corresp="#b4" type="philcomment">The first two syllables belong to the end of pāda 30d: <hi>yathāṇḍajaḥ</hi>. At the end <hi>käsko ///</hi> or <hi>käskau ///</hi>.</note><note corresp="#b5" type="philcomment">The Sanskrit text belongs to the pāda 31b.</note><note corresp="#b6" type="lingcomment">Although the authoritative Sanskrit text has the nominative singular <hi>pramattaḥ</hi> (31c), a vocative of <hi>ykorñetstse</hi> ‘negligent’ makes good sense. The preceding akṣara should belong to the 2.sg. active of an optative form translating Skt. <hi>gileḥ</hi>, certainly <hi>(nuko)yt</hi> (<bibl><title corresp="ref:krause1952"/><citedRange>254</citedRange></bibl>). The form ought to be read <hi>nukoyt</hi>, because the virāma was at the end of the preceding line.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>other</label><bibl><title corresp="ref:levi1933"/><citedRange>52</citedRange></bibl>; (<bibl><title corresp="ref:bernhard1965"/><citedRange>416-418</citedRange></bibl>).</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_translation_old">a1 &lt;i&gt;Sanskrit&lt;/i&gt;
+a2 But the one who, having controlled his impetuosity, [26a] 
+a3 &lt;i&gt;Sanskrit&lt;/i&gt; This one should understand (what has been well-told). [26d]
+a4 (One cannot under)stand what has been well-told, [27b]
+a5 &lt;i&gt;Sanskrit&lt;/i&gt;
+a6 of the one having (vacillating belief), [28c]
+b1 &lt;i&gt;Sanskrit&lt;/i&gt;
+b2 by the ones re(lying on greed). [29d]
+b3 under the power of the (mind and following ...), [30b]
+b4 &lt;i&gt;Sanskrit&lt;/i&gt; like (the bird abandons) a tree with scattered (leaves/fruits). [30d]
+b5 (Be without negligen)ce! &lt;i&gt;Sanskrit&lt;/i&gt;
+b6 (so that you) should not (devour iron bowls in hell), O negligent one! &lt;i&gt;Sanskrit&lt;/i&gt;</item>
+               <item n="m_subgenre_old">Doctrine</item>
+               <item n="project_check_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_tune_old"/>
+               <item n="m_prev_old"/>
+               <item n="user_created_old">theres</item>
+               <item n="user_modified_old">martin</item>
+               <item n="m_language_add_old">None</item>
+               <item n="m_completeness_current_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_meter_old">6/5</item>
+               <item n="m_title_old">Udānavarga</item>
+               <item n="m_leaf_old">109</item>
+               <item n="m_transcription_old">a1 dharmo hi śakya ājñā ///
+a2 yaitkormeṃ k_use no airṣaitsäññ(e) /// prajānīyāt|(prajānī)|yāt
+a3 subhāṣitam sū kärso(ytär) /// kärsalle|(kä)|rsalle
+a4 kärtse we(w)e(ñu) ///
+a5 anavas(th)i(tacittasya) ///
+a6 ññeccepi ////
+b1 ni hi ///
+b2 noṣäntsa ///
+b3 ekälymi omp(ostäṃ) ///
+b4 ṇḍajaḥ stām ramt käsko /// (snai ykorñetse|ykorñe)|tse
+b5 • mā te kāmaguṇo /// nukoyt|(nuko)|yt
+b6 ykorñecc(u) • kranda ///</item>
+               <item n="m_expedition_old"/>
+               <item n="m_size_w_old">7</item>
+               <item n="m_remarks_old"/>
+               <item n="m_language_old">Sanskrit+TB</item>
+               <item n="m_other_sigla_old">U 20</item>
+               <item n="m_script_old">Archaic</item>
+               <item n="project_comment_old">&lt;p&gt;I changed transliteration and transcription &lt;b&gt;b4&lt;/b&gt; &lt;i&gt;käsko/au&lt;/i&gt; to &lt;i&gt;käsko&lt;/i&gt;. No oblique slashes allowed! –Martin (Mon, 2019-09-09, 17:19:08 (CEST))&lt;/p&gt;</item>
+               <item n="ms_old">SI B 121(1)</item>
+               <item n="m_parallels_old">Sanskrit ([[Bernhard 1965]]: 416-418)</item>
+               <item n="file_created_old">1361187603</item>
+               <item n="file_modified_old">1568042348</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old">7,8</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_passage_old">31.25b-31d</item>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;a1.&lt;/b&gt; For the pāda 25c the authoritative text has &lt;i&gt;dharmo hi śakyam ājñātuṃ&lt;/i&gt;. From the grammatical point of view, our text is more correct since &lt;i&gt;śakyaḥ&lt;/i&gt; is the predicate of the sentence where &lt;i&gt;dharmaḥ&lt;/i&gt; is the subject.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a2.&lt;/b&gt; In the second ligatura of the first word the ‹t› has been added to ‹ko› afterwards.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a3.&lt;/b&gt; The first word of the line ought to be completed as Skt. &lt;i&gt;prajānīyāt&lt;/i&gt; (26d). This verb is either translated by a TB middle form &lt;i&gt;kärsoytär&lt;/i&gt; or by the active &lt;i&gt;kärsoy&lt;/i&gt; if this fragment is indeed an archaic one.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a5.&lt;/b&gt; This word makes the pāda 28a.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a6.&lt;/b&gt; Probably we have here the end of the word translating Skt. &lt;i&gt;pāriplavaprasādasya&lt;/i&gt; lit. ‘having vacillating belief’. Since TB &lt;i&gt;takarṣkäññe&lt;/i&gt; is already registered as the match of Skt. &lt;i&gt;prasāda-&lt;/i&gt;, we may restore &lt;i&gt;takarṣkäññeccepi&lt;/i&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b1.&lt;/b&gt; The first akṣara of the line is the end of Skt. &lt;i&gt;manaḥprasravaṇāni&lt;/i&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b4.&lt;/b&gt; The first two syllables belong to the end of pāda 30d: &lt;i&gt;yathāṇḍajaḥ&lt;/i&gt;. At the end &lt;i&gt;käsko ///&lt;/i&gt; or &lt;i&gt;käskau ///&lt;/i&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b5.&lt;/b&gt; The Sanskrit text belongs to the pāda 31b.&lt;/p&gt;</item>
+               <item n="m_editor_old">Georges-Jean Pinault (in collaboration with Melanie Malzahn)</item>
+               <item n="date_publication_old"/>
+               <item n="m_language_stage_old">Archaic</item>
+               <item n="m_transliteration_old">a1 dharm[o] hi śakya ājñā ///
+a2 yai«t»kormeṃ k_use no airṣait_s_a[ññ] ///
+a3 yāt subhāṣitam\• sū _k_a[rs]o ///
+a4 rsalle _k_artse we(w)[e] ///
+a5 anava[s](th)i ///
+a6 ññecce[p]i ////
+b1 ni hi ///
+b2 no_ṣ_antsa ///
+b3 e_k_alymi [o]m[p] ///
+b4 ṇḍajaḥ stām ram_t\ _k_a[sko] ///
+b5 tse • mā te kāmaguṇo ///
+b6 y_t(\) ykorñecc(u) • kranda ///</item>
+               <item n="m_image_old"/>
+               <item n="m_lingcomment_old">&lt;p&gt;Because of &lt;i&gt;ekälymi&lt;/i&gt; in b3 it seems that we have a manuscript in archaic TB, although since it is quite small one cannot be entirely certain (other unexpected spellings with &lt;i&gt;ä&lt;/i&gt; can be explained by assuming compounds). It is confirmed by the spelling of initial ‹o› in line b3 which does not yet have the long bow of the classical sign.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a4.&lt;/b&gt; The first word can be safely restored as &lt;i&gt;kärsalle&lt;/i&gt;, gerund of &lt;i&gt;kärs&lt;sup&gt;ā&lt;/sup&gt;-&lt;/i&gt; ‘to understand’, which translates Skt. &lt;i&gt;vijñeya-&lt;/i&gt; of the word &lt;i&gt;suvijñeyaṃ&lt;/i&gt; (27b). TB &lt;i&gt;kärtse-weweñu&lt;/i&gt; may be a compound translating the Skt. compound &lt;i&gt;subhāṣitaṃ&lt;/i&gt; (or simply reflect the archaic TB variant &lt;i&gt;kärtse&lt;/i&gt;).&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b2.&lt;/b&gt; This form ought to be the perlative plural of a PPt that would translate Skt. &lt;i&gt;niḥśritaiḥ&lt;/i&gt; of the compound &lt;i&gt;gredhaniḥśrita-&lt;/i&gt; ‘depending on greed’. Therefore, one may restore TB &lt;i&gt;sasainoṣäntsa&lt;/i&gt; based on the PPt &lt;i&gt;sasainu&lt;/i&gt; of the verb &lt;i&gt;sai-n-&lt;/i&gt; ‘to rely on’.&lt;/p&gt; 
+&lt;p&gt;&lt;b&gt;b3.&lt;/b&gt; TB &lt;i&gt;ekälymi&lt;/i&gt; can be taken as a postposition governing a genitive singular such as &lt;i&gt;pälskontse&lt;/i&gt; as translation of the Sanskrit abstract &lt;i&gt;cittavaśa-&lt;/i&gt; ‘domination of the mind’. This part means ‘under the poser domination/will of the mind’. The next word is most probably TB &lt;i&gt;ompostäṃ&lt;/i&gt; translating the preverb Skt. &lt;i&gt;anu&lt;/i&gt;, as elsewhere. The adjective Skt. &lt;i&gt;anuvartaka-&lt;/i&gt; ‘acting according to’ could be translated by TB &lt;i&gt;ompostäṃ sporttomane&lt;/i&gt;.&lt;/p&gt; 
+&lt;p&gt;&lt;b&gt;b4.&lt;/b&gt; The Tocharian text contains a translation of Skt. &lt;i&gt;drumam iva śīrṇaphalam&lt;/i&gt; (30d). One may propose that &lt;i&gt;śīrṇaphala-&lt;/i&gt; was translated by TB &lt;i&gt;käskau=kocce&lt;/i&gt; (rather than &lt;i&gt;käsk=okocce&lt;/i&gt;), oblique singular masc. of a possessive compound having as second member &lt;i&gt;oko&lt;/i&gt; ‘fruit’ and as first member &lt;i&gt;käskau&lt;/i&gt;, the PPt of the verb &lt;i&gt;käsk-&lt;/i&gt; ‘to scatter apart’. If the text is an archaic one, &lt;i&gt;käskau&lt;/i&gt; would be expected as the independent PPt in the first place.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b6.&lt;/b&gt; Although the authoritative Sanskrit text has the nominative singular &lt;i&gt;pramattaḥ&lt;/i&gt; (31c), a vocative of &lt;i&gt;ykorñetstse&lt;/i&gt; ‘negligent’ makes good sense. The preceding akṣara should belong to the 2.sg. active of an optative form translating Skt. &lt;i&gt;gileḥ&lt;/i&gt;, certainly &lt;i&gt;(nuko)yt&lt;/i&gt; ([[Krause, WTG]]: 254). The form ought to be read &lt;i&gt;nukoyt&lt;/i&gt;, because the virāma was at the end of the preceding line.&lt;/p&gt;</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_bib_old">[[Lévi 1933]]: 52; ([[Bernhard 1965]]: 416-418).</item>
+               <item n="m_linedistance_old">1,3</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="file_location_old">pages/manuscript/sib1211.txt</item>
+               <item n="m_completeness_old"/>
+               <item n="m_lines_old">6</item>
+               <item n="m_collection_old">IOM (St. Petersburg)</item>
+               <item n="access_old">restricted</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;I changed transliteration and transcription &lt;ref type="ms" target="__b4"/&gt; &lt;hi&gt;käsko/au&lt;/hi&gt; to &lt;hi&gt;käsko&lt;/hi&gt;. No oblique slashes allowed! –Martin (Mon, 2019-09-09, 17:19:08 (CEST))&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

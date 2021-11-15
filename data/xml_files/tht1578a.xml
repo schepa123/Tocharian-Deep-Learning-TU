@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht1578a">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 1578.a</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Melanie Malzahn</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <date when="2014-07-31">31.07.2014</date>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 1578.a</idno>
+                  <altIdentifier>
+                     <idno>Prelim. No. 492</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Pencil No. 4984</idno>
+                  </altIdentifier>
+                  <msName>THT 352-354</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Female sage Śacī</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">2+</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Qumtura</region><placeName>2. Höhle</placeName>during <rs type="expedition_code">T III Qu 709</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Jātaka/Avadāna</term>
+               <term type="prose_verse">prose</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=324305;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=324305;rotate=0;imageType=_M"/>
+            <line xml:id="lf"><zone>49</zone></line>
+            <line n="1" xml:id="a1"><zone>rto</zone><zone>ne¯</zone><zone>¯Ṣ</zone><zone>yā</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><zone>ne¯</zone><zone>¯Ś∘</zone><zone>la</zone><zone>re</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="par" quantity="3"/><zone><unclear>l</unclear><gap reason="par" unit="part"/></zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=324306;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=324306;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="b1"><zone>ki</zone><zone>naṃ</zone><zone>ñe</zone><zone>ya</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><zone>e</zone><zone>cce</zone><zone>śe</zone><zone>ma</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <fw type="leafNum" corresp="#lf">49</fw>
+            <p>
+<w><supplied>wa</supplied><lb corresp="#a1"/>rtone</w><w>ṣ</w><w>yā<milestone unit="w" type="break"/></w><gap reason="lost"/>
+<lb corresp="#a2"/><w>-neś</w><w>lare<supplied>ñ</supplied></w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="plain" quantity="3"/><w>l<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#b1"/><w>ki</w><w>naṃ</w><w>ñe</w><w>ya</w><gap reason="lost"/>
+<lb corresp="#b2"/><w>ecce</w><w>śema<milestone unit="w" type="break"/><supplied>ñ</supplied></w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">... and in the (for)est ...</seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">... towards ... the dear [ones] ...</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">...</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">...</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">(s)he came hither (to me) ...</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">Small fragment from the left part of a five-line leaf with the left margin and leaf number preserved. Mentioned in <bibl><title corresp="ref:siegandsiegling1953"/><citedRange>323</citedRange></bibl> sub no. 354 but not edited.</note><note corresp="#a2" type="philcomment">-<hi>neś</hi> is most likely the end of an allative form.</note><note corresp="#b1" type="philcomment">Word separation unclear.</note><note corresp="#b2" type="philcomment">A small part of the <hi>ñ</hi> is still visible.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition</label><bibl><title corresp="ref:tamai2007a"/><citedRange>№1578</citedRange></bibl>.a.</p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 1578a" type="external">THT 1578a</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/15/1578.htm" type="external">THT 1578</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_metric_form_old">Both</item>
+               <item n="m_translation_old">a1 ... and in the (for)est ...
+a2 ... towards ... the dear [ones] ...
+a3 ...
+b1 ...
+b2 (s)he came hither (to me) ...</item>
+               <item n="m_subgenre_old">Jātaka/Avadāna</item>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old"/>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old">melanie</item>
+               <item n="m_title_old">Female sage Śacī</item>
+               <item n="m_leaf_old">49</item>
+               <item n="m_transcription_old"> warttone|(wa)|rtone
+a1 ṣ yā- ///
+a2 -neś lare(ñ) ///
+a3 (– – –) l(·) ///
+b1 ki naṃ ñe ya ///
+b2 ecce śema-(ñ) ///</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_parallels_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="project_comment_old"/>
+               <item n="ms_old">THT 1578.a</item>
+               <item n="m_remarks_old">Small fragment from the left part of a five-line leaf with the left margin and leaf number preserved. Mentioned in [[TochSprR(B) II]]: 323 sub no. 354 but not edited.</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_other_sigla_old">Prelim. No. 492, Pencil No. 4984</item>
+               <item n="m_size_w_old"/>
+               <item n="m_expedition_old">T III Qu 709</item>
+               <item n="m_philcomment_old">&lt;b&gt;a2&lt;/b&gt; -&lt;i&gt;neś&lt;/i&gt; is most likely the end of an allative form.&lt;br&gt;
+&lt;b&gt;b1&lt;/b&gt; Word separation unclear.&lt;br&gt;
+&lt;b&gt;b2&lt;/b&gt; A small part of the &lt;i&gt;ñ&lt;/i&gt; is still visible.</item>
+               <item n="m_passage_old"/>
+               <item n="m_editor_old">Melanie Malzahn</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_size_h_old"/>
+               <item n="file_created_old">1340136552</item>
+               <item n="file_modified_old">1470351268</item>
+               <item n="m_manuscript_old">THT 352-354</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 1578a" target="idp"&gt;THT 1578a&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/15/1578.htm" target="titus"&gt;THT 1578&lt;/a&gt;.&lt;br&gt;
+Edition: [[Tamai 2007a]]: №1578.a.</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=324305;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=324305;rotate=0;imageType=_M||THT 1578a recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=324306;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=324306;rotate=0;imageType=_M||THT 1578a verso</item>
+               <item n="date_publication_old">31.07.2014</item>
+               <item n="m_transliteration_old">a1 rtone _ṣ\ yā ///
+a2 ne_ś\• lare ///
+a3 (– – –) [l](·) ///
+b1 ki naṃ ñe ya ///
+b2 ecce śema – ///</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_findspot_old">Qumtura</item>
+               <item n="m_findspot_specific_old">2. Höhle</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_lines_old">2+</item>
+               <item n="access_old">public</item>
+               <item n="file_location_old">pages/manuscript/THT_1100_2399/tht1578a.txt</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

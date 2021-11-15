@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-pkns1">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PK NS 1</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Georges-Jean Pinault</name>
+            </respStmt>
+            <respStmt>
+               <resp>collaborator</resp>
+               <name>Hannes A. Fellner</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <date when="2014-08">August 2014</date>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</repository>
+                  <idno>PK NS 1</idno>
+                  <altIdentifier>
+                     <idno>Pelliot Koutchéen Nouvelle Série 1</idno>
+                  </altIdentifier>
+                  <msName>PK NS 1-6</msName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>5,4</height>
+                              <width>16,3</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <dimensions type="line_spacing">
+                              <height>1,4</height>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Subeši</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="xto"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Medicine/Magic</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000196x/f1.zoom"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000196x/f1.highres"/>
+            <graphic url="NSHuard/NS1a.png" height="899px" width="2199px"/>
+            <line xml:id="lf"><zone>19</zone></line>
+            <line n="1" xml:id="a1"><zone><unclear>nā</unclear></zone><zone>ntā</zone><zone>pā</zone><zone>sne</zone><zone>o</zone><zone>ko</zone><zone>:</zone><zone>ā</zone><zone>kcaṃ</zone><zone>pPA</zone><zone>LTSA¯</zone><zone>¯K</zone><zone>SA</zone><zone>rki</zone><zone>ā</zone><zone>ñu</zone><zone>KA</zone><zone>lpā</zone><zone>Tā¯</zone><zone>¯R</zone><zone>:</zone><zone>1</zone><zone>॥</zone><zone>2</zone><zone>4</zone><zone>4</zone><zone>॥</zone></line>
+            <line n="2" xml:id="a2"><zone>je</zone><zone>va</zone><zone><unclear>da</unclear><gap reason="plain" unit="part"/></zone><zone>:</zone><zone>wu</zone><zone>ne¯</zone><zone>¯Ṣ∘</zone><space type="string_hole"/><zone>tMA¯</zone><zone>¯Ṣ∘</zone><zone>śtwa</zone><zone>rśtwa</zone><zone>rvRA¯</zone><zone>¯Ṣ∘</zone><zone>kla</zone><zone>we</zone><zone>klā</zone><zone>ci</zone><zone>tMA¯</zone><zone>¯K</zone><zone>ṣñi</zone><zone>tMA¯</zone><zone>¯K</zone><zone>ā</zone></line>
+            <line n="3" xml:id="a3"><zone>lu</zone><zone>yśa¯</zone><zone>¯L</zone><zone>msaṃ</zone><space type="string_hole"/><zone>ta</zone><zone>tTRA</zone><zone>ṅku</zone><zone>:</zone><zone>kule</zone><zone>yā</zone><zone>SA</zone><zone>rki</zone><zone>ymāṃ</zone><zone>tñi</zone><zone>lkā</zone><zone>TA¯</zone><zone>¯R</zone><zone>wla</zone><zone>lu</zone><zone>ne</zone><zone>tṣaṃ</zone><zone>yne</zone></line>
+            <line n="4" xml:id="a4"><zone><unclear>ś</unclear>ś<unclear>o</unclear></zone><zone><unclear>r</unclear>ki</zone><zone>ppā</zone><zone>ṣā</zone><zone>r<unclear>ā</unclear></zone><zone>ñcä¯</zone><zone>¯M</zone><zone>ñā</zone><zone>tse</zone><zone>yA¯</zone><zone>¯ṣ</zone><zone>:</zone><zone>ma</zone><zone>rkule</zone><zone>yi</zone><zone>smo</zone><zone>saṃ</zone><zone>kā</zone><zone>pñe</zone><zone>śo</zone><zone>lna</zone><zone>KA</zone></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000196x/f2.zoom"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://gallica.bnf.fr/ark:/12148/btv1b6000196x/f2.highres"/>
+            <graphic url="NSHuard/NS1b.png" height="885px" width="2148px"/>
+            <line n="1" xml:id="b1"><zone>¯T</zone><zone>:</zone><zone>kā</zone><zone>kMA</zone><zone>rti</zone><zone>kā</zone><zone>swra</zone><zone>ssa</zone><zone>śśä</zone><zone>ltñi</zone><zone>wa¯</zone><zone>¯cä</zone><zone>kuñā¯</zone><zone>¯śä</zone><zone>lkā</zone><zone>TA¯</zone><zone>¯R</zone><zone>kule</zone><zone>ṣu</zone><zone>rma¯</zone><zone>¯Ṣ</zone><zone>:</zone><zone>1</zone><zone>ṣo</zone><zone>tre</zone></line>
+            <line n="2" xml:id="b2"><zone>ā</zone><zone>kṣña</zone><zone>mci</zone><zone>ṢPAṃ</zone><space type="string_hole"/><zone>lyā</zone><zone>kā¯</zone><zone>¯ṢT∘</zone><zone>ā</zone><zone>msiṃ</zone><zone>ta</zone><zone>rpa¯</zone><zone>¯S</zone><zone>ṣtā</zone><zone>MA</zone><zone>ntu</zone><zone>ā</zone><zone>su¯</zone><zone>¯nt</zone><zone>sne</zone></line>
+            <line n="3" xml:id="b3"><zone>o</zone><zone>ko</zone><zone>:</zone><zone>e</zone><zone>pre</zone><space type="string_hole"/><zone>raṃ</zone><zone>śkaṃ</zone><zone>se</zone><zone>na</zone><zone>SSA</zone><zone>lmāṃ</zone><zone>su</zone><zone>krā</zone><zone>nā</zone><zone>stu</zone><zone>ṢPAṃ</zone><zone>lyā</zone><zone>ka¯</zone><zone>¯ṢT</zone><zone>TA</zone><zone>mnu</zone></line>
+            <line n="4" xml:id="b4"><zone>ṣo</zone><zone>kyo</zone><zone>krā</zone><zone>MA¯</zone><zone>¯rtS</zone><zone>wra¯</zone><zone>¯M</zone><zone>:</zone><zone>la</zone><zone>pa</zone><zone>ṣi</zone><zone>ske</zone><zone>taṃ</zone><zone>ywā</zone><zone>rckaṃ</zone><zone>mā</zone><zone>ṣe</zone><zone>śśi</zone><zone>:</zone><zone>pKA</zone><zone>nta</zone><zone>lya</zone><zone>MA</zone><zone>ṣmā</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <fw type="leafNum" corresp="#lf">19</fw>
+            <lg type="poem" met="frg:M10_11_10_11" subtype="hom">
+               <lg n="1" type="strophe">
+                  <l n="c"><supplied unit="syllable" quantity="4"/><caesura ana="frg:cs-s"/>
+<w><supplied>ā</supplied><lb corresp="#a1"/>nāntāpā</w><caesura ana="frg:cs-s"/><w>sne</w><w>oko</w><pc>:</pc></l>
+                  <l n="d"><w>āk</w><w>caṃ</w><w>ppältsäk</w><caesura ana="frg:cs-s"/><w>särki</w><w>āñu</w><caesura ana="frg:cs-s"/><w>kälpātār</w><pc>:</pc><num value="1">1</num></l>
+               </lg>
+            </lg>
+            <p><pc>॥</pc><num value="2">2</num><num value="4">4</num><num value="4">4</num><pc>॥</pc>
+<lb corresp="#a2"/><w>jevada<supplied>ṃ</supplied></w><pc>:</pc></p>
+            <lg type="poem" met="frg:M20_22_10_15" subtype="hom">
+               <lg n="1" type="strophe">
+                  <l n="a"><w>wu</w><w>neṣ</w><w>tmäṣ</w><w>śtwar</w><w>śtwar</w><caesura ana="frg:cs-s"/><w>vräṣ</w><w>klawe</w><w>klā-ci</w><caesura ana="frg:cs-s"/><w>tmäk</w><w>ṣñi</w><w>tmäk</w>
+<w>ā<lb corresp="#a3"/>lu</w><caesura ana="frg:cs-s"/><w>yśalmsaṃ</w><w>tatträṅku</w><pc>:</pc></l>
+                  <l n="b"><w>kUleyā</w><w>särki</w><caesura ana="frg:cs-w"/><w>ymāṃ</w><w>tñi</w><w>lkātär</w><caesura ana="frg:cs-s"/><w>wlalune</w><w>tṣaṃ</w><caesura ana="frg:cs-w"/>
+<w>yne<lb corresp="#a4"/>ś</w><w>śorki</w><caesura ana="frg:cs-s"/><w>ppāṣār</w><w>āñcäm</w><caesura ana="frg:cs-w"/><w>ñātse</w><w>yäṣ</w><pc>:</pc></l>
+                  <l n="c"><w>mar</w><w>kUleyis</w><w>mosaṃ</w><caesura ana="frg:cs-s"/><w>kāpñe</w><w>śol</w>
+<w>nakä<lb corresp="#b1"/>t</w><pc>:</pc></l>
+                  <l n="d"><w>kākmärtikās</w><caesura ana="frg:cs-w"/><w>wrassaśśäl</w><w>tñi</w><caesura ana="frg:cs-s"/><w>wac</w><w>kUñāś</w><w>lkātär</w><caesura ana="frg:cs-w"/><w>kUle</w><w>ṣurmaṣ</w><pc>:</pc><num value="1">1</num></l>
+               </lg>
+               <lg n="2" type="strophe">
+                  <l n="a"><w>ṣotre</w>
+<lb corresp="#b2"/><w>ākṣñam-ci</w><caesura ana="frg:cs-s"/><w>ṣpäṃ</w><w>lyākāṣt</w><w>āmsiṃ</w><caesura ana="frg:cs-s"/><w>tarpas</w><w>ṣtāmäntu</w><caesura ana="frg:cs-s"/><w>āsunt</w><w>sne</w>
+<lb corresp="#b3"/><w>oko</w><pc>:</pc></l>
+                  <l n="b"><w>epreraṃ</w><w>śkaṃ</w><caesura ana="frg:cs-w"/><w>senas</w><w>sälmāṃ</w><caesura ana="frg:cs-s"/><w>sukrānās</w><w>tu</w><caesura ana="frg:cs-w"/><w>ṣpäṃ</w><w>lyākaṣt</w><caesura ana="frg:cs-s"/><w>täm</w><w>nu</w>
+<lb corresp="#b4"/><w>ṣokyo</w><caesura ana="frg:cs-w"/><w>krāmärts</w><w>wram</w><pc>:</pc></l>
+                  <l n="c"><w>lapaṣi</w><w>ske</w><w>taṃ</w><caesura ana="frg:cs-s"/><w>ywārckaṃ</w><w>mā</w><w>ṣeś-śi</w><pc>:</pc></l>
+                  <l n="d"><w>pkänta</w><w>lyamäṣ</w><caesura ana="frg:cs-w"/><w>mā</w><supplied unit="syllable" quantity="3"/><caesura ana="frg:cs-s"/><supplied unit="syllable" quantity="7"/></l>
+               </lg>
+            </lg>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">... forever without fruit. Think about this goal, you will obtain peace. 1 | 2, 4, 4.</seg></seg><seg><seg type="prim_transl">Finally, think about this, so that afterwards you will obtain cessation.</seg><bibl><title corresp="ref:peyrot2013b"/><citedRange>652</citedRange></bibl></seg></choice><choice corresp="#a1 #a2 #a3 #a4 #b1 #b2 #b3 #b4"><seg><bibl><title corresp="ref:pinault2008"/></bibl></seg><seg><bibl><title corresp="ref:couvreur1955"/><citedRange>111</citedRange></bibl></seg><seg><bibl><title corresp="ref:couvreur1956"/><citedRange>97-98</citedRange></bibl></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">Life-cutter. The two before. Then four, four. The “Bull’s throw” has fallen for you. Of oneself as well as of others</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">to the desires it has been attached. Coming after the woman the death appears to you. At this place</seg></seg></choice><choice corresp="#a3 #a4"><seg><bibl><title corresp="ref:malzahn2014"/><citedRange>89</citedRange></bibl></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl">anguish [is] obvious. Watch yourself! Danger comes. You may not destroy your life for the sake of the woman.</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">Together with the beings that are rulers fight [and] quarrel is seen by you because of the woman. 1 The sign   </seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">I will teach you. In a dream you saw ..., grass, [and] trees dried out [and] without</seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl">fruit. And, in the sky eagles (are) flying over vultures: that you saw in dream. Then this [is] </seg></seg></choice><choice corresp="#b4"><seg><seg type="prim_transl">is a very serious thing. There was no effort of the head for you in the middle of that. Separated from the lake (?), not (?) ...</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">This leaf belongs to a series of six apparently non-successive leafs. This is a complete leaf with string hole. The string hole which interrupts line 2 and 3 is bit damaged. The leaf shows horizontal and vertical ruling. The script is less formal than in the average TA manuscripts. On the recto side there are some imprints of another leaf.</note><note corresp="#a1" type="philcomment">Before the double daṇda apparently there is a dot after the double-dot that normally marks the end of pāda. Therefore it seems better to understand that as the number one referring to the number of the stanza. Between the double daṇdas there are three signs for numbers, but not the number 244. This series of numbers can be understood in the light of the next line. 
+This line is the last pāda of a stanza. This pāda has 11 syllables with a rhythm of 4/4/3. 
+Concerning the first akṣara of the line, it is almost completely covered by an imprint of another leaf.</note><note corresp="#a4" type="philcomment">The beginning of the line is partly obscured by imprints of another leaf.</note><note corresp="#b1" type="philcomment">The number 1 marks the end of a stanza in the meter 20 (5/5/5/5)|22 (8/7/7)|10 (5/5)|15 (8/7). Afterwards there is a second stanza in the same meter, but it is interrupted in the middle of the pāda 2d. Before the stanza at the beginning of line a2 one may restore <hi>jevadaṃ</hi> which would be a locative singular. It could be the name of a type of stanza, but it would not be placed as usual between double daṇda. In addition, <hi>jevadaṃ</hi> could be a mistake for <hi>jetavaṃ</hi> which is known in Tocharian A and B as the loan of Skt. <hi>jetavana-</hi>. It is the name of a monastery and furthermore is recorded as the name of the author of a treatise of divination. On the other hand, it is possible that <hi>jevada</hi> is in some way related to Skt. <hi>jīvada-</hi> 'giver/cutter of life'.</note><note corresp="#b2" type="philcomment">In the middle of the line after 〈ā〉 there is a cross between the lines 1 and 2. Usually, this sign marks an addition made by a corrector of a manuscript, but here there is no sign added. Furthermore, according to the metrical pattern there should no akṣara be missing. Alternatively, this may point to a form that has been shortened <hi>metri causa</hi>. In any case, speculatively, one could assume a variant or a mistaken spelling of the noun Tocharian AB <hi>yāmutsi</hi> 'goose'. 
+The first akṣara of <hi>ṣtāmäntu</hi> looks like a totally unknown ligature. It is safe to assume that this is due to a correction of initial 〈a-〉 made by the scribe himself.</note><note corresp="#b4" type="lingcomment"><hi>lyamäṣ</hi> cannot be a form of the verb root <hi>läm-</hi> 'to sit'. The alternative would be to take it a abl. sg. of <hi>lyäm</hi> corresponding to TB <hi>lyam</hi> 'lake'. The expected form would have been <hi>lymäṣ</hi>. If it is the same word one has to assume influence from Tocharian B, maybe to in order to have a two syllable word.</note></p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_bib_old">Complete translation: [[Pinault 2008]]; [[Couvreur 1955]]: 111; [[Couvreur 1956]]: 97-98.&lt;br&gt;
+Translation:
+&lt;b&gt;a1&lt;/b&gt; [[Peyrot, ToSu]]: 652;
+&lt;b&gt;a3-a4&lt;/b&gt; [[Malzahn 2014]]: 89;.</item>
+               <item n="m_lingcomment_old">&lt;p&gt;&lt;b&gt;b4.&lt;/b&gt; &lt;i&gt;lyamäṣ&lt;/i&gt; cannot be a form of the verb root &lt;i&gt;läm-&lt;/i&gt; 'to sit'. The alternative would be to take it a abl. sg. of &lt;i&gt;lyäm&lt;/i&gt; corresponding to TB &lt;i&gt;lyam&lt;/i&gt; 'lake'. The expected form would have been &lt;i&gt;lymäṣ&lt;/i&gt;. If it is the same word one has to assume influence from Tocharian B, maybe to in order to have a two syllable word.&lt;/p&gt;</item>
+               <item n="m_manuscript_old">PK NS 1-6</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_transliteration_old">a1 [nā]ntāpā sne oko : āk caṃ p_p_a_l_t_s_a_k\ _s_arki āñu _k_alpā_tā_r\ : 1 || 2 4 4 ||
+a2 jeva[da]· : wu ne_ṣ\• ○ t_m_a_ṣ\• śtwar śtwar v_r_a_ṣ\• klawe klā-ci t_m_a_k\ ṣñi t_m_a_k\ ā-
+a3 lu yśa_l\msaṃ ○ tat_t_r_aṅku : k_uleyā _s_arki ymāṃ tñi lkā_t_a_r\ wlalune tṣaṃ yne-
+a4 [ś] ś[or]ki ppāṣār [ā]ñcä_m\ ñātse y_aṣ\ : mar k_uleyis mosaṃ kāpñe śol na_k_a-
+b1 _t\ : kāk_m_artikās wrassaśśäl tñi wacä\ k_uñāśä\ lkā_t_a_r\ k_ule ṣurma_ṣ\ : 1 ṣotre
+b2 ākṣñam-ci _ṣ_p_aṃ ○ lyākā_ṣ_t\• āmsiṃ tarpa_s\ ṣtā_m_antu āsunt\ sne
+b3 oko : epre○raṃ śkaṃ sena_s _s_almāṃ sukrānās tu _ṣ_p_aṃ lyāka_ṣ_t\ _t_am nu
+b4 ṣokyo krā_m_art_s\ wra_m\ : lapaṣi ske taṃ ywārckaṃ mā ṣeś-śi : p_k_anta lya_m_aṣ mā</item>
+               <item n="date_publication_old">August 2014</item>
+               <item n="m_image_old">http://gallica.bnf.fr/ark:/12148/btv1b6000196x/f1.zoom|http://gallica.bnf.fr/ark:/12148/btv1b6000196x/f1.highres||$page; recto
+http://gallica.bnf.fr/ark:/12148/btv1b6000196x/f2.zoom|http://gallica.bnf.fr/ark:/12148/btv1b6000196x/f2.highres||$page; verso|transform:rotate(180deg);</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_editor_old">Georges-Jean Pinault (in collaboration with Hannes A. Fellner)</item>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;a1.&lt;/b&gt; Before the double daṇda apparently there is a dot after the double-dot that normally marks the end of pāda. Therefore it seems better to understand that as the number one referring to the number of the stanza. Between the double daṇdas there are three signs for numbers, but not the number 244. This series of numbers can be understood in the light of the next line.&lt;br&gt;
+This line is the last pāda of a stanza. This pāda has 11 syllables with a rhythm of 4/4/3.&lt;br&gt; 
+Concerning the first akṣara of the line, it is almost completely covered by an imprint of another leaf.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a4.&lt;/b&gt; The beginning of the line is partly obscured by imprints of another leaf.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b1.&lt;/b&gt; The number 1 marks the end of a stanza in the meter 20 (5/5/5/5)|22 (8/7/7)|10 (5/5)|15 (8/7). Afterwards there is a second stanza in the same meter, but it is interrupted in the middle of the pāda 2d. Before the stanza at the beginning of line a2 one may restore &lt;i&gt;jevadaṃ&lt;/i&gt; which would be a locative singular. It could be the name of a type of stanza, but it would not be placed as usual between double daṇda. In addition, &lt;i&gt;jevadaṃ&lt;/i&gt; could be a mistake for &lt;i&gt;jetavaṃ&lt;/i&gt; which is known in Tocharian A and B as the loan of Skt. &lt;i&gt;jetavana-&lt;/i&gt;. It is the name of a monastery and furthermore is recorded as the name of the author of a treatise of divination. On the other hand, it is possible that &lt;i&gt;jevada&lt;/i&gt; is in some way related to Skt. &lt;i&gt;jīvada-&lt;/i&gt; 'giver/cutter of life'.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b2.&lt;/b&gt;In the middle of the line after 〈ā〉 there is a cross between the lines 1 and 2. Usually, this sign marks an addition made by a corrector of a manuscript, but here there is no sign added. Furthermore, according to the metrical pattern there should no akṣara be missing. Alternatively, this may point to a form that has been shortened &lt;i&gt;metri causa&lt;/i&gt;. In any case, speculatively, one could assume a variant or a mistaken spelling of the noun Tocharian AB &lt;i&gt;yāmutsi&lt;/i&gt; 'goose'.&lt;br&gt;
+The first akṣara of &lt;i&gt;ṣtāmäntu&lt;/i&gt; looks like a totally unknown ligature. It is safe to assume that this is due to a correction of initial 〈a-〉 made by the scribe himself.&lt;/p&gt;</item>
+               <item n="m_passage_old"/>
+               <item n="file_modified_old">1582819747</item>
+               <item n="file_created_old">1322822691</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old">5,4</item>
+               <item n="m_completeness_old"/>
+               <item n="access_old">public</item>
+               <item n="m_collection_old">Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</item>
+               <item n="m_lines_old">4</item>
+               <item n="file_location_old">pages/manuscript/PK_NS/pkns1.txt</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Subeši</item>
+               <item n="m_linedistance_old">1,4</item>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_prev_old"/>
+               <item n="user_modified_old">martin</item>
+               <item n="user_created_old">melanie</item>
+               <item n="project_check_old"/>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Verse</item>
+               <item n="m_subgenre_old">Medicine/Magic</item>
+               <item n="m_translation_old">a1 ... forever without fruit. Think about this goal, you will obtain peace. 1 | 2, 4, 4.
+a2 Life-cutter. The two before. Then four, four. The “Bull’s throw” has fallen for you. Of oneself as well as of others
+a3 to the desires it has been attached. Coming after the woman the death appears to you. At this place
+a4 anguish [is] obvious. Watch yourself! Danger comes. You may not destroy your life for the sake of the woman.
+b1 Together with the beings that are rulers fight [and] quarrel is seen by you because of the woman. 1 The sign   
+b2 I will teach you. In dream you saw ..., grass, [and trees] dried out [and] without
+b3 fruit. And, in the sky eagles (are) flying over vultures: that you saw in dream. Then this [is] 
+b4 is a very serious thing. There was no effort of the head for you in the middle of that. Separated from the lake (?), not (?) ...</item>
+               <item n="project_comment_old">&lt;p&gt;Translations from [[Peyrot, ToSu]]
+&lt;table class="table_lines"&gt;
+&lt;th&gt;Lines&lt;/th&gt;
+&lt;th&gt;Translation&lt;/th&gt;
+&lt;th&gt;Pages&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt;a1&lt;/td&gt;
+&lt;td&gt;Finally, think about this, so that afterwards you will obtain cessation.&lt;/td&gt;
+&lt;td&gt;652&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;
+&lt;b&gt;b3.&lt;/b&gt; Changed 'peacock' to 'vulture' – Melanie (Mon, 2015-02-09, 18:36:46)
+&lt;/p&gt;</item>
+               <item n="ms_old">PK NS 1</item>
+               <item n="m_script_old">Classical</item>
+               <item n="m_parallels_old"/>
+               <item n="m_expedition_old"/>
+               <item n="m_size_w_old">16,3</item>
+               <item n="m_other_sigla_old">Pelliot Koutchéen Nouvelle Série 1</item>
+               <item n="m_language_old">TA</item>
+               <item n="m_remarks_old">&lt;p&gt;
+This leaf belongs to a series of six apparently non-successive leafs. This is a complete leaf with string hole. The string hole which interrupts line 2 and 3 is bit damaged. The leaf shows horizontal and vertical ruling. The script is less formal than in the average TA manuscripts. On the recto side there are some imprints of another leaf.
+&lt;/p&gt;</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_title_old"/>
+               <item n="m_transcription_old"> # %4 ; ānāntāpā|(ā)|nāntāpā
+a1 ; sne oko : #1c āk caṃ pältsäk|ppältsäk ; särki āñu ; kälpātār : 1 #1d || 2 4 4 ||
+a2 jevada(ṃ) : # wu neṣ tmäṣ śtwar śtwar ; vräṣ klawe klā-ci ; tmäk ṣñi tmäk ālu|ā|lu
+a3 ; yśalmsaṃ taträṅku|tatträṅku : #1a k_uleyā särki , ymāṃ tñi lkātär ; wlalune tṣaṃ , yneś|yne|ś
+a4 śorki ; ppāṣār āñcäm , ñātse yäṣ : #1b mar k_uleyis mosaṃ ; kāpñe śol nakät|nakä|t
+b1 : #1c kākmärtikās , wrassaśśäl tñi ; wac kuñaś|k_uñāś lkātär , k_ule ṣurmaṣ : 1 #1d ṣotre
+b2 ākṣiññam-ci|ākṣñam-ci ; ṣpäṃ lyākaṣt|lyākāṣt āmsiṃ ; tarpas ṣtāmäntu ; āsunt sne
+b3 oko : #2a epreraṃ śkaṃ , senas sälmāṃ ; sukrānās tu , ṣpäṃ lyākaṣt ; täm nu
+b4 ṣokyo , krāmärts wram : #2b lapaṣi ske taṃ ; ywārckaṃ mā ṣeṣ-ci|ṣeś-śi : #2c pkänta lyamäṣ , mā %3 ; %7 #2d</item>
+               <item n="m_leaf_old">19</item>
+               <item n="m_meter_old">4-4/4-3/4-3+5/5+5/5/5/5+4-4/4-3</item>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;&lt;ref type="ms" target="__b3."/&gt; Changed 'peacock' to 'vulture' – Melanie (Mon, 2015-02-09, 18:36:46)
+&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

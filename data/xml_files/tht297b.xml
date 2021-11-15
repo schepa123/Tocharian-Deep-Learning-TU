@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht297b">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 297.b</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>CEToM</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 297.b</idno>
+                  <altIdentifier>
+                     <idno>B 297</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>B 297 Frgm. 3</idno>
+                  </altIdentifier>
+                  <msName>THT 297</msName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Toyuq</region>during <rs type="expedition_code">T II T 3</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="txb" ana="frg:ls-cetom-late frg:ls-peyrot-L frg:ls-C14 frg:ls-tamai-C1 frg:ls-C14"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Kāvya</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="verso">
+            <graphic n="3"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=300154;rotate=0;imageType=_L"/>
+            <graphic n="3"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=300154;rotate=0;imageType=_M"/>
+            <graphic n="4"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=300160;rotate=0;imageType=_L"/>
+            <graphic n="4"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=300160;rotate=0;imageType=_M"/>
+            <line n="6" xml:id="b6"><zone>॥</zone><zone>ā</zone><zone>mpRA</zone><zone>st<unclear>a</unclear></zone><zone>nā</zone><zone>cc<gap reason="plain" unit="part"/></zone><zone>v<gap reason="plain" unit="part"/></zone><zone><unclear>d</unclear><gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="1"/></line>
+            <line n="7" xml:id="b7"><zone>ṣle</zone><zone>ye</zone><zone>gu</zone><zone>ne</zone><zone>cau</zone><zone>ṣa</zone><zone>myo</zone><zone>mpo</zone><zone>lsko</zone><zone>ññe</zone><zone>śā</zone><zone>kya</zone><zone>mu</zone><zone>ni</zone><zone>sai</zone><zone>mwa</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#b6"/><pc>॥</pc><w>āmprä</w><w>stanācc<supplied>e</supplied></w><w>v<supplied>ai</supplied>d<supplied>eh</supplied></w>
+<lb corresp="#b7"/><w>ṣleye</w><w>gune</w><w>cau</w><w>ṣamy</w><w>ompolskoññe</w><w>śākyamuni</w><w>saim</w><w>wa</w></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">In one frame with <ref type="ms" target="txt:m-tht297a"/> and <ref type="ms" target="txt:m-tht297c"/>. The leaf is in portrait, not landscape format. However, just as with a poṭhī leaf, it is to be flipped horizontally, not vertically as with Old Uyghur or European style books. On <ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 297b" type="external">IDP</ref>, recto and verso are reversed. Line b8 is lost.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 297b" type="external">THT 297b</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/02/0297.htm" type="external">THT 297</ref></bibl></p>
+            <p><label>other</label> Edition: <bibl><title corresp="ref:siegandsiegling1953"/><citedRange>189</citedRange></bibl></p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="user_created_old">michael</item>
+               <item n="user_modified_old">bernhard</item>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_translation_old"/>
+               <item n="m_subgenre_old">Kāvya</item>
+               <item n="m_metric_form_old">Verse</item>
+               <item n="m_size_w_old"/>
+               <item n="m_expedition_old">T II T 3</item>
+               <item n="m_remarks_old">In one frame with [[THT 297.a]] and [[THT 297.c]]. The leaf is in portrait, not landscape format. However, just as with a poṭhī leaf, it is to be flipped horizontally, not vertically as with Old Uyghur or European style books. On &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 297b" target="idp"&gt;IDP&lt;/a&gt;, recto and verso are reversed. Line b8 is lost.</item>
+               <item n="m_language_old">Sanskrit+TB</item>
+               <item n="m_other_sigla_old">B 297, B 297 Frgm. 3</item>
+               <item n="m_script_old">Classical</item>
+               <item n="project_comment_old">&lt;p&gt;Alternative classifications:
+&lt;table class="table_lines"&gt;
+  &lt;tr&gt;&lt;td title="MP"&gt;Peyrot&lt;/td&gt;&lt;td title="L"&gt;late&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="MM"&gt;Malzahn&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TT"&gt;Tamai&lt;/td&gt;&lt;td title="C1"&gt;II-1 (600-700)&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TTC14"&gt;Tamai-C14&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;</item>
+               <item n="ms_old">THT 297.b</item>
+               <item n="m_parallels_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old">b6 || āmprä stanācc(e) v(ai)d(eh)
+b7 ṣleye gune cau ṣamy ompolskoññe śākyamuni saim wa</item>
+               <item n="m_title_old"/>
+               <item n="m_language_stage_old">Late</item>
+               <item n="m_transliteration_old">b6 || āmp_r_a st[a]nācc(e) v(ai)[d](eh\)
+b7 ṣleye gune cau ṣamy ompolskoññe śākyamuni saim wa</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=300155;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=300155;rotate=0;imageType=_M||THT 297b recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=300161;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=300161;rotate=0;imageType=_M||THT 297b recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=300154;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=300154;rotate=0;imageType=_M||THT 297b verso
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=300160;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=300160;rotate=0;imageType=_M||THT 297b verso</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old">THT 297</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 297b" target="idp"&gt;THT 297b&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/02/0297.htm" target="titus"&gt;THT 297&lt;/a&gt;
+&lt;br&gt;Edition: [[TochSprR(B) II]]: 189</item>
+               <item n="file_created_old">1334908701</item>
+               <item n="file_modified_old">1532957798</item>
+               <item n="m_size_h_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_philcomment_old"/>
+               <item n="m_passage_old"/>
+               <item n="m_editor_old">CEToM</item>
+               <item n="file_location_old">pages/manuscript/THT_0001_0633/tht297b.txt</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_lines_old"/>
+               <item n="access_old">public</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_old">Toyuq</item>
+               <item n="m_findspot_specific_old"/>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;Alternative classifications:
+
+&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

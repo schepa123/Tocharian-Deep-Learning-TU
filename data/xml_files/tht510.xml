@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht510">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 510</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 510</idno>
+                  <altIdentifier>
+                     <idno>B 5</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>B 510</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Bleistiftnummer 2515</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>5</height>
+                              <width>16,7</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">6</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Qizil Miŋ-Öy</region>during <rs type="expedition_code">T III 70.10, T III MQ 69</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="txb" ana="frg:ls-cetom-late frg:ls-peyrot-L frg:ls-C14 frg:ls-tamai-C3 frg:ls-C14"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Medicine/Magic</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328155;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328155;rotate=0;imageType=_M"/>
+            <graphic url="B/B510a.jpg" height="609px" width="1332px"/>
+            <line n="1" xml:id="a1"><zone>ś<unclear>TA</unclear></zone><zone>rce</zone><zone>pi</zone><zone>po</zone><zone>sta</zone><zone>nu</zone><zone>pā</zone><zone>KA¯</zone><zone>¯Ṣ</zone><zone>te</zone><zone>we</zone><zone>ṢA</zone><zone><unclear>l</unclear><gap reason="plain" unit="part"/></zone><zone>ni</zone><zone>rga</zone><zone>ta</zone><zone>mā</zone><zone>yu</zone><zone>ṣmaṃ</zone></line>
+            <line n="2" xml:id="a2"><zone>ndo</zone><zone>va</zone><zone>rṣa</zone><zone>e</zone><zone>ko</zone><zone>na</zone><zone>ra</zone><zone>tri</zone><zone>a</zone><zone>rtha</zone><zone>mā</zone><zone>sa</zone><zone>sai</zone><zone>ka</zone><zone>rā</zone><zone>tri</zone><zone>tra</zone><zone>yo</zone><zone>mā</zone><zone>sa</zone></line>
+            <line n="3" xml:id="a3"><zone>a</zone><zone>rtha</zone><zone>mā</zone><zone>sa</zone><zone>śca</zone><zone>a</zone><zone>va</zone><zone><unclear>ci</unclear></zone><zone>ṣṭa</zone><zone>॥</zone><zone>pi</zone><zone>ñce</zone><zone>nau</zone><zone>ṣu</zone><zone>pā</zone><zone>ṢA</zone><zone>te</zone><zone>we</zone><zone>ṢA</zone><zone>le</zone><zone>ni</zone><zone>rga</zone><zone>ta</zone><zone>mā</zone></line>
+            <line n="4" xml:id="a4"><zone>yu</zone><zone>ṣmaṃ</zone><zone>to</zone><zone>va</zone><zone>rṣā</zone><zone><unclear>e</unclear></zone><zone>ko</zone><zone>na</zone><zone>r<unclear>ā</unclear></zone><zone>tri</zone><zone>e</zone><zone>ka</zone><zone>mā</zone><gap reason="plain" quantity="2"/><zone>ka</zone><zone>rā</zone><zone>tri</zone><zone>tra<gap reason="plain" unit="part"/></zone><zone><unclear>o</unclear><gap reason="plain" unit="part"/></zone><zone><unclear>ā</unclear></zone><gap reason="plain" quantity="1"/></line>
+            <line n="5" xml:id="a5"><zone>a</zone><zone>va</zone><zone>ci</zone><zone>ṣṭa</zone><zone>॥</zone><zone>piṃ</zone><zone>ce</zone><zone>po</zone><zone>sta</zone><zone>nu</zone><zone>pā</zone><zone>ṢA</zone><zone>te</zone><zone>we</zone><zone>le</zone><zone>ni</zone><zone>rga</zone><zone>ta</zone><zone>mā</zone><zone>yu</zone><zone>ṣmaṃ</zone><zone>ta</zone><zone>va</zone><gap reason="plain" quantity="2"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328108;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328108;rotate=0;imageType=_M"/>
+            <graphic url="B/B510b.jpg" height="630px" width="1304px"/>
+            <line n="1" xml:id="b1"><zone>trī</zone><zone>wä</zone><zone>ṢAṃ</zone><zone>le</zone><zone>au</zone><zone>ṣa</zone><zone>meṃ</zone><zone>ṅka</zone><zone>e</zone><zone>ktsa</zone><zone>lu</zone><zone>pṣa</zone><zone>lle</zone><zone>ysā</zone><zone>rtsa</zone><zone>na</zone><zone>ne</zone><zone>ṣpa</zone><zone>kī</zone><zone>ye</zone><zone>wa</zone><zone><unclear>rsa</unclear></zone><gap reason="plain" quantity="3"/></line>
+            <line n="2" xml:id="b2"><zone>lya</zone><zone>yeṃ</zone><zone>te</zone><zone>le</zone><zone>śpa</zone><zone>ṣa</zone><zone>na</zone><zone>ne</zone><zone>śā</zone><zone>mñe</zone><zone>ma</zone></line>
+            <line n="3" xml:id="b3"><zone>ṣṭa</zone><zone>॥</zone><zone>ṣka</zone><zone>ce</zone><zone>no</zone><zone>ṣu</zone><zone>pā</zone><zone><unclear>ka</unclear></zone><zone>ṢA</zone><zone>te</zone><zone>ve</zone><zone>ṢA</zone><zone>le</zone><zone>ni</zone><zone>rga</zone><zone>ta</zone><zone>mā</zone><zone>yu</zone><zone>ṣma<unclear>ṃ</unclear></zone><zone>ndo</zone><zone>va<gap reason="plain" unit="part"/></zone><zone><unclear>ṣ</unclear><gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="1"/><gap reason="par" quantity="1"/></line>
+            <line n="4" xml:id="b4"><zone>ltwe</zone><zone>rsa</zone><zone>po</zone><zone>e</zone><zone>śa</zone><zone>ne</zone><zone>ṣa</zone><zone>na</zone><zone>te</zone><zone>nma</zone><zone>ne</zone><zone>ka</zone><zone>rtse</zone></line>
+            <line n="5" xml:id="b5"><zone>na</zone><zone>mo</zone><zone>bha</zone><zone>ga</zone><zone>va</zone><zone>te</zone><zone>rau</zone><zone>dra</zone><zone>sya</zone><zone>sa</zone><zone>ṅkra</zone><zone>ma</zone><zone>saṃ</zone><zone>ṅkra</zone><zone>vi</zone><zone>ṣa</zone><zone>cu</zone><zone>cu</zone><zone>te</zone><zone>svā</zone><zone>hā</zone><zone>•</zone><zone>ce</zone></line>
+            <line n="6" xml:id="b6"><zone>wi</zone><zone>tsa</zone><zone>a</zone><zone>mpo</zone><zone>ño</zone><zone>a</zone><zone><unclear>to</unclear></zone><zone>ā</zone><zone>ñme</zone><zone>ma</zone><zone>nte</zone><zone>a</zone><zone>śa</zone><zone>le</zone><zone>i</zone><zone>KAṃ</zone><zone>ṣe</zone><zone>we</zone><zone>ṣa</zone><zone>le</zone><zone>20-1</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><w>śtärcepi</w><w>postanu</w><w>pākäṣ</w><w>te</w><w>weṣäl<supplied>e</supplied></w><w>nirgatam</w><w>āyuṣmaṃ</w>
+<lb corresp="#a2"/><w>ndo</w><w>varṣa</w><w>ekonaratri</w><w>arthamāsa</w><w>saikarātri</w><w>trayomāsa</w>
+<lb corresp="#a3"/><w>arthamāsaś</w><w>ca</w><w>avaciṣṭa</w><pc>॥</pc><w>piñce</w><w>nauṣu</w><w>pāṣä</w><w>te</w><w>weṣäle</w><w>nirgatam</w><w>ā</w>
+<lb corresp="#a4"/><w>yuṣmaṃto</w><w>varṣā</w><w>ekonarātri</w><w>ekamā<supplied>sa</supplied></w><w><supplied>sai</supplied>karātri</w><w>tra<supplied>y</supplied></w><w>o<supplied>m</supplied></w><w>ā<supplied>sa</supplied></w>
+<lb corresp="#a5"/><w>avaciṣṭa</w><pc>॥</pc><w>piṃce</w><w>postanu</w><w>pāṣä</w><w>te</w><w>wele</w><w>nirgatam</w><w>āyuṣmaṃta</w><w>va</w><gap reason="plain" quantity="2"/>
+<lb corresp="#b1"/><w>trīwäṣäṃle</w><w>auṣameṃṅ</w><w>ka</w><w>ektsa</w><w>lupṣalle</w><w>ysārtsanane</w><w>ṣpakīye</w><w>warsa</w><w><supplied>yamaṣä</supplied></w>
+<lb corresp="#b2"/><w>lya</w><w>yeṃte</w><w>leśpaṣanane</w><w>śāmñe</w><w>ma</w>
+<lb corresp="#b3"/><w>ṣṭa</w><pc>॥</pc><w>ṣkace</w><w>noṣu</w><w>pākaṣ<surplus>ä</surplus></w><w>te</w><w>veṣäle</w><w>nirgatam</w><w>āyuṣmaṃndo</w><w>va<supplied>r</supplied></w><w>ṣ<supplied>ā</supplied></w><gap reason="plain" quantity="2"/>
+<lb corresp="#b4"/><w>ltwersa</w><w>po</w><w>eśaneṣana</w><w>tenmane</w><w>kartse</w>
+<lb corresp="#b5"/><w>namo</w><w>bhagavate</w><w>raudrasya</w><w>saṅkrama</w><w>saṃṅkra</w><w>viṣacucute</w><w>svāhā</w><pc>•</pc><w>ce</w>
+<lb corresp="#b6"/><w>witsa</w><w>ampoño</w><w>ato</w><w>āñme</w><w>mante</w><w>aśale</w><w>ikäṃ</w><w>ṣe</w><w>weṣale</w><num value="21">20-1</num></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 510" type="external">THT 510</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/05/0510.htm" type="external">THT 510</ref></bibl>. </p>
+            <p><label>other</label><bibl><title corresp="ref:ogihara2011d"/></bibl>.</p>
+            <p><label>Edition</label><bibl><title corresp="ref:siegandsiegling1953"/><citedRange>315-316</citedRange></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_remarks_old"/>
+               <item n="m_language_old">Sanskrit+TB</item>
+               <item n="m_other_sigla_old">B 5, B 510, Bleistiftnummer 2515</item>
+               <item n="m_size_w_old">16,7</item>
+               <item n="m_expedition_old">T III 70.10, T III MQ 69</item>
+               <item n="m_parallels_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="project_comment_old">&lt;p&gt;Alternative classifications:
+&lt;table class="table_lines"&gt;
+  &lt;tr&gt;&lt;td title="MP"&gt;Peyrot&lt;/td&gt;&lt;td title="L"&gt;late&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="MM"&gt;Malzahn&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TT"&gt;Tamai&lt;/td&gt;&lt;td title="C3"&gt;II-2 (700-800)&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TTC14"&gt;Tamai-C14&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;</item>
+               <item n="ms_old">THT 510</item>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_title_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old">a1 śtärcepi postanu pākäṣ te weṣäl(e) nirgatam āyuṣmaṃ
+a2 ndo varṣa ekonaratri arthamāsa saikarātri trayomāsa
+a3 arthamāsaś ca avaciṣṭa || piñce nauṣu pāṣä te weṣäle nirgatam ā
+a4 yuṣmaṃto varṣā ekonarātri ekamā(sa sai)karātri tra(y) o(m) ā(sa)
+a5 avaciṣṭa || piṃce postanu pāṣä te wele nirgatam āyuṣmaṃta va – –
+b1 trīwäṣäṃle auṣameṃṅ ka ektsa lupṣalle ysārtsanane ṣpakīye warsa (yamaṣä)
+b2 lya yeṃte leśpaṣanane śāmñe ma
+b3 ṣṭa || ṣkace noṣu pākaṣ te veṣäle nirgatam āyuṣmaṃndo va(r) ṣ(ā) – (–)
+b4 ltwersa po eśaneṣana tenmane kartse
+b5 namo bhagavate raudrasya saṅkrama saṃṅkra viṣacucute svāhā • ce
+b6 witsa ampoño ato āñme mante aśalle|aśale ikäṃ ṣe weṣale 21</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old">bernhard</item>
+               <item n="m_prev_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old"/>
+               <item n="m_translation_old"/>
+               <item n="m_subgenre_old">Medicine/Magic</item>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="file_location_old">pages/manuscript/THT_0001_0633/tht510.txt</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_lines_old">6</item>
+               <item n="access_old">public</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_findspot_old">Qizil Miŋ-Öy</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_image_old">http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328155;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328155;rotate=0;imageType=_M||THT 510 recto
+http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328108;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328108;rotate=0;imageType=_M||THT 510 verso</item>
+               <item n="date_publication_old"/>
+               <item n="m_transliteration_old">a1 ś[_t_a]rcepi postanu pā_k_a_ṣ\ te we_ṣ_a[l](e) nirgatam āyuṣmaṃ
+a2 ndo varṣa ekonaratri arthamāsa saikarātri trayomāsa
+a3 arthamāsaś ca ava[ci]ṣṭa || piñce nauṣu pā_ṣ_a te we_ṣ_ale nirgatam ā
+a4 yuṣmaṃto varṣā [e]konar[ā]tri ekamā(sa sai)karātri tra(y) [o](m) [ā](sa)
+a5 avaciṣṭa || piṃce postanu pā_ṣ_a te wele nirgatam āyuṣmaṃta va – –
+b1 trīwä_ṣ_aṃle auṣameṃṅ ka ektsa lupṣalle ysārtsanane ṣpakīye wa[rsa] (yama_ṣ_a)
+b2 lya yeṃte leśpaṣanane śāmñe ma
+b3 ṣṭa || ṣkace noṣu pā[ka]_ṣ(\) te ve_ṣ_ale nirgatam āyuṣma[ṃ]ndo va(r) [ṣ](ā) – (–)
+b4 ltwersa po eśaneṣana tenmane kartse
+b5 namo bhagavate raudrasya saṅkrama saṃṅkra viṣacucute svāhā • ce
+b6 witsa ampoño a[to] āñme mante aśale i_k_aṃ ṣe weṣale 20-1</item>
+               <item n="m_language_stage_old">Late</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 510" target="idp"&gt;THT 510&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/05/0510.htm" target="titus"&gt;THT 510&lt;/a&gt;.&lt;br&gt;
+Edition: [[TochSprR(B) II]]: 315-316.&lt;br&gt;
+[[Ogihara 2011d]].</item>
+               <item n="m_size_h_old">5</item>
+               <item n="m_next_old"/>
+               <item n="file_created_old">1332006617</item>
+               <item n="file_modified_old">1532957816</item>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old"/>
+               <item n="m_editor_old"/>
+               <item n="m_material_old">Ink on paper</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;Alternative classifications:
+
+&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

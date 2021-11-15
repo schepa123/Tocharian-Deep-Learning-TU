@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-ioltoch405">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>IOL Toch 405</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library (London)</repository>
+                  <idno>IOL Toch 405</idno>
+                  <altIdentifier>
+                     <idno>D 46</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Karmavācanā</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>5,4</height>
+                              <width>5,6</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical frg:ls-cetom-aberrant-None"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Vinaya</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=14811;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=14811;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL405a.jpg" height="823px" width="768px"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone><gap reason="plain" unit="part"/>ñ<gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="1"/><zone>k<unclear>e</unclear>ṃ</zone><zone><unclear>ñc</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone><unclear>TA</unclear></zone><zone><unclear>tw</unclear>e<unclear>¯</unclear></zone><zone><unclear>¯</unclear>Ṣ</zone><zone>o</zone><zone>mp<unclear>o</unclear></zone><zone>sTA<gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>lle</zone><zone>3</zone><zone>ñi¯</zone><zone>¯<unclear>ś</unclear></zone><zone>ā</zone><zone>rya</zone><zone><gap reason="plain" unit="part"/>e</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><zone>ce¯</zone><zone>¯u</zone><zone>ñe¯</zone><zone>¯m</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=14929;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=14929;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL405b.jpg" height="823px" width="768px"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone>l<unclear>t</unclear>sa</zone><zone>wä<gap reason="plain" unit="part"/></zone><zone><unclear>ñ</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone>lñe</zone><zone>ṣa</zone><zone>nmī</zone><zone>re</zone><zone>ntse</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><zone><unclear>s</unclear><gap reason="plain" unit="part"/></zone><zone>lle</zone><zone>•</zone><zone>po</zone><zone>sTA</zone><zone>ñe</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><zone>po</zone><zone>ñce</zone><zone>wä<gap reason="plain" unit="part"/></zone><zone><unclear>p</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p><milestone unit="passage" n="Upasaṃpadā"/>
+<lb corresp="#a1"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w><gap reason="plain" unit="part"/>ñ<gap reason="plain" unit="part"/></w><gap reason="plain" quantity="1"/><w>keṃñc<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><w>-tä</w><w>twe</w><w>ṣ</w><w>ompostä<supplied>ṃ</supplied></w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>lle</w><num value="3">3</num><w>ñiś</w><w>ārya<supplied>t</supplied>e<supplied>we</supplied></w><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="lost"/><w>ceU</w><w>ñem</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><w><supplied>śau</supplied>ltsa</w><w>wä<supplied>r</supplied>ñ<supplied>ai</supplied></w><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><w>-lñe</w><w>ṣanmīrentse</w><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><w>-s<gap reason="plain" unit="part"/>lle</w><pc>•</pc><w>postäñe</w><gap reason="lost"/>
+<lb corresp="#b4"/><gap reason="lost"/><w>poñ</w><w>ce</w><w>wä<supplied>r</supplied>p<supplied>anamar</supplied></w><gap reason="lost"/></p>
+         </div>
+         <div type="comments">
+            <p><note type="parallels"><bibl><title corresp="ref:chung2004"/><citedRange>49</citedRange></bibl>, V 6.1-6.2</note><note corresp="#b1" type="philcomment"><hi>wä(r)ñ(ai)</hi>: pace <bibl><title corresp="ref:ogihara2011"/><citedRange>121</citedRange></bibl>, who reads <hi>wä(r)[ñ]ai</hi>, the vocalism over the second akṣara is completely lost (see <bibl><title corresp="ref:peyrot2007"/><citedRange>№405</citedRange></bibl>).</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition</label><bibl><title corresp="ref:peyrot2007"/><citedRange>№405</citedRange></bibl><bibl><title corresp="ref:peyrot2007"/><citedRange>№405</citedRange></bibl>; <bibl><title corresp="ref:ogihara2011"/><citedRange>121-122</citedRange></bibl>. </p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 405" type="external">IOL Toch 405</ref></bibl>. </p>
+            <p><label>Identification</label><bibl><title corresp="ref:ogihara2011"/><citedRange>121</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="created_date_old">2011-12-01, 19:46:15 (CET)</item>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="access_old">restricted</item>
+               <item n="m_collection_old">British Library (London)</item>
+               <item n="m_lines_old">4</item>
+               <item n="file_location_old">pages/manuscript/IOL_Toch/ioltoch405.txt</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="version_old">6</item>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;b1.&lt;/b&gt; &lt;i&gt;wä(r)ñ(ai)&lt;/i&gt;: pace [[Ogihara 2011]]: 121, who reads &lt;i&gt;wä(r)[ñ]ai&lt;/i&gt;, the vocalism over the second akṣara is completely lost (see [[Peyrot 2007]]: №405).&lt;/p&gt;</item>
+               <item n="m_passage_old">Upasaṃpadā</item>
+               <item n="page_name_old">IOL Toch 405</item>
+               <item n="file_modified_old">1558222916</item>
+               <item n="file_created_old">1322765175</item>
+               <item n="m_size_h_old">5,4</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 405"&gt;IOL Toch 405&lt;/a&gt;.&lt;br&gt;
+Edition: [[Peyrot 2007]]: №405, [[Peyrot 2007]]: №405; [[Ogihara 2011]]: 121-122.&lt;br&gt;
+Identification: [[Ogihara 2011]]: 121.</item>
+               <item n="file_size_old">2 KB</item>
+               <item n="m_transliteration_old">a1 /// – ·ñ· – k[e]ṃ[ñc]· ///
+a2 /// -[_t_a tw]e _ṣ[\] omp[o]s_t_a[·] ///
+a3 /// – lle 3 ñi[ś]\ ārya·e- ///
+a4 /// ce_u\ ñem\ – ///
+b1 /// -l[t]sa wä·[ñ]· ///
+b2 /// -lñe ṣanmīrentse ///
+b3 /// -[s]·lle • pos_t_añe ///
+b4 /// poñ ce wä[·p]· ///</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=14811;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=14811;rotate=0;imageType=_M||IOL Toch 405 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=14929;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=14929;rotate=0;imageType=_M||IOL Toch 405 verso</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="group_old">Editor</item>
+               <item n="m_title_old">Karmavācanā</item>
+               <item n="m_transcription_old">a1 /// – ·ñ· – keṃñc· ///
+a2 /// -tä twe ṣ ompostä(ṃ) ///
+a3 /// – lle 3 ñiś ārya(t)e(we) ///
+a4 /// cau|ce_u ñem – ///
+b1 /// (śau)ltsa wä(r)ñ(ai) ///
+b2 /// -lñe ṣanmīrentse ///
+b3 /// -s·lle • postäñe ///
+b4 /// poñ ce wä(r)p(anamar) ///</item>
+               <item n="editgroup_old">Admin</item>
+               <item n="ms_old">IOL Toch 405</item>
+               <item n="m_script_old">Classical</item>
+               <item n="edited_date_old">2016-10-27, 15:50:26 (CEST)</item>
+               <item n="m_parallels_old">[[Chung 2004]]: 49, V 6.1-6.2</item>
+               <item n="m_size_w_old">5,6</item>
+               <item n="m_other_sigla_old">D 46</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="file_name_old">pages/manuscript/IOL_Toch/ioltoch405.txt</item>
+               <item n="m_subgenre_old">Vinaya</item>
+               <item n="file_savedate_old">2016-10-27, 15:50:26 (CEST)</item>
+               <item n="m_language_add_old">None</item>
+               <item n="category_old">manuscript</item>
+               <item n="user_modified_old">theres</item>
+               <item n="user_created_old">automatic</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

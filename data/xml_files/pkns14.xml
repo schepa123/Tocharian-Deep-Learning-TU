@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-pkns14">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PK NS 14</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Georges-Jean Pinault</name>
+            </respStmt>
+            <respStmt>
+               <resp>collaborator</resp>
+               <name>Hannes A. Fellner</name>
+            </respStmt>
+            <respStmt>
+               <resp>collaborator</resp>
+               <name>Theresa Illés</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <date when="2014-07">July 2014</date>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</repository>
+                  <idno>PK NS 14</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>8,9</height>
+                              <width>7,6</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <dimensions type="line_spacing">
+                              <height>1,5</height>
+                           </dimensions>
+                           <measure type="lines">5</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Colophon</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic url="NSHuard/NS14a.png" height="1177px" width="1308px"/>
+            <line xml:id="lf"><zone>94</zone></line>
+            <line n="1" xml:id="a1"><zone>kṛ</zone><zone>ti</zone><zone>rā</zone><zone>cā</zone><zone>ry<gap reason="par" unit="part"/></zone><zone><unclear>s</unclear>th<gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><zone>mu</zone><zone>ṅka</zone><zone>re</zone><zone>le</zone><zone>khā</zone><zone>ke</zone><zone>pai</zone><zone><unclear>yk</unclear><gap reason="par" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><zone>mā</zone><zone>ṢPA</zone><zone>a</zone><zone>knā</zone><zone>tsa</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><zone>ṢA</zone><zone>lle</zone><zone>tā</zone><zone>ko¯</zone><zone>¯yñ</zone><zone>pa</zone><zone><unclear>ñ</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic url="NSHuard/NS14b.png" height="1176px" width="1308px"/>
+            <line n="1" xml:id="b1"><zone>ni</zone><zone><unclear>r</unclear>v<unclear>ā</unclear></zone><zone>hya</zone><zone>te</zone><zone>ya</zone><zone>dbha</zone><zone>va</zone><zone><unclear>nā</unclear><gap reason="par" unit="part"/></zone><zone><gap reason="par" unit="part"/><unclear>r</unclear><gap reason="par" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><zone>pte</zone><zone>da</zone><zone>dā</zone><zone>ti</zone><zone>y<unclear>o</unclear></zone><zone>ya</zone><zone>nta</zone><zone>du</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><zone>yāṃ</zone><zone>śca</zone><zone><unclear>bho</unclear></zone><zone><gap reason="par" unit="part"/><unclear>tu</unclear>ṃ</zone><zone>klī</zone><space type="string_hole"/><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><zone><unclear>2</unclear></zone><zone>kā</zone><zone>le</zone><zone>ca</zone><zone>pā</zone><zone>tre</zone><zone>ca</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><zone>e</zone><zone>va</zone><zone>nā</zone><zone>nya</zone><zone>ḥ</zone><zone><unclear>da</unclear></zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <fw type="leafNum" corresp="#lf">94</fw>
+            <p>
+<lb corresp="#a1"/><w>kṛtir</w><w>ācāry<supplied>a</supplied>sth<supplied>avira</supplied></w><gap reason="lost"/>
+<lb corresp="#a2"/><w>muṅkare</w><w>lekhāke</w><w>paiyk<supplied>amai</supplied></w><gap reason="lost"/>
+<lb corresp="#a3"/><w>mā</w><w>ṣpä</w><w>aknātsa<supplied>ññe</supplied></w><gap reason="lost"/>
+<w><supplied>kanä</supplied><lb corresp="#a4"/>ṣälle</w><w>tākoy-ñ</w><w>pañ<supplied>äktäññe</supplied></w><w><supplied>perneṣṣe</supplied></w><w><supplied>akālk</supplied></w><gap reason="lost"/>
+<lb corresp="#b1"/><w>nurvāhyate</w><w>yad</w><w>bhavanā<supplied>t</supplied></w><w><supplied>p</supplied>r<supplied>adīptāt</supplied></w><gap reason="lost"/>
+<lb corresp="#b2"/><w>pte</w><w>dadāti</w><w>yo</w><w>yan</w><w>tad</w><w>u</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#b3"/><w>yāṃśca</w><w>bho<supplied>k</supplied>tuṃ</w><w>klī</w><gap reason="lost"/>
+<lb corresp="#b4"/><num value="2">2</num><w>kāle</w><w>ca</w><w>pātre</w><w>ca</w><w><supplied>vimoktum</supplied></w><gap reason="lost"/>
+<lb corresp="#b5"/><w>eva</w><w>nānyaḥ</w><w>da</w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl"><hi>Sanskrit</hi></seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">I, Muṅkare the scribe, have written [this] ...</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">and no ignor(ance?) ...</seg></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl">... may (the wish for the dignity of) Bu(ddha) lord be (ful)filled for me.</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl"><hi>Sanskrit</hi></seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl"><hi>Sanskrit</hi></seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl"><hi>Sanskrit</hi></seg></seg></choice><choice corresp="#b4"><seg><seg type="prim_transl"><hi>Sanskrit</hi></seg></seg></choice><choice corresp="#b5"><seg><seg type="prim_transl"><hi>Sanskrit</hi></seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="philcomment">The Sanskrit colophon in a1 can be completed as follows: 
+<hi>... -stavaḥ samāptaḥ kṛtir ācayasthavira-[proper name]</hi> 
+'The praise of ... is finished, work of the master elder NN' 
+Cf. <bibl><title corresp="ref:schlingloff1955"/><citedRange>116-117</citedRange></bibl>.</note><note type="remarks">This fragment is the left part of a leaf keeping the left margin. It has the leaf number <hi>94</hi> on the margin of the verso. The Sanskrit text of the verso corresponds to <bibl><title corresp="ref:schlingloff1955"/><citedRange>38</citedRange></bibl> (38, 2-5), a praise of giving. It belongs to a stotra on the value of giving and munificence.The recto starts with a colophon in Sanskrit in line a1. After this Sanskrit colophon follows the colophon in Tocharian B in lines a2 to a4.</note><note corresp="#a2" type="philcomment">Before <hi>lekhāke</hi> 'copyist' we expect the proper name. It is by no means certain that <hi>muṅkare</hi> is complete. It has no connection with any recorded Tocharian proper name. It has proved impossible to find a corresponding name ending in Skt. <hi>-kara-</hi>. Therefore one my suggest that it is the loan of the proper name (attested in the Rājataraṅginī) Skt. <hi>muṅgaṭa-</hi> through Middle Indic intermediary, cf. <bibl><title corresp="ref:monierwilliams1899"/></bibl>, 820c.</note><note corresp="#a4" type="philcomment">This restoration is given for sake of completeness. An alternative restoration could be considered if the verb <hi>tākoy-ñ</hi> is taken as the final word of a sentence.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>other</label>Edition in <bibl><title corresp="ref:couvreur1970"/><citedRange>179-180</citedRange></bibl> pl. III.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_image_old"/>
+               <item n="date_publication_old">July 2014</item>
+               <item n="m_transliteration_old">a1 kṛtir ācāry(·)[s]th· ///
+a2 muṅkare lekhāke pai[yk(·)] ///
+a3 mā _ṣ_p_a aknātsa ///
+a4 _ṣ_alle tākoy-ñ\ pa[ñ·] ///
+b1 ni[r]v[ā]hyate yad bhava[nā](· ·)[r(·)] ///
+b2 pte dadāti y[o] yan tad u – ///
+b3 yāṃśca [bho](·)[tu]ṃ klī ○ ///
+b4 [2] kāle ca pātre ca – ///
+b5 eva nānyaḥ [da] ///</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_bib_old">&lt;p&gt;Edition in [[Couvreur 1970]]: 179-180, pl. III&lt;/p&gt;.</item>
+               <item n="m_size_h_old">8,9</item>
+               <item n="m_next_old"/>
+               <item n="file_created_old">1361524219</item>
+               <item n="file_modified_old">1523663152</item>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old">&lt;p&gt;The Sanskrit colophon in a1 can be completed as follows:
+&lt;br&gt;
+&lt;i&gt;... -stavaḥ samāptaḥ kṛtir ācayasthavira-[proper name]&lt;/i&gt;&lt;br&gt;
+'The praise of ... is finished, work of the master elder NN'&lt;br&gt; 
+Cf. [[Schlingloff 1955]]: 116-117.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;a2.&lt;/b&gt; Before &lt;i&gt;lekhāke&lt;/i&gt; 'copyist' we expect the proper name. It is by no means certain that &lt;i&gt;muṅkare&lt;/i&gt; is complete. It has no connection with any recorded Tocharian proper name. It has proved impossible to find a corresponding name ending in Skt. &lt;i&gt;-kara-&lt;/i&gt;. Therefore one my suggest that it is the loan of the proper name (attested in the Rājataraṅginī) Skt. &lt;i&gt;muṅgaṭa-&lt;/i&gt; through Middle Indic intermediary, cf. [[M-W]], 820c.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a4.&lt;/b&gt; This restoration is given for sake of completeness. An alternative restoration could be considered if the verb &lt;i&gt;tākoy-ñ&lt;/i&gt; is taken as the final word of a sentence.&lt;/p&gt;   </item>
+               <item n="m_editor_old">Georges-Jean Pinault (in collaboration with Hannes A. Fellner, Theresa Illés)</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="file_location_old">pages/manuscript/PK_NS/pkns14.txt</item>
+               <item n="m_lines_old">5</item>
+               <item n="m_collection_old">Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</item>
+               <item n="access_old">public</item>
+               <item n="m_completeness_old"/>
+               <item n="m_linedistance_old">1,5</item>
+               <item n="m_findspot_old"/>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="user_created_old">theres</item>
+               <item n="user_modified_old">theres</item>
+               <item n="m_prev_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="m_translation_old">a1 &lt;i&gt;Sanskrit&lt;/i&gt;
+a2 I, Muṅkare the scribe, have written [this] ...
+a3 and no ignor(ance?) ...
+a4 ... may (the wish for the dignity of) Bu(ddha) lord be (ful)filled for me.
+b1 &lt;i&gt;Sanskrit&lt;/i&gt;
+b2 &lt;i&gt;Sanskrit&lt;/i&gt;
+b3 &lt;i&gt;Sanskrit&lt;/i&gt;
+b4 &lt;i&gt;Sanskrit&lt;/i&gt;
+b5 &lt;i&gt;Sanskrit&lt;/i&gt;</item>
+               <item n="m_subgenre_old">Colophon</item>
+               <item n="m_metric_form_old"/>
+               <item n="m_tune_old"/>
+               <item n="m_language_old">Sanskrit+TB</item>
+               <item n="m_remarks_old">&lt;p&gt;This fragment is the left part of a leaf keeping the left margin. It has the leaf number &lt;i&gt;94&lt;/i&gt; on the margin of the verso. The Sanskrit text of the verso corresponds to [[Schlingloff 1955]]: 38 (38, 2-5), a praise of giving. It belongs to a stotra on the value of giving and munificence.The recto starts with a colophon in Sanskrit in line a1. After this Sanskrit colophon follows the colophon in Tocharian B in lines a2 to a4.&lt;/p&gt; </item>
+               <item n="m_other_sigla_old"/>
+               <item n="m_size_w_old">7,6</item>
+               <item n="m_expedition_old"/>
+               <item n="m_parallels_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="project_comment_old"/>
+               <item n="ms_old">PK NS 14</item>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_leaf_old">94</item>
+               <item n="m_transcription_old">a1 |kṛtir |ācāry(a)sth(avira) ///
+a2 muṅkare lekhāke paiyk(amai) ///
+a3 mā ṣpä aknātsa(ññe) /// kanäṣälle|(kanä)|ṣälle
+a4 tākoy-ñ pañ(äktäññe perneṣṣe akālk) ///
+b1 |nurvāhyate |yad |bhavanā(t |p)r(adīptāt) ///
+b2 |pte |dadāti |yo |yan |tad |u – ///
+b3 |yāṃśca |bho(k)tuṃ |klī ///
+b4 |2 |kāle |ca |pātre |ca |(vimoktum) ///
+b5 |eva |nānyaḥ |da ///</item>
+               <item n="m_title_old"/>
+               <item n="m_genre_old">Literary</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

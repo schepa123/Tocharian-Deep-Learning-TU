@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-sib1342">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>SI B 134(2)</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Georges-Jean Pinault</name>
+            </respStmt>
+            <respStmt>
+               <resp>collaborator</resp>
+               <name>Melanie Malzahn</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>IOM (St. Petersburg)</repository>
+                  <idno>SI B 134(2)</idno>
+                  <altIdentifier>
+                     <idno>U 13</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Udānavarga</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>10,6</height>
+                              <width>6</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <dimensions type="line_spacing">
+                              <height>1,5</height>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="txb" ana="frg:ls-cetom-classical frg:ls-cetom-aberrant-None"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Doctrine</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <line xml:id="lf"><zone>lost</zone></line>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone>tma</zone><zone>nā</zone><zone>tu</zone><zone>su</zone><zone>d</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone><unclear>va</unclear></zone><zone>da</zone><zone>ma</zone><zone>ye¯</zone><zone>¯t∘</zone><zone>ṣa</zone><zone>ñ</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone>nte</zone><zone>na</zone><zone>•</zone><zone>ṣa</zone><zone>ña</zone><zone>ñmtsa</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><zone>tm<unclear>ai</unclear></zone><zone>va</zone><zone>hyā</zone><zone>tma</zone><zone>no</zone><zone>nā</zone><zone>tha</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><gap reason="lost"/><zone><unclear>mā</unclear></zone><zone>na¯</zone><zone>¯m∘</zone><zone>tu</zone><zone>sā</zone><zone>ksa</zone><zone>pu</zone><zone>l</zone><gap reason="lost"/></line>
+            <line n="6" xml:id="a6"><gap reason="lost"/><zone>ja</zone><zone>he</zone><zone>dvi</zone><zone>pra</zone><zone>ja</zone><zone><gap reason="plain" unit="part"/><unclear>e</unclear></zone><gap reason="lost"/></line>
+            <line n="7" xml:id="a7"><gap reason="lost"/><zone><unclear>sa</unclear></zone><zone>jya</zone><zone>mā</zone><zone>na</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone>kro</zone><zone>dhaṃ</zone><zone>ja</zone><zone><unclear>h</unclear></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone><unclear>kn</unclear>ā</zone><zone>tsa</zone><zone>ññe</zone><zone>wī</zone><zone>KA</zone><zone>ṣ<unclear>ṣi</unclear></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><zone>te</zone><zone>•</zone><zone>tre</zone><zone>meṃ</zone><zone>ka</zone><zone>kā</zone><zone>wo</zone><zone><unclear>rme</unclear></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><zone><unclear>w</unclear>s<unclear>e</unclear></zone><zone>wi</zone><zone>tsa</zone><zone>ka</zone><zone>ntso</zone><zone>•</zone><zone>ma</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><gap reason="lost"/><zone>l<unclear>l</unclear>ā</zone><zone>ntRA</zone><zone>•</zone><zone>taṃ</zone><zone>ca</zone><zone>ha</zone><zone>tvā</zone><gap reason="lost"/></line>
+            <line n="6" xml:id="b6"><gap reason="lost"/><zone>tvi</zone><zone>ti</zone><zone>•</zone><zone>yo</zone><zone>lo</zone><zone>yā</zone><gap reason="lost"/></line>
+            <line n="7" xml:id="b7"><gap reason="lost"/><zone><unclear>rm</unclear><gap reason="plain" unit="part"/>ṃ</zone><zone>pu</zone><zone>wa</zone><zone>rra¯</zone><zone>¯mT</zone><zone>pa</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <fw type="leafNum" corresp="#lf">lost</fw>
+            <p><milestone unit="passage" n="19.12e-20.4d"/>
+<lb corresp="#a1"/><gap reason="lost"/><w><supplied>ā</supplied>tmanā</w><w>tu</w><w>sud<supplied>āntena</supplied></w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><w><supplied>e</supplied>va</w><w>damayet</w><w>ṣañ<milestone unit="w" type="break"/><supplied>añm</supplied></w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><w><supplied>sudā</supplied>ntena</w><pc>•</pc><w>ṣañ-añmtsa</w><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="lost"/><w><supplied>ā</supplied>tmaiva</w><w>hy</w><w>ātmano</w><w>nātha<supplied>ḥ</supplied></w><gap reason="lost"/>
+<lb corresp="#a5"/><gap reason="lost"/><w><supplied>āt</supplied>mānam</w><w>tusāksa</w><w>pul<supplied>āwar</supplied></w><gap reason="lost"/>
+<lb corresp="#a6"/><gap reason="lost"/><w>jahed</w><w>vipraja<supplied>h</supplied>e<supplied>c</supplied></w><w><supplied>ca</supplied></w><gap reason="lost"/>
+<lb corresp="#a7"/><gap reason="lost"/><w><supplied>a</supplied>sajyamāna<supplied>m</supplied></w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><w>krodhaṃ</w><w>jah<supplied>ed</supplied></w><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><w><supplied>a</supplied>knātsaññe</w><w>wīkäṣṣi</w><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><w><supplied>śe</supplied>te</w><pc>•</pc><w>tremeṃ</w><w>kakāworme<supplied>ṃ</supplied></w><gap reason="lost"/>
+<lb corresp="#b4"/><gap reason="lost"/><w>wse</w><w>witsakantso</w><pc>•</pc><w>ma<supplied>dhuraghnasya</supplied></w><gap reason="lost"/>
+<lb corresp="#b5"/><gap reason="lost"/><w><supplied>pä</supplied>llānträ</w><pc>•</pc><w>taṃ</w><w>ca</w><w>hatvā</w><gap reason="lost"/>
+<lb corresp="#b6"/><gap reason="lost"/><w><supplied>sukṛtaṃ</supplied></w><w>tv</w><w>iti</w><pc>•</pc><w>yolo</w><w>yā<supplied>mor</supplied></w><gap reason="lost"/>
+<lb corresp="#b7"/><gap reason="lost"/><w><supplied>teteko</supplied>rm<supplied>e</supplied>ṃ</w><w>puwar</w><w>ramt</w><w>pa<supplied>lkṣtär</supplied></w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl"><hi>Sanskrit</hi> [12e]</seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl"><hi>Sanskrit</hi> (One should tame) oneself, [13a]</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl"><hi>Sanskrit</hi> with the self (that is well-tamed), [13c]  </seg></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl"><hi>Sanskrit</hi> [14a]</seg></seg></choice><choice corresp="#a5"><seg><seg type="prim_transl"><hi>Sanskrit</hi> Therefore control (yourself!) [14c] </seg></seg></choice><choice corresp="#a6"><seg><seg type="prim_transl"><hi>Sanskrit</hi> [1a]</seg></seg></choice><choice corresp="#a7"><seg><seg type="prim_transl"><hi>Sanskrit</hi> [1c]</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl"><hi>Sanskrit</hi> [2a]</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">(The wise one) should drive away the ignorance. [2c] </seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl"><hi>Sanskrit</hi> After having stroke down anger, [3b]</seg></seg></choice><choice corresp="#b4"><seg><seg type="prim_transl">(of anger that is) rooted in poison, [3c] <hi>Sanskrit</hi></seg></seg></choice><choice corresp="#b5"><seg><seg type="prim_transl">(the good ones) praise (the killing of it), [3e] <hi>Sanskrit</hi></seg></seg></choice><choice corresp="#b6"><seg><seg type="prim_transl"><hi>Sanskrit</hi> the evil deed [4b]</seg></seg></choice><choice corresp="#b7"><seg><seg type="prim_transl">one is tormented (afterwards) as if after having touched fire. [4d]</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="parallels">Sanskrit (<bibl><title corresp="ref:bernhard1965"/><citedRange>265-270</citedRange></bibl>)</note><note corresp="#a2" type="lingcomment">The TB compound <hi>ṣañ-añm</hi> is the usual translation of Skt. <hi>ātmānam</hi> (13a).</note><note corresp="#a5" type="lingcomment">We may assume that the Sanskrit imperative <hi>saṃ-yamaya</hi> (14c) has been translated by the imperative of the verb <hi>wlāw<hi rend="superscript">ā</hi>-</hi> ‘control’ which is always inflected in the middle; cf. also <hi>indrinta pulāwat</hi> “Control the senses!” in <ref type="ms" target="txt:m-pkas17h"/> b3.</note><note corresp="#b4" type="lingcomment">TB <hi>wse-witsakantso</hi> is a possessive compound corresponding to Skt. <hi>viṣa-mūla-</hi> ‘having poison as root’. It is in the plural because it is certainly the epithet of TB <hi>tremi</hi> ‘anger, wrath’ which is a plurale tantum. The genitive plural ending shows a mobile <hi>-o</hi> even though this is not a metrical text; however, immediately in front of interpunction, <hi>o-</hi>mobile is not unattested even in prose texts (see <bibl><title corresp="ref:malzahn2012a"/></bibl>).</note><note corresp="#b5" type="lingcomment">The verb TB <hi>pällānträ</hi> is the obvious restoration for the match of Skt. <hi>praśaṃsanti</hi> (3c).</note><note corresp="#b6" type="lingcomment">TB <hi>yolo yāmor</hi> ‘evil deed’ seems to be the most straightforward translation of Skt. <hi>duṣkṛtaṃ</hi> because this word has been taken as a substantive.</note><note corresp="#b7" type="lingcomment">The restoration of the present middle with passive value <hi>palkṣtär</hi> (and not the intransitive) of the verb <hi>pälk<hi rend="superscript">(ā)</hi>-</hi> ‘to burn, be tormented’ is warranted by the fact that it is a morphological calque of Skt. <hi>tapyate</hi>.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>other</label><bibl><title corresp="ref:levi1933"/><citedRange>47-48</citedRange></bibl>; (<bibl><title corresp="ref:bernhard1965"/><citedRange>265-270</citedRange></bibl>).</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_meter_old">6/5</item>
+               <item n="m_title_old">Udānavarga</item>
+               <item n="m_transcription_old">a1 /// (ā)tmanā tu sud(āntena) ///
+a2 /// (e)va damayet ṣañ-(añm) ///
+a3 /// (sudā)ntena • ṣañ-añmtsa ///
+a4 /// (ā)tmaiva hy ātmano nātha(ḥ) ///
+a5 /// (āt)mānam tusāksa pul(āwar) ///
+a6 /// jahed vipraja(h)e(c ca) ///
+a7 /// (a)sajyamāna(m) ///
+b1 /// krodhaṃ jah(ed) ///
+b2 /// (a)knātsaññe wikäṣṣi|wīkäṣṣi ///
+b3 /// (śe)te • tremeṃ kakāworme(ṃ) ///
+b4 /// wse witsakaṃts|witsakantso • ma(dhuraghnasya) ///
+b5 /// (pä)llānträ • taṃ ca hatvā ///
+b6 /// (sukṛtaṃ) tv iti • yolo yā(mor) ///
+b7 /// (teteko)rm(e)ṃ pūwar|puwar ramt pa(lkṣtär) ///</item>
+               <item n="m_leaf_old">lost</item>
+               <item n="m_expedition_old"/>
+               <item n="m_size_w_old">6</item>
+               <item n="m_remarks_old"/>
+               <item n="m_language_old">Sanskrit+TB</item>
+               <item n="m_other_sigla_old">U 13</item>
+               <item n="m_script_old">Classical</item>
+               <item n="project_comment_old"/>
+               <item n="ms_old">SI B 134(2)</item>
+               <item n="m_parallels_old">Sanskrit ([[Bernhard 1965]]: 265-270)</item>
+               <item n="m_translation_old">a1 &lt;i&gt;Sanskrit&lt;/i&gt; [12e]
+a2 &lt;i&gt;Sanskrit&lt;/i&gt; (One should tame) oneself, [13a]
+a3 &lt;i&gt;Sanskrit&lt;/i&gt; with the self (that is well-tamed), [13c]  
+a4 &lt;i&gt;Sanskrit&lt;/i&gt; [14a]
+a5 &lt;i&gt;Sanskrit&lt;/i&gt; Therefore control (yourself!) [14c] 
+a6 &lt;i&gt;Sanskrit&lt;/i&gt; [1a]
+a7 &lt;i&gt;Sanskrit&lt;/i&gt; [1c]
+b1 &lt;i&gt;Sanskrit&lt;/i&gt; [2a]
+b2 (The wise one) should drive away the ignorance. [2c] 
+b3 &lt;i&gt;Sanskrit&lt;/i&gt; After having stroke down anger, [3b]
+b4 (of anger that is) rooted in poison, [3c] &lt;i&gt;Sanskrit&lt;/i&gt;
+b5 (the good ones) praise (the killing of it), [3e] &lt;i&gt;Sanskrit&lt;/i&gt;
+b6 &lt;i&gt;Sanskrit&lt;/i&gt; the evil deed [4b]
+b7 one is tormented (afterwards) as if after having touched fire. [4d]</item>
+               <item n="m_subgenre_old">Doctrine</item>
+               <item n="project_check_old"/>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_prev_old"/>
+               <item n="user_created_old">theres</item>
+               <item n="user_modified_old">martin</item>
+               <item n="m_language_add_old">None</item>
+               <item n="m_completeness_current_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_linedistance_old">1,5</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="file_location_old">pages/manuscript/sib1342.txt</item>
+               <item n="m_completeness_old"/>
+               <item n="m_collection_old">IOM (St. Petersburg)</item>
+               <item n="m_lines_old">7</item>
+               <item n="access_old">restricted</item>
+               <item n="file_created_old">1361189051</item>
+               <item n="file_modified_old">1568169686</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old">10,6</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_philcomment_old"/>
+               <item n="m_passage_old">19.12e-20.4d</item>
+               <item n="m_editor_old">Georges-Jean Pinault (in collaboration with Melanie Malzahn)</item>
+               <item n="date_publication_old"/>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_transliteration_old">a1 /// tmanā tu sud ///
+a2 /// [va] damayet\• ṣañ ///
+a3 /// ntena • ṣañ-añmtsa ///
+a4 /// tm[ai]va hy ātmano nātha ///
+a5 /// [mā]nam\• tusāksa pul ///
+a6 /// jahed vipraja(h)[e] ///
+a7 /// [sa]jyamāna ///
+b1 /// krodhaṃ ja[h] ///
+b2 /// [kn]ātsaññe wī_k_aṣ[ṣi] ///
+b3 /// te • tremeṃ kakāwo[rme] ///
+b4 /// [w]s[e] witsakantso • ma ///
+b5 /// l[l]ānt_r_a • taṃ ca hatvā ///
+b6 /// tv iti • yolo yā ///
+b7 /// [rm](e)ṃ puwar ram_t\ pa ///</item>
+               <item n="m_image_old"/>
+               <item n="m_lingcomment_old">&lt;p&gt;&lt;b&gt;a2.&lt;/b&gt; The TB compound &lt;i&gt;ṣañ-añm&lt;/i&gt; is the usual translation of Skt. &lt;i&gt;ātmānam&lt;/i&gt; (13a). &lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a5.&lt;/b&gt; We may assume that the Sanskrit imperative &lt;i&gt;saṃ-yamaya&lt;/i&gt; (14c) has been translated by the imperative of the verb &lt;i&gt;wlāw&lt;sup&gt;ā&lt;/sup&gt;-&lt;/i&gt; ‘control’ which is always inflected in the middle; cf. also &lt;i&gt;indrinta pulāwat&lt;/i&gt; “Control the senses!” in [[PK AS 17H]] b3.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b4.&lt;/b&gt; TB &lt;i&gt;wse-witsakantso&lt;/i&gt; is a possessive compound corresponding to Skt. &lt;i&gt;viṣa-mūla-&lt;/i&gt; ‘having poison as root’. It is in the plural because it is certainly the epithet of TB &lt;i&gt;tremi&lt;/i&gt; ‘anger, wrath’ which is a plurale tantum. The genitive plural ending shows a mobile &lt;i&gt;-o&lt;/i&gt; even though this is not a metrical text; however, immediately in front of interpunction, &lt;i&gt;o-&lt;/i&gt;mobile is not unattested even in prose texts (see [[Malzahn 2012a]]).&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b5.&lt;/b&gt; The verb TB &lt;i&gt;pällānträ&lt;/i&gt; is the obvious restoration for the match of Skt. &lt;i&gt;praśaṃsanti&lt;/i&gt; (3c).&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b6.&lt;/b&gt; TB &lt;i&gt;yolo yāmor&lt;/i&gt; ‘evil deed’ seems to be the most straightforward translation of Skt. &lt;i&gt;duṣkṛtaṃ&lt;/i&gt; because this word has been taken as a substantive.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b7.&lt;/b&gt; The restoration of the present middle with passive value &lt;i&gt;palkṣtär&lt;/i&gt; (and not the intransitive) of the verb &lt;i&gt;pälk&lt;sup&gt;(ā)&lt;/sup&gt;-&lt;/i&gt; ‘to burn, be tormented’ is warranted by the fact that it is a morphological calque of Skt. &lt;i&gt;tapyate&lt;/i&gt;.&lt;/p&gt;</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_bib_old">[[Lévi 1933]]: 47-48; ([[Bernhard 1965]]: 265-270).</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

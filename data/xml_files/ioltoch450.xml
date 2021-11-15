@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-ioltoch450">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>IOL Toch 450</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library (London)</repository>
+                  <idno>IOL Toch 450</idno>
+                  <altIdentifier>
+                     <idno>D 91</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Vinayavibhaṅga</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>4,6</height>
+                              <width>4,5</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical frg:ls-cetom-aberrant-None"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Vinaya</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=15095;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=15095;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL450a.jpg" height="827px" width="709px"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone>tto</zone><zone>tpā</zone><zone>TA∘</zone><zone><unclear>po</unclear></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone>pi</zone><zone>kwa</zone><zone>la</zone><zone>pe</zone><zone>lai</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone>prā</zone><zone>ti</zone><zone>mo</zone><zone>kṣ<unclear>m</unclear>ā</zone><zone>we</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=15094;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=15094;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL450b.jpg" height="827px" width="709px"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone><unclear>t</unclear>r<unclear>i</unclear></zone><zone>t<gap reason="plain" unit="part"/></zone><zone>sa</zone><gap reason="plain" quantity="1"/><zone><unclear>m</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone><unclear>s</unclear>e</zone><zone>ma</zone><zone>ne</zone><zone>•</zone><zone>e</zone><zone>pi</zone><zone><unclear>y</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>mi</zone><zone>pe</zone><zone>lai</zone><zone><unclear>k</unclear><gap reason="plain" unit="part"/>e</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p><milestone unit="passage" n="not identified"/>
+<lb corresp="#a1"/><gap reason="lost"/><w><supplied>ci</supplied>ttotpāt<surplus>ä</surplus></w><w>po<supplied>sāt</supplied></w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><w>pikwala</w><w>pelai<supplied>kne</supplied></w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><w>prātimokṣ</w><w>mā</w><w>we<milestone unit="w" type="break"/></w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><w>trit<supplied>e</supplied>sa</w><gap reason="plain" quantity="1"/><w>m<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><w>-semane</w><pc>•</pc><w>epiy<supplied>ac</supplied></w><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>mi</w><w>pelaik<supplied>n</supplied>e</w><gap reason="lost"/></p>
+         </div>
+         <div type="comments">
+            <p><note corresp="#a1" type="philcomment">In <bibl><title corresp="ref:peyrot2007"/><citedRange>№450</citedRange></bibl>, this line was read <hi>/// tno tpā<hi rend="underline">t</hi>[\], 1 [po] ///</hi>. Without making explicit why, <bibl><title corresp="ref:ogihara2009"/><citedRange>124</citedRange></bibl> prefers to read <hi>/// nto rwā <hi rend="underline">ta</hi>ṃ p· ///</hi>. Although one may disagree on some details, I can definitely not accept his reading <hi>rwā</hi>. My current reading <hi>(ci)ttotpāt po(sāt)</hi> sees here a Tocharianised form of Skt. <hi>cittotpādapoṣatha</hi> "Beichtfeier aufgrund des Fassens eines Vorsatzes, Entschlusses" (<bibl><title corresp="ref:swft1973"/></bibl> II: 253a).</note><note corresp="#a3" type="philcomment"><hi>we-</hi>: probably <hi>we(ṣṣäṃ)</hi> "he says".</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Identification</label><bibl><title corresp="ref:peyrot2007"/><citedRange>№450</citedRange></bibl> (approximate); <bibl><title corresp="ref:ogihara2009"/><citedRange>124</citedRange></bibl> (approximate).</p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 450" type="external">IOL Toch 450</ref></bibl>. </p>
+            <p><label>Edition</label><bibl><title corresp="ref:peyrot2007"/><citedRange>№450</citedRange></bibl><bibl><title corresp="ref:peyrot2007"/><citedRange>№450</citedRange></bibl>; <bibl><title corresp="ref:ogihara2009"/><citedRange>124, 411-412</citedRange></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_linedistance_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="file_location_old">pages/manuscript/IOL_Toch/ioltoch450.txt</item>
+               <item n="m_collection_old">British Library (London)</item>
+               <item n="m_lines_old">3</item>
+               <item n="access_old">restricted</item>
+               <item n="file_created_old">1322765175</item>
+               <item n="file_modified_old">1477647972</item>
+               <item n="m_size_h_old">4,6</item>
+               <item n="m_next_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;a1.&lt;/b&gt; In [[Peyrot 2007]]: №450, this line was read &lt;i&gt;/// tno tpā&lt;u&gt;t&lt;/u&gt;[\], 1 [po] ///&lt;/i&gt;. Without making explicit why, [[Ogihara 2009]]: 124 prefers to read &lt;i&gt;/// nto rwā &lt;u&gt;ta&lt;/u&gt;ṃ p· ///&lt;/i&gt;. Although one may disagree on some details, I can definitely not accept his reading &lt;i&gt;rwā&lt;/i&gt;. My current reading &lt;i&gt;(ci)ttotpāt po(sāt)&lt;/i&gt; sees here a Tocharianised form of Skt. &lt;i&gt;cittotpādapoṣatha&lt;/i&gt; "Beichtfeier aufgrund des Fassens eines Vorsatzes, Entschlusses" ([[SWTF]] II: 253a).&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a3.&lt;/b&gt; &lt;i&gt;we-&lt;/i&gt;: probably &lt;i&gt;we(ṣṣäṃ)&lt;/i&gt; "he says".&lt;/p&gt;</item>
+               <item n="m_passage_old">not identified</item>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="date_publication_old"/>
+               <item n="m_transliteration_old">a1 /// -ttotpā_t(\)• [po]- ///
+a2 /// pikwala pelai- ///
+a3 /// prātimokṣ [m]ā we- ///
+b1 /// [t]r[i]t·sa – [m]· ///
+b2 /// -[s]emane • epi[y]· ///
+b3 /// – mi pelai[k·]e ///</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=15094;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=15094;rotate=0;imageType=_M||IOL Toch 450 verso
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=15095;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=15095;rotate=0;imageType=_M||IOL Toch 450 recto</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_lingcomment_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 450"&gt;IOL Toch 450&lt;/a&gt;.&lt;br&gt;
+Edition: [[Peyrot 2007]]: №450, [[Peyrot 2007]]: №450; [[Ogihara 2009]]: 124, 411-412.&lt;br&gt;
+Identification: [[Peyrot 2007]]: №450 (approximate); [[Ogihara 2009]]: 124 (approximate).</item>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_meter_old"/>
+               <item n="m_transcription_old">a1 /// (ci)ttotpāt po(sāt) ///
+a2 /// pikwala pelai(kne) ///
+a3 /// prātimokṣ mā we- ///
+b1 /// trit(e)sa – m· ///
+b2 /// -semane • epiy(ac) ///
+b3 /// – mi pelaik(n)e ///</item>
+               <item n="m_leaf_old"/>
+               <item n="m_title_old">Vinayavibhaṅga</item>
+               <item n="m_size_w_old">4,5</item>
+               <item n="m_expedition_old"/>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old"/>
+               <item n="m_other_sigla_old">D 91</item>
+               <item n="m_script_old">Classical</item>
+               <item n="project_comment_old"/>
+               <item n="ms_old">IOL Toch 450</item>
+               <item n="m_parallels_old"/>
+               <item n="m_translation_old"/>
+               <item n="m_subgenre_old">Vinaya</item>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_prev_old"/>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old">theres</item>
+               <item n="m_language_add_old">None</item>
+               <item n="category_old">manuscript</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht106">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 106</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 106</idno>
+                  <altIdentifier>
+                     <idno>B 106.1</idno>
+                  </altIdentifier>
+                  <msName>Araṇemi α</msName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Šorčuq</region>during <rs type="expedition_code">Š 93</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Colophon</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=327957;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=327957;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="a1"><gap reason="illegible"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone>:</zone><zone>ṣe¯</zone><zone>¯K</zone><zone>su</zone><zone>yo</zone><zone><gap reason="plain" unit="part"/><unclear>e</unclear></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone>rtā</zone><zone>kaṃ</zone><zone>me</zone><zone>mā</zone><zone>ṣñi</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>i</zone><zone>॥</zone><zone><unclear>ś</unclear><gap reason="plain" unit="part"/>e</zone><zone>ya</zone><zone>rke</zone><zone>a</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><gap reason="lost"/><zone>KTA</zone><zone>ññe</zone><gap reason="lost"/></line>
+            <line n="6" xml:id="a6"><gap reason="lost"/><zone><unclear>KTA</unclear></zone><zone>ññ<unclear>e</unclear></zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="illegible"/>
+<lb corresp="#a2"/><gap reason="lost"/><pc>:</pc><w>ṣek</w><w>su</w><w>yo<gap reason="plain" unit="part"/>e</w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><w>r</w><w>tākaṃ-me</w><w>mā</w><w>ṣ</w><w>ñi</w><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>i</w><pc>॥</pc><w>ś<supplied>l</supplied>e</w><w>yarke</w><w>a<milestone unit="w" type="break"/></w><gap reason="lost"/>
+<lb corresp="#a5"/><gap reason="lost"/><w>ktäññe</w><gap reason="lost"/>
+<lb corresp="#a6"/><gap reason="lost"/><w>ktäññe</w><gap reason="lost"/></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">The original manuscript is missing. Fragment of one side of a leaf only.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 106" type="external">THT 106</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/01/0106.htm" type="external">THT 106</ref></bibl>. </p>
+            <p><label>Edition</label><bibl><title corresp="ref:siegandsiegling1953"/><citedRange>40</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Šorčuq</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_completeness_old"/>
+               <item n="access_old">public</item>
+               <item n="m_lines_old">6</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="file_location_old">pages/manuscript/THT_0001_0633/tht106.txt</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_editor_old"/>
+               <item n="m_philcomment_old"/>
+               <item n="m_passage_old"/>
+               <item n="file_modified_old">1562060041</item>
+               <item n="file_created_old">1332006597</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 106" target="idp"&gt;THT 106&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/01/0106.htm" target="titus"&gt;THT 106&lt;/a&gt;.&lt;br&gt;
+Edition: [[TochSprR(B) II]]: 40.</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old">Araṇemi α</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_transliteration_old">1 &lt;i&gt;illegible&lt;/i&gt;
+2 /// : ṣe_k\ su yo[·e] ///
+3 /// r tākaṃ-me mā ṣ ñi ///
+4 /// ·i || [ś](l)e yarke a ///
+5 /// _k_t_aññe ///
+6 /// [_k_t_a]ññ[e] ///</item>
+               <item n="date_publication_old"/>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=327957;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=327957;rotate=0;imageType=_M||THT 106 recto</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old">2 /// : ṣek su yo·e ///
+3 /// r tākaṃ-me mā ṣ ñi ///
+4 /// ·i || ś(l)e yarke a- ///
+5 /// ktäññe ///
+6 /// ktäññe ///</item>
+               <item n="m_title_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="ms_old">THT 106</item>
+               <item n="project_comment_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="m_parallels_old"/>
+               <item n="m_expedition_old">Š 93</item>
+               <item n="m_size_w_old"/>
+               <item n="m_other_sigla_old">B 106.1</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old">The original manuscript is missing. Fragment of one side of a leaf only.</item>
+               <item n="project_check_old"/>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Verse</item>
+               <item n="m_translation_old"/>
+               <item n="m_subgenre_old">Colophon</item>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_prev_old"/>
+               <item n="user_modified_old">bernhard</item>
+               <item n="user_created_old">automatic</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-sht14021">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>SHT 1402.1</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>SHT 1402.1</idno>
+                  <altIdentifier>
+                     <idno>SHT 1402/1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>7.5</height>
+                              <width>11.3</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">5+</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="txb"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Gloss</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=295393;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=295393;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="a1"><zone>e</zone><zone>ṅk<unclear>t</unclear>si</zone><zone>tse</zone></line>
+            <line n="5" xml:id="a5"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone><unclear>s</unclear>i</zone><zone><unclear>p</unclear>ā</zone><zone><gap reason="plain" unit="part"/>e</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><w>eṅktsitse</w>
+<lb corresp="#a5"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>si</w><w>pā</w><w><gap reason="plain" unit="part"/>e</w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">of taking</seg></seg></choice><choice corresp="#a5"><seg><seg type="prim_transl">?</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">SHT 1402 consists of two fragments (SHT 1402/1 and SHT 1402/2), and these and fragments SHT 1403a and SHT 2081a belong to the same leaf.</note><note corresp="#a1" type="philcomment">Glosses Skt. <hi>saṃ(gra)haṇārthaṃ</hi> 'zum Zweck des Ergreifens' ['for the purpose of seizing'] (<bibl><title corresp="ref:swft1973"/></bibl>: IV, 262a). This gloss is not mentioned in <bibl><title corresp="ref:sanderandwaldschmidt1985"/><citedRange>249</citedRange></bibl> or <bibl><title corresp="ref:wille2004"/><citedRange>91</citedRange></bibl>.</note><note corresp="#a5" type="lingcomment">The gloss is unclear, but probably in TB in view of the other gloss in a1 above. Nevertheless, the hand is clearly different. <bibl><title corresp="ref:wille2004"/><citedRange>91</citedRange></bibl> reads the gloss as <hi>.i .. ..</hi>.</note><note corresp="#a5" type="philcomment">Glosses Skt. <hi>māyāṃ cāhaṃ</hi> 'and I [know] magic' (cf. <bibl><title corresp="ref:waldschmidt1981"/><citedRange>497</citedRange></bibl>, who notes on the text page that <hi>māyā</hi> is here to be understood in the negative sense of 'fraud, deceit').</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=SHT 1402/1" type="external">SHT 1402/1</ref></bibl>.</p>
+            <p><label>other</label><bibl><title corresp="ref:peyrot2014"/><citedRange>153</citedRange></bibl>..</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_title_old"/>
+               <item n="m_transcription_old">a1 eṅktsitse
+a5 /// – si pā ·e ///</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_remarks_old">&lt;p&gt;SHT 1402 consists of two fragments (SHT 1402/1 and SHT 1402/2), and these and fragments SHT 1403a and SHT 2081a belong to the same leaf. &lt;/p&gt;</item>
+               <item n="m_language_old">Sanskrit+TB</item>
+               <item n="m_other_sigla_old">SHT 1402/1</item>
+               <item n="m_size_w_old">11.3</item>
+               <item n="m_expedition_old"/>
+               <item n="m_parallels_old"/>
+               <item n="m_script_old"/>
+               <item n="ms_old">SHT 1402.1</item>
+               <item n="project_comment_old">&lt;p&gt;&lt;ul&gt;
+&lt;li&gt;I changed the page name from "SHT 1402" to "SHT 1402.1", since there is clearly only data of this very fragment entered (cp. size, lines, etc.). –Martin (Mon, 2016-08-01, 16:31:05 (CEST))&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</item>
+               <item n="m_translation_old">a1 of taking
+a5 ?</item>
+               <item n="m_subgenre_old">Gloss</item>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_tune_old"/>
+               <item n="user_created_old">theres</item>
+               <item n="user_modified_old">theres</item>
+               <item n="m_prev_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="m_linedistance_old"/>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="file_location_old">pages/manuscript/sht14021.txt</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_lines_old">5+</item>
+               <item n="access_old">restricted</item>
+               <item n="m_completeness_old"/>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old">7.5</item>
+               <item n="file_created_old">1445610099</item>
+               <item n="file_modified_old">1485173121</item>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;a1.&lt;/b&gt; Glosses Skt. &lt;i&gt;saṃ(gra)haṇārthaṃ&lt;/i&gt; 'zum Zweck des Ergreifens' ['for the purpose of seizing'] ([[SWTF]]: IV, 262a). This gloss is not mentioned in [[SHT V]]: 249 or [[SHT IX]]: 91.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a5.&lt;/b&gt; Glosses Skt. &lt;i&gt;māyāṃ cāhaṃ&lt;/i&gt; 'and I [know] magic' (cf. [[Waldschmidt 1981]]: 497, who notes on the text page that &lt;i&gt;māyā&lt;/i&gt; is here to be understood in the negative sense of 'fraud, deceit').&lt;/p&gt;</item>
+               <item n="m_passage_old"/>
+               <item n="m_editor_old"/>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_image_old">http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=295393;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=295393;rotate=0;imageType=_M||$page; recto
+http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=295443;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=295443;rotate=0;imageType=_M||$page; verso</item>
+               <item n="date_publication_old"/>
+               <item n="m_language_stage_old"/>
+               <item n="m_transliteration_old">a1 eṅk[t]sitse
+a5 /// – [s]i [p]ā ·e ///</item>
+               <item n="m_lingcomment_old">&lt;p&gt;&lt;b&gt;a5.&lt;/b&gt; The gloss is unclear, but probably in TB in view of the other gloss in a1 above. Nevertheless, the hand is clearly different. [[SHT IX]]: 91 reads the gloss as &lt;i&gt;.i .. ..&lt;/i&gt;.&lt;/p&gt;</item>
+               <item n="m_manuscript_old"/>
+               <item n="m_bib_old">&lt;p&gt;[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=SHT 1402/1" target="idp"&gt;SHT 1402/1&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;[[Peyrot 2014]]: 153.&lt;/p&gt;.</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;&lt;ul&gt;&lt;li&gt;I changed the page name from "SHT 1402" to "SHT 1402.1", since there is clearly only data of this very fragment entered (cp. size, lines, etc.). –Martin (Mon, 2016-08-01, 16:31:05 (CEST))&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

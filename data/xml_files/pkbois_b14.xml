@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-pkbois_b14">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PK Bois B14</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</repository>
+                  <idno>PK Bois B14</idno>
+                  <altIdentifier>
+                     <idno>Pelliot Koutchéen Bois B14</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>LP 19</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>wood tablet</material>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>2,18–0,8</height>
+                              <width>10,0–2,2</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Šaldiraŋ</region><placeName>Watchtower</placeName></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Non-literary</term>
+               <term type="subgenre">Laissez-passer</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <line n="1" xml:id="a1"><gap reason="plain" quantity="1"/><zone><gap reason="plain" unit="part"/>ṣ<gap reason="plain" unit="part"/></zone><zone>•</zone><zone>te</zone><zone>pa</zone><zone>rra</zone><zone>tā</zone><zone>r<unclear>k</unclear>a</zone><zone><unclear>•</unclear></zone><zone><gap reason="plain" unit="part"/>e</zone><zone>sa</zone><zone>au</zone><zone>ṣa<unclear>¯</unclear></zone><zone><unclear>¯</unclear><unclear>P</unclear></zone><zone>mā</zone><gap reason="plain" quantity="1"/><zone>r<unclear>ka</unclear></zone><zone><unclear>na</unclear></zone></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone><unclear>ṣ</unclear>u</zone><zone>lle</zone><zone>kne</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="plain" quantity="1"/><w><gap reason="plain" unit="part"/>ṣ<gap reason="plain" unit="part"/></w><pc>•</pc><w>te</w><w>parra</w><w>tārka</w><pc>•</pc><w><supplied>t</supplied>esa</w><w>auṣap</w><w>mā</w><w><supplied>tä</supplied>rkana</w>
+<lb corresp="#a2"/><gap reason="lost"/><gap reason="plain" quantity="1"/><w>ṣullekne</w><gap reason="lost"/></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">thickness 0,36–0,25 cm</note><note corresp="#a2" type="philcomment"><hi>[ṣ]ullekne</hi> or <hi>[p]ullekne</hi></note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition</label><bibl><title corresp="ref:pinault1987"/><citedRange>91</citedRange></bibl>.</p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_image_old"/>
+               <item n="m_language_stage_old"/>
+               <item n="m_transliteration_old">a1 – ·ṣ· • te parra tār[k]a [•] (t)esa auṣa[_p\] mā (_t_a)r[kana]
+a2 /// – [ṣ]ullekne ///</item>
+               <item n="date_publication_old"/>
+               <item n="m_bib_old">Edition: [[Pinault 1987]]: 91.</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old"/>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old">2,18–0,8</item>
+               <item n="file_modified_old">1484232246</item>
+               <item n="file_created_old">1395961200</item>
+               <item n="m_editor_old"/>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;a2.&lt;/b&gt; &lt;i&gt;[ṣ]ullekne&lt;/i&gt; or &lt;i&gt;[p]ullekne&lt;/i&gt;&lt;/p&gt;</item>
+               <item n="m_passage_old"/>
+               <item n="m_material_old">Ink on wood tablet</item>
+               <item n="file_location_old">pages/manuscript/PK_Bois/pkbois_b14.txt</item>
+               <item n="access_old">restricted</item>
+               <item n="m_lines_old">2</item>
+               <item n="m_collection_old">Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)</item>
+               <item n="m_completeness_old"/>
+               <item n="m_linedistance_old"/>
+               <item n="m_findspot_specific_old">Watchtower</item>
+               <item n="m_findspot_old">Šaldiraŋ</item>
+               <item n="m_form_old"/>
+               <item n="user_modified_old">theres</item>
+               <item n="user_created_old">martin</item>
+               <item n="m_prev_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old"/>
+               <item n="m_translation_old"/>
+               <item n="m_subgenre_old">Laissez-passer</item>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="m_other_sigla_old">Pelliot Koutchéen Bois B14; LP 19</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old">&lt;p&gt;thickness 0,36–0,25 cm&lt;/p&gt;</item>
+               <item n="m_size_w_old">10,0–2,2</item>
+               <item n="m_expedition_old"/>
+               <item n="m_parallels_old"/>
+               <item n="project_comment_old"/>
+               <item n="ms_old">PK Bois B14</item>
+               <item n="m_script_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="m_title_old"/>
+               <item n="m_transcription_old">a1 – ·ṣ· • te parra tārka • (t)esa auṣap mā (tä)rkana
+a2 /// – ṣullekne ///</item>
+               <item n="m_leaf_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_genre_old">Non-literary</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

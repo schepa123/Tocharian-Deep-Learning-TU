@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-a26">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A 26</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Gerd Carling</name>
+            </respStmt>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Georges-Jean Pinault</name>
+            </respStmt>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Melanie Malzahn</name>
+            </respStmt>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <date when="2012-11-30">30.11.2012</date>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>A 26</idno>
+                  <altIdentifier>
+                     <idno>THT 659</idno>
+                  </altIdentifier>
+                  <msName>A 1-54</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Avadāna</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">6</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Šorčuq</region><placeName>Stadthöhle</placeName>during <rs type="expedition_code">T III Š 91.06</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+         <sourceDesc>
+            <p>Transcription and translation are based on <bibl><title corresp="ref:carlingetal2009"/></bibl>. </p>
+            <p>Transcription and references have been transferred from the "Text and Reference Database of the Tocharian A Language" (Gerd Carling Lund University) (funded by the Bank of Sweden Tercentenary Foundation and SCAS).</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="xto"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/06/0659va.jpg"/>
+            <graphic url="A/A26a.jpg" height="438px" width="618px"/>
+            <line n="4" xml:id="a4"><gap reason="lost"/><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><gap reason="lost"/><space type="blank"/><gap reason="lost"/></line>
+            <line n="6" xml:id="a6"><gap reason="lost"/><space type="blank"/><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/06/0659ra.jpg"/>
+            <graphic url="A/A26b.jpg" height="424px" width="618px"/>
+            <line n="1" xml:id="b1"><gap reason="par" quantity="5"/><zone><unclear>॥</unclear></zone><zone>ku</zone><zone>sne</zone><zone>ko</zone><zone>ri</zone><zone>syo</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="par" quantity="4"/><zone>lpā¯</zone><zone>¯T</zone><zone>a</zone><zone>bhi</zone><zone>ṣe¯</zone><zone>¯K</zone><zone>MA</zone><zone>rka</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="par" quantity="4"/><gap reason="plain" quantity="1"/><zone>pu</zone><zone>tti</zone><space type="string_hole"/><zone>śpa</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a4"/><gap reason="lost"/><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#a5"/><gap reason="lost"/><space type="blank"/><gap reason="lost"/>
+<lb corresp="#a6"/><gap reason="lost"/><space type="blank"/><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="plain" quantity="5"/><pc>॥</pc><w>kusne</w><w>korisyo</w><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="plain" quantity="3"/><w><supplied>kä</supplied>lpāt</w><w>abhiṣek</w><w>märka<supplied>mpalṣi</supplied></w><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="plain" quantity="5"/><w>puttiśpa</w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#b1"><seg><seg type="prim_transl">(In the tune ...): Who by myriads ...</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">... he (obtai)ned (the prophecy ?), (he received) the anointment (for the teaching of the) Law.</seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl">... (the dignity of) Buddha ...</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">The recto side is blank with just one akṣara preserved: this akṣara can be read ‹po›, less likely ‹ṣo›; in the former case it may possibly belong to <hi>postak</hi> 'book'; if it is <hi>postak</hi>, we expect the title of the book (though there is nothing left to be seen before). On the verso side lines 4 to 6 are missing. Presumably, the text in b1 starts with the name of a tune.</note><note corresp="#b3" type="philcomment">One may restore <hi>puttiśpa(räṃ)</hi> or a form of the derived adjective <hi>puttiśpa(rṣi)</hi>.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition</label><bibl><title corresp="ref:siegandsiegling1921"/><citedRange>20</citedRange></bibl>. <bibl>Siegling's personal copy of <title corresp="ref:siegandsiegling1921"/><ref target="./images/TS_Siegling/TS_Siegling_Page_020.png" type="external">p. 20</ref></bibl>.</p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT%20659" type="external">THT 659</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/06/0659.htm" type="external">THT 659</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="file_location_old">pages/manuscript/A/a26.txt</item>
+               <item n="m_lines_old">6</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="access_old">public</item>
+               <item n="m_completeness_old"/>
+               <item n="m_linedistance_old"/>
+               <item n="m_findspot_old">Šorčuq</item>
+               <item n="m_findspot_specific_old">Stadthöhle</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_image_old">http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/06/0659va.jpg|||$page; (THT 659) recto
+http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/06/0659ra.jpg|||$page; (THT 659) verso</item>
+               <item n="date_publication_old">30.11.2012</item>
+               <item n="m_language_stage_old"/>
+               <item n="m_transliteration_old">a4 /// – ///
+a5 /// &lt;i&gt;blank&lt;/i&gt; ///
+a6 /// &lt;i&gt;blank&lt;/i&gt; ///
+b1 (– – – – –) [||] kusne korisyo ///
+b2 (– – – –) lpā_t\ abhiṣe_k\ _m_arka ///
+b3 (– – – –) – putti○śpa ///</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old">A 1-54</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT%20659"&gt;THT 659&lt;/a&gt;,
+[[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/06/0659.htm"&gt;THT 659&lt;/a&gt;.&lt;br&gt;
+Transcription and references have been transferred from the "Text and Reference Database of the Tocharian A Language" (Gerd Carling, Lund University) (funded by the Bank of Sweden Tercentenary Foundation and SCAS).
+Transcription and translation are based on [[Carling, DThTA]].&lt;br&gt;
+Edition: [[TochSprR(A)]]: 20.&lt;br&gt;
+Siegling's personal copy of [[TochSprR(A)]]: &lt;a href="./images/TS_Siegling/TS_Siegling_Page_020.png"&gt;p. 20&lt;/a&gt;.</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old"/>
+               <item n="file_created_old">1328802217</item>
+               <item n="file_modified_old">1570707628</item>
+               <item n="m_passage_old"/>
+               <item n="m_philcomment_old">&lt;p&gt;&lt;b&gt;b3.&lt;/b&gt; One may restore &lt;i&gt;puttiśpa(räṃ)&lt;/i&gt; or a form of the derived adjective &lt;i&gt;puttiśpa(rṣi)&lt;/i&gt;.&lt;/p&gt;</item>
+               <item n="m_editor_old">Gerd Carling, Georges-Jean Pinault, Melanie Malzahn, Michaël Peyrot</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_language_old">TA</item>
+               <item n="m_remarks_old">&lt;p&gt;The recto side is blank with just one akṣara preserved: this akṣara can be read ‹po›, less likely ‹ṣo›; in the former case it may possibly belong to &lt;i&gt;postak&lt;/i&gt; 'book'; if it is &lt;i&gt;postak&lt;/i&gt;, we expect the title of the book (though there is nothing left to be seen before). On the verso side lines 4 to 6 are missing. Presumably, the text in b1 starts with the name of a tune.&lt;/p&gt;</item>
+               <item n="m_other_sigla_old">THT 659</item>
+               <item n="m_expedition_old">T III Š 91.06</item>
+               <item n="m_size_w_old"/>
+               <item n="m_parallels_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="project_comment_old"/>
+               <item n="ms_old">A 26</item>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_leaf_old"/>
+               <item n="m_transcription_old">a4 /// – ///
+a5 /// &lt;i&gt;blank&lt;/i&gt; ///
+a6 /// &lt;i&gt;blank&lt;/i&gt; ///
+b1 (– – – – –) || kusne korisyo ///
+b2 (– – – kä)lpāt abhiṣek_(TA)|abhiṣek märka(mpalṣi) ///
+b3 (– – – –) – puttiśpa ///</item>
+               <item n="m_title_old">Avadāna</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old">bernhard</item>
+               <item n="m_prev_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="m_subgenre_old"/>
+               <item n="m_translation_old">b1 (In the tune ...): Who by myriads ...
+b2 ... he (obtai)ned (the prophecy ?), (he received) the anointment (for the teaching of the) Law.
+b3 ... (the dignity of) Buddha ...</item>
+               <item n="m_metric_form_old"/>
+               <item n="m_tune_old"/>
+               <item n="project_check_old"/>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

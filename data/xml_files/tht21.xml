@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="en"
+     xml:id="m-tht21"
+     next="txt:m-tht22">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 21</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Hannes A. Fellner</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 21</idno>
+                  <altIdentifier>
+                     <idno>B 21</idno>
+                  </altIdentifier>
+                  <msName>Udānālaṅkāra B</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Udānālaṅkāra</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Siŋgim</region>during <rs type="expedition_code">T III S 79.28, T III S 90.7</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical frg:ls-cetom-aberrant-late"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Doctrine</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=293230;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><zone>kce</zone><zone>pu</zone><zone>dñä</zone><zone><unclear>k</unclear>te</zone><zone><unclear>:</unclear></zone><zone>y<unclear>o</unclear></zone><zone>l<unclear>o</unclear></zone><zone>me<gap reason="plain" unit="part"/></zone><zone>ā</zone><zone>ltsi</zone><zone>śkre</zone><zone>ntau</zone><zone><unclear>na</unclear></zone><gap reason="lost"/><gap reason="lost"/><zone>¯T∘</zone><zone>cw<unclear>i</unclear>¯</zone><zone>¯K</zone><zone>śa</zone><zone>wā</zone><zone>ñcai</zone><zone>lñe</zone></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone><gap reason="plain" unit="part"/>kṣā</zone><zone>me</zone><zone>kuce</zone><zone>tne</zone><zone>wno</zone><zone>lmi</zone><zone>ya</zone><zone>ma</zone><zone>nTA¯</zone><zone>¯R∘</zone><zone>kre¯</zone><zone>¯nT</zone><zone><unclear>yo</unclear></zone><gap reason="lost"/><gap reason="lost"/><zone>ai</zone><zone>lñe</zone><zone>śū</zone><zone>waṃ</zone><zone>cme</zone><zone>la</zone><zone>ne</zone></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone>TA¯</zone><zone>¯R</zone><zone>mā</zone><zone>lle</zone><zone>ko</zone><zone>50-1</zone><zone>na</zone><zone>nwā</zone><zone>lye¯</zone><zone>¯K</zone><zone>pre</zone><zone>ke</zone><zone>ka</zone><zone>rtsai</zone><gap reason="lost"/><gap reason="lost"/><zone>mñe</zone><zone><unclear>:</unclear></zone><zone>wa</zone><zone>lo</zone><zone>mā</zone><zone>ga</zone><zone>tṣe</zone><zone>a</zone></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>laiṃ</zone><zone>wā</zone><zone>ṣmo</zone><zone>ntse</zone><zone>de</zone><zone>va</zone><zone>da</zone><zone>tti</zone><zone>ṣe</zone><zone>rtwe</zone><zone>ntsa</zone><gap reason="plain" quantity="2"/><gap reason="lost"/><gap reason="lost"/><zone>prau</zone><zone>tka</zone><zone>pe</zone><zone>le</zone><zone>ne</zone><zone>śwā</zone><zone>tsi</zone><zone>yo</zone></line>
+            <line n="5" xml:id="a5"><gap reason="lost"/><zone>ṢPA</zone><zone>pai</zone><zone>ne</zone><zone>kṣu</zone><zone>rso</zone><zone>mpo</zone><zone>sTAṃ</zone><zone>tā</zone><zone>rka</zone><zone>tsi</zone><zone><unclear>:</unclear></zone><gap reason="lost"/><gap reason="lost"/><zone><gap reason="plain" unit="part"/><unclear>au</unclear></zone><zone>ṣa</zone><zone>ce¯</zone><zone>¯u</zone><zone>wä</zone><zone>ntre</zone><zone>pra</zone><zone>saṃ</zone><zone>na</zone></line>
+            <line n="6" xml:id="a6"><gap reason="lost"/><zone>a</zone><zone>jā</zone><zone>ta</zone><zone>śa</zone><zone>truṃ</zone><zone>śce¯</zone><zone>¯u</zone><zone>•</zone><zone>tu</zone><zone>ypa</zone><zone>rwe</zone><zone>śe</zone><zone>mo</zone><zone>mā</zone><zone>ga</zone><zone>TA</zone><zone>ṣ<gap reason="plain" unit="part"/>e</zone><gap reason="lost"/><gap reason="lost"/><zone>50</zone><zone>4</zone><zone>ta</zone><zone>rya</zone><zone>lkwa</zone><zone>rwa</zone><zone>śe¯</zone><zone>¯M</zone><zone>pra</zone></line>
+            <line n="7" xml:id="a7"><gap reason="lost"/><zone>re</zone><zone>tke</zone><zone>ṣā</zone><zone>lla</zone><zone>kau</zone><zone>sa</zone><zone>lṣe¯</zone><zone>¯tS</zone><zone>RA</zone><zone>skr<unclear>e</unclear></zone><zone>krā</zone><zone>sa</zone><zone>tu</zone><zone>pra</zone><gap reason="lost"/><gap reason="lost"/><zone>s<unclear>t</unclear>i</zone><zone>ṅke</zone><zone>e</zone><zone>ṅ<unclear>TA</unclear></zone><zone>rsū</zone><zone>50</zone><zone>5</zone></line>
+            <line n="8" xml:id="a8"><gap reason="lost"/><zone><unclear>:</unclear></zone><zone>sū</zone><zone>śe¯</zone><zone>¯M</zone><zone>lā</zone><zone>nTA</zone><gap reason="plain" quantity="1"/><zone>lā<unclear>¯</unclear></zone><zone><unclear>¯</unclear><unclear>nT</unclear></zone><zone>ka</zone><zone>kā</zone><zone>te</zone><zone>wai</zone><zone>pe</zone><gap reason="lost"/><gap reason="lost"/><zone>yā</zone><zone>meṃ</zone><zone>spa</zone></line>
+         </surface>
+         <surface type="verso">
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone>k<gap reason="plain" unit="part"/>¯</zone><zone>¯Ś</zone><zone>ya</zone><zone>sa</zone><zone>wa</zone><gap reason="plain" quantity="3"/><zone><unclear>nta</unclear></zone><zone>:</zone><zone>o</zone><zone>r<gap reason="plain" unit="part"/></zone><zone>cc<unclear>e</unclear></zone><zone>t<unclear>i</unclear></zone><gap reason="lost"/><gap reason="lost"/><zone>snai</zone><zone>ke¯</zone><zone>¯Ś</zone></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone><unclear>7</unclear></zone><zone>lyu</zone><zone>wa¯</zone><zone>¯Ṣ</zone><zone>pa</zone><zone>rkā</zone><zone>saṃ</zone><zone>wa</zone><zone>lo</zone><zone>śtwā</zone><zone>ra</zone><zone>KA</zone><zone>lymi</zone><zone>nt<unclear>s</unclear>a</zone><gap reason="par" quantity="1"/><gap reason="lost"/><gap reason="lost"/><zone><unclear>ma</unclear></zone><zone>ne</zone><zone>ne</zone><zone>kts<unclear>ai</unclear></zone><zone>tsñ<gap reason="plain" unit="part"/></zone><zone>so</zone><zone>stmeṃ</zone></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>ly<unclear>au</unclear></zone><zone>ce</zone><zone>mpā</zone><zone>lo</zone><zone>KA</zone><zone>lymi</zone><zone>50</zone><zone>8</zone><zone>pa</zone><zone>dma</zone><zone>ke</zone><zone>sa</zone><zone>rñe<unclear>¯</unclear></zone><zone><unclear>¯</unclear><unclear>M</unclear></zone><gap reason="lost"/><gap reason="lost"/><zone><unclear>pra</unclear></zone><zone>saṃ</zone><zone>na</zone><zone>ke</zone><zone>wa</zone><zone>lo</zone><zone>sū</zone><zone>:</zone><zone>po</zone></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><zone>ceṃ</zone><zone>ywa</zone><zone>rśkā</zone><zone>ññeṃ</zone><zone>:</zone><zone>ā</zone><zone>nte</zone><zone>ne</zone><zone>sta</zone><zone>mṣlyi</zone><zone>ku<unclear>s</unclear>e</zone><gap reason="lost"/><gap reason="lost"/><zone><unclear>tru</unclear></zone><zone>wa</zone><zone>lo</zone><zone>o</zone><zone>lypo</zone><zone>tse</zone><zone>:</zone><zone>ṣa</zone><zone>mā</zone></line>
+            <line n="5" xml:id="b5"><gap reason="lost"/><zone>nTA</zone><zone>rwe</zone><zone>tā</zone><zone>ntse</zone><zone>:</zone><zone>pa</zone><zone>kwā</zone><zone>reṃ</zone><zone>mpa</zone><zone>nau¯</zone><zone>¯Ṣ</zone><gap reason="lost"/><gap reason="lost"/><zone><gap reason="plain" unit="part"/>s<gap reason="plain" unit="part"/>¯</zone><zone>¯K</zone><zone>mai</zone><zone>yyo</zone><zone>kulā</zone><zone>TA</zone><zone>rme</zone><zone>60</zone></line>
+            <line n="6" xml:id="b6"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>lā</zone><zone>lo¯</zone><zone>¯Ṣ</zone><zone>•</zone><zone>yä</zone><zone>kte</zone><zone>ske</zone><zone>yeṃ</zone><zone>ka¯</zone><zone>¯ṢP</zone><zone>sa</zone><zone>ñi</zone><zone>klā</zone><zone><unclear>yaṃ</unclear></zone><gap reason="lost"/><gap reason="lost"/><zone><unclear>tru</unclear></zone><zone>sū</zone><zone>:</zone><zone>re</zone><zone>tke</zone><zone>mpo</zone><zone>ro</zone><zone>cce</zone><zone>va</zone></line>
+            <line n="7" xml:id="b7"><gap reason="lost"/><zone><unclear>ke</unclear></zone><zone>mā</zone><zone>ga</zone><zone>TA</zone><zone>ṣṣe</zone><zone>lā¯</zone><zone>¯nT</zone><zone>wra</zone><zone>ntsai</zone><zone>:</zone><zone>w<unclear>i</unclear></zone><zone>tā</zone><zone>rā</zone><zone>lyau</zone><gap reason="plain" quantity="1"/><gap reason="lost"/><gap reason="lost"/><zone>mā</zone><zone>ga</zone><zone>tṣṣe</zone><zone>:</zone><zone>śā</zone><zone>nmya</zone><zone>ne</zone></line>
+            <line n="8" xml:id="b8"><gap reason="lost"/><gap reason="plain" quantity="3"/><zone>dñä</zone><zone>kte</zone><zone>l<unclear>k</unclear>ā</zone><zone>tsi</zone><zone>pra</zone><zone>saṃ</zone><zone>na</zone><zone>ke</zone><zone>wa</zone><zone>lo</zone><zone>śe<unclear>¯</unclear></zone><zone><unclear>¯</unclear><unclear>M</unclear></zone><zone><unclear>•</unclear></zone><zone><unclear>MA</unclear></zone><gap reason="lost"/><gap reason="lost"/><zone>ñi</zone><zone>po</zone><zone>yśe</zone><zone>ñcai</zone><zone>sāṃ</zone><zone>e</zone><zone>mpe</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p><milestone unit="passage" n="Book 9 (Karmavarga), strophes 50-63."/>
+<lb corresp="#a1"/></p>
+            <lg type="poem" subtype="hom" met="frg:M12">
+               <lg n="50" type="strophe">
+                  <l n="a"><supplied unit="syllable" quantity="5"/><gap reason="lost"/><caesura ana="frg:cs-s"/><w><supplied>weña</supplied></w><w><supplied>ślo</supplied>k</w><w>ce</w><caesura ana="frg:cs-w"/><w>pudñäkte</w><pc>:</pc></l>
+                  <l n="b" real="5/3/3"><w>yolome<supplied>ṃ</supplied></w><w>āltsiś</w><caesura ana="frg:cs-s"/><w>krentauna</w><caesura ana="frg:cs-w"/><w><supplied>rittässiś</supplied></w><pc><supplied>:</supplied></pc></l>
+                  <l n="c"><gap reason="lost"/><supplied unit="syllable" quantity="9"/><gap reason="lost"/><w><supplied>yolo</supplied></w><w><supplied>wa</supplied>t</w></l>
+                  <l n="d"><w>cwik</w><w>śawāñc=</w><w>ailñe</w><caesura ana="frg:cs-s"/>
+<lb corresp="#a2"/><supplied unit="syllable" quantity="7"/><gap reason="lost"/><num value="50"><supplied>50</supplied></num></l>
+               </lg>
+               <lg n="51" type="strophe">
+                  <l n="a"><w><supplied>ce</supplied></w><w><supplied>ślok</supplied></w><w><supplied>a</supplied>kṣā-me</w><caesura ana="frg:cs-s"/><w>kUce</w><w>tne</w><w>wnolmi</w><caesura ana="frg:cs-w"/><w>yamantär</w></l>
+                  <l n="b" real="17/16/3"><w>krent</w><w>yo<supplied>laiṃ</supplied></w><w><supplied>yāmor</supplied></w><caesura ana="frg:cs-s"/><gap reason="lost"/><supplied unit="syllable" quantity="7"/></l>
+                  <l n="c"><supplied unit="syllable" quantity="5"/><gap reason="lost"/><caesura ana="frg:cs-s"/><w>ailñe</w><w>śūwaṃ</w><caesura ana="frg:cs-w"/><w>cmelane</w></l>
+                  <l n="d">
+<lb corresp="#a3"/><supplied unit="syllable" quantity="8"/><gap reason="lost"/><w>-tär</w><caesura ana="frg:cs-w"/><w>mā</w><w>=lleko</w><num value="51">50-1</num></l>
+               </lg>
+               <lg n="52" type="strophe">
+                  <l n="a" real="5/7"><w>nanw=</w><w>ālyek</w><w>preke</w><caesura ana="frg:cs-s"/><w>kartsai</w><supplied unit="syllable" quantity="5"/></l>
+                  <l n="b"><gap reason="lost"/><gap reason="lost"/><supplied unit="syllable" quantity="11"/><w>-mñe</w><pc>:</pc></l>
+                  <l n="c"><w>walo</w><w>māgatṣe</w><caesura ana="frg:cs-s"/>
+<w>a<lb corresp="#a4"/><supplied>jātaśat<caesura ana="frg:cs-w"/>ru</supplied></w><supplied unit="syllable" quantity="2"/><gap reason="lost"/></l>
+                  <l n="d" real="5/4/8/7"><w><supplied>yo</supplied>laiṃ</w><w>wāṣmontse</w><caesura ana="frg:cs-s"/><w>devadatti</w><caesura ana="frg:cs-w"/><w>ṣertwentsa</w><num value="52"><supplied>50-2</supplied></num></l>
+               </lg>
+               <lg n="53" type="strophe">
+                  <l n="a"><gap reason="lost"/><supplied unit="syllable" quantity="12"/><gap reason="lost"/><pc><supplied>:</supplied></pc></l>
+                  <l n="c"><w>prautka</w><w>pelene</w><caesura ana="frg:cs-s"/><w>śwātsi</w>
+<w>yo<lb corresp="#a5"/><supplied>ktsi</supplied></w><caesura ana="frg:cs-w"/><supplied unit="syllable" quantity="3"/><gap reason="lost"/><w><supplied>karsta</supplied></w><w>ṣpä</w><w>paine</w><caesura ana="frg:cs-s"/><w>kṣurs=</w><w>ompostäṃ</w><caesura ana="frg:cs-w"/><w>tārkatsi</w><pc>:</pc></l>
+                  <l n="d" real="12"><gap reason="lost"/><supplied unit="syllable" quantity="12"/><gap reason="lost"/><num value="53"><supplied>50-3</supplied></num></l>
+               </lg>
+               <lg n="54" type="strophe">
+                  <l n="a"><w><supplied>kly</supplied>auṣa</w><w>ceU</w><w>wäntre</w><caesura ana="frg:cs-s"/>
+<w>prasaṃna<lb corresp="#a6"/><supplied>ke</supplied></w><caesura ana="frg:cs-w"/><w><supplied>walo</supplied></w><w><supplied>su</supplied></w><pc><supplied>:</supplied></pc></l>
+                  <l n="b"><gap reason="lost"/><supplied unit="syllable" quantity="6"/><w>ajāta<caesura ana="frg:cs-w"/>śatruṃś</w><w>ceU</w><pc>•</pc></l>
+                  <l n="c"><w>tu</w><w>yparwe</w><w>śemo</w><caesura ana="frg:cs-s"/><w>māgatäṣ<supplied>ṣ</supplied>e</w><caesura ana="frg:cs-w"/><w><supplied>walo</supplied></w><w><supplied>su</supplied></w><pc><supplied>:</supplied></pc></l>
+                  <l n="d"><gap reason="lost"/><supplied unit="syllable" quantity="12"/><gap reason="lost"/><num value="54">50-4</num></l>
+               </lg>
+               <lg n="55" type="strophe">
+                  <l n="a" real="5/4/12/3"><w>tarya</w><w>lkwarwa</w><w>śem</w><caesura ana="frg:cs-s"/>
+<w>pra<lb corresp="#a7"/><supplied>saṃnake</supplied></w><caesura ana="frg:cs-w"/><w><supplied>walo</supplied></w><w><supplied>su</supplied></w><pc><supplied>:</supplied></pc></l>
+                  <l n="b"><w><supplied>ajātaśatru</supplied></w><caesura ana="frg:cs-s"/><w>retke</w><w>ṣālla</w><caesura ana="frg:cs-w"/><w>kausalṣets</w></l>
+                  <l n="c"><w>räskre</w><w>krāsa</w><w>tu</w><caesura ana="frg:cs-s"/><w>pra<supplied>saṃnakeṃ</supplied></w><caesura ana="frg:cs-w"/><gap reason="lost"/><supplied unit="syllable" quantity="3"/></l>
+                  <l n="d"><supplied unit="syllable" quantity="5"/><gap reason="lost"/><caesura ana="frg:cs-s"/><w><supplied>śrāva</supplied>sti</w><w>ṅke</w><caesura ana="frg:cs-w"/><w>eṅtär</w><w>sū</w><num value="55">50-5</num></l>
+               </lg>
+               <lg n="56" type="strophe">
+                  <l n="a">
+<lb corresp="#a8"/><supplied unit="syllable" quantity="12"/><gap reason="lost"/><pc>:</pc></l>
+                  <l n="b"><w>sū</w><w>śem</w><w>lāntä<supplied>śco</supplied></w><caesura ana="frg:cs-s"/><w>lānt</w><w>kakāte</w><caesura ana="frg:cs-w"/><w>waipe<supplied>cceś</supplied></w></l>
+                  <l n="c"><supplied unit="syllable" quantity="12"/><gap reason="lost"/></l>
+                  <l n="d"><gap reason="lost"/><supplied unit="syllable" quantity="5"/><caesura ana="frg:cs-s"/><w>yāmeṃ</w>
+<w>spa<lb corresp="#b1"/><supplied>ktāṃ</supplied></w><caesura ana="frg:cs-w"/><supplied unit="syllable" quantity="3"/><gap reason="lost"/><num value="56"><supplied>50-6</supplied></num></l>
+               </lg>
+               <lg n="57" type="strophe">
+                  <l n="a"><supplied unit="syllable" quantity="3"/><w><supplied>snai</supplied></w><w>k<supplied>e</supplied>ś</w><caesura ana="frg:cs-s"/><w>yasa</w><w>wa<supplied>sa</supplied></w><caesura ana="frg:cs-w"/><w><supplied>ekñi</supplied>nta</w><pc>:</pc></l>
+                  <l n="b"><w>or<supplied>o</supplied>cce</w><w>ti<milestone unit="w" type="break"/></w><supplied unit="syllable" quantity="8"/><gap reason="lost"/></l>
+                  <l n="c"><gap reason="lost"/><supplied unit="syllable" quantity="10"/><w>snai</w><w>keś</w></l>
+                  <l n="d">
+<lb corresp="#b2"/><supplied unit="syllable" quantity="12"/><gap reason="lost"/><num value="57"><supplied>50-</supplied>7</num></l>
+               </lg>
+               <lg n="58" type="strophe">
+                  <l n="a" real="5/7"><w>lyuwa</w><w>ṣ</w><w>parkāsaṃ</w><caesura ana="frg:cs-s"/><w>walo</w><w>śtwāra</w><caesura ana="frg:cs-w"/><w>kälymintsa</w><pc><supplied>:</supplied></pc></l>
+                  <l n="b"><gap reason="lost"/><supplied unit="syllable" quantity="12"/><gap reason="lost"/></l>
+                  <l n="c"><w><supplied>kule</supplied>manene</w><caesura ana="frg:cs-s"/><w>ktsaitsñ<supplied>e</supplied>s=</w><w>ostmeṃ</w><caesura ana="frg:cs-w"/>
+<lb corresp="#b3"/><supplied unit="syllable" quantity="3"/><gap reason="lost"/></l>
+                  <l n="d"><supplied unit="syllable" quantity="5"/><caesura ana="frg:cs-s"/><w><supplied>ā</supplied>lyaucemp=</w><w>ā<caesura ana="frg:cs-w"/>lokälymi</w><num value="58">50-8</num></l>
+               </lg>
+               <lg n="59" type="strophe">
+                  <l n="a"><w>padmakesar</w><w>ñem</w><caesura ana="frg:cs-s"/><supplied unit="syllable" quantity="7"/><gap reason="lost"/></l>
+                  <l n="b" real="9/3"><gap reason="lost"/><supplied unit="syllable" quantity="5"/><caesura ana="frg:cs-s"/><w>prasaṃnake</w><caesura ana="frg:cs-w"/><w>walo</w><w>sū</w><pc>:</pc></l>
+                  <l n="c" real="5/5-3"><w>po</w>
+<lb corresp="#b4"/><supplied unit="syllable" quantity="7"/><gap reason="lost"/><w>ceṃ</w><caesura ana="frg:cs-s"/><w>ywarśkāññeṃ</w><pc>:</pc></l>
+                  <l n="d"><w>āntene</w><w>stamṣlyi</w><caesura ana="frg:cs-s"/><w>kUse</w><supplied unit="syllable" quantity="6"/><gap reason="lost"/><num value="59"><supplied>50-9</supplied></num></l>
+               </lg>
+               <lg n="60" type="strophe">
+                  <l n="a"><gap reason="lost"/><supplied unit="syllable" quantity="2"/><w><supplied>ajāta<caesura ana="frg:cs-s"/>śa</supplied>tru</w><w>walo</w><caesura ana="frg:cs-w"/><w>olypotse</w><pc>:</pc></l>
+                  <l n="b">
+<w>ṣamā<lb corresp="#b5"/><supplied>ni</supplied></w><supplied unit="syllable" quantity="6"/><gap reason="lost"/><w>-ntär</w><caesura ana="frg:cs-w"/><w>wetāntse</w><pc>:</pc></l>
+                  <l n="c"><w>pakwāreṃmpa</w><w>nauṣ</w><caesura ana="frg:cs-s"/><supplied unit="syllable" quantity="7"/><gap reason="lost"/></l>
+                  <l n="d" real="12"><gap reason="lost"/><supplied unit="syllable" quantity="5"/><caesura ana="frg:cs-s"/><w><supplied>att</supplied>s<supplied>ai</supplied>k</w><w>maiyyo</w><caesura ana="frg:cs-w"/><w>kUlātär-me</w><num value="60">60</num></l>
+               </lg>
+               <lg n="61" type="strophe">
+                  <l n="a">
+<lb corresp="#b6"/><supplied unit="syllable" quantity="9"/><gap reason="lost"/><caesura ana="frg:cs-w"/><w><supplied>la</supplied>lāloṣ</w><pc>•</pc></l>
+                  <l n="b"><w>yäkte-skeyeṃ</w><w>ka</w><w>ṣp</w><caesura ana="frg:cs-s"/><w>sañi</w><w>klāyaṃ</w><caesura ana="frg:cs-w"/><supplied unit="syllable" quantity="3"/><gap reason="lost"/></l>
+                  <l n="c"><gap reason="lost"/><supplied unit="syllable" quantity="6"/><w><supplied>ajāta<caesura ana="frg:cs-w"/>śa</supplied>tru</w><w>sū</w><pc>:</pc></l>
+                  <l n="d"><w>retkemp=</w><w>orocce</w><caesura ana="frg:cs-s"/>
+<w><choice><orig>v</orig><corr>w</corr></choice>a<lb corresp="#b7"/><supplied>lo</supplied></w><supplied unit="syllable" quantity="5"/><gap reason="lost"/><num value="61"><supplied>60-1</supplied></num></l>
+               </lg>
+               <lg n="62" type="strophe">
+                  <l n="a"><w><supplied>śem</supplied></w><w><supplied>prasaṃna</supplied>ke</w><caesura ana="frg:cs-s"/><w>māgatäṣṣe</w><caesura ana="frg:cs-w"/><w>lānt</w><w>wrantsai</w><pc>:</pc></l>
+                  <l n="b"><w>witār=</w><w>ālyau<supplied>ce</supplied></w><caesura ana="frg:cs-s"/><supplied unit="syllable" quantity="7"/><gap reason="lost"/></l>
+                  <l n="c"><gap reason="lost"/><supplied unit="syllable" quantity="9"/><caesura ana="frg:cs-w"/><w>māgatṣṣe</w><pc>:</pc></l>
+                  <l n="d"><w>śānmya-ne</w>
+<lb corresp="#b8"/><supplied unit="syllable" quantity="9"/><gap reason="lost"/><num value="62"><supplied>60-2</supplied></num></l>
+               </lg>
+               <lg n="63" type="strophe">
+                  <l n="a"><w><supplied>pu</supplied>dñäkte</w><w>lkātsi</w><caesura ana="frg:cs-s"/><w>prasaṃnake</w><caesura ana="frg:cs-w"/><w>walo</w><w>śem</w><pc>•</pc></l>
+                  <l n="b"><w>mä<milestone unit="w" type="break"/></w><supplied unit="syllable" quantity="11"/><gap reason="lost"/></l>
+                  <l n="c"><gap reason="lost"/><supplied unit="syllable" quantity="4"/><w>ñi</w><caesura ana="frg:cs-s"/><w>poyśeñcai</w><w>sāṃ</w><caesura ana="frg:cs-w"/>
+<w>empe<lb/><supplied>le</supplied></w><pc><supplied>:</supplied></pc></l>
+               </lg>
+            </lg>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><bibl><title corresp="ref:hackstein1995"/><citedRange>214</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1954"/><citedRange>751</citedRange></bibl></seg><seg><seg type="prim_transl">... this (stro)phe the Buddha (spoke), to keep [the beings] from evil [and] (to tie) [them] (to) the virtues. [50b] ... or (evil), of just this [he is] consuming the [inherited] part </seg></seg></choice><choice corresp="#a1 #a2 #a3 #a4 #a5 #a6 #a7 #a8 #b1 #b2 #b3 #b4 #b5 #b6 #b7 #b8"><seg><bibl><title corresp="ref:siegandsiegling1949"/><citedRange>II, 34-35</citedRange></bibl></seg><seg><bibl><title corresp="ref:hacksteinhabataandbross2015"/><citedRange>63-81</citedRange></bibl></seg></choice><choice corresp="#a2"><seg><bibl><title corresp="ref:carling2000"/><citedRange>244</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1979b"/><citedRange>25</citedRange></bibl></seg><seg><seg type="prim_transl">[50d] (This strophe) he proclaimed to them. What the beings will do here, good [and] evil deed ... the [inherited] part [of it] they will consume in the births.</seg></seg><seg><seg type="prim_transl">Was die Wesen hier tun, gute [und] bö(se Tat), ... das [Erb]teil [davon] werden sie in den Geburten verzehren.</seg><seg type="sec_transl" resp="TI">What[ever] the beings are doing here, good [and] ba(d deed), ... [their] share [of this inheritance] they will consume in [their] births.</seg><bibl><title corresp="ref:schmidtkt1974"/><citedRange>443</citedRange></bibl></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">... not another one. [51d] At again another time good .... The king of Magadha, A(jātaśatru),</seg></seg></choice><choice corresp="#a4"><seg><bibl><title corresp="ref:carling2000"/><citedRange>165</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1957"/><citedRange>114</citedRange></bibl></seg><seg><seg type="prim_transl">... through instigation [by his] bad friend Devadatta. [52d] ... he locked [him] into prison. Food [and] drink</seg></seg></choice><choice corresp="#a5"><seg><bibl><title corresp="ref:thomas1957"/><citedRange>114</citedRange></bibl></seg><seg><seg type="prim_transl">... and (cut) [his] feet (off) with a knife. After that (he ordered?) to release (him) ... (53d). Of this matter Prasannake (the king) heard.</seg></seg></choice><choice corresp="#a6"><seg><bibl><title corresp="ref:hackstein1995"/><citedRange>305</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1957"/><citedRange>60, 114, 192</citedRange></bibl></seg><seg><seg type="prim_transl">... to the Ajātaśatru. Thereupon the (king?) of Magadha ....[54d] Three times Pra(sannaka) came</seg></seg></choice><choice corresp="#a7"><seg><bibl><title corresp="ref:hackstein1995"/><citedRange>223</citedRange></bibl></seg><seg><bibl><title corresp="ref:krause1952"/><citedRange>29</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1957"/><citedRange>114</citedRange></bibl></seg><seg><seg type="prim_transl">... (Ajātaśatru) threw the army of the Kausalas. This very much annoyed the Pra(sannaka) ... “he will, after all, take Śrāvastī”. [55d]</seg></seg><seg><seg type="prim_transl">... (Ajātaśatru) warf das Heer der Kausalas. Sehr verdross das den Par(sannaka).</seg><seg type="sec_transl" resp="TI">... (Ajātaśatru) threw the army of the kausalas. This very much annoyed Pra(sannaka).</seg><bibl><title corresp="ref:schmidtkt1974"/><citedRange>166</citedRange></bibl></seg></choice><choice corresp="#a8"><seg><bibl><title corresp="ref:carling2000"/><citedRange>235</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1957"/><citedRange>114</citedRange></bibl></seg><seg><bibl><title corresp="ref:siegandsiegling1983"/><citedRange>179</citedRange></bibl></seg><seg><seg type="prim_transl">... This one came (to the) king and invited the king to [his] possessions ... will do service</seg></seg><seg><seg type="prim_transl">Er kam (zum) König [und] bot dem König [seinen] Besitz an.</seg><seg type="sec_transl" resp="TI">He came (to) the king [and] offered [his] possessions to the king.</seg><bibl><title corresp="ref:schmidtkt1974"/><citedRange>382</citedRange></bibl></seg></choice><choice corresp="#b1"><seg><bibl><title corresp="ref:thomas1957"/><citedRange>194</citedRange></bibl></seg><seg><seg type="prim_transl">... [56d] ... (without) number he gave gold and (possessions), great ... without number</seg></seg></choice><choice corresp="#b2"><seg><bibl><title corresp="ref:carling2000"/><citedRange>106</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1957"/><citedRange>114</citedRange></bibl></seg><seg><seg type="prim_transl">... [57d] And the king sent an explanation to the four regions of the world ... when by age he (is prevented), from the house</seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl">... with one another, directed in a single direction. [58d] Padmakesara by name, (the military leader) ... the king Prasannaka. All</seg></seg></choice><choice corresp="#b4"><seg><bibl><title corresp="ref:carling2000"/><citedRange>88</citedRange></bibl></seg><seg><seg type="prim_transl">... these as one in the middle. To the front [are] to be put those, that ... [59d] ... (Ajātaśa)tru, the king, very much. Monks ... </seg></seg></choice><choice corresp="#b5"><seg><seg type="prim_transl">... of the fight. With the bad ones first .... their power will recede completely. [60d]</seg></seg></choice><choice corresp="#b6"><seg><bibl><title corresp="ref:hackstein1995"/><citedRange>221</citedRange></bibl></seg><seg><seg type="prim_transl">... having exterted themselves with little effort the enemies will fall ... the (Ajātaśa)tru. With a great army the king</seg></seg></choice><choice corresp="#b7"><seg><bibl><title corresp="ref:thomas1957"/><citedRange>115</citedRange></bibl></seg><seg><seg type="prim_transl">... [61d] (Prasanna)ka (moved) against the king of Magadha. They fought each other ... (and taken captive, the king) of Magadha. He bound him</seg></seg></choice><choice corresp="#b8"><seg><bibl><title corresp="ref:thomas1954"/><citedRange>715</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1957"/><citedRange>115</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1997"/><citedRange>83</citedRange></bibl></seg><seg><seg type="prim_transl">... [62d] To see the Buddha, the king Prasannaka went ... (“Caught was?) by me, o Omniscient, the terrible enemy.</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="parallels">Uv 9.8</note><note type="philcomment" subtype="General_remarks">Includes strophes 50 – 63 of the Karmavarga (IX) in a 4x12 syllable-metre (rhythm = 5/4/3). Between the two fragments on average 12-16 syllables are missing, while the top of the leaf, containing about 6-10 syllables is lost entirely.</note><note type="remarks">The original manuscript is missing, but consisted of two non-continuous fragments, one being a piece from the centre of the leaf, beginning at the schnurloch, the other a remnant of the leaf's right side.</note><note corresp="#a1" type="philcomment" subtype="Transcription">Emendation according to <bibl><title corresp="ref:siegandsiegling1983"/><citedRange>51 f</citedRange></bibl>n. 1.</note><note corresp="#a1 #a2" type="lingcomment">For <hi>śawāñc= ailñe</hi> and <hi>ailñe śūwaṃ</hi> rendering Skt. <hi>dāyāda</hi>- "eating/consuming heritage" &gt; "suffering the bad consequences of bad deeds", see <bibl><title corresp="ref:hackstein2015a"/></bibl>.</note><note corresp="#a2" type="lingcomment"><hi>tne</hi> for <hi>tane</hi>.</note><note corresp="#a3" type="lingcomment"><hi>alleko</hi> for <hi>allek</hi>; <hi>māgatṣe</hi> for <hi>māgatäṣṣe</hi>.</note><note corresp="#a4" type="philcomment" subtype="Transcription">Emendation according to <bibl><title corresp="ref:siegandsiegling1983"/><citedRange>51 f</citedRange></bibl>n. 6.</note><note corresp="#a5" type="lingcomment"><hi>tārkatsi</hi> for <hi>tarkatsi</hi>; <hi>ce<hi rend="subscript">u</hi></hi> for <hi>cau</hi>; <hi>wäntre</hi> for <hi>wäntare</hi>.</note><note corresp="#a5" type="philcomment" subtype="Transcription">Emendation according to <bibl><title corresp="ref:siegandsiegling1983"/><citedRange>51 f</citedRange></bibl>n. 8.</note><note corresp="#a6" type="lingcomment"><hi>lkwarwa</hi> for <hi>lykwarwa</hi>.</note><note corresp="#a6" type="philcomment" subtype="Transcription">Emendation according to <bibl><title corresp="ref:siegandsiegling1983"/><citedRange>51 f</citedRange></bibl>n. 11.</note><note corresp="#a7" type="lingcomment"><hi>kausalṣets</hi> for  <hi>kausalṣents</hi>; <hi>eṅtär</hi> for <hi>eṅktär</hi>.</note><note corresp="#a7" type="philcomment" subtype="Transcription">Emendation according to <bibl><title corresp="ref:siegandsiegling1983"/><citedRange>51 f</citedRange></bibl>n. 13 and <bibl><title corresp="ref:siegandsiegling1983"/><citedRange>179</citedRange></bibl>.</note><note corresp="#a8" type="lingcomment"><hi>lāntäśco</hi> for <hi>lāntäśc</hi>.</note><note corresp="#b1" type="lingcomment"><hi>ekñinta</hi> for <hi>ekaññiññenta</hi>.</note><note corresp="#b1" type="philcomment" subtype="Transliteration">The reading <hi>orocce ti</hi> might be read as <hi>orocce to</hi> according to <bibl><title corresp="ref:siegandsiegling1983"/><citedRange>51 f</citedRange></bibl>n. 18.</note><note corresp="#b1" type="philcomment" subtype="Transcription">Emendations according to <bibl><title corresp="ref:siegandsiegling1983"/><citedRange>51 f</citedRange></bibl>n. 16 and 17.</note><note corresp="#b2" type="lingcomment"><hi>ktsaitsñesa</hi> for <hi>ktsaitstsäññesa</hi>.</note><note corresp="#b3" type="philcomment" subtype="Translation">Addition according to <bibl><title corresp="ref:siegandsiegling1949"/><citedRange>II, 35 f</citedRange></bibl>n. 10.</note><note corresp="#b4" type="lingcomment"><hi>stamṣlyi</hi> for <hi>stamäṣṣälyi</hi>; <hi>olypotse</hi> for  <hi>olyapotstse</hi>.</note><note corresp="#b4" type="philcomment" subtype="Transcription">Emendation according to <bibl><title corresp="ref:siegandsiegling1983"/><citedRange>52 f</citedRange></bibl>n. 3.</note><note corresp="#b5" type="lingcomment"><hi>māgatṣṣe</hi> for <hi>māgatäṣṣe</hi>.</note><note corresp="#b5" type="philcomment" subtype="Transcription">Emendation according to <bibl><title corresp="ref:siegandsiegling1983"/><citedRange>52 f</citedRange></bibl>n. 5.</note><note corresp="#b6" type="philcomment" subtype="Transcription">Emendation according to <bibl><title corresp="ref:siegandsiegling1983"/><citedRange>52 f</citedRange></bibl>n. 7.</note><note corresp="#b7" type="philcomment" subtype="Translation">Addition according to <bibl><title corresp="ref:siegandsiegling1949"/><citedRange>II, 35</citedRange></bibl>.</note><note corresp="#b8" type="philcomment" subtype="Transcription">Emendation according to <bibl><title corresp="ref:siegandsiegling1983"/><citedRange>52 f</citedRange></bibl>n. 11.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 21" type="external">THT 21</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/00/0021.htm" type="external">THT 21</ref></bibl>. </p>
+            <p><label>Edition</label><bibl><title corresp="ref:siegandsiegling1949"/><citedRange>I, 36-37</citedRange></bibl>; <bibl><title corresp="ref:siegandsiegling1983"/><citedRange>51-52 notes 178-179</citedRange></bibl><bibl><title corresp="ref:hacksteinhabataandbross2015"/><citedRange>63-81</citedRange></bibl>; <bibl><title corresp="ref:tamai2011a"/><citedRange>97-98</citedRange></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_remarks_old">The original manuscript is missing, but consisted of two non-continuous fragments, one being a piece from the centre of the leaf, beginning at the schnurloch, the other a remnant of the leaf's right side.</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_other_sigla_old">B 21</item>
+               <item n="m_size_w_old"/>
+               <item n="m_expedition_old">T III S 79.28, T III S 90.7</item>
+               <item n="m_parallels_old">Uv 9.8</item>
+               <item n="m_script_old">Classical</item>
+               <item n="ms_old">THT 21</item>
+               <item n="project_comment_old">&lt;p&gt;Translations from [[Schmidt KT 1974]]
+&lt;table class="table_lines"&gt;
+&lt;th&gt;Lines&lt;/th&gt;
+&lt;th&gt;Translation&lt;/th&gt;
+&lt;th&gt;Pages&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt;a2&lt;/td&gt;
+&lt;td&gt;&lt;span title="What[ever] the beings are doing here, good [and] ba(d deed), ... [their] share [of this inheritance] they will consume in [their] births."&gt;Was die Wesen hier tun, gute [und] bö(se Tat), ... das [Erb]teil [davon] werden sie in den Geburten verzehren.&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;443&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;a7&lt;/td&gt;
+&lt;td&gt;&lt;span title="... (Ajātaśatru) threw the army of the kausalas. This very much annoyed Pra(sannaka)."&gt;... (Ajātaśatru) warf das Heer der Kausalas. Sehr verdross das den Par(sannaka).&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;166&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;a8&lt;/td&gt;
+&lt;td&gt;&lt;span title="He came (to) the king [and] offered [his] possessions to the king."&gt;Er kam (zum) König [und] bot dem König [seinen] Besitz an.&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;382&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Notation errors corrected in transcription. There are no brackets near metrical signs, – i.e. you should write "(bla) #42a", &lt;u&gt;not&lt;/u&gt; "(bla #42a)". Also, before "///" there can only be a space, after "///" only a space or a linebreak. –Martin (Wed, 2015-10-28, 14:33:31 (CET))&lt;/li&gt;
+&lt;/ul&gt;</item>
+               <item n="m_accessibility_old"/>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_meter_old">5/3-4+5/4-3+5/5-3</item>
+               <item n="m_title_old">Udānālaṅkāra</item>
+               <item n="m_transcription_old">a1 #M12# %5 /// ; (weña ślo)k ce , pūdñäkte|pudñäkte : #50a yolome(ṃ) āltsiś ; krentauna , |(rittässiś :) #50b /// %9 /// |(yolo wa)t #50c cwik śawāñca|śawāñc= ailñe ;
+a2 %7 /// (50) #50d |(ce |ślok a)kṣā-me ; k_uce tane|tne onolmi|wnolmi , yamantär #51a krent yo(laiṃ yāmor) ; /// %7 #51b %5 /// ; ailñe śūwaṃ , cmelane #51c
+a3 %8 /// -tär , mā allek|=lleko 51 #51d nano|nanw= alyek|ālyek preke ; kartsai %5 #52a /// /// %11 -mñe : #52b walo māgatäṣṣe|māgatṣe ; ajātaśatru|a|(jātaśat,ru)
+a4 %2 /// #52c (yo)laiṃ wāṣmontse ; devadatti , ṣertwentsa (52) #52d /// %12 /// (:) #53a prautka pelene ; śwātsi yoktsi|yo|(ktsi)
+a5 , %3 /// (karsta) ṣpä paine ; kṣursa|kṣurs= ompostäṃ , tarkatsi|tārkatsi : #53c /// %12 /// (53) #53d (kly)auṣa cau|ce_u wäntare|wäntre ; prasaṃnake|prasaṃna|(ke) 
+a6 , (walo su :) #54a /// %6 ajāta,śatruṃś cau|ce_u • #54b tu yparwe śem|śemo ; māgatäṣ(ṣ)e , (walo su :) #54c /// %12 /// 54 #54d tarya lykwarwa|lkwarwa śem ; prasaṃnake|pra|(saṃnake)
+a7 , (walo su :) #55a (ajātaśatru) ; retke ṣālla , kausalṣents|kausalṣets #55b räskare|räskre krāsa tu ; pra(saṃnakeṃ) , /// %3 #55c %5 /// ; (śrāva)sti ṅke , eṅktär|eṅtär su|sū 55 #55d
+a8 %12 /// : #56a su|sū śem lāntäśc|lāntä(śco) ; lānt kakāte , waipe(cceś) #56b %12  /// #56c /// %5 ; yāmeṃ spaktāṃ|spa|(ktāṃ)
+b1 , %3 /// (56) #56d %3 (snai) k(e)ś ; yasa wa(sa , ekaññiññenta|ekñi)nta : #57a or(o)cce ti- %8 /// #57b /// %10  snai keś #57c
+b2 %12 /// (50-)7 #57d lyuwa ṣ parkāsaṃ ; walo śtwāra , kälymintsa (:) #58a /// %12 /// #58b (kule)manene ; ktsaitstsäññesa|ktsaitsñ(e)s= ostmeṃ ,
+b3 %3 /// #58c %5 ; ālyaucempa|(ā)lyaucemp= alokälymi|ā,lokälymi 58 #58d padmakesar ñem ; %7 /// #59a /// %5 ; prasaṃnake , walo su|sū : #59b po
+b4 %7 /// ceṃ ; ywarśkāññeṃ : #59c āntene stamäṣṣälyi|stamṣlyi ; k_use %6 /// (59) #59d /// %2 (ajāta;śa)tru walo , olyapotstse|olypotse : #60a ṣamāni|ṣamā|(ni)
+b5 %6 /// -ntär , wetāntse : #60b pakwāreṃmpa nauṣ ; %7 /// #60c /// %5 ; (att)s(ai)k maiyyo , k_ulātär-me 60 #60d
+b6 %9 /// , (la)lāloṣ • #61a yäkte-skeyeṃ ka ṣp ; sañi klāyaṃ , %3 /// #61b /// %6 (ajāta,śa)tru su|sū : #61c retkempa|retkemp= orocce ; walo|{w}a|(lo) 
+b7 %5 /// (61 #61d |śem prasaṃna)ke ; māgatäṣṣe , lānt wrantsai : #62a witāre|witār= ālyau(ce) ; %7 /// #62b /// %9 , māgatäṣṣe|māgatṣṣe : #62c śānmya-ne
+b8 %9 /// (62 #62d pūdñäkte|pu)dñäkte lkātsi ; prasaṃnake , walo śem • #63a mä- %11 /// #63b /// %4 ñi ; poyśeñcai sāṃ , empele|empe|(le)
+ (:) #63c</item>
+               <item n="m_leaf_old"/>
+               <item n="m_genre_old">Literary</item>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old">martin</item>
+               <item n="m_prev_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_completeness_current_old"/>
+               <item n="m_language_add_old">With late forms</item>
+               <item n="m_translation_old">a1 ... this (stro)phe the Buddha (spoke), to keep [the beings] from evil [and] (to tie) [them] (to) the virtues. [50b] ... or (evil), of just this [he is] consuming the [inherited] part 
+a2 [50d] (This strophe) he proclaimed to them. What the beings will do here, good [and] evil deed ... the [inherited] part [of it] they will consume in the births.
+a3 ... not another one. [51d] At again another time good .... The king of Magadha, A(jātaśatru),
+a4 ... through instigation [by his] bad friend Devadatta. [52d] ... he locked [him] into prison. Food [and] drink
+a5 ... and (cut) [his] feet (off) with a knife. After that (he ordered?) to release (him) ... (53d). Of this matter Prasannake (the king) heard.
+a6 ... to the Ajātaśatru. Thereupon the (king?) of Magadha ....[54d] Three times Pra(sannaka) came
+a7 ... (Ajātaśatru) threw the army of the Kausalas. This very much annoyed the Pra(sannaka) ... “he will, after all, take Śrāvastī”. [55d]
+a8 ... This one came (to the) king and invited the king to [his] possessions ... will do service
+b1 ... [56d] ... (without) number he gave gold and (possessions), great ... without number
+b2 ... [57d] And the king sent an explanation to the four regions of the world ... when by age he (is prevented), from the house
+b3 ... with one another, directed in a single direction. [58d] Padmakesara by name, (the military leader) ... the king Prasannaka. All
+b4 ... these as one in the middle. To the front [are] to be put those, that ... [59d] ... (Ajātaśa)tru, the king, very much. Monks ... 
+b5 ... of the fight. With the bad ones first .... their power will recede completely. [60d]
+b6 ... having exterted themselves with little effort the enemies will fall ... the (Ajātaśa)tru. With a great army the king
+b7 ... [61d] (Prasanna)ka (moved) against the king of Magadha. They fought each other ... (and taken captive, the king) of Magadha. He bound him
+b8 ... [62d] To see the Buddha, the king Prasannaka went ... (“Caught was?) by me, o Omniscient, the terrible enemy.</item>
+               <item n="m_subgenre_old">Doctrine</item>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Verse</item>
+               <item n="project_check_old"/>
+               <item n="file_location_old">pages/manuscript/THT_0001_0633/tht21.txt</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_lines_old">8</item>
+               <item n="access_old">public</item>
+               <item n="m_completeness_old"/>
+               <item n="m_linedistance_old"/>
+               <item n="m_findspot_old">Siŋgim</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=293230;rotate=0;imageType=_M</item>
+               <item n="date_publication_old"/>
+               <item n="m_transliteration_old">a1 /// k ce pudñä[k]te [:] y[o]l[o]me· āltsiś krentau[na] /// /// _t\• cw[i]_k\ śawāñc= ailñe
+a2 /// ·kṣā-me k_uce tne wnolmi yaman_t_a_r\• kren_t\ [yo] /// /// ailñe śūwaṃ cmelane
+a3 /// -_t_a_r\ mā =lleko 50-1 nanw= ālye_k\ preke kartsai /// /// -mñe [:] walo māgatṣe a
+a4 /// – laiṃ wāṣmontse devadatti ṣertwentsa – – /// /// prautka pelene śwātsi yo
+a5 /// _ṣ_p_a paine kṣurs= ompos_t_aṃ tārkatsi [:] /// /// ·[au]ṣa ce_u wäntre prasaṃna
+a6 /// ajātaśatruṃś ce_u • tu yparwe śemo māga_t_aṣ·e /// /// 50-4 tarya lkwarwa śe_m\ pra
+a7 /// retke ṣālla kausalṣet_s\ _r_askr[e] krāsa tu pra /// /// s[t]i ṅke eṅ[_t_a]r sū 50-5
+a8 /// [:] sū śe_m\ lān_t_a – lā[n_t\] kakāte waipe /// /// yāmeṃ spa
+b1 /// k·_ś\ yasa wa – – – [nta] : or·cc[e] t[i]- /// /// snai ke_ś\
+b2 /// – [7] lyuwa _ṣ\ parkāsaṃ walo śtwāra _k_alymint[s]a (–) /// /// [ma]nene kts[ai]tsñ·s= ostmeṃ
+b3 /// – ly[au]cemp= ālo_k_alymi 50-8 padmakesar ñe[_m\] /// /// [pra]saṃnake walo sū : po
+b4 /// ceṃ ywarśkāññeṃ : āntene stamṣlyi k_u[s]e /// /// [tru] walo olypotse : ṣamā
+b5 /// -n_t_ar wetāntse : pakwāreṃmpa nau_ṣ\ /// /// ·s· _k\ maiyyo k_ulā_t_ar-me 60
+b6 /// – lālo_ṣ\ • yäkte-skeyeṃ ka _ṣ_p\ sañi klā[yaṃ] /// /// [tru] sū : retkemp= orocce va
+b7 /// -[ke] māga_t_aṣṣe lān_t\ wrantsai : w[i]tār= ālyau – /// /// māgatṣṣe : śānmya-ne
+b8 /// – – – dñäkte l[k]ātsi prasaṃnake walo śe[_m\ • _m_a]- /// /// ñi poyśeñcai sāṃ empe-</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_manuscript_old">Udānālaṅkāra B</item>
+               <item n="m_lingcomment_old">&lt;p&gt;
+&lt;b&gt;a1, 2.&lt;/b&gt; For &lt;i&gt;śawāñc= ailñe&lt;/i&gt; and &lt;i&gt;ailñe śūwaṃ&lt;/i&gt; rendering Skt. &lt;i&gt;dāyāda&lt;/i&gt;- "eating/consuming heritage" &gt; "suffering the bad consequences of bad deeds", see [[Hackstein 2015a]].&lt;br&gt;
+&lt;b&gt;a2.&lt;/b&gt; &lt;i&gt;tne&lt;/i&gt; for &lt;i&gt;tane&lt;/i&gt;.&lt;br&gt;
+&lt;b&gt;a3.&lt;/b&gt; &lt;i&gt;alleko&lt;/i&gt; for &lt;i&gt;allek&lt;/i&gt;; &lt;i&gt;māgatṣe&lt;/i&gt; for &lt;i&gt;māgatäṣṣe&lt;/i&gt;.&lt;br&gt;
+&lt;b&gt;a5.&lt;/b&gt; &lt;i&gt;tārkatsi&lt;/i&gt; for &lt;i&gt;tarkatsi&lt;/i&gt;; &lt;i&gt;ce&lt;sub&gt;u&lt;/sub&gt;&lt;/i&gt; for &lt;i&gt;cau&lt;/i&gt;; &lt;i&gt;wäntre&lt;/i&gt; for &lt;i&gt;wäntare&lt;/i&gt;.&lt;br&gt;
+&lt;b&gt;a6.&lt;/b&gt; &lt;i&gt;lkwarwa&lt;/i&gt; for &lt;i&gt;lykwarwa&lt;/i&gt;.&lt;br&gt;
+&lt;b&gt;a7.&lt;/b&gt; &lt;i&gt;kausalṣets&lt;/i&gt; for  &lt;i&gt;kausalṣents&lt;/i&gt;; &lt;i&gt;eṅtär&lt;/i&gt; for &lt;i&gt;eṅktär&lt;/i&gt;.&lt;br&gt;
+&lt;b&gt;a8.&lt;/b&gt; &lt;i&gt;lāntäśco&lt;/i&gt; for &lt;i&gt;lāntäśc&lt;/i&gt;.&lt;br&gt;
+&lt;b&gt;b1.&lt;/b&gt; &lt;i&gt;ekñinta&lt;/i&gt; for &lt;i&gt;ekaññiññenta&lt;/i&gt;.&lt;br&gt;
+&lt;b&gt;b2.&lt;/b&gt; &lt;i&gt;ktsaitsñesa&lt;/i&gt; for &lt;i&gt;ktsaitstsäññesa&lt;/i&gt;.&lt;br&gt;
+&lt;b&gt;b4.&lt;/b&gt; &lt;i&gt;stamṣlyi&lt;/i&gt; for &lt;i&gt;stamäṣṣälyi&lt;/i&gt;; &lt;i&gt;olypotse&lt;/i&gt; for  &lt;i&gt;olyapotstse&lt;/i&gt;.&lt;br&gt;
+&lt;b&gt;b5.&lt;/b&gt; &lt;i&gt;māgatṣṣe&lt;/i&gt; for &lt;i&gt;māgatäṣṣe&lt;/i&gt;.&lt;br&gt;
+&lt;/p&gt;</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 21" target="idp"&gt;THT 21&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/00/0021.htm" target="titus"&gt;THT 21&lt;/a&gt;.&lt;br&gt;
+Edition: [[TochSprR(B) I]]: I, 36-37; [[TochSprR(B)2]]: 51-52, notes 178-179, [[Hackstein, Habata and Bross 2015]]: 63-81; [[Tamai 2011a]]: 97-98.&lt;br&gt;
+Complete translation: [[TochSprR(B) I]]: II, 34-35; [[Hackstein, Habata and Bross 2015]]: 63-81.&lt;br&gt;
+Translation:
+&lt;b&gt;a1&lt;/b&gt; [[Hackstein 1995]]: 214, [[Thomas 1954]]: 751;
+&lt;b&gt;a2&lt;/b&gt; [[Carling 2000]]: 244, [[Schmidt KT 1974]]: 443, [[Thomas 1979b]]: 25;
+&lt;b&gt;a4&lt;/b&gt; [[Carling 2000]]: 165, [[Thomas 1957]]: 114;
+&lt;b&gt;a5&lt;/b&gt; [[Thomas 1957]]: 114;
+&lt;b&gt;a6&lt;/b&gt; [[Hackstein 1995]]: 305, [[Thomas 1957]]: 60, 114, 192;
+&lt;b&gt;a7&lt;/b&gt; [[Hackstein 1995]]: 223, [[Krause, WTG]]: 29, [[Schmidt KT 1974]]: 166, [[Thomas 1957]]: 114;
+&lt;b&gt;a8&lt;/b&gt; [[Carling 2000]]: 235, [[Schmidt KT 1974]]: 382, [[Thomas 1957]]: 114, [[TochSprR(B)2]]: 179;
+&lt;b&gt;b1&lt;/b&gt; [[Thomas 1957]]: 194;
+&lt;b&gt;b2&lt;/b&gt; [[Carling 2000]]: 106, [[Thomas 1957]]: 114;
+&lt;b&gt;b4&lt;/b&gt; [[Carling 2000]]: 88;
+&lt;b&gt;b6&lt;/b&gt; [[Hackstein 1995]]: 221;
+&lt;b&gt;b7&lt;/b&gt; [[Thomas 1957]]: 115;
+&lt;b&gt;b8&lt;/b&gt; [[Thomas 1954]]: 715, [[Thomas 1957]]: 115, [[Thomas 1997]]: 83.</item>
+               <item n="m_size_h_old"/>
+               <item n="m_next_old">THT 22</item>
+               <item n="file_created_old">1332006593</item>
+               <item n="file_modified_old">1585231003</item>
+               <item n="m_philcomment_old">&lt;h3&gt;Transliteration&lt;/h3&gt;
+&lt;p&gt;
+&lt;b&gt;b1.&lt;/b&gt; The reading &lt;i&gt;orocce ti&lt;/i&gt; might be read as &lt;i&gt;orocce to&lt;/i&gt; according to [[TochSprR(B)2]]: 51 fn. 18.&lt;br&gt; 
+&lt;/p&gt;
+&lt;h3&gt;Transcription&lt;/h3&gt;
+&lt;p&gt;
+&lt;b&gt;a1.&lt;/b&gt; Emendation according to [[TochSprR(B)2]]: 51 fn. 1.&lt;br&gt;
+&lt;b&gt;a4.&lt;/b&gt; Emendation according to [[TochSprR(B)2]]: 51 fn. 6.&lt;br&gt;
+&lt;b&gt;a5.&lt;/b&gt; Emendation according to [[TochSprR(B)2]]: 51 fn. 8.&lt;br&gt;
+&lt;b&gt;a6.&lt;/b&gt; Emendation according to [[TochSprR(B)2]]: 51 fn. 11.&lt;br&gt;
+&lt;b&gt;a7.&lt;/b&gt; Emendation according to [[TochSprR(B)2]]: 51 fn. 13 and [[TochSprR(B)2]]: 179.&lt;br&gt;
+&lt;b&gt;b1.&lt;/b&gt; Emendations according to [[TochSprR(B)2]]: 51 fn. 16 and 17.&lt;br&gt;
+&lt;b&gt;b4.&lt;/b&gt; Emendation according to [[TochSprR(B)2]]: 52 fn. 3.&lt;br&gt;
+&lt;b&gt;b5.&lt;/b&gt; Emendation according to [[TochSprR(B)2]]: 52 fn. 5.&lt;br&gt;
+&lt;b&gt;b6.&lt;/b&gt; Emendation according to [[TochSprR(B)2]]: 52 fn. 7.&lt;br&gt;
+&lt;b&gt;b8.&lt;/b&gt; Emendation according to [[TochSprR(B)2]]: 52 fn. 11.&lt;br&gt;
+&lt;/p&gt;
+&lt;h3&gt;Translation&lt;/h3&gt;
+&lt;p&gt;
+&lt;b&gt;b3.&lt;/b&gt; Addition according to [[TochSprR(B) I]]: II, 35 fn. 10.&lt;br&gt;
+&lt;b&gt;b7.&lt;/b&gt; Addition according to [[TochSprR(B) I]]: II, 35.&lt;br&gt;
+&lt;/p&gt;
+&lt;h3&gt;General remarks&lt;/h3&gt;
+&lt;p&gt;Includes strophes 50 – 63 of the Karmavarga (IX) in a 4x12 syllable-metre (rhythm = 5/4/3). Between the two fragments on average 12-16 syllables are missing, while the top of the leaf, containing about 6-10 syllables is lost entirely.&lt;/p&gt;</item>
+               <item n="m_passage_old">Book 9 (Karmavarga), strophes 50-63.</item>
+               <item n="m_editor_old">Hannes A. Fellner</item>
+               <item n="m_material_old">Ink on paper</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;ul&gt;&lt;li&gt;Notation errors corrected in transcription. There are no brackets near metrical signs, – i.e. you should write "(bla) #42a", &lt;hi rend="underline"&gt;not&lt;/hi&gt; "(bla #42a)". Also, before "///" there can only be a space, after "///" only a space or a linebreak. –Martin (Wed, 2015-10-28, 14:33:31 (CET))&lt;/li&gt;&lt;/ul&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

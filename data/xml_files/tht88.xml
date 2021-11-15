@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht88">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 88</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Melanie Malzahn</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 88</idno>
+                  <altIdentifier>
+                     <idno>B 88</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Bleistiftnummer 2339</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>THT 1924</idno>
+                  </altIdentifier>
+                  <msName>Araṇemi α</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Araṇemijātaka</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Šorčuq</region>during <rs type="expedition_code">T III Š 75.3; T III Š 93</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical frg:ls-tamai-C5 frg:ls-C14"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Jātaka/Avadāna</term>
+               <term type="prose_verse">prose</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=331117;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=331117;rotate=0;imageType=_M"/>
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=327871;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=327871;rotate=0;imageType=_M"/>
+            <graphic url="B/B88a.jpg" height="752px" width="1324px"/>
+            <line xml:id="lf"><zone>21</zone></line>
+            <line n="1" xml:id="a1"><zone><unclear>k</unclear><gap reason="par" unit="part"/></zone><zone>ntwo</zone><zone>ko</zone><zone>yna</zone><zone>meṃ</zone><zone>pa</zone><zone>rna</zone><zone>lna</zone><zone>ṣṣi</zone><zone>ne</zone><zone>॥</zone><zone>tu</zone><zone>meṃ</zone><zone>du</zone><zone>rmu</zone><zone>khe</zone><zone>brā</zone><zone>hma</zone><zone>ṇe</zone><zone>u</zone><zone>tta</zone><zone>re</zone><zone>śa</zone><zone>ma</zone><zone>śkeṃ</zone><zone>KA</zone><zone>rwā</zone><zone>ṣṣai</zone><zone>wi</zone><zone>tsa</zone><zone>kai</zone><zone>sa</zone><zone>RA</zone><zone>ska</zone><zone>re</zone><zone>tso</zone><zone>paṃ</zone><zone>ne</zone><zone>si</zone><zone>ñcai</zone><zone>ṣo</zone><zone>rpo</zone><zone>ri</zone><zone><unclear>t</unclear>e</zone><gap reason="par" quantity="3"/></line>
+            <line n="2" xml:id="a2"><zone>mo</zone><zone>rmeṃ</zone><zone>au</zone><zone><add>ntsa</add></zone><zone>nte</zone><zone>ne</zone><zone>ścī</zone><zone>re</zone><zone>ma</zone><zone>KA</zone><zone>stsi</zone><zone>•</zone><zone>ta</zone><zone>ne</zone><zone>ña</zone><zone>ke</zone><zone>u</zone><zone>tta</zone><zone>ri</zone><zone>śa</zone><zone>ma</zone><zone>ś<gap reason="par" unit="part"/>e</zone><zone>ntse</zone><zone>kā</zone><zone>lpsa</zone><zone>pai</zone><zone>ne</zone><zone>meṃ</zone><zone>e</zone><zone>tte</zone><zone>klo</zone><zone>yo</zone><zone>ma</zone><zone>ne</zone><zone>a</zone><zone>lye</zone><zone>KA</zone><zone>kca</zone><zone>wa</zone><zone>rtto</zone><zone>ṣṣe</zone><zone>ma</zone><zone>kū</zone><zone>ltsa</zone><zone>ta</zone><zone>trā</zone><zone>ppa</zone></line>
+            <line n="3" xml:id="a3"><zone>rmeṃ</zone><zone>rū</zone><zone>psa</zone><zone>klā</zone><zone>ya</zone><zone>MA</zone><zone>rsā</zone><zone>ne</zone><zone>ke</zone><space type="string_hole"/><zone>ne</zone><zone>mra</zone><zone>kwe</zone><zone>yo</zone><zone>psa</zone><zone>ne</zone><zone>॥</zone><zone>ta</zone><zone>ne</zone><zone>ru</zone><zone>dra</zone><zone>śa</zone><zone>rme</zone><zone>brā</zone><zone>hma</zone><zone>ṇe</zone><zone>•</zone><zone>po</zone><zone>rtsai</zone><zone>sa</zone><zone>u</zone><zone><unclear>tta</unclear></zone><zone><gap reason="par" unit="part"/><unclear>e</unclear></zone><gap reason="par" quantity="1"/><zone>ṣkeṃ</zone><zone>e</zone><zone>ṅko</zone><zone>rmeṃ</zone><zone>tsa</zone><zone>k<unclear>a</unclear></zone><zone>tsai</zone></line>
+            <line n="4" xml:id="a4"><zone>keṃ</zone><zone>tsa</zone><zone>o</zone><zone>rKA</zone><zone>ntai</zone><zone>yä</zone><zone>rtta</zone><zone>ne</zone><zone>॥</zone><zone>tu</zone><space type="string_hole"/><zone>lye</zone><zone>lya</zone><zone>ko</zone><zone>rmeṃ</zone><zone>vṛ</zone><zone>kṣa</zone><zone>vā</zone><zone>si</zone><zone>ke</zone><zone>ña</zone><zone>kte</zone><zone>śle</zone><zone>māṃ</zone><zone>tsa</zone><zone>lyñe</zone><zone>śa</zone><zone>no</zone><zone>śwe</zone><zone>ṢṢAṃ</zone><zone>la</zone><zone>r<unclear>i</unclear></zone><gap reason="par" quantity="2"/><zone>l<unclear>k</unclear>a</zone><zone>nai</zone><zone>mā</zone><zone>ṣe</zone><zone>kaṃ</zone><zone>ñe</zone></line>
+            <line n="5" xml:id="a5"><zone>wä</zone><zone>nta</zone><zone>rwa¯</zone><zone>¯tS</zone><zone>spa</zone><zone>rkā</zone><zone>lye</zone><zone><unclear>ā</unclear></zone><gap reason="par" quantity="2"/><zone><unclear>p</unclear><gap reason="par" unit="part"/></zone><zone>ñca</zone><zone>ga</zone><zone>ti</zone><zone>ne</zone><zone>॥</zone><zone>ykā</zone><zone>kcwi</zone><zone>śa</zone><zone>mā</zone><zone>ne</zone><zone>pā</zone><zone>ce</zone><zone>rwlo</zone><zone>vi</zone><zone>pṇu</zone><zone>ntaṃ</zone><zone>tsra</zone><zone>a</zone><zone>mā</zone><zone>skai</zone><zone>yā</zone><zone>mtsi</zone><zone>sū</zone><zone>e</zone><zone>rka</zone><zone>tte</zone><zone>•</zone><gap reason="par" quantity="1"/><zone>kno</zone><zone>cwi</zone><zone>soṃ</zone><zone>śke</zone><zone>la</zone><zone>laṃ</zone></line>
+            <line n="6" xml:id="a6"><zone>ṣkeṃ</zone><zone>ai</zone><zone>nā</zone><zone>ki</zone><zone>cai¯</zone><zone>¯mP∘</zone><zone>brā</zone><gap reason="par" quantity="3"/><zone>r<unclear>t</unclear><gap reason="par" unit="part"/>e</zone><zone>nne</zone><zone>śle</zone><zone>tre</zone><zone>meṃ</zone><zone>:</zone><zone>pi</zone><zone>l<unclear>ko</unclear><gap reason="par" unit="part"/></zone><zone><gap reason="plain" unit="part"/>ñmā</zone><zone>la</zone><zone>ṣkeṃ</zone><zone>lkā</zone><zone>ṢṢA</zone><zone>nme</zone><zone>ta</zone><zone>ṅsa</zone><zone>sa¯</zone><zone>¯M</zone><zone>mñcu</zone><zone>ṣke</zone><zone>la</zone><zone>reṃ</zone><zone>pā</zone><zone>TA</zone><zone>rra¯</zone><zone>¯mT</zone><zone>:</zone><zone>mā</zone><zone>w<unclear>a</unclear></zone><zone>ks<unclear>a</unclear>¯</zone><zone>¯Ṣ</zone><zone>cwi<unclear>¯</unclear></zone><zone><unclear>¯</unclear>m<unclear>P</unclear></zone></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="3"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=331193;rotate=0;imageType=_L"/>
+            <graphic n="3"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=331193;rotate=0;imageType=_M"/>
+            <graphic n="4"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=327878;rotate=0;imageType=_L"/>
+            <graphic n="4"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=327878;rotate=0;imageType=_M"/>
+            <graphic url="B/B88b.jpg" height="780px" width="1332px"/>
+            <line n="1" xml:id="b1"><zone>MA</zone><zone>ske</zone><zone>tRA</zone><zone>wa</zone><zone>ste</zone><zone>co¯</zone><zone>¯mP∘</zone><zone><unclear>l</unclear><gap reason="par" unit="part"/></zone><gap reason="par" quantity="4"/><zone><unclear>ly</unclear>m<unclear>i</unclear><gap reason="par" unit="part"/></zone><zone>spo</zone><zone>rto</zone><zone>tRA</zone><zone>pā</zone><zone>ce</zone><zone>rcwi<unclear>¯</unclear></zone><zone><unclear>¯</unclear><unclear>mP</unclear></zone><zone><unclear>ku</unclear></zone><zone>rā</zone><zone>rlū</zone><zone>wo</zone><zone><unclear>tu</unclear></zone><zone>y<unclear>ä</unclear></zone><zone>kne</zone><zone>s<gap reason="par" unit="part"/></zone><zone>kw<unclear>ä</unclear></zone><zone>snā</zone><zone>tRA</zone><zone>snai</zone><zone>KA</zone><zone>rsto</zone><zone>•</zone><zone>kwā</zone><zone>TA</zone><zone>rne</zone><zone>ta</zone><zone>ṅsa</zone><zone>śau</zone><zone>śaṃ</zone><zone>ne</zone><zone>cwī</zone></line>
+            <line n="2" xml:id="b2"><zone>yku</zone><zone>wa</zone><zone>toṃ</zone><zone>yke</zone><zone>nta</zone><zone>ne</zone><zone>wo</zone><zone>l<unclear>o</unclear></zone><gap reason="par" quantity="2"/><zone>mw<unclear>e</unclear></zone><zone>nte</zone><zone>lwā</zone><zone>sā</zone><zone>tsra</zone><zone>ṢPA</zone><zone>se</zone><zone>ni¯</zone><zone>¯K</zone><zone>co¯</zone><zone>¯mP∘</zone><zone>ka</zone><zone>LPA</zone><zone>ṢṢAṃ</zone><zone>ñśa</zone><zone>meṃ</zone><zone>wä</zone><zone>tko</zone><zone>ṣkrui</zone><zone>lkā</zone><zone>ce</zone><zone>rñī</zone><zone>so</zone><zone>śke</zone><zone>:</zone><zone>p<unclear>ts</unclear>ā</zone><zone>rwa</zone><zone>ṣṣa</zone><zone>tne</zone><zone>ñi</zone><zone>yke</zone></line>
+            <line n="3" xml:id="b3"><zone>ne</zone><zone>ytā</zone><zone>ri</zone><zone>ne</zone><zone>mpe</zone><zone>lyai</zone><zone>2</zone><zone>॥</zone><zone>ś<gap reason="par" unit="part"/></zone><space type="string_hole"/><zone>na</zone><zone>ñä</zone><zone>kte</zone><zone>ñña</zone><zone>we</zone><zone>ṢṢAṃ</zone><zone>ma</zone><zone>kte</zone><zone>pā</zone><zone>ce</zone><zone>rwa</zone><zone>lo</zone><zone>cwi</zone><zone>co¯</zone><zone>¯mP∘</zone><zone>la</zone><zone>kle</zone><zone>śa</zone><zone>la</zone><zone>kā</zone><zone>ṢPA</zone><zone><unclear>ñ</unclear><gap reason="par" unit="part"/></zone><gap reason="par" quantity="2"/><zone>kle</zone><zone>su</zone><zone>ste</zone><zone>॥</zone><zone>vṛ</zone><zone>kṣa</zone></line>
+            <line n="4" xml:id="b4"><zone>vā</zone><zone>si</zone><zone>ke</zone><zone>ñä</zone><zone>kte</zone><zone>we</zone><zone>ṢṢAṃ</zone><zone>pa</zone><space type="string_hole"/><zone>ñä</zone><zone>KTAṃ</zone><zone>ñe</zone><zone>pe</zone><zone>rne</zone><zone>ṣṣe</zone><zone>a</zone><zone>kā</zone><zone>lksa</zone><zone>ri</zone><zone>nsā</zone><zone>te</zone><zone>ne</zone><zone>mā</zone><zone>tra</zone><zone>ṅko</zone><zone>ya</zone><zone>ma</zone><zone>sne</zone><zone><unclear>p</unclear><gap reason="plain" unit="part"/></zone><gap reason="par" quantity="2"/><zone>k<gap reason="par" unit="part"/></zone><zone>LA</zone><zone>kle¯</zone><zone>¯ñä</zone><zone>a</zone><zone>ra</zone><zone>ñce</zone><zone>ni</zone></line>
+            <line n="5" xml:id="b5"><zone>ttaṃ</zone><zone>we</zone><zone>SA</zone><zone>ñno</zone><zone>pe</zone><zone>rne</zone><zone>sa</zone><zone>sū</zone><zone>toṃ</zone><zone>LA</zone><zone>kle</zone><zone>nta</zone><zone>lkā</zone><zone>ṢṢAṃ</zone><zone>॥</zone><zone>te</zone><zone>we</zone><zone>we</zone><zone>ñ<gap reason="par" unit="part"/></zone><zone>rmeṃ</zone><zone>ltai¯</zone><zone>¯S</zone><zone>ña</zone><zone>kte</zone><zone>ne</zone><zone>॥</zone><zone>o</zone><zone>mno</zone><zone>ña</zone><zone>ke</zone><zone>to</zone><zone>ttī</zone><zone>ke</zone><zone>po</zone><zone>staṃ</zone><zone>yne</zone><zone><unclear>ma</unclear></zone><zone>ne</zone><zone>brā</zone><zone>hma</zone><zone>ṇi</zone><zone>u</zone><zone>tta</zone><zone>reṃ</zone></line>
+            <line n="6" xml:id="b6"><zone><unclear>mñcu</unclear></zone><zone>ṣkeṃ</zone><zone>ā</zone><zone>ke</zone><zone>ma</zone><zone>ne</zone><zone>ca</zone><zone>ndra</zone><zone>mu</zone><zone>khi</zone><zone>lā</zone><zone>nte</zone><zone>ya</zone><zone>po</zone><zone>yne</zone><zone>klā</zone><zone>nte</zone><zone>ne</zone><zone>•</zone><zone>tu</zone><zone>meṃ</zone><zone>brā</zone><zone>hma</zone><zone>ṇa</zone><zone>grā</zone><zone>mne</zone><zone>yai</zone><zone>po</zone><zone>rmeṃ</zone><zone>a</zone><zone>ka</zone><zone>LṢA</zone><zone>lyi</zone><zone>ru</zone><zone>dra</zone><zone>mu</zone><zone>kheṃ</zone><zone>pu</zone><zone>ro</zone><zone>hi</zone><zone>teṃ</zone><zone><unclear>w</unclear>e</zone><zone><gap reason="par" unit="part"/><unclear>ā</unclear></zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <fw type="leafNum" corresp="#lf">21</fw>
+            <p>
+<lb corresp="#a1"/><w>k<supplied>a</supplied>ntwo</w><w>koynameṃ</w><w>parna</w><w>lnaṣṣi-ne</w><pc>॥</pc><w>tumeṃ</w><w>durmukhe</w><w>brāhmaṇe</w><w>uttare<add>ṃ</add></w><w>śamaśkeṃ</w><w>kärwāṣṣai</w><w>witsakaisa</w><w>räskare</w><w>tsopaṃ-ne</w><w>siñcai</w><w>ṣorpor</w><w>ite</w><gap reason="plain" quantity="3"/>
+<lb corresp="#a2"/><w>mormeṃ</w><w>auntsante-ne</w><w>ścīre</w><w>makästsi</w><pc>•</pc><w>tane</w><w>ñake</w><w>uttari</w><w>śamaś<supplied>k</supplied>entse</w><w>kālpsa</w><w>painemeṃ</w><w>ette</w><w>kloyomane</w><w>alyekä</w><w>kca</w><w>warttoṣṣe</w><w>makūltsa</w>
+<w>tatrāppa<lb corresp="#a3"/>rmeṃ</w><w>rūpsa</w><w>klāya</w><w><choice><orig>m</orig><corr>p</corr></choice>ärsā<choice><orig>n</orig><corr>t</corr></choice>e</w><w>ke<add>ṃ</add>ne</w><w>mrakwe</w><w>yopsa-ne</w><pc>॥</pc><w>tane</w><w>rudraśarme</w><w>brāhmaṇe</w><pc>•</pc><w>portsaisa</w><w>utta<supplied>r</supplied>e<supplied>ṃ</supplied></w><w><supplied>mñcu</supplied>ṣkeṃ</w><w>eṅkormeṃ</w><w>tsakatsai</w>
+<lb corresp="#a4"/><w>keṃtsa</w><w>orkäntai</w><w>yärtta-ne</w><pc>॥</pc><w>tu</w><w>lyelyakormeṃ</w><w>vṛkṣavāsike</w><w>ñakte</w><w>śle</w><w>māṃtsalyñe</w><w>śanoś</w><w>weṣṣäṃ</w><w>lari<supplied>ya</supplied></w><w><supplied>pā</supplied>lka</w><w>nai</w><w>mā-ṣekaṃñe</w>
+<lb corresp="#a5"/><w>wäntarwats</w><w>sparkālye</w><w>ā<supplied>ke</supplied></w><pc><supplied>॥</supplied></pc><w>p<supplied>a</supplied>ñcagatine</w><pc>॥</pc></p>
+            <lg type="poem" met="frg:M21_21_18_13" subtype="hom">
+               <lg n="1" type="strophe">
+                  <l n="a"><w>ykāk</w><w>cwi</w><w>śamāne</w><caesura ana="frg:cs-w"/><w>pācer</w><w>wlo</w><caesura ana="frg:cs-s"/><w>vi<choice><orig>p</orig><corr>ṣ</corr></choice>ṇuntaṃts</w><w>ra</w><caesura ana="frg:cs-w"/><w>amāskai</w><caesura ana="frg:cs-s"/><w>yāmtsi</w><w>sū</w><w>erkatte</w><pc>•</pc></l>
+                  <l n="b"><w><supplied>ya</supplied>k</w><w>no</w><w>cwi</w><w>soṃśke</w><caesura ana="frg:cs-w"/>
+<w>lalaṃ<lb corresp="#a6"/>ṣkeṃ</w><caesura ana="frg:cs-s"/><w>aināki</w><w>caimp</w><caesura ana="frg:cs-w"/><w>brā<supplied>hmaṇi</supplied></w><caesura ana="frg:cs-s"/><w><supplied>yä</supplied>rt<supplied>t</supplied>en-ne</w><w>śle</w><w>tremeṃ</w><pc>:</pc></l>
+                  <l n="c" real="9/10"><w>pilko<supplied>s=</supplied></w><w><supplied>ā</supplied>ñmālaṣkeṃ</w><w>lkāṣṣän-me</w><caesura ana="frg:cs-s"/><w>taṅsa</w><w>sam</w><w>mñcuṣke</w><w>lareṃ</w><w>pātär</w><w>ramt</w><pc>:</pc></l>
+                  <l n="d"><w>mā</w><w>wa</w><w>ksa</w><w>ṣ</w><w>cwimp</w><caesura ana="frg:cs-w"/>
+<lb corresp="#b1"/><w>mäsketrä</w><caesura ana="frg:cs-s"/><w>waste</w><w>comp</w><w>l<supplied>aklene</supplied></w><num value="1"><supplied>1</supplied></num></l>
+               </lg>
+               <lg n="2" type="strophe">
+                  <l n="a" real="5-3/8/6"><w><supplied>kä</supplied>lymi<supplied>ṃ</supplied></w><w>sportoträ</w><caesura ana="frg:cs-w"/><w>pācer</w><w>cwimp</w><caesura ana="frg:cs-s"/><w>kurār</w><w>lūwo</w><w>tu</w><w>yäknes<supplied>a</supplied></w><caesura ana="frg:cs-s"/><w>kwäsnāträ</w><w>snai</w><w>kärsto</w><pc>•</pc></l>
+                  <l n="b"><w>kwātär-ne</w><w>taṅsa</w><caesura ana="frg:cs-w"/><w>śauśaṃ-ne</w><caesura ana="frg:cs-s"/><w>cwī</w>
+<lb corresp="#b2"/><w>ykuwa</w><w>toṃ</w><caesura ana="frg:cs-w"/><w>ykentane</w><caesura ana="frg:cs-s"/><w>wolo<supplied>ktär</supplied></w><gap reason="plain" quantity="1"/><w>mw</w><w>ente</w></l>
+                  <l n="c" real="10/10"><w>lwāsāts</w><w>ra</w><w>ṣpä</w><w>senik</w><w>comp</w><w>kalpäṣṣäṃ</w><caesura ana="frg:cs-s"/><w>ñśameṃ</w><w>wätkoṣ</w><w>krUi</w><w>lkācer</w><w>ñī</w><w>so<add>ṃ</add>śke</w><pc>:</pc></l>
+                  <l n="d" real="4-3/5"><w>ptsārwaṣṣat-ne</w><caesura ana="frg:cs-w"/><w>ñi</w>
+<w>yke<lb corresp="#b3"/>ne</w><caesura ana="frg:cs-s"/><w>ytārin=</w><w>empelyai</w><num value="2">2</num><pc>॥</pc></l>
+               </lg>
+            </lg>
+            <p><w>ś<supplied>a</supplied>na</w><w>ñäkteñña</w><w>weṣṣäṃ</w><w>makte</w><w>pācer</w><w>walo</w><w>cwi</w><w>comp</w><w>lakle</w><w>śala</w><w>kā</w><w>ṣpä</w><w>ñ<supplied>ake</supplied></w><w><supplied>lä</supplied>klesu</w><w>ste</w><pc>॥</pc>
+<w>vṛkṣa<lb corresp="#b4"/>vāsike-ñäkte</w><w>weṣṣäṃ</w><w>pañäktäṃñe</w><w>perneṣṣe</w><w>akālksa</w><w>rinsāte-ne</w><w>mā</w><w>traṅko</w><w>yamas-ne</w><w>p<supplied>o</supplied></w><gap reason="plain" quantity="2"/><w>k<gap reason="plain" unit="part"/></w><w>läkleñ</w><w>arañce</w>
+<w>ni<lb corresp="#b5"/>ttaṃ</w><w>wesäñ</w><w>no</w><w>pernesa</w><w>sū</w><w>toṃ</w><w>läklenta</w><w>lkāṣṣäṃ</w><pc>॥</pc><w>te</w><w>weweñ<supplied>o</supplied>rmeṃ</w><w>ltais</w><w>ñaktene</w><pc>॥</pc><w>om</w><w>no</w><w>ñake</w><w>tott</w><w>īke-postaṃ</w><w>ynemane</w><w>brāhmaṇi</w><w>uttareṃ</w>
+<lb corresp="#b6"/><w>mñcuṣkeṃ</w><w>ākemane</w><w>candramukhi</w><w>lānte</w><w>yapoyne</w><w>klānte-ne</w><pc>•</pc><w>tumeṃ</w><w>brāhmaṇagrāmne</w><w>yaipormeṃ</w><w>akalṣälyi</w><w>rudramukheṃ</w><w>purohiteṃ</w>
+<w>we<supplied>ñ</supplied>ā<lb/><supplied>re</supplied></w></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><bibl><title corresp="ref:thomas1957"/><citedRange>48f</citedRange></bibl></seg><seg><seg type="prim_transl">[His] tongue was hanging [lit. going] out of his mouth. Thereupon the Brahmin Durmukha jabs the boy Uttara sharply with a reed root. After they had (put?) a ... [piece of] cloth (?) (onto his eyes/legs?), </seg></seg></choice><choice corresp="#a1 #a2 #a3 #a4"><seg><bibl><title corresp="ref:thomas1957"/><citedRange>91</citedRange></bibl></seg><seg><bibl><title corresp="ref:pinault2004a"/><citedRange>259f</citedRange></bibl></seg></choice><choice corresp="#a1 #a2 #a3 #a4 #a5 #a6 #b1 #b2 #b3 #b4 #b5 #b6"><seg><bibl><title corresp="ref:couvreur1954c"/><citedRange>102</citedRange></bibl></seg><seg><bibl><title corresp="ref:schmidtkt2001"/><citedRange>316-318</citedRange></bibl></seg></choice><choice corresp="#a2"><seg><bibl><title corresp="ref:thomas1957"/><citedRange>49</citedRange></bibl></seg><seg><bibl><title corresp="ref:siegandsiegling1983"/><citedRange>241</citedRange></bibl></seg><seg><seg type="prim_transl">they began to chase him hard. Because of the boy Uttara’s [mis]treatment—collapsing from [his] feet he fell, when he had tripped over some forest root,</seg></seg></choice><choice corresp="#a2 #a3"><seg><bibl><title corresp="ref:krauseandthomas1964"/><citedRange>52</citedRange></bibl></seg><seg><bibl><title corresp="ref:carling2000"/><citedRange>223</citedRange></bibl></seg><seg><bibl><title corresp="ref:schmidtkt1974"/><citedRange>131f</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1979b"/><citedRange>43</citedRange></bibl></seg><seg><seg type="prim_transl">Dort jetzt durch des Knaben Uttara Verhalten(?) ihm unter die Füße fallend [und] an irgendeiner Waldwurzel hängengeblieben, fiel sie(?) auf das Gesicht; ein wenig(?) spritzte auf die Erde [und] drang in sie ein.</seg><seg type="sec_transl" resp="TI">There now, because of the boy Uttara's behaviour(?) falling under his feet [and] having tripped over some forest root, she(?) fell onto [her?] face; a little spluttered onto the earth and permeated it.</seg><bibl><title corresp="ref:schmidtkt1974"/><citedRange>132</citedRange></bibl></seg></choice><choice corresp="#a3"><seg><bibl><title corresp="ref:carling2000"/><citedRange>80</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1969"/><citedRange>257</citedRange></bibl></seg><seg><bibl><title corresp="ref:siegandsiegling1983"/><citedRange>241</citedRange></bibl></seg><seg><seg type="prim_transl">onto his face—mud sputtered there from the ground [and] permeated it [= the face/cloth?]. Thereupon the Brahmin Rudraśarma grabbed the (pri)nce Utta(ra) by the ... [and] dragged him to and fro across the</seg></seg></choice><choice corresp="#a3 #a4"><seg><bibl><title corresp="ref:carling2000"/><citedRange>50, 180</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1957"/><citedRange>196</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1969"/><citedRange>257</citedRange></bibl></seg></choice><choice corresp="#a4"><seg><bibl><title corresp="ref:thomas1979d"/><citedRange>151</citedRange></bibl></seg><seg><seg type="prim_transl">thorny ground. Having seen this, a Tree god spoke with sorrow to his wife: “[My] love! Behold the inconstancy</seg></seg></choice><choice corresp="#a4 #a5"><seg><bibl><title corresp="ref:krauseandthomas1964"/><citedRange>52</citedRange></bibl></seg><seg><bibl><title corresp="ref:meunier2013"/><citedRange>167</citedRange></bibl></seg><seg><seg type="prim_transl">O dear!, look at the impermanence of the things [and their] ultimate disappearance! (cf 102; 317)</seg><bibl><title corresp="ref:peyrot2013b"/><citedRange>350</citedRange></bibl></seg></choice><choice corresp="#a5"><seg><bibl><title corresp="ref:krauseandthomas1964"/><citedRange>52</citedRange></bibl></seg><seg><bibl><title corresp="ref:krause1952"/><citedRange>39</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1952"/><citedRange>34</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1954"/><citedRange>745</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1967b"/><citedRange>24</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1970"/><citedRange>278</citedRange></bibl></seg><seg><bibl><title corresp="ref:siegandsiegling1983"/><citedRange>241</citedRange></bibl></seg><seg><seg type="prim_transl">of things [and their] non-lasting end!” || In [the tune] pañcagati || Still [his] father, the king, is alive. It is with difficulty [only] that he may be treated disdainfully, even by Viṣṇus. [And] yet his tender little son</seg></seg></choice><choice corresp="#a6"><seg><bibl><title corresp="ref:hackstein1995"/><citedRange>250</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1968"/><citedRange>204</citedRange></bibl></seg><seg><seg type="prim_transl">those dastardly Brahmins drag [about] with furor. With a look begging for compassion that prince looks at them, full of love, as [he would look at] his dear father, but not a single one of them is to him</seg></seg></choice><choice corresp="#a6 #b1"><seg><seg type="prim_transl">With a pitiful look that prince looks at them with love, as at a dear father. Yet there is not any protection for him in his sorrow.  (cf 102)</seg><bibl><title corresp="ref:peyrot2013b"/><citedRange>367</citedRange></bibl></seg></choice><choice corresp="#b1"><seg><bibl><title corresp="ref:schmidtkt1974"/><citedRange>383</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1972"/><citedRange>456</citedRange></bibl></seg><seg><seg type="prim_transl">protection in that s(uffering)! 1. In [every] (di)rection his father turns; like a sea eagle he is keening incessantly. Full of love he calls him [and] cries for him. Where </seg></seg></choice><choice corresp="#b1 #b2"><seg><bibl><title corresp="ref:krauseandthomas1964"/><citedRange>52</citedRange></bibl></seg><seg><bibl><title corresp="ref:schmidtkt1974"/><citedRange>95, 155f, 276, 279</citedRange></bibl></seg><seg><seg type="prim_transl">Er ruft ihn voll Liebe [und] schreit nach ihm, an den von ihm [scil. Uttara] betretenen Orten verweilt er ...</seg><seg type="sec_transl" resp="TI">He calls [for] him, full of love, [and] cries for him, in the places entered by him [i.e. Uttara] he tarries ...</seg><bibl><title corresp="ref:schmidtkt1974"/><citedRange>276</citedRange></bibl></seg><seg><seg type="prim_transl">In [alle] Richtungen wendet sich sein Vater; [wie] ein Meeradler[tier] so wehklagt er ohne Unterlass. Er ruft ihn voll Liebe [und] schreit nach ihm.</seg><seg type="sec_transl" resp="TI">Into [all] directions his father turns; like unto a sea-eagle[-creature] he laments without stopping. He calls him, full of love [and] cries for him.</seg><bibl><title corresp="ref:schmidtkt1974"/><citedRange>95, 155-6, 279, 383</citedRange></bibl></seg></choice><choice corresp="#b2"><seg><bibl><title corresp="ref:carling2000"/><citedRange>91</citedRange></bibl></seg><seg><bibl><title corresp="ref:siegandsiegling1983"/><citedRange>242</citedRange></bibl></seg><seg><seg type="prim_transl">he [= the king] tarr(ies) (walking?) to the places treaded by him [= Uttara], he even entrusts onto the animals [saying]: "if you see my little son that has been separated from me, do comfort him in my stead</seg></seg></choice><choice corresp="#b2 #b3"><seg><bibl><title corresp="ref:carling2000"/><citedRange>90, 94, 96</citedRange></bibl></seg><seg><seg type="prim_transl">If you see my little son, who is separated from me, console him on [his] awful road on my behalf [lit. in my stead]!  (cf 102; 317–318)</seg><bibl><title corresp="ref:peyrot2013b"/><citedRange>319</citedRange></bibl></seg><seg><seg type="prim_transl">Wenn ihr mein von mir getrenntes Söhnchen seht, [so] tröstet es an meiner Statt auf dem schrecklichen Weg!</seg><seg type="sec_transl" resp="TI">If you see my little son, [who has been] separated from me, [then] comfort him in my stead on [his] terrible road!</seg><bibl><title corresp="ref:schmidtkt1974"/><citedRange>193, 507</citedRange></bibl></seg></choice><choice corresp="#b3"><seg><bibl><title corresp="ref:hackstein1995"/><citedRange>314</citedRange></bibl></seg><seg><seg type="prim_transl">on [his] terrible road!” 2. The Goddess speaks: “The father, the king, himself has brought to him this suffering: Why is he unhappy now?”</seg></seg><seg><seg type="prim_transl">Sein Vater, der König, selbst hat ihm jenes Leid gebracht.</seg><seg type="sec_transl" resp="TI">His father, the king, himself, brought him that suffering.</seg><bibl><title corresp="ref:schmidtkt1974"/><citedRange>390</citedRange></bibl></seg></choice><choice corresp="#b3 #b4 #b5"><seg><bibl><title corresp="ref:thomas1957"/><citedRange>181</citedRange></bibl></seg></choice><choice corresp="#b4"><seg><bibl><title corresp="ref:krauseandthomas1964"/><citedRange>53</citedRange></bibl></seg><seg><bibl><title corresp="ref:krause1952"/><citedRange>27</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1958"/><citedRange>302</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1969b"/><citedRange>54</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1975"/><citedRange>310</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1981"/><citedRange>494</citedRange></bibl></seg><seg><bibl><title corresp="ref:siegandsiegling1983"/><citedRange>242</citedRange></bibl></seg><seg><seg type="prim_transl">The Tree-god speaks: “Because of his wish for the dignity of a Buddha he has given him up. Do not blame him! Because of pain ... [his] heart is breaking com(pletely?).</seg></seg><seg><seg type="prim_transl">Do not blame him!</seg><bibl><title corresp="ref:peyrot2013b"/><citedRange>305</citedRange></bibl></seg></choice><choice corresp="#b5"><seg><bibl><title corresp="ref:carling2000"/><citedRange>330</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1967c"/><citedRange>175</citedRange></bibl></seg><seg><seg type="prim_transl">But [it is] for [all] our sakes he endures [lit. sees] such suffering.” Having said this, the two gods went away. There, however, the Brahmins, going step by step in the meantime, leading the prince Uttara,</seg></seg><seg><seg type="prim_transl">Da aber jetzt brachten die Brahmanen, zunächst Schritt für Schritt gehend, den Prinzen Uttara führend, ihn in das Land des Königs Candramukha.</seg><seg type="sec_transl" resp="TI">But there now the Brahmins, going step by step at first, leading prince Uttara, brought him into the land of king Candramukha.</seg><bibl><title corresp="ref:schmidtkt1974"/><citedRange>392</citedRange></bibl></seg></choice><choice corresp="#b5 #b6"><seg><bibl><title corresp="ref:carling2000"/><citedRange>101</citedRange></bibl></seg><seg><bibl><title corresp="ref:schmidtkt1974"/><citedRange>392</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1957"/><citedRange>91</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1979b"/><citedRange>45</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1983"/><citedRange>32</citedRange></bibl></seg></choice><choice corresp="#b6"><seg><bibl><title corresp="ref:thomas1973"/><citedRange>80</citedRange></bibl></seg><seg><seg type="prim_transl">now brought him to the land of the king Candramukha. Thereupon the pupils, having entered the Brahmin village, spok(e) to the Purohita Rudramukha:</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="philcomment">Continues [[THT 87]], continued on <ref type="ms" target="txt:m-tht89"/> after a gap the length of a leaf. The translation basically follows <bibl><title corresp="ref:schmidtkt2001"/><citedRange>316-8</citedRange></bibl>.</note><note type="philcomment">Some signs have been copied without diligence, e.g., <hi>märsā-ne</hi> for <hi>pärsāte</hi> in <ref type="ms" target="#a3"/>, <hi>sparkālye</hi> for <hi>spärkālye</hi>, <hi>śamāne</hi> for <hi>śāmane</hi>, and <hi>vipṇuntaṃts</hi> for <hi>vipṇuntaṃts</hi> in <ref type="ms" target="#a5"/>, <hi>lwāsāts</hi> for <hi>lwasāṃts</hi> in <ref type="ms" target="#b2"/>, <hi>ākemane</hi> for <hi>akemane</hi> in <ref type="ms" target="#b6"/>, etc.; often anusvāra is misssing, geminates are spelled with a single consonant or clusters are simplified (<hi>yamas-ne</hi> for <hi>yamast-ne</hi> in <ref type="ms" target="#b4"/>). The meter is also often incorrect.</note><note type="remarks">According to Sieg/Siegling, a nearly completely leaf. Today, however, the right-most part with the margin is missing, and perhaps some smaller pieces. The fragment THT 88 is the largest completed by THT 1924 to its left side. The leaf was carelessley restored before putting it under the current glas frame: a small piece at the beginning of line a 1 and line b 6, respectively, has been glued in the wrong way, so it has to be turned upside down; around the margins some folds are turned the wrong way.</note><note type="remarks">There is now a lacuna in line <ref type="ms" target="#a1"/> between <hi>lnaṣṣi</hi> and <hi>m(·)eṃ</hi>, while Sieg/Siegling read clearly <hi>lnaṣṣine || tumeṃ</hi>, and it looks like part of the paper has been wrongly folded to the other side; the fragments join right in the middle of ‹du›; the attested fragment ends with <hi>si</hi>. In line <ref type="ms" target="#a2"/> the fragments join right in the middle of ‹ña›, the leaf ends with ‹wa›. In lines <ref type="ms" target="#a3"/> the fragments join somewhere in the middle of the string hole, the leaf ends with ‹utta›, while the upper part of a following vowel sign <hi>e</hi> is still visible. In line <ref type="ms" target="#a4"/> the left fragment reads up until ||, while the akṣara ‹tu› read by Sieg/Siegling is missing; the leaf ends with ‹lar[i]›. The left piece in line <ref type="ms" target="#a5"/> ends with ‹lye›, an edge from the verso side with part of the ‹la›-sign has been folded over the verso side; the right fragment starts with part of the ‹pa› and ends with the dot. In line <ref type="ms" target="#a6"/> the left piece ends with ‹brā›, the right starts with ‹rt(·)e›; in three places the paper has been wrongly folded so that the correct text is now to be seen on the photo of the verso side: the <hi>nn</hi> of <hi>r[t](·)enne</hi>, the middle of the akṣara ‹lkā› of <hi>lkāṣṣänme</hi>, and the lower part of the ‹ka› of <hi>mñcuṣke</hi>; the fragment ends with ‹rra›. In line <ref type="ms" target="#b1"/> the framents do not join, the left fragment ends before the lacuna, the beginning of the right fragment is the correct place to put the small fragment mentioned in line a6, right where one can still see traces of the ‹[ly]mi› and ‹so› read by Sieg/Siegling; over the ‹<hi rend="underline">ka</hi>› of <hi>kärtso</hi> a small piece showing the lower part of a ‹ka› has been wrongly glued; the fragment ends with <hi>kwātärne</hi>. In line <ref type="ms" target="#b2"/> the left fragment ends with ‹wol[o]›, the right continues after the lacuna and ends with ‹ptsā›. In line <ref type="ms" target="#b3"/> the fraction falls into the string hole, the remains of a sign visible after <hi>ś(·)</hi> must belong to a different piece; the right fragment ends with <hi>ñ(·)</hi>. In line <ref type="ms" target="#b4"/> the fraction again falls into the string hole, the right fragment ends with <hi>[p]·</hi>. In line <ref type="ms" target="#b5"/> the fragments join completely at the beginning of <hi>lkāṣṣäṃ</hi>, the right fragment ends with <hi>yne</hi>, but the <hi>e</hi>-sign is lost now. In line <ref type="ms" target="#b6"/> the <hi>u</hi> of <hi>mu</hi> from <hi>candramukhi</hi> seems to have been folded wrongly to the other side, the fragments join after <hi>lānte</hi>, the right fragment ends with ‹rudramu›.</note><note corresp="#a1 #a2" type="philcomment">A parallel passage now suggests a kind of textile or garment for the meaning of <hi>ṣorpor</hi> (not "bowl", which is the traditional interpretation triggered by <hi>ite</hi> "full"), see <bibl><title corresp="ref:schmidtkt2001"/><citedRange>316</citedRange></bibl> with fn. 93 and 94 and <bibl><title corresp="ref:pinault2004a"/><citedRange>259</citedRange></bibl>. Due to the broken context and due to the fact that the hapax <hi>siñcai</hi> is not clear, the passage is not entirely certain. <bibl><title corresp="ref:schmidtkt2001"/><citedRange>316</citedRange></bibl> (who then must have had access to the now lost piece) wants to read <hi>in[eś] (eṃṣ)[k](e yā)mormeṃ</hi> instead of <hi>i[t]e</hi> and translates "after they had (pul)led(?) down a ... hood (?) into [his] ey(es)". Whether this is correct can only be verified when the missing piece has been found; note that ‹na› and ‹ta› are usually kept clearly apart in this manuscript, so that Sieg/Siegling's reading <hi>i[t]e</hi>, should not be dismissed easily, even if the sign <hi>[t]</hi> was read with some uncertainty. Differently, <bibl><title corresp="ref:pinault2004a"/><citedRange>259f</citedRange></bibl>. restores <hi>siñcai ṣorpor ite (cewsa yā)mormeṃ</hi> and translates "having put trousers on him completetly provided with thorns", refering to similar punishments known from Indic literatures.</note><note corresp="#a2" type="philcomment"><hi>kālp</hi> from Skt. <hi>kalpa</hi>- here means ‘(mis)treatment'. The reading ‹wa› in <hi>warttoṣṣe</hi> is clear, the form seems to be a mistake for <hi>wärttoṣṣe</hi>. There are many misspellings in this fragment.</note><note corresp="#a3" type="philcomment">The function of the dot after <hi>brāhmaṇe</hi> is unclear and probably just a mistake.</note><note corresp="#a4" type="lingcomment">Here we seem to have a phrase <hi>vṛkṣavāsike ñakte</hi> (lit. "a god inhabiting a tree"), while in <ref type="ms" target="#b4"/> the Tree-god is a compound <hi>vṛkṣavāsike-ñäkte</hi> of the type <hi>kauṃ-ñäkte</hi> 'Sun-god'. But note that <hi>ñakte</hi> may also be simply a misspelling for <hi>ñäkte</hi>, since there are many errors in this text.</note><note corresp="#a5 #a6 #b1 #b2 #b3" type="philcomment">According to Sieg/Siegling, the meter has 21|21|18|13 syllables (a+b: 8/7/6; c: 9/9; d: 7/6). Very often the pādas have incorrect numbers of syllables.</note><note corresp="#a6" type="philcomment">Pāda 1c has one syllable too many.</note><note corresp="#b1" type="lingcomment">Note the monophthong -<hi>o</hi> in <hi>snai kärsto</hi> for <hi>snai kärstau</hi>; the same monophthongized form is attested in <ref type="ms" target="txt:m-tht85"/> a 1, which belongs to the same manuscript, and there it is also at the end of a sentence. Accordingly, the form rather attests to a real monothong and is not simply due to a misspelling.</note><note corresp="#b1" type="philcomment">The second colon of pāda 2a has one syllable too many; Thomas <bibl><title corresp="ref:siegandsiegling1983"/><citedRange>242</citedRange></bibl> suggests to read <hi>tu-yknes(a)</hi>. Sieg/Siegling read <hi>śauśaṃ-ne</hi> in pāda 2b; since the original fragment is missing, it is difficult to judge whether this is a typo for <hi>śauśäṃ-ne</hi> or a misspelling in the manuscript.</note><note corresp="#b2" type="philcomment">The verbal form <hi>wolo(kträ)</hi> has already been restored by <bibl><title corresp="ref:krause1952"/><citedRange>286</citedRange></bibl>. <bibl><title corresp="ref:schmidtkt2001"/><citedRange>317</citedRange></bibl> with fn. 100 claims that in the akṣara 〈mw〉 the 〈w〉 had been erased on purpose; he also reads and restores <hi>(tu)-maṃnte</hi> or <hi>(tu)-maṃnte</hi> "from there onwards"; however, this is impossible because the adverb <hi>mante</hi> in the meaning "from ... onwards" requires the ablativ, while the compound with the neuter <hi>te</hi> pronoun has the second member <hi>mant</hi> (<hi>te-mant</hi> "in this way"), never <hi>°mante</hi>. To be sure, the 〈w〉 may also simply be faint due to damage to the manuscript; as for the vowel above the akṣara, I also follow Sieg/Siegling in reading [e], because the sign as been attached on the left side over the 〈m〉, while an anusvāra <hi>ṃ</hi> would have been placed right in the middle over the sign. I follow the separation <hi>ente</hi> "where, if" propsoed by <bibl><title corresp="ref:stumpf1971"/><citedRange>135f</citedRange></bibl>. °<hi>mw</hi> then can only be a sandhi form for °<hi>mu</hi> or °<hi>mu</hi>; Stumpf proposed yanmo "gehend" = "auf der Wanderung", while Thomas seems to propose an adverb "traurig".</note><note corresp="#b2" type="philcomment">Both cola of pāda 2c have one syllable too many.</note><note corresp="#b3" type="philcomment">The second colon of pāda 2d is one syllable too short, the missing syllable may be restored by restoring the sandhi form <hi>ytārine</hi>.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 88" type="external">THT 88</ref><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 1924" type="external">THT 1924</ref></bibl>; <bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/00/0088.htm" type="external">THT 88</ref><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/19/1924.htm" type="external">THT 1924</ref></bibl>. </p>
+            <p><label>Edition</label><bibl><title corresp="ref:tamai2007a"/><citedRange>№1924</citedRange></bibl><bibl><title corresp="ref:siegandsiegling1953"/><citedRange>25-26</citedRange></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="access_old">public</item>
+               <item n="m_lines_old">6</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="file_location_old">pages/manuscript/THT_0001_0633/tht88.txt</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="created_date_old">2012-03-17, 18:49:56 (CET)</item>
+               <item n="m_findspot_old">Šorčuq</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 88" target="idp"&gt;THT 88&lt;/a&gt;, &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 1924" target="idp"&gt;THT 1924&lt;/a&gt;; [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/00/0088.htm" target="titus"&gt;THT 88&lt;/a&gt;, &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/19/1924.htm" target="titus"&gt;THT 1924&lt;/a&gt;.&lt;br&gt;
+Edition: [[Tamai 2007a]]: №1924, [[TochSprR(B) II]]: 25-26.&lt;br&gt;
+Complete translation: [[Couvreur 1954c]]: 102, [[Schmidt KT 2001]]: 316-318.&lt;br&gt;
+Translation:
+&lt;b&gt;a1&lt;/b&gt; [[Thomas 1957]]: 48f;
+&lt;b&gt;a1-4&lt;/b&gt; [[Thomas 1957]]: 91, [[Pinault 2004a]]: 259f.;
+&lt;b&gt;a2&lt;/b&gt; [[Thomas 1957]]: 49, [[TochSprR(B)2]]: 241;
+&lt;b&gt;a2-3&lt;/b&gt; [[Krause and Thomas, TEB II]]: 52; [[Carling 2000]]: 223, [[Schmidt KT 1974]]: 131f, [[Thomas 1979b]]: 43;
+&lt;b&gt;a3&lt;/b&gt; [[Carling 2000]]: 80, [[Thomas 1969]]: 257, [[TochSprR(B)2]]: 241;
+&lt;b&gt;a3-4&lt;/b&gt; [[Carling 2000]]: 50, 180, [[Thomas 1957]]: 196, [[Thomas 1969]]: 257;
+&lt;b&gt;a4&lt;/b&gt; [[Thomas 1979d]]: 151;
+&lt;b&gt;a4-5&lt;/b&gt; [[Krause and Thomas, TEB II]]: 52, [[Meunier 2013]]: 167; [[Peyrot, ToSu]]: 350;
+&lt;b&gt;a5&lt;/b&gt; [[Krause and Thomas, TEB II]]: 52, [[Krause, WTG]]: 39, [[Thomas 1952]]: 34, [[Thomas 1954]]: 745, [[Thomas 1967b]]: 24, [[Thomas 1970]]: 278, [[TochSprR(B)2]]: 241;
+&lt;b&gt;a6&lt;/b&gt; [[Hackstein 1995]]: 250, [[Thomas 1968]]: 204;
+&lt;b&gt;a6-b1&lt;/b&gt; [[Peyrot, ToSu]]: 367;
+&lt;b&gt;b1&lt;/b&gt; [[Schmidt KT 1974]]: 383, [[Thomas 1972]]: 456;
+&lt;b&gt;b1-2&lt;/b&gt; [[Krause and Thomas, TEB II]]: 52; [[Schmidt KT 1974]]: 95, 155f, 276, 279;
+&lt;b&gt;b2&lt;/b&gt; [[Carling 2000]]: 91, [[TochSprR(B)2]]: 242;
+&lt;b&gt;b2-3&lt;/b&gt; [[Carling 2000]]: 90, 94, 96; [[Schmidt KT 1974]]: 193, 507; [[Peyrot, ToSu]]: 319;
+&lt;b&gt;b3&lt;/b&gt; [[Hackstein 1995]]: 314, [[Schmidt KT 1974]]: 390;
+&lt;b&gt;b3-5&lt;/b&gt; [[Thomas 1957]]: 181;
+&lt;b&gt;b4&lt;/b&gt; [[Krause and Thomas, TEB II]]: 53, [[Krause, WTG]]: 27, [[Thomas 1958]]: 302, [[Thomas 1969b]]: 54, [[Thomas 1975]]: 310, [[Thomas 1981]]: 494, [[TochSprR(B)2]]: 242; [[Peyrot, ToSu]]: 305;
+&lt;b&gt;b5&lt;/b&gt; [[Carling 2000]]: 330, [[Thomas 1967c]]: 175;
+&lt;b&gt;b5f&lt;/b&gt; [[Carling 2000]]: 101, [[Schmidt KT 1974]]: 392, [[Thomas 1957]]: 91, [[Thomas 1979b]]: 45, [[Thomas 1983]]: 32;
+&lt;b&gt;b6&lt;/b&gt; [[Thomas 1974a]]: 80.</item>
+               <item n="m_manuscript_old">Araṇemi α</item>
+               <item n="m_lingcomment_old">&lt;p&gt;&lt;b&gt;a4&lt;/b&gt; Here we seem to have a phrase &lt;i&gt;vṛkṣavāsike ñakte&lt;/i&gt; (lit. "a god inhabiting a tree"), while in &lt;b&gt;b4&lt;/b&gt; the Tree-god is a compound &lt;i&gt;vṛkṣavāsike-ñäkte&lt;/i&gt; of the type &lt;i&gt;kauṃ-ñäkte&lt;/i&gt; 'Sun-god'. But note that &lt;i&gt;ñakte&lt;/i&gt; may also be simply a misspelling for &lt;i&gt;ñäkte&lt;/i&gt;, since there are many errors in this text.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b1&lt;/b&gt; Note the monophthong -&lt;i&gt;o&lt;/i&gt; in &lt;i&gt;snai kärsto&lt;/i&gt; for &lt;i&gt;snai kärstau&lt;/i&gt;; the same monophthongized form is attested in [[THT 85]] a 1, which belongs to the same manuscript, and there it is also at the end of a sentence. Accordingly, the form rather attests to a real monothong and is not simply due to a misspelling.&lt;/p&gt;</item>
+               <item n="file_size_old">21 KB</item>
+               <item n="m_transliteration_old">a1 [k](·)ntwo koynameṃ parna lnaṣṣi-ne || tumeṃ durmukhe brāhmaṇe uttare śamaśkeṃ _k_arwāṣṣai witsakaisa _r_askare tsopaṃ-ne siñcai ṣorpor i[t]e (– – –)
+a2 mormeṃ au«ntsa»nte-ne ścīre ma_k_astsi • tane ñake uttari śamaś(·)entse kālpsa painemeṃ ette kloyomane alye_k_a kca warttoṣṣe makūltsa tatrāppa-
+a3 rmeṃ rūpsa klāya _m_arsāne ke○ne mrakwe yopsa-ne || tane rudraśarme brāhmaṇe • portsaisa u[tta](·)[e] (–)ṣkeṃ eṅkormeṃ tsak[a]tsai
+a4 keṃtsa or_k_antai yärtta-ne || tu ○ lyelyakormeṃ vṛkṣavāsike ñakte śle māṃtsalyñe śanoś we_ṣ_ṣ_aṃ lar[i](– –)l[k]a nai mā-ṣekaṃñe
+a5 wäntarwat_s\ sparkālye [ā](– –) [p](·)ñcagatine || ykāk cwi śamāne pācer wlo vipṇuntaṃts ra amāskai yāmtsi sū erkatte • (–)k no cwi soṃśke lalaṃ-
+a6 ṣkeṃ aināki caim_p\• brā(– – –)r[t](·)en-ne śle tremeṃ : pil[ko](·)·ñmālaṣkeṃ lkā_ṣ_ṣ_an-me taṅsa sa_m\ mñcuṣke lareṃ pā_t_ar ram_t\ : mā w[a] ks[a] _ṣ\ cwim[_p\]
+b1 _m_asket_r_a waste com_p\• [l](· – – – –) [ly]m[i](·) sportot_r_a pācer cwi[m_p\] [ku]rār lūwo [tu] y[ä]knes(·) kw[ä]snāt_r_a snai _k_arsto • kwā_t_ar-ne taṅsa śauśaṃ-ne cwī
+b2 ykuwa toṃ ykentane wol[o](– –)mw [e]nte lwāsāts ra _ṣ_p_a seni_k\ com_p\• ka_l_p_a_ṣ_ṣ_aṃ ñśameṃ wätkoṣ kr_ui lkācer ñī sośke : p[ts]ārwaṣṣat-ne ñi yke-
+b3 ne ytārin= empelyai 2 || ś(·)○na ñäkteñña we_ṣ_ṣ_aṃ makte pācer walo cwi com_p\• lakle śala kā _ṣ_p_a [ñ](· – –)klesu ste || vṛkṣa-
+b4 vāsike-ñäkte we_ṣ_ṣ_aṃ pa○ñä_k_t_aṃñe perneṣṣe akālksa rinsāte-ne mā traṅko yamas-ne [p]· (– –)k(·) _l_akleñä\ arañce ni-
+b5 ttaṃ we_s_añ no pernesa sū toṃ _l_aklenta lkā_ṣ_ṣ_aṃ || te weweñ(·)rmeṃ ltai_s\ ñaktene || om no ñake tott īke-postaṃ yne[ma]ne brāhmaṇi uttareṃ
+b6 [mñcu]ṣkeṃ ākemane candramukhi lānte yapoyne klānte-ne • tumeṃ brāhmaṇagrāmne yaipormeṃ aka_l_ṣ_alyi rudramukheṃ purohiteṃ [w]e(·)[ā]</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=331117;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=331117;rotate=0;imageType=_M||THT 1924 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=327871;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=327871;rotate=0;imageType=_M||THT 88 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=331193;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=331193;rotate=0;imageType=_M||THT 1924 verso
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=327878;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=327878;rotate=0;imageType=_M||THT 88 verso</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="version_old">51</item>
+               <item n="m_editor_old">Melanie Malzahn</item>
+               <item n="m_philcomment_old">&lt;p&gt;Continues [[THT 87]], continued on [[THT 89]] after a gap the length of a leaf. The translation basically follows [[Schmidt KT 2001]]: 316-8.&lt;/p&gt;
+&lt;p&gt;Some signs have been copied without diligence, e.g., &lt;i&gt;märsā-ne&lt;/i&gt; for &lt;i&gt;pärsāte&lt;/i&gt; in &lt;b&gt;a3&lt;/b&gt;, &lt;i&gt;sparkālye&lt;/i&gt; for &lt;i&gt;spärkālye&lt;/i&gt;, &lt;i&gt;śamāne&lt;/i&gt; for &lt;i&gt;śāmane&lt;/i&gt;, and &lt;i&gt;vipṇuntaṃts&lt;/i&gt; for &lt;i&gt;vipṇuntaṃts&lt;/i&gt; in &lt;b&gt;a5&lt;/b&gt;, &lt;i&gt;lwāsāts&lt;/i&gt; for &lt;i&gt;lwasāṃts&lt;/i&gt; in &lt;b&gt;b2&lt;/b&gt;, &lt;i&gt;ākemane&lt;/i&gt; for &lt;i&gt;akemane&lt;/i&gt; in &lt;b&gt;b6&lt;/b&gt;, etc.; often anusvāra is misssing, geminates are spelled with a single consonant or clusters are simplified (&lt;i&gt;yamas-ne&lt;/i&gt; for &lt;i&gt;yamast-ne&lt;/i&gt; in &lt;b&gt;b4&lt;/b&gt;). The meter is also often incorrect.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a1-a2&lt;/b&gt; A parallel passage now suggests a kind of textile or garment for the meaning of &lt;i&gt;ṣorpor&lt;/i&gt; (not "bowl", which is the traditional interpretation triggered by &lt;i&gt;ite&lt;/i&gt; "full"), see [[Schmidt KT 2001]]: 316 with fn. 93 and 94 and [[Pinault 2004a]]: 259. Due to the broken context and due to the fact that the hapax &lt;i&gt;siñcai&lt;/i&gt; is not clear, the passage is not entirely certain. [[Schmidt KT 2001]]: 316 (who then must have had access to the now lost piece) wants to read &lt;i&gt;in[eś] (eṃṣ)[k](e yā)mormeṃ&lt;/i&gt; instead of &lt;i&gt;i[t]e&lt;/i&gt; and translates "after they had (pul)led(?) down a ... hood (?) into [his] ey(es)". Whether this is correct can only be verified when the missing piece has been found; note that ‹na› and ‹ta› are usually kept clearly apart in this manuscript, so that Sieg/Siegling's reading &lt;i&gt;i[t]e&lt;/i&gt;, should not be dismissed easily, even if the sign &lt;i&gt;[t]&lt;/i&gt; was read with some uncertainty. Differently, [[Pinault 2004a]]: 259f. restores &lt;i&gt;siñcai ṣorpor ite (cewsa yā)mormeṃ&lt;/i&gt; and translates "having put trousers on him completetly provided with thorns", refering to similar punishments known from Indic literatures.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a2&lt;/b&gt; &lt;i&gt;kālp&lt;/i&gt; from Skt. &lt;i&gt;kalpa&lt;/i&gt;- here means ‘(mis)treatment'. The reading ‹wa› in &lt;i&gt;warttoṣṣe&lt;/i&gt; is clear, the form seems to be a mistake for &lt;i&gt;wärttoṣṣe&lt;/i&gt;. There are many misspellings in this fragment.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a3&lt;/b&gt; The function of the dot after &lt;i&gt;brāhmaṇe&lt;/i&gt; is unclear and probably just a mistake.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a5, a6, b1-b3&lt;/b&gt; According to Sieg/Siegling, the meter has 21|21|18|13 syllables (a+b: 8/7/6; c: 9/9; d: 7/6). Very often the pādas have incorrect numbers of syllables.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a6&lt;/b&gt; Pāda 1c has one syllable too many.&lt;/p&gt; 
+&lt;p&gt;&lt;b&gt;b1&lt;/b&gt; The second colon of pāda 2a has one syllable too many; Thomas [[TochSprR(B)2]]: 242 suggests to read &lt;i&gt;tu-yknes(a)&lt;/i&gt;. Sieg/Siegling read &lt;i&gt;śauśaṃ-ne&lt;/i&gt; in pāda 2b; since the original fragment is missing, it is difficult to judge whether this is a typo for &lt;i&gt;śauśäṃ-ne&lt;/i&gt; or a misspelling in the manuscript.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b2&lt;/b&gt; The verbal form &lt;i&gt;wolo(kträ)&lt;/i&gt; has already been restored by [[Krause, WTG]]: 286. [[Schmidt KT 2001]]: 317 with fn. 100 claims that in the akṣara 〈mw〉 the 〈w〉 had been erased on purpose; he also reads and restores &lt;i&gt;(tu)-maṃnte&lt;/i&gt; or &lt;i&gt;(tu)-maṃnte&lt;/i&gt; "from there onwards"; however, this is impossible because the adverb &lt;i&gt;mante&lt;/i&gt; in the meaning "from ... onwards" requires the ablativ, while the compound with the neuter &lt;i&gt;te&lt;/i&gt; pronoun has the second member &lt;i&gt;mant&lt;/i&gt; (&lt;i&gt;te-mant&lt;/i&gt; "in this way"), never &lt;i&gt;°mante&lt;/i&gt;. To be sure, the 〈w〉 may also simply be faint due to damage to the manuscript; as for the vowel above the akṣara, I also follow Sieg/Siegling in reading [e], because the sign as been attached on the left side over the 〈m〉, while an anusvāra &lt;i&gt;ṃ&lt;/i&gt; would have been placed right in the middle over the sign. I follow the separation &lt;i&gt;ente&lt;/i&gt; "where, if" propsoed by [[Stumpf 1971]]: 135f. °&lt;i&gt;mw&lt;/i&gt; then can only be a sandhi form for °&lt;i&gt;mu&lt;/i&gt; or °&lt;i&gt;mu&lt;/i&gt;; Stumpf proposed yanmo "gehend" = "auf der Wanderung", while Thomas seems to propose an adverb "traurig".&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b2&lt;/b&gt; Both cola of pāda 2c have one syllable too many.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b3&lt;/b&gt; The second colon of pāda 2d is one syllable too short, the missing syllable may be restored by restoring the sandhi form &lt;i&gt;ytārine&lt;/i&gt;.&lt;/p&gt;</item>
+               <item n="page_name_old">THT 88</item>
+               <item n="file_modified_old">1551883783</item>
+               <item n="file_created_old">1332006596</item>
+               <item n="project_comment_old">&lt;p&gt;Alternative classifications:
+&lt;table class="table_lines"&gt;
+  &lt;tr&gt;&lt;td title="MP"&gt;Peyrot&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="MM"&gt;Malzahn&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TT"&gt;Tamai&lt;/td&gt;&lt;td title="C5"&gt;II-3 (800-900)&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TTC14"&gt;Tamai-C14&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+&lt;p&gt;Translations from [[Peyrot, ToSu]]
+&lt;table class="table_lines"&gt;
+&lt;th&gt;Lines&lt;/th&gt;
+&lt;th&gt;Translation&lt;/th&gt;
+&lt;th&gt;Pages&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt;a4-5&lt;/td&gt;
+&lt;td&gt;O dear!, look at the impermanence of the things [and their] ultimate disappearance! (cf [[Couvreur 1954c]]: 102; [[Schmidt KT 2001]]: 317)&lt;/td&gt;
+&lt;td&gt;350&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;a6-b1&lt;/td&gt;
+&lt;td&gt;With a pitiful look that prince looks at them with love, as at a dear father. Yet there is not any protection for him in his sorrow.  (cf [[Couvreur 1954c]]: 102)&lt;/td&gt;
+&lt;td&gt;367&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;b2-3&lt;/td&gt;
+&lt;td&gt;If you see my little son, who is separated from me, console him on [his] awful road on my behalf [lit. in my stead]!  (cf [[Couvreur 1954c]]: 102; [[Schmidt KT 2001]]: 317–318)&lt;/td&gt;
+&lt;td&gt;319&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;b4&lt;/td&gt;
+&lt;td&gt;Do not blame him!&lt;/td&gt;
+&lt;td&gt;305&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+&lt;p&gt;Translations from [[Schmidt KT 1974]]
+&lt;table class="table_lines"&gt;
+&lt;th&gt;Lines&lt;/th&gt;
+&lt;th&gt;Translation&lt;/th&gt;
+&lt;th&gt;Pages&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt;a2-3&lt;/td&gt;
+&lt;td&gt;&lt;span title="There now, because of the boy Uttara's behaviour(?) falling under his feet [and] having tripped over some forest root, she(?) fell onto [her?] face; a little spluttered onto the earth and permeated it."&gt;Dort jetzt durch des Knaben Uttara Verhalten(?) ihm unter die Füße fallend [und] an irgendeiner Waldwurzel hängengeblieben, fiel sie(?) auf das Gesicht; ein wenig(?) spritzte auf die Erde [und] drang in sie ein.&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;132&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;b1-2&lt;/td&gt;
+&lt;td&gt;&lt;span title="He calls [for] him, full of love, [and] cries for him, in the places entered by him [i.e. Uttara] he tarries ..."&gt;Er ruft ihn voll Liebe [und] schreit nach ihm, an den von ihm [scil. Uttara] betretenen Orten verweilt er ...&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;276&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;b1-2&lt;/td&gt;
+&lt;td&gt;&lt;span title="Into [all] directions his father turns; like unto a sea-eagle[-creature] he laments without stopping. He calls him, full of love [and] cries for him."&gt;In [alle] Richtungen wendet sich sein Vater; [wie] ein Meeradler[tier] so wehklagt er ohne Unterlass. Er ruft ihn voll Liebe [und] schreit nach ihm.&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;95, 155-6, 279, 383&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;b2-3&lt;/td&gt;
+&lt;td&gt;&lt;span title="If you see my little son, [who has been] separated from me, [then] comfort him in my stead on [his] terrible road!"&gt;Wenn ihr mein von mir getrenntes Söhnchen seht, [so] tröstet es an meiner Statt auf dem schrecklichen Weg!&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;193, 507&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;b3&lt;/td&gt;
+&lt;td&gt;&lt;span title="His father, the king, himself, brought him that suffering."&gt;Sein Vater, der König, selbst hat ihm jenes Leid gebracht.&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;390&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;b5&lt;/td&gt;
+&lt;td&gt;&lt;span title="But there now the Brahmins, going step by step at first, leading prince Uttara, brought him into the land of king Candramukha."&gt;Da aber jetzt brachten die Brahmanen, zunächst Schritt für Schritt gehend, den Prinzen Uttara führend, ihn in das Land des Königs Candramukha.&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;392&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+"Where b2 he [= the king] tarr(ies) (walking?) to the places treaded by him [= Uttara],": ich glaube nicht, dass man ente so konstruieren könnte. Der Satz würde wirklich sehr kompliziert werden. Michael (Tue, 2016-04-05, 12:54:57 (CEST))</item>
+               <item n="ms_old">THT 88</item>
+               <item n="m_script_old">Classical</item>
+               <item n="edited_date_old">2018-11-06, 11:32:28 (CET)</item>
+               <item n="m_expedition_old">T III Š 75.3; T III Š 93</item>
+               <item n="m_other_sigla_old">B 88, Bleistiftnummer 2339; THT 1924</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old">&lt;p&gt;According to Sieg/Siegling, a nearly completely leaf. Today, however, the right-most part with the margin is missing, and perhaps some smaller pieces. The fragment THT 88 is the largest completed by THT 1924 to its left side. The leaf was carelessley restored before putting it under the current glas frame: a small piece at the beginning of line a 1 and line b 6, respectively, has been glued in the wrong way, so it has to be turned upside down; around the margins some folds are turned the wrong way.&lt;/p&gt;
+&lt;p&gt;There is now a lacuna in line &lt;b&gt;a1&lt;/b&gt; between &lt;i&gt;lnaṣṣi&lt;/i&gt; and &lt;i&gt;m(·)eṃ&lt;/i&gt;, while Sieg/Siegling read clearly &lt;i&gt;lnaṣṣine || tumeṃ&lt;/i&gt;, and it looks like part of the paper has been wrongly folded to the other side; the fragments join right in the middle of ‹du›; the attested fragment ends with &lt;i&gt;si&lt;/i&gt;. In line &lt;b&gt;a2&lt;/b&gt; the fragments join right in the middle of ‹ña›, the leaf ends with ‹wa›. In lines &lt;b&gt;a3&lt;/b&gt; the fragments join somewhere in the middle of the string hole, the leaf ends with ‹utta›, while the upper part of a following vowel sign &lt;i&gt;e&lt;/i&gt; is still visible. In line &lt;b&gt;a4&lt;/b&gt; the left fragment reads up until ||, while the akṣara ‹tu› read by Sieg/Siegling is missing; the leaf ends with ‹lar[i]›. The left piece in line &lt;b&gt;a5&lt;/b&gt; ends with ‹lye›, an edge from the verso side with part of the ‹la›-sign has been folded over the verso side; the right fragment starts with part of the ‹pa› and ends with the dot. In line &lt;b&gt;a6&lt;/b&gt; the left piece ends with ‹brā›, the right starts with ‹rt(·)e›; in three places the paper has been wrongly folded so that the correct text is now to be seen on the photo of the verso side: the &lt;i&gt;nn&lt;/i&gt; of &lt;i&gt;r[t](·)enne&lt;/i&gt;, the middle of the akṣara ‹lkā› of &lt;i&gt;lkāṣṣänme&lt;/i&gt;, and the lower part of the ‹ka› of &lt;i&gt;mñcuṣke&lt;/i&gt;; the fragment ends with ‹rra›. In line &lt;b&gt;b1&lt;/b&gt; the framents do not join, the left fragment ends before the lacuna, the beginning of the right fragment is the correct place to put the small fragment mentioned in line a6, right where one can still see traces of the ‹[ly]mi› and ‹so› read by Sieg/Siegling; over the ‹&lt;u&gt;ka&lt;/u&gt;› of &lt;i&gt;kärtso&lt;/i&gt; a small piece showing the lower part of a ‹ka› has been wrongly glued; the fragment ends with &lt;i&gt;kwātärne&lt;/i&gt;. In line &lt;b&gt;b2&lt;/b&gt; the left fragment ends with ‹wol[o]›, the right continues after the lacuna and ends with ‹ptsā›. In line &lt;b&gt;b3&lt;/b&gt; the fraction falls into the string hole, the remains of a sign visible after &lt;i&gt;ś(·)&lt;/i&gt; must belong to a different piece; the right fragment ends with &lt;i&gt;ñ(·)&lt;/i&gt;. In line &lt;b&gt;b4&lt;/b&gt; the fraction again falls into the string hole, the right fragment ends with &lt;i&gt;[p]·&lt;/i&gt;. In line &lt;b&gt;b5&lt;/b&gt; the fragments join completely at the beginning of &lt;i&gt;lkāṣṣäṃ&lt;/i&gt;, the right fragment ends with &lt;i&gt;yne&lt;/i&gt;, but the &lt;i&gt;e&lt;/i&gt;-sign is lost now. In line &lt;b&gt;b6&lt;/b&gt; the &lt;i&gt;u&lt;/i&gt; of &lt;i&gt;mu&lt;/i&gt; from &lt;i&gt;candramukhi&lt;/i&gt; seems to have been folded wrongly to the other side, the fragments join after &lt;i&gt;lānte&lt;/i&gt;, the right fragment ends with ‹rudramu›.&lt;/p&gt;
+ </item>
+               <item n="m_genre_old">Literary</item>
+               <item n="group_old">Public</item>
+               <item n="m_leaf_old">21</item>
+               <item n="m_title_old">Araṇemijātaka</item>
+               <item n="m_transcription_old">a1 k(a)ntwo koynameṃ parna lnaṣṣi-ne || tumeṃ durmukhe brāhmaṇe uttare«ṃ» śamaśkeṃ kärwāṣṣai witsakaisa räskare tsopaṃ-ne siñcai ṣorpor ite (– – –)
+a2 mormeṃ auntsante-ne ścīre makästsi • tane ñake uttari śamaś(k)entse kālpsa painemeṃ ette kloyomane alyek|alyekä kca wärttoṣṣe|warttoṣṣe makūltsa tatrāpparmeṃ|tatrāppa|rmeṃ
+a3 rūpsa klāya {p}ärsā{t}e ke«ṃ»ne mrakwe yopsa-ne || tane rudraśarme brāhmaṇe • portsaisa utta(r)e(ṃ) (mñcu)ṣkeṃ eṅkormeṃ tsakātstsai|tsakatsai
+a4 kentsa|keṃtsa orkäntai yärttā-ne|yärtta-ne || tu lyelyakormeṃ vṛkṣavāsike ñakte śle māṃtsalyñe śanośc|śanoś weṣṣäṃ lari(ya pā)lka nai mā-ṣekaññe|mā-ṣekaṃñe
+a5 wäntarwaṃts|wäntarwats spärkālye|sparkālye ā(ke ||) p(a)ñcagatine || # ykāk cwi śāmane|śamāne , pācer walo|wlo ; vi{ṣ}ṇuntaṃts ra , amāskai ; yāmtsi su|sū erkatte • #1a (ya)k no cwi soṃśke , lalaṃṣkeṃ|lalaṃ|ṣkeṃ
+a6 ; ainaki|aināki caimp , brā(hmaṇi ; yä)rt(t)en-ne śle tremeṃ : #1b pilkosa|pilko(s= añmālaṣkeṃ|ā)ñmālaṣkeṃ lkāṣṣän-me ; taṅksa|taṅsa samp|sam mñcuṣke lareṃ pātär ramt : #1c mā wa ksa ṣ cwimp ,
+b1 mäsketär|mäsketrä ; waste comp l(aklene 1 #1d kä)lymi(ṃ) sporttotär|sportoträ , pācer cwimp ; kurār luwo|lūwo tu yaknesa|yäknes(a) ; kwäsnātär|kwäsnāträ snai kärstau|kärsto • #2a kwātär-ne taṅksa|taṅsa , śauśäṃ-ne|śauśaṃ-ne ; cwi|cwī
+b2 ykuwa toṃ , ykentane ; wolo(ktär –)mw ente #2b lwāsaṃts|lwāsāts ra ṣpä senik comp kalpäṣṣäṃ_(Prs.)|kalpäṣṣäṃ ; ñśameṃ wätkoṣ kwri|kr_ui lkācer ñi|ñī so«ṃ»śke : #2c ptsārwaṣṣat-ne , ñi ikene|yke|ne
+b3 ; ytārine|ytārin= empelyai 2 || #2d ś(a)na ñäkteñña weṣṣäṃ makte pācer walo cwi comp lakle śala kā ṣpä ñ(ake läklessu|lä)klesu ste || vṛkṣavāsike-ñäkte|vṛkṣa|vāsike-ñäkte
+b4 weṣṣäṃ pañäktäññe|pañäktäṃñe perneṣṣe akālksa rinsāte-ne mā traṅko yamast-ne|yamas-ne p(o) (– –)k(·) läkleñ arañce nittaṃ_(Sg.)|ni|ttaṃ
+b5 wesäñ no pernesa su|sū toṃ läklenta lkāṣṣäṃ || te weweñ(o)rmeṃ ltais ñaktene || omp|om no ñake tot|tott ike-postäṃ|īke-postaṃ ynemane brāhmaṇi uttareṃ
+b6 mñcuṣkeṃ akemane|ākemane candramukhi lānte yapoyne klānte-ne • tumeṃ brāhmaṇagrāmne yaipormeṃ akalṣälyi rudramukheṃ purohiteṃ weñāre|we(ñ)ā|(re)</item>
+               <item n="m_meter_old">4-3/6+5-3/4-3/6</item>
+               <item n="editgroup_old">Editor</item>
+               <item n="category_old">manuscript</item>
+               <item n="user_modified_old">melanie</item>
+               <item n="user_created_old">automatic</item>
+               <item n="m_metric_form_old">Both</item>
+               <item n="m_tune_old">pañcagatine</item>
+               <item n="m_subgenre_old">Jātaka/Avadāna</item>
+               <item n="file_name_old">pages/manuscript/THT_0001_0633/tht88.txt</item>
+               <item n="m_translation_old">a1 [His] tongue was hanging [lit. going] out of his mouth. Thereupon the Brahmin Durmukha jabs the boy Uttara sharply with a reed root. After they had (put?) a ... [piece of] cloth (?) (onto his eyes/legs?), 
+a2 they began to chase him hard. Because of the boy Uttara’s [mis]treatment—collapsing from [his] feet he fell, when he had tripped over some forest root,
+a3 onto his face—mud sputtered there from the ground [and] permeated it [= the face/cloth?]. Thereupon the Brahmin Rudraśarma grabbed the (pri)nce Utta(ra) by the ... [and] dragged him to and fro across the
+a4 thorny ground. Having seen this, a Tree god spoke with sorrow to his wife: “[My] love! Behold the inconstancy
+a5 of things [and their] non-lasting end!” || In [the tune] pañcagati || Still [his] father, the king, is alive. It is with difficulty [only] that he may be treated disdainfully, even by Viṣṇus. [And] yet his tender little son
+a6 those dastardly Brahmins drag [about] with furor. With a look begging for compassion that prince looks at them, full of love, as [he would look at] his dear father, but not a single one of them is to him
+b1 protection in that s(uffering)! 1. In [every] (di)rection his father turns; like a sea eagle he is keening incessantly. Full of love he calls him [and] cries for him. Where 
+b2 he [= the king] tarr(ies) (walking?) to the places treaded by him [= Uttara], he even entrusts onto the animals [saying]: "if you see my little son that has been separated from me, do comfort him in my stead
+b3 on [his] terrible road!” 2. The Goddess speaks: “The father, the king, himself has brought to him this suffering: Why is he unhappy now?”
+b4 The Tree-god speaks: “Because of his wish for the dignity of a Buddha he has given him up. Do not blame him! Because of pain ... [his] heart is breaking com(pletely?).
+b5 But [it is] for [all] our sakes he endures [lit. sees] such suffering.” Having said this, the two gods went away. There, however, the Brahmins, going step by step in the meantime, leading the prince Uttara,
+b6 now brought him to the land of the king Candramukha. Thereupon the pupils, having entered the Brahmin village, spok(e) to the Purohita Rudramukha:</item>
+               <item n="file_savedate_old">2018-11-06, 11:32:28 (CET)</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;Alternative classifications:
+
+&lt;/p&gt;
+"Where b2 he [= the king] tarr(ies) (walking?) to the places treaded by him [= Uttara],": ich glaube nicht, dass man ente so konstruieren könnte. Der Satz würde wirklich sehr kompliziert werden. Michael (Tue, 2016-04-05, 12:54:57 (CEST))&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

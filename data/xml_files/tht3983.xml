@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht3983">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 3983</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <date when="2014-09-10">10 September 2014</date>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Asian Art Museum (Berlin)</repository>
+                  <idno>THT 3983</idno>
+                  <altIdentifier>
+                     <idno>MIK III 87</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>SHT 488</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Lüders-Nummer S 1576</idno>
+                  </altIdentifier>
+                  <msName>THT 1128-1130</msName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                           <dimensions>
+                              <height>5,4</height>
+                              <width>26,9</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Šorčuq</region><placeName>Stadt- oder Nāgarāja-Höhle</placeName>during <rs type="expedition_code">T III Š 77</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="subgenre">Syllabary</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=334937;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=334937;rotate=0;imageType=_M"/>
+            <line xml:id="lf"><zone>8</zone></line>
+            <line n="1" xml:id="a1"><zone>ḍhla</zone><zone>ḍhlā</zone><zone>ḍhli</zone><zone>ḍhlī</zone><zone>ḍhlu</zone><zone>ḍhlū</zone><zone>ḍhle</zone><zone>ḍhlai</zone><zone>ḍhlo</zone><zone>ḍhlau</zone><zone>ḍhlaṃ</zone><zone>ḍhla</zone><zone>ḥ</zone><zone>ṇla</zone><zone>ṇlā</zone><zone>ṇli</zone><zone>ṇlī</zone><zone>ṇlu</zone><zone>ṇle</zone><zone>ṇlai</zone><zone>ṇlo</zone><zone>ṇlau</zone><zone>ṇlaṃ</zone><zone>ṇla</zone><zone>ḥ</zone><zone>tla</zone><zone>tlā</zone><zone>tli</zone><zone>tlī</zone><zone>tlu</zone><zone>tlū</zone><zone>tle</zone></line>
+            <line n="2" xml:id="a2"><zone>tlai</zone><zone>tlo</zone><zone>tlau</zone><zone>tlaṃ</zone><zone>tla</zone><zone>ḥ</zone><zone>thla</zone><zone>thlā</zone><space type="string_hole"/><zone>thli</zone><zone>thlī</zone><zone>thlu</zone><zone>thlū</zone><zone>thle</zone><zone>thlai</zone><zone>thlo</zone><zone>thlau</zone><zone>thlaṃ</zone><zone>thla</zone><zone>ḥ</zone><zone>ḍla</zone><zone>ḍlā</zone><zone>ḍli</zone><zone>ḍlī</zone><zone>ḍlu</zone><zone>ḍlū</zone><zone>ḍle</zone><zone>ḍlai</zone><zone>ḍlo</zone><zone>ḍlau</zone><zone>ḍlaṃ</zone><zone>ḍla</zone><zone>ḥ</zone><zone>dhla</zone><zone>dhlā</zone><zone>dhli</zone><zone>dhlī</zone></line>
+            <line n="3" xml:id="a3"><zone>dhlu</zone><zone>dhlū</zone><zone>dhle</zone><zone>dhlai</zone><zone>dhlo</zone><zone>dhlau</zone><zone>dhlaṃ</zone><zone>dhla</zone><zone>ḥ</zone><space type="string_hole"/><zone>nla</zone><zone>nlā</zone><zone>nli</zone><zone>nlī</zone><zone>nlu</zone><zone>nlū</zone><zone>nle</zone><zone>nlai</zone><zone>nlo</zone><zone>nlau</zone><zone>nlaṃ</zone><zone>nla</zone><zone>ḥ</zone><zone>pla</zone><zone>plā</zone><zone>pli</zone><zone>plī</zone><zone>plu</zone><zone>plū</zone><zone>ple</zone><zone>plai</zone><zone>plo</zone><zone>plau</zone><zone>plaṃ</zone><zone>pla</zone><zone>ḥ</zone><zone>phla</zone><zone>phlā</zone></line>
+            <line n="4" xml:id="a4"><zone>phli</zone><zone>phlī</zone><zone>phlu</zone><zone>phlū</zone><zone>phle</zone><zone>phlai</zone><zone>phlo</zone><zone>phlau</zone><zone>phlaṃ</zone><zone>phla</zone><zone>ḥ</zone><zone>bla</zone><zone>blā</zone><zone>bli</zone><zone>blī</zone><zone>blu</zone><zone>blū</zone><zone>ble</zone><zone>blai</zone><zone>blo</zone><zone>blau</zone><zone>blaṃ</zone><zone>bla</zone><zone>ḥ</zone><zone>bhla</zone><zone>bhlā</zone><zone>bhli</zone><zone>bhlī</zone><zone>bhlu</zone><zone>bhlū</zone><zone>bhle</zone><zone>bhlai</zone><zone>bhlo</zone><zone>bhlau</zone><zone>bhlaṃ</zone><zone>bhla</zone><zone>ḥ</zone></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=335250;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=335250;rotate=0;imageType=_M"/>
+            <line n="1" xml:id="b1"><zone>mla</zone><zone>mlā</zone><zone>mli</zone><zone>mlī</zone><zone>mlu</zone><zone>mlū</zone><zone>mle</zone><zone>mlai</zone><zone>mlo</zone><zone>mlau</zone><zone>mlaṃ</zone><zone><unclear>ml</unclear>a</zone><zone>ḥ</zone><zone>yla</zone><zone>ylā</zone><zone>yli</zone><zone>ylī</zone><zone>ylu</zone><zone>ylū</zone><zone>yle</zone><zone>ylai</zone><zone>ylo</zone><zone>ylau</zone><zone>ylaṃ</zone><zone>yla</zone><zone>ḥ</zone><zone>rla</zone><zone>rlā</zone><zone>rli</zone><zone>rlī</zone><zone>rlu</zone><zone>rlū</zone><zone>rle</zone><zone>rlai</zone><zone>rlo</zone><zone>rlau</zone><zone>rlaṃ</zone><zone>r<unclear>l</unclear>a</zone></line>
+            <line n="2" xml:id="b2"><zone>ḥ</zone><zone>vla</zone><zone>vlā</zone><zone>vli</zone><zone>vlī</zone><zone>vlu</zone><zone>vlū</zone><zone>vle</zone><space type="string_hole"/><zone>vlai</zone><zone>vlo</zone><zone>vlau</zone><zone>vlaṃ</zone><zone>vla</zone><zone>ḥ</zone><zone>śla</zone><zone>śl<unclear>ā</unclear></zone><zone>śli</zone><zone>ślī</zone><zone>ślu</zone><zone>ślū</zone><zone>śle</zone><zone>ślai</zone><zone>ślo</zone><zone>ślau</zone><zone>ślaṃ</zone><zone>śla</zone><zone>ḥ</zone><zone>ṣla</zone><zone>ṣlā</zone><zone>ṣli</zone><zone>ṣlī</zone><zone>ṣlu</zone><zone>ṣlū</zone><zone>ṣle</zone><zone>ṣlai</zone><zone>ṣlo</zone><zone>ṣlau</zone></line>
+            <line n="3" xml:id="b3"><zone>ṣlaṃ</zone><zone>ṣla</zone><zone>ḥ</zone><zone>sla</zone><zone>slā</zone><zone>sli</zone><zone>slī</zone><zone>slu</zone><space type="string_hole"/><zone>slū</zone><zone>sle</zone><zone>slai</zone><zone>slo</zone><zone>slau</zone><zone>slaṃ</zone><zone>sla</zone><zone>ḥ</zone><zone>hla</zone><zone>hlā</zone><zone>hli</zone><zone>hlī</zone><zone>hlu</zone><zone>hlū</zone><zone>hle</zone><zone>hlai</zone><zone>hlo</zone><zone>hlau</zone><zone>hlaṃ</zone><zone>hla</zone><zone>ḥ</zone><zone>wla</zone><zone>wlā</zone><zone>wli</zone><zone>wlī</zone></line>
+            <line n="4" xml:id="b4"><zone>w<unclear>l</unclear>u</zone><zone>wl<unclear>ū</unclear></zone><zone>wle</zone><zone>wlai</zone><zone>wlo</zone><zone>wlau</zone><zone>wlaṃ</zone><zone>wla</zone><zone>ḥ</zone><zone>tsla</zone><zone>tslā</zone><zone>tsli</zone><zone>tslī</zone><zone>tslu</zone><zone>tslū</zone><zone>tsle</zone><zone>tslai</zone><zone>tslo</zone><zone>tslau</zone><zone>tslaṃ</zone><zone>tsla</zone><zone>ḥ</zone><zone>ttsla</zone><zone>ttslā</zone><zone>ttsli</zone><zone>ttslī</zone><zone>ttsl<unclear>u</unclear></zone><zone>ttsl<unclear>ū</unclear></zone><zone>ttsle</zone><zone>ttslai</zone><zone>ttslo</zone><zone>ttslau</zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <fw type="leafNum" corresp="#lf">8</fw>
+            <p>
+<lb corresp="#a1"/><w>ḍhla</w><w>ḍhlā</w><w>ḍhli</w><w>ḍhlī</w><w>ḍhlu</w><w>ḍhlū</w><w>ḍhle</w><w>ḍhlai</w><w>ḍhlo</w><w>ḍhlau</w><w>ḍhlaṃ</w><w>ḍhlaḥ</w><w>ṇla</w><w>ṇlā</w><w>ṇli</w><w>ṇlī</w><w>ṇlu</w><w>ṇle</w><w>ṇlai</w><w>ṇlo</w><w>ṇlau</w><w>ṇlaṃ</w><w>ṇlaḥ</w><w>tla</w><w>tlā</w><w>tli</w><w>tlī</w><w>tlu</w><w>tlū</w><w>tle</w>
+<lb corresp="#a2"/><w>tlai</w><w>tlo</w><w>tlau</w><w>tlaṃ</w><w>tlaḥ</w><w>thla</w><w>thlā</w><w>thli</w><w>thlī</w><w>thlu</w><w>thlū</w><w>thle</w><w>thlai</w><w>thlo</w><w>thlau</w><w>thlaṃ</w><w>thlaḥ</w><w>ḍla</w><w>ḍlā</w><w>ḍli</w><w>ḍlī</w><w>ḍlu</w><w>ḍlū</w><w>ḍle</w><w>ḍlai</w><w>ḍlo</w><w>ḍlau</w><w>ḍlaṃ</w><w>ḍlaḥ</w><w>dhla</w><w>dhlā</w><w>dhli</w><w>dhlī</w>
+<lb corresp="#a3"/><w>dhlu</w><w>dhlū</w><w>dhle</w><w>dhlai</w><w>dhlo</w><w>dhlau</w><w>dhlaṃ</w><w>dhlaḥ</w><w>nla</w><w>nlā</w><w>nli</w><w>nlī</w><w>nlu</w><w>nlū</w><w>nle</w><w>nlai</w><w>nlo</w><w>nlau</w><w>nlaṃ</w><w>nlaḥ</w><w>pla</w><w>plā</w><w>pli</w><w>plī</w><w>plu</w><w>plū</w><w>ple</w><w>plai</w><w>plo</w><w>plau</w><w>plaṃ</w><w>plaḥ</w><w>phla</w><w>phlā</w>
+<lb corresp="#a4"/><w>phli</w><w>phlī</w><w>phlu</w><w>phlū</w><w>phle</w><w>phlai</w><w>phlo</w><w>phlau</w><w>phlaṃ</w><w>phlaḥ</w><w>bla</w><w>blā</w><w>bli</w><w>blī</w><w>blu</w><w>blū</w><w>ble</w><w>blai</w><w>blo</w><w>blau</w><w>blaṃ</w><w>blaḥ</w><w>bhla</w><w>bhlā</w><w>bhli</w><w>bhlī</w><w>bhlu</w><w>bhlū</w><w>bhle</w><w>bhlai</w><w>bhlo</w><w>bhlau</w><w>bhlaṃ</w><w>bhlaḥ</w>
+<lb corresp="#b1"/><w>mla</w><w>mlā</w><w>mli</w><w>mlī</w><w>mlu</w><w>mlū</w><w>mle</w><w>mlai</w><w>mlo</w><w>mlau</w><w>mlaṃ</w><w>mlaḥ</w><w>yla</w><w>ylā</w><w>yli</w><w>ylī</w><w>ylu</w><w>ylū</w><w>yle</w><w>ylai</w><w>ylo</w><w>ylau</w><w>ylaṃ</w><w>ylaḥ</w><w>rla</w><w>rlā</w><w>rli</w><w>rlī</w><w>rlu</w><w>rlū</w><w>rle</w><w>rlai</w><w>rlo</w><w>rlau</w><w>rlaṃ</w><w>rla</w>
+<lb corresp="#b2"/><w>ḥ</w><w>vla</w><w>vlā</w><w>vli</w><w>vlī</w><w>vlu</w><w>vlū</w><w>vle</w><w>vlai</w><w>vlo</w><w>vlau</w><w>vlaṃ</w><w>vlaḥ</w><w>śla</w><w>ślā</w><w>śli</w><w>ślī</w><w>ślu</w><w>ślū</w><w>śle</w><w>ślai</w><w>ślo</w><w>ślau</w><w>ślaṃ</w><w>ślaḥ</w><w>ṣla</w><w>ṣlā</w><w>ṣli</w><w>ṣlī</w><w>ṣlu</w><w>ṣlū</w><w>ṣle</w><w>ṣlai</w><w>ṣlo</w><w>ṣlau</w>
+<lb corresp="#b3"/><w>ṣlaṃ</w><w>ṣlaḥ</w><w>sla</w><w>slā</w><w>sli</w><w>slī</w><w>slu</w><w>slū</w><w>sle</w><w>slai</w><w>slo</w><w>slau</w><w>slaṃ</w><w>slaḥ</w><w>hla</w><w>hlā</w><w>hli</w><w>hlī</w><w>hlu</w><w>hlū</w><w>hle</w><w>hlai</w><w>hlo</w><w>hlau</w><w>hlaṃ</w><w>hlaḥ</w><w>wla</w><w>wlā</w><w>wli</w><w>wlī</w>
+<lb corresp="#b4"/><w>wlu</w><w>wlū</w><w>wle</w><w>wlai</w><w>wlo</w><w>wlau</w><w>wlaṃ</w><w>wlaḥ</w><w>tsla</w><w>tslā</w><w>tsli</w><w>tslī</w><w>tslu</w><w>tslū</w><w>tsle</w><w>tslai</w><w>tslo</w><w>tslau</w><w>tslaṃ</w><w>tslaḥ</w><w>ttsla</w><w>ttslā</w><w>ttsli</w><w>ttslī</w><w>ttslu</w><w>ttslū</w><w>ttsle</w><w>ttslai</w><w>ttslo</w><w>ttslau</w></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">The expedition code clearly reads "Š", not "S" as e.g. in <bibl><title corresp="ref:adaktylosetal2007"/><citedRange>54</citedRange></bibl> or "So" as in the MIK catalogue.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition</label><bibl><title corresp="ref:waldschmidt1965"/><citedRange>213</citedRange></bibl>; <bibl><title corresp="ref:tamai2007a"/><citedRange>№3983</citedRange></bibl>.</p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 3983" type="external">THT 3983</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/39/3983.htm" type="external">THT 3983</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_genre_old"/>
+               <item n="m_meter_old"/>
+               <item n="m_title_old"/>
+               <item n="m_transcription_old">a1 ḍhla ḍhlā ḍhli ḍhlī ḍhlu ḍhlū ḍhle ḍhlai ḍhlo ḍhlau ḍhlaṃ ḍhlaḥ ṇla ṇlā ṇli ṇlī ṇlu ṇle ṇlai ṇlo ṇlau ṇlaṃ ṇlaḥ tla tlā tli tlī tlu tlū tle
+a2 tlai tlo tlau tlaṃ tlaḥ thla thlā thli thlī thlu thlū thle thlai thlo thlau thlaṃ thlaḥ ḍla ḍlā ḍli ḍlī ḍlu ḍlū ḍle ḍlai ḍlo ḍlau ḍlaṃ ḍlaḥ dhla dhlā dhli dhlī
+a3 dhlu dhlū dhle dhlai dhlo dhlau dhlaṃ dhlaḥ nla nlā nli nlī nlu nlū nle nlai nlo nlau nlaṃ nlaḥ pla plā pli plī plu plū ple plai plo plau plaṃ plaḥ phla phlā
+a4 phli phlī phlu phlū phle phlai phlo phlau phlaṃ phlaḥ bla blā bli blī blu blū ble blai blo blau blaṃ blaḥ bhla bhlā bhli bhlī bhlu bhlū bhle bhlai bhlo bhlau bhlaṃ bhlaḥ
+b1 mla mlā mli mlī mlu mlū mle mlai mlo mlau mlaṃ mlaḥ yla ylā yli ylī ylu ylū yle ylai ylo ylau ylaṃ ylaḥ rla rlā rli rlī rlu rlū rle rlai rlo rlau rlaṃ rla
+b2 ḥ vla vlā vli vlī vlu vlū vle vlai vlo vlau vlaṃ vlaḥ śla ślā śli ślī ślu ślū śle ślai ślo ślau ślaṃ ślaḥ ṣla ṣlā ṣli ṣlī ṣlu ṣlū ṣle ṣlai ṣlo ṣlau
+b3 ṣlaṃ ṣlaḥ sla slā sli slī slu slū sle slai slo slau slaṃ slaḥ hla hlā hli hlī hlu hlū hle hlai hlo hlau hlaṃ hlaḥ wla wlā wli wlī
+b4 wlu wlū wle wlai wlo wlau wlaṃ wlaḥ tsla tslā tsli tslī tslu tslū tsle tslai tslo tslau tslaṃ tslaḥ ttsla ttslā ttsli ttslī ttslu ttslū ttsle ttslai ttslo ttslau</item>
+               <item n="m_leaf_old">8</item>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="ms_old">THT 3983</item>
+               <item n="project_comment_old"/>
+               <item n="m_parallels_old"/>
+               <item n="m_expedition_old">T III Š 77</item>
+               <item n="m_size_w_old">26,9</item>
+               <item n="m_language_old">None</item>
+               <item n="m_remarks_old">The expedition code clearly reads "Š", not "S" as e.g. in [[Adaktylos et al. 2007]]: 54 or "So" as in the MIK catalogue.</item>
+               <item n="m_other_sigla_old">MIK III 87, SHT 488, Lüders-Nummer S 1576</item>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old"/>
+               <item n="m_subgenre_old">Syllabary</item>
+               <item n="m_translation_old"/>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_prev_old"/>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old">martin</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_specific_old">Stadt- oder Nāgarāja-Höhle</item>
+               <item n="m_findspot_old">Šorčuq</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_lines_old">4</item>
+               <item n="m_collection_old">Asian Art Museum (Berlin)</item>
+               <item n="access_old">public</item>
+               <item n="file_location_old">pages/manuscript/THT_2400_4170/tht3983.txt</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_philcomment_old"/>
+               <item n="m_passage_old"/>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="file_created_old">1340137309</item>
+               <item n="file_modified_old">1470351270</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old">5,4</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old">THT 1128-1130</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 3983" target="idp"&gt;THT 3983&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/39/3983.htm" target="titus"&gt;THT 3983&lt;/a&gt;.&lt;br&gt;
+Edition: [[SHT I]]: 213; [[Tamai 2007a]]: №3983.</item>
+               <item n="date_publication_old">10 September 2014</item>
+               <item n="m_language_stage_old"/>
+               <item n="m_transliteration_old">a1 ḍhla ḍhlā ḍhli ḍhlī ḍhlu ḍhlū ḍhle ḍhlai ḍhlo ḍhlau ḍhlaṃ ḍhlaḥ ṇla ṇlā ṇli ṇlī ṇlu ṇle ṇlai ṇlo ṇlau ṇlaṃ ṇlaḥ tla tlā tli tlī tlu tlū tle
+a2 tlai tlo tlau tlaṃ tlaḥ thla thlā ○ thli thlī thlu thlū thle thlai thlo thlau thlaṃ thlaḥ ḍla ḍlā ḍli ḍlī ḍlu ḍlū ḍle ḍlai ḍlo ḍlau ḍlaṃ ḍlaḥ dhla dhlā dhli dhlī
+a3 dhlu dhlū dhle dhlai dhlo dhlau dhlaṃ dhlaḥ ○ nla nlā nli nlī nlu nlū nle nlai nlo nlau nlaṃ nlaḥ pla plā pli plī plu plū ple plai plo plau plaṃ plaḥ phla phlā
+a4 phli phlī phlu phlū phle phlai phlo phlau phlaṃ phlaḥ bla blā bli blī blu blū ble blai blo blau blaṃ blaḥ bhla bhlā bhli bhlī bhlu bhlū bhle bhlai bhlo bhlau bhlaṃ bhlaḥ
+b1 mla mlā mli mlī mlu mlū mle mlai mlo mlau mlaṃ [ml]aḥ yla ylā yli ylī ylu ylū yle ylai ylo ylau ylaṃ ylaḥ rla rlā rli rlī rlu rlū rle rlai rlo rlau rlaṃ r[l]a
+b2 ḥ vla vlā vli vlī vlu vlū vle ○ vlai vlo vlau vlaṃ vlaḥ śla śl[ā] śli ślī ślu ślū śle ślai ślo ślau ślaṃ ślaḥ ṣla ṣlā ṣli ṣlī ṣlu ṣlū ṣle ṣlai ṣlo ṣlau
+b3 ṣlaṃ ṣlaḥ sla slā sli slī slu ○ slū sle slai slo slau slaṃ slaḥ hla hlā hli hlī hlu hlū hle hlai hlo hlau hlaṃ hlaḥ wla wlā wli wlī
+b4 w[l]u wl[ū] wle wlai wlo wlau wlaṃ wlaḥ tsla tslā tsli tslī tslu tslū tsle tslai tslo tslau tslaṃ tslaḥ ttsla ttslā ttsli ttslī ttsl[u] ttsl[ū] ttsle ttslai ttslo ttslau</item>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=334937;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=334937;rotate=0;imageType=_M||THT 3983 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=335250;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=335250;rotate=0;imageType=_M||THT 3983 verso</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

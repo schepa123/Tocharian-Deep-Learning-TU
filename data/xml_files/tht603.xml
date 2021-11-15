@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht603">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 603</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 603</idno>
+                  <altIdentifier>
+                     <idno>B 603</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Bleistiftnummer 2555</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Garbhasūtra</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Qizil Miŋ-Öy</region>during <rs type="expedition_code">T III MQR 4</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical frg:ls-tamai-C3 frg:ls-C14"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Doctrine</term>
+               <term type="prose_verse">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328314;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328314;rotate=0;imageType=_M"/>
+            <graphic url="B/B603a.jpg" height="737px" width="1332px"/>
+            <line n="1" xml:id="a1"><gap reason="lost"/><gap reason="plain" quantity="1"/><zone>ka</zone><zone>ñceṃ</zone><zone>wa</zone><zone>ceṃ</zone><zone><unclear>ṣu</unclear></zone><zone>kau</zone><zone>nne</zone><zone>mre</zone><zone>stī</zone><zone>we</zone><zone>ke</zone><zone>ktse</zone><zone>nne</zone><zone>TA</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><gap reason="lost"/><zone>i</zone><zone>ka</zone><zone>ñceṃ</zone><zone><gap reason="plain" unit="part"/><unclear>ī</unclear></zone><zone>ceṃ</zone><zone>ṣu</zone><zone>kau</zone><zone>nne</zone><zone>ṣñau</zone><zone>ra</zone><zone>ka</zone><zone>ktse</zone><zone>nne</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><gap reason="lost"/><zone>nTA</zone><zone>rne</zone><zone>•</zone><zone>i</zone><zone>ka</zone><gap reason="plain" quantity="1"/><zone><unclear>ṃ</unclear></zone><zone>śta</zone><zone>rceṃ</zone><zone>ṣu</zone><zone>kau</zone><zone>nne</zone><zone>mī</zone><zone>sa</zone><zone>ke</zone><zone>ktse</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="lost"/><zone><unclear>ske</unclear></zone><zone>nTA</zone><zone>rne</zone><zone>i</zone><zone>ka</zone><gap reason="plain" quantity="2"/><zone>ṅk<gap reason="plain" unit="part"/>eṃ</zone><zone>ṣu</zone><zone>kkau</zone><zone>nne</zone><zone>e</zone><zone>we</zone><zone>ke</zone><zone>ktse</zone><zone>ntsa</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328307;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328307;rotate=0;imageType=_M"/>
+            <graphic url="B/B603b.jpg" height="746px" width="1288px"/>
+            <line n="1" xml:id="b1"><gap reason="lost"/><zone><unclear>sTA</unclear></zone><zone>rn<gap reason="plain" unit="part"/></zone><zone>•</zone><zone>i</zone><zone>ka</zone><zone>ñceṃ</zone><zone>ṣka</zone><gap reason="plain" quantity="1"/><zone><unclear>ṣ</unclear>u</zone><zone>kkau</zone><zone>nne</zone><zone>ye</zone><zone>tse</zone><zone>ke</zone><zone>ktse</zone><zone>ñtsa</zone><zone>TA</zone><zone>n<unclear>ma</unclear></zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><gap reason="lost"/><zone>rne</zone><zone>•</zone><zone>i</zone><zone>ka</zone><zone>ñceṃ</zone><gap reason="plain" quantity="1"/><zone>kta</zone><zone>ñceṃ</zone><zone>ṣu</zone><zone>kkau</zone><zone>ntsa</zone><zone>ye</zone><zone>tse</zone><zone>ta</zone><zone>ka</zone><zone>r<gap reason="plain" unit="part"/>e</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><gap reason="lost"/><zone>ñtsa</zone><zone>MA</zone><zone>ske</zone><zone>TA</zone><gap reason="plain" quantity="2"/><zone>i</zone><zone>ka</zone><zone>ñceṃ</zone><zone>o</zone><zone>kta</zone><zone>ñceṃ</zone><zone>ṣu</zone><zone>kau</zone><zone>nne</zone><zone><unclear>y</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><gap reason="lost"/><zone>ñ<unclear>tsa</unclear></zone><zone>TA</zone><zone>nma</zone><zone>ske<gap reason="plain" unit="part"/></zone><zone>TA</zone><zone>rne</zone><zone>ā</zone><zone>ssa</zone><zone>yo¯</zone><zone>¯K</zone><zone>PA</zone><zone>rwā</zone><zone>ne</zone><zone>sa</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <p>
+<lb corresp="#a1"/><gap reason="lost"/><w><supplied>i</supplied>kañceṃ</w><w>waceṃ</w><w>ṣukaunne</w><w>mrestīwe</w><w>kektsenne</w><w>tä<supplied>nmasketär-ne</supplied></w><gap reason="lost"/>
+<lb corresp="#a2"/><gap reason="lost"/><w>ikañceṃ</w><w><supplied>tr</supplied>īceṃ</w><w>ṣukaunne</w><w>ṣñaura</w><w>kaktsenne</w><gap reason="lost"/>
+<lb corresp="#a3"/><gap reason="lost"/><w><supplied>tänmaske</supplied>ntär-ne</w><pc>•</pc><w>ika<supplied>ñce</supplied>ṃ</w><w>śtarceṃ</w><w>ṣukaunne</w><w>mīsa</w><w>kektse<supplied>nne</supplied></w><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="lost"/><w><supplied>tänma</supplied>skentär-ne</w><w>ika<supplied>ñceṃ</supplied></w><w><supplied>pi</supplied>ṅk<supplied>c</supplied>eṃ</w><w>ṣuk-kaunne</w><w>ewe</w><w>kektsentsa</w><gap reason="lost"/>
+<lb corresp="#b1"/><gap reason="lost"/><w>stärn<supplied>e</supplied></w><pc>•</pc><w>ikañceṃ</w><w>ṣka<supplied>cceṃ</supplied></w><w>ṣuk-kaunne</w><w>yetse</w><w>kektseñtsa</w><w>tänma<supplied>sketär-ne</supplied></w><gap reason="lost"/>
+<lb corresp="#b2"/><gap reason="lost"/><w>-rne</w><pc>•</pc><w>ikañceṃ</w><w><supplied>ṣu</supplied>ktañceṃ</w><w>ṣuk-kauntsa</w><w>yetse</w><w>takar<supplied>ṣk</supplied>e</w><gap reason="lost"/>
+<lb corresp="#b3"/><gap reason="lost"/><w>-ñtsa</w><w>mäsketä<supplied>r-ne</supplied></w><pc><supplied>•</supplied></pc><w>ikañceṃ</w><w>oktañceṃ</w><w>ṣukaunne</w><w>y<gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<lb corresp="#b4"/><gap reason="lost"/><w>-ñtsa</w><w>tänmaske<supplied>n</supplied>tär-ne</w><w>āssa</w><w>yok</w><w>pärwānesa</w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><bibl><title corresp="ref:carling2000"/><citedRange>220, 301</citedRange></bibl></seg></choice><choice corresp="#a1 #a2 #a3 #a4"><seg><seg type="prim_transl">... In der 22. Woche (entsteht ihm) das Mark im Körper. In der 23. Woche (entsteh)en ihm die Sehnen im Körper. In der 24. Woche (entsteh)t ihm das Fleisch (am) Körper ...</seg><seg type="sec_transl" resp="TI">... In the 22nd week, the marrow (develops) in (his) body. In the 23rd week, the sinews (develo)p in his body. In the 24th week, the flesh [on] his body (develop)s...</seg><bibl><title corresp="ref:schmidtkt1974"/><citedRange>106</citedRange></bibl></seg></choice><choice corresp="#a2 #a3"><seg><bibl><title corresp="ref:carling2000"/><citedRange>219, 220</citedRange></bibl></seg></choice><choice corresp="#a3 #a4"><seg><bibl><title corresp="ref:carling2000"/><citedRange>218</citedRange></bibl></seg></choice><choice corresp="#a4 #b1"><seg><bibl><title corresp="ref:carling2000"/><citedRange>219</citedRange></bibl></seg></choice><choice corresp="#b1 #b2"><seg><bibl><title corresp="ref:carling2000"/><citedRange>219, 3</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1969"/><citedRange>241</citedRange></bibl></seg><seg><bibl><title corresp="ref:thomas1969c"/><citedRange>204</citedRange></bibl></seg></choice><choice corresp="#b2"><seg><bibl><title corresp="ref:carling2000"/><citedRange>300</citedRange></bibl></seg></choice><choice corresp="#b3"><seg><bibl><title corresp="ref:thomas1979a"/><citedRange>244</citedRange></bibl></seg></choice><choice corresp="#b3 #b4"><seg><bibl><title corresp="ref:carling2000"/><citedRange>324</citedRange></bibl></seg><seg><bibl><title corresp="ref:carling2000"/><citedRange>195, 201</citedRange></bibl></seg></choice></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 603" type="external">THT 603</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/06/0603.htm" type="external">THT 603</ref></bibl>. </p>
+            <p><label>Edition</label><bibl><title corresp="ref:siegandsiegling1953"/><citedRange>386</citedRange></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="editgroup_old">Editor</item>
+               <item n="m_transcription_old">a1 /// (i)kañceṃ waceṃ ṣuk-kaunne|ṣukaunne mrestīwe kektsenne tä(nmasketär-ne) ///
+a2 /// ikañceṃ (tr)īceṃ ṣuk-kaunne|ṣukaunne ṣñaura kektsenne|kaktsenne ///
+a3 /// (tänmaske)ntär-ne • ika(ñce)ṃ śtarceṃ ṣuk-kaunne|ṣukaunne mīsa kektse(nne) ///
+a4 /// (tänma)skentär-ne ika(ñceṃ pi)ṅk(c)eṃ ṣuk-kaunne ewe kektseñtsa|kektsentsa ///
+b1 /// stärn(e) • ikañceṃ ṣka(cceṃ) ṣuk-kaunne yetse kektseñtsa|kektseñtsa tänma(sketär-ne) ///
+b2 /// -rne • ikañceṃ (ṣu)ktañceṃ ṣuk-kauntsa yetse takar(ṣk)e ///
+b3 /// -ñtsa mäsketä(r-ne •) ikañceṃ oktañceṃ ṣuk-kaunne|ṣukaunne y· ///
+b4 /// -ñtsa tänmaske(n)tär-ne āssa yok pärwānesa ///</item>
+               <item n="m_title_old">Garbhasūtra</item>
+               <item n="group_old">Public</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_other_sigla_old">B 603, Bleistiftnummer 2555</item>
+               <item n="m_expedition_old">T III MQR 4</item>
+               <item n="edited_date_old">2019-01-03, 18:35:39 (CET)</item>
+               <item n="m_script_old">Classical</item>
+               <item n="ms_old">THT 603</item>
+               <item n="project_comment_old">&lt;p&gt;Alternative classifications:
+&lt;table class="table_lines"&gt;
+  &lt;tr&gt;&lt;td title="MP"&gt;Peyrot&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="MM"&gt;Malzahn&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TT"&gt;Tamai&lt;/td&gt;&lt;td title="C3"&gt;II-2 (700-800)&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td title="TTC14"&gt;Tamai-C14&lt;/td&gt;&lt;td&gt;–&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+&lt;p&gt;Translations from [[Schmidt KT 1974]]
+&lt;table class="table_lines"&gt;
+&lt;th&gt;Lines&lt;/th&gt;
+&lt;th&gt;Translation&lt;/th&gt;
+&lt;th&gt;Pages&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt;a1-4&lt;/td&gt;
+&lt;td&gt;&lt;span title="... In the 22nd week, the marrow (develops) in (his) body. In the 23rd week, the sinews (develo)p in his body. In the 24th week, the flesh [on] his body (develop)s..."&gt;... In der 22. Woche (entsteht ihm) das Mark im Körper. In der 23. Woche (entsteh)en ihm die Sehnen im Körper. In der 24. Woche (entsteh)t ihm das Fleisch (am) Körper ...&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;106&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+&lt;p&gt;Translation from [[Adams, 2DoT]]: 720: &lt;b&gt;a1&lt;/b&gt; "in the twenty-second week his marrow appears"&lt;/p&gt;</item>
+               <item n="file_name_old">pages/manuscript/THT_0001_0633/tht603.txt</item>
+               <item n="m_subgenre_old">Doctrine</item>
+               <item n="file_savedate_old">2019-01-07, 13:16:33 (CET)</item>
+               <item n="m_metric_form_old">Prose</item>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old">martin</item>
+               <item n="category_old">manuscript</item>
+               <item n="m_findspot_old">Qizil Miŋ-Öy</item>
+               <item n="created_date_old">2012-03-17, 18:50:21 (CET)</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="file_location_old">pages/manuscript/THT_0001_0633/tht603.txt</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_lines_old">4</item>
+               <item n="access_old">public</item>
+               <item n="file_created_old">1332006621</item>
+               <item n="file_modified_old">1546863393</item>
+               <item n="page_name_old">THT 603</item>
+               <item n="version_old">5</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_image_old">http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328314;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328314;rotate=0;imageType=_M||THT 603 recto
+http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328307;rotate=0;imageType=_L|http://idp.bbaw.de/image_IDP.a4d?type=loadRotatedMainImage;recnum=328307;rotate=0;imageType=_M||THT 603 verso</item>
+               <item n="m_transliteration_old">a1 /// (i)kañceṃ waceṃ [ṣu]kaunne mrestīwe kektsenne _t_a ///
+a2 /// ikañceṃ (tr)[ī]ceṃ ṣukaunne ṣñaura kaktsenne ///
+a3 /// n_t_ar-ne • ika(ñce)[ṃ] śtarceṃ ṣukaunne mīsa kektse ///
+a4 /// [ske]n_t_ar-ne ika(ñceṃ pi)ṅk(c)eṃ ṣuk-kaunne ewe kektsentsa ///
+b1 /// [s_t_a]rn(e) • ikañceṃ ṣka(cceṃ) [ṣ]uk-kaunne yetse kektseñtsa _t_an[ma] ///
+b2 /// rne • ikañceṃ (ṣu)ktañceṃ ṣuk-kauntsa yetse takar(ṣk)e ///
+b3 /// ñtsa _m_aske_t_a(r-ne •) ikañceṃ oktañceṃ ṣukaunne [y·] ///
+b4 /// ñ[tsa] _t_anmaske(n)_t_ar-ne āssa yo_k\ _p_arwānesa ///</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="file_size_old">3 KB</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 603" target="idp"&gt;THT 603&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/06/0603.htm" target="titus"&gt;THT 603&lt;/a&gt;.&lt;br&gt;
+Edition: [[TochSprR(B) II]]: 386.&lt;br&gt;
+Translation:
+&lt;b&gt;a1&lt;/b&gt; [[Carling 2000]]: 220, 301;
+&lt;b&gt;a1-a4&lt;/b&gt; [[Schmidt KT 1974]]: 106;
+&lt;b&gt;a2f&lt;/b&gt; [[Carling 2000]]: 219, 220;
+&lt;b&gt;a3f&lt;/b&gt; [[Carling 2000]]: 218;
+&lt;b&gt;a4f&lt;/b&gt; [[Carling 2000]]: 219;
+&lt;b&gt;b1f&lt;/b&gt; [[Carling 2000]]: 219, 3.01, [[Thomas 1969]]: 241, [[Thomas 1969c]]: 204;
+&lt;b&gt;b2&lt;/b&gt; [[Carling 2000]]: 300;
+&lt;b&gt;b3&lt;/b&gt; [[Thomas 1979a]]: 244;
+&lt;b&gt;b3-4&lt;/b&gt; [[Carling 2000]]: 324;
+&lt;b&gt;b3f&lt;/b&gt; [[Carling 2000]]: 195, 201.</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;Alternative classifications:
+
+&lt;/p&gt;&lt;p&gt;Translation from &lt;bibl&gt;&lt;title corresp="ref:adams2013a"/&gt;&lt;citedRange&gt;720&lt;/citedRange&gt;&lt;/bibl&gt;: &lt;ref type="ms" target="__a1"/&gt; "in the twenty-second week his marrow appears"&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

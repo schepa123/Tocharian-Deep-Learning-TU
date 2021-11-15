@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-tht312">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>THT 312</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 312</idno>
+                  <altIdentifier>
+                     <idno>B 312</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>AB 63</idno>
+                  </altIdentifier>
+                  <msName>AB</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Udānavarga</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <measure type="lines">6</measure>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Šorčuq</region>during <rs type="expedition_code">T III Š 94.22 + Š 98</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="san"/>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Doctrine</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328269;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328269;rotate=0;imageType=_M"/>
+            <line xml:id="lf"><zone>63</zone></line>
+         </surface>
+         <surface type="verso">
+            <line n="3" xml:id="b3"><zone>mu</zone><zone>kta</zone><zone>hi</zone><zone>ti</zone><zone>:</zone><zone>80</zone><zone>4</zone><zone>॥</zone><zone>brā</zone><zone>hma</zone><gap reason="lost"/><gap reason="lost"/><zone>taṃ</zone><zone>cā</zone><zone>tma</zone><zone>pe</zone><zone>yā</zone><zone>laṃ</zone><zone>mi</zone><zone>tra</zone><zone>paṃ</zone><zone>ca</zone><zone>ma<unclear>¯</unclear></zone><zone><unclear>¯</unclear><unclear>m</unclear></zone></line>
+            <line n="4" xml:id="b4"><zone>ni</zone><zone>rvā</zone><zone>ṇaṃ</zone><zone>pa</zone><zone>śya</zone><zone>pā</zone><zone>paṃ</zone><zone>ca</zone><zone>yu</zone><zone>ga</zone><gap reason="lost"/><gap reason="lost"/><zone><unclear>va</unclear></zone><zone>rga</zone><zone>ḥ</zone><zone>sa</zone><zone>mā</zone><zone>pta</zone><zone>śco</zone><zone>ddā</zone><zone>naṃ</zone><zone>sa</zone><zone>mya</zone></line>
+            <line n="5" xml:id="b5"><zone>ksaṃ</zone><zone>bu</zone><zone>ddha</zone><zone>bhā</zone><zone>ṣi</zone><zone>tā</zone><zone>:</zone><zone>1</zone><zone>॥</zone><zone>ba</zone><zone>hu</zone><zone><unclear>p</unclear><gap reason="plain" unit="part"/></zone><zone><unclear>y</unclear><gap reason="plain" unit="part"/></zone><gap reason="lost"/><gap reason="lost"/><zone>lai</zone><zone>kne</zone><zone>ṣṣe</zone><zone>nau</zone><zone>mye</zone><zone>kre¯</zone><zone>¯nT</zone><zone>kle</zone><zone>śa</zone><zone>nma</zone></line>
+            <line n="6" xml:id="b6"><zone>ṣṣeṃ</zone><zone>te</zone><zone>ka</zone><zone>nma</zone><zone>wī</zone><zone>KA</zone><zone>ṢṢe</zone><zone>ñcai</zone><zone>:</zone><zone>a¯</zone><zone>¯rth</zone><zone>vya</zone><zone>ñ<unclear>j</unclear>aṃ</zone><gap reason="lost"/><gap reason="lost"/><zone><unclear>¯</unclear><unclear>Ś</unclear></zone><zone>cme</zone><zone>la</zone><zone>ṣṣeṃ¯</zone><zone>¯tS</zone><zone>nä</zone><zone>śī</zone><zone>TA</zone><zone>Rce</zone><zone><unclear>yā</unclear></zone></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <fw type="leafNum" corresp="#lf">63</fw>
+            <p><milestone unit="passage" n="33.84 + uddāna"/>
+<lb corresp="#b3"/><w>muktah</w><w>iti</w><pc>:</pc><num value="84">80-4</num><pc>॥</pc><w>brāhma</w><gap reason="lost"/><gap reason="lost"/><w>taṃ</w><w>cātma</w><w>peyālaṃ</w><w>mitrapaṃcamam</w>
+<lb corresp="#b4"/><w>nirvāṇaṃ</w><w>paśya</w><w>pāpaṃ</w><w>ca</w><w>yuga</w><gap reason="lost"/><gap reason="lost"/><w>vargaḥ</w><w>samāptaś</w><w>coddānaṃ</w><w>samya</w>
+<lb corresp="#b5"/><w>ksaṃbuddhabhāṣitā</w><pc>:</pc><num value="1">1</num><pc>॥</pc><w>bahup<gap reason="plain" unit="part"/></w><w>y<gap reason="plain" unit="part"/></w><gap reason="lost"/><gap reason="lost"/><w>laikneṣṣe</w><w>naumye</w><w>krent</w><w>kleśanma</w>
+<lb corresp="#b6"/><w>ṣṣeṃ</w><w>tekanma</w><w>wīkäṣṣeñcai</w><pc>:</pc><w>arth</w><w>vyañjaṃ</w><gap reason="lost"/><gap reason="lost"/><w>ś</w><w>cmelaṣṣeṃts</w><w>näśītär</w><w>ce</w><w>yā</w></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#b5"><seg><bibl><title corresp="ref:schmidtkt1974"/><citedRange>452 n.1</citedRange></bibl></seg></choice><choice corresp="#b6"><seg><bibl><title corresp="ref:schmidtkt1974"/><citedRange>452 n.2</citedRange></bibl></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="parallels"><ref type="ms" target="txt:m-m5001"/>, <ref type="ms" target="txt:m-pkas4b"/>, <ref type="ms" target="txt:m-pkas5d"/></note><note type="remarks">The original manuscript is missing.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition</label><bibl><title corresp="ref:siegandsiegling1953"/><citedRange>200-201</citedRange></bibl>; <bibl><title corresp="ref:bernhard1965"/><citedRange>501-510</citedRange></bibl>. </p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 312" type="external">THT 312</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/03/0312.htm" type="external">THT 312</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_title_old">Udānavarga</item>
+               <item n="m_transcription_old">b3 muktah iti : 84 || brāhma /// /// taṃ cātma peyālaṃ mitrapaṃcamam
+b4 nirvāṇaṃ paśya pāpaṃ ca yuga /// /// vargaḥ samāptaś coddānaṃ samya
+b5 ksaṃbuddhabhāṣitā : 1 || bahup· y· /// /// laikneṣṣe naumye krent kleśanma
+b6 ṣṣeṃ tekanma wīkäṣṣeñcai : arth vyañjaṃ /// /// ś cmelaṣṣeṃts näśītär ce yā</item>
+               <item n="m_leaf_old">63</item>
+               <item n="m_meter_old">6/5</item>
+               <item n="m_parallelcomment_old"/>
+               <item n="ms_old">THT 312</item>
+               <item n="project_comment_old"/>
+               <item n="m_script_old">Classical</item>
+               <item n="m_parallels_old">[[M 500.1]], [[PK AS 4B]], [[PK AS 5D]]</item>
+               <item n="m_expedition_old">T III Š 94.22 + Š 98</item>
+               <item n="m_size_w_old"/>
+               <item n="m_other_sigla_old">B 312, AB 63</item>
+               <item n="m_language_old">Sanskrit+TB</item>
+               <item n="m_remarks_old">The original manuscript is missing.</item>
+               <item n="m_tune_old"/>
+               <item n="m_metric_form_old">Verse</item>
+               <item n="m_translation_old"/>
+               <item n="m_subgenre_old">Doctrine</item>
+               <item n="m_language_add_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_prev_old"/>
+               <item n="user_modified_old">theres</item>
+               <item n="user_created_old">automatic</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_old">Šorčuq</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_linedistance_old"/>
+               <item n="access_old">public</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_lines_old">6</item>
+               <item n="file_location_old">pages/manuscript/THT_0001_0633/tht312.txt</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_editor_old"/>
+               <item n="m_passage_old">33.84 + uddāna</item>
+               <item n="m_philcomment_old"/>
+               <item n="file_modified_old">1470351267</item>
+               <item n="file_created_old">1332006608</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT 312" target="idp"&gt;THT 312&lt;/a&gt;, [[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/03/0312.htm" target="titus"&gt;THT 312&lt;/a&gt;.&lt;br&gt;
+Edition: [[TochSprR(B) II]]: 200-201; [[Bernhard 1965]]: 501-510.&lt;br&gt;
+Translation:
+&lt;b&gt;b5&lt;/b&gt; [[Schmidt KT 1974]]: 452 n.1;
+&lt;b&gt;b6&lt;/b&gt; [[Schmidt KT 1974]]: 452 n.2.</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old">AB</item>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_transliteration_old">b3 muktah iti : 80-4 || brāhma /// /// taṃ cātma peyālaṃ mitrapaṃcama[m\]
+b4 nirvāṇaṃ paśya pāpaṃ ca yuga /// /// [va]rgaḥ samāptaś coddānaṃ samya
+b5 ksaṃbuddhabhāṣitā : 1 || bahu[p· y·] /// /// laikneṣṣe naumye kren_t\ kleśanma
+b6 ṣṣeṃ tekanma wī_k_a_ṣ_ṣeñcai : arth\ vyañ[j]aṃ /// /// [_ś\] cmelaṣṣeṃt_s\ näśī_t_a_r ce [yā]</item>
+               <item n="date_publication_old"/>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328269;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=328269;rotate=0;imageType=_M||THT 312 recto</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

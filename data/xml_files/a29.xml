@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-a29">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A 29</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Gerd Carling</name>
+            </respStmt>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Georges-Jean Pinault</name>
+            </respStmt>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Melanie Malzahn</name>
+            </respStmt>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <date when="2012-11-02">02.11.2012</date>
+            <availability>
+               <p>public</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>A 29</idno>
+                  <altIdentifier>
+                     <idno>THT 662</idno>
+                  </altIdentifier>
+                  <msName>A 1-54</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>The sea monster Timitimiṅgila and the 500 merchants</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Šorčuq</region><placeName>Stadthöhle</placeName>during <rs type="expedition_code">T III Š 68.02</rs></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+         <sourceDesc>
+            <p>Transcription and translation are based on <bibl><title corresp="ref:carlingetal2009"/></bibl>. </p>
+            <p>Transcription and references have been transferred from the "Text and Reference Database of the Tocharian A Language" (Gerd Carling Lund University) (funded by the Bank of Sweden Tercentenary Foundation and SCAS).</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="xto"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Jātaka/Avadāna</term>
+               <term type="prose_verse">prose</term>
+               <term type="prose_verse">verse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/06/0662ra.jpg"/>
+            <graphic url="A/A29a.jpg" height="500px" width="618px"/>
+            <line xml:id="lf"><zone>20; 20 (string hole)</zone></line>
+            <line n="1" xml:id="a1"><zone>le</zone><zone>ca¯</zone><zone>¯M</zone><zone>yā</zone><zone>mlu</zone><zone>ne</zone><zone>ya</zone><zone>śä</zone><zone>ltā</zone><zone>s<gap reason="plain" unit="part"/>āṃ</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><zone>draṃ</zone><zone>ṢPA</zone><zone>TKA¯</zone><zone>¯nT</zone><zone>ku</zone><zone>rSA</zone><zone>rwā</zone><zone>ka</zone><zone>pśiṃ</zone><zone>ño</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><zone>mbu</zone><zone>dvi</zone><zone>pṣi</zone><zone>ñi</zone><zone>PA</zone><zone>ñKA¯</zone><zone>¯nT</zone><space type="string_hole"/><zone><gap reason="par" unit="part"/><unclear>u</unclear></zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><zone>ṣo</zone><zone>PA</zone><zone>rtā</zone><zone>sā</zone><zone>wä¯</zone><zone>¯L</zone><zone>ti</zone><zone>mi</zone><space type="string_hole"/><zone>ti</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><zone>ntu</zone><zone>ca</zone><zone>mi</zone><zone>ṣu</zone><zone>ṅka¯</zone><zone>¯cä</zone><zone>yu</zone><zone>lā</zone><zone>yw<del>i</del><add>a</add></zone><zone>tsī</zone><zone>o</zone><gap reason="lost"/></line>
+            <line n="6" xml:id="a6"><zone><unclear>tt</unclear>e</zone><zone>naṃ</zone><zone>॥</zone><zone>PA</zone><zone>lkā¯</zone><zone>¯cä</zone><zone>PA</zone><zone>lkā</zone><zone>ckraṃ¯</zone><zone>¯śä</zone><zone>tseṃ</zone><zone>e</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/06/0662va.jpg"/>
+            <graphic url="A/A29b.jpg" height="501px" width="618px"/>
+            <line n="1" xml:id="b1"><zone>rwa</zone><zone>ryä</zone><zone>ṣmā</zone><zone>tā</zone><zone>reṃ</zone><zone>pu</zone><zone>ṅkaṃ</zone><zone>PA</zone><zone>lkā</zone><zone>cmā</zone><zone>tā</zone><zone>rtā¯</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><zone>¯ṅK</zone><zone>PNA</zone><zone>ṢṢAṃ</zone><zone>:</zone><zone>1</zone><zone>mā</zone><zone>ñi</zone><zone>cä</zone><zone>mplu</zone><zone>ne</zone><zone>o</zone><zone>lyi<unclear>¯</unclear></zone><zone><unclear>¯</unclear><unclear>K</unclear></zone><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><zone>pñi</zone><zone>ntu</zone><zone>kuṣā</zone><zone>nti</zone><zone>pyā</zone><zone>mtsā¯</zone><zone>¯cä</zone><space type="string_hole"/><zone>ā</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><zone>ṣtRA</zone><zone>:</zone><zone>wla</zone><zone>lu</zone><zone>ne</zone><zone>ṣiṃ</zone><zone>ṣu</zone><zone>ṅk</zone><space type="string_hole"/><zone>aṃ</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><zone>ñä</zone><zone>kta</zone><zone>śśi</zone><zone>ptā</zone><zone>ñKA¯</zone><zone>¯T</zone><zone>ā</zone><zone>rki</zone><zone>śo</zone><zone>ṣyaṃ</zone><zone>k<gap reason="plain" unit="part"/><gap reason="plain" unit="part"/></zone><gap reason="lost"/></line>
+            <line n="6" xml:id="b6"><zone>nta</zone><zone>ne</zone><zone>ne</zone><zone>ja</zone><zone>mbu</zone><zone>dvi¯</zone><zone>¯P</zone><zone>TA</zone><zone>mne</zone><zone>yā</zone><zone>ā</zone><zone>ñcā</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <fw type="leafNum" corresp="#lf">20; 20 (string hole)</fw>
+            <p>
+<w><supplied>sma</supplied><lb corresp="#a1"/>le</w><w>cam</w><w>yāmluneyaśäl</w><w>tās<supplied>km</supplied>āṃ</w><gap reason="lost"/>
+<w><supplied>sāmu</supplied><lb corresp="#a2"/>draṃ</w><w>ṣpät</w><w>känt</w><w>kursärwā</w><w>kapśiṃño</w><gap reason="lost"/>
+<w><supplied>ja</supplied><lb corresp="#a3"/>mbudvipṣiñi</w><w>päñ-känt</w><w><supplied>k</supplied>u<supplied>ryartāñ</supplied></w><gap reason="lost"/>
+<lb corresp="#a4"/><w>ṣopärtāsā</w><w>wäl</w><w>timiti<supplied>miṅgil</supplied></w><gap reason="lost"/>
+<lb corresp="#a5"/><w>ntu</w><w>cami</w><w>ṣuṅkac</w><w>yulā</w><w>ywatsī</w><w>o<supplied>sānt</supplied></w><gap reason="lost"/>
+<w><supplied>devada</supplied><lb corresp="#a6"/>ttenaṃ</w><pc>॥</pc></p>
+            <lg type="poem" met="frg:M20_22_10_15" subtype="hom">
+               <lg n="1" type="strophe">
+                  <l n="a"><w>pälkāc</w><w>pälkāc</w><w>kraṃś</w><caesura ana="frg:cs-s"/><w>tseṃ</w><w>e</w><gap reason="lost"/><supplied unit="syllable" quantity="13"/></l>
+                  <l n="b"><supplied unit="syllable" quantity="8"/><caesura ana="frg:cs-s"/><gap reason="plain" quantity="1"/>
+<w><supplied>ā</supplied><lb corresp="#b1"/>rwar</w><w>yäṣ</w><caesura ana="frg:cs-w"/><w>mātāreṃ</w><caesura ana="frg:cs-s"/><w><choice><orig>p</orig><corr>ṣ</corr></choice>uṅkaṃ</w><w>pälkāc</w><caesura ana="frg:cs-w"/><w>mātār</w><w>tā</w><gap reason="plain" quantity="1"/><supplied unit="syllable" quantity="0"/></l>
+                  <l n="c"><gap reason="lost"/><supplied unit="syllable" quantity="10"/></l>
+                  <l n="d"><supplied unit="syllable" quantity="12"/><caesura ana="frg:cs-w"/>
+<w><supplied>ṣu</supplied><lb corresp="#b2"/>ṅk</w><w>pnäṣṣ-äṃ</w><pc>:</pc><num value="1">1</num></l>
+               </lg>
+               <lg n="2" type="strophe">
+                  <l n="a"><w>mā</w><w>ñi</w><w>cämplune</w><caesura ana="frg:cs-w"/><w>olyik</w><gap reason="lost"/><supplied unit="syllable" quantity="3"/><caesura ana="frg:cs-s"/><supplied unit="syllable" quantity="10"/></l>
+                  <l n="b"><supplied unit="syllable" quantity="6"/>
+<lb corresp="#b3"/><w>pñintu</w><caesura ana="frg:cs-s"/><w>kUṣānti</w><w>pyāmtsāc</w><caesura ana="frg:cs-w"/><w>ā<supplied>rwar</supplied></w><gap reason="plain" quantity="1"/><caesura ana="frg:cs-s"/><gap reason="lost"/><supplied unit="syllable" quantity="7"/></l>
+                  <l n="c"><supplied unit="syllable" quantity="9"/>
+<lb corresp="#b4"/><w>ṣträ</w><pc>:</pc></l>
+                  <l n="d"><w>wlaluneṣiṃ</w><caesura ana="frg:cs-w"/><w>ṣuṅkaṃ</w><gap reason="plain" quantity="2"/><caesura ana="frg:cs-s"/><gap reason="lost"/><supplied unit="syllable" quantity="7"/></l>
+               </lg>
+            </lg>
+            <p>
+<lb corresp="#b5"/><w>ñäktaśśi</w><w>ptāñkät</w><w>ārkiśoṣyaṃ</w><w>k<gap reason="plain" unit="part"/><gap reason="plain" unit="part"/></w><gap reason="lost"/>
+<w><supplied>ä</supplied><lb corresp="#b6"/>ntane-ne</w><w>jambudvip</w><w>tämne</w><w>yā</w><w>āñcā<supplied>li</supplied></w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">... comparable to the doing of this lie ...</seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">... in the (oce)an with a body [of] 700 miles [in length] (a monster was living) ...</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">... 500 merchants of the Jambudvīpa ...</seg></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl">... with ... (pl.) the king ... [the sea monster] Timitimiṅgila ...</seg></seg></choice><choice corresp="#a5"><seg><seg type="prim_transl">... (the vessels?) began to incline towards its [gaping] mouth. ...</seg></seg></choice><choice corresp="#a6"><seg><seg type="prim_transl">... In [the tune] (Devada)tta: Look, look, o good ones! Blue ...</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">... (this ship?) is ready to go into the [gaping] mouth of the sea monster. Behold the monster! ...</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">... its mouth is [wide] open (?) 1. It is not in my power (to stop) this ship indeed ...</seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl">... (if you have accumulated) merits, ask for forgiveness! R(eady?) ...</seg></seg></choice><choice corresp="#b4"><seg><bibl><title corresp="ref:carling2000"/><citedRange>203</citedRange></bibl></seg><seg><seg type="prim_transl">... in the mouth of death ...</seg></seg></choice><choice corresp="#b5"><seg><seg type="prim_transl">... the Buddha-god of gods in the world ...</seg></seg></choice><choice corresp="#b6"><seg><seg type="prim_transl">... Where the Jambudvīpa [is], there he went, (having made the) añjali [gesture] ...</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="parallels">Mahāvastu, vol. I, 245, transl. 200-201</note><note type="philcomment">This text is a version of the story about the sea monster Timitimiṅgila and the 500 merchants; for the name cf. <bibl><title corresp="ref:edgerton1953"/><citedRange>253a</citedRange></bibl>.</note><note type="remarks">The left part of a leaf including the whole string hole covering lines 3 and 4. The leaf number 20 is also written inside the string hole by another hand. Note that very often in this manuscripts a number written inside the verso-side string hole deviates from the leaf number on the margin.</note><note corresp="#a5" type="philcomment"><hi>ywatsī</hi> has been corrected from <hi>ywitsī</hi>.</note><note corresp="#a5ff" type="philcomment">We probably can identify the tune <hi>devadatte</hi>*, which has 20|22|10|15 (a: 5/5/5/5, b: 8/7/7, c: 5/5, d: 8/7).</note><note corresp="#a6" type="philcomment">There are 23 syllables lost in the lacuna, since every line should have ca. 32 akṣaras.</note><note corresp="#b1" type="philcomment">Line b1 begins with the 11th syllable of pāda 1b.</note><note corresp="#b1" type="philcomment">At the end one may read <hi>tāk</hi> 'it was' if one admits that here the normal sign ‹ka› is used and not the usual fremdzeichen ‹<hi rend="underline">ka</hi>› in virama position.</note><note corresp="#b3" type="philcomment">The line begins with the 7th syllable of pāda 2b.</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Edition</label><bibl><title corresp="ref:siegandsiegling1921"/><citedRange>21</citedRange></bibl>. <bibl>Siegling's personal copy of <title corresp="ref:siegandsiegling1921"/><ref target="./images/TS_Siegling/TS_Siegling_Page_021.png" type="external">p. 21</ref></bibl>. </p>
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT%20662" type="external">THT 662</ref></bibl><bibl><title corresp="ref:tht0000">TITUS</title><ref target="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/06/0662.htm" type="external">THT 662</ref></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_tune_old">devadattenaṃ</item>
+               <item n="m_metric_form_old">Both</item>
+               <item n="file_savedate_old">2018-08-08, 09:49:06 (CEST)</item>
+               <item n="file_name_old">pages/manuscript/A/a29.txt</item>
+               <item n="m_translation_old">a1 ... comparable to the doing of this lie ...
+a2 ... in the (oce)an with a body [of] 700 miles [in length] (a monster was living) ...
+a3 ... 500 merchants of the Jambudvīpa ...
+a4 ... with ... (pl.) the king ... [the sea monster] Timitimiṅgila ...
+a5 ... (the vessels?) began to incline towards its [gaping] mouth. ...
+a6 ... In [the tune] (Devada)tta: Look, look, o good ones! Blue ...
+b1 ... (this ship?) is ready to go into the [gaping] mouth of the sea monster. Behold the monster! ...
+b2 ... its mouth is [wide] open (?) 1. It is not in my power (to stop) this ship indeed ...
+b3 ... (if you have accumulated) merits, ask for forgiveness! R(eady?) ...
+b4 ... in the mouth of death ...
+b5 ... the Buddha-god of gods in the world ...
+b6 ... Where the Jambudvīpa [is], there he went, (having made the) añjali [gesture] ...</item>
+               <item n="m_subgenre_old">Jātaka/Avadāna</item>
+               <item n="category_old">manuscript</item>
+               <item n="user_created_old">automatic</item>
+               <item n="user_modified_old">bernhard</item>
+               <item n="m_meter_old">4-4/4-3/4-3+5/5+5/5/5/5+4-4/4-3</item>
+               <item n="m_transcription_old"> smale|(sma)|le
+a1 cam yāmluneyaśäl tās(km)āṃ /// sāmudraṃ|(sāmu)|draṃ
+a2 ṣpät känt kursärwā kapśiṃño /// jambudvipṣiñi|(ja)|mbudvipṣiñi
+a3 päñ-känt (k)u(ryartāñ) ///
+a4 ṣopärtāsā wäl timiti(miṅgil) ///
+a5 ntu cami ṣuṅkac yulā ywatsī o(sānt) /// devadattenaṃ|(devada)|ttenaṃ
+a6 || # pälkāc pälkāc kraṃś ; tseṃ e /// %13 #1a %8 ; (–) ārwar|(ā)|rwar
+b1 yäṣ , mātāreṃ ; {ṣ}uṅkaṃ pälkāc , mātār tā – %0 #1b /// %10 #1c %12 , ṣuṅk|(ṣu)|ṅk
+b2 pnäṣṣ-äṃ : 1 #1d mā_(TA)|mā ñi cämplune , olyik /// %3 ; %10 #2a %6
+b3 pñintu ; k_uṣānti pyāmtsāc , ā(rwar –) ; /// %7 #2b %9
+b4 ṣträ : #2c wlaluneṣiṃ , ṣuṅkaṃ (– –) ; /// %7 #2d
+b5 ñäktaśśi ptāñkät ārkiśoṣyaṃ k·· /// äntane-ne|(ä)|ntane-ne
+b6 jambudvip_(TA)|jambudvip tämne yā āñcā(li) ///</item>
+               <item n="m_leaf_old">20; 20 (string hole)</item>
+               <item n="m_title_old">The sea monster Timitimiṅgila and the 500 merchants</item>
+               <item n="group_old">Public</item>
+               <item n="m_genre_old">Literary</item>
+               <item n="editgroup_old">Editor</item>
+               <item n="m_parallels_old">Mahāvastu, vol. I, 245, transl. 200-201</item>
+               <item n="edited_date_old">2018-08-08, 09:49:06 (CEST)</item>
+               <item n="m_script_old">Classical</item>
+               <item n="ms_old">A 29</item>
+               <item n="project_comment_old">&lt;p&gt;Done November 1 and 2, 2012.&lt;/p&gt;</item>
+               <item n="m_remarks_old">&lt;p&gt;The left part of a leaf including the whole string hole covering lines 3 and 4. The leaf number 20 is also written inside the string hole by another hand. Note that very often in this manuscripts a number written inside the verso-side string hole deviates from the leaf number on the margin.&lt;/p&gt;</item>
+               <item n="m_language_old">TA</item>
+               <item n="m_other_sigla_old">THT 662</item>
+               <item n="m_expedition_old">T III Š 68.02</item>
+               <item n="page_name_old">A 29</item>
+               <item n="m_philcomment_old">&lt;p&gt;This text is a version of the story about the sea monster Timitimiṅgila and the 500 merchants; for the name cf. [[Edgerton BHSD]]: 253a.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a5.&lt;/b&gt; &lt;i&gt;ywatsī&lt;/i&gt; has been corrected from &lt;i&gt;ywitsī&lt;/i&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a5ff.&lt;/b&gt;We probably can identify the tune &lt;i&gt;devadatte&lt;/i&gt;*, which has 20|22|10|15 (a: 5/5/5/5, b: 8/7/7, c: 5/5, d: 8/7).&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a6.&lt;/b&gt; There are 23 syllables lost in the lacuna, since every line should have ca. 32 akṣaras.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b1.&lt;/b&gt; Line b1 begins with the 11th syllable of pāda 1b.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b1.&lt;/b&gt; At the end one may read &lt;i&gt;tāk&lt;/i&gt; 'it was' if one admits that here the normal sign ‹ka› is used and not the usual fremdzeichen ‹&lt;u&gt;ka&lt;/u&gt;› in virama position.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b3.&lt;/b&gt; The line begins with the 7th syllable of pāda 2b.&lt;/p&gt;</item>
+               <item n="m_editor_old">Gerd Carling, Georges-Jean Pinault, Melanie Malzahn, Michaël Peyrot</item>
+               <item n="version_old">37</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="file_created_old">1328802217</item>
+               <item n="file_modified_old">1580030127</item>
+               <item n="file_size_old">5 KB</item>
+               <item n="m_manuscript_old">A 1-54</item>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT%20662"&gt;THT 662&lt;/a&gt;,
+[[THT|TITUS]]: &lt;a href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/06/0662.htm"&gt;THT 662&lt;/a&gt;.&lt;br&gt;
+Transcription and references have been transferred from the "Text and Reference Database of the Tocharian A Language" (Gerd Carling, Lund University) (funded by the Bank of Sweden Tercentenary Foundation and SCAS).
+Transcription and translation are based on [[Carling, DThTA]].&lt;br&gt;
+Edition: [[TochSprR(A)]]: 21.&lt;br&gt;
+Siegling's personal copy of [[TochSprR(A)]]: &lt;a href="./images/TS_Siegling/TS_Siegling_Page_021.png"&gt;p. 21&lt;/a&gt;.&lt;br&gt;
+Translation:
+&lt;b&gt;b4&lt;/b&gt; [[Carling 2000]]: 203.</item>
+               <item n="m_image_old">http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/06/0662ra.jpg|||$page; (THT 662) recto
+http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/06/0662va.jpg|||$page; (THT 662) verso</item>
+               <item n="date_publication_old">02.11.2012</item>
+               <item n="m_transliteration_old">a1 le ca_m\ yāmluneyaśäl tās·āṃ ///
+a2 draṃ _ṣ_p_a_t _k_an_t\ kur_s_arwā kapśiṃño ///
+a3 mbudvipṣiñi _p_añ-_k_an_t\ ○ (·)[u] ///
+a4 ṣo_p_artāsā wä_l\ timi○ti ///
+a5 ntu cami ṣuṅkacä\ yulā yw«†i»«a»tsī o ///
+a6 [tt]enaṃ || _p_alkācä\ _p_alkāc kraṃśä\ tseṃ e – ///
+b1 rwar yäṣ mātāreṃ puṅkaṃ _p_alkāc mātār tā –\ ///
+b2 ṅ_k\ _p_n_a_ṣ_ṣ-_aṃ : 1 mā ñi cämplune olyi[_k\] ///
+b3 pñintu k_uṣānti pyāmtsācä\ ○ ā ///
+b4 ṣt_r_a : wlaluneṣiṃ ṣuṅk○aṃ – ///
+b5 ñäktaśśi ptāñ_k_a_t\ ārkiśoṣyaṃ k·· ///
+b6 ntane-ne jambudvi_p\ _t_amne yā āñcā ///</item>
+               <item n="m_findspot_specific_old">Stadthöhle</item>
+               <item n="m_findspot_old">Šorčuq</item>
+               <item n="created_date_old">2012-02-09, 16:43:37 (CET)</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_collection_old">Berlin Turfan Collection (BBAW)</item>
+               <item n="m_lines_old">6</item>
+               <item n="access_old">public</item>
+               <item n="file_location_old">pages/manuscript/A/a29.txt</item>
+            </list>
+         </div>
+         <div type="project_comment">
+            <p>&lt;project_comment&gt;&lt;p&gt;Done November 1 and 2, 2012.&lt;/p&gt;&lt;/project_comment&gt;</p>
+         </div>
+      </body>
+   </text>
+</TEI>

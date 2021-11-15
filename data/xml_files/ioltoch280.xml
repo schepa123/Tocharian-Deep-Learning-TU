@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<?xml-model href="../schemas/fragments/fragments_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="m-ioltoch280">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>IOL Toch 280</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name>Michaël Peyrot</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+            <availability>
+               <p>restricted</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library (London)</repository>
+                  <idno>IOL Toch 280</idno>
+                  <altIdentifier>
+                     <idno>H 150.124</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>D.124</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>paper</material>
+                           <objectType>Poṭhī</objectType>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="ink"/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>classical</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <provenance>found in <region>Unknown</region></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="txt" matchPattern="(.+)" replacementPattern="$1.xml"/>
+            <prefixDef ident="frg"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/fragment_features.xml#$1"/>
+            <prefixDef ident="lex"
+                       matchPattern="(.+)"
+                       replacementPattern="../features/dictionary_features.xml#$1"/>
+            <prefixDef ident="ref"
+                       matchPattern="(.+)"
+                       replacementPattern="../bibliography/#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="txb" ana="frg:ls-cetom-classical"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="genre">Literary</term>
+               <term type="subgenre">Jātaka/Avadāna</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp>
+         <surface type="recto">
+            <graphic n="1"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=13122;rotate=0;imageType=_L"/>
+            <graphic n="1"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=13122;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL280a.jpg" height="776px" width="768px"/>
+            <line xml:id="lf"><zone>–</zone></line>
+            <line n="1" xml:id="a1"><zone>pe</zone><zone>ṅke</zone><zone><unclear>m</unclear>pa</zone><zone>ta</zone><zone>se</zone><zone>ma</zone><zone>ne</zone><zone>LA</zone><zone>kle</zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="2" xml:id="a2"><zone>ko</zone><zone>rma</zone><zone><unclear>m</unclear>ñe</zone><zone>•</zone><zone>tu</zone><zone>meṃ</zone><zone>no</zone><zone>cai</zone><zone>ka</zone><zone>rū</zone><gap reason="lost"/></line>
+            <line n="3" xml:id="a3"><zone>k<gap reason="plain" unit="part"/></zone><zone>re</zone><zone>a</zone><zone>ñmā</zone><zone>la</zone><zone>ṣlñe</zone><zone>•</zone><zone>a</zone><zone>te</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="a4"><gap reason="plain" quantity="1"/><zone>na</zone><zone>ya</zone><zone>ma</zone><zone>lñe</zone><zone>nta</zone><zone>m<unclear>eṃ</unclear></zone><zone>sā</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="a5"><zone><unclear>w</unclear>n<gap reason="plain" unit="part"/></zone><zone>lmeṃ</zone><zone><gap reason="plain" unit="part"/>sṣa<gap reason="plain" unit="part"/></zone><zone><unclear>m</unclear>ts<gap reason="plain" unit="part"/></zone><zone>cme</zone><zone>la</zone><zone>ne</zone><zone><gap reason="plain" unit="part"/><unclear>e</unclear></zone><gap reason="lost"/></line>
+            <line n="6" xml:id="a6"><gap reason="lost"/><zone><gap reason="plain" unit="part"/><unclear>u</unclear></zone><zone>ce</zone><zone>wä</zone><zone>ntre</zone><zone>ne</zone><zone>॥</zone><zone>gu</zone><gap reason="lost"/></line>
+         </surface>
+         <surface type="verso">
+            <graphic n="2"
+                     rend="large"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=5882;rotate=0;imageType=_L"/>
+            <graphic n="2"
+                     rend="medium"
+                     url="http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=5882;rotate=0;imageType=_M"/>
+            <graphic url="IOL/IOL280b.jpg" height="768px" width="769px"/>
+            <line n="1" xml:id="b1"><zone>ā</zone><zone>kte</zone><zone>ke</zone><zone>MA</zone><zone>ske</zone><zone>lo</zone><gap reason="lost"/></line>
+            <line n="2" xml:id="b2"><zone>lo</zone><zone>a</zone><zone>ñma</zone><zone>ce</zone><zone>saṃ</zone><zone>s<unclear>ā</unclear><gap reason="plain" unit="part"/></zone><zone>m<gap reason="plain" unit="part"/></zone><gap reason="plain" quantity="1"/><gap reason="lost"/></line>
+            <line n="3" xml:id="b3"><zone>re</zone><zone>pa</zone><zone>te</zone><zone>pu</zone><zone>wa</zone><zone>rne</zone><zone>yo</zone><zone>PAṃ</zone><zone>tai</zone><gap reason="lost"/></line>
+            <line n="4" xml:id="b4"><zone>ñ<gap reason="plain" unit="part"/></zone><zone>pe</zone><zone>rne</zone><zone>o</zone><zone>ko</zone><zone>ste</zone><zone>•</zone><zone>॥</zone><zone>ā</zone><gap reason="lost"/></line>
+            <line n="5" xml:id="b5"><zone>tu</zone><zone>ca<gap reason="plain" unit="part"/></zone><zone><unclear>PA</unclear>ṃ</zone><zone>sti</zone><zone>nā</zone><zone>stsi</zone><zone>•</zone><zone>cwī</zone><zone>tu</zone><gap reason="lost"/></line>
+            <line n="6" xml:id="b6"><zone>lo</zone><zone>yā</zone><zone>mu</zone><zone>ste</zone><zone><unclear>•</unclear></zone><zone>k<gap reason="plain" unit="part"/></zone><zone>to</zone><zone>tri</zone><zone>nta</zone><zone>r<gap reason="plain" unit="part"/>e</zone><gap reason="lost"/></line>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+   <text>
+      <body>
+         <div type="transcription">
+            <fw type="leafNum" corresp="#lf">–</fw>
+            <p>
+<lb corresp="#a1"/><w>peṅkempa</w><w>tasemane</w><w>läkle</w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<lb corresp="#a2"/><w>-ko</w><w>rmamñe</w><pc>•</pc><w>tumeṃ</w><w>no</w><w>cai</w><w>karū<milestone unit="w" type="break"/></w><gap reason="lost"/>
+<lb corresp="#a3"/><w>k<gap reason="plain" unit="part"/></w><w>re</w><w>añmālaṣlñe</w><pc>•</pc><w>ate</w><gap reason="lost"/>
+<lb corresp="#a4"/><gap reason="plain" quantity="1"/><w>na</w><w>yamalñentameṃ</w><w>sā</w><gap reason="lost"/>
+<lb corresp="#a5"/><w>wn<supplied>o</supplied>lmeṃ<supplied>t</supplied>s</w><w>ṣa<supplied>r</supplied>mts<supplied>a</supplied></w><w>cmelane</w><w><gap reason="plain" unit="part"/>e</w><gap reason="lost"/>
+<lb corresp="#a6"/><gap reason="lost"/><w><gap reason="plain" unit="part"/>u</w><w>ce</w><w>wäntrene</w><pc>॥</pc><w>gu<milestone unit="w" type="break"/></w><gap reason="lost"/>
+<lb corresp="#b1"/><w>ākteke</w><w>mäskelo<supplied>na</supplied></w><gap reason="lost"/>
+<lb corresp="#b2"/><w>-lo</w><w>añmace</w><w>saṃsā<supplied>r</supplied>m<supplied>eṃ</supplied></w><gap reason="plain" quantity="1"/><gap reason="lost"/>
+<w><supplied>e</supplied><lb corresp="#b3"/>repate</w><w>puwarne</w><w>yopäṃ</w><w>tai</w><gap reason="lost"/>
+<lb corresp="#b4"/><w>-ñ<gap reason="plain" unit="part"/></w><w>perne</w><w>oko</w><w>ste</w><pc>•</pc><pc>॥</pc><w>ā<milestone unit="w" type="break"/></w><gap reason="lost"/>
+<lb corresp="#b5"/><w>tu</w><w>ca<supplied>m</supplied>päṃ</w><w>stināstsi</w><pc>•</pc><w>cwī</w><w>tu</w><gap reason="lost"/>
+<lb corresp="#b6"/><w>-lo</w><w>yāmu</w><w>ste</w><pc>•</pc><w>k<supplied>e</supplied>t</w><w>ot</w><w>rintar<supplied>-n</supplied>e</w><gap reason="lost"/></p>
+         </div>
+         <div type="translation">
+            <p><choice corresp="#a1"><seg><seg type="prim_transl">... comparable to bits ... sorrow ...</seg></seg></choice><choice corresp="#a2"><seg><seg type="prim_transl">... inclination. Thereupon they compassionately (?) ...</seg></seg></choice><choice corresp="#a3"><seg><seg type="prim_transl">... pity. Away ...</seg></seg></choice><choice corresp="#a4"><seg><seg type="prim_transl">... from the deeds ...</seg></seg></choice><choice corresp="#a5"><seg><seg type="prim_transl">... in the births by cause of the beings ...</seg></seg></choice><choice corresp="#a6"><seg><seg type="prim_transl">... in this matter. || ...</seg></seg></choice><choice corresp="#b1"><seg><seg type="prim_transl">... to become amazed ...</seg></seg></choice><choice corresp="#b2"><seg><seg type="prim_transl">... from the <hi>saṃsāra</hi> of the self ...</seg></seg></choice><choice corresp="#b3"><seg><seg type="prim_transl">... if he goes into the fire (with his ...?) form, so ...</seg></seg></choice><choice corresp="#b4"><seg><seg type="prim_transl">... worth is the fruit. || ...</seg></seg></choice><choice corresp="#b5"><seg><seg type="prim_transl">... that he can make silent. His ...</seg></seg></choice><choice corresp="#b6"><seg><bibl><title corresp="ref:thomas1957"/><citedRange>287</citedRange></bibl></seg><seg><seg type="prim_transl">... (the king?) has done. To whom you leave him then ...</seg></seg></choice></p>
+         </div>
+         <div type="comments">
+            <p><note type="remarks">According to <bibl><title corresp="ref:broomhead1962"/><citedRange>271</citedRange></bibl> "[w]ritten in medium ductus, and slightly abraded both sides, it is the left edge of a six line manuscript".</note></p>
+         </div>
+         <div type="bibliography">
+            <p><label>Online access</label><bibl><title corresp="ref:idp0000"/><ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 280" type="external">IOL Toch 280</ref></bibl>. </p>
+            <p><label>Edition</label><bibl><title corresp="ref:peyrot2007"/><citedRange>№280</citedRange></bibl><bibl><title corresp="ref:broomhead1962"/><citedRange>271-272</citedRange></bibl>. </p>
+         </div>
+         <div type="CEToM_copy">
+            <list>
+               <item n="m_genre_old">Literary</item>
+               <item n="m_transcription_old">a1 peṅkeṃmpa|peṅkempa tasemane läkle – ///
+a2 -ko rmamñe • tumeṃ no cai karū- ///
+a3 k· re añmālaṣlñe • ate ///
+a4 – na yamalñentameṃ sā ///
+a5 onolmeṃts|wn(o)lmeṃ(t)s ṣa(r)mts(a) cmelane ·e ///
+a6 /// ·u ce wäntarene|wäntrene || gu- ///
+b1 ākteke mäskelo(na) ///
+b2 -lo añmace saṃsā(r)m(eṃ) – /// erepate|(e)|repate
+b3 pwarne|puwarne yopäṃ tai ///
+b4 -ñ· perne oko ste • || ā- ///
+b5 tu ca(m)päṃ stināstsi • cwi|cwī tu ///
+b6 -lo yāmu ste • k(e)t ot rintar(-n)e ///</item>
+               <item n="m_leaf_old">–</item>
+               <item n="m_title_old"/>
+               <item n="m_meter_old">7/6</item>
+               <item n="m_parallelcomment_old"/>
+               <item n="m_accessibility_old"/>
+               <item n="project_comment_old"/>
+               <item n="ms_old">IOL Toch 280</item>
+               <item n="m_script_old">Classical</item>
+               <item n="m_parallels_old"/>
+               <item n="m_expedition_old"/>
+               <item n="m_size_w_old"/>
+               <item n="m_other_sigla_old">H 150.124; D.124</item>
+               <item n="m_language_old">TB</item>
+               <item n="m_remarks_old">&lt;p&gt;According to [[Broomhead I]]: 271 "[w]ritten in medium ductus, and slightly abraded both sides, it is the left edge of a six line manuscript".&lt;/p&gt;</item>
+               <item n="project_check_old"/>
+               <item n="m_metric_form_old"/>
+               <item n="m_tune_old"/>
+               <item n="m_subgenre_old">Jātaka/Avadāna</item>
+               <item n="m_translation_old">a1 ... comparable to bits ... sorrow ...
+a2 ... inclination. Thereupon they compassionately (?) ...
+a3 ... pity. Away ...
+a4 ... from the deeds ...
+a5 ... in the births by cause of the beings ...
+a6 ... in this matter. || ...
+b1 ... to become amazed ...
+b2 ... from the &lt;i&gt;saṃsāra&lt;/i&gt; of the self ...
+b3 ... if he goes into the fire (with his ...?) form, so ...
+b4 ... worth is the fruit. || ...
+b5 ... that he can make silent. His ...
+b6 ... (the king?) has done. To whom you leave him then ...</item>
+               <item n="m_language_add_old"/>
+               <item n="m_completeness_current_old"/>
+               <item n="category_old">manuscript</item>
+               <item n="m_prev_old"/>
+               <item n="user_modified_old">martin</item>
+               <item n="user_created_old">automatic</item>
+               <item n="m_form_old">Poṭhī</item>
+               <item n="m_findspot_specific_old"/>
+               <item n="m_findspot_old">Unknown</item>
+               <item n="m_linedistance_old"/>
+               <item n="m_completeness_old"/>
+               <item n="access_old">restricted</item>
+               <item n="m_collection_old">British Library (London)</item>
+               <item n="m_lines_old">6</item>
+               <item n="file_location_old">pages/manuscript/IOL_Toch/ioltoch280.txt</item>
+               <item n="m_material_old">Ink on paper</item>
+               <item n="m_editor_old">Michaël Peyrot</item>
+               <item n="m_philcomment_old"/>
+               <item n="m_passage_old"/>
+               <item n="file_modified_old">1562808550</item>
+               <item n="file_created_old">1322765175</item>
+               <item n="m_next_old"/>
+               <item n="m_size_h_old"/>
+               <item n="m_bib_old">[[IDP]]: &lt;a href="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Toch 280"&gt;IOL Toch 280&lt;/a&gt;.&lt;br&gt;
+Edition: [[Peyrot 2007]]: №280, [[Broomhead I]]: 271-272.&lt;br&gt;
+Translation:
+&lt;b&gt;b6&lt;/b&gt; [[Thomas 1957]]: 287.</item>
+               <item n="m_lingcomment_old"/>
+               <item n="m_manuscript_old"/>
+               <item n="m_language_stage_old">Classical</item>
+               <item n="m_transliteration_old">a1 peṅke[m]pa tasemane _l_akle – ///
+a2 -ko rma[m]ñe • tumeṃ no cai karū- ///
+a3 k· re añmālaṣlñe • ate ///
+a4 – na yamalñentam[eṃ] sā ///
+a5 [w]n·lmeṃ·s ṣa[·m]ts· cmelane ·[e] ///
+a6 /// ·[u] ce wäntrene || gu- ///
+b1 ākteke _m_askelo- ///
+b2 -lo añmace saṃs[ā]·m· – ///
+b3 -repate puwarne yo_p_aṃ tai ///
+b4 -ñ· perne oko ste • || ā- ///
+b5 tu ca·[_p_a]ṃ stināstsi • cwī tu ///
+b6 -lo yāmu ste [•] k·t ot rintar ·e ///</item>
+               <item n="date_publication_old"/>
+               <item n="m_image_old">http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=13122;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=13122;rotate=0;imageType=_M||IOL Toch 280 recto
+http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=5882;rotate=0;imageType=_L|http://idp.bl.uk/image_IDP.a4d?type=loadRotatedMainImage;recnum=5882;rotate=0;imageType=_M||IOL Toch 280 verso</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>
